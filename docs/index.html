@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radar de editais para startups</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0b6e8a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Radar">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f1f5f7;--card:#fff;--ink:#14232b;--mute:#5b6b74;--line:#d5dee3;--acc:#0b6e8a;--acc-t:#e1f1f6;--warn:#b45309;--warn-t:#fdf0dc;--bad:#a12b2b;--bad-t:#f9e3e3;--ok:#1d7a4d;--off:#8a979e;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a20;--card:#17262e;--ink:#e6eef2;--mute:#9fb0b9;--line:#2a3d47;--acc:#5cc0dd;--acc-t:#153847;--warn:#f0b35a;--warn-t:#3a2c14;--bad:#ef8d8d;--bad-t:#3c1e1e;--ok:#63c790;--off:#6f8089}}
+:root[data-theme="dark"]{--bg:#0f1a20;--card:#17262e;--ink:#e6eef2;--mute:#9fb0b9;--line:#2a3d47;--acc:#5cc0dd;--acc-t:#153847;--warn:#f0b35a;--warn-t:#3a2c14;--bad:#ef8d8d;--bad-t:#3c1e1e;--ok:#63c790;--off:#6f8089}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45}
+main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:clamp(1.7rem,6vw,2.4rem);font-weight:800;letter-spacing:-.02em;margin:8px 0 4px;line-height:1.1}
+.sub{color:var(--mute);margin:0 0 18px;max-width:52ch}
+.demo{background:var(--warn-t);color:var(--warn);border-radius:8px;padding:8px 12px;font-size:.85rem;margin-bottom:16px}
+.tools{display:grid;gap:8px;grid-template-columns:1fr 1fr;margin-bottom:8px}
+.tools input,.tools select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-width:0;width:100%}
+.tools input{grid-column:1/-1}
+.tools :focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.meta{display:flex;justify-content:space-between;color:var(--mute);font-size:.85rem;margin:14px 2px 10px}
+.list{display:grid;gap:10px}
+.item{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--acc);border-radius:10px;padding:14px}
+.item.urg{border-left-color:var(--warn)}.item.enc{border-left-color:var(--off);opacity:.75}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.item h2{font-size:1.05rem;font-weight:600;margin:0 0 2px;line-height:1.25}
+.org{color:var(--mute);font-size:.85rem}
+.days{text-align:right;flex:none}
+.days b{display:block;font-size:1.6rem;font-weight:800;line-height:1;color:var(--acc)}
+.urg .days b{color:var(--warn)}.enc .days b{color:var(--off);font-size:1rem}
+.days span{font-size:.75rem;color:var(--mute)}
+.desc{margin:10px 0;font-size:.92rem}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.tag{background:var(--acc-t);color:var(--acc);border-radius:99px;padding:2px 10px;font-size:.78rem}
+.tag.new{background:var(--warn-t);color:var(--warn)}.tag.ret{background:var(--bad-t);color:var(--bad)}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:.88rem}
+.val{font-weight:600}
+button{font:inherit;font-size:.85rem;background:none;color:var(--acc);border:1px solid var(--acc);border-radius:8px;padding:6px 12px;cursor:pointer}
+button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
+.empty{text-align:center;color:var(--mute);padding:32px 12px;background:var(--card);border:1px dashed var(--line);border-radius:10px}
+@media (min-width:600px){.tools{grid-template-columns:2fr 1fr 1fr 1fr}.tools input{grid-column:auto}}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.real{background:var(--acc-t);color:var(--acc);border-radius:8px;padding:8px 12px;font-size:.85rem;margin-bottom:12px}
+.acts{display:flex;gap:8px;align-items:center}
+.lnk{font-size:.85rem;color:var(--acc);border:1px solid var(--line);border-radius:8px;padding:6px 12px;text-decoration:none}
+.lnk:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Radar de editais para startups</h1>
+  <p class="sub">Fomento, subvenção, incubação e aceleração num só lugar, com prazo à vista.</p>
+  <div id="src" class="demo"></div>
+  <div class="bar"><button id="imp" type="button">Importar editais.json</button><button id="rst" type="button" hidden>Voltar aos exemplos</button><input id="file" type="file" accept=".json,application/json" hidden></div>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Buscar por tema, órgão ou palavra-chave" aria-label="Buscar editais">
+    <select id="tipo" aria-label="Tipo"><option value="">Todos os tipos</option></select>
+    <select id="est" aria-label="Estágio"><option value="">Todos os estágios</option></select>
+    <select id="ord" aria-label="Ordenar"><option value="prazo">Prazo mais próximo</option><option value="valor">Maior valor</option></select>
+  </div>
+  <div class="meta"><span id="cnt"></span><span></span></div>
+  <div class="list" id="list"></div>
+</main>
+<script>
+var $=function(i){return document.getElementById(i)};
+var D=function(n){var d=new Date();d.setHours(0,0,0,0);d.setDate(d.getDate()+n);return d};
+var DEMO=[
+{t:"Subvenção para deeptech em estágio inicial",o:"Agência Nacional de Inovação (exemplo)",tipo:"Subvenção",est:"Ideação e MVP",v:1500000,d:35,desc:"Recursos não reembolsáveis para desenvolvimento de tecnologia com alto risco técnico.",n:1},
+{t:"Programa de aceleração agritech",o:"Aceleradora Campo Aberto (exemplo)",tipo:"Aceleração",est:"Tração",v:200000,d:9,desc:"Seis meses de mentoria, acesso a pilotos com produtores e investimento inicial."},
+{t:"Chamada de incubação em ambiente universitário",o:"Parque Tecnológico Universitário (exemplo)",tipo:"Incubação",est:"Ideação e MVP",v:0,d:21,desc:"Vagas em incubadora com espaço, mentoria jurídica e acesso a laboratórios."},
+{t:"Crédito com juros reduzidos para inovação",o:"Banco de Fomento Nacional (exemplo)",tipo:"Crédito",est:"Escala",v:5000000,d:60,desc:"Linha de financiamento para empresas com faturamento comprovado e projeto de P&D."},
+{t:"Bolsas de pesquisa para inovação em empresas",o:"Fundação de Amparo Estadual (exemplo)",tipo:"Bolsa",est:"Ideação e MVP",v:180000,d:3,desc:"Bolsas para pesquisadores atuando em startups de base tecnológica.",r:1},
+{t:"Prêmio de startups de impacto social",o:"Instituto de Impacto (exemplo)",tipo:"Prêmio",est:"Tração",v:100000,d:-6,desc:"Premiação em dinheiro e visibilidade para negócios com impacto social mensurável."}
+];
+var E=[],saved={};
+try{saved=JSON.parse(localStorage.getItem("radar-seguidos")||"{}")}catch(e){}
+function persist(){try{localStorage.setItem("radar-seguidos",JSON.stringify(saved))}catch(e){}}
+function norm(x){
+  var dt,hoje=new Date();hoje.setHours(0,0,0,0);
+  if(x.prazo&&/^\d{4}-\d{2}-\d{2}$/.test(x.prazo)){var p=x.prazo.split("-");dt=new Date(+p[0],+p[1]-1,+p[2])}else{dt=D(+x.d||0)}
+  return {t:x.t||"Sem título",o:x.o||"",tipo:x.tipo||"Outro",est:x.est||"Qualquer",v:+x.v||0,desc:x.desc||"",link:x.link||"",n:x.n,r:x.r,rev:x.revisar,dt:dt,d:Math.round((dt-hoje)/864e5)}
+}
+function fill(id,k){
+  var s=$(id),old=s.value;s.length=1;
+  E.map(function(e){return e[k]}).filter(function(v,i,a){return a.indexOf(v)===i}).sort().forEach(function(v){s.add(new Option(v,v))});
+  s.value=old;if(s.value!==old)s.value="";
+}
+function brl(v){return v?"R$ "+v.toLocaleString("pt-BR"):"Sem aporte financeiro"}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function setData(list,label,isDemo){
+  E=list.map(norm);fill("tipo","tipo");fill("est","est");
+  $("src").className=isDemo?"demo":"real";$("src").textContent=label;$("rst").hidden=isDemo;render();
+}
+function render(){
+  var q=$("q").value.toLowerCase(),tp=$("tipo").value,es=$("est").value,od=$("ord").value;
+  var L=E.filter(function(e){return (!tp||e.tipo===tp)&&(!es||e.est===es)&&(!q||(e.t+e.o+e.desc+e.tipo).toLowerCase().indexOf(q)>-1)});
+  L.sort(function(a,b){
+    if((a.d<0)!==(b.d<0))return a.d<0?1:-1;
+    return od==="valor"?b.v-a.v:a.d-b.d
+  });
+  $("cnt").textContent=L.length+(L.length===1?" edital":" editais");
+  if(!L.length){$("list").innerHTML='<div class="empty">Nenhum edital com esses filtros. Limpe a busca ou escolha outro tipo.</div>';return}
+  $("list").innerHTML=L.map(function(e){
+    var enc=e.d<0,urg=!enc&&e.d<=10,i=E.indexOf(e),k=e.t+"|"+e.o;
+    var tags='<span class="tag">'+esc(e.tipo)+'</span><span class="tag">'+esc(e.est)+'</span>'+(e.n?'<span class="tag new">Novo</span>':'')+(e.r?'<span class="tag ret">Prazo prorrogado</span>':'')+(e.rev?'<span class="tag ret">Conferir prazo no edital</span>':'');
+    var dias=enc?'<b>Encerrado</b><span>'+e.dt.toLocaleDateString("pt-BR")+'</span>':'<b>'+e.d+'</b><span>'+(e.d===1?'dia restante':'dias restantes')+'</span>';
+    var lnk=/^https?:\/\//.test(e.link)?'<a class="lnk" href="'+esc(e.link)+'" target="_blank" rel="noopener noreferrer">Ver edital</a>':'';
+    return '<article class="item'+(enc?' enc':urg?' urg':'')+'"><div class="top"><div><h2>'+esc(e.t)+'</h2><div class="org">'+esc(e.o)+'</div></div><div class="days">'+dias+'</div></div><p class="desc">'+esc(e.desc)+'</p><div class="tags">'+tags+'</div><div class="foot"><span class="val">'+brl(e.v)+'</span><span class="acts">'+lnk+'<button data-i="'+i+'" aria-pressed="'+(!!saved[k])+'">'+(saved[k]?'Acompanhando':'Acompanhar')+'</button></span></div></article>'
+  }).join("")
+}
+$("list").addEventListener("click",function(ev){
+  var b=ev.target.closest("button");if(!b)return;
+  var e=E[+b.getAttribute("data-i")],k=e.t+"|"+e.o;saved[k]=!saved[k];persist();render()
+});
+["q","tipo","est","ord"].forEach(function(id){$(id).addEventListener("input",render)});
+var MSG_DEMO="Dados fictícios de demonstração. Importe o editais.json gerado pelo script para ver dados reais.";
+$("imp").onclick=function(){$("file").click()};
+$("file").onchange=function(){
+  var f=this.files[0];if(!f)return;var r=new FileReader();
+  r.onload=function(){
+    try{
+      var arr=JSON.parse(r.result);if(!Array.isArray(arr))throw 0;
+      setData(arr,"Dados reais importados de "+f.name+" ("+arr.length+" editais).",false);
+      try{localStorage.setItem("radar-dados",JSON.stringify({nome:f.name,dados:arr}))}catch(e){}
+    }catch(e){$("src").className="demo";$("src").textContent="Arquivo inválido. Use o editais.json gerado por python radar.py export."}
+  };
+  r.readAsText(f);this.value="";
+};
+$("rst").onclick=function(){try{localStorage.removeItem("radar-dados")}catch(e){}setData(DEMO,MSG_DEMO,true)};
+var s0=null;try{s0=JSON.parse(localStorage.getItem("radar-dados")||"null")}catch(e){}
+if(s0&&Array.isArray(s0.dados)&&s0.dados.length){setData(s0.dados,"Dados reais de "+s0.nome+" ("+s0.dados.length+" editais).",false)}else{setData(DEMO,MSG_DEMO,true)}
+try{fetch("editais.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(a){if(Array.isArray(a)&&a.length)setData(a,"Dados reais carregados de editais.json ("+a.length+" editais).",false)}).catch(function(){})}catch(e){}
+if("serviceWorker" in navigator&&location.protocol.indexOf("http")===0){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})}
+</script>
+</body>
+</html>

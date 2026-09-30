@@ -1,0 +1,104 @@
+{
+  "fontes": [],
+  "programas": [
+    {
+      "nome": "Inova Startups",
+      "dominios": [
+        "inovastartups.com.br"
+      ]
+    },
+    {
+      "nome": "Startup Ceará",
+      "dominios": [
+        "sebrae.com.br",
+        "funcap.ce.gov.br"
+      ]
+    },
+    {
+      "nome": "Programa Nascer",
+      "dominios": [
+        "fapesc.sc.gov.br"
+      ]
+    },
+    {
+      "nome": "FINEP",
+      "busca": "Finep chamadas públicas subvenção econômica startups",
+      "dominios": [
+        "finep.gov.br"
+      ]
+    },
+    {
+      "nome": "Programa Centelha",
+      "busca": "Programa Centelha edital estadual",
+      "dominios": [
+        "programacentelha.com.br",
+        "finep.gov.br",
+        "fapesc.sc.gov.br",
+        "faperj.br"
+      ]
+    },
+    {
+      "nome": "Programa Garagem",
+      "dominios": [
+        "garagem.bndes.gov.br",
+        "bndes.gov.br"
+      ]
+    },
+    {
+      "nome": "FIP Conexões Startups (BNDES)",
+      "url": "http://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/chamadas-publicas-para-selecao-de-fundos/fip-conexoes-startups-2026"
+    },
+    {
+      "nome": "Programa Santander USP de Inovação e Empreendedorismo",
+      "busca": "Santander USP Inovação e Empreendedorismo Criação de Startups edital",
+      "dominios": [
+        "usp.br",
+        "santander.com.br",
+        "santanderuniversidades.com.br"
+      ]
+    },
+    {
+      "nome": "Petrobras Conexões para Inovação",
+      "busca": "Petrobras Conexões para Inovação startups edital",
+      "dominios": [
+        "petrobras.com.br"
+      ]
+    },
+    {
+      "nome": "SAA Aquário",
+      "ativo": false,
+      "busca": "SAA Aquário startups programa chamada"
+    }
+  ],
+  "busca_aberta": {
+    "por_execucao": 6,
+    "resultados": 5,
+    "consultas": [
+      "edital startups inscrições abertas {ano}",
+      "chamada pública subvenção econômica inovação startups {ano}",
+      "edital pré-incubação ideias inovadoras {ano}",
+      "chamamento público aceleração de startups {ano}",
+      "edital fomento inovação fundação de amparo à pesquisa startups {ano}",
+      "programa de aceleração startups inscrições abertas {ano}",
+      "edital incubadora vagas startups {ano}",
+      "desafio inovação aberta startups edital {ano}",
+      "edital Sebrae startups inovação {ano}",
+      "edital prêmio startups impacto social {ano}",
+      "edital crédito financiamento inovação startups {ano}",
+      "programa nacional startups edital governo federal {ano}",
+      "edital deeptech agritech healthtech startups {ano}",
+      "edital startups Minas Gerais {ano} inscrições",
+      "edital startups São Paulo {ano} inscrições",
+      "edital startups Rio de Janeiro {ano} inscrições",
+      "edital startups Paraná {ano} inscrições",
+      "edital startups Rio Grande do Sul {ano} inscrições",
+      "edital startups Santa Catarina {ano} inscrições",
+      "edital startups Bahia {ano} inscrições",
+      "edital startups Pernambuco {ano} inscrições",
+      "edital startups Ceará {ano} inscrições",
+      "edital startups Goiás {ano} inscrições",
+      "edital startups Distrito Federal {ano} inscrições",
+      "edital startups Espírito Santo {ano} inscrições"
+    ]
+  }
+}
