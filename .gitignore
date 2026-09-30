@@ -6,3 +6,8 @@ __pycache__/
 .DS_Store
 *.bak
 *.bak2
+docs/*.db
+docs/*.db-*
+docs/editais-anterior.json
+docs/editais-recuperados.json
+docs/index-backup-*.html

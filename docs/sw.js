@@ -1,5 +1,5 @@
 // Service worker: deixa o app abrir offline e mantém os editais atualizados.
-const V = "radar-v1";
+const V = "radar-v2";
 const SHELL = ["./", "index.html", "manifest.json", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {
@@ -36,7 +36,7 @@ self.addEventListener("fetch", (e) => {
       const net = fetch(req)
         .then((r) => { const c = r.clone(); caches.open(V).then((x) => x.put(req, c)); return r; })
         .catch(() => hit);
-      return hit || net;
+      return net.then(function(resposta){return resposta || hit});
     })
   );
 });

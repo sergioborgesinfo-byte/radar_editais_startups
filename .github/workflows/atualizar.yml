@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   atualizar:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     env:
       RADAR_EMAIL: ${{ secrets.RADAR_EMAIL }}

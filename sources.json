@@ -71,8 +71,8 @@
     }
   ],
   "busca_aberta": {
-    "por_execucao": 6,
-    "resultados": 5,
+    "por_execucao": 10,
+    "resultados": 10,
     "consultas": [
       "edital startups inscrições abertas {ano}",
       "chamada pública subvenção econômica inovação startups {ano}",
@@ -99,6 +99,7 @@
       "edital startups Goiás {ano} inscrições",
       "edital startups Distrito Federal {ano} inscrições",
       "edital startups Espírito Santo {ano} inscrições"
-    ]
+    ],
+    "links_por_resultado": 3
   }
 }
