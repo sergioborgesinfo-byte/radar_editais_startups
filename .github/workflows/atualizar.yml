@@ -2,16 +2,23 @@ name: Atualizar editais
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # 09:00 UTC = 06:00 em Brasília
-  workflow_dispatch:       # permite rodar manualmente pelo botão "Run workflow"
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+  push:
+    branches: [codex/automatizar-editais]
+    paths: [radar.py, radar_automacao.py, requirements.txt, testes_automacao.py, '.github/workflows/atualizar.yml']
 
 permissions:
   contents: write
 
+concurrency:
+  group: radar-atualizar-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   atualizar:
-    if: ${{ false }}
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     env:
       RADAR_EMAIL: ${{ secrets.RADAR_EMAIL }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -24,13 +31,32 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -r requirements.txt
-      - run: python radar.py run
-      - run: python radar.py export --saida docs/editais.json
+      - name: Testar validação automática
+        run: python -I -S testes_automacao.py
+      - name: Conferir chaves configuradas
+        run: >-
+          python -I -S -c 'import os; assert os.getenv("TAVILY_API_KEY"), "Configure TAVILY_API_KEY nos secrets"; assert os.getenv("GEMINI_API_KEY") or os.getenv("ANTHROPIC_API_KEY"), "Configure uma chave de IA nos secrets"'
+      - name: Instalar dependências
+        run: python -m pip install --index-url https://pypi.org/simple --only-binary=:all: -r requirements.txt
+      - name: Preparar banco persistente
+        run: |
+          python -I -S - <<'PY'
+          from pathlib import Path
+          import sqlite3
+          destino = Path("data/radar.db")
+          destino.parent.mkdir(parents=True, exist_ok=True)
+          if not destino.exists() and Path("radar.db").exists():
+              with sqlite3.connect("radar.db") as origem, sqlite3.connect(destino) as copia:
+                  origem.backup(copia)
+          PY
+      - name: Coletar, conferir e exportar
+        run: python -u radar.py run
       - name: Salvar alterações
         run: |
-          git config user.name "radar-bot"
-          git config user.email "radar-bot@users.noreply.github.com"
-          git add data docs/editais.json
-          git diff --cached --quiet || git commit -m "Atualiza editais $(date -u +%F)"
-          git push
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
+          git add data/radar.db docs/editais.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualiza editais verificados $(date -u +%F)"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
