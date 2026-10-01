@@ -238,7 +238,14 @@
       "site:programas.sebraestartups.com.br/in/ \"inscrições\" {ano}",
       "site:programas.sebraestartups.com.br/in/ \"manifestação de interesse\" {ano}",
       "site:programas.sebraestartups.com.br/in/ \"missão\" {ano}",
-      "site:programas.sebraestartups.com.br/in/ \"rodada\" {ano}"
+      "site:programas.sebraestartups.com.br/in/ \"rodada\" {ano}",
+      "site:startupbrasil.org.br startups programas chamadas oportunidades",
+      "site:startupbrasil.org.br aceleradoras edital",
+      "site:startups.com.br startups inscrições programa aceleração",
+      "site:startups.com.br startups desafio seleção missão oportunidades",
+      "site:linkedin.com/posts startups chamada programa aceleração Brasil",
+      "site:linkedin.com/posts startups missão feira manifestação interesse Brasil",
+      "site:linkedin.com/pulse startups incubação seleção programa Brasil"
     ],
     "urls": [
       {
@@ -250,6 +257,16 @@
         "url": "https://programas.sebraestartups.com.br/index/programas",
         "titulo": "Catálogo de programas Sebrae Startups",
         "resumo": "Catálogo para localizar páginas individuais /in/; não é uma oportunidade individual."
+      },
+      {
+        "url": "https://www.startupbrasil.org.br/",
+        "titulo": "Startup Brasil — fonte de descoberta",
+        "resumo": "Portal indicado; acesso direto retornou 403. Buscar páginas públicas indexadas."
+      },
+      {
+        "url": "https://startups.com.br/",
+        "titulo": "Startups.com.br — notícias como pistas de oportunidades",
+        "resumo": "Portal de notícias; localizar chamadas concretas, sem considerar toda notícia uma oportunidade."
       }
     ]
   }
