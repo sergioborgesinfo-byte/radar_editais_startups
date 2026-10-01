@@ -20,7 +20,7 @@ jobs:
   confirmar:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 25
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.GEMINI }}
     steps:
@@ -35,8 +35,20 @@ jobs:
       - name: Instalar leitor de páginas e PDFs
         run: >-
           python -m pip install --index-url https://pypi.org/simple --only-binary=:all: -r requirements.txt
+      - name: Reutilizar páginas lidas
+        uses: actions/cache/restore@v4
+        with:
+          path: .radar-cache
+          key: radar-leitura-${{ github.run_id }}
+          restore-keys: radar-leitura-
       - name: Confirmar 60 candidatos sem avaliar vigência
         run: python -u confirmar_oportunidades.py
+      - name: Preservar páginas mesmo com falha da IA
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .radar-cache
+          key: radar-leitura-${{ github.run_id }}
       - name: Guardar relatório
         if: always()
         uses: actions/upload-artifact@v4
@@ -47,11 +59,15 @@ jobs:
             data/oportunidades-conteudo.md
           if-no-files-found: ignore
       - name: Salvar confirmações de conteúdo
+        if: always()
         run: |
           git config user.name "$GITHUB_ACTOR"
           git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
+          test -f data/oportunidades-conteudo.json || exit 0
           git add data/oportunidades-conteudo.json data/oportunidades-conteudo.md
           if ! git diff --cached --quiet; then
             git commit -m "Confirma relevância de oportunidades; vigência não avaliada"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
+

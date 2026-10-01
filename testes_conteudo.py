@@ -23,3 +23,70 @@ class Conteudo(unittest.TestCase):
         self.assertEqual(fila([e],{e['url']:{'versao':VERSAO,'status':'confirmada_no_conteudo'}},60),[])
 
 if __name__=='__main__':unittest.main()
+
+
+class Recuperacao(unittest.TestCase):
+    def test_servico_falha_preserva_fila_e_confirmacoes(self):
+        from confirmar_oportunidades import executar, ServicoIndisponivel
+        lote=[{'url':f'https://a.br/{i}'} for i in range(3)]
+        feitos={'https://anterior.br':{'status':'confirmada_no_conteudo'}}
+        chamadas=[]
+        def classificar(texto,url):
+            chamadas.append(url)
+            raise ServicoIndisponivel('gemini_http_429')
+        n,parada=executar(lote,feitos,lambda u:('Texto suficiente',None),classificar,lambda d:None)
+        self.assertEqual((n,parada),(3,'gemini_http_429'))
+        self.assertEqual(len(chamadas),1)
+        self.assertEqual(feitos[lote[1]['url']]['status'],'pendente_ia')
+        self.assertEqual(feitos[lote[0]['url']]['status'],'pendente_ia')
+        self.assertEqual(feitos['https://anterior.br']['status'],'confirmada_no_conteudo')
+
+    def test_falha_pagina_nao_consume_ia(self):
+        from confirmar_oportunidades import executar
+        feitos={}
+        n,parada=executar([{'url':'https://a.br'}],feitos,
+            lambda u:(None,'robots_bloqueou_leitura'),
+            lambda t,u:self.fail('Não deve chamar IA'),lambda d:None)
+        self.assertEqual(feitos['https://a.br']['motivo'],'robots_bloqueou_leitura')
+        self.assertIsNone(parada)
+
+    def test_prioriza_fontes_sem_excluir_outros_sites(self):
+        from confirmar_oportunidades import fila
+        itens=[{'url':u,'categoria':'prioridade_verificacao'} for u in
+            ['https://blog.br/1','https://programas.sebraestartups.com.br/in/1','https://fapesc.sc.gov.br/1']]
+        self.assertEqual(fila(itens,{},3)[0]['url'],itens[1]['url'])
+        self.assertEqual(len(fila(itens,{},3)),3)
+
+    def test_http_429_interrompe_sem_repeticao(self):
+        from unittest.mock import patch
+        from urllib.error import HTTPError
+        from confirmar_oportunidades import classificar_texto, ServicoIndisponivel
+        with patch.dict('os.environ',{'GEMINI_API_KEY':'test'}), patch('confirmar_oportunidades.time.sleep'), patch('confirmar_oportunidades.urlopen',side_effect=HTTPError('https://service',429,'quota',{},None)) as req:
+            with self.assertRaises(ServicoIndisponivel) as erro:
+                classificar_texto('texto','https://a.br')
+        self.assertEqual(erro.exception.codigo,'gemini_http_429')
+        self.assertEqual(req.call_count,1)
+
+class Evidencias(unittest.TestCase):
+    def test_convite_literal_sem_ia(self):
+        from confirmar_oportunidades import evidencias_textuais
+        texto='Podem participar do programa de aceleração startups de todo o Brasil.'
+        d=evidencias_textuais(texto,{'titulo':'Programa de aceleração','url':'https://fonte.br/1'})
+        self.assertTrue(conferir(d,texto))
+
+    def test_mencao_generica_nao_confirma(self):
+        from confirmar_oportunidades import evidencias_textuais
+        d=evidencias_textuais('O programa publicou os resultados. Startups fazem parte do ecossistema.',
+                             {'titulo':'Programa','url':'https://fonte.br/1'})
+        self.assertIsNone(d)
+
+    def test_continua_evidencias_apos_quota(self):
+        from confirmar_oportunidades import executar, ServicoIndisponivel
+        itens=[{'url':'https://a.br/1'}, {'url':'https://b.br/1','titulo':'Programa de aceleração'}]
+        feitos={}
+        def ler(url):
+            return ('Texto sem prova' if 'a.br' in url else 'Podem participar do programa de aceleração startups de todo o Brasil.', None)
+        def ia(t,u):
+            raise ServicoIndisponivel('gemini_http_429')
+        executar(itens,feitos,ler,ia,lambda d:None)
+        self.assertEqual(feitos['https://b.br/1']['status'],'confirmada_no_conteudo')
