@@ -125,6 +125,16 @@ class CoberturaGlobal(unittest.TestCase):
         feitos = {itens[0]['url']: {'status': 'pendente_ia', 'tentativas': 1}}
         self.assertEqual(fila(itens, feitos, 2), [itens[1], itens[0]])
 
+    def test_prioritarios_precedem_contexto_mesmo_em_outro_dominio(self):
+        contexto={'url':'https://a.br/noticia','categoria':'revisar_contexto'}
+        prioritario={'url':'https://z.gov.br/edital','categoria':'prioridade_verificacao'}
+        self.assertEqual(fila([contexto, prioritario], {}, 1), [prioritario])
+
+    def test_auditoria_nao_e_reprocessada_com_ia(self):
+        e={'url':'https://a.br/case','categoria':'prioridade_verificacao'}
+        feitos={e['url']:{'status':'pendente_evidencia','auditoria_relevancia':'requer_revisao'}}
+        self.assertEqual(fila([e], feitos, 1), [])
+
 
 class PaginaDinamica(unittest.TestCase):
     def test_caso_mercopar_vem_primeiro(self):

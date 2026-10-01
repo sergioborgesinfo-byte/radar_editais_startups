@@ -89,7 +89,7 @@ def recuperar_sebrae_dinamico(url, abrir=urlopen):
 
 
 def fila(itens, feitos, limite):
-    grupos = defaultdict(deque)
+    elegiveis = []
     for e in sorted(itens, key=lambda e: (bool(feitos.get(e['url'])), prioridade(e))):
         if e['categoria'] not in ('prioridade_verificacao', 'revisar_contexto'):
             continue
@@ -97,22 +97,26 @@ def fila(itens, feitos, limite):
         # Confirmações já obtidas não precisam consumir IA novamente.
         if anterior.get('status') in ('confirmada_no_conteudo', 'nao_confirmada_no_texto'):
             continue
+        if anterior.get('auditoria_relevancia') == 'requer_revisao':
+            continue
         if anterior.get('status') in ('falha_leitura', 'pendente_leitura') and anterior.get('tentativas', 0) >= 3:
             continue
-        grupos[urlsplit(e['url']).hostname].append(e)
+        elegiveis.append(e)
     selecionados = []
-    # Cobertura primeiro: nenhuma repetição ocupa a vaga de uma página inédita.
-    for repeticao in (False, True):
-        fase = {host: deque(e for e in grupo if bool(feitos.get(e['url'])) == repeticao)
-                for host, grupo in grupos.items()}
-        fase = {host: grupo for host, grupo in fase.items() if grupo}
-        while fase and len(selecionados) < limite:
-            for host in list(fase):
-                selecionados.append(fase[host].popleft())
-                if not fase[host]:
-                    del fase[host]
-                if len(selecionados) >= limite:
-                    break
+    # Primeiro cobre todas as páginas prioritárias inéditas, diversificando domínios.
+    for categoria in ('prioridade_verificacao', 'revisar_contexto'):
+        for repeticao in (False, True):
+            fase = defaultdict(deque)
+            for e in elegiveis:
+                if e['categoria'] == categoria and bool(feitos.get(e['url'])) == repeticao:
+                    fase[urlsplit(e['url']).hostname].append(e)
+            while fase and len(selecionados) < limite:
+                for host in list(fase):
+                    selecionados.append(fase[host].popleft())
+                    if not fase[host]:
+                        del fase[host]
+                    if len(selecionados) >= limite:
+                        break
     return selecionados
 
 
