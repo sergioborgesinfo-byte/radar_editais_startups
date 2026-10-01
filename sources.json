@@ -41,6 +41,11 @@
       "url": "https://fi.co/apply/belo",
       "tipo": "listagem",
       "max_links": 3
+    },
+    {
+      "nome": "Sebrae Startups — Mercopar 2026 (manifestação de interesse)",
+      "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
+      "tipo": "pagina"
     }
   ],
   "programas": [
@@ -219,7 +224,17 @@
       "\"VentureHub\" startups inscrição seleção aceleração {ano}",
       "\"Tecnosinos\" startups inscrição seleção aceleração {ano}",
       "\"WOW aceleradora\" startups inscrição seleção aceleração {ano}",
-      "\"Founder Institute Brasil\" startups inscrição seleção aceleração {ano}"
+      "\"Founder Institute Brasil\" startups inscrição seleção aceleração {ano}",
+      "site:programas.sebraestartups.com.br/in startups {ano}",
+      "startups manifestação de interesse feira missão empresarial {ano}",
+      "startups rodada de negócios exposição evento seleção {ano}"
+    ],
+    "urls": [
+      {
+        "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
+        "titulo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
+        "resumo": "Indicado pelo usuário; elegibilidade e vigência aguardam verificação."
+      }
     ]
   }
 }

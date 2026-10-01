@@ -22,6 +22,12 @@ def descobrir():
     anteriores = json.loads(destino.read_text()) if destino.exists() else {'oportunidades': []}
     itens = {e['url']: e for e in anteriores['oportunidades']}
     inicio = datetime.now(timezone.utc)
+    for fonte in cfg['descoberta'].get('urls', []):
+        url = normalizar_url(fonte['url'])
+        if url:
+            itens.setdefault(url, {'url': url, 'titulo': fonte['titulo'], 'resumo_busca': fonte.get('resumo', ''),
+                'descoberto_em': inicio.isoformat(), 'encontrado_em': inicio.isoformat(),
+                'consultas': ['Fonte indicada'], 'situacao': 'aguarda_verificacao'})
     consultas = list(dict.fromkeys(cfg['descoberta']['consultas']))
     erros = []
     encontrados = set()
