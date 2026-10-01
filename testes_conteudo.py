@@ -99,3 +99,12 @@ class Evidencias(unittest.TestCase):
         from confirmar_oportunidades import evidencias_textuais
         self.assertIsNone(evidencias_textuais('Programas de aceleração para startups oferecem mentoria e fomento por meio de ambientes de inovação.',
             {'titulo':'Chamada de aceleração','url':'https://fonte.br/1'}))
+
+
+class ProgressoFila(unittest.TestCase):
+    def test_pendente_nao_bloqueia_pagina_nova(self):
+        from confirmar_oportunidades import fila
+        itens=[{'url':url,'categoria':'prioridade_verificacao'} for url in ['https://fonte.gov.br/antiga','https://fonte.gov.br/nova','https://outra.br/nova']]
+        feitos={itens[0]['url']:{'status':'pendente_ia','tentativas':2}}
+        escolhidas=fila(itens,feitos,2)
+        self.assertEqual([x['url'] for x in escolhidas],[itens[1]['url'],itens[2]['url']])

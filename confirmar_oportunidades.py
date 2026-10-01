@@ -69,7 +69,7 @@ def prioridade(e):
 
 def fila(itens, feitos, limite):
     grupos = defaultdict(deque)
-    for e in sorted(itens, key=prioridade):
+    for e in sorted(itens, key=lambda e: (bool(feitos.get(e['url'])), prioridade(e))):
         if e['categoria'] not in ('prioridade_verificacao', 'revisar_contexto'):
             continue
         anterior = feitos.get(e['url'], {})
