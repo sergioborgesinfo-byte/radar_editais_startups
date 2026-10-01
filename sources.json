@@ -245,7 +245,10 @@
       "site:startups.com.br startups desafio seleção missão oportunidades",
       "site:linkedin.com/posts startups chamada programa aceleração Brasil",
       "site:linkedin.com/posts startups missão feira manifestação interesse Brasil",
-      "site:linkedin.com/pulse startups incubação seleção programa Brasil"
+      "site:linkedin.com/pulse startups incubação seleção programa Brasil",
+      "site:randoncorp.com startups inovação aberta desafios programas",
+      "\"Randoncorp\" startups seleção parceria programa",
+      "empresas inovação aberta desafios startups Brasil"
     ],
     "urls": [
       {
@@ -267,6 +270,11 @@
         "url": "https://startups.com.br/",
         "titulo": "Startups.com.br — notícias como pistas de oportunidades",
         "resumo": "Portal de notícias; localizar chamadas concretas, sem considerar toda notícia uma oportunidade."
+      },
+      {
+        "url": "https://www.randoncorp.com/pt/",
+        "titulo": "Randoncorp — descoberta de inovação corporativa",
+        "resumo": "Fonte institucional para encontrar programas e chamadas; não é uma oportunidade individual."
       }
     ]
   }
