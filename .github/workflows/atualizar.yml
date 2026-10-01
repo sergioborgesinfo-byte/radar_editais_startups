@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [radar.py, radar_automacao.py, requirements.txt, testes_automacao.py, conferir_servicos.py, testes_servicos.py, sources.json, '.github/workflows/atualizar.yml']
+    paths: [descobrir_oportunidades.py, radar.py, radar_automacao.py, requirements.txt, testes_automacao.py, conferir_servicos.py, testes_servicos.py, sources.json, '.github/workflows/atualizar.yml']
 
 permissions:
   contents: write
@@ -53,6 +53,15 @@ jobs:
               with sqlite3.connect("radar.db") as origem, sqlite3.connect(destino) as copia:
                   origem.backup(copia)
           PY
+      - name: Descobrir oportunidades antes de verificar
+        run: python -u descobrir_oportunidades.py
+      - name: Guardar relatório de descoberta
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: oportunidades-descobertas
+          path: data/oportunidades-descobertas.json
+          if-no-files-found: ignore
       - name: Coletar, conferir e exportar
         run: |
           if [ "$GITHUB_REF_NAME" = "codex/automatizar-editais" ]; then
@@ -74,7 +83,7 @@ jobs:
         run: |
           git config user.name "$GITHUB_ACTOR"
           git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
-          git add data/radar.db docs/editais.json
+          git add data/radar.db data/oportunidades-descobertas.json docs/editais.json
           if ! git diff --cached --quiet; then
             git commit -m "Atualiza editais verificados $(date -u +%F)"
             git push origin "HEAD:${GITHUB_REF_NAME}"
