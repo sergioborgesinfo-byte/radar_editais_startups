@@ -248,7 +248,68 @@
       "site:linkedin.com/pulse startups incubação seleção programa Brasil",
       "site:randoncorp.com startups inovação aberta desafios programas",
       "\"Randoncorp\" startups seleção parceria programa",
-      "empresas inovação aberta desafios startups Brasil"
+      "empresas inovação aberta desafios startups Brasil",
+      "startups oportunidades incubação aceleração inovação \"Acre\"",
+      "startups oportunidades incubação aceleração inovação \"Alagoas\"",
+      "startups oportunidades incubação aceleração inovação \"Amapá\"",
+      "startups oportunidades incubação aceleração inovação \"Amazonas\"",
+      "startups oportunidades incubação aceleração inovação \"Bahia\"",
+      "startups oportunidades incubação aceleração inovação \"Ceará\"",
+      "startups oportunidades incubação aceleração inovação \"Distrito Federal\"",
+      "startups oportunidades incubação aceleração inovação \"Espírito Santo\"",
+      "startups oportunidades incubação aceleração inovação \"Goiás\"",
+      "startups oportunidades incubação aceleração inovação \"Maranhão\"",
+      "startups oportunidades incubação aceleração inovação \"Mato Grosso\"",
+      "startups oportunidades incubação aceleração inovação \"Mato Grosso do Sul\"",
+      "startups oportunidades incubação aceleração inovação \"Minas Gerais\"",
+      "startups oportunidades incubação aceleração inovação \"Pará\"",
+      "startups oportunidades incubação aceleração inovação \"Paraíba\"",
+      "startups oportunidades incubação aceleração inovação \"Paraná\"",
+      "startups oportunidades incubação aceleração inovação \"Pernambuco\"",
+      "startups oportunidades incubação aceleração inovação \"Piauí\"",
+      "startups oportunidades incubação aceleração inovação \"Rio de Janeiro\"",
+      "startups oportunidades incubação aceleração inovação \"Rio Grande do Norte\"",
+      "startups oportunidades incubação aceleração inovação \"Rio Grande do Sul\"",
+      "startups oportunidades incubação aceleração inovação \"Rondônia\"",
+      "startups oportunidades incubação aceleração inovação \"Roraima\"",
+      "startups oportunidades incubação aceleração inovação \"Santa Catarina\"",
+      "startups oportunidades incubação aceleração inovação \"São Paulo\"",
+      "startups oportunidades incubação aceleração inovação \"Sergipe\"",
+      "startups oportunidades incubação aceleração inovação \"Tocantins\"",
+      "\"ABDI\" startups oportunidades programa chamada desafio",
+      "\"Anprotec\" startups oportunidades programa chamada desafio",
+      "\"ABStartups\" startups oportunidades programa chamada desafio",
+      "\"Embrapii\" startups oportunidades programa chamada desafio",
+      "\"Senai\" startups oportunidades programa chamada desafio",
+      "\"Senac\" startups oportunidades programa chamada desafio",
+      "\"Softex\" startups oportunidades programa chamada desafio",
+      "\"Artemisia\" startups oportunidades programa chamada desafio",
+      "\"Fundação Lemann\" startups oportunidades programa chamada desafio",
+      "\"Startup Católica\" startups oportunidades programa chamada desafio",
+      "\"OITO Rio de Janeiro\" startups oportunidades programa chamada desafio",
+      "\"Google for Startups Brasil\" startups oportunidades programa chamada desafio",
+      "\"inovabra Bradesco\" startups oportunidades programa chamada desafio",
+      "\"Petrobras\" startups oportunidades programa chamada desafio",
+      "\"Vale\" startups oportunidades programa chamada desafio",
+      "\"Gerdau\" startups oportunidades programa chamada desafio",
+      "\"Weg\" startups oportunidades programa chamada desafio",
+      "\"Suzano\" startups oportunidades programa chamada desafio",
+      "\"Embraer\" startups oportunidades programa chamada desafio",
+      "\"Itaú Cubo\" startups oportunidades programa chamada desafio",
+      "\"Porto Digital\" startups oportunidades programa chamada desafio",
+      "\"Instituto Caldeira\" startups oportunidades programa chamada desafio",
+      "\"ACATE\" startups oportunidades programa chamada desafio",
+      "\"Sapiens Parque\" startups oportunidades programa chamada desafio",
+      "\"Tecnopuc\" startups oportunidades programa chamada desafio",
+      "\"Fundação CERTI\" startups oportunidades programa chamada desafio",
+      "\"InovAtiva\" startups oportunidades programa chamada desafio",
+      "\"BNDES Garagem\" startups oportunidades programa chamada desafio",
+      "startups programa internacional aceita brasileiras aceleração",
+      "startups programas gratuitos capacitação mentoria Brasil",
+      "startups missão empresarial feira exposição rodada negócios Brasil",
+      "startups bolsas benefícios créditos nuvem programas Brasil",
+      "site:gestaoclick.com.br/blog oportunidades startup",
+      "\"Conexão Startup Indústria\" programa startups"
     ],
     "urls": [
       {
@@ -275,7 +336,19 @@
         "url": "https://www.randoncorp.com/pt/",
         "titulo": "Randoncorp — descoberta de inovação corporativa",
         "resumo": "Fonte institucional para encontrar programas e chamadas; não é uma oportunidade individual."
+      },
+      {
+        "url": "https://gestaoclick.com.br/blog/novas-oportunidades-para-startup/",
+        "titulo": "GestãoClick — lista de iniciativas para startups",
+        "resumo": "Artigo com referências históricas; usar para descobrir instituições e programas, sem inferir vigência."
       }
-    ]
+    ],
+    "referencias_nao_lidas": [
+      {
+        "url": "https://drive.google.com/file/d/15VHwufDdlGkDwHoi9FeRKNtNvASRe0l4/view",
+        "motivo": "Conteúdo não acessível pelo leitor; não utilizado para inferir oportunidades."
+      }
+    ],
+    "objetivo": "Somente descoberta: candidatos e fontes, sem filtro ou afirmação de vigência."
   }
 }
