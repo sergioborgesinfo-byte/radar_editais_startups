@@ -1,5 +1,48 @@
 {
-  "fontes": [],
+  "fontes": [
+    {
+      "nome": "WOW Aceleradora",
+      "url": "https://www.wow.ac/inscricao",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Darwin Startups",
+      "url": "https://www.darwinstartups.com/startups",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Venture Hub",
+      "url": "https://venturehub.se/startups/",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "ACE Ventures IA",
+      "url": "https://aceventures.com.br/trilha-ai-ace/",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Tecnosinos Unitec",
+      "url": "https://www.tecnosinos.com.br/programa-de-incubacao/",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Google for Startups Brasil",
+      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Founder Institute Minas Gerais",
+      "url": "https://fi.co/apply/belo",
+      "tipo": "listagem",
+      "max_links": 3
+    }
+  ],
   "programas": [
     {
       "nome": "Inova Startups",
@@ -74,6 +117,15 @@
     "por_execucao": 10,
     "resultados": 10,
     "consultas": [
+      "aceleradora startups inscrições abertas Brasil {ano}",
+      "programa aceleração startups candidaturas abertas Brasil {ano}",
+      "incubadora startups fluxo contínuo inscrições abertas Brasil",
+      "startup challenge inovação aberta inscrições abertas Brasil {ano}",
+      "seleção investimento startups candidaturas abertas Brasil {ano}",
+      "pré inscrições aceleradora startup Brasil {ano}",
+      "aceleradora startups inscrições abertas Nordeste {ano}",
+      "aceleradora startups inscrições abertas Norte {ano}",
+      "aceleradora startups inscrições abertas Centro Oeste {ano}",
       "edital startups inscrições abertas {ano}",
       "chamada pública subvenção econômica inovação startups {ano}",
       "edital pré-incubação ideias inovadoras {ano}",
