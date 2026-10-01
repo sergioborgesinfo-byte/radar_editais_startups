@@ -1,6 +1,13 @@
 {
   "fontes": [
     {
+      "nome": "Catálogo de oportunidades — Sebrae Startups",
+      "url": "https://programas.sebraestartups.com.br/index/programas",
+      "tipo": "listagem",
+      "max_links": 100,
+      "caminho_oportunidade": "/in/"
+    },
+    {
       "nome": "WOW Aceleradora",
       "url": "https://www.wow.ac/inscricao",
       "tipo": "listagem",
@@ -227,13 +234,22 @@
       "\"Founder Institute Brasil\" startups inscrição seleção aceleração {ano}",
       "site:programas.sebraestartups.com.br/in startups {ano}",
       "startups manifestação de interesse feira missão empresarial {ano}",
-      "startups rodada de negócios exposição evento seleção {ano}"
+      "startups rodada de negócios exposição evento seleção {ano}",
+      "site:programas.sebraestartups.com.br/in/ \"inscrições\" {ano}",
+      "site:programas.sebraestartups.com.br/in/ \"manifestação de interesse\" {ano}",
+      "site:programas.sebraestartups.com.br/in/ \"missão\" {ano}",
+      "site:programas.sebraestartups.com.br/in/ \"rodada\" {ano}"
     ],
     "urls": [
       {
         "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
         "titulo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
         "resumo": "Indicado pelo usuário; elegibilidade e vigência aguardam verificação."
+      },
+      {
+        "url": "https://programas.sebraestartups.com.br/index/programas",
+        "titulo": "Catálogo de programas Sebrae Startups",
+        "resumo": "Catálogo para localizar páginas individuais /in/; não é uma oportunidade individual."
       }
     ]
   }

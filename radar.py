@@ -172,7 +172,9 @@ def candidatos(fonte):
         if not href.startswith("http"):
             continue
         mesmo_site = urlparse(href).netloc == urlparse(fonte["url"]).netloc
-        if mesmo_site and (CHAVES.search(a.get_text(" ")) or CHAVES.search(href)):
+        caminho = fonte.get("caminho_oportunidade")
+        oportunidade = bool(caminho and urlparse(href).path.startswith(caminho))
+        if mesmo_site and (oportunidade or CHAVES.search(a.get_text(" ")) or CHAVES.search(href)):
             if href not in achados:
                 achados.append(href)
     return achados[: fonte.get("max_links", 30) + 1]
