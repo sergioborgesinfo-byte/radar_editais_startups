@@ -1,13 +1,14 @@
 {
   "versao": "conteudo-v1",
-  "atualizado_em": "2026-10-01T20:46:23.043708+00:00",
+  "atualizado_em": "2026-10-01T21:30:49.842783+00:00",
   "vigencia": "nao_avaliada",
   "contagem": {
-    "pendente_leitura": 86,
-    "confirmada_no_conteudo": 35,
-    "pendente_ia": 73,
+    "pendente_leitura": 108,
+    "confirmada_no_conteudo": 41,
+    "pendente_ia": 104,
     "nao_confirmada_no_texto": 1,
-    "falha_leitura": 11
+    "falha_leitura": 11,
+    "pendente_evidencia": 1
   },
   "itens": [
     {
@@ -2488,6 +2489,677 @@
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
       "conferido_em": "2026-10-01T20:46:23.040053+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
+      "titulo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:29:35.815372+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
+        "instituicao": "programas.sebraestartups.com.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
+        "trecho_oportunidade": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
+        "trecho_publico": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "6454334069748904ae8349c74b49ba1622e8b2d2b9f8f70e3a3d330217737f55"
+    },
+    {
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/premio-sebrae-startups-2026-abre-inscricoes-campea-nacional-recebera-r-250-mil",
+      "titulo": "Prêmio Sebrae Startups 2026 abre inscrições; campeã nacional receberá R$ 250 mil | ASN Nacional - Agência Sebrae de Notícias",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:29:36.179708+00:00",
+      "tentativas": 1,
+      "status": "pendente_evidencia",
+      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
+    },
+    {
+      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-013-2026-pesquisador-na-empresa",
+      "titulo": "CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:29:39.754278+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA",
+        "instituicao": "FAPEMIG",
+        "tipo": "Fomento",
+        "resumo": "Chamada da FAPEMIG para apoiar a inserção e fixação de pesquisadores em empresas, startups e cooperativas mineiras por meio de bolsas e auxílio à pesquisa, visando fortalecer o P&D e a inovação.",
+        "trecho_oportunidade": "Apoiar a inserção e fixação de pesquisadores em empresas, startups e cooperativas, por meio da concessão de bolsas e auxílio à pesquisa, visando fortalecer as atividades de pesquisa e desenvolvimento (P&D) e a capacidade de inovação do setor produtivo mineiro",
+        "trecho_publico": "Empresas, startups e cooperativas que: não sejam Microempreendedor Individual (MEI); tenham sede ou filial em Minas Gerais;",
+        "motivo": "A página detalha uma chamada pública de fomento da FAPEMIG direcionada especificamente para empresas e startups realizarem projetos de inovação com apoio financeiro e bolsas."
+      },
+      "hash_texto": "b436412105f0c00bbc3d6a615f2f94f21c2237da5c3445b819b99fb674f323d3"
+    },
+    {
+      "url": "https://news.confap.org.br/novo-edital-do-compete-minas-oferece-r-50-milhoes-para-impulsionar-a-inovacao-tecnologica-no-setor-produtivo",
+      "titulo": "CONFAP — Conselho Nacional das Fundações Estaduais de Amparo à PesquisaNovo edital do Compete Minas oferece R$ 50 milhões para impulsionar a inovação tecnológica no setor produtivo",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:29:46.699200+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
+      "titulo": "Natura Innovation Challenge seleciona startups com soluções para compensação de carbono",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:29:52.653506+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Natura Innovation Challenge seleciona startups com soluções para compensação de carbono",
+        "instituicao": "pesquisaparainovacao.fapesp.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "O Natura Innovation Challenge 2024 selecionará até cinco startups do mercado global, incluindo países da América Latina, Estados Unidos e Europa.",
+        "trecho_oportunidade": "O Natura Innovation Challenge 2024 selecionará até cinco startups do mercado global, incluindo países da América Latina, Estados Unidos e Europa.",
+        "trecho_publico": "O Natura Innovation Challenge 2024 selecionará até cinco startups do mercado global, incluindo países da América Latina, Estados Unidos e Europa.",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "73752f0b49670e89522ce381e6b0ad2d13243232eb79b62b1ec6589032f46027"
+    },
+    {
+      "url": "https://www.gov.br/suframa/pt-br/assuntos/pdi/modalidades/pps/content/PlanodeTrabalhoPPEI20242026.pdf",
+      "titulo": "Plano de Trabalho Programa Prioritário de Fomento ao ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:29:52.702597+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.startupbrasil.org.br/2015/02/27/conheca-as-doze-aceleradoras-qualificadas-pelo-programa-start-up-brasil-para-2015-2016",
+      "titulo": "Conheça as doze aceleradoras qualificadas pelo ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.798151+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://anprotec.org.br/site/2020/07/estao-abertas-as-inscricoes-para-o-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
+      "titulo": "Estão abertas as inscrições para o Inovativa Brasil, maior programa de aceleração de startups da América Latina - Anprotec",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.801142+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://pt.linkedin.com/posts/starten-tech_sebrae-leva-startups-brasileiras-%C3%A0-coreia-activity-7435383809119809536-lgCG",
+      "titulo": "Sebrae leva startups brasileiras à Coreia do Sul em missão para ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.804091+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://rocketreach.co/desafio-levantemos-chile-profile_b44d5b6cfd22fbec",
+      "titulo": "Desafío Levantemos Chile Information",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.808255+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://santotech.com.br/paraiba-startups-incubacao-impacto-inscricoes-16-setembro-2026",
+      "titulo": "Chamada de impacto para startups - faltam 7 dias para disputar vagas em programa de incubação no PTHI - SantoTech",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.811384+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
+      "titulo": "Empresa oferece programa de aceleração 100% online para startups de todo o Brasil - Startupi",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.830276+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Empresa oferece programa de aceleração 100% online para startups de todo o Brasil - Startupi",
+        "instituicao": "startupi.com.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "No próximo dia 12 de junho terminam as inscrições para o Batch#17 da WOW Aceleradora, processo de seleção que definirá as startups",
+        "trecho_oportunidade": "No próximo dia 12 de junho terminam as inscrições para o Batch#17 da WOW Aceleradora, processo de seleção que definirá as startups",
+        "trecho_publico": "No próximo dia 12 de junho terminam as inscrições para o Batch#17 da WOW Aceleradora, processo de seleção que definirá as startups",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "eda6d949cc996d9aec06664e7a37a59ad52dd1145238df1614bedf3676406e90"
+    },
+    {
+      "url": "https://startups.com.br/branded-content/libbs-abre-inscricoes-para-o-programa-de-inovacao-aberta-linna",
+      "titulo": "Libbs abre inscrições para o programa de inovação aberta Linna - Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.835013+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.cbinsights.com/company/desafio/financials",
+      "titulo": "Desafio Stock Price, Funding, Valuation, Revenue & Financial Statements",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.837845+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.facebook.com/SecPrensaSV/posts/el-innovation-challenge-live-startups-que-redise%C3%B1an-el-futuro-del-turismo-presen/1464629985841257",
+      "titulo": "El Innovation Challenge Live: Startups que rediseñan el futuro del turismo presentan a innovadores de Colombia y Brasil. Tras cada intervención, tanto el jurado como el público votarán, evaluando las startups en función de su innovación e... - Secretaría de Prensa, Presidencia de la República de El Salvador",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.841847+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.inova.unicamp.br/events/iii-missao-de-startups-brasileiras-ao-dublin-tech-summit",
+      "titulo": "III Missão de Startups Brasileiras ao Dublin Tech Summit - Inova Unicamp",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.844668+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.instagram.com/p/DTgQWnniY3R",
+      "titulo": "Com novo prazo definido, as inscrições para os programas ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.848007+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.investing.com/funds/itau-selecao-acoes-fundo-de-investi-company-profile",
+      "titulo": "ITAÚ SELEÇÃO AÇÕES FUNDO DE INVESTIMENTO EM COTAS DE DE FUNDOS DE INVESTIMENTO Company Profile - Investing.com",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.850897+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups",
+      "titulo": "Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.853700+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta",
+        "instituicao": "www.santacatarinaempauta.com.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta",
+        "trecho_oportunidade": "Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta",
+        "trecho_publico": "Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "3529e4b67ff0d9a159b6de2782f1aaaadf28dbc74512c4de0c31f871f5868c15"
+    },
+    {
+      "url": "https://www.snowflake.com/en/startup-challenge",
+      "titulo": "Snowflake Startup Challenge",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.857542+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.start.bsb.br/general-5",
+      "titulo": "FAQ Edital | Start BSB 2026/2027",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.860412+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.startupsc.com.br/fiat-chrysler-e-sebrae-lancam-desafio-para-startups-sobre-carro-conectado",
+      "titulo": "Fiat Chrysler e Sebrae lançam desafio para startups sobre carro conectado – Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.865793+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.tradingkey.com/pt/news/more-news/240235478-tradingKey",
+      "titulo": "Programa de fomento ao turismo de estrangeiros no Brasil terá investimento de R$ 126 milhões em 2025",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.869721+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.uece.br/incubauece/noticias/finep-lanca-serie-de-editais-com-r-33-bilhoes-para-impulsionar-a-inovacao-no-brasil",
+      "titulo": "FINEP lança série de editais com R$ 3,3 bilhões para impulsionar a inovação no Brasil - INCUBAUECE | Incubadora de Empresas e Centro de Desenvolvimento Tecnológico e Inovação da Universidade Estadual do Ceará",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.875142+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
+      "titulo": "UFT abre seleção para programa de pré-incubação ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.879044+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "UFT abre seleção para programa de pré-incubação ...",
+        "instituicao": "www.uft.edu.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "A Agência de Inovação da Universidade Federal do Tocantins (Inovato/UFT), em parceria com o Parque de Empreendedorismo, Qualidade Socioambiental e Inovação Tecnológica da UFT (Pequi-UFT), está com inscrições abertas para o programa de pré-incubação UFT Startups.",
+        "trecho_oportunidade": "A Agência de Inovação da Universidade Federal do Tocantins (Inovato/UFT), em parceria com o Parque de Empreendedorismo, Qualidade Socioambiental e Inovação Tecnológica da UFT (Pequi-UFT), está com inscrições abertas para o programa de pré-incubação UFT Startups.",
+        "trecho_publico": "A Agência de Inovação da Universidade Federal do Tocantins (Inovato/UFT), em parceria com o Parque de Empreendedorismo, Qualidade Socioambiental e Inovação Tecnológica da UFT (Pequi-UFT), está com inscrições abertas para o programa de pré-incubação UFT Startups.",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "7e97ee1606257571e019da28e502f3f54a13664faea89d4227d7e871be498708"
+    },
+    {
+      "url": "https://www.unoesc.edu.br/wp-content/uploads/2026/02/1.-EDITAL-BOLSA-HUB-FAPESC-2026.pdf",
+      "titulo": "1.-EDITAL-BOLSA-HUB-FAPESC-2026.pdf",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.883584+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.uspempreende.org/startneu",
+      "titulo": "StartNEU - Aceleração de Startups - Núcleo de Empreendedorismo da USP",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.893189+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.vemserpraia.com.br/chamada-industria",
+      "titulo": "Chamada Indústria | Praia Aceleradora",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:00.897913+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.yelp.com/biz/bon%C3%A9s-wind-brasil-ind-com-de-bolsas-apucarana",
+      "titulo": "Bonés Wind Brasil Ind com de Bolsas - Apucarana, PR",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:01.031284+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0m4EhUB5yMs",
+      "titulo": "Webinar on the Legal Framework for Startups: From Regulatory Sandbox Challenges to Innovation Opp...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:01.075406+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://www.zoominfo.com/c/premio-inc/41059212",
+      "titulo": "Premio",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:01.122879+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www1.folha.uol.com.br/folha-social-mais/2026/07/programa-de-aceleracao-abre-inscricoes-para-startups-da-america-latina.shtml",
+      "titulo": "Potencia UP LATAM 2026 abre inscrições - 06/07/2026 - Folha Social+ - Folha",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:01.126710+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups",
+      "titulo": "BNDES Garagem - BNDES",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:01.130639+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://amapa.gov.br/orgao/setec/noticia/26-08-2026-acelera-amapa-encerra-programacao-com-apresentacoes-e-premia-ideias-inovadoras-de-startups-amapaenses",
+      "titulo": "Portal do Governo do Estado do Amapá",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:05.432849+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_ConnectionError"
+    },
+    {
+      "url": "https://ap.agenciasebrae.com.br/cultura-empreendedora/sebrae-conecta-startups-da-bioeconomia-com-investidores-e-especialistas-nacionais-em-santana",
+      "titulo": "Sebrae conecta startups da bioeconomia com investidores ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:06.679634+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://ba.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-conecta-startups-baianas-as-principais-vitrines-de-inovacao-do-brasil-em-2026",
+      "titulo": "Sebrae conecta startups baianas às principais vitrines de inovação do Brasil em 2026 | ASN Bahia - Agência Sebrae de Notícias",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:06.684276+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://cloud.google.com/startup/resources?hl=pt-BR",
+      "titulo": "Recursos e guias para startups | Google Cloud",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:06.687355+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://desafios.enap.gov.br/index.php/pt/blog/lancandodesafio/inovacao-aberta-cases-internacionais",
+      "titulo": "Inovação aberta: cases internacionais",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:06.690494+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://developers.google.com/community/accelerators/programs?hl=pt-br",
+      "titulo": "Saiba mais sobre nosso programa Accelerator  |  Explore Accelerator Programs - Google for Developers",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:07.342092+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://es.agenciasebrae.com.br/inovacao-e-tecnologia/esx-2026-selecao-de-startups-participantes-comeca-nesta-segunda-feira",
+      "titulo": "ESX 2026: startups podem se inscrever até 5 de abril para participar da Startup Experience | ASN Espírito Santo - Agência Sebrae de Notícias",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:08.460118+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://fap.df.gov.br/documents/10489263/39048189/Microsoft-Word-PLANO-DE-TRABALHO-STARTBSB-281024-159095315.pdf",
+      "titulo": "descrição do projeto",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:09.239659+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_ReadTimeout"
+    },
+    {
+      "url": "https://fapergs.rs.gov.br/60anos-pesquisas-inovacao",
+      "titulo": "Pesquisas para a Inovação Tecnológica e Empreendedorismo - FAPERGS - Fundação de Amparo à pesquisa do Estado do RS",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.776068+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://fapes.es.gov.br/inovacao",
+      "titulo": "FAPES - Fundação de Amparo à Pesquisa e Inovação do Espírito Santo",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.779437+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://fapesp.br/pipe",
+      "titulo": "PIPE | FAPESP",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.782593+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://fi.co/apply/11257",
+      "titulo": "Founder Institute: World's largest pre-seed startup accelerator.",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.785712+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://fiemglab.com.br/hubs-de-inovacao",
+      "titulo": "Hubs de Inovação no Brasil – FIEMG Lab",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.788883+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://garagem.bndes.gov.br/sobre",
+      "titulo": "O Programa | BNDES Garagem",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.791980+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://goias.gov.br/inovacao/govtech",
+      "titulo": "Govtech – Secretaria de Estado de Ciência, Tecnologia e Inovação",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.798805+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://hotmilk.clab.pr.gov.br/wp-content/uploads/2023/02/Edital-Programa-C-lab-2022-06-02-23.pdf",
+      "titulo": "Regulamento - C.Lab + Hotmilk",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.802003+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://hotmilk.pucpr.br/brde-labs-2026-inscricoes-abertas-startups",
+      "titulo": "Startups já podem se inscrever no BRDE Labs 2026",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.805212+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://labges.es.gov.br/startupes",
+      "titulo": "LAB.ges - Laboratório de Inovação na Gestão",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.808392+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://mapa.inovacao.es.gov.br/oportunidades",
+      "titulo": "Oportunidades - Mapa da Inovação ES",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.811610+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://observatorio.sebraestartups.com.br/oportunidades",
+      "titulo": "Observatório Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.814830+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://sebraepr.com.br/wp-content/uploads/2024/02/Mapeamento-das-Startups-Paranaenses-04a-edicao.pdf",
+      "titulo": "MAPEAMENTO Dos ECOSSISTEMAS DE STARTUPS DO ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.818104+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://secti.es.gov.br/SEEDES",
+      "titulo": "SECTI - Secretaria da Ciência, Tecnologia, Inovação e Educação Profissional",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.821344+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://spaceindustry.aeb.gov.br/pt-br/oportunidades/programa-deep-tech-fapdf",
+      "titulo": "Programa Deep Tech FAPDF",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.824605+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil",
+      "titulo": "Google for Startups Accelerator: Brazil",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.828991+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://venturehub.se/blog/inovacao-aberta-em-2026-por-que-apenas-conectar-startups-ja-nao-e-suficiente",
+      "titulo": "Inovação Aberta: conectar-se com startups funciona em 2026?",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.832286+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.curitiba.pr.gov.br/noticias/startups-conhecem-instituicoes-que-impulsionam-a-inovacao/45749",
+      "titulo": "Startups conhecem instituições que impulsionam a inovação - Prefeitura de Curitiba",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.835528+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.darwinstartups.com/batch15",
+      "titulo": "Batch #15 - Darwin Startups — Darwin Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T21:30:49.838868+00:00",
       "tentativas": 1,
       "status": "pendente_ia",
       "motivo": "gemini_http_429"
