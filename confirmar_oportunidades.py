@@ -12,7 +12,7 @@ from urllib.request import Request, urlopen
 from collections import Counter, defaultdict, deque
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import quote, urlsplit
 
 VERSAO = 'conteudo-v1'
 PROMPT = '''Você classifica páginas sobre oportunidades para startups.
@@ -61,10 +61,31 @@ def conferir(d, texto):
 
 def prioridade(e):
     host = urlsplit(e['url']).hostname or ''
+    caso_conhecido = '1783963246760x826977266273542100' in e['url']
     oficial = any(x in host for x in ('sebrae', '.gov.br', 'fap', 'finep', 'randoncorp',
                                      'startupbrasil', 'hotmilk', 'darwin', 'wow', 'venturehub',
                                      'fiemg', 'senai', 'tecnosinos', 'google', 'fi.co'))
-    return (e['categoria'] != 'prioridade_verificacao', not oficial)
+    return (not caso_conhecido, e['categoria'] != 'prioridade_verificacao', not oficial)
+
+
+def recuperar_sebrae_dinamico(url, abrir=urlopen):
+    """Lê os dados oficiais usados pela página dinâmica do Sebrae Startups."""
+    p = urlsplit(url)
+    if p.hostname != 'programas.sebraestartups.com.br' or not p.path.startswith('/in/'):
+        return None
+    endpoint = f'{p.scheme}://{p.netloc}/api/1.1/init/data?location={quote(url, safe="")}'
+    req = Request(endpoint, headers={'User-Agent': 'RadarStartups/1.0'})
+    try:
+        with abrir(req, timeout=30) as resposta:
+            registros = json.load(resposta)
+    except (HTTPError, URLError, TimeoutError, ValueError, json.JSONDecodeError):
+        return None
+    textos = []
+    for registro in registros if isinstance(registros, list) else []:
+        for valor in registro.get('data', {}).values():
+            if isinstance(valor, str) and len(valor.strip()) >= 20:
+                textos.append(valor.strip())
+    return '\n'.join(textos) if textos else None
 
 
 def fila(itens, feitos, limite):
@@ -143,15 +164,15 @@ def evidencias_textuais(texto, e):
     titulo = e.get('titulo', '')
     if re.search(r'/glossario/|/repositorio|/bitstream/', e['url'], re.I) or re.search(r'como funciona|o que [eé]', titulo, re.I):
         return None
-    if not re.search(r'program|edital|chamada|desafio|challenge|miss[aã]o|acelera|incuba|benef[ií]cio|cr[eé]dito|feira|rodada', titulo, re.I):
+    if not re.search(r'program|edital|chamada|desafio|challenge|miss[aã]o|manifesta[cç][aã]o de interesse|acelera|incuba|benef[ií]cio|cr[eé]dito|feira|rodada', titulo, re.I):
         return None
     for trecho in re.split(r'(?<=[.!?])\s+|\n', texto):
         trecho = trecho.strip()
         if not 40 <= len(trecho) <= 1200:
             continue
         publico = re.search(r'\bstartups?\b|empreendedores? inovadores?|neg[oó]cios inovadores?', trecho, re.I)
-        convite = re.search(r'podem (?:se )?participar|podem (?:se )?inscrever|inscri[cç][oõ]es|candidat(?:ura|ar)|selecionar[aá]|selecione?\b|oferece.{0,80}(?:cr[eé]dit|benef[ií]ci)|apply|applications|eligible', trecho, re.I)
-        contexto = re.search(r'program|edital|chamada|desafio|challenge|miss[aã]o|acelera|incuba|feira|rodada|cr[eé]dito', trecho, re.I)
+        convite = re.search(r'manifesta[cç][aã]o de interesse|podem (?:se )?participar|podem (?:se )?inscrever|inscri[cç][oõ]es|candidat(?:ura|ar)|selecionar[aá]|selecione?\b|oferece.{0,80}(?:cr[eé]dit|benef[ií]ci)|apply|applications|eligible', trecho, re.I)
+        contexto = re.search(r'program|edital|chamada|desafio|challenge|miss[aã]o|manifesta[cç][aã]o de interesse|acelera|incuba|feira|rodada|cr[eé]dito', trecho, re.I)
         if publico and convite and contexto:
             return {'oportunidade_concreta': True, 'publico_startup': True,
                     'titulo': titulo, 'instituicao': urlsplit(e['url']).hostname,
@@ -221,6 +242,11 @@ def salvar(feitos):
     return contagem
 
 
+def falha_execucao(parada):
+    """Cota 429 deixa pendências, mas não invalida um lote integralmente preservado."""
+    return bool(parada and parada != 'gemini_http_429')
+
+
 def main():
     import radar
     from conferir_servicos import limpar_chave
@@ -243,6 +269,10 @@ def main():
                 return d['texto'], None
         with locks[urlsplit(url).hostname]:
             try:
+                dinamico = recuperar_sebrae_dinamico(url)
+                if dinamico:
+                    arquivo.write_text(json.dumps({'texto': dinamico, 'salvo_em': time.time()}), encoding='utf-8')
+                    return dinamico, None
                 ctype, bruto = radar.baixar(url)
                 if bruto is None:
                     return None, 'robots_bloqueou_leitura'
@@ -264,7 +294,7 @@ def main():
     if os.getenv('GITHUB_STEP_SUMMARY'):
         with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
             f.write(resumo)
-    if parada:
+    if falha_execucao(parada):
         raise SystemExit(1)
 
 

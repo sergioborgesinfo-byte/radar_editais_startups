@@ -1,4 +1,6 @@
 import unittest
+import io
+import json
 from confirmar_oportunidades import conferir, fila
 
 class Conteudo(unittest.TestCase):
@@ -122,3 +124,28 @@ class CoberturaGlobal(unittest.TestCase):
                  ['https://a.gov.br/antiga', 'https://b.br/nova']]
         feitos = {itens[0]['url']: {'status': 'pendente_ia', 'tentativas': 1}}
         self.assertEqual(fila(itens, feitos, 2), [itens[1], itens[0]])
+
+
+class PaginaDinamica(unittest.TestCase):
+    def test_caso_mercopar_vem_primeiro(self):
+        mercopar = {'url':'https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100','categoria':'prioridade_verificacao'}
+        outro = {'url':'https://sebrae.com.br/programa','categoria':'prioridade_verificacao'}
+        self.assertEqual(fila([outro, mercopar], {}, 1), [mercopar])
+
+    def test_recupera_dados_oficiais_do_sebrae(self):
+        from confirmar_oportunidades import recuperar_sebrae_dinamico
+        corpo = json.dumps([{'data': {'titulo_text':'Startups na Mercopar 2026 (Manifestação de interesse)',
+                    'descricao_text':'Podem participar startups do Brasil interessadas na feira.'}}]).encode()
+        class Resposta(io.BytesIO):
+            def __enter__(self): return self
+            def __exit__(self, *args): pass
+        texto = recuperar_sebrae_dinamico(
+            'https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100',
+            lambda req, timeout: Resposta(corpo))
+        self.assertIn('Manifestação de interesse', texto)
+        self.assertIn('Podem participar startups', texto)
+
+    def test_429_preservado_nao_marca_workflow_como_quebrado(self):
+        from confirmar_oportunidades import falha_execucao
+        self.assertFalse(falha_execucao('gemini_http_429'))
+        self.assertTrue(falha_execucao('limite_tempo; candidatos restantes preservados'))
