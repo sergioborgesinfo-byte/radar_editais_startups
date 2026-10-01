@@ -1,0 +1,43 @@
+name: Triar descobertas sem avaliar vigência
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Descobrir oportunidades"]
+    types: [completed]
+    branches: [main]
+  push:
+    branches: [main]
+    paths: [triar_descobertas.py, testes_triagem.py, '.github/workflows/triagem.yml']
+
+permissions:
+  contents: write
+concurrency:
+  group: radar-triagem
+  cancel-in-progress: false
+
+jobs:
+  triar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testar agrupamento e separação de fontes
+        run: python -I -S -m unittest discover -s . -p testes_triagem.py
+      - name: Classificar candidatos sem prazo
+        run: python -I -S triar_descobertas.py
+      - name: Salvar relatório
+        run: |
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
+          git add data/triagem-descobertas.json data/triagem-descobertas.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualiza triagem preliminar sem avaliar vigência"
+            git push origin HEAD:main
+          fi
