@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 28, 'confirmada_no_conteudo': 16, 'pendente_ia': 23, 'nao_confirmada_no_texto': 1, 'falha_leitura': 16}
+{'pendente_leitura': 28, 'confirmada_no_conteudo': 14, 'pendente_ia': 23, 'nao_confirmada_no_texto': 1, 'pendente_evidencia': 2, 'falha_leitura': 16}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -64,9 +64,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: O programa oferece uma jornada completa de aceleração, mentorias exclusivas e acesso a investidores para startups inovadoras e escaláveis em todo o Brasil.
 - pendente_leitura: Aceleração 1 – Editais — https://editais.hubgovtechpr.org.br/aceleracao1
 - pendente_leitura: Aceleradoras: editais e oportunidades abertas no Brasil | Editais do Brasil — https://editaisdobrasil.com/oportunidades/aceleradoras
-- confirmada_no_conteudo: ACE Startups: Aceleradora de Inovação no Brasil — https://eliascury.com.br/glossario/ace-startups-aceleradora-inovacao-brasil
-  - trecho_oportunidade: A aceleradora oferece um ambiente propício para a inovação, conectando startups a mentores experientes e investidores que podem ajudar a moldar o futuro das empresas.
-  - trecho_publico: A aceleradora oferece um ambiente propício para a inovação, conectando startups a mentores experientes e investidores que podem ajudar a moldar o futuro das empresas.
+- pendente_evidencia: ACE Startups: Aceleradora de Inovação no Brasil — https://eliascury.com.br/glossario/ace-startups-aceleradora-inovacao-brasil
 - falha_leitura: Programa de aceleração para startups do Nordeste abre inscrições — https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml
 - falha_leitura: Chamada para apresentação de propostas de apoio a ... — https://eufundingportal.eu/pt/Chamada-para-apresenta%C3%A7%C3%A3o-de-propostas-de-apoio-a-iniciativas-locais-de-pequena-escala-lideradas-pela-comunidade--com-foco-em-a%C3%A7%C3%A3o-clim%C3%A1tica-e-regenera%C3%A7%C3%A3o.
 - falha_leitura: Chamada para apresentação de propostas de financiamento ... — https://eunewsletter.eu/pt/call-for-applications-to-support-research-on-earth-abundant-materials-for-sustainable-technologies
@@ -117,6 +115,4 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Aceleradoras e parceiros trabalhando integrados pelo sucesso ... — https://www.startupbrasil.org.br/2013/10/07/aceleradoras-e-parceiros-trabalhando-integrados-pelo-sucesso-dos-empreendedores-do-start-up-brasil
 - pendente_ia: Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos — https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas
 - pendente_ia: Batch #35 - Inscrição, WOW Aceleradora — https://www.wow.ac/inscricao
-- confirmada_no_conteudo: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://alertaeditais.com.br/edital/chamada-fapemig-sede-032026-novo-seed:-aceler-recjw
-  - trecho_oportunidade: Induzir a aceleração de startups em Minas Gerais por meio do fomento à estruturação e execução de programas de aceleração promovidos por ambientes de inovação localizados no estado, oferecendo mentoria, capacitação, articulação com o ecossistema e aporte financeiro para do custeio de etapas iniciais até o desenvolvimento de produtos prontos para o mercado.
-  - trecho_publico: Induzir a aceleração de startups em Minas Gerais por meio do fomento à estruturação e execução de programas de aceleração promovidos por ambientes de inovação localizados no estado, oferecendo mentoria, capacitação, articulação com o ecossistema e aporte financeiro para do custeio de etapas iniciais até o desenvolvimento de produtos prontos para o mercado.
+- pendente_evidencia: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://alertaeditais.com.br/edital/chamada-fapemig-sede-032026-novo-seed:-aceler-recjw

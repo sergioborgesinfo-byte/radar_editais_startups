@@ -55,12 +55,34 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
 .acts{display:flex;gap:8px;align-items:center}
 .lnk{font-size:.85rem;color:var(--acc);border:1px solid var(--line);border-radius:8px;padding:6px 12px;text-decoration:none}
 .lnk:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+
+.busca-panel{margin:16px 0 24px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.busca-panel[hidden]{display:none}.busca-panel h2{margin:0 0 8px;font-size:1.25rem}
+.busca-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:16px 0}
+.busca-stat{padding:12px;border-radius:8px;background:var(--acc-t)}.busca-stat strong{display:block;font-size:1.6rem}.busca-stat span{font-size:.8rem}
+.busca-panel .item{margin-top:10px}.busca-panel .tags{margin-top:10px}.busca-panel button{min-height:44px}
 </style>
 </head>
 <body>
 <main>
   <h1>Radar de editais para startups</h1>
   <p class="sub">Fomento, subvenção, incubação e aceleração num só lugar, com prazo à vista.</p>
+  <div class="bar"><button id="busca-toggle" type="button" aria-expanded="false" aria-controls="busca-panel">Acompanhar descobertas</button></div>
+  <section id="busca-panel" class="busca-panel" hidden aria-label="Acompanhamento das descobertas">
+    <h2>O que o Radar está encontrando</h2>
+    <p class="sub">Links encontrados e oportunidades em análise. Os prazos ainda não foram verificados; esta lista pode incluir páginas antigas e conteúdos gerais.</p>
+    <p id="busca-status" class="real" role="status">Carregando acompanhamento…</p>
+    <div id="busca-stats" class="busca-stats"></div>
+    <p id="busca-date" class="org"></p>
+    <button id="busca-refresh" type="button">Atualizar acompanhamento</button>
+    <div class="tools" style="margin-top:16px">
+      <input id="busca-q" type="search" placeholder="Buscar título ou instituição" aria-label="Buscar nas descobertas">
+      <select id="busca-filter" aria-label="Filtrar descobertas"><option value="">Todas as páginas descobertas</option><option value="confirmada">Relevância confirmada</option><option value="pendente">Pendências de análise</option><option value="nao-examinada">Ainda não examinadas</option></select>
+    </div>
+    <p id="busca-counter" class="org"></p>
+    <div id="busca-list" class="list"></div>
+    <div class="bar" style="margin-top:16px"><button id="busca-prev" type="button">Anterior</button><button id="busca-next" type="button">Próxima</button></div>
+  </section>
   <div id="src" class="demo"></div>
   <div class="bar"><button id="imp" type="button">Importar editais.json</button><button id="rst" type="button" hidden>Voltar aos exemplos</button><input id="file" type="file" accept=".json,application/json" hidden></div>
   <div class="tools">
@@ -195,5 +217,7 @@ setInterval(function(){
 },900000);
 document.addEventListener("visibilitychange",function(){if(!document.hidden)render()});
 </script>
+<script src="acompanhamento.js"></script>
 </body>
 </html>
+

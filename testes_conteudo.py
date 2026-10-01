@@ -90,3 +90,12 @@ class Evidencias(unittest.TestCase):
             raise ServicoIndisponivel('gemini_http_429')
         executar(itens,feitos,ler,ia,lambda d:None)
         self.assertEqual(feitos['https://b.br/1']['status'],'confirmada_no_conteudo')
+
+    def test_glossario_nao_comprova_programa(self):
+        from confirmar_oportunidades import evidencias_textuais
+        self.assertIsNone(evidencias_textuais('A aceleradora oferece mentorias para startups em um programa completo.',
+            {'titulo':'Programa ACE Startups','url':'https://fonte.br/glossario/ace'}))
+    def test_beneficiario_indireto_nao_comprova_candidatura(self):
+        from confirmar_oportunidades import evidencias_textuais
+        self.assertIsNone(evidencias_textuais('Programas de aceleração para startups oferecem mentoria e fomento por meio de ambientes de inovação.',
+            {'titulo':'Chamada de aceleração','url':'https://fonte.br/1'}))

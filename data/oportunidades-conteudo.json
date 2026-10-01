@@ -1,12 +1,13 @@
 {
   "versao": "conteudo-v1",
-  "atualizado_em": "2026-10-01T19:56:02.852089+00:00",
+  "atualizado_em": "2026-10-01T20:00:10.334884+00:00",
   "vigencia": "nao_avaliada",
   "contagem": {
     "pendente_leitura": 28,
-    "confirmada_no_conteudo": 16,
+    "confirmada_no_conteudo": 14,
     "pendente_ia": 23,
     "nao_confirmada_no_texto": 1,
+    "pendente_evidencia": 2,
     "falha_leitura": 16
   },
   "itens": [
@@ -525,20 +526,9 @@
       "vigencia": "nao_avaliada",
       "conferido_em": "2026-10-01T19:56:00.452193+00:00",
       "tentativas": 2,
-      "status": "confirmada_no_conteudo",
-      "dados": {
-        "oportunidade_concreta": true,
-        "publico_startup": true,
-        "titulo": "ACE Startups: Aceleradora de Inovação no Brasil",
-        "instituicao": "eliascury.com.br",
-        "tipo": "Oportunidade — modalidade a detalhar",
-        "resumo": "A aceleradora oferece um ambiente propício para a inovação, conectando startups a mentores experientes e investidores que podem ajudar a moldar o futuro das empresas.",
-        "trecho_oportunidade": "A aceleradora oferece um ambiente propício para a inovação, conectando startups a mentores experientes e investidores que podem ajudar a moldar o futuro das empresas.",
-        "trecho_publico": "A aceleradora oferece um ambiente propício para a inovação, conectando startups a mentores experientes e investidores que podem ajudar a moldar o futuro das empresas.",
-        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
-        "metodo": "regras_textuais_conservadoras"
-      },
-      "hash_texto": "f77ef14d7d3c9cb88a88d354330845610c53fdea8e1d8dcae681e9e6440b0376"
+      "status": "pendente_evidencia",
+      "hash_texto": "f77ef14d7d3c9cb88a88d354330845610c53fdea8e1d8dcae681e9e6440b0376",
+      "motivo": "Convite direto para candidatura de startup não comprovado"
     },
     {
       "url": "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml",
@@ -1031,20 +1021,9 @@
       "vigencia": "nao_avaliada",
       "conferido_em": "2026-10-01T19:55:51.515752+00:00",
       "tentativas": 1,
-      "status": "confirmada_no_conteudo",
-      "dados": {
-        "oportunidade_concreta": true,
-        "publico_startup": true,
-        "titulo": "CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação",
-        "instituicao": "alertaeditais.com.br",
-        "tipo": "Oportunidade — modalidade a detalhar",
-        "resumo": "Induzir a aceleração de startups em Minas Gerais por meio do fomento à estruturação e execução de programas de aceleração promovidos por ambientes de inovação localizados no estado, oferecendo mentoria, capacitação, articulação com o ecossistema e aporte financeiro para do custeio de etapas iniciais até o desenvolvimento de produtos prontos para o mercado.",
-        "trecho_oportunidade": "Induzir a aceleração de startups em Minas Gerais por meio do fomento à estruturação e execução de programas de aceleração promovidos por ambientes de inovação localizados no estado, oferecendo mentoria, capacitação, articulação com o ecossistema e aporte financeiro para do custeio de etapas iniciais até o desenvolvimento de produtos prontos para o mercado.",
-        "trecho_publico": "Induzir a aceleração de startups em Minas Gerais por meio do fomento à estruturação e execução de programas de aceleração promovidos por ambientes de inovação localizados no estado, oferecendo mentoria, capacitação, articulação com o ecossistema e aporte financeiro para do custeio de etapas iniciais até o desenvolvimento de produtos prontos para o mercado.",
-        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
-        "metodo": "regras_textuais_conservadoras"
-      },
-      "hash_texto": "cfb3244ece4be8581bf3deb11dfd3da4bda3e70a3029494f2a7132387ff4d07c"
+      "status": "pendente_evidencia",
+      "hash_texto": "cfb3244ece4be8581bf3deb11dfd3da4bda3e70a3029494f2a7132387ff4d07c",
+      "motivo": "Convite direto para candidatura de startup não comprovado"
     }
   ]
 }

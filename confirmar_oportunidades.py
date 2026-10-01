@@ -136,6 +136,8 @@ def classificar_texto(texto, url):
 def evidencias_textuais(texto, e):
     """Confirma somente convite e público explícitos no mesmo trecho literal."""
     titulo = e.get('titulo', '')
+    if re.search(r'/glossario/|/repositorio|/bitstream/', e['url'], re.I) or re.search(r'como funciona|o que [eé]', titulo, re.I):
+        return None
     if not re.search(r'program|edital|chamada|desafio|challenge|miss[aã]o|acelera|incuba|benef[ií]cio|cr[eé]dito|feira|rodada', titulo, re.I):
         return None
     for trecho in re.split(r'(?<=[.!?])\s+|\n', texto):
@@ -143,7 +145,7 @@ def evidencias_textuais(texto, e):
         if not 40 <= len(trecho) <= 1200:
             continue
         publico = re.search(r'\bstartups?\b|empreendedores? inovadores?|neg[oó]cios inovadores?', trecho, re.I)
-        convite = re.search(r'podem (?:se )?participar|podem (?:se )?inscrever|inscri[cç][oõ]es|candidat(?:ura|ar)|selecionar[aá]|selecione?\b|oferece.{0,80}(?:cr[eé]dit|benef[ií]ci|mentor|apoio)|apply|applications|eligible', trecho, re.I)
+        convite = re.search(r'podem (?:se )?participar|podem (?:se )?inscrever|inscri[cç][oõ]es|candidat(?:ura|ar)|selecionar[aá]|selecione?\b|oferece.{0,80}(?:cr[eé]dit|benef[ií]ci)|apply|applications|eligible', trecho, re.I)
         contexto = re.search(r'program|edital|chamada|desafio|challenge|miss[aã]o|acelera|incuba|feira|rodada|cr[eé]dito', trecho, re.I)
         if publico and convite and contexto:
             return {'oportunidade_concreta': True, 'publico_startup': True,
