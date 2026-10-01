@@ -21,10 +21,10 @@ jobs:
     timeout-minutes: 90
     env:
       RADAR_EMAIL: ${{ secrets.RADAR_EMAIL }}
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.GEMINI }}
       RADAR_DB: data/radar.db
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+      TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY || secrets.TAVILY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
