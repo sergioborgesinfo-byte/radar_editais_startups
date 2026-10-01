@@ -171,6 +171,14 @@ def _resolver(r, con, url, d, total):
     return False
 
 
+def abertura_explicita(trecho):
+    s = normalizar(trecho)
+    return bool(re.search(
+        r"(?:pre )?inscric(?:oes|ao) (?:estao |esta )?abert|candidaturas (?:estao )?abertas|"
+        r"recebendo (?:novas )?(?:propostas|inscricoes|candidaturas)|applications (?:are )?open|apply now", s
+    )) and not re.search(r"encerrad|em breve|newsletter", s)
+
+
 def processar(r, con, nome, url, total, resolver=True):
     if url in _visitadas:
         return False
@@ -184,11 +192,11 @@ def processar(r, con, nome, url, total, resolver=True):
         h = hashlib.sha256((VERSAO + texto).encode()).hexdigest()
         visto = con.execute("SELECT hash FROM paginas WHERE url=?", (url,)).fetchone()
         conferido = con.execute(
-            "SELECT conferido_em FROM verificacoes_automaticas WHERE url=? AND versao=? ORDER BY conferido_em DESC LIMIT 1",
+            "SELECT conferido_em, sem_data_final FROM verificacoes_automaticas WHERE url=? AND versao=? ORDER BY conferido_em DESC LIMIT 1",
             (url, VERSAO),
         ).fetchone()
         if visto and visto["hash"] == h and conferido:
-            if agora() - datetime.fromisoformat(conferido[0]) < timedelta(hours=22):
+            if not conferido[1] and agora() - datetime.fromisoformat(conferido[0]) < timedelta(hours=22):
                 total["ignorado"] += 1
                 return True
         d = r.conferir_resposta(r.extrair(texto, url))
@@ -210,7 +218,7 @@ def processar(r, con, nome, url, total, resolver=True):
             d.get("sem_data_final") is True and d.get("inscricoes_abertas") is True
             and not prazo_original
             and _literal(r, d.get("trecho_abertura"), texto)
-            and not re.search(r"encerrad|em breve|aguarde|newsletter", normalizar(d.get("trecho_abertura")))
+            and abertura_explicita(d.get("trecho_abertura"))
         )
         if sem_data:
             revisar = False
@@ -277,7 +285,7 @@ def selecionados(con, versao=VERSAO):
     con.executescript(SCHEMA)
     limite = (agora() - timedelta(hours=48)).isoformat()
     linhas = con.execute(
-        "SELECT e.*, v.limite_iso, v.chave_edicao, v.conferido_em, v.sem_data_final FROM editais e "
+        "SELECT e.*, v.limite_iso, v.chave_edicao, v.conferido_em, v.sem_data_final, v.trecho_abertura FROM editais e "
         "JOIN verificacoes_automaticas v ON v.edital_id=e.id AND v.url=e.url "
         "WHERE e.revisar=0 AND (e.prazo>=? OR (e.prazo IS NULL AND v.sem_data_final=1)) AND v.versao=? AND v.conferido_em>=? "
         "ORDER BY v.conferido_em DESC, e.atualizado_em DESC",
@@ -285,6 +293,8 @@ def selecionados(con, versao=VERSAO):
     ).fetchall()
     saida = []
     for e in linhas:
+        if e["sem_data_final"] and not abertura_explicita(e["trecho_abertura"]):
+            continue
         if e["sem_data_final"] and datetime.fromisoformat(e["conferido_em"]) < agora() - timedelta(hours=24):
             continue
         if e["limite_iso"] and datetime.fromisoformat(e["limite_iso"]) <= agora():

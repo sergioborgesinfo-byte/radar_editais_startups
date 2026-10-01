@@ -191,6 +191,25 @@ class Automacao(unittest.TestCase):
         self.con.execute("UPDATE verificacoes_automaticas SET conferido_em=?", ((a.agora()-timedelta(hours=25)).isoformat(),))
         self.assertEqual(a.selecionados(self.con), [])
 
+    def test_regulamento_condicional_nao_comprova_abertura_atual(self):
+        trecho="As propostas poderão ser apresentadas em Fluxo Contínuo enquanto estiver vigente."
+        self.d.update(prazo_inscricao=None, prazo_e_inscricao=False, sem_data_final=True,
+                      inscricoes_abertas=True, trecho_abertura=trecho)
+        self.texto += " "+trecho
+        self.assertFalse(self.coletar())
+        self.assertEqual(a.selecionados(self.con), [])
+
+    def test_fluxo_continuo_reconfere_em_cada_execucao(self):
+        self.d.update(prazo_inscricao=None, prazo_e_inscricao=False, sem_data_final=True,
+                      inscricoes_abertas=True, trecho_abertura="Inscrições abertas para startups")
+        self.texto += " Inscrições abertas para startups"
+        self.coletar()
+        chamadas=[]
+        self.r.extrair=lambda *args: chamadas.append(1) or self.d.copy()
+        a._visitadas.clear()
+        self.coletar()
+        self.assertEqual(len(chamadas),1)
+
 
 if __name__ == "__main__":
     unittest.main()

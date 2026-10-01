@@ -5,8 +5,8 @@ on:
     - cron: "0 9 * * *"
   workflow_dispatch:
   push:
-    branches: [codex/automatizar-editais]
-    paths: [radar.py, radar_automacao.py, requirements.txt, testes_automacao.py, conferir_servicos.py, testes_servicos.py, '.github/workflows/atualizar.yml']
+    branches: [main]
+    paths: [radar.py, radar_automacao.py, requirements.txt, testes_automacao.py, conferir_servicos.py, testes_servicos.py, sources.json, '.github/workflows/atualizar.yml']
 
 permissions:
   contents: write

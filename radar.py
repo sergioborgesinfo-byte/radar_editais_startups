@@ -674,7 +674,7 @@ def cmd_export(args):
             "n": int((hoje - criado).days <= 7), "r": int(bool(prorrogado)),
             "revisar": e["revisar"],
             "status": (
-                "prazo_a_conferir" if dias is None
+                "inscricoes_abertas" if e["sem_data_final"] else "prazo_a_conferir" if dias is None
                 else "encerrado" if dias < 0 else "aberto"
             ),
             "requisitos": e["requisitos"],
