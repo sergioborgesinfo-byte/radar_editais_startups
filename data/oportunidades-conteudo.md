@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 136, 'confirmada_no_conteudo': 38, 'pendente_ia': 132, 'pendente_evidencia': 8, 'nao_confirmada_no_texto': 1, 'falha_leitura': 11}
+{'pendente_leitura': 179, 'confirmada_no_conteudo': 41, 'pendente_ia': 146, 'pendente_evidencia': 8, 'nao_confirmada_no_texto': 1, 'falha_leitura': 11}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -406,3 +406,69 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Startups - Inovação Aberta - Petrobras — https://conexoes-inovacao.petrobras.com.br/s/startups?language=pt_BR
 - pendente_leitura: Brazilian fintech C6 Bank invites startups to São Paulo incubator | — https://contxto.com/en/brazil/brazilian-fintech-c6-bank-invites-startups-to-sao-paulo-incubator
 - pendente_leitura: 20 editais que financiam ideias inovadoras no Brasil em 2026 - Crédito Empreendedor - Buscador de Empréstimo pra CNPJ — https://creditoempreendedor.com.br/editais-de-inovacao/20-editais-que-financiam-ideias-inovadoras-no-brasil-em-2026
+- confirmada_no_conteudo: Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões — https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes
+  - trecho_oportunidade: Startups das regiões Norte, Nordeste e Centro-Oeste já podem se inscrever para participar da seleção que vai disponibilizar R$ 300 milhões para projetos inovadores alinhados à estratégia Nova Indústria Brasil, do governo federal.
+  - trecho_publico: Startups das regiões Norte, Nordeste e Centro-Oeste já podem se inscrever para participar da seleção que vai disponibilizar R$ 300 milhões para projetos inovadores
+- pendente_ia: Missão Bahia - NEON 2026 - Sebrae Startups — https://programas.sebraestartups.com.br/in/1778619488505x762672382797509800
+- pendente_leitura: Aceleradoras — https://www.startupbrasil.org.br/quem-aceleradoras
+- pendente_leitura: O HUB Goiás está com inscrições abertas para empreendedores e startups que atuam no setor de impacto socioambiental - Anprotec — https://anprotec.org.br/site/2023/10/o-hub-goias-esta-com-inscricoes-abertas-para-empreendedores-e-startups-que-atuam-no-setor-de-impacto-socioambiental
+- pendente_leitura: Novas associadas, edital de incubação e vagas no ecossistema — https://pt.linkedin.com/pulse/novas-associadas-edital-de-incuba%C3%A7%C3%A3o-e-vagas-ecossistema-rhutf
+- pendente_leitura: Elisabeth Rocha Email & Phone Number | Darwin Startups Especialista de Aceleração Contact Information — https://rocketreach.co/elisabeth-rocha-email_360448025
+- pendente_ia: Inova Startups 2026 abre inscrições e amplia alcance nacional com novo ciclo de aportes - Startupi — https://startupi.com.br/inova-startups-2026-inscricoes
+- pendente_leitura: Sebrae abre inscrições para programa de aceleração em IA para micro e pequenas empresas - Startups — https://startups.com.br/branded-content/sebrae-abre-inscricoes-para-programa-de-aceleracao-em-ia-para-micro-e-pequenas-empresas
+- pendente_ia: Aster Aceleradora Portfolio Investments, Aster Aceleradora Funds, Aster Aceleradora Exits — https://www.cbinsights.com/investor/aster-aceleradora
+- pendente_leitura: Programa Nacional Conexão Startup Indústria — https://www.facebook.com/startupindustria
+- pendente_leitura: A Trilha Growth é um método de aceleração de startups ... — https://www.instagram.com/p/DXcWTP2EdRa
+- pendente_leitura: Inovação: oportunidades de incubação e aceleração de startups — https://www.youtube.com/watch?v=ROYWL_EqRwI
+- pendente_leitura: InHire - Software de Recrutamento e Seleção Employee Directory — https://www.zoominfo.com/pic/inhire---software-de-recrutamento-e-seleção/1326924840
+- pendente_ia: Missão Startup Summit 2026 - Sebrae/RN — https://programas.sebraestartups.com.br/in/1778780627550x839845601247809900
+- pendente_leitura: Hub de Inovação do PIT abre inscrições para programa de aceleração e incubação de startups Batch#23 - Anprotec — https://anprotec.org.br/site/2024/02/hub-de-inovacao-do-pit-abre-inscricoes-para-programa-de-aceleracao-e-incubacao-de-startups-batch23
+- pendente_leitura: Porto Digital inicia programa de incubação de startups em ... — https://pt.linkedin.com/pulse/porto-digital-inicia-programa-de-incuba%C3%A7%C3%A3o-v1byf
+- pendente_leitura: IncubaMás I Incubadora de Empresas Management Team | Org Chart — https://rocketreach.co/incubamas-i-incubadora-de-empresas-management_b478772dfc36c08b
+- pendente_ia: Porto Digital abre inscrições para Pré-Incubação de Negócios; saiba como se inscrever - Startupi — https://startupi.com.br/porto-digital-inscricoes-pre-incubacao-negocios
+- pendente_leitura: WOW abre inscrições para novo Batch de aceleração - Startups — https://startups.com.br/branded-content/wow-abre-inscricoes-para-novo-batch-de-aceleracao
+- pendente_ia: WOW Aceleradora Portfolio Investments, WOW Aceleradora Funds, WOW Aceleradora Exits — https://www.cbinsights.com/investor/wow-aceleradora
+- pendente_leitura: PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS ... — https://www.instagram.com/p/DYXk4y9jnhe
+- pendente_leitura: Oportunidades y desafíos para la generación de startups AgTech en América Latina y el Caribe — https://www.youtube.com/watch?v=XiEZnzCkY3Y
+- pendente_ia: BRAVI 2026 | Leve sua Agrifoodtech para a Itália — https://programas.sebraestartups.com.br/in/1780940068996x289665906945032200
+- pendente_leitura: Programa e-Goiás abre edital para startups e empresas inovadoras de todo Brasil, com apoio de até R$ 20 mil - Anprotec — https://anprotec.org.br/site/2025/02/programa-e-goias-abre-edital-para-startups-e-empresas-inovadoras-de-todo-brasil-com-apoio-de-ate-r-20-mil
+- pendente_leitura: Top 1000 do Prêmio Sebrae Startups 2026 — https://pt.linkedin.com/pulse/pr-tem-65-empresas-top-1000-do-pr%C3%AAmio-sebrae-startups-lichacovski-kxdqe
+- pendente_leitura: IncubaMás I Incubadora de Empresas Information — https://rocketreach.co/incubamas-i-incubadora-de-empresas-profile_b478772dfc36c08b
+- confirmada_no_conteudo: Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi — https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao
+  - trecho_oportunidade: Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi
+  - trecho_publico: Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi
+- pendente_leitura: Potencia Ventures abre pré-inscrições para programa de aceleração de startups - Startups — https://startups.com.br/eventos/potencia-ventures-abre-pre-inscricoes-para-programa-de-aceleracao-de-startups
+- pendente_leitura: Sua empresa quer desenvolver soluções para desafios ... — https://www.instagram.com/p/DbBFQTPDC9q
+- pendente_leitura: BNDES GARAGEM | Aline Corrêa - programa de aceleração de startups — https://www.youtube.com/watch?v=evLovz1nHoQ
+- pendente_ia: Missão Empresarial Bahia – Startup Summit 2026 #Startups ... — https://programas.sebraestartups.com.br/in/1783454154242x983490009200236500
+- pendente_leitura: Novo programa da ABVCAP e ApexBrasil vai acelerar até 15 startups no Nordeste - Anprotec — https://anprotec.org.br/site/2026/01/novo-programa-da-abvcap-e-apexbrasil-vai-acelerar-ate-15-startups-no-nordeste
+- pendente_leitura: Tottenham cria incubadora de startups — https://pt.linkedin.com/pulse/tottenham-cria-incubadora-de-startups-humberto-domiciano-ihsjf
+- pendente_leitura: IPFE - Instituto Peruano de Fomento Educativo Information — https://rocketreach.co/ipfe-instituto-peruano-de-fomento-educativo-profile_b5e4a271f42e661a
+- pendente_leitura: Google for Startups lança programa de aceleração para ... — https://startups.com.br/negocios/aceleracao/google-for-startups-lanca-programa-de-aceleracao-para-startups-de-ia
+- pendente_leitura: A Aceleração Startup Piauí é uma iniciativa voltada ao ... — https://www.instagram.com/p/Dc1s5Hvp7aW
+- pendente_leitura: O que é Inovação Aberta? Conceito, Desafios e Exemplos de Como Inovar — https://www.youtube.com/watch?v=qg91aJo1Hgo
+- pendente_ia: A plataforma que é suporte e impulso para startups no Brasil. — https://programas.sebraestartups.com.br/in/1784030276359x103297627130880540
+- pendente_leitura: Edital para startups ou scale-ups atuarem como expositoras no Dublin Tech Summit - Anprotec — https://anprotec.org.br/site/2026/02/edital-para-startups-ou-scale-ups-atuarem-como-expositoras-no-dublin-tech-summit
+- pendente_leitura: Mayara Miranda Email & Phone Number | Pipefy Analista de Recrutamento e Seleção (Tech Recruiter) Contact Information — https://rocketreach.co/mayara-miranda-email_256558529
+- pendente_leitura: Gama Fund, de Google e Monashees, estende prazo de inscrições - Startups — https://startups.com.br/negocios/inteligencia-artificial/gama-fund-de-google-e-monashees-estende-prazo-de-inscricoes
+- pendente_leitura: O O O Hub.RO é a primeira incubadora e aceleradora ... — https://www.instagram.com/p/DcbhNhoFN31
+- pendente_leitura: 1/2 Patricia Hansen "Inversión en startups el 2023, desafíos y ... — https://www.youtube.com/watch?v=wRM3Az7BdpQ
+- pendente_ia: Deep Tech Indústria - Cadastro de deeptechs interessadas — https://programas.sebraestartups.com.br/in/1784305375587x589675719966326800
+- pendente_leitura: As inscrições para a Jornada Startup Experience do ESX 2026 estão abertas para Startups de todo o Brasil - Anprotec — https://anprotec.org.br/site/2026/03/as-inscricoes-para-a-jornada-startup-experience-do-esx-2026-estao-abertas-para-startups-de-todo-o-brasil
+- pendente_leitura: Recrutamento Seleção Email & Phone Number | J&T Express Brasil Diretor geral Contact Information — https://rocketreach.co/recrutamento-selecao-email_596314912
+- pendente_leitura: boostlab, do BTG, abre inscrições para nova turma - Startups — https://startups.com.br/negocios/venture-capital/boostlab-do-btg-abre-inscricoes-para-nova-turma
+- pendente_leitura: 💡🌳 Desafios reais da Amazônia poderão ser conectados ... — https://www.instagram.com/p/DcuCM8TMBZP
+- confirmada_no_conteudo: Missão Técnica PR: Web Summit Lisboa 2026 - Sebrae Startups — https://programas.sebraestartups.com.br/in/1784324907689x991447417353928700
+  - trecho_oportunidade: [color=#c0c0c0]O Sebrae/PR, por meio deste regulamento, selecionará 9[b] (nove) startups ou empresas de Tecnologia da Informação e Comunicação (TIC)[/b], sediadas no estado do Paraná, para participar da [b]Missão Técnica PR: Web Summit Lisboa 2026[/b], que será realizada no período de [b]07 a 15 de novembro de 2026[/b].[/color]
+  - trecho_publico: [color=#c0c0c0]O Sebrae/PR, por meio deste regulamento, selecionará 9[b] (nove) startups ou empresas de Tecnologia da Informação e Comunicação (TIC)[/b], sediadas no estado do Paraná, para participar da [b]Missão Técnica PR: Web Summit Lisboa 2026[/b], que será realizada no período de [b]07 a 15 de novembro de 2026[/b].[/color]
+- pendente_leitura: Inscrições abertas para a 5ª Missão de Startups Brasileiras à SWITCH 2026  - Anprotec — https://anprotec.org.br/site/2026/04/inscricoes-abertas-para-a-5a-missao-de-startups-brasileiras-a-switch-2026
+- pendente_leitura: Sandora Bolsas Information — https://rocketreach.co/sandora-bolsas-profile_b76b26f1c53c4d01
+- pendente_leitura: qual o maior desafio para captar investimentos e acelerar ... — https://www.instagram.com/reel/DHMYXtUBkmi
+- pendente_ia: Health Meeting 2026 | Exposição de Startups — https://programas.sebraestartups.com.br/in/1784907106298x372208081546510340
+- pendente_leitura: Viviane Araujo Email & Phone Number | Hiring - Especialistas em Recrutamento & Seleção Associate Director | Headhunter Contact Information — https://rocketreach.co/viviane-araujo-email_81766070
+- pendente_leitura: Artemisia | Quer participar do CAIXA: Desafio Mulheres em ... — https://www.instagram.com/reel/DIhkPTZyayM?hl=en
+- pendente_ia: Expointer 2026 - Exposição de startups, estande coletivo ... — https://programas.sebraestartups.com.br/in/1784908703725x500892852049595900
+- pendente_leitura: Yu - Seleção Para Transformação Digital Email Format | jornadayu.com Emails — https://rocketreach.co/yu-selecao-para-transformacao-digital-email-format_b43da605c19cbf91
+- pendente_leitura: Los desafíos que enfrentarán las startups en los próximos ... — https://www.instagram.com/reel/DUSqgcwDSLl
+- pendente_ia: RODADAS DE INVESTIMENTOS | GREEN RIO 2026 — https://programas.sebraestartups.com.br/in/1786393514323x887855479641897900
+- pendente_ia: Todos os direitos reservados © Sebrae Startups — https://programas.sebraestartups.com.br/in/apex-northstar2025

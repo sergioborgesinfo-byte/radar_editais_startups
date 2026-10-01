@@ -1,11 +1,11 @@
 {
   "versao": "conteudo-v1",
-  "atualizado_em": "2026-10-01T23:16:55.766246+00:00",
+  "atualizado_em": "2026-10-01T23:38:13.867919+00:00",
   "vigencia": "nao_avaliada",
   "contagem": {
-    "pendente_leitura": 136,
-    "confirmada_no_conteudo": 38,
-    "pendente_ia": 132,
+    "pendente_leitura": 179,
+    "confirmada_no_conteudo": 41,
+    "pendente_ia": 146,
     "pendente_evidencia": 8,
     "nao_confirmada_no_texto": 1,
     "falha_leitura": 11
@@ -3824,6 +3824,641 @@
       "tentativas": 1,
       "status": "pendente_leitura",
       "motivo": "pagina_ConnectTimeout"
+    },
+    {
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
+      "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões | ASN Nacional - Agência Sebrae de Notícias",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:37:59.143374+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões",
+        "instituicao": "Sebrae e Finep",
+        "tipo": "investimento / fomento",
+        "resumo": "Parceria entre Sebrae e Finep disponibiliza R$ 300 milhões para projetos inovadores de startups e pequenos negócios nas regiões Norte, Nordeste e Centro-Oeste.",
+        "trecho_oportunidade": "Startups das regiões Norte, Nordeste e Centro-Oeste já podem se inscrever para participar da seleção que vai disponibilizar R$ 300 milhões para projetos inovadores alinhados à estratégia Nova Indústria Brasil, do governo federal.",
+        "trecho_publico": "Startups das regiões Norte, Nordeste e Centro-Oeste já podem se inscrever para participar da seleção que vai disponibilizar R$ 300 milhões para projetos inovadores",
+        "motivo": "O texto apresenta um edital de seleção concreto com aporte financeiro de R$ 300 milhões voltado especificamente para startups e pequenos negócios inovadores em três regiões do país."
+      },
+      "hash_texto": "d2cc9eb2fa28be10ebe62a933ca87966113e267cb665b2de1c065652737e4c18"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1778619488505x762672382797509800",
+      "titulo": "Missão Bahia - NEON 2026 - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:03.271721+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.startupbrasil.org.br/quem-aceleradoras",
+      "titulo": "Aceleradoras",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:08.868731+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://anprotec.org.br/site/2023/10/o-hub-goias-esta-com-inscricoes-abertas-para-empreendedores-e-startups-que-atuam-no-setor-de-impacto-socioambiental",
+      "titulo": "O HUB Goiás está com inscrições abertas para empreendedores e startups que atuam no setor de impacto socioambiental - Anprotec",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:08.872905+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://pt.linkedin.com/pulse/novas-associadas-edital-de-incuba%C3%A7%C3%A3o-e-vagas-ecossistema-rhutf",
+      "titulo": "Novas associadas, edital de incubação e vagas no ecossistema",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:08.881083+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://rocketreach.co/elisabeth-rocha-email_360448025",
+      "titulo": "Elisabeth Rocha Email & Phone Number | Darwin Startups Especialista de Aceleração Contact Information",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:08.885268+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://startupi.com.br/inova-startups-2026-inscricoes",
+      "titulo": "Inova Startups 2026 abre inscrições e amplia alcance nacional com novo ciclo de aportes - Startupi",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:08.889475+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://startups.com.br/branded-content/sebrae-abre-inscricoes-para-programa-de-aceleracao-em-ia-para-micro-e-pequenas-empresas",
+      "titulo": "Sebrae abre inscrições para programa de aceleração em IA para micro e pequenas empresas - Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:08.894027+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.cbinsights.com/investor/aster-aceleradora",
+      "titulo": "Aster Aceleradora Portfolio Investments, Aster Aceleradora Funds, Aster Aceleradora Exits",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.016976+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.facebook.com/startupindustria",
+      "titulo": "Programa Nacional Conexão Startup Indústria",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.022519+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.instagram.com/p/DXcWTP2EdRa",
+      "titulo": "A Trilha Growth é um método de aceleração de startups ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.042057+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ROYWL_EqRwI",
+      "titulo": "Inovação: oportunidades de incubação e aceleração de startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.046792+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://www.zoominfo.com/pic/inhire---software-de-recrutamento-e-seleção/1326924840",
+      "titulo": "InHire - Software de Recrutamento e Seleção Employee Directory",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.051051+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1778780627550x839845601247809900",
+      "titulo": "Missão Startup Summit 2026 - Sebrae/RN",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.055311+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://anprotec.org.br/site/2024/02/hub-de-inovacao-do-pit-abre-inscricoes-para-programa-de-aceleracao-e-incubacao-de-startups-batch23",
+      "titulo": "Hub de Inovação do PIT abre inscrições para programa de aceleração e incubação de startups Batch#23 - Anprotec",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.061315+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://pt.linkedin.com/pulse/porto-digital-inicia-programa-de-incuba%C3%A7%C3%A3o-v1byf",
+      "titulo": "Porto Digital inicia programa de incubação de startups em ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.065556+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://rocketreach.co/incubamas-i-incubadora-de-empresas-management_b478772dfc36c08b",
+      "titulo": "IncubaMás I Incubadora de Empresas Management Team | Org Chart",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.069858+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://startupi.com.br/porto-digital-inscricoes-pre-incubacao-negocios",
+      "titulo": "Porto Digital abre inscrições para Pré-Incubação de Negócios; saiba como se inscrever - Startupi",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.074258+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://startups.com.br/branded-content/wow-abre-inscricoes-para-novo-batch-de-aceleracao",
+      "titulo": "WOW abre inscrições para novo Batch de aceleração - Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.079961+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.cbinsights.com/investor/wow-aceleradora",
+      "titulo": "WOW Aceleradora Portfolio Investments, WOW Aceleradora Funds, WOW Aceleradora Exits",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.084281+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.instagram.com/p/DYXk4y9jnhe",
+      "titulo": "PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.089482+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XiEZnzCkY3Y",
+      "titulo": "Oportunidades y desafíos para la generación de startups AgTech en América Latina y el Caribe",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.093814+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1780940068996x289665906945032200",
+      "titulo": "BRAVI 2026 | Leve sua Agrifoodtech para a Itália",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.099609+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://anprotec.org.br/site/2025/02/programa-e-goias-abre-edital-para-startups-e-empresas-inovadoras-de-todo-brasil-com-apoio-de-ate-r-20-mil",
+      "titulo": "Programa e-Goiás abre edital para startups e empresas inovadoras de todo Brasil, com apoio de até R$ 20 mil - Anprotec",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.103998+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://pt.linkedin.com/pulse/pr-tem-65-empresas-top-1000-do-pr%C3%AAmio-sebrae-startups-lichacovski-kxdqe",
+      "titulo": "Top 1000 do Prêmio Sebrae Startups 2026",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.108387+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://rocketreach.co/incubamas-i-incubadora-de-empresas-profile_b478772dfc36c08b",
+      "titulo": "IncubaMás I Incubadora de Empresas Information",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.112902+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
+      "titulo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:09.117421+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
+        "instituicao": "startupi.com.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
+        "trecho_oportunidade": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
+        "trecho_publico": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "5602dd95e801035d0ba735c6b9e22d43c0cb31ca0b9aebc6a9ccacbd0e8094ad"
+    },
+    {
+      "url": "https://startups.com.br/eventos/potencia-ventures-abre-pre-inscricoes-para-programa-de-aceleracao-de-startups",
+      "titulo": "Potencia Ventures abre pré-inscrições para programa de aceleração de startups - Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.553425+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.instagram.com/p/DbBFQTPDC9q",
+      "titulo": "Sua empresa quer desenvolver soluções para desafios ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.557865+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=evLovz1nHoQ",
+      "titulo": "BNDES GARAGEM | Aline Corrêa - programa de aceleração de startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.704829+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1783454154242x983490009200236500",
+      "titulo": "Missão Empresarial Bahia – Startup Summit 2026 #Startups ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.709810+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://anprotec.org.br/site/2026/01/novo-programa-da-abvcap-e-apexbrasil-vai-acelerar-ate-15-startups-no-nordeste",
+      "titulo": "Novo programa da ABVCAP e ApexBrasil vai acelerar até 15 startups no Nordeste - Anprotec",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.715474+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://pt.linkedin.com/pulse/tottenham-cria-incubadora-de-startups-humberto-domiciano-ihsjf",
+      "titulo": "Tottenham cria incubadora de startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.719953+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://rocketreach.co/ipfe-instituto-peruano-de-fomento-educativo-profile_b5e4a271f42e661a",
+      "titulo": "IPFE - Instituto Peruano de Fomento Educativo Information",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.724406+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://startups.com.br/negocios/aceleracao/google-for-startups-lanca-programa-de-aceleracao-para-startups-de-ia",
+      "titulo": "Google for Startups lança programa de aceleração para ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.728820+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.instagram.com/p/Dc1s5Hvp7aW",
+      "titulo": "A Aceleração Startup Piauí é uma iniciativa voltada ao ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.733303+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qg91aJo1Hgo",
+      "titulo": "O que é Inovação Aberta? Conceito, Desafios e Exemplos de Como Inovar",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.737701+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1784030276359x103297627130880540",
+      "titulo": "A plataforma que é suporte e impulso para startups no Brasil.",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.742153+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://anprotec.org.br/site/2026/02/edital-para-startups-ou-scale-ups-atuarem-como-expositoras-no-dublin-tech-summit",
+      "titulo": "Edital para startups ou scale-ups atuarem como expositoras no Dublin Tech Summit - Anprotec",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.746694+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://rocketreach.co/mayara-miranda-email_256558529",
+      "titulo": "Mayara Miranda Email & Phone Number | Pipefy Analista de Recrutamento e Seleção (Tech Recruiter) Contact Information",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.751078+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://startups.com.br/negocios/inteligencia-artificial/gama-fund-de-google-e-monashees-estende-prazo-de-inscricoes",
+      "titulo": "Gama Fund, de Google e Monashees, estende prazo de inscrições - Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.755525+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.instagram.com/p/DcbhNhoFN31",
+      "titulo": "O O O Hub.RO é a primeira incubadora e aceleradora ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.759971+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wRM3Az7BdpQ",
+      "titulo": "1/2 Patricia Hansen \"Inversión en startups el 2023, desafíos y ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.764414+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1784305375587x589675719966326800",
+      "titulo": "Deep Tech Indústria - Cadastro de deeptechs interessadas",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.768842+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://anprotec.org.br/site/2026/03/as-inscricoes-para-a-jornada-startup-experience-do-esx-2026-estao-abertas-para-startups-de-todo-o-brasil",
+      "titulo": "As inscrições para a Jornada Startup Experience do ESX 2026 estão abertas para Startups de todo o Brasil - Anprotec",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.773344+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://rocketreach.co/recrutamento-selecao-email_596314912",
+      "titulo": "Recrutamento Seleção Email & Phone Number | J&T Express Brasil Diretor geral Contact Information",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.777883+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://startups.com.br/negocios/venture-capital/boostlab-do-btg-abre-inscricoes-para-nova-turma",
+      "titulo": "boostlab, do BTG, abre inscrições para nova turma - Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.782454+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.instagram.com/p/DcuCM8TMBZP",
+      "titulo": "💡🌳 Desafios reais da Amazônia poderão ser conectados ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.787000+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1784324907689x991447417353928700",
+      "titulo": "Missão Técnica PR: Web Summit Lisboa 2026 - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.791906+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Missão Técnica PR: Web Summit Lisboa 2026 - Sebrae Startups",
+        "instituicao": "programas.sebraestartups.com.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "[color=#c0c0c0]O Sebrae/PR, por meio deste regulamento, selecionará 9[b] (nove) startups ou empresas de Tecnologia da Informação e Comunicação (TIC)[/b], sediadas no estado do Paraná, para participar da [b]Missão Técnica PR: Web Summit Lisboa 2026[/b], que será realizada no período de [b]07 a 15 de novembro de 2026[/b].[/color]",
+        "trecho_oportunidade": "[color=#c0c0c0]O Sebrae/PR, por meio deste regulamento, selecionará 9[b] (nove) startups ou empresas de Tecnologia da Informação e Comunicação (TIC)[/b], sediadas no estado do Paraná, para participar da [b]Missão Técnica PR: Web Summit Lisboa 2026[/b], que será realizada no período de [b]07 a 15 de novembro de 2026[/b].[/color]",
+        "trecho_publico": "[color=#c0c0c0]O Sebrae/PR, por meio deste regulamento, selecionará 9[b] (nove) startups ou empresas de Tecnologia da Informação e Comunicação (TIC)[/b], sediadas no estado do Paraná, para participar da [b]Missão Técnica PR: Web Summit Lisboa 2026[/b], que será realizada no período de [b]07 a 15 de novembro de 2026[/b].[/color]",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "14cb65f9a6d1c89b2259dc3775d775674faeeb9fd1dc9699a2f86ec665667a05"
+    },
+    {
+      "url": "https://anprotec.org.br/site/2026/04/inscricoes-abertas-para-a-5a-missao-de-startups-brasileiras-a-switch-2026",
+      "titulo": "Inscrições abertas para a 5ª Missão de Startups Brasileiras à SWITCH 2026  - Anprotec",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.798003+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://rocketreach.co/sandora-bolsas-profile_b76b26f1c53c4d01",
+      "titulo": "Sandora Bolsas Information",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.802765+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DHMYXtUBkmi",
+      "titulo": "qual o maior desafio para captar investimentos e acelerar ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.807538+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1784907106298x372208081546510340",
+      "titulo": "Health Meeting 2026 | Exposição de Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.812306+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://rocketreach.co/viviane-araujo-email_81766070",
+      "titulo": "Viviane Araujo Email & Phone Number | Hiring - Especialistas em Recrutamento & Seleção Associate Director | Headhunter Contact Information",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.817139+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DIhkPTZyayM?hl=en",
+      "titulo": "Artemisia | Quer participar do CAIXA: Desafio Mulheres em ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.821929+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1784908703725x500892852049595900",
+      "titulo": "Expointer 2026 - Exposição de startups, estande coletivo ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.827110+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://rocketreach.co/yu-selecao-para-transformacao-digital-email-format_b43da605c19cbf91",
+      "titulo": "Yu - Seleção Para Transformação Digital Email Format | jornadayu.com Emails",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.845933+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DUSqgcwDSLl",
+      "titulo": "Los desafíos que enfrentarán las startups en los próximos ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.850795+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1786393514323x887855479641897900",
+      "titulo": "RODADAS DE INVESTIMENTOS | GREEN RIO 2026",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.855606+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/apex-northstar2025",
+      "titulo": "Todos os direitos reservados © Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-01T23:38:13.861401+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
     }
   ]
 }
