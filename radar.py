@@ -126,9 +126,9 @@ def baixar(url):
     inicio = time.monotonic()
     with requests.get(url, headers={"User-Agent": UA}, timeout=(10, 30), stream=True) as r:
         r.raise_for_status()
-        limite = 8 * 1024 * 1024
+        limite = 20 * 1024 * 1024
         if int(r.headers.get("content-length") or 0) > limite:
-            raise ValueError("Arquivo excede 8 MB")
+            raise ValueError("Arquivo excede 20 MB")
         partes, tamanho = [], 0
         for parte in r.iter_content(chunk_size=65536):
             tamanho += len(parte)
@@ -297,7 +297,11 @@ def validar(d, texto):
         meses = ("janeiro fevereiro marco abril maio junho julho agosto setembro outubro novembro dezembro").split()
         numerica = rf"(?<![0-9])0?{data.day}[./-]0?{data.month}[./-]{data.year}(?![0-9])"
         extensa = rf"(?<![0-9])0?{data.day}\s+(?:de\s+)?{meses[data.month-1]}\s+(?:de\s+)?{data.year}(?![0-9])"
-        corresponde = prazo in citado or bool(re.search(numerica, citado) or re.search(extensa, citado))
+        ingles = ("january february march april may june july august september october november december").split()[data.month-1]
+        mes = rf"(?:{ingles}|{ingles[:3]}\.?)"
+        en1 = rf"\b{mes}\s+0?{data.day}(?:st|nd|rd|th)?[,]?\s+{data.year}\b"
+        en2 = rf"(?<![0-9])0?{data.day}\s+{mes}[,]?\s+{data.year}\b"
+        corresponde = prazo in citado or any(re.search(padrao, citado) for padrao in (numerica, extensa, en1, en2))
 
     if not corresponde:
         prazo, revisar = None, True
@@ -676,8 +680,9 @@ def cmd_export(args):
             "requisitos": e["requisitos"],
             "verificado_em": e["conferido_em"],
             "validado_automaticamente": True,
-            "prazo_iso": e["limite_iso"] or (e["prazo"] + "T23:59:59.999-03:00"),
-            "verificacao_valida_ate": (datetime.fromisoformat(e["conferido_em"]) + timedelta(hours=48)).isoformat(),
+            "prazo_iso": e["limite_iso"] or ((e["prazo"] + "T23:59:59.999-03:00") if e["prazo"] else None),
+            "sem_data_final": bool(e["sem_data_final"]),
+            "verificacao_valida_ate": (datetime.fromisoformat(e["conferido_em"]) + timedelta(hours=24 if e["sem_data_final"] else 48)).isoformat(),
         })
     with open(args.saida, "w", encoding="utf-8") as f:
         json.dump(saida, f, ensure_ascii=False, indent=1)

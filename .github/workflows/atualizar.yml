@@ -54,7 +54,22 @@ jobs:
                   origem.backup(copia)
           PY
       - name: Coletar, conferir e exportar
-        run: python -u radar.py run
+        run: |
+          if [ "$GITHUB_REF_NAME" = "codex/automatizar-editais" ]; then
+            python -I -S - <<'PYCFG'
+          import json
+          from pathlib import Path
+          cfg = json.loads(Path("sources.json").read_text())
+          cfg["programas"] = []
+          cfg["busca_aberta"] = None
+          for fonte in cfg["fontes"]:
+              fonte["tipo"] = "pagina"
+          Path("sources-validacao.json").write_text(json.dumps(cfg))
+          PYCFG
+            python -u radar.py run --fontes sources-validacao.json
+          else
+            python -u radar.py run
+          fi
       - name: Salvar alterações
         run: |
           git config user.name "$GITHUB_ACTOR"

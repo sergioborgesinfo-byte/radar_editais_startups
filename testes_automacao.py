@@ -163,6 +163,34 @@ class Automacao(unittest.TestCase):
     def test_url_com_credenciais_nao_e_institucional(self):
         self.assertFalse(a.institucional("https://usuario:senha@portal.ifrn.edu.br/"))
 
+    def test_aberta_sem_data_com_evidencia_publica(self):
+        self.d.update(prazo_inscricao=None, prazo_e_inscricao=False, sem_data_final=True,
+                      inscricoes_abertas=True, trecho_abertura="Inscrições abertas para startups")
+        self.texto += " Inscrições abertas para startups"
+        self.assertTrue(self.coletar())
+        self.assertEqual(len(a.selecionados(self.con)), 1)
+        self.assertTrue(a.selecionados(self.con)[0]["sem_data_final"])
+
+    def test_sem_data_sem_abertura_nao_publica(self):
+        self.d.update(prazo_inscricao=None, prazo_e_inscricao=False, sem_data_final=True,
+                      inscricoes_abertas=True, trecho_abertura="Texto inventado")
+        self.assertFalse(self.coletar())
+        self.assertEqual(a.selecionados(self.con), [])
+
+    def test_nao_transforma_vencido_em_continuo(self):
+        self.d.update(prazo_inscricao=(a.agora().date()-timedelta(days=1)).isoformat(),
+                      sem_data_final=True, inscricoes_abertas=True, trecho_abertura="Startups podem participar.")
+        self.coletar()
+        self.assertEqual(a.selecionados(self.con), [])
+
+    def test_sem_data_expira_evidencia_em_24_horas(self):
+        self.d.update(prazo_inscricao=None, prazo_e_inscricao=False, sem_data_final=True,
+                      inscricoes_abertas=True, trecho_abertura="Inscrições abertas para startups")
+        self.texto += " Inscrições abertas para startups"
+        self.coletar()
+        self.con.execute("UPDATE verificacoes_automaticas SET conferido_em=?", ((a.agora()-timedelta(hours=25)).isoformat(),))
+        self.assertEqual(a.selecionados(self.con), [])
+
 
 if __name__ == "__main__":
     unittest.main()

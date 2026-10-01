@@ -8,11 +8,14 @@ from difflib import SequenceMatcher
 from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
-VERSAO = "startup-automatico-v5"
+VERSAO = "startup-automatico-v6"
 FUSO = ZoneInfo("America/Sao_Paulo")
 DOMINIOS = (
     "sebrae.com.br", "sebraestartups.com.br", "hubgoias.org",
     "acelera-hubgoias.innovc.com.br", "fapesc.sc.gov.br",
+    "venturehub.se", "tecnosinos.com.br", "startup.google.com", "startup.google.com.br",
+    "wow.ac", "darwinstartups.com", "aceventures.com.br", "fi.co",
+    "usp.br", "unicamp.br", "ufpe.br", "ufmg.br", "pucminas.br", "unesp.br",
 )
 FONTES = (
     ("Finep Tecnologias Digitais — fonte oficial", "https://www.finep.gov.br/e/chamada-publica/222684/755485"),
@@ -26,7 +29,17 @@ Além dos campos já solicitados, responda:
 "trecho_responsavel": citação literal da identificação do responsável,
 "prazo_e_inscricao": boolean,
 "prazo_hora": "HH:MM" ou null,
-"identificador_edital": número/ano literal da chamada ou null.
+"identificador_edital": número/ano literal da chamada ou null,
+"inscricoes_abertas": boolean,
+"trecho_abertura": citação literal de inscrição atualmente aberta,
+"sem_data_final": boolean.
+Aceite programas de aceleração, incubação, desafios e seleção de investimento
+para startups, mesmo sem a palavra edital. e_edital significa oportunidade concreta.
+sem_data_final=true somente para inscrições abertas sem data final definida.
+Não confunda newsletter, banco genérico de contatos ou "em breve" com seleção aberta.
+Não use sem_data_final para ignorar uma data vencida. Em notícias antigas sem
+situação atual verificável, inscricoes_abertas=false.
+fonte_responsavel também pode ser notícia do próprio responsável sobre sua chamada.
 fonte_responsavel=true somente para página/documento do responsável pela
 chamada, executor ou plataforma oficial de inscrição. Notícias de terceiros,
 apresentações gerais, agregadores e cópias de documentos não são fonte oficial.
@@ -86,6 +99,10 @@ def institucional(url):
 def preparar(con, cfg):
     global _resolucoes, _dominios
     con.executescript(SCHEMA)
+    colunas = {x[1] for x in con.execute("PRAGMA table_info(verificacoes_automaticas)")}
+    for nome, tipo in (("sem_data_final", "INTEGER DEFAULT 0"), ("trecho_abertura", "TEXT")):
+        if nome not in colunas:
+            con.execute(f"ALTER TABLE verificacoes_automaticas ADD COLUMN {nome} {tipo}")
     _visitadas.clear()
     _resolucoes = 0
     _dominios = set(DOMINIOS)
@@ -119,8 +136,17 @@ def _literal(r, trecho, texto):
 
 
 def _responsavel(r, url, d, texto):
-    if not institucional(url) or d.get("fonte_responsavel") is not True:
+    if d.get("fonte_responsavel") is not True:
         return False
+    if not institucional(url):
+        h = host(url)
+        genericos = {"instituto", "fundacao", "programa", "startup", "startups", "aceleradora", "incubadora", "brasil", "universidade", "inovacao", "tecnologia", "grupo", "centro"}
+        marcas = [x for x in normalizar(d.get("orgao")).split() if len(x)>=6 and x not in genericos]
+        # Novas instituições podem entrar sem cadastro prévio quando a marca
+        # consta do domínio próprio e a extração comprova a fonte responsável.
+        dominio = h.split(".")[0]
+        if not h or not any(m in dominio for m in marcas):
+            return False
     if not _literal(r, d.get("trecho_responsavel"), texto):
         return False
     orgao, h = normalizar(d.get("orgao")), host(url)
@@ -139,7 +165,7 @@ def _resolver(r, con, url, d, total):
     _resolucoes += 1
     consulta = f'{d.get("titulo", "")[:220]} {d.get("orgao", "")[:120]} edital inscrições site oficial'
     for candidato in r.buscar_aberta(consulta, 5, chave):
-        if institucional(candidato) and candidato not in _visitadas:
+        if host(candidato) and candidato not in _visitadas:
             if processar(r, con, "Fonte oficial descoberta", candidato, total, resolver=False):
                 return True
     return False
@@ -176,9 +202,18 @@ def processar(r, con, nome, url, total, resolver=True):
             if resolver:
                 return _resolver(r, con, url, d, total)
             return False
+        prazo_original = d.get("prazo_inscricao")
         d, revisar = r.validar(d, texto)
         if d.get("prazo_e_inscricao") is not True:
             d["prazo_inscricao"], revisar = None, True
+        sem_data = (
+            d.get("sem_data_final") is True and d.get("inscricoes_abertas") is True
+            and not prazo_original
+            and _literal(r, d.get("trecho_abertura"), texto)
+            and not re.search(r"encerrad|em breve|aguarde|newsletter", normalizar(d.get("trecho_abertura")))
+        )
+        if sem_data:
+            revisar = False
         limite = None
         hora = d.get("prazo_hora")
         if hora is not None:
@@ -194,9 +229,9 @@ def processar(r, con, nome, url, total, resolver=True):
             codigo = None
         edicao = normalizar(d.get("orgao")) + "|" + normalizar(codigo or d.get("titulo"))
         con.execute(
-            "INSERT OR REPLACE INTO verificacoes_automaticas VALUES(?,?,?,?,?,?,?,?,?)",
+            "INSERT OR REPLACE INTO verificacoes_automaticas(edital_id,url,versao,conferido_em,trecho_publico,trecho_prazo,trecho_responsavel,limite_iso,chave_edicao,sem_data_final,trecho_abertura) VALUES(?,?,?,?,?,?,?,?,?,?,?)",
             (eid, url, VERSAO, agora().isoformat(), d["trecho_publico"],
-             d.get("trecho_prazo"), d["trecho_responsavel"], limite, edicao),
+             d.get("trecho_prazo"), d["trecho_responsavel"], limite, edicao, int(sem_data), d.get("trecho_abertura")),
         )
         con.execute("INSERT OR REPLACE INTO paginas VALUES(?,?,?)", (url, h, r._agora().isoformat()))
         if revisar:
@@ -218,7 +253,7 @@ def reconferir(r, con, total):
     con.executescript(SCHEMA)
     hoje = agora().date().isoformat()
     urls = [x[0] for x in con.execute(
-        "SELECT DISTINCT url FROM editais WHERE revisar=0 AND prazo>=?", (hoje,)
+        "SELECT DISTINCT e.url FROM editais e LEFT JOIN verificacoes_automaticas v ON v.edital_id=e.id WHERE e.revisar=0 AND (e.prazo>=? OR v.sem_data_final=1)", (hoje,)
     )]
     pendentes = [x[0] for x in con.execute(
         "SELECT url FROM pendencias_automaticas WHERE motivo!='Público startup não comprovado' ORDER BY tentado_em LIMIT 12"
@@ -242,14 +277,16 @@ def selecionados(con, versao=VERSAO):
     con.executescript(SCHEMA)
     limite = (agora() - timedelta(hours=48)).isoformat()
     linhas = con.execute(
-        "SELECT e.*, v.limite_iso, v.chave_edicao, v.conferido_em FROM editais e "
+        "SELECT e.*, v.limite_iso, v.chave_edicao, v.conferido_em, v.sem_data_final FROM editais e "
         "JOIN verificacoes_automaticas v ON v.edital_id=e.id AND v.url=e.url "
-        "WHERE e.revisar=0 AND e.prazo>=? AND v.versao=? AND v.conferido_em>=? "
+        "WHERE e.revisar=0 AND (e.prazo>=? OR (e.prazo IS NULL AND v.sem_data_final=1)) AND v.versao=? AND v.conferido_em>=? "
         "ORDER BY v.conferido_em DESC, e.atualizado_em DESC",
         (agora().date().isoformat(), versao, limite),
     ).fetchall()
     saida = []
     for e in linhas:
+        if e["sem_data_final"] and datetime.fromisoformat(e["conferido_em"]) < agora() - timedelta(hours=24):
+            continue
         if e["limite_iso"] and datetime.fromisoformat(e["limite_iso"]) <= agora():
             continue
         if not any(_duplicado(e, outro) for outro in saida):

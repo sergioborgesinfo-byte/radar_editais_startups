@@ -113,9 +113,12 @@ function fill(id,k){
 function brl(v){return v?"R$ "+v.toLocaleString("pt-BR"):"Valor não informado"}
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function setData(list,label,isDemo){
+  $("src").dataset.demo=isDemo?"1":"0";
   E=list.map(norm);E.forEach(function(e,i){
       e.automatico=list[i].validado_automaticamente===true;
-      e.limite=Date.parse(list[i].prazo_iso||"");
+      e.continuo=list[i].sem_data_final===true;
+      if(e.continuo)e.pend=false;
+      e.limite=e.continuo?Infinity:Date.parse(list[i].prazo_iso||"");
       e.validade=Date.parse(list[i].verificacao_valida_ate||"");
     });
   var vistos=new Set();
@@ -131,7 +134,7 @@ function setData(list,label,isDemo){
 function render(){
   var q=$("q").value.toLowerCase(),tp=$("tipo").value,es=$("est").value,od=$("ord").value,st="",tr="foco";
   var L=E.filter(function(e){
-    return e.automatico && e.limite>Date.now() && e.validade>Date.now() && e.d!==null && e.d>=0 && !e.pend
+    return e.automatico && e.limite>Date.now() && e.validade>Date.now() && (e.continuo || (e.d!==null && e.d>=0)) && !e.pend
       && !Number(e.rev) && !e.fora && !e.dup
       && (!tp||e.tipo===tp)
       && (!es||e.est===es)
@@ -143,13 +146,14 @@ function render(){
     (a.d===null?Infinity:a.d)-(b.d===null?Infinity:b.d)
   });
   $("cnt").textContent=L.length+(L.length===1?" edital":" editais");
+  if($("src").dataset.demo!=="1")$("src").textContent=L.length+(L.length===1?" oportunidade disponível":" oportunidades disponíveis");
   if(!L.length){$("list").innerHTML='<div class="empty">Nenhum edital com prazo vigente registrado nesta seleção.</div>';return}
   $("list").innerHTML=L.map(function(e){
     var enc=e.d!==null&&e.d<0,urg=e.d!==null&&!enc&&e.d<=10,i=E.indexOf(e),k=e.t+"|"+e.o;
     var tags='<span class="tag">'+esc(e.tipo)+'</span><span class="tag">'+esc(e.est)+'</span>'+(e.n?'<span class="tag new">Novo</span>':'')+(e.r?'<span class="tag ret">Prazo prorrogado</span>':'')+(e.rev?'<span class="tag ret">Prazo precisa de revisão</span>':'');
     tags+=(e.fora?'<span class="tag ret">Fora do foco de startups</span>':'')
       +(e.dup?'<span class="tag ret">Repetição exata</span>':'');
-    var dias=e.d===null?
+    var dias=e.continuo?'<b style="font-size:1rem">Inscrições abertas</b><span>Sem data final definida</span>':e.d===null?
     '<b style="font-size:1rem">Sem prazo</b><span>Data não identificada</span>':
     e.pend?'<b style="font-size:1rem">Data a revisar</b><span>'+e.dt.toLocaleDateString("pt-BR")+(e.d<0?' · data passada':'')+'</span>':
     e.d===0?'<b style="font-size:1rem">Prazo hoje</b><span>Confira o horário no edital</span>':enc?'<b>Encerrado</b><span>'+e.dt.toLocaleDateString("pt-BR")+'</span>':'<b>'+e.d+'</b><span>'+(e.d===1?'dia restante':'dias restantes')+'</span>';

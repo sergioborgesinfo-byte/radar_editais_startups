@@ -69,6 +69,8 @@ def main():
         print("Anthropic: autenticação e resposta OK.")
     destino = os.getenv("GITHUB_ENV")
     if destino:
+        for nome in nomes:
+            print("::add-mask::" + os.environ[nome])
         with open(destino, "a", encoding="utf-8") as arquivo:
             for nome in nomes:
                 arquivo.write(nome + "=" + os.environ[nome] + "\n")
