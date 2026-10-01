@@ -108,3 +108,17 @@ class ProgressoFila(unittest.TestCase):
         feitos={itens[0]['url']:{'status':'pendente_ia','tentativas':2}}
         escolhidas=fila(itens,feitos,2)
         self.assertEqual([x['url'] for x in escolhidas],[itens[1]['url'],itens[2]['url']])
+
+
+class CoberturaGlobal(unittest.TestCase):
+    def test_inedito_outro_dominio_antes_de_repeticao(self):
+        itens = [{'url': u, 'categoria': 'prioridade_verificacao'} for u in
+                 ['https://a.gov.br/antiga', 'https://b.br/nova']]
+        feitos = {itens[0]['url']: {'status': 'pendente_ia', 'tentativas': 1}}
+        self.assertEqual(fila(itens, feitos, 1), [itens[1]])
+
+    def test_repeticoes_ainda_entram_quando_sobram_vagas(self):
+        itens = [{'url': u, 'categoria': 'prioridade_verificacao'} for u in
+                 ['https://a.gov.br/antiga', 'https://b.br/nova']]
+        feitos = {itens[0]['url']: {'status': 'pendente_ia', 'tentativas': 1}}
+        self.assertEqual(fila(itens, feitos, 2), [itens[1], itens[0]])

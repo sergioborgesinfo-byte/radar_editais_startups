@@ -80,13 +80,18 @@ def fila(itens, feitos, limite):
             continue
         grupos[urlsplit(e['url']).hostname].append(e)
     selecionados = []
-    while grupos and len(selecionados) < limite:
-        for host in list(grupos):
-            selecionados.append(grupos[host].popleft())
-            if not grupos[host]:
-                del grupos[host]
-            if len(selecionados) >= limite:
-                break
+    # Cobertura primeiro: nenhuma repetição ocupa a vaga de uma página inédita.
+    for repeticao in (False, True):
+        fase = {host: deque(e for e in grupo if bool(feitos.get(e['url'])) == repeticao)
+                for host, grupo in grupos.items()}
+        fase = {host: grupo for host, grupo in fase.items() if grupo}
+        while fase and len(selecionados) < limite:
+            for host in list(fase):
+                selecionados.append(fase[host].popleft())
+                if not fase[host]:
+                    del fase[host]
+                if len(selecionados) >= limite:
+                    break
     return selecionados
 
 

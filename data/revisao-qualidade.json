@@ -1,0 +1,22 @@
+{
+  "avaliado_em": "2026-10-01T20:45:00Z",
+  "links_descobertos": 973,
+  "paginas_examinadas": 146,
+  "status": {
+    "pendente_leitura": 58,
+    "confirmada_no_conteudo": 26,
+    "pendente_ia": 50,
+    "nao_confirmada_no_texto": 1,
+    "falha_leitura": 11
+  },
+  "dominios_examinados": 128,
+  "dominios_confirmados": 25,
+  "caso_mercopar": {
+    "status": "ainda_nao_examinada"
+  },
+  "catalogo_sebrae": "fonte_catalogo; não é oportunidade",
+  "avancar_vigencia": false,
+  "justificativa": "Leitura do caso Mercopar ainda não demonstrada; pendências de acesso e IA dominam o resultado. Variedade de modalidades e elegibilidade direta ainda precisam de revisão. Não há evidência suficiente para avançar.",
+  "testes_fila": 17,
+  "resultado_base": "57e9a4c62453bd40b5f8f77873c55c24fe0b95c3"
+}
