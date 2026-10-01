@@ -117,6 +117,7 @@ function setData(list,label,isDemo){
   E=list.map(norm);E.forEach(function(e,i){
       e.automatico=list[i].validado_automaticamente===true;
       e.continuo=list[i].sem_data_final===true;
+      if(e.continuo && /(^|\.)wow\.ac$/i.test(new URL(e.link,location.href).hostname))e.automatico=false;
       if(e.continuo)e.pend=false;
       e.limite=e.continuo?Infinity:Date.parse(list[i].prazo_iso||"");
       e.validade=Date.parse(list[i].verificacao_valida_ate||"");

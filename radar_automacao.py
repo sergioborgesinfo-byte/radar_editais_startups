@@ -176,7 +176,7 @@ def abertura_explicita(trecho):
     return bool(re.search(
         r"(?:pre )?inscric(?:oes|ao) (?:estao |esta )?abert|candidaturas (?:estao )?abertas|"
         r"recebendo (?:novas )?(?:propostas|inscricoes|candidaturas)|applications (?:are )?open|apply now", s
-    )) and not re.search(r"encerrad|em breve|newsletter", s)
+    )) and not re.search(r"encerrad|em breve|newsletter|pre inscri|pre cadastro|lista de espera", s)
 
 
 def processar(r, con, nome, url, total, resolver=True):
