@@ -6,7 +6,7 @@ var base='https://raw.githubusercontent.com/sergioborgesinfo-byte/radar_editais_
 function el(id){return document.getElementById(id)}
 function escape(s){return String(s||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
 function label(status){return {'confirmada_no_conteudo':'Relevância confirmada','nao_confirmada_no_texto':'Não confirmada no texto','falha_leitura':'Leitura pendente','pendente_leitura':'Leitura pendente','pendente_ia':'Análise pendente','pendente_evidencia':'Evidências pendentes'}[status]||'Ainda não examinada'}
-function motivo(x){var m=x.motivo||'';if(m.indexOf('429')>=0)return 'Limite do serviço de IA atingido';if(m.indexOf('robots')>=0)return 'Site não autoriza leitura automática';if(m.indexOf('dinamica')>=0)return 'Página precisa de outro método de leitura';if(m.indexOf('pagina_http')===0)return 'Página recusou o acesso';if(m.indexOf('gemini')===0)return 'Serviço de IA indisponível';return m?'Leitura ou evidência precisa de nova tentativa':''}
+function motivo(x){if(!/^(falha_leitura|pendente_leitura|pendente_ia|pendente_evidencia)$/.test(x.status||''))return '';var m=x.motivo||'';if(m.indexOf('429')>=0)return 'Limite do serviço de IA atingido';if(m.indexOf('robots')>=0)return 'Site não autoriza leitura automática';if(m.indexOf('dinamica')>=0)return 'Página precisa de outro método de leitura';if(m.indexOf('pagina_http')===0)return 'Página recusou o acesso';if(m.indexOf('gemini')===0)return 'Serviço de IA indisponível';return m?'Leitura ou evidência precisa de nova tentativa':''}
 function render(){
  if(!snapshot)return;
  var checked={};snapshot.confirmacoes.forEach(function(x){checked[x.url]=x});
