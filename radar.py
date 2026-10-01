@@ -206,9 +206,13 @@ def extrair_gemini(texto, url, chave):
             json=corpo,
             timeout=90,
         )
-        if r.status_code == 429:
-            time.sleep(20 * (tentativa + 1))
-            continue
+        if r.status_code == 429 or 500 <= r.status_code <= 599:
+            codigo = r.status_code
+            r.close()
+            if tentativa < 3:
+                time.sleep((20 if codigo == 429 else 5) * (tentativa + 1))
+                continue
+            raise RuntimeError(f"Gemini indisponível após 4 tentativas (HTTP {codigo}); a página será tentada na próxima execução")
         r.raise_for_status()
         partes = r.json()["candidates"][0]["content"]["parts"]
         return _limpar_json("".join(x.get("text", "") for x in partes))

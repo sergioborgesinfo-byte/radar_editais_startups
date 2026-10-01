@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [codex/automatizar-editais]
-    paths: [radar.py, radar_automacao.py, requirements.txt, testes_automacao.py, '.github/workflows/atualizar.yml']
+    paths: [radar.py, radar_automacao.py, requirements.txt, testes_automacao.py, conferir_servicos.py, testes_servicos.py, '.github/workflows/atualizar.yml']
 
 permissions:
   contents: write
@@ -38,9 +38,10 @@ jobs:
           python -m pip install --index-url https://pypi.org/simple --only-binary=:all: -r requirements.txt
       - name: Conferir importação do coletor
         run: python -c 'import radar; assert callable(radar.conferir_resposta)'
-      - name: Conferir chaves configuradas
-        run: >-
-          python -I -S -c 'import os; assert os.getenv("TAVILY_API_KEY"), "Configure TAVILY_API_KEY nos secrets"; assert os.getenv("GEMINI_API_KEY") or os.getenv("ANTHROPIC_API_KEY"), "Configure uma chave de IA nos secrets"'
+      - name: Testar falhas dos serviços
+        run: python -I -S testes_servicos.py
+      - name: Conferir autenticação e disponibilidade
+        run: python -I -S conferir_servicos.py
       - name: Preparar banco persistente
         run: |
           python -I -S - <<'PY'
