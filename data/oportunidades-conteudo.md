@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 108, 'confirmada_no_conteudo': 41, 'pendente_ia': 104, 'nao_confirmada_no_texto': 1, 'falha_leitura': 11, 'pendente_evidencia': 1}
+{'pendente_leitura': 136, 'confirmada_no_conteudo': 38, 'pendente_ia': 132, 'pendente_evidencia': 8, 'nao_confirmada_no_texto': 1, 'falha_leitura': 11}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -24,9 +24,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Experiências internacionais de inovação e lançamento de edital do MCTI marcam 2ª dia da 30ª Conferência Anprotec – Conferência Anprotec 2020 — https://anprotec.org.br/conferencia2020/2020/11/24/experiencias-internacionais-de-inovacao-e-lancamento-de-edital-do-mcti-marcam-2a-dia-da-30a-conferencia-anprotec
 - pendente_leitura: Incubação 2025.2 - Recife — https://app.portodigital.org/publico/84/desafio
 - pendente_leitura: Editais de Pré-Incubação e Incubação de Startups :: Aquário de Ideias — https://aquariounesp.com.br/editalstartup
-- confirmada_no_conteudo: Programa Santander USP de Inovação e Empreendedorismo – Criação de Startups – Edição 2026 — https://auspin.usp.br/bolsastartupusp2026
-  - trecho_oportunidade: O Programa Santander USP de Inovação e Empreendedorismo – Criação de Startups – Edição 2026 é uma ação da USP, por meio da Agência USP de Inovação, em parceria com a Pró-Reitoria de Graduação e a Pró-Reitoria de Pós-graduação, que visa selecionar estudantes de graduação e de pós-graduação (stricto sensu) da USP para realizarem atividades de desenvolvimento tecnológico e de inovação no “Programa STARTUP USP”.
-  - trecho_publico: As bolsas serão concedidas às equipes de estudantes regularmente matriculados, que se encontram desenvolvendo protótipos de novos produtos, serviços e/ou experiências, com foco na estruturação de novos empreendimentos
+- pendente_evidencia: Programa Santander USP de Inovação e Empreendedorismo – Criação de Startups – Edição 2026 — https://auspin.usp.br/bolsastartupusp2026
 - pendente_leitura: Aceleração de Startups no Brasil: o guia 2026 | Baita Aceleradora — https://baita.ac/aceleracao-de-startups
 - pendente_ia: Edital Granioter Acelera 2026 – Biominas Brasil e Granioter – Biominas Brasil — https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil
 - pendente_leitura: StartupCE abre edital para selecionar 60 startups com bolsas de inovação tecnológica – Papo de Negócios — https://blogs.opovo.com.br/papodenegocios/2026/07/10/startupce-abre-edital-para-selecionar-60-startups-com-bolsas-de-inovacao-tecnologica
@@ -59,9 +57,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow — https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups
   - trecho_oportunidade: A Cotidiano, aceleradora de Startups acaba de abrir inscrições para a primeira etapa de aceleração de 2018.
   - trecho_publico: A Cotidiano, aceleradora de Startups acaba de abrir inscrições para a primeira etapa de aceleração de 2018.
-- confirmada_no_conteudo: PROGRAMA DE INVESTIMENTO EM STARTUPS INOVA – 5ª Edição - ECT&I — https://ecti.ac.gov.br/editais/programa-de-investimento-em-startups-inova-5a-edicao
-  - trecho_oportunidade: O programa oferece uma jornada completa de aceleração, mentorias exclusivas e acesso a investidores para startups inovadoras e escaláveis em todo o Brasil.
-  - trecho_publico: O programa oferece uma jornada completa de aceleração, mentorias exclusivas e acesso a investidores para startups inovadoras e escaláveis em todo o Brasil.
+- pendente_evidencia: PROGRAMA DE INVESTIMENTO EM STARTUPS INOVA – 5ª Edição - ECT&I — https://ecti.ac.gov.br/editais/programa-de-investimento-em-startups-inova-5a-edicao
 - pendente_leitura: Aceleração 1 – Editais — https://editais.hubgovtechpr.org.br/aceleracao1
 - pendente_leitura: Aceleradoras: editais e oportunidades abertas no Brasil | Editais do Brasil — https://editaisdobrasil.com/oportunidades/aceleradoras
 - pendente_ia: ACE Startups: Aceleradora de Inovação no Brasil — https://eliascury.com.br/glossario/ace-startups-aceleradora-inovacao-brasil
@@ -166,9 +162,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Porto Digital lança editais de incubação e internacionalização de negócios — https://movimentoeconomico.com.br/tecnologia/2026/02/10/porto-digital-lanca-editais-de-incubacao-e-internacionalizacao-de-negocios
 - pendente_leitura: Sebrae/MS abre seleção gratuita para acelerar até 30 startups sul-mato-grossenses | MSConecta — https://msconecta.com.br/noticia/15278/sebrae-ms-abre-selecao-gratuita-para-acelerar-ate-30-startups-sul-mato-grossenses/amp
 - pendente_leitura: Edital Nº 11/2026 - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia — https://multiplicidades.org.br/edital-no-11-2026-programa-fapdf-start-bsb-3o-ciclo-selecao-publica-de-propostas-para-apoio-financeiro-na-modalidade-subvencao-economica-as-startups
-- confirmada_no_conteudo: BNDES Garagem: conheça esse programa voltado para as startups – Núcleo de acesso ao crédito — https://nac.cni.com.br/blog/bndes-garagem-conheca-esse-programa-voltado-para-as-startups
-  - trecho_oportunidade: Em sua 1° edição, realizada em 2018, o BNDES Garagem recebeu 5.056 inscrições, das quais selecionou 74 startups, divididas em dois módulos: 44 no módulo de criação e 30 no módulo de aceleração.
-  - trecho_publico: Em sua 1° edição, realizada em 2018, o BNDES Garagem recebeu 5.056 inscrições, das quais selecionou 74 startups, divididas em dois módulos: 44 no módulo de criação e 30 no módulo de aceleração.
+- pendente_evidencia: BNDES Garagem: conheça esse programa voltado para as startups – Núcleo de acesso ao crédito — https://nac.cni.com.br/blog/bndes-garagem-conheca-esse-programa-voltado-para-as-startups
 - confirmada_no_conteudo: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março — https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco
   - trecho_oportunidade: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março
   - trecho_publico: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março
@@ -205,9 +199,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/pequenos-negocios-podem-se-inscrever-para-rodadas-de-negocios-com-startups-durante-forum-e-commerce-brasil-2026
   - trecho_oportunidade: Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias
   - trecho_publico: Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias
-- confirmada_no_conteudo: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao
-  - trecho_oportunidade: A CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação tem por objetivo induzir a aceleração de startups no estado de Minas Gerais por meio do fomento à estruturação e à execução de programas de aceleração promovidos por ambientes de inovação localizados no estado.
-  - trecho_publico: A CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação tem por objetivo induzir a aceleração de startups no estado de Minas Gerais
+- pendente_evidencia: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao
 - confirmada_no_conteudo: InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc — https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups
   - trecho_oportunidade: InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc
   - trecho_publico: InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc
@@ -244,13 +236,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Episódio 3 do Safra de Inovações traz logística como desafio ... — https://startups.com.br/branded-content/episodio-3-do-safra-de-inovacoes-traz-logistica-como-desafio
 - pendente_leitura: EDITAL DE INSCRIÇÃO - GBR — https://suaideiavaleummilhao.com.br/edital-sua-ideia-vale-1-milhao.pdf
 - pendente_ia: Start-Up Challenge – El Start-Up Challenge impulsa la innovación, el desarrollo y la transformación digital de las juventudes en las Américas. — https://ticamericas.net/startup
-- confirmada_no_conteudo: Oracle lança programa de créditos em nuvem para startups na América Latina - Times Brasil | CNBC — https://timesbrasil.com.br/empresas-e-negocios/startups/oracle-programa-creditos-nuvem-startups-america-latina
-  - trecho_oportunidade: Oracle oferece até US$ 60 mil em créditos de nuvem para startups da América Latina
-  - trecho_publico: Oracle oferece até US$ 60 mil em créditos de nuvem para startups da América Latina
+- pendente_evidencia: Oracle lança programa de créditos em nuvem para startups na América Latina - Times Brasil | CNBC — https://timesbrasil.com.br/empresas-e-negocios/startups/oracle-programa-creditos-nuvem-startups-america-latina
 - pendente_leitura: Natura abre inscrições para aceleração de startups de beleza na América Latina — https://tvsimbrasil.com.br/negocios/natura-abre-inscricoes-para-aceleracao-de-startups-de-beleza-na-america-latina-1781162123
-- confirmada_no_conteudo: Aceleração | GBV — https://ventures.grupoboticario.com.br/aceleracao
-  - trecho_oportunidade: Durante o período do Programa de Aceleração do Grupo Boticário, as startups não podem participar ou ter intenção de participar de programas de concorrentes diretos.
-  - trecho_publico: Durante o período do Programa de Aceleração do Grupo Boticário, as startups não podem participar ou ter intenção de participar de programas de concorrentes diretos.
+- pendente_evidencia: Aceleração | GBV — https://ventures.grupoboticario.com.br/aceleracao
 - pendente_ia: Citz.tech: programa de aceleração de startups voltado à cidadania e transparência — https://via.ufsc.br/conheca-o-citz-tech
 - pendente_ia: Aceleradora — https://www.2gether-international.org/pt/lac/aceleradora
 - pendente_leitura: Desafios de negócios inovabra hub: participe do programa ... — https://www.acate.com.br/blog-da-acate/desafios-de-negocios-inovabra-hub-participe-do-programa-de-inovacao-que-conecta-startups-a-grandes-empresas
@@ -270,9 +258,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Programa de Aceleração Batch Stars 2026 - Inova Unicamp — https://www.inova.unicamp.br/events/batch-stars-2026
 - pendente_leitura: Participe do Webinar do Gerdau Challenge FIEMG Lab ... — https://www.instagram.com/p/DOEtXNNj41Z
 - pendente_leitura: 0P00016MBM Fund | IBIUNA HEDGE SELEÇÃO MULTIMERCADO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO - Investing.com — https://www.investing.com/funds/itau-personnalite-selecao-ibiuna-he
-- confirmada_no_conteudo: Conecta Caldeira: desafios que geram resultados - Numerik — https://www.numerik.co/cases/caldeira
-  - trecho_oportunidade: Nosso time lidera workshops para mapeamento e priorização de desafios das corporates, realiza scouting e curadoria de startups alinhadas a cada necessidade, e apoia na divulgação para atrair inscrições qualificadas.
-  - trecho_publico: Nosso time lidera workshops para mapeamento e priorização de desafios das corporates, realiza scouting e curadoria de startups alinhadas a cada necessidade, e apoia na divulgação para atrair inscrições qualificadas.
+- pendente_evidencia: Conecta Caldeira: desafios que geram resultados - Numerik — https://www.numerik.co/cases/caldeira
 - pendente_leitura: Aceleração de Startups: Sebrae Piauí lança edital para seleção de negócios inovadores - OitoMeia — https://www.oitomeia.com.br/noticias/economia/2026/08/16/aceleracao-de-startups-sebrae-piaui-lanca-edital-para-selecao-de-negocios-inovadores
 - pendente_ia: 100 Open Startups - Desafio Pequenas Empresas — https://www.opentechs.net/br-pt/challenges/smallbusiness
 - pendente_ia: Startups incubadas no Senac são selecionadas para programa de aceleração - Senac Pernambuco — https://www.pe.senac.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao
@@ -352,3 +338,71 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Inovação Aberta: conectar-se com startups funciona em 2026? — https://venturehub.se/blog/inovacao-aberta-em-2026-por-que-apenas-conectar-startups-ja-nao-e-suficiente
 - pendente_leitura: Startups conhecem instituições que impulsionam a inovação - Prefeitura de Curitiba — https://www.curitiba.pr.gov.br/noticias/startups-conhecem-instituicoes-que-impulsionam-a-inovacao/45749
 - pendente_ia: Batch #15 - Darwin Startups — Darwin Startups — https://www.darwinstartups.com/batch15
+- confirmada_no_conteudo: Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste — https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste
+  - trecho_oportunidade: Estão abertas as inscrições para captação de recursos não reembolsáveis (subvenção econômica) junto à Financiadora de Estudos e Projetos (Finep) para startups localizadas nas regiões Norte, Nordeste e Centro-Oeste. A seleção vai disponibilizar R$ 300 milhões para os projetos
+  - trecho_publico: A seleção vai disponibilizar R$ 300 milhões para os projetos e é voltada para empresas que desenvolvem produtos, processos e serviços inovadores com risco tecnológico
+- confirmada_no_conteudo: Programa de aceleração tecnológica de biotechs abre inscrições — https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026
+  - trecho_oportunidade: Estão abertas até o dia 24 de março as inscrições para o DeepLab Bio, um programa de aceleração tecnológica realizado pelo Sebrae-SP, no âmbito do Sebrae for Startup, fruto da parceria com o Instituto de Pesquisas Tecnológicas (IPT), IPT Open e FIPT.
+  - trecho_publico: Estão abertas até o dia 24 de março as inscrições para o DeepLab Bio, um programa de aceleração tecnológica realizado pelo Sebrae-SP, no âmbito do Sebrae for Startup, fruto da parceria com o Instituto de Pesquisas Tecnológicas (IPT), IPT Open e FIPT.
+- pendente_ia: NEON 2026 - RODADAS DE NEGÓCIO - Sebrae Startups — https://programas.sebraestartups.com.br/in/1776277757511x988059082358467800
+- pendente_leitura: Inscrições — https://www.startupbrasil.org.br/inscricoes
+- pendente_leitura: Lançamento da 7ª Rodada do BioStartup Lab, programa de pré-aceleração da Biominas Brasil - Anprotec — https://anprotec.org.br/site/2023/03/lancamento-da-7a-rodada-do-biostartup-lab-programa-de-pre-aceleracao-da-biominas-brasil
+- pendente_leitura: Gravataí encerra primeiro ciclo de incubação e prepara ... — https://pt.linkedin.com/pulse/gravata%C3%AD-encerra-primeiro-ciclo-de-incuba%C3%A7%C3%A3o-e-nova-smict--detrf
+- pendente_leitura: Desafio RH Management Team | Org Chart — https://rocketreach.co/desafio-rh-management_b44546a5fa60a869
+- confirmada_no_conteudo: Facebook e Baita abrem inscrições para segunda edição do programa de aceleração de startups - Startupi — https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups
+  - trecho_oportunidade: Facebook e Baita abrem inscrições para segunda edição do programa de aceleração de startups - Startupi
+  - trecho_publico: Facebook e Baita abrem inscrições para segunda edição do programa de aceleração de startups - Startupi
+- pendente_leitura: Programa de Aceleração de Startups do Grupo Boticário está ... — https://startups.com.br/branded-content/programa-de-aceleracao-de-startups-do-grupo-boticario-esta-na-reta-final-das-inscricoes
+- pendente_ia: Top Desafío Latam Alternatives, Competitors — https://www.cbinsights.com/company/desafo-latam/alternatives-competitors
+- pendente_leitura: Sinal News - Estão abertas as inscrições para o StartupCE... — https://www.facebook.com/sinalnewsceara/posts/est%C3%A3o-abertas-as-inscri%C3%A7%C3%B5es-para-o-startupce-2026-programa-de-acelera%C3%A7%C3%A3o-promovi/1567231368292064
+- pendente_leitura: ✈️ Missão Empresarial – NRA Show 2026 Estão abertas ... — https://www.instagram.com/p/DXHilm1j1uo
+- confirmada_no_conteudo: Programa Startup SC – Sebrae Startups — https://www.startupsc.com.br/programa-de-capacitacao-startup-sc
+  - trecho_oportunidade: Para participar, a startup deve se candidatar à incubadora da sua região (confira o calendário completo neste
+  - trecho_publico: Para participar, a startup deve se candidatar à incubadora da sua região (confira o calendário completo neste
+- pendente_leitura: Governo lança Edital PISIM 2026 de incubação de startups nesta terça — https://www.youtube.com/watch?v=CbUqxo3H7Ow
+- pendente_leitura: Premio — https://www.zoominfo.com/c/premio/546807539
+- pendente_ia: BNDES Garagem - BNDES — http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups/rede-bndes-garagem
+- pendente_ia: Editais abertos: oportunidades para startups e empresas inovadoras — https://desafios.enap.gov.br/index.php/pt/blog/novidades/editais-abertos-oportunidades-para-startups-e-empresas-inovadoras
+- pendente_leitura: Vídeos PIPE | FAPESP — https://fapesp.br/pipe/videos
+- pendente_ia: Founder Institute: World's largest pre-seed startup accelerator. — https://fi.co/apply/14762
+- pendente_ia: SECTI - Secretaria da Ciência, Tecnologia, Inovação e Educação Profissional — https://secti.es.gov.br/incubadoras-estaduais
+- pendente_leitura: Editais FAPDF 2026 - Fundação de Apoio à Pesquisa do Distrito Federal - Fundação de Apoio à Pesquisa do Distrito Federal — https://www.fap.df.gov.br/editais-fapdf-20261
+- pendente_ia: PROPOSTA DO PROGRAMA EM REDE DE APOIO À ... — https://www.fapepi.pi.gov.br/wp-content/uploads/2025/06/Proposta-Instituto-Atlantico-do-Brasil.pdf
+- pendente_ia: Programa Prioridade Indústria RJ 4.0 — https://www.faperj.br/rp/downloads/Edital_FAPERJ_N%C2%BA15_2026_%E2%80%93_Programa_Prioridade_Ind%C3%BAstria_RJ_4.0.pdf
+- pendente_ia: Inovação | Fundação Araucária — https://www.fappr.pr.gov.br/Pagina/Inovacao
+- pendente_ia: Untitled — https://www.gov.br/inpi/pt-br/governanca/transparencia-e-prestacao-de-contas/relatorios-de-gestao/arquivos/documentos/RelatriodeGestoINPIex2022final.pdf
+- pendente_leitura: 50ª Feira do Bordado de Ibitinga é... — https://www.ibitinga.sp.gov.br/portal/noticias/0/3/3805/50-feira-do-bordado-de-ibitinga-e-oficialmente-aberta-e-marca-o-inicio-de-uma-edicao-historica
+- pendente_ia: EDITAIS | Secretaria da Inovação e Inteligência Artificial — https://www.inova.pr.gov.br/Pagina/EDITAIS
+- pendente_leitura: SP Global Tech — https://www.inovacao.sp.gov.br/sec_tecnologia_inovacao/programas/sp_global_tech
+- pendente_ia: Oportunidades Federais de Financiamento e Inovação — https://www.mpc.pr.gov.br/wp-content/uploads/2026/04/Jussiane-Siqueira-Oportunidades_Federais_de_Financiamento_e_Inovacao.pdf
+- pendente_leitura: #SomosRandoncorp | Randoncorp — https://www.randoncorp.com/PT/pesquisar?word=Randon
+- pendente_ia: Corredores Digitais - Secretaria da Ciência, Tecnologia e Educação Superior — https://www.sct.ce.gov.br/corredoresdigitais
+- pendente_ia: Oportunidades para startups: financiamento e desenvolvimento - Sebrae SC — https://www.sebrae-sc.com.br/observatorio/alerta/oportunidades-para-startups
+- pendente_leitura: Inovação - Sebrae Goiás — https://www.sebraego.com.br/inovacao
+- pendente_ia: Sebrae Supernova — https://www.sebraesupernova.com.br/index.html
+- pendente_ia: Programa de Propriedade Intelectual com Foco no Mercado (Prime) | Secretaria da Ciência, Tecnologia e Ensino Superior — https://www.seti.pr.gov.br/Programa-de-Propriedade-Intelectual-com-Foco-no-Mercado-Prime
+- pendente_ia: Programa Desafía | España Digital 2026 — http://espanadigital.gob.es/lineas-de-actuacion/programa-desafia
+- pendente_leitura: Innovation - Embraer — http://www.embraer.com/corporate-innovation/en
+- pendente_leitura: AEVO Connect — https://aevo.com.br/connect
+- pendente_ia: Capital Empreendedor 2026 - Turma RJ — https://alertaeditais.com.br/edital/capital-empreendedor-2026-turma-rj-s8kx6
+- pendente_ia: Financiamento para Inovação - Alora Capital — https://alora.capital/financiamento-para-inovacao
+- pendente_leitura: Finep Mais Inovação: editais abertos e como participar em 2026 - — https://aloratecnologia.com.br/finep-mais-inovacao
+- pendente_ia: Mentoria de Startups Anjos do Brasil Um projeto em que todos ganham — https://anjosdobrasil.net/mentorias
+- pendente_ia: X 2.0-Driving Deep Tech Growth (HEALTHTECH & BIOTECH) - AEDIH — https://aragonedih.eu/en/funding/x-2-0-driving-deep-tech-growth-healthtech-biotech
+- pendente_ia: Dentalmin PRO™ – Biocidin Botanicals — https://biocidin.com/blogs/library-of-resources/dentalmin-pro™
+- pendente_leitura: Para se tornar um “mapinguari”, startups da Amazônia ... — https://bioeconomia.org.br/para-se-tornar-um-mapinguari-startups-da-amazonia-desafiam-o-modelo-tradicional-de-negocios
+- pendente_ia: Hub de inovação: o que é, como funciona e exemplos no Brasil — https://blog.cubo.itau/hub-de-inovacao
+- pendente_leitura: 5 HealthTech AI Startups To Follow in 2026 — https://blumbergcapital.com/news-insights/five-rising-ai-healthtech-companies
+- pendente_leitura: Calendário de Missões e Feiras Internacionais | Brasil IT+ — https://brasilitplus.com/calendario
+- pendente_leitura: Startups da Hotmilk projetam receita de R$ 667 milhões e somam 5 mil empregos | Brazil Economy — https://brazileconomy.com.br/empresas/south-economy/2026/02/startups-da-hotmilk-projetam-r-667-milhoes-em-receita-em-2026-e-somam-5-mil-empregos
+- pendente_leitura: BRDE Banco Regional de Desenvolvimento do Extremo Sul — https://brde.com.br/noticia/inscricoes-para-programa-de-aceleracao-de-startups-encerram-nos-proximos-dias
+- pendente_leitura: Energy of Minas Gerais ADR Earnings Date (CIG) - Investing.com Canada — https://ca.investing.com/equities/energetica-minas-gerais-earnings
+- pendente_ia: 8 editais de inovação pra startups em 2026 · Capitaai — https://capitaai.com.br/blog/8-editais-de-inovacao-pra-startups-em-2026
+- pendente_ia: Oportunidades e editais abertos » Capta — https://capta.org.br/fontes-de-financiamento/oportunidades
+- pendente_leitura: CitzTech — https://certi.org.br/citztech
+- pendente_ia: Inovação - CIIA — https://ciia.org.br/inovacao
+- pendente_ia: Editais – CocreationLab — https://cocreationlab.com.br/editais
+- pendente_ia: Financiamentos disponíveis em 2026 — https://concellera.com/financiamentos-disponiveis-em-2026
+- pendente_leitura: Startups - Inovação Aberta - Petrobras — https://conexoes-inovacao.petrobras.com.br/s/startups?language=pt_BR
+- pendente_leitura: Brazilian fintech C6 Bank invites startups to São Paulo incubator | — https://contxto.com/en/brazil/brazilian-fintech-c6-bank-invites-startups-to-sao-paulo-incubator
+- pendente_leitura: 20 editais que financiam ideias inovadoras no Brasil em 2026 - Crédito Empreendedor - Buscador de Empréstimo pra CNPJ — https://creditoempreendedor.com.br/editais-de-inovacao/20-editais-que-financiam-ideias-inovadoras-no-brasil-em-2026
