@@ -603,6 +603,35 @@ def processar_url(con, nome, url, total):
     return processar(sys.modules[__name__], con, nome, url, total)
 
 
+def fontes_descobertas(con):
+    """Rodízio persistente de candidatos; os resumos não comprovam vigência."""
+    arquivo = "data/oportunidades-descobertas.json"
+    if not os.path.isfile(arquivo):
+        return []
+    with open(arquivo, encoding="utf-8") as f:
+        dados = json.load(f)
+    con.execute("CREATE TABLE IF NOT EXISTS fila_descobertas(url TEXT PRIMARY KEY, tentado_em TEXT)")
+    feitas = dict(con.execute("SELECT url, tentado_em FROM fila_descobertas"))
+    ano = str(agora().date().year)
+    def prioridade(e):
+        resumo = str(e.get("titulo", "")) + " " + str(e.get("resumo_busca", ""))
+        return (feitas.get(e["url"], ""), 0 if "/in/" in e["url"] else 1,
+                0 if ano in resumo else 1, e["url"])
+    candidatos_fila = sorted(dados.get("oportunidades", []), key=prioridade)
+    fontes = []
+    for e in candidatos_fila[:20]:
+        p = urlparse(e["url"])
+        if p.scheme not in ("https", "http") or not p.hostname or p.username or p.password:
+            continue
+        fontes.append({"nome": "Candidato descoberto: " + str(e.get("titulo", "")),
+                       "url": e["url"], "tipo": "pagina"})
+        con.execute("INSERT OR REPLACE INTO fila_descobertas VALUES(?,?)",
+                    (e["url"], agora().isoformat()))
+    con.commit()
+    print(f"Fila de descoberta: {len(candidatos_fila)} URLs; {len(fontes)} selecionadas para conferir nesta execução.")
+    return fontes
+
+
 def cmd_run(args):
     if not (os.getenv("GEMINI_API_KEY") or os.getenv("ANTHROPIC_API_KEY")):
         raise RuntimeError("Configure GEMINI_API_KEY ou ANTHROPIC_API_KEY antes da coleta")
@@ -611,7 +640,7 @@ def cmd_run(args):
         cfg = json.load(f)
     cfg = preparar(con, cfg)
     total = {"novo": 0, "atualizado": 0, "ignorado": 0, "erro": 0}
-    for fonte in [x for x in cfg.get("fontes", []) if x.get("ativo", True)]:
+    for fonte in fontes_descobertas(con) + [x for x in cfg.get("fontes", []) if x.get("ativo", True)]:
         print(f"Fonte: {fonte['nome']}")
         try:
             urls = candidatos(fonte)
