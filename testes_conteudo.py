@@ -149,3 +149,65 @@ class PaginaDinamica(unittest.TestCase):
         from confirmar_oportunidades import falha_execucao
         self.assertFalse(falha_execucao('gemini_http_429'))
         self.assertTrue(falha_execucao('limite_tempo; candidatos restantes preservados'))
+
+
+class AuditoriaRelevancia(unittest.TestCase):
+    def registro(self, url, titulo, evidencia):
+        return {'url':url, 'status':'confirmada_no_conteudo', 'dados':{
+            'titulo':titulo, 'trecho_oportunidade':evidencia, 'trecho_publico':evidencia}}
+
+    def test_rejeita_case_comercial(self):
+        from confirmar_oportunidades import auditar_confirmacoes
+        r=self.registro('https://empresa.br/cases/programa', 'Case do programa',
+                        'Apoiamos a curadoria de startups e a divulgação para atrair inscrições.')
+        auditar_confirmacoes({'x':r})
+        self.assertEqual(r['status'], 'pendente_evidencia')
+
+
+class GateQualidade(unittest.TestCase):
+    def registro(self, url, titulo, evidencia):
+        return {'url':url, 'status':'confirmada_no_conteudo', 'dados':{
+            'titulo':titulo, 'trecho_oportunidade':evidencia, 'trecho_publico':evidencia}}
+
+    def test_nao_avanca_com_cobertura_incompleta(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+        from confirmar_oportunidades import salvar_qualidade
+        mercopar='https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100'
+        origem={'itens':[{'url':mercopar,'categoria':'prioridade_verificacao'},
+                         {'url':'https://outra.br/chamada','categoria':'prioridade_verificacao'}]}
+        feitos={mercopar:{'url':mercopar,'status':'confirmada_no_conteudo'}}
+        with tempfile.TemporaryDirectory() as pasta, patch('confirmar_oportunidades.Path',
+                side_effect=lambda nome: Path(pasta) / Path(nome).name):
+            r=salvar_qualidade(origem,feitos,{'confirmada_no_conteudo':1})
+        self.assertFalse(r['avancar_vigencia'])
+        self.assertEqual(r['cobertura_prioritaria'],.5)
+
+    def test_rejeita_registro_historico_sem_chamada_atual(self):
+        from confirmar_oportunidades import auditar_confirmacoes
+        r=self.registro('https://fonte.br/programa', 'Programa para startups',
+                        'Em 2018 o programa recebeu inscrições e selecionou 74 startups.')
+        auditar_confirmacoes({'x':r})
+        self.assertEqual(r['status'], 'pendente_evidencia')
+
+    def test_mantem_convite_direto(self):
+        from confirmar_oportunidades import auditar_confirmacoes
+        r=self.registro('https://fonte.gov.br/edital', 'Edital 2026 para startups',
+                        'Estão abertas as inscrições do edital 2026 para startups brasileiras.')
+        self.assertEqual(auditar_confirmacoes({'x':r}), 0)
+        self.assertEqual(r['status'], 'confirmada_no_conteudo')
+
+    def test_nao_confunde_proibicao_com_convite(self):
+        from confirmar_oportunidades import auditar_confirmacoes
+        r=self.registro('https://fonte.br/programa', 'Aceleração de startups',
+                        'Durante o programa as startups não podem participar de concorrentes.')
+        auditar_confirmacoes({'x':r})
+        self.assertEqual(r['status'], 'pendente_evidencia')
+
+    def test_chamada_para_ambientes_nao_e_para_startups(self):
+        from confirmar_oportunidades import auditar_confirmacoes
+        r=self.registro('https://fonte.gov.br/chamada', 'Chamada de aceleração de startups',
+                        'Fomento a programas de aceleração promovidos por ambientes de inovação.')
+        auditar_confirmacoes({'x':r})
+        self.assertEqual(r['status'], 'pendente_evidencia')

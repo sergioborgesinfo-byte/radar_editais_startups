@@ -183,6 +183,38 @@ def evidencias_textuais(texto, e):
     return None
 
 
+def auditar_confirmacoes(feitos):
+    """Retira da confirmação automática páginas sem convite direto comprovado."""
+    alterados = 0
+    convite = re.compile(r'manifesta[cç][aã]o de interesse|inscri[cç][oõ]es?|candidat|podem participar|podem se inscrever|selecionar[aá]|sele[cç][aã]o|edital|chamada|inscreva-se|apply|applications', re.I)
+    publico = re.compile(r'\bstartups?\b|empreendedores? inovadores?|neg[oó]cios inovadores?|ideias? e projetos? inovadores?', re.I)
+    historico = re.compile(r'\b(?:em|edi[cç][aã]o) 20(?:0\d|1\d|2[0-5])\b|recebeu \d.*inscri[cç]|foram selecionad', re.I)
+    for registro in feitos.values():
+        if registro.get('status') != 'confirmada_no_conteudo':
+            continue
+        dados = registro.get('dados', {})
+        evidencia = ' '.join(str(dados.get(c, '')) for c in
+                             ('titulo', 'trecho_oportunidade', 'trecho_publico'))
+        url = registro.get('url', '')
+        motivos = []
+        if re.search(r'/cases?/', url, re.I):
+            motivos.append('pagina_de_caso_sem_chamada')
+        if re.search(r'n[aã]o podem participar', evidencia, re.I):
+            motivos.append('trecho_nao_e_convite')
+        if re.search(r'programas? de acelera[cç][aã]o promovidos? por ambientes?', evidencia, re.I):
+            motivos.append('chamada_dirigida_a_intermediarios')
+        if not convite.search(evidencia) or not publico.search(evidencia):
+            motivos.append('convite_direto_ou_publico_nao_comprovado')
+        if historico.search(evidencia) and not re.search(r'abert|at[eé] \d|prazo|2026', evidencia, re.I):
+            motivos.append('evidencia_apenas_historica')
+        if motivos:
+            registro['status'] = 'pendente_evidencia'
+            registro['motivo'] = ';'.join(motivos)
+            registro['auditoria_relevancia'] = 'requer_revisao'
+            alterados += 1
+    return alterados
+
+
 def executar(lote, feitos, ler, classificar, salvar_resultado, prazo=900):
     inicio = time.monotonic()
     parada = None
@@ -226,6 +258,7 @@ def executar(lote, feitos, ler, classificar, salvar_resultado, prazo=900):
 
 
 def salvar(feitos):
+    auditar_confirmacoes(feitos)
     itens=list(feitos.values())
     contagem=dict(Counter(e['status'] for e in itens))
     r={'versao':VERSAO,'atualizado_em':datetime.now(timezone.utc).isoformat(),
@@ -245,6 +278,32 @@ def salvar(feitos):
 def falha_execucao(parada):
     """Cota 429 deixa pendências, mas não invalida um lote integralmente preservado."""
     return bool(parada and parada != 'gemini_http_429')
+
+
+def salvar_qualidade(origem, feitos, contagem):
+    prioritarios = [e for e in origem['itens'] if e.get('categoria') == 'prioridade_verificacao']
+    urls_prioritarias = {e['url'] for e in prioritarios}
+    examinadas = urls_prioritarias.intersection(feitos)
+    confirmadas = [e for e in feitos.values() if e.get('status') == 'confirmada_no_conteudo']
+    dominios = {urlsplit(e['url']).hostname for e in confirmadas}
+    mercopar = feitos.get('https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100',
+                          {'status': 'ainda_nao_examinada'})
+    cobertura = len(examinadas) / len(prioritarios) if prioritarios else 0
+    pronto = mercopar.get('status') == 'confirmada_no_conteudo' and cobertura >= .90 and len(dominios) >= 20
+    relatorio = {
+        'avaliado_em': datetime.now(timezone.utc).isoformat(),
+        'links_descobertos': len(origem['itens']), 'paginas_examinadas': len(feitos),
+        'status': contagem, 'candidatos_prioritarios': len(prioritarios),
+        'prioritarios_examinados': len(examinadas), 'cobertura_prioritaria': round(cobertura, 4),
+        'dominios_confirmados': len(dominios), 'caso_mercopar': {'status': mercopar.get('status')},
+        'catalogo_sebrae': 'fonte_catalogo; não é oportunidade', 'avancar_vigencia': pronto,
+        'justificativa': ('Cobertura, caso conhecido e variedade atingiram o gate.' if pronto else
+            'A cobertura dos candidatos prioritários ainda não atingiu 90%; confirmações seguem sob auditoria conservadora.'),
+        'falhas_controladas': '429 interrompe novas chamadas de IA no lote; candidatos e evidências são preservados'
+    }
+    Path('data/revisao-qualidade.json').write_text(
+        json.dumps(relatorio, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    return relatorio
 
 
 def main():
@@ -288,8 +347,10 @@ def main():
 
     examinados, parada = executar(lote, feitos, ler, classificar_texto, salvar)
     contagem = salvar(feitos)
+    qualidade = salvar_qualidade(origem, feitos, contagem)
     resumo = (f'## Leitura de oportunidades\n\n{examinados}/{len(lote)} candidatos examinados. '
-              f'{contagem}\n\nParada: {parada or "lote concluído"}. Vigência não avaliada.\n')
+              f'{contagem}\n\nCobertura prioritária: {qualidade["cobertura_prioritaria"]:.1%}. '
+              f'Parada: {parada or "lote concluído"}. Vigência não avaliada.\n')
     print(resumo)
     if os.getenv('GITHUB_STEP_SUMMARY'):
         with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
