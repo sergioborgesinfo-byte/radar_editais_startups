@@ -114,6 +114,7 @@ function brl(v){return v?"R$ "+v.toLocaleString("pt-BR"):"Valor não informado"}
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function setData(list,label,isDemo){
   E=list.map(norm);
+  $("src").dataset.demo=isDemo?"1":"0";
   var vistos=new Set();
   E.forEach(function(e){
     var titulo=textoTriagem(e.t),orgao=textoTriagem(e.o);
@@ -139,6 +140,7 @@ function render(){
     (a.d===null?Infinity:a.d)-(b.d===null?Infinity:b.d)
   });
   $("cnt").textContent=L.length+(L.length===1?" edital":" editais");
+  if($("src").dataset.demo!=="1")$("src").textContent=L.length+(L.length===1?" edital disponível":" editais disponíveis");
   if(!L.length){$("list").innerHTML='<div class="empty">Nenhum edital com prazo vigente registrado nesta seleção.</div>';return}
   $("list").innerHTML=L.map(function(e){
     var enc=e.d!==null&&e.d<0,urg=e.d!==null&&!enc&&e.d<=10,i=E.indexOf(e),k=e.t+"|"+e.o;
