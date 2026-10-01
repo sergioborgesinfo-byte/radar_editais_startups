@@ -1,4 +1,4 @@
-name: Atualizar editais
+name: Descobrir oportunidades
 
 on:
   schedule:
@@ -6,86 +6,45 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [descobrir_oportunidades.py, radar.py, radar_automacao.py, requirements.txt, testes_automacao.py, conferir_servicos.py, testes_servicos.py, sources.json, '.github/workflows/atualizar.yml']
+    paths: [descobrir_oportunidades.py, sources.json, '.github/workflows/atualizar.yml']
 
 permissions:
   contents: write
 
 concurrency:
   group: radar-atualizar-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
-  atualizar:
+  descobrir:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 30
     env:
-      RADAR_EMAIL: ${{ secrets.RADAR_EMAIL }}
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.GEMINI }}
-      RADAR_DB: data/radar.db
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY || secrets.TAVILY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-      - name: Testar validação automática
-        run: python -I -S testes_automacao.py
-      - name: Instalar dependências
-        run: >-
-          python -m pip install --index-url https://pypi.org/simple --only-binary=:all: -r requirements.txt
-      - name: Conferir importação do coletor
-        run: python -c 'import radar; assert callable(radar.conferir_resposta)'
-      - name: Testar falhas dos serviços
-        run: python -I -S testes_servicos.py
-      - name: Conferir autenticação e disponibilidade
-        run: python -I -S conferir_servicos.py
-      - name: Preparar banco persistente
-        run: |
-          python -I -S - <<'PY'
-          from pathlib import Path
-          import sqlite3
-          destino = Path("data/radar.db")
-          destino.parent.mkdir(parents=True, exist_ok=True)
-          if not destino.exists() and Path("radar.db").exists():
-              with sqlite3.connect("radar.db") as origem, sqlite3.connect(destino) as copia:
-                  origem.backup(copia)
-          PY
-      - name: Descobrir oportunidades antes de verificar
+      - name: Instalar dependência de busca
+        run: python -m pip install --index-url https://pypi.org/simple requests
+      - name: Descobrir sem verificar prazos
         run: python -u descobrir_oportunidades.py
       - name: Guardar relatório de descoberta
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: oportunidades-descobertas
-          path: data/oportunidades-descobertas.json
+          path: |
+            data/oportunidades-descobertas.json
+            data/descobertas.md
           if-no-files-found: ignore
-      - name: Coletar, conferir e exportar
-        run: |
-          if [ "$GITHUB_REF_NAME" = "codex/automatizar-editais" ]; then
-            python -I -S - <<'PYCFG'
-          import json
-          from pathlib import Path
-          cfg = json.loads(Path("sources.json").read_text())
-          cfg["programas"] = []
-          cfg["busca_aberta"] = None
-          for fonte in cfg["fontes"]:
-              fonte["tipo"] = "pagina"
-          Path("sources-validacao.json").write_text(json.dumps(cfg))
-          PYCFG
-            python -u radar.py run --fontes sources-validacao.json
-          else
-            python -u radar.py run
-          fi
-      - name: Salvar alterações
+      - name: Salvar somente descobertas
         run: |
           git config user.name "$GITHUB_ACTOR"
           git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
-          git add data/radar.db data/oportunidades-descobertas.json docs/editais.json
+          git add data/oportunidades-descobertas.json data/descobertas.md
           if ! git diff --cached --quiet; then
-            git commit -m "Atualiza editais verificados $(date -u +%F)"
+            git commit -m "Atualiza candidatos descobertos; vigência não verificada"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
-

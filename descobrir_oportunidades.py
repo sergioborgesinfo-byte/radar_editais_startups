@@ -70,6 +70,11 @@ def descobrir():
               f'{len(consultas)-len(erros)}/{len(consultas)} pesquisas concluídas. '
               f'{len(encontrados)} URLs distintas nesta execução; {len(itens)} no histórico.\n\n'
               'São candidatos: inscrições e elegibilidade ainda precisam de confirmação.\n')
+    linhas = [resumo, '\n## Candidatos (vigência não verificada)\n']
+    for e in relatorio['oportunidades']:
+        titulo = str(e.get('titulo') or 'Página sem título').replace('\n', ' ')
+        linhas.append(f"- {titulo}: {e['url']}\n")
+    Path('data/descobertas.md').write_text(''.join(linhas), encoding='utf-8')
     print(resumo)
     if os.getenv('GITHUB_STEP_SUMMARY'):
         with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
