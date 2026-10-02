@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T15:21:24.579375-03:00",
+    "atualizado_em": "2026-10-02T15:29:56.209525-03:00",
     "examinadas": 138,
     "abertas_publicadas": 6,
     "status": {
       "aberta_confirmada": 7,
-      "encerrada": 53,
-      "pendente_evidencia": 47,
+      "encerrada": 58,
+      "pendente_evidencia": 42,
       "pendente_acesso": 5,
       "pendente_fonte_oficial": 26
     },
@@ -6303,7 +6303,7 @@
       {
         "titulo": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
         "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
-        "status": "pendente_evidencia",
+        "status": "encerrada",
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
@@ -6327,20 +6327,20 @@
       {
         "titulo": "InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc",
         "url": "https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups",
-        "status": "pendente_evidencia",
+        "status": "encerrada",
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Programa Centelha Paraíba - Novo Edital",
         "url": "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "VIII Programa de Aceleração – Negócios Inovadores de Impacto Socioambiental - Edital Regera 2026",
         "url": "https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA",
@@ -6424,7 +6424,7 @@
         "titulo": "Natura Innovation Challenge seleciona startups com soluções para compensação de carbono",
         "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
         "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "motivo": "ia_inconclusiva"
       },
       {
         "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
@@ -6435,8 +6435,8 @@
       {
         "titulo": "Programa Startup SC – Sebrae Startups",
         "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
@@ -6813,12 +6813,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
-        "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
         "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
         "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
         "status": "pendente_evidencia",
@@ -6833,24 +6827,6 @@
       {
         "titulo": "Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias",
         "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/pequenos-negocios-podem-se-inscrever-para-rodadas-de-negocios-com-startups-durante-forum-e-commerce-brasil-2026",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc",
-        "url": "https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Programa Centelha Paraíba - Novo Edital",
-        "url": "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "VIII Programa de Aceleração – Negócios Inovadores de Impacto Socioambiental - Edital Regera 2026",
-        "url": "https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf",
         "status": "pendente_evidencia",
         "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
@@ -6924,19 +6900,13 @@
         "titulo": "Natura Innovation Challenge seleciona startups com soluções para compensação de carbono",
         "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
         "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "motivo": "ia_inconclusiva"
       },
       {
         "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
         "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Programa Startup SC – Sebrae Startups",
-        "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",

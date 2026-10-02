@@ -1,12 +1,12 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T15:21:24.579375-03:00",
+  "atualizado_em": "2026-10-02T15:29:56.209525-03:00",
   "ia": {
     "chamadas": 8,
     "limite": 8,
     "parada": null,
-    "pendencias_restantes": 76,
-    "casos_com_tentativa_ia": 29
+    "pendencias_restantes": 73,
+    "casos_com_tentativa_ia": 37
   },
   "itens": [
     {
@@ -490,7 +490,7 @@
       "motivo": "dados_dinamicos_ausentes",
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:19:19.613781-03:00"
+      "verificado_em": "2026-10-02T15:27:52.006885-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -770,16 +770,26 @@
     {
       "url": "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups",
       "titulo": "Programa Centelha Paraíba - Novo Edital",
-      "status": "pendente_evidencia",
-      "motivo": "edicao_ou_publico_nao_comprovado",
-      "verificado_em": "2026-10-02T12:18:52.272498-03:00"
+      "fonte_oficial": "https://fapesq.rpp.br/editais/editais-2026/24_04-26-edital-centelha-3-fapesq-v220426.pdf",
+      "evidencia_prazo": "Fase 1 - Submissão das ideias inovadoras 24/04/2026 25/05/2026",
+      "metodo": "gemini_evidencia_literal",
+      "status": "encerrada",
+      "prazo_iso": "2026-05-25T23:59:59-03:00",
+      "verificado_em": "2026-10-02T15:28:51.790536-03:00",
+      "ia_tentada_em": "2026-10-02T15:28:51.790524-03:00",
+      "ia_metodo": "gemini-v3"
     },
     {
       "url": "https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf",
       "titulo": "VIII Programa de Aceleração – Negócios Inovadores de Impacto Socioambiental - Edital Regera 2026",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
-      "verificado_em": "2026-10-02T12:18:49.599352-03:00"
+      "fonte_oficial": "https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf",
+      "evidencia_prazo": "Inscrições dos projetos Até 14/06/2026",
+      "metodo": "gemini_evidencia_literal",
+      "status": "encerrada",
+      "prazo_iso": "2026-06-14T23:59:59-03:00",
+      "verificado_em": "2026-10-02T15:29:08.450273-03:00",
+      "ia_tentada_em": "2026-10-02T15:29:08.450261-03:00",
+      "ia_metodo": "gemini-v3"
     },
     {
       "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-013-2026-pesquisador-na-empresa",
@@ -795,21 +805,27 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:20:01.936306-03:00"
+      "verificado_em": "2026-10-02T15:28:34.088945-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
       "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "verificado_em": "2026-10-02T12:18:53.615680-03:00"
+      "verificado_em": "2026-10-02T12:18:53.615680-03:00",
+      "ia_tentada_em": "2026-10-02T15:29:26.766555-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
       "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "verificado_em": "2026-10-02T12:18:54.583930-03:00"
+      "verificado_em": "2026-10-02T12:18:54.583930-03:00",
+      "ia_tentada_em": "2026-10-02T15:29:56.209493-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
@@ -902,15 +918,22 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:22:18.920385-03:00"
+      "verificado_em": "2026-10-02T12:22:18.920385-03:00",
+      "ia_tentada_em": "2026-10-02T15:29:00.726364-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
       "titulo": "Natura Innovation Challenge seleciona startups com soluções para compensação de carbono",
+      "fonte_oficial": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
+      "evidencia_prazo": "As inscrições, que já estão abertas, são seguidas de um processo seletivo",
+      "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
-      "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:22:18.931461-03:00"
+      "motivo": "ia_inconclusiva",
+      "verificado_em": "2026-10-02T15:29:18.874733-03:00",
+      "ia_tentada_em": "2026-10-02T15:29:18.874723-03:00",
+      "ia_metodo": "gemini-v3"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
@@ -918,15 +941,22 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:22:21.844187-03:00"
+      "verificado_em": "2026-10-02T12:22:21.844187-03:00",
+      "ia_tentada_em": "2026-10-02T15:29:39.960040-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
       "titulo": "Programa Startup SC – Sebrae Startups",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
-      "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:19:22.855626-03:00"
+      "fonte_oficial": "https://www.startupsc.com.br/inscreva-se/",
+      "evidencia_prazo": "As inscrições para a 16ª Turma do Programa Startup SC (rede MidiHub) acontecem no período de 02 de fevereiro a 08 de março de 2026",
+      "metodo": "gemini_evidencia_literal",
+      "status": "encerrada",
+      "prazo_iso": "2026-03-08T23:59:59-03:00",
+      "verificado_em": "2026-10-02T15:29:48.025240-03:00",
+      "ia_tentada_em": "2026-10-02T15:29:48.025229-03:00",
+      "ia_metodo": "gemini-v3"
     },
     {
       "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
@@ -1011,7 +1041,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:19:19.550132-03:00"
+      "verificado_em": "2026-10-02T15:27:51.683230-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1019,7 +1049,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:19:21.865311-03:00"
+      "verificado_em": "2026-10-02T15:27:53.934451-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1075,7 +1105,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:19:19.777590-03:00"
+      "verificado_em": "2026-10-02T15:27:52.254735-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
