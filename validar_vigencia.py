@@ -8,6 +8,7 @@ from urllib.parse import quote, urlsplit
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 from concurrent.futures import ThreadPoolExecutor
+from functools import lru_cache
 from sebrae_programas import ler_programa, texto_programa
 
 FUSO = ZoneInfo('America/Sao_Paulo')
@@ -38,13 +39,32 @@ def normalizar(s):
     return re.sub(r'\W+', ' ', s).strip()
 
 
+@lru_cache(maxsize=1)
+def dominios_configurados():
+    try:
+        configuracao = json.loads(Path('sources.json').read_text())
+    except (OSError, ValueError):
+        return set()
+    dominios = set()
+    for registro in configuracao.get('fontes', []) + configuracao.get('programas', []):
+        dominios.update(d.lower().removeprefix('www.') for d in registro.get('dominios', []))
+        host = urlsplit(registro.get('url', '')).hostname
+        if host:
+            dominios.add(host.lower().removeprefix('www.'))
+    return dominios
+
+
 def oficial(url):
     host = (urlsplit(url).hostname or '').lower()
-    return (host.endswith('.gov.br') or host.endswith('.gov.pt') or
-            host.endswith('.edu.br') or host.endswith('.org.br') or
-            any(x in host for x in ('sebrae', 'fapemig', 'fapesc', 'finep', 'google.com',
-                'grupoboticario.com.br', 'natura.com.br', 'randoncorp.com', 'startupbrasil.org.br',
-                'cbamazonia.org', 'darwinstartups.com')))
+    dominios = ('sebrae.com.br', 'agenciasebrae.com.br', 'sebraestartups.com.br',
+                'fapemig.br', 'fapesc.sc.gov.br', 'finep.gov.br', 'google.com',
+                'grupoboticario.com.br', 'natura.com.br', 'randoncorp.com',
+                'startupbrasil.org.br', 'cbamazonia.org', 'darwinstartups.com',
+                'suzano.com.br', 'tecnosinos.com.br', 'senai.br', 'ufla.br',
+                'fapesp.br', 'feevale.br', 'prefeitura.rio', 'hello-tomorrow.org',
+                'inatel.br', 'portodigital.org', 'startupsc.com.br')
+    return (host.endswith(('.gov.br', '.gov.pt', '.edu.br', '.org.br')) or
+            any(host == d or host.endswith('.' + d) for d in set(dominios) | dominios_configurados()))
 
 
 def dados_sebrae(url, abrir=urlopen):
@@ -138,8 +158,21 @@ def prazo_da_oportunidade(trecho, titulo):
 
 def validar_oficial(registro, agora, ler=None):
     url = registro['url']
-    fonte = FONTES_OFICIAIS.get(url, url)
+    fonte = registro.get('fonte_primaria_descoberta') or FONTES_OFICIAIS.get(url, url)
     if not oficial(fonte) and fonte == url:
+        from fontes_primarias import localizar
+        alternativas = localizar(registro, oficial) if ler is None else []
+        melhor = None
+        for primaria in alternativas:
+            candidato = dict(registro, fonte_primaria_descoberta=primaria)
+            resultado = validar_oficial(candidato, agora, ler)
+            if resultado['status'] in ('aberta_confirmada', 'encerrada'):
+                resultado['fonte_oficial'] = primaria
+                return resultado
+            melhor = resultado
+        if melhor:
+            melhor['fontes_consultadas'] = alternativas
+            return melhor
         return {'url':url, 'titulo':registro.get('titulo',''), 'status':'pendente_fonte_oficial',
                 'motivo':'localizar_fonte_primaria'}
     try:
@@ -167,7 +200,7 @@ def validar_oficial(registro, agora, ler=None):
     # Algumas instituições mantêm a página primária no próprio URL descoberto.
     # O catálogo estruturado da FAPEMIG é uma página dedicada à chamada, não uma
     # notícia agregadora; seu cronograma pode separar o nome da chamada da data.
-    pagina_dedicada = (fonte != url or url in FONTES_OFICIAIS or
+    pagina_dedicada = (url in FONTES_OFICIAIS or
                        '/oportunidades/chamadas-e-editais/' in urlsplit(fonte).path)
     edicao = re.search(r'\b20\d{2}\b', titulo)
     if (not edicao and not pagina_dedicada) or not re.search(r'startup|neg[oó]cio inovador|projeto inovador', publico, re.I):
@@ -299,12 +332,15 @@ def main():
     anteriores_path = Path('data/oportunidades-vigencia.json')
     historico = json.loads(anteriores_path.read_text()) if anteriores_path.exists() else {}
     # Invalida resultados antigos que aceitavam um ano histórico como edição atual.
-    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v11' else []
+    anteriores = historico.get('itens', []) if historico.get('versao') in ('vigencia-v10', 'vigencia-v11') else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  (feitos[e['url']].get('status') == 'aberta_confirmada' and
                   not verificacao_atual(feitos[e['url']], agora)) or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
+                 (feitos[e['url']].get('status') == 'pendente_fonte_oficial' and
+                  (feitos[e['url']].get('metodo_fontes') != 'links-v1' or
+                   not verificacao_atual(feitos[e['url']], agora))) or
                  (feitos[e['url']].get('status', '').startswith('pendente_') and
                   e['url'] in FONTES_OFICIAIS)]
     # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
@@ -316,6 +352,7 @@ def main():
         resultado = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
                      else validar_oficial(e, agora))
         resultado.setdefault('titulo', e.get('titulo', ''))
+        resultado['metodo_fontes'] = 'links-v1'
         resultado['verificado_em'] = datetime.now(FUSO).isoformat()
         print(f"{resultado['status']}: {e['url']}", flush=True)
         return resultado

@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [validar_vigencia.py, testes_vigencia.py, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
+    paths: [validar_vigencia.py, testes_vigencia.py, fontes_primarias.py, sebrae_programas.py, testes_sebrae.py, testes_fontes_primarias.py, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
   workflow_run:
     workflows: ["Confirmar oportunidades pelo conteúdo"]
     types: [completed]
@@ -32,6 +32,7 @@ jobs:
         run: |
           python -I -S -m unittest discover -s . -p testes_vigencia.py
           python -I -S -m unittest discover -s . -p testes_sebrae.py
+          python -I -S -m unittest discover -s . -p testes_fontes_primarias.py
       - name: Instalar leitor de páginas e PDFs
         run: >-
           python -m pip install --index-url https://pypi.org/simple --only-binary=:all: -r requirements.txt
