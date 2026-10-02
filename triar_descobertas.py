@@ -26,6 +26,8 @@ def canon(url):
 def classificar(e):
     t = norm(str(e.get('titulo', '')))
     p = urlsplit(e['url'])
+    if p.hostname in ('darwinstartups.com', 'www.darwinstartups.com') and p.path.rstrip('/') == '/icmlab':
+        return 'prioridade_verificacao', 'Página oficial indicada de programa com inscrições; conteúdo e vigência ainda serão verificados'
     if re.search(r'monografia|dissertacao|tese de |analise critica da metodologia|metodologia lean startup', t):
         return 'fora_escopo', 'Conteúdo acadêmico sobre startups, não anúncio de participação'
     if re.search(r'selecao de fundo|selecao de gestor|fip conexoes', t):
