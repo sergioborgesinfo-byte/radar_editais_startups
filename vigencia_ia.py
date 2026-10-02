@@ -133,6 +133,7 @@ class Verificador:
         self.limite=int(os.getenv('VIGENCIA_IA_LIMITE','8')) if limite is None else limite
         self.chamar=chamar or self.api; self.usadas=0; self.parada=None; self.ultima=0
         self.last_reason=None
+        self.erros=[]
         self.path=Path(cache)
         try:self.cache=json.loads(self.path.read_text())
         except (OSError,ValueError):self.cache={}
@@ -146,8 +147,35 @@ class Verificador:
         modelo=os.getenv('GEMINI_MODEL','gemini-3.5-flash-lite')
         req=Request('https://generativelanguage.googleapis.com/v1beta/models/'+modelo+':generateContent',
             data=json.dumps(corpo).encode(),headers={'Content-Type':'application/json','x-goog-api-key':os.environ['GEMINI_API_KEY']})
-        with urlopen(req,timeout=45) as r:d=json.load(r)
+        with urlopen(req,timeout=60) as r:d=json.load(r)
         return json.loads(''.join(x.get('text','') for x in d['candidates'][0]['content']['parts']))
+    def chamar_com_retentativa(self, corpo):
+        for tentativa in range(2):
+            if self.usadas >= self.limite:
+                return None
+            self.usadas += 1
+            inicio = time.monotonic()
+            try:
+                return self.chamar(corpo)
+            except (URLError, TimeoutError, HTTPError) as erro:
+                codigo = getattr(erro, 'code', None)
+                if codigo is not None and codigo not in (408, 500, 502, 503, 504):
+                    raise
+                causa = getattr(erro, 'reason', erro)
+                tipo = 'tempo_esgotado' if isinstance(causa, TimeoutError) else ('http_' + str(codigo) if codigo else 'rede')
+                diagnostico = {'tipo': tipo, 'excecao': type(erro).__name__,
+                               'causa': type(causa).__name__, 'errno': getattr(causa, 'errno', None),
+                               'segundos': round(time.monotonic() - inicio, 1),
+                               'tentativa': tentativa + 1}
+                self.erros.append(diagnostico)
+                self.last_reason = 'gemini_' + tipo
+                print('Falha temporária IA: ' + json.dumps(diagnostico), flush=True)
+                if isinstance(erro, HTTPError):
+                    erro.close()
+                if tentativa == 0 and self.usadas < self.limite:
+                    time.sleep(3)
+        return None
+
     def verificar(self, registro, docs, agora):
         self.last_reason=None
         if not docs:return None
@@ -158,10 +186,12 @@ class Verificador:
             try:return conferir(anterior['resposta'],docs,registro,agora)
             except (ValueError,KeyError,TypeError,StopIteration):return None
         if self.parada or self.usadas>=self.limite:return None
-        self.usadas+=1
         corpo={'systemInstruction':{'parts':[{'text':PROMPT}]},'contents':[{'role':'user','parts':[{'text':json.dumps({'oportunidade':registro.get('dados',{}).get('titulo') or registro.get('titulo'),'documentos':docs},ensure_ascii=False)}]}], 'generationConfig':{'temperature':0,'responseMimeType':'application/json'}}
         try:
-            d=self.chamar(corpo)
+            d=self.chamar_com_retentativa(corpo)
+            if d is None:
+                return None
+            self.last_reason=None
             self.cache[chave]={'em':agora.isoformat(),'resposta':d}
             self.path.parent.mkdir(parents=True,exist_ok=True);self.path.write_text(json.dumps(self.cache,ensure_ascii=False,indent=2)+'\n')
             resultado=conferir(d,docs,registro,agora)
@@ -174,6 +204,6 @@ class Verificador:
                 self.cache['__pausa__']={'ate':(agora+timedelta(hours=6)).isoformat()}
                 self.path.parent.mkdir(parents=True,exist_ok=True);self.path.write_text(json.dumps(self.cache,ensure_ascii=False,indent=2)+'\n')
             erro.close()
-        except (URLError,TimeoutError):self.parada='gemini_conexao'
+        except (URLError,TimeoutError):self.last_reason='gemini_rede'
         except (ValueError,KeyError,TypeError,IndexError,StopIteration) as erro:self.last_reason=str(erro)[:150]
         return None

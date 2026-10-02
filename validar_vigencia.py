@@ -424,7 +424,7 @@ def main():
     print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)
     agora = datetime.now(FUSO)
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'ia': {'chamadas': assistente.usadas, 'limite': assistente.limite, 'parada': assistente.parada, 'pendencias_restantes': sum(x.get('status', '').startswith('pendente_') for x in itens), 'casos_com_tentativa_ia': sum(bool(x.get('ia_tentada_em')) for x in itens), 'resolvidas_automaticamente': sum(x.get('status') in ('aberta_confirmada','encerrada') and not x.get('metodo','').startswith('revisao_manual') for x in itens), 'revisoes_manuais': sum(x.get('metodo','').startswith('revisao_manual') for x in itens)}, 'itens':itens}
+    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'ia': {'chamadas': assistente.usadas, 'falhas_temporarias': assistente.erros, 'limite': assistente.limite, 'parada': assistente.parada, 'pendencias_restantes': sum(x.get('status', '').startswith('pendente_') for x in itens), 'casos_com_tentativa_ia': sum(bool(x.get('ia_tentada_em')) for x in itens), 'resolvidas_automaticamente': sum(x.get('status') in ('aberta_confirmada','encerrada') and not x.get('metodo','').startswith('revisao_manual') for x in itens), 'revisoes_manuais': sum(x.get('metodo','').startswith('revisao_manual') for x in itens)}, 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     fila_path = Path('data/fila-vigencia-inicial.json')
     fila_urls = json.loads(fila_path.read_text()).get('urls', []) if fila_path.exists() else []

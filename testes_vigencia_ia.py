@@ -87,4 +87,55 @@ class VigenciaIA(unittest.TestCase):
             self.assertEqual(v.verificar(r,docs,AGORA)['status'],'aberta_confirmada')
             self.assertEqual(len(chamadas),1)
             self.assertIsNone(v.verificar(r,{r['url']:docs[r['url']]+' novo'},AGORA))
+
+    def test_timeout_recupera_na_segunda_tentativa(self):
+        from unittest.mock import patch
+        r,docs,d=self.caso('Programa Alfa 2026','Inscrições até 20/12/2026','2026-12-20')
+        respostas=iter([TimeoutError('timeout'), d])
+        def api(c):
+            resposta=next(respostas)
+            if isinstance(resposta, Exception):raise resposta
+            return resposta
+        with tempfile.TemporaryDirectory() as tmp, patch('vigencia_ia.time.sleep'):
+            v=Verificador(limite=2,chamar=api,cache=str(Path(tmp)/'cache.json'))
+            self.assertEqual(v.verificar(r,docs,AGORA)['status'],'aberta_confirmada')
+            self.assertEqual(v.usadas,2)
+            self.assertEqual(v.erros[0]['tipo'],'tempo_esgotado')
+            self.assertIsNone(v.parada)
+    def test_timeout_nao_impede_proximo_caso(self):
+        from unittest.mock import patch
+        r,docs,d=self.caso('Programa Alfa 2026','Inscrições até 20/12/2026','2026-12-20')
+        respostas=iter([TimeoutError(),TimeoutError(),d])
+        def api(c):
+            resposta=next(respostas)
+            if isinstance(resposta, Exception):raise resposta
+            return resposta
+        with tempfile.TemporaryDirectory() as tmp, patch('vigencia_ia.time.sleep'):
+            v=Verificador(limite=3,chamar=api,cache=str(Path(tmp)/'cache.json'))
+            self.assertIsNone(v.verificar(r,docs,AGORA))
+            self.assertIsNone(v.parada)
+            self.assertEqual(v.verificar(r,docs,AGORA)['status'],'aberta_confirmada')
+            self.assertEqual(v.usadas,3)
+    def test_retentativa_respeita_limite(self):
+        from unittest.mock import patch
+        r,docs,d=self.caso('Programa Alfa 2026','Inscrições até 20/12/2026','2026-12-20')
+        def api(c):raise TimeoutError()
+        with tempfile.TemporaryDirectory() as tmp, patch('vigencia_ia.time.sleep'):
+            v=Verificador(limite=1,chamar=api,cache=str(Path(tmp)/'cache.json'))
+            self.assertIsNone(v.verificar(r,docs,AGORA))
+            self.assertEqual(v.usadas,1)
+            self.assertIsNone(v.parada)
+    def test_http_503_temporario(self):
+        from unittest.mock import patch
+        r,docs,d=self.caso('Programa Alfa 2026','Inscrições até 20/12/2026','2026-12-20')
+        respostas=iter([HTTPError('https://api.example',503,'unavailable',{},None),d])
+        def api(c):
+            resposta=next(respostas)
+            if isinstance(resposta,Exception):raise resposta
+            return resposta
+        with tempfile.TemporaryDirectory() as tmp, patch('vigencia_ia.time.sleep'):
+            v=Verificador(limite=2,chamar=api,cache=str(Path(tmp)/'cache.json'))
+            self.assertEqual(v.verificar(r,docs,AGORA)['status'],'aberta_confirmada')
+            self.assertEqual(v.erros[0]['tipo'],'http_503')
+
 if __name__=='__main__':unittest.main()
