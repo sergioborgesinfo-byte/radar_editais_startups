@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [leitura_cache.py, cronogramas.py, testes_cronogramas.py, vigencia_ia.py, testes_vigencia_ia.py, validar_vigencia.py, testes_vigencia.py, fontes_primarias.py, sebrae_programas.py, testes_sebrae.py, testes_fontes_primarias.py, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
+    paths: [leitor_navegador.py, testes_leitor_navegador.py, leitura_cache.py, cronogramas.py, testes_cronogramas.py, vigencia_ia.py, testes_vigencia_ia.py, validar_vigencia.py, testes_vigencia.py, fontes_primarias.py, sebrae_programas.py, testes_sebrae.py, testes_fontes_primarias.py, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
   workflow_run:
     workflows: ["Confirmar oportunidades pelo conteúdo"]
     types: [completed]
@@ -32,6 +32,7 @@ jobs:
           python-version: "3.12"
       - name: Testar vigência, modalidade e duplicação
         run: |
+          python -I -S -m unittest discover -s . -p testes_leitor_navegador.py
           python -I -S -m unittest discover -s . -p testes_cronogramas.py
           python -I -S -m unittest discover -s . -p testes_vigencia_ia.py
           python -I -S -m unittest discover -s . -p testes_vigencia.py
@@ -40,6 +41,21 @@ jobs:
       - name: Instalar leitor de páginas e PDFs
         run: >-
           python -m pip install --index-url https://pypi.org/simple --only-binary=:all: -r requirements.txt
+      - name: Instalar navegador para páginas dinâmicas
+        id: navegador
+        continue-on-error: true
+        run: python -m playwright install --with-deps chromium
+      - name: Verificar execução real de JavaScript
+        if: steps.navegador.outcome == 'success'
+        run: |
+          python - <<'PY'
+          from leitor_navegador import renderizar_html
+          from urllib.parse import quote
+          html='<main id="x"></main><script>document.getElementById("x").textContent="Inscricoes ate 20/12/2026"</script>'
+          ct, corpo=renderizar_html('data:text/html,'+quote(html),lambda url:True)
+          assert b'<main id="x">Inscricoes ate 20/12/2026</main>' in corpo
+          print('Navegador leu o conteúdo produzido por JavaScript')
+          PY
       - name: Reutilizar downloads de fontes oficiais
         uses: actions/cache/restore@v4
         with:

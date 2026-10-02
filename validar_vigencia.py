@@ -347,7 +347,9 @@ def exportar_abertas(validadas, agora):
 def main():
     import radar
     from leitura_cache import leitor_cache
-    radar.baixar = leitor_cache(radar.baixar)
+    from leitor_navegador import leitor_com_navegador
+    leitor = leitor_com_navegador(leitor_cache(radar.baixar), radar.permitido)
+    radar.baixar = leitor
     agora = datetime.now(FUSO)
     qualidade = json.loads(Path('data/revisao-qualidade.json').read_text())
     if not qualidade.get('avancar_vigencia'):
@@ -365,13 +367,13 @@ def main():
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  (feitos[e['url']].get('status') == 'aberta_confirmada' and
                   not verificacao_atual(feitos[e['url']], agora)) or
-                 (feitos[e['url']].get('metodo', '').startswith('revisao_manual') and feitos[e['url']].get('metodo_leitura') != 'cronogramas-v2') or
+                 (feitos[e['url']].get('metodo', '').startswith('revisao_manual') and feitos[e['url']].get('metodo_leitura') != 'cronogramas-v3') or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
                  (feitos[e['url']].get('status') == 'pendente_fonte_oficial' and
                   (feitos[e['url']].get('metodo_fontes') != 'links-v2' or
                    not verificacao_atual(feitos[e['url']], agora))) or
                  (feitos[e['url']].get('status', '').startswith('pendente_') and
-                  (e['url'] in FONTES_OFICIAIS or feitos[e['url']].get('metodo_fontes') != 'links-v2' or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v2' or not verificacao_atual(feitos[e['url']], agora)))]
+                  (e['url'] in FONTES_OFICIAIS or feitos[e['url']].get('metodo_fontes') != 'links-v2' or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v3' or not verificacao_atual(feitos[e['url']], agora)))]
     # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
     # todas as confirmações restantes sem depender de uma segunda execução manual.
     lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR,
@@ -382,7 +384,7 @@ def main():
                      else validar_oficial(e, agora))
         resultado.setdefault('titulo', e.get('titulo', ''))
         resultado['metodo_fontes'] = 'links-v2'
-        resultado['metodo_leitura'] = 'cronogramas-v2'
+        resultado['metodo_leitura'] = 'cronogramas-v3'
         resultado['verificado_em'] = datetime.now(FUSO).isoformat()
         print(f"{resultado['status']}: {e['url']}", flush=True)
         return resultado
@@ -390,7 +392,7 @@ def main():
         for resultado in pool.map(validar, lote):
             antigo = feitos.get(resultado['url'], {})
             if antigo.get('metodo', '').startswith('revisao_manual') and resultado['status'].startswith('pendente_'):
-                antigo['metodo_leitura'] = 'cronogramas-v2'
+                antigo['metodo_leitura'] = 'cronogramas-v3'
                 antigo['resultado_releitura_automatica'] = resultado.get('motivo')
             else:
                 feitos[resultado['url']] = resultado
@@ -408,12 +410,12 @@ def main():
                 break
             anterior = feitos[e['url']]
             tentativa = anterior.get('ia_tentada_em')
-            if anterior.get('ia_metodo') == 'gemini-v6' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
+            if anterior.get('ia_metodo') == 'gemini-v7' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
                 continue
             docs = documentos(dict(e, fonte_primaria_descoberta=FONTES_OFICIAIS.get(e['url'], e['url'])), oficial)
             resultado = assistente.verificar(e, docs, agora)
             anterior['ia_tentada_em'] = datetime.now(FUSO).isoformat()
-            anterior['ia_metodo'] = 'gemini-v6'
+            anterior['ia_metodo'] = 'gemini-v7'
             anterior['motivo_ia'] = assistente.parada or assistente.last_reason or ('sem_documentos' if not docs else 'evidencia_insuficiente')
             if assistente.parada:
                 anterior.pop('ia_tentada_em', None)
@@ -421,13 +423,13 @@ def main():
             if resultado:
                 resultado['verificado_em'] = datetime.now(FUSO).isoformat()
                 resultado['ia_tentada_em'] = anterior['ia_tentada_em']
-                resultado['ia_metodo'] = 'gemini-v6'
+                resultado['ia_metodo'] = 'gemini-v7'
                 feitos[e['url']] = resultado
                 print(f"IA: {resultado['status']}: {e['url']}", flush=True)
     print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)
     agora = datetime.now(FUSO)
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'ia': {'chamadas': assistente.usadas, 'falhas_temporarias': assistente.erros, 'limite': assistente.limite, 'parada': assistente.parada, 'pendencias_restantes': sum(x.get('status', '').startswith('pendente_') for x in itens), 'casos_com_tentativa_ia': sum(bool(x.get('ia_tentada_em')) for x in itens), 'resolvidas_automaticamente': sum(x.get('status') in ('aberta_confirmada','encerrada') and not x.get('metodo','').startswith('revisao_manual') for x in itens), 'revisoes_manuais': sum(x.get('metodo','').startswith('revisao_manual') for x in itens)}, 'itens':itens}
+    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'leitura_navegador': leitor.estatisticas, 'ia': {'chamadas': assistente.usadas, 'falhas_temporarias': assistente.erros, 'limite': assistente.limite, 'parada': assistente.parada, 'pendencias_restantes': sum(x.get('status', '').startswith('pendente_') for x in itens), 'casos_com_tentativa_ia': sum(bool(x.get('ia_tentada_em')) for x in itens), 'resolvidas_automaticamente': sum(x.get('status') in ('aberta_confirmada','encerrada') and not x.get('metodo','').startswith('revisao_manual') for x in itens), 'revisoes_manuais': sum(x.get('metodo','').startswith('revisao_manual') for x in itens)}, 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     fila_path = Path('data/fila-vigencia-inicial.json')
     fila_urls = json.loads(fila_path.read_text()).get('urls', []) if fila_path.exists() else []
