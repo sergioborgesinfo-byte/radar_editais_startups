@@ -15,7 +15,7 @@ function render(){
  var pending=snapshot.confirmacoes.filter(function(x){return /falha|pendente/.test(x.status)}).length;
  var vigPending=(fase.pendentes||[]).length;
  el('busca-stats').innerHTML=[['Links descobertos',snapshot.links],['Candidatos na triagem',snapshot.candidatos],['Relevância confirmada',confirms],['Vigência examinada',fase.examinadas||0],['Abertas publicadas',fase.abertas_publicadas||0],['Pendências de vigência',vigPending]].map(function(x){return '<div class="busca-stat"><strong>'+x[1]+'</strong><span>'+x[0]+'</span></div>'}).join('');
- el('busca-date').textContent='Último resultado salvo: '+new Date(snapshot.atualizado_em).toLocaleString('pt-BR')+'.';
+ el('busca-date').textContent='Conteúdo atualizado: '+new Date(snapshot.atualizado_em).toLocaleString('pt-BR')+'.'+(fase.atualizado_em?' Vigência atualizada: '+new Date(fase.atualizado_em).toLocaleString('pt-BR')+'.':'');
  var q=el('busca-q').value.toLowerCase(), filter=el('busca-filter').value;
  var items=snapshot.itens.map(function(x){return Object.assign({},x,checked[x.url]||{},{vigencia:vigencia[x.url]||null})}).filter(function(x){
  return (!q||((x.dados&&x.dados.titulo)||x.titulo||'').toLowerCase().indexOf(q)>=0||x.url.toLowerCase().indexOf(q)>=0)&&(!filter||(filter==='confirmada'?x.status==='confirmada_no_conteudo':filter==='pendente'?/falha|pendente/.test(x.status||''):!x.status));
@@ -36,11 +36,16 @@ async function refresh(){
  if(busy)return;busy=true;el('busca-refresh').disabled=true;
  try{
   if(!snapshot){snapshot=await json('busca.json');render()}
-  var values=await Promise.allSettled([json(base+'triagem-descobertas.json'),json(base+'oportunidades-conteudo.json'),json('https://api.github.com/repos/sergioborgesinfo-byte/radar_editais_startups/actions/workflows/conteudo.yml/runs?per_page=1')]);
+  var values=await Promise.allSettled([json(base+'triagem-descobertas.json'),json(base+'oportunidades-conteudo.json'),json('https://api.github.com/repos/sergioborgesinfo-byte/radar_editais_startups/actions/workflows/vigencia.yml/runs?per_page=1'),json('busca.json')]);
   if(values[0].status==='fulfilled'){var t=values[0].value;snapshot.itens=t.itens;snapshot.links=t.links_recebidos;snapshot.candidatos=t.contagem.prioridade_verificacao||0}
   if(values[1].status==='fulfilled'){snapshot.confirmacoes=values[1].value.itens;snapshot.atualizado_em=values[1].value.atualizado_em}
-  if(values[2].status==='fulfilled'){var run=values[2].value.workflow_runs[0];el('busca-status').textContent=run.status==='completed'?(run.conclusion==='success'?'Último lote concluído.':'Último lote terminou com pendências; veja os resultados salvos.'):'Análise em andamento no GitHub. Os números abaixo são do último resultado salvo.'}
+  if(values[3].status==='fulfilled')snapshot.vigencia=values[3].value.vigencia;
+  if(values[2].status==='fulfilled'){var run=values[2].value.workflow_runs[0];el('busca-status').textContent=run.status==='completed'?(run.conclusion==='success'?'Última execução de vigência concluída.':'Último lote terminou com pendências; veja os resultados salvos.'):'Análise em andamento no GitHub. Os números abaixo são do último resultado salvo.'}
   else el('busca-status').textContent='Resultados salvos disponíveis. Não foi possível consultar o status da execução agora.';
+  var fase=snapshot.vigencia||{},fila=fase.fila_prioritaria,ia=fase.ia||{};
+  if(fila)el('busca-status').textContent+=' Fila inicial: '+fila.resolvidas_automaticamente+' de '+fila.total_inicial+' resolvidos automaticamente; '+fila.pendentes+' pendentes.';
+  if(ia.parada==='gemini_conexao')el('busca-status').textContent+=' A IA interrompeu a tentativa por falha de conexão.';
+  if(fila&&fila.pendentes)el('busca-status').textContent+=' Novas tentativas programadas a cada hora.';
   render();
  }catch(e){el('busca-status').textContent='Não foi possível carregar o acompanhamento. Toque em Atualizar para tentar novamente.'}
  finally{busy=false;el('busca-refresh').disabled=false}
