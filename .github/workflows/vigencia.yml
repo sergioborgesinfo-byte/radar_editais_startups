@@ -2,7 +2,7 @@ name: Validar vigência e publicar abertas
 
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "37 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -22,7 +22,7 @@ jobs:
   validar:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -52,7 +52,11 @@ jobs:
           VIGENCIA_IA_LIMITE: "8"
         run: |
           test -f data/cache-vigencia-ia.json || echo "{}" > data/cache-vigencia-ia.json
-          python -u validar_vigencia.py
+          for lote in 1 2 3; do
+            echo "Processando lote automático $lote de 3"
+            python -u validar_vigencia.py
+            python -c 'import json; d=json.load(open("data/oportunidades-vigencia.json")); exit(0 if d["ia"].get("parada") or not d["ia"].get("pendencias_restantes") else 1)' && break
+          done
       - name: Preservar downloads para a próxima rodada
         if: always()
         uses: actions/cache/save@v4
