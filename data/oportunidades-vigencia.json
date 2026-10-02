@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T20:52:33.711751-03:00",
+  "atualizado_em": "2026-10-02T20:58:12.613872-03:00",
   "leitura_navegador": {
     "tentativas": 3,
     "sucessos": 0,
@@ -505,7 +505,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T20:51:25.084342-03:00"
+      "verificado_em": "2026-10-02T20:57:02.618566-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -570,10 +570,10 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T20:49:26.281194-03:00",
-      "ia_tentada_em": "2026-10-02T20:50:42.945178-03:00",
+      "verificado_em": "2026-10-02T20:57:02.370412-03:00",
+      "ia_tentada_em": "2026-10-02T20:58:11.232176-03:00",
       "ia_metodo": "gemini-v7",
-      "motivo_ia": "citacao_ou_identidade_invalida"
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://cloud.google.com/startup/benefits?hl=pt-BR",
@@ -829,7 +829,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T20:52:32.771488-03:00"
+      "verificado_em": "2026-10-02T20:58:10.308430-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -988,8 +988,8 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-02T20:52:32.817234-03:00",
-      "ia_tentada_em": "2026-10-02T20:52:32.817225-03:00",
+      "verificado_em": "2026-10-02T20:58:11.296040-03:00",
+      "ia_tentada_em": "2026-10-02T20:58:11.296026-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
@@ -1129,7 +1129,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T20:51:24.796667-03:00"
+      "verificado_em": "2026-10-02T20:57:02.477851-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1138,7 +1138,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T20:51:27.678662-03:00"
+      "verificado_em": "2026-10-02T20:57:05.351952-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1147,7 +1147,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T20:51:31.296075-03:00"
+      "verificado_em": "2026-10-02T20:57:09.521763-03:00"
     },
     {
       "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
@@ -1221,7 +1221,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T20:51:25.127074-03:00"
+      "verificado_em": "2026-10-02T20:57:02.794004-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1258,7 +1258,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T20:51:25.259912-03:00"
+      "verificado_em": "2026-10-02T20:57:03.131692-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1303,7 +1303,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T20:51:25.309738-03:00"
+      "verificado_em": "2026-10-02T20:57:03.298340-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -1381,8 +1381,8 @@
       "evidencia_edicao": "Early stage startups can get up to $350,000 in Cloud credits through the Google for Startups Cloud Program",
       "evidencia_publico": "Built for Brazilian founders. Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.",
       "modalidade_inscricao": "candidatura_sem_prazo",
-      "verificado_em": "2026-10-02T20:52:33.711559-03:00",
-      "ia_tentada_em": "2026-10-02T20:52:33.711546-03:00",
+      "verificado_em": "2026-10-02T20:58:12.613606-03:00",
+      "ia_tentada_em": "2026-10-02T20:58:12.613591-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
@@ -1551,7 +1551,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T20:51:26.015473-03:00"
+      "verificado_em": "2026-10-02T20:57:03.888032-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
