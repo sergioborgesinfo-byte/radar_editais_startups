@@ -5887,14 +5887,14 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T12:15:37.157581-03:00",
+    "atualizado_em": "2026-10-02T12:19:33.020524-03:00",
     "examinadas": 80,
     "abertas_publicadas": 5,
     "status": {
       "aberta_confirmada": 6,
       "encerrada": 43,
-      "pendente_evidencia": 28,
-      "pendente_acesso": 3
+      "pendente_evidencia": 26,
+      "pendente_acesso": 5
     },
     "resultados": [
       {
@@ -6192,10 +6192,10 @@
         "motivo": ""
       },
       {
-        "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
+        "titulo": "EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...",
         "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
@@ -6204,10 +6204,10 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Programa Nacional de Pré-Incubação de Ideias Inovadoras - Trilha Nacional de Pré-Incubação Brasil Inovador",
+        "titulo": "Ifes abre inscrições para programa nacional de pré-incubação de ideias inovadoras – Agência de Inovação",
         "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Edital Granioter Acelera 2026",
@@ -6252,16 +6252,16 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "EDITAL N.º 21/2024 CHAMAMENTO PÚBLICO PARA SELEÇÃO DE PROJETOS DE INOVAÇÃO PARA O PROGRAMA STARTUP NORDESTE – BAHIA – Portal FAPESB",
+        "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
         "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
-      },
-      {
-        "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
-        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
         "status": "pendente_evidencia",
         "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Edital IncubaScience - Portal Gov.br",
+        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
@@ -6392,10 +6392,10 @@
         "motivo": "dados_dinamicos_ausentes"
       },
       {
-        "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
+        "titulo": "EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...",
         "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
@@ -6404,10 +6404,10 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Programa Nacional de Pré-Incubação de Ideias Inovadoras - Trilha Nacional de Pré-Incubação Brasil Inovador",
+        "titulo": "Ifes abre inscrições para programa nacional de pré-incubação de ideias inovadoras – Agência de Inovação",
         "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Edital Granioter Acelera 2026",
@@ -6446,16 +6446,16 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "EDITAL N.º 21/2024 CHAMAMENTO PÚBLICO PARA SELEÇÃO DE PROJETOS DE INOVAÇÃO PARA O PROGRAMA STARTUP NORDESTE – BAHIA – Portal FAPESB",
+        "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
         "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
-      },
-      {
-        "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
-        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
         "status": "pendente_evidencia",
         "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Edital IncubaScience - Portal Gov.br",
+        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
