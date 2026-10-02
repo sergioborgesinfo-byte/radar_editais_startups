@@ -5887,14 +5887,14 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T11:39:07.168686-03:00",
+    "atualizado_em": "2026-10-02T12:04:00.432888-03:00",
     "examinadas": 78,
     "abertas_publicadas": 3,
     "status": {
       "aberta_confirmada": 3,
-      "pendente_evidencia": 34,
+      "pendente_evidencia": 35,
       "encerrada": 2,
-      "pendente_acesso": 8,
+      "pendente_acesso": 7,
       "pendente_fonte_oficial": 31
     },
     "resultados": [
@@ -6177,8 +6177,8 @@
       {
         "titulo": "Programa Startup SC – Sebrae Startups",
         "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
@@ -6623,8 +6623,8 @@
       {
         "titulo": "Programa Startup SC – Sebrae Startups",
         "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",

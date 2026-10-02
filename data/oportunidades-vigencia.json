@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v10",
-  "atualizado_em": "2026-10-02T11:39:07.168686-03:00",
+  "atualizado_em": "2026-10-02T12:04:00.432888-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -17,7 +17,8 @@
       "evidencia_edicao": "2026",
       "evidencia_publico": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
       "evidencia_prazo": "data_final_date=1790996399000",
-      "modalidade_inscricao": "manifestacao_de_interesse"
+      "modalidade_inscricao": "manifestacao_de_interesse",
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
@@ -54,7 +55,8 @@
       "evidencia_publico": "O Centro de Bionegócios da Amazônia (CBA) lançou nesta quinta-feira (30) o Edital de Fluxo Contínuo CBA Open nº 01/2026, iniciativa que abre novas oportunidades para startups e empresas de base tecnológica interessadas em desenvolver soluções inovadoras a partir da biodiversidade amazônica.",
       "evidencia_prazo": "As inscrições permanecerão abertas em fluxo contínuo, permitindo que novos empreendimentos ingressem no programa ao longo do ano.",
       "modalidade_inscricao": "fluxo_continuo",
-      "sem_data_final": true
+      "sem_data_final": true,
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "https://cloud.google.com/startup/benefits?hl=pt-BR",
@@ -167,22 +169,26 @@
     {
       "url": "https://programas.sebraestartups.com.br/in/ecommerce",
       "status": "pendente_acesso",
-      "motivo": "dados_dinamicos_ausentes"
+      "motivo": "dados_dinamicos_ausentes",
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/feiras2026",
       "status": "pendente_acesso",
-      "motivo": "dados_dinamicos_ausentes"
+      "motivo": "dados_dinamicos_ausentes",
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
       "status": "pendente_acesso",
-      "motivo": "dados_dinamicos_ausentes"
+      "motivo": "dados_dinamicos_ausentes",
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
       "status": "pendente_acesso",
-      "motivo": "dados_dinamicos_ausentes"
+      "motivo": "dados_dinamicos_ausentes",
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
@@ -194,13 +200,15 @@
       "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
       "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups – ConvergenciaDigital",
       "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel"
+      "motivo": "fonte_oficial_indisponivel",
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
       "titulo": "Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana",
       "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel"
+      "motivo": "fonte_oficial_indisponivel",
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -242,7 +250,8 @@
       "url": "https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital",
       "titulo": "Porto Digital abre inscrições para Pré-Incubação | Jornal Digital",
       "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel"
+      "motivo": "fonte_oficial_indisponivel",
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -285,7 +294,8 @@
       "url": "https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups",
       "titulo": "Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta",
       "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado"
+      "motivo": "prazo_literal_com_ano_nao_encontrado",
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
@@ -302,8 +312,9 @@
     {
       "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
       "titulo": "Programa Startup SC – Sebrae Startups",
-      "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel"
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado",
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     },
     {
       "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
@@ -502,7 +513,8 @@
       "evidencia_publico": "Nosso objetivo é selecionar e impulsionar de perto até 10 startups na aceleração.",
       "evidencia_prazo": "Cadastros abertos de 14 de setembro de 2026 até 11 de outubro de 2026.",
       "modalidade_inscricao": "aceleracao",
-      "sem_data_final": false
+      "sem_data_final": false,
+      "verificado_em": "2026-10-02T12:04:00.432888-03:00"
     }
   ]
 }
