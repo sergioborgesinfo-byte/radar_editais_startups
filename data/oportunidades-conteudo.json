@@ -1,14 +1,13 @@
 {
   "versao": "conteudo-v1",
-  "atualizado_em": "2026-10-02T14:20:12.332109+00:00",
+  "atualizado_em": "2026-10-02T14:27:44.746654+00:00",
   "vigencia": "nao_avaliada",
   "contagem": {
-    "pendente_leitura": 214,
-    "confirmada_no_conteudo": 60,
-    "pendente_evidencia": 38,
-    "nao_confirmada_no_texto": 9,
-    "falha_leitura": 10,
-    "pendente_ia": 165
+    "pendente_leitura": 220,
+    "confirmada_no_conteudo": 69,
+    "pendente_evidencia": 49,
+    "nao_confirmada_no_texto": 11,
+    "pendente_ia": 147
   },
   "itens": [
     {
@@ -47,8 +46,8 @@
       "titulo": "ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:18:20.122327+00:00",
-      "tentativas": 4,
+      "conferido_em": "2026-10-02T14:25:10.756459+00:00",
+      "tentativas": 5,
       "status": "pendente_evidencia",
       "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
@@ -278,8 +277,8 @@
       "titulo": "Prêmio Impacta Mais 2026 recebe inscrições 16 de março – ABCR – Associação Brasileira de Captadores de Recursos",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:18:55.264577+00:00",
-      "tentativas": 4,
+      "conferido_em": "2026-10-02T14:25:31.527461+00:00",
+      "tentativas": 5,
       "status": "pendente_evidencia",
       "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
@@ -771,28 +770,28 @@
       "titulo": "SENAI CHAMADA PÚBLICA C",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:20:12.322674+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:25:52.667360+00:00",
+      "tentativas": 3,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
     {
       "url": "https://fundacaolemann.org.br/noticias/desafio-start-ed",
-      "titulo": "Desafio Start-Ed",
+      "titulo": "Desafio Start-Ed - Fundação Lemann",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T19:19:58.909079+00:00",
-      "tentativas": 1,
-      "status": "falha_leitura",
-      "motivo": "ValueError"
+      "conferido_em": "2026-10-02T14:25:52.675944+00:00",
+      "tentativas": 2,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
     },
     {
       "url": "https://garagem.bndes.gov.br/conteudo/100-startups-selecionadas-para-aceleracao-no-bndes-garagem-2025-impulsionam-economia-verde-e-impacto-social",
       "titulo": "100 negócios são selecionados para aceleração no BNDES Garagem no ciclo 2 | BNDES Garagem",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:16:07.152187+00:00",
-      "tentativas": 5,
+      "conferido_em": "2026-10-02T14:24:01.350251+00:00",
+      "tentativas": 6,
       "status": "pendente_evidencia",
       "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
@@ -801,50 +800,73 @@
       "titulo": "Programa de apoio a startups abre inscrições para transformar ideias tecnológicas em grandes empresas - Gazeta da Semana",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T19:22:05.804865+00:00",
-      "tentativas": 1,
-      "status": "falha_leitura",
-      "motivo": "ValueError"
+      "conferido_em": "2026-10-02T14:25:59.957025+00:00",
+      "tentativas": 2,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
     },
     {
       "url": "https://growthsystem.com.br/aceleradoras",
       "titulo": "Aceleradoras de Startups no Brasil | Growth System",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T19:22:05.996041+00:00",
-      "tentativas": 1,
-      "status": "falha_leitura",
-      "motivo": "ValueError"
+      "conferido_em": "2026-10-02T14:25:59.965708+00:00",
+      "tentativas": 2,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
     },
     {
       "url": "https://hardtechinnovation.com.br/wp-content/uploads/2025/08/Edital-Startup-_-HardTech-Innovation-2026.pdf",
       "titulo": "edital startups nº 002 / 2025",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T19:22:06.338959+00:00",
-      "tentativas": 1,
-      "status": "falha_leitura",
-      "motivo": "RuntimeError"
+      "conferido_em": "2026-10-02T14:25:59.974457+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
     {
       "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
       "titulo": "edital de chamada para seleção de projetos e empresas",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T19:24:13.311784+00:00",
-      "tentativas": 1,
-      "status": "falha_leitura",
-      "motivo": "RuntimeError"
+      "conferido_em": "2026-10-02T14:26:07.301902+00:00",
+      "tentativas": 2,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
+        "instituicao": "Instituto Hardware BR – HBR / Incubadora JumpStart",
+        "tipo": "Incubação",
+        "resumo": "Processo seletivo de fluxo contínuo para o Programa de Incubação de empresas e startups inovadoras de base tecnológica, oferecendo modalidades residente e não residente.",
+        "trecho_oportunidade": "torna público aos empreendedores interessados, que estão abertas as inscrições para o processo seletivo de projetos e startups inovadoras para integrar o Programa de Incubação de empresas de base tecnológica do HBR",
+        "trecho_publico": "processo seletivo de projetos e startups inovadoras para integrar o Programa de Incubação de empresas de base tecnológica do HBR",
+        "motivo": "O edital apresenta um programa concreto de incubação de fluxo contínuo voltado explicitamente para startups e projetos inovadores de base tecnológica."
+      },
+      "hash_texto": "23527ad03d73ea8211262e835c419e76351364781632254f5caf573a6c91341a"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
       "titulo": "Hello Tomorrow Challenge",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T19:26:21.529346+00:00",
-      "tentativas": 1,
-      "status": "falha_leitura",
-      "motivo": "RuntimeError"
+      "conferido_em": "2026-10-02T14:26:13.642275+00:00",
+      "tentativas": 2,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Hello Tomorrow Challenge",
+        "instituicao": "hello-tomorrow.org",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "If you’re building a deep tech startup solving global challenges, now’s your chance to apply.",
+        "trecho_oportunidade": "If you’re building a deep tech startup solving global challenges, now’s your chance to apply.",
+        "trecho_publico": "If you’re building a deep tech startup solving global challenges, now’s your chance to apply.",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "77d9e30fa82976458a8666714e7990f98283d8985a3f1915e5171e6e28a877c2"
     },
     {
       "url": "https://hotmilk.pucpr.br/speedup",
@@ -861,40 +883,53 @@
       "titulo": "Missão Empresarial Espanha 2026",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T19:28:29.291692+00:00",
-      "tentativas": 1,
-      "status": "falha_leitura",
-      "motivo": "ValueError"
+      "conferido_em": "2026-10-02T14:26:13.655208+00:00",
+      "tentativas": 2,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
     },
     {
       "url": "https://hotsites.oceanbrasil.com/ocean-launch/Edital_Ocean_Launch_2026_1.pdf",
       "titulo": "edital nº 01/2026 – processo seletivo para ingresso no",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T19:28:32.731958+00:00",
-      "tentativas": 1,
-      "status": "falha_leitura",
-      "motivo": "ValueError"
+      "conferido_em": "2026-10-02T14:26:13.664004+00:00",
+      "tentativas": 2,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
     },
     {
       "url": "https://hubapta.com/desafios",
       "titulo": "Desafíos - APTA - Andes Pacific Technology Access",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T19:28:33.053464+00:00",
-      "tentativas": 1,
-      "status": "falha_leitura",
-      "motivo": "RuntimeError"
+      "conferido_em": "2026-10-02T14:26:13.672765+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Plataforma de Desafíos Tecnológicos - Andes Pacific Technology Access (APTA)",
+        "instituicao": "APTA - Andes Pacific Technology Access",
+        "tipo": "desafios / inovação aberta",
+        "resumo": "Plataforma de desafios tecnológicos de inovação aberta que conecta empresas de alto impacto com equipes, startups e empreendedores para resolver problemas específicos da indústria, oferecendo financiamento, oportunidades de pilotagem e acompanhamento técnico.",
+        "trecho_oportunidade": "Empresas de alto impacto están buscando equipos como el tuyo para resolver desafíos concretos. Explora las oportunidades disponibles, descarga la ficha y postula fácilmente desde esta plataforma.",
+        "trecho_publico": "Buscamos startups, emprendedores, empresas y profesionales de todo Chile con soluciones innovadoras que respondan a los desafíos de la industria.",
+        "motivo": "A página apresenta múltiplos programas concretos de inovação aberta e desafios tecnológicos direcionados a startups e empreendedores, detalhando benefícios como financiamento e pilotos."
+      },
+      "hash_texto": "67ac69c61e2062b01dc743104700ee6056521207719fd7d2dee07f99d26c9848",
+      "motivo": "convite_direto_ou_publico_nao_comprovado",
+      "auditoria_relevancia": "requer_revisao"
     },
     {
       "url": "https://hubgoias.org/wp-content/uploads/2026/01/1.Edital_Chamamento_Solucionadoras_Edital-01_2026.docx-1.pdf",
       "titulo": "1.Edital_Chamamento_Solucionadoras_Edital 01/2026.docx",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T19:30:41.090111+00:00",
-      "tentativas": 1,
-      "status": "falha_leitura",
-      "motivo": "ValueError"
+      "conferido_em": "2026-10-02T14:26:20.657882+00:00",
+      "tentativas": 2,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
     },
     {
       "url": "https://ma.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-conclui-programas-anuais-de-aceleracao-de-startups-fortalecendo-a-inovacao",
@@ -922,8 +957,8 @@
       "titulo": "Oportunidade: Sebrae Minas abre editais para programa de aceleração de startups na Europa e imersão em Dubai | ASN Minas Gerais - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:16:21.201507+00:00",
-      "tentativas": 4,
+      "conferido_em": "2026-10-02T14:24:07.439274+00:00",
+      "tentativas": 5,
       "status": "pendente_evidencia",
       "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
@@ -932,8 +967,8 @@
       "titulo": "CONFAP — Conselho Nacional das Fundações Estaduais de Amparo à PesquisaBNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:16:28.058637+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-02T14:24:14.760081+00:00",
+      "tentativas": 4,
       "status": "pendente_evidencia",
       "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
@@ -1006,18 +1041,31 @@
       "titulo": "Programa Start&UP - Edição 9 - Sebrae Startups",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:16:49.127369+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-02T14:24:22.053711+00:00",
+      "tentativas": 4,
       "status": "pendente_evidencia",
-      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Programa Start&UP – 9ª edição",
+        "instituicao": "Sebrae Startups",
+        "tipo": "pré-aceleração",
+        "resumo": "Programa gratuito de pré-aceleração estruturada para apoiar startups no Mato Grosso com consultorias especializadas, masterclass de capacitação e mentorias práticas.",
+        "trecho_oportunidade": "Um programa gratuito de pré-aceleração que vai impulsionar o ecossistema de inovação em todo o Mato Grosso.",
+        "trecho_publico": "O Start&Up 2026 visa impulsionar o empreendedorismo inovador em todo o Mato Grosso ao apoiar 100 startups até Outubro de 2026",
+        "motivo": "O texto apresenta um programa concreto de pré-aceleração voltado explicitamente para startups, detalhando trilhas de desenvolvimento, consultorias e critérios de participação."
+      },
+      "hash_texto": "2f767824c14e0c93a87ec2d35966267885296e0bfa89c9bbf4686b96dca16c2d",
+      "motivo": "convite_direto_ou_publico_nao_comprovado",
+      "auditoria_relevancia": "requer_revisao"
     },
     {
       "url": "https://repositorio.ipea.gov.br/bitstreams/fca4836e-7dc0-43fb-8d6d-9c809c7bfad8/download",
       "titulo": "PROGRAMA NACIONAL CONEXÃO STARTUP INDÚSTRIA",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:17:03.031070+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-02T14:24:28.490263+00:00",
+      "tentativas": 4,
       "status": "pendente_evidencia",
       "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
@@ -1070,8 +1118,8 @@
       "titulo": "Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:17:38.218385+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-02T14:24:49.992066+00:00",
+      "tentativas": 4,
       "status": "pendente_evidencia",
       "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
@@ -1133,10 +1181,21 @@
       "titulo": "EDITAL N.º 21/2024 CHAMAMENTO PÚBLICO PARA SELEÇÃO DE PROJETOS DE INOVAÇÃO PARA O PROGRAMA STARTUP NORDESTE – BAHIA – Portal FAPESB",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:17:52.175288+00:00",
-      "tentativas": 3,
-      "status": "pendente_evidencia",
-      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
+      "conferido_em": "2026-10-02T14:24:57.471608+00:00",
+      "tentativas": 4,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
+        "instituicao": "FAPESB e SEBRAE",
+        "tipo": "aceleração e fomento",
+        "resumo": "Chamamento público para selecionar projetos de inovação e startups na Bahia para participação no programa Startup Nordeste, oferecendo pré-aceleração, aceleração e bolsas sócio empreendedor.",
+        "trecho_oportunidade": "O Startup Nordeste tem como objetivo principal fomentar o Ecossistema de Inovação na região Nordeste e, por este edital, capacitar empreendedores de projetos inovadores/startups em estágio de validação, tração, crescimento e escala de negócio",
+        "trecho_publico": "Será considerado(a) Proponente, pessoa jurídica que se enquadre na definição de startups do presente edital e sediada (possuir sede ou filial) no estado da Bahia ou pessoa física que deverá constituir empresa com as mesmas condições do Proponente",
+        "motivo": "O edital apresenta um programa concreto de aceleração e fomento financeiro (Bolsa Sócio Empreendedor) voltado especificamente para startups e projetos inovadores na Bahia."
+      },
+      "hash_texto": "43013019ea829c1cad0fa4314ad8817bf36714a3676734ff1aa60c788a171cf3"
     },
     {
       "url": "https://www.finep.gov.br/chamadas-publicas/chamadapublica/776",
@@ -1283,10 +1342,23 @@
       "titulo": "Incubadora de startups da bioeconomia amazônica é lançada no Pará | ASN Nacional - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:15:30.876763+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-02T14:23:52.373777+00:00",
+      "tentativas": 4,
       "status": "pendente_evidencia",
-      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Incubadora de startups da bioeconomia amazônica é lançada no Pará",
+        "instituicao": "Sebrae",
+        "tipo": "Incubação / Aceleração",
+        "resumo": "Lançamento da Oka Hub Incubadora da Floresta, um projeto do Sebrae para apoiar empreendedores da bioeconomia, com foco em acelerar startups que unem conhecimento tradicional com ciência e inovação na região amazônica.",
+        "trecho_oportunidade": "Oka Hub vai acelerar 10 empresas que unem conhecimento tradicional da floresta com ciência e inovação; ação faz parte de projeto do Sebrae para fomentar empreendedorismo sustentável no bioma",
+        "trecho_publico": "As empresas receberão apoio por 24 meses dentro do Oka Flow, uma metodologia desenvolvida pelo Sebrae exclusivamente para startups da bioeconomia",
+        "motivo": "O texto descreve um programa concreto de incubação e aceleração voltado para startups (Oka Hub / Oka Flow), detalhando o público-alvo (startups da bioeconomia amazônica) e o suporte oferecido."
+      },
+      "hash_texto": "3eab96cebac720bb6427af9cb2016ab7095293e78b44553f8d122935a1b2d4cf",
+      "motivo": "convite_direto_ou_publico_nao_comprovado",
+      "auditoria_relevancia": "requer_revisao"
     },
     {
       "url": "https://ecti.ac.gov.br/rascunho-automaticoprogramas-aceleracao-norte-cidades-inteligentes-lideranca-feminina",
@@ -1325,8 +1397,8 @@
       "titulo": "Chamadas e Editais - FAPEMIG",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:42.213453+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T14:23:53.680396+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
     },
@@ -1335,10 +1407,21 @@
       "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição – Fapesc",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:42.215012+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:23:55.450309+00:00",
+      "tentativas": 2,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição",
+        "instituicao": "FUNDAÇÃO DE AMPARO À PESQUISA E INOVAÇÃO DO ESTADO DE SANTA CATARINA (FAPESC)",
+        "tipo": "aceleração",
+        "resumo": "Chamada pública para seleção de propostas de projetos de inovação de startups catarinenses participantes da 16ª Turma do Programa Startup SC, com o objetivo de acelerar o empreendedorismo inovador.",
+        "trecho_oportunidade": "torna público o lançamento do presente Edital de Chamada Pública e convida startups catarinenses participantes da 16ª Turma do Programa Startup SC a apresentarem propostas de projetos de inovação, tendo como finalidade acelerar o empreendedorismo inovador.",
+        "trecho_publico": "convida startups catarinenses participantes da 16ª Turma do Programa Startup SC a apresentarem propostas de projetos de inovação",
+        "motivo": "O texto apresenta um edital de chamada pública concreto voltado para a aceleração de startups, especificando o público-alvo e a finalidade de submissão de propostas."
+      },
+      "hash_texto": "459a7848b447492ed41f2a658bf515a9ba81c6d4b04e9dc56f78c494713880ab"
     },
     {
       "url": "https://fapesp.br/pipe/2026-credenciamento",
@@ -1419,10 +1502,21 @@
       "titulo": "(VFinal) MINUTA EDITAL SEBRAE STARTUP CE.docx",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:48.162723+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:24:42.543265+00:00",
+      "tentativas": 2,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará",
+        "instituicao": "Sebrae/CE e Funcap",
+        "tipo": "Aceleração e fomento",
+        "resumo": "O Programa Startup Ceará selecionará até 60 startups formalizadas no estado para receber aceleração e Bolsas de Inovação Tecnológica (BIT) no valor de R$ 3.000,00 mensais cada, com duração de 6 meses.",
+        "trecho_oportunidade": "O objetivo é selecionar e apoiar startups com alto potencial de crescimento por meio de ações estruturadas de aceleração e a concessão de até 60 Bolsas de Inovação Tecnológica (BIT), no valor de R$ 3.000,00 cada.",
+        "trecho_publico": "As propostas devem ser apresentadas por startups formalizadas no Ceará, com atuação voltada à inovação.",
+        "motivo": "O edital oferece um programa estruturado de aceleração e concessão de bolsas de inovação tecnológica para startups formalizadas no Ceará."
+      },
+      "hash_texto": "613fa9ac007676d8b9efdb28df7e1495aac7aad32fd2ec417fdb56e89cd76c2e"
     },
     {
       "url": "https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia",
@@ -1439,18 +1533,18 @@
       "titulo": "CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:55.114671+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:25:03.855491+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
     {
       "url": "https://www.randoncorp.com/pt/blog/inscri%C3%A7%C3%B5es-para-o-conexo-challenge-est%C3%A3o-abertas",
       "titulo": "Inscrições para o Conexo Challenge estão abertas",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:55.123638+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T14:25:10.738877+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "pagina_http_403"
     },
@@ -1459,8 +1553,8 @@
       "titulo": "Comunicado: Alteração na Lista de Aceleradoras da ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:55.125196+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T14:25:10.747834+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -1469,18 +1563,31 @@
       "titulo": "Desafio Petrobras - Módulo Startup - Outros desafios não especificados (\"radar de startups/soluções\")",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:55.126755+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:25:18.083627+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Desafio Petrobras - Módulo Startup - Outros desafios não especificados",
+        "instituicao": "Petrobras",
+        "tipo": "desafio / inovação aberta",
+        "resumo": "Programa da Petrobras voltado para capturar startups e soluções, conectando-as com representantes dos portfólios de PD&I e inserindo-as no radar de inovação aberta da empresa.",
+        "trecho_oportunidade": "Capturar startups e soluções para conectar com representantes dos portfólios de PD&I da Petrobras e colocar as startups no radar de inovação aberta da empresa.",
+        "trecho_publico": "Startups com soluções para desafios de inovação que possam fazer sentido para a Petrobras",
+        "motivo": "O texto apresenta um programa concreto de inovação aberta (desafio/radar de startups) direcionado explicitamente a startups."
+      },
+      "hash_texto": "919f3a1f530011dc844c184cf7d83b5d05091032a1c34192c7a93bd1909f60a4",
+      "motivo": "convite_direto_ou_publico_nao_comprovado",
+      "auditoria_relevancia": "requer_revisao"
     },
     {
       "url": "https://anprotec.org.br/site/2019/01/inscricoes-para-nova-turma-de-aceleracao-da-baita-terminam-dia-15-de-janeiro",
       "titulo": "Inscrições para nova turma de aceleração da Baita terminam dia 15 de janeiro - Anprotec",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:18:41.170112+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:25:24.841986+00:00",
+      "tentativas": 3,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -1508,61 +1615,83 @@
     },
     {
       "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
-      "titulo": "Gerdau launches new open innovation challenge to ...",
+      "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence - IBRAM",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:55.927810+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:26:20.666667+00:00",
+      "tentativas": 2,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
+        "instituicao": "Gerdau / Instituto Caldeira",
+        "tipo": "desafio de inovação aberta",
+        "resumo": "Desafio de inovação aberta promovido pela Gerdau em parceria com o Instituto Caldeira para selecionar startups com soluções tecnológicas baseadas em inteligência de dados, análise preditiva e automação para a gestão fiscal.",
+        "trecho_oportunidade": "An initiative in partnership with the Caldeira Institute seeks startups with predictive solutions for tax planning and automation of fiscal processes. Gerdau , Brazil's largest steel producer, is opening applications for a new open innovation program",
+        "trecho_publico": "The project is primarily aimed at startups that are already operational or at scale and ready to present their solutions.",
+        "motivo": "O texto apresenta um programa de inovação aberta concreto voltado para startups com o objetivo de selecionar soluções tecnológicas para a gestão fiscal."
+      },
+      "hash_texto": "b741b5cc3216ac51426d0298270b8688be8162cd891f5bdee249cb41436d0f67"
     },
     {
       "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
       "titulo": "IFTM EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:55.930885+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:26:27.589527+00:00",
+      "tentativas": 2,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
+        "instituicao": "Instituto Federal do Triângulo Mineiro (IFTM)",
+        "tipo": "Incubação",
+        "resumo": "Edital de seleção de potenciais empreendedores para o programa de capacitação em Pré-Incubação na modalidade online, com foco em ideias e negócios inovadores.",
+        "trecho_oportunidade": "torna público o presente edital de seleção de potenciais empreendedores para a capacitação em Pré-Incubação, a ser ofertada na modalidade online, no primeiro semestre de 2026.",
+        "trecho_publico": "voltada a ideias e negócios inovadores nas áreas social, tradicional, cultural e de base tecnológica.",
+        "motivo": "O texto apresenta um edital concreto de pré-incubação e capacitação voltado para empreendedores e negócios inovadores."
+      },
+      "hash_texto": "de6b94e4ccd230b5a802b3415abb16c36258b9e2bee167e3eec922ceb97f44ab"
     },
     {
       "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
       "titulo": "Natura Ventures abre chamada para startups do Norte e Nordeste com foco em inovação, parceria e investimento",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:56.367109+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:26:34.477374+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
     {
       "url": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
       "titulo": "Inatel lidera projeto de aceleração de startups no Sul de Minas | Notícias - Inatel",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:59.035538+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:26:48.664938+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
     {
       "url": "https://inova.unicamp.br/desafio",
       "titulo": "Home - Desafio Unicamp",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:59.690324+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:27:02.640177+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
     {
       "url": "https://inovae.cofenplay.com.br/oportunidades/chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-pernambuco-pro-startups",
       "titulo": "CHAMAMENTO PÚBLICO PARA SELEÇÃO DE PROJETOS DE INOVAÇÃO PARA O PROGRAMA STARTUP NORDESTE – PERNAMBUCO | PRÓ-STARTUPS | Portal Inova-e",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:59.694669+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T14:27:09.537964+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -1581,18 +1710,29 @@
       "titulo": "Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:59.698173+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:27:16.724965+00:00",
+      "tentativas": 2,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico",
+        "instituicao": "Parque Científico e Tecnológico de Lavras – IpêTech Lavras / FAPEMIG",
+        "tipo": "Evento de Lançamento / Aceleração",
+        "resumo": "Divulgação do evento de lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED, voltada para a aceleração de startups por meio de ambientes promotores de inovação.",
+        "trecho_oportunidade": "convida representantes de ambientes promotores de inovação, empreendedores, pesquisadores e integrantes do ecossistema de startups para o evento de lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação",
+        "trecho_publico": "impulsionando a criação, aceleração e desenvolvimento de startups em parceria com os ambientes promotores de inovação do estado.",
+        "motivo": "A página apresenta uma oportunidade concreta relacionada a um programa de fomento e aceleração para startups (Chamada FAPEMIG SEDE 03/2026 – Novo SEED) e direciona explicitamente para empreendedores e o ecossistema de startups."
+      },
+      "hash_texto": "6ba02a808230090a7905fc7e85fa608b0bedeb33db6b8af585c8660e46bdd3d1"
     },
     {
       "url": "https://itforum.com.br/noticias/abertas-inscricoes-para-11a-rodada-de-aceleracao-de-startups-da-wow?amp=1",
       "titulo": "Abertas inscrições para a 11ª rodada de aceleração de startups da WOW - IT Forum",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:42:04.018653+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T14:27:23.618501+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -1623,28 +1763,39 @@
       "titulo": "Edital de Seleção - Capital LAB 2026",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:42:04.023246+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:27:23.627546+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
     {
       "url": "https://leadiq.com/c/wow-aceleradora-de-startups/5a1d9d3e2300005c008d188c/email-format",
       "titulo": "WOW Aceleradora de Startups Email Formats & Email Address Examples | LeadIQ",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:42:04.103831+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:27:30.412809+00:00",
+      "tentativas": 2,
+      "status": "nao_confirmada_no_texto",
+      "dados": {
+        "oportunidade_concreta": false,
+        "publico_startup": true,
+        "titulo": "WOW Aceleradora de Startups Overview",
+        "instituicao": "WOW Aceleradora de Startups",
+        "tipo": "aceleração",
+        "resumo": "Página de diretório de contatos e informações da WOW Aceleradora de Startups, mencionando que a instituição opera programas de aceleração para estágios iniciais, mas sem conter uma chamada ativa, edital ou link de inscrição concreto para participação.",
+        "trecho_oportunidade": "",
+        "trecho_publico": "It runs three accelerator programs designed to help early-stage ventures grow quickly, providing close guidance, mentorship from seasoned leaders, and capacity-building opportunities.",
+        "motivo": "O texto apresenta informações institucionais e de contato da aceleradora em uma plataforma de prospecção (LeadIQ), mas não descreve uma chamada, edital ou link de inscrição aberto para um programa específico."
+      },
+      "hash_texto": "4321a07ca62663060a07839c05c3403effc58aaa53d89f2daf99975c6409d591"
     },
     {
       "url": "https://licitario.com.br/fomento/para/startup",
       "titulo": "Editais de fomento para startups: da ideia ao produto com dinheiro público · Licitário",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:42:04.106076+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T14:27:37.647220+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -1653,8 +1804,8 @@
       "titulo": "Grupo Equatorial abre inscrições para programa de inovação aberta com POCs remuneradas para startups – Equatorial Energia Maranhão",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:42:04.107760+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T14:27:37.656675+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -1663,18 +1814,18 @@
       "titulo": "Edital Incubadora Mamirauá",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:42:04.109431+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:27:37.665801+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
     {
       "url": "https://movimentoeconomico.com.br/tecnologia/2026/02/10/porto-digital-lanca-editais-de-incubacao-e-internacionalizacao-de-negocios",
       "titulo": "Porto Digital lança editais de incubação e internacionalização de negócios",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:42:08.073726+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T14:27:44.724762+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -1683,8 +1834,8 @@
       "titulo": "Sebrae/MS abre seleção gratuita para acelerar até 30 startups sul-mato-grossenses | MSConecta",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:42:08.075836+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T14:27:44.733955+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -4833,10 +4984,23 @@
       "titulo": "Sebrae Roraima lança programa para acelerar startups e fortalecer ecossistema de inovação no estado | ASN Roraima - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:17:10.286076+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:24:36.639093+00:00",
+      "tentativas": 3,
       "status": "pendente_evidencia",
-      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Programa de Aceleração de Startups Sebrae Roraima",
+        "instituicao": "Sebrae Roraima",
+        "tipo": "aceleração",
+        "resumo": "O Sebrae Roraima lança o Programa de Aceleração de Startups para selecionar 15 empresas e projetos inovadores para uma jornada que inclui mentorias, capacitações, workshops, diagnóstico estratégico e Demoday com investidores.",
+        "trecho_oportunidade": "Ao todo, 15 startups serão selecionadas para participar de uma jornada de aceleração que inclui mentorias especializadas, capacitações, workshops, diagnóstico estratégico e conexões com o mercado.",
+        "trecho_publico": "Empreendedores com projetos inovadores terão uma nova oportunidade para desenvolver seus negócios no estado. O Sebrae/RR  promove no dia 16 de junho, o lançamento do Programa de Aceleração de Startups Sebrae Roraima",
+        "motivo": "O texto apresenta um programa concreto de aceleração promovido pelo Sebrae Roraima voltado explicitamente para startups e projetos inovadores em diferentes estágios."
+      },
+      "hash_texto": "fcb81d2246323e6b90bf4a16357bae901b3dd9f5eae0ece808d494d6fc57204d",
+      "motivo": "convite_direto_ou_publico_nao_comprovado",
+      "auditoria_relevancia": "requer_revisao"
     },
     {
       "url": "https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre",
@@ -4888,8 +5052,8 @@
       "titulo": "7 programas de fomento para empreendedores ficarem de olho - Abstartups",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:18:34.274794+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:25:18.066351+00:00",
+      "tentativas": 3,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -4898,8 +5062,8 @@
       "titulo": "Programa Natura Startups está com inscrições abertas | - Agora RN",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:18:34.281594+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:25:18.075021+00:00",
+      "tentativas": 3,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -4929,18 +5093,31 @@
       "titulo": "Habitat e Biominas Brasil estão com inscrições abertas para seleção de novas empresas para seu programa de incubação – Biominas Brasil",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:10:00.210560+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:25:24.850702+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Programa de Incubação Habitat e Biominas Brasil",
+        "instituicao": "Fundação Biominas e Habitat",
+        "tipo": "incubação",
+        "resumo": "Programa de incubação para empresas nascentes de base tecnológica no setor de Ciências da Vida, oferecendo infraestrutura física, laboratórios, metodologia especializada e suporte.",
+        "trecho_oportunidade": "comunica que estão abertas as inscrições de projetos interessados no programa de incubação para residentes 2023/2.",
+        "trecho_publico": "o foco são empresas nascentes já constituídas, que tenham atuação no setor de Ciências da Vida, e cuja tecnologia principal já esteja validada pelo menos em ambiente laboratorial (TRL a partir de 4).",
+        "motivo": "A página descreve claramente um programa de incubação ativo para empresas nascentes com foco em inovação e ciências da vida."
+      },
+      "hash_texto": "03dc7e8ea574acd2d389e1c162de51b4477b487456f86544589a60ce77b78741",
+      "motivo": "convite_direto_ou_publico_nao_comprovado",
+      "auditoria_relevancia": "requer_revisao"
     },
     {
       "url": "https://brasilenergia.com.br/energia/empresas/grupo-equatorial-abre-programa-de-inovacao-para-startups",
       "titulo": "Grupo Equatorial abre programa de inovação para startups | Editora Brasil Energia",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:18:55.257633+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:25:31.518708+00:00",
+      "tentativas": 3,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -4971,8 +5148,8 @@
       "titulo": "Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:19:02.158153+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:25:38.950134+00:00",
+      "tentativas": 3,
       "status": "pendente_evidencia",
       "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
@@ -5023,8 +5200,8 @@
       "titulo": "Sebrae tem programa para acelerar startups - Diário dos Campos",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:19:23.019634+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:25:45.816462+00:00",
+      "tentativas": 3,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -5056,8 +5233,8 @@
       "titulo": "Startups goianas são selecionadas para programa nacional - Empreender em Goiás",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:19:51.094290+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:25:45.825497+00:00",
+      "tentativas": 3,
       "status": "pendente_leitura",
       "motivo": "pagina_http_403"
     },
@@ -5089,8 +5266,8 @@
       "titulo": "Startups incubadas no Senac são selecionadas para programa de aceleração | Faculdade Senac Pernambuco",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:19:58.188531+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:25:45.834291+00:00",
+      "tentativas": 3,
       "status": "pendente_leitura",
       "motivo": "pagina_http_403"
     },
@@ -5099,8 +5276,8 @@
       "titulo": "Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups - FAU",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:19:58.195255+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:25:45.842871+00:00",
+      "tentativas": 3,
       "status": "pendente_evidencia",
       "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada"
     },
@@ -5132,10 +5309,23 @@
       "titulo": "Aceleração de startups: Sebrae Roraima lança novo programa | G1",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:10:14.450189+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:25:52.684498+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Programa de Aceleração de Startups Sebrae Roraima",
+        "instituicao": "Sebrae Roraima",
+        "tipo": "aceleração",
+        "resumo": "O Sebrae Roraima lançou o Programa de Aceleração de Startups, iniciativa que selecionará 15 empresas para uma jornada de capacitação, mentorias especializadas, workshops e conexões com o mercado, encerrando com um Demoday.",
+        "trecho_oportunidade": "Ao todo, 15 startups serão selecionadas para participar de uma jornada de aceleração que inclui mentorias especializadas, capacitações, workshops, diagnóstico estratégico e conexões com o mercado.",
+        "trecho_publico": "Empreendedores com projetos inovadores terão uma nova oportunidade para desenvolver seus negócios no estado. O Sebrae/RR promove no dia 16 de junho, o lançamento do Programa de Aceleração de Startups Sebrae Roraima, iniciativa voltada ao fortalecimento do ecossistema de inovação local e ao apoio de empresas com potencial de crescimento e impacto econômico.",
+        "motivo": "O texto apresenta um programa concreto de aceleração de startups promovido pelo Sebrae Roraima, com regras claras de seleção, público-alvo definido (startups e empreendedores com projetos inovadores) e detalhes sobre a jornada de suporte."
+      },
+      "hash_texto": "37933a5f82aa9c741aa68ae48e5c6db012dbf17ba5e8603177fa6c763d69bbf2",
+      "motivo": "convite_direto_ou_publico_nao_comprovado",
+      "auditoria_relevancia": "requer_revisao"
     },
     {
       "url": "https://gocache.com.br/nao-categorizado/creditos-em-nuvem-para-startups-conheca-alguns-programas",
@@ -5176,38 +5366,73 @@
       "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil - Impacta Nordeste",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:10:17.493592+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:26:41.647703+00:00",
+      "tentativas": 2,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil",
+        "instituicao": "BNDES",
+        "tipo": "aceleração",
+        "resumo": "O BNDES Garagem lançou um novo ciclo de aceleração para selecionar 100 empreendedores e startups de impacto, oferecendo mentorias, capacitação e prêmios em dinheiro de até R$ 160 mil ao final do programa.",
+        "trecho_oportunidade": "O Banco Nacional de Desenvolvimento Econômico e Social (BNDES) lança, nesta segunda-feira, 11, o segundo dos quatro ciclos da 3ª Edição do BNDES Garagem, programa gratuito de apoio a empreendedores e startups de impacto.",
+        "trecho_publico": "3ª Edição do BNDES Garagem, programa gratuito de apoio a empreendedores e startups de impacto.",
+        "motivo": "O texto descreve uma chamada pública concreta de programa de aceleração e apoio a startups de impacto com regras claras de participação e premiação."
+      },
+      "hash_texto": "c20df80fa2a89d07701b11cb25c4d81ee08ea9f97ec31a41387fb4e43161a651"
     },
     {
       "url": "https://inova.ufabc.edu.br/noticias/9049-gerdau-challenge-fiemg-lab-oportunidade-para-startups",
       "titulo": "Gerdau Challenge FIEMG Lab - Oportunidade para Startups - Universidade Federal do ABC",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:10:19.931852+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:26:55.823052+00:00",
+      "tentativas": 2,
+      "status": "pendente_evidencia",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Gerdau Challenge FIEMG Lab - Oportunidade para Startups",
+        "instituicao": "Gerdau / FIEMG Lab",
+        "tipo": "desafio",
+        "resumo": "A Gerdau lançou três desafios para startups de todo o Brasil interessadas em apresentar soluções inovadoras e tecnológicas nas áreas de monitoramento de carvão vegetal, medição de perfis metálicos e redução de finos.",
+        "trecho_oportunidade": "A Gerdau está lançando três super desafios para startups de todo o Brasil, que queiram contribuir com inovação, tecnologia e desenvolvimento de novas soluções!",
+        "trecho_publico": "A Gerdau está lançando três super desafios para startups de todo o Brasil, que queiram contribuir com inovação, tecnologia e desenvolvimento de novas soluções!",
+        "motivo": "O texto apresenta um desafio claro voltado para startups com foco em inovação e tecnologia, oferecendo a oportunidade de inscrição para solucionar problemas industriais concretos."
+      },
+      "hash_texto": "23ed3f7d6b1fc1958d7c3e7f4b49bf14137d401f13a5b3c8bc64195950ce8e12",
+      "motivo": "convite_direto_ou_publico_nao_comprovado",
+      "auditoria_relevancia": "requer_revisao"
     },
     {
       "url": "https://inovai.org.br/4-das-15-startups-mineiras-selecionadas-para-programa-de-internacionalizacao-do-sebrae-sao-vinculadas-a-incit",
       "titulo": "4 das 15 startups mineiras selecionadas para Programa de Internacionalização do Sebrae são vinculadas à INCIT – INOVAI",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:10:19.938670+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-02T14:27:09.547047+00:00",
+      "tentativas": 2,
+      "status": "nao_confirmada_no_texto",
+      "dados": {
+        "oportunidade_concreta": false,
+        "publico_startup": true,
+        "titulo": "4 das 15 startups mineiras selecionadas para Programa de Internacionalização do Sebrae são vinculadas à INCIT",
+        "instituicao": "Sebrae Minas",
+        "tipo": "Notícia de seleção realizada",
+        "resumo": "A página relata que quatro startups vinculadas à INCIT foram selecionadas para a Fase 2 do Programa de Aceleração para Internacionalização do Sebrae Minas, tratando-se de uma notícia sobre um resultado já ocorrido e não de uma chamada aberta com inscrições vigentes.",
+        "trecho_oportunidade": "Quatro das 15 startups de Minas selecionadas para a Fase 2 do Programa de Aceleração para Internacionalização do Sebrae Minas são vinculadas à Incubadora de Empresas de Base Tecnológica de Itajubá (INCIT).",
+        "trecho_publico": "Quatro das 15 startups de Minas selecionadas para a Fase 2 do Programa de Aceleração para Internacionalização do Sebrae Minas são vinculadas à Incubadora de Empresas de Base Tecnológica de Itajubá (INCIT).",
+        "motivo": "O texto descreve uma seleção já realizada (resultado de programa) e não uma oportunidade aberta para participação atual."
+      },
+      "hash_texto": "a4456508fb8bfdb2c6c0b78fbdb63b078a930f8ef262d1c2c7ef7dd71a5d2771"
     },
     {
       "url": "https://institutocaldeira.org.br/blog/conecta-caldeira-reune-7-desafios-de-inovacao-aberta-de-grandes-empresas-veja-como-inscrever-sua-startup",
       "titulo": "Conecta Caldeira reúne 7 desafios de inovação aberta ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:10:25.599654+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T14:27:16.715866+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -5534,8 +5759,8 @@
       "titulo": "ICM Lab Solana — Darwin Startups",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:17:52.153827+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T14:24:57.460584+00:00",
+      "tentativas": 3,
       "status": "pendente_evidencia",
       "dados": {
         "oportunidade_concreta": true,
@@ -5545,7 +5770,7 @@
         "tipo": "Aceleração",
         "resumo": "ICM Lab Solana powered by Darwin Startups, um programa de aceleração focado em infraestrutura do mercado de capitais e tecnologia Web3.",
         "trecho_oportunidade": "ICM Lab Solana powered by Darwin Startups, um programa de aceleração focado em infraestrutura do mercado de capitais e tecnologia Web3.",
-        "trecho_publico": "ICM Lab Solana powered by Darwin Startups, um programa de aceleração focado em infraestrutura do mercado de capitais e tecnologia Web3.",
+        "trecho_publico": "Nosso objetivo é selecionar e impulsionar de perto até 10 startups na aceleração.",
         "motivo": "Página oficial do programa com objetivo e público explícitos em blocos literais",
         "metodo": "regra_oficial_icm_lab"
       },
