@@ -1,11 +1,11 @@
 {
   "versao": "conteudo-v1",
-  "atualizado_em": "2026-10-02T06:10:35.423930+00:00",
+  "atualizado_em": "2026-10-02T06:39:10.520073+00:00",
   "vigencia": "nao_avaliada",
   "contagem": {
-    "pendente_leitura": 199,
-    "confirmada_no_conteudo": 49,
-    "pendente_ia": 176,
+    "pendente_leitura": 214,
+    "confirmada_no_conteudo": 54,
+    "pendente_ia": 206,
     "pendente_evidencia": 10,
     "nao_confirmada_no_texto": 1,
     "falha_leitura": 11
@@ -390,8 +390,8 @@
       "titulo": "Programa de aceleração Citz.Tech",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:01:54.910711+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-02T06:39:10.310282+00:00",
+      "tentativas": 4,
       "status": "pendente_ia",
       "motivo": "gemini_http_429"
     },
@@ -602,8 +602,8 @@
       "titulo": "Resultado Chamada Pública 03/2026: Novo Seed  | FAPEMIG",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:01:56.642173+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-02T06:39:10.416116+00:00",
+      "tentativas": 4,
       "status": "pendente_ia",
       "motivo": "gemini_http_429"
     },
@@ -612,8 +612,8 @@
       "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 03/2026 PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS VI EDIÇÃO SUPER PITCH DAY – Fapesc",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:01:56.643928+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-02T06:39:10.422030+00:00",
+      "tentativas": 4,
       "status": "pendente_ia",
       "motivo": "gemini_http_429"
     },
@@ -632,8 +632,8 @@
       "titulo": "Learn about the Founder Institute's pre-seed startup accelerator program",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:01:56.647515+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-02T06:39:10.433771+00:00",
+      "tentativas": 4,
       "status": "pendente_ia",
       "motivo": "gemini_http_429"
     },
@@ -682,8 +682,8 @@
       "titulo": "100 negócios são selecionados para aceleração no BNDES Garagem no ciclo 2 | BNDES Garagem",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:01:56.654783+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-02T06:39:10.442174+00:00",
+      "tentativas": 4,
       "status": "pendente_ia",
       "motivo": "gemini_http_429"
     },
@@ -792,8 +792,8 @@
       "titulo": "Sebrae conclui programas anuais de aceleração de startups fortalecendo a inovação | ASN Maranhão - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:01:56.658507+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T06:39:10.503599+00:00",
+      "tentativas": 3,
       "status": "pendente_ia",
       "motivo": "gemini_http_429"
     },
@@ -802,8 +802,8 @@
       "titulo": "Oportunidade: Sebrae Minas abre editais para programa de aceleração de startups na Europa e imersão em Dubai | ASN Minas Gerais - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:01:56.662571+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-02T06:39:10.511223+00:00",
+      "tentativas": 3,
       "status": "pendente_ia",
       "motivo": "gemini_http_429"
     },
@@ -1053,11 +1053,11 @@
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para",
-      "titulo": "Incubadora de startups da bioeconomia amazônica é ...",
+      "titulo": "Incubadora de startups da bioeconomia amazônica é lançada no Pará | ASN Nacional - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:01:51.959161+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T06:39:08.862462+00:00",
+      "tentativas": 2,
       "status": "pendente_ia",
       "motivo": "gemini_http_429"
     },
@@ -1118,8 +1118,8 @@
       "titulo": "Edital de credenciamento para incubação de startups para atendimento a empresas participantes do programa PIPE-FAPESP",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:41:48.145150+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T06:39:10.427985+00:00",
+      "tentativas": 2,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
     },
@@ -4498,8 +4498,8 @@
       "titulo": "Startups comemoram aceleração após participação em programa do Sebrae | ASN Alagoas - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:09:59.526968+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-02T06:39:08.869262+00:00",
+      "tentativas": 2,
       "status": "pendente_ia",
       "motivo": "gemini_http_429"
     },
@@ -5182,6 +5182,566 @@
         "metodo": "regras_textuais_conservadoras"
       },
       "hash_texto": "12d8d29fc23eb7b6938ec7f9015c439b3c43eb3c708c5db35a9c0d10582a832c"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/capital-empreendedor-2026-turma-pr",
+      "titulo": "Capital Empreendedor 2026 - Turma PR - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:49.714798+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.darwinstartups.com/icmlab",
+      "titulo": "ICM Lab Solana — Darwin Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:50.365214+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://institutocaldeira.org.br/blog/estao-abertas-as-inscricoes-para-o-conecta-programa-promovido-pelo-instituto-caldeira",
+      "titulo": "Estão abertas as inscrições para o Conecta, programa ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:52.389040+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://startups.com.br/negocios/blackrocks-traz-nova-edicao-de-programa-de-aceleracao-para-empreendedores-negros",
+      "titulo": "BlackRocks faz 2º programa de aceleração para empreendedores negros",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:52.394511+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.facebook.com/radiocomunicativadeovalle/posts/desaf%C3%ADo-emprendedor-2026-c%C3%B3mo-postular-requisitos-y-premios-de-m%C3%A1s-de-200-millon/1599227898884883",
+      "titulo": "Desafío Emprendedor 2026:... - Radio Comunicativa de Ovalle",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:52.399525+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DU1FwWNDq5p?hl=en",
+      "titulo": "A Missão Empresarial South Summit Brasil 2026 é uma ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:52.404300+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.openstartups.net/events/inovabra/agronegocio",
+      "titulo": "100 Open Startups - inovabra bradesco: Grande Desafio Agronegócio",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:52.409358+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.seedstars.com/community/entrepreneurs/programs/open-innovation-challenge-es",
+      "titulo": "Smart Cities Challenge for Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:54.167735+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.suzano.com.br/noticia/suzano-lanca-desafio-em-busca-de-parceiros-para-desenvolvimento-de-novas-aplicacoes-ao-papel",
+      "titulo": "Suzano lança desafio em busca de parceiros",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:54.176733+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.sympla.com.br/evento-online/bndes-garagem-oportunidades-e-desafios-de-empreender-na-floresta/3083679",
+      "titulo": "BNDES Garagem: Oportunidades e desafios de empreender na floresta - online - Sympla",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:54.182496+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.weg.net/institutional/US/es/news/corporativo/weg-lanza-el-desafio-de-innovacion-abierta-en-el-mercado",
+      "titulo": "WEG lanza el desafío de Innovación Abierta en el mercado | WEG",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:54.187333+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-lnAfwItuHU",
+      "titulo": "Lançamento Chamada de Startups BNDES Garagem 2023",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:54.192132+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/capitalempreendedor-go26",
+      "titulo": "Capital Empreendedor 2026 - Turma GO - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:54.272260+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
+      "titulo": "Suzano lança Programa de Mentoria de Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:54.277750+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Suzano lança Programa de Mentoria de Startups",
+        "instituicao": "www.suzano.com.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": ", referência global na fabricação de bioprodutos desenvolvidos a partir do cultivo de eucalipto, abriu as inscrições para seu Programa de Mentoria de Startups.",
+        "trecho_oportunidade": ", referência global na fabricação de bioprodutos desenvolvidos a partir do cultivo de eucalipto, abriu as inscrições para seu Programa de Mentoria de Startups.",
+        "trecho_publico": ", referência global na fabricação de bioprodutos desenvolvidos a partir do cultivo de eucalipto, abriu as inscrições para seu Programa de Mentoria de Startups.",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "a61153fc437680ae535e0ec1b12fb9a8fa38daa138b3a7863c0d56351a3b013b"
+    },
+    {
+      "url": "https://www.sympla.com.br/evento/apresentacao-do-edital-novo-seed/3377139",
+      "titulo": "Apresentação do Edital Novo Seed em Ouro Branco - Sympla",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:54.793538+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XiEZnzCkY3Y&xstg=CAMSBhUD-7L2Hw%3D%3D",
+      "titulo": "Oportunidades y desafíos para la generación de startups AgTech en América Latina y el Caribe",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:54.798673+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/capitalempreendedorrn2026",
+      "titulo": "Capital Empreendedor 2026 - Rio Grande do Norte",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:56.120914+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YsEHUKS21gw",
+      "titulo": "From challenge to results: how Sebrae helps startups in Piauí innovate and grow",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:56.126265+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/capitalempreendedorrs",
+      "titulo": "Capital Empreendedor 2026 - Rio Grande do Sul",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:58.896127+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lmzrYBwrysM",
+      "titulo": "💡🌐 DESAFÍOS de INNOVACIÓN  abierta para emprendedores y startups - Episodio 40",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:38:58.901767+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/chamada-startup-day--batalha-de-startups-1770151031465x980272493506798100",
+      "titulo": "Chamada Startup Day- Batalha de Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:01.605911+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=sfP2AJF1fTo",
+      "titulo": "Primeira Rodada de Negócios com Propósito fortalece laços e impulsiona marcas",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:01.611828+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/coworking-space-gorn-2026-1779212416626x358173180744617340",
+      "titulo": "Coworking Space GO!RN 2026 - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:04.299467+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vrf_2AaQb-Y",
+      "titulo": "Quer impulsionar a sua startup? Participe do Impulsiona Startups! - Inscrições abertas",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:04.304782+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/deeptech-summit-2026-missaobahia",
+      "titulo": "Deep Tech Summit 2026 #Startups da Bahia",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:06.961306+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/developers-ciclo-2026-1709557563419x256074552006410240",
+      "titulo": "Developers Ciclo 2026 - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.014701+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/ecommerce",
+      "titulo": "Rodada de Negócios Fórum E-commerce Brasil",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.019776+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Rodada de Negócios Fórum E-commerce Brasil",
+        "instituicao": "programas.sebraestartups.com.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "A Rodada de Negócios de Startups, promovida pelo Sebrae e E-Commerce Brasil durante o Fórum E-Commerce Brasil 2026, selecionará startups com soluções para o mercado digital e as conectará a empresas e parceiros estratégicos, visando gerar negócios, parcerias e projetos-piloto.",
+        "trecho_oportunidade": "A Rodada de Negócios de Startups, promovida pelo Sebrae e E-Commerce Brasil durante o Fórum E-Commerce Brasil 2026, selecionará startups com soluções para o mercado digital e as conectará a empresas e parceiros estratégicos, visando gerar negócios, parcerias e projetos-piloto.",
+        "trecho_publico": "A Rodada de Negócios de Startups, promovida pelo Sebrae e E-Commerce Brasil durante o Fórum E-Commerce Brasil 2026, selecionará startups com soluções para o mercado digital e as conectará a empresas e parceiros estratégicos, visando gerar negócios, parcerias e projetos-piloto.",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "b6a97bf20d370fe163ec15fac68f385db7daf3a18d8e336c30439702095ed0b6"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/exposi%C3%A7%C3%A3o-de-startups-ga%C3%BAchas---noroeste-summit-1781189221421x880206587749473500",
+      "titulo": "Exposição de Startups Gaúchas - Noroeste Summit",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.025904+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/exposi%C3%A7%C3%A3o-de-startups-mineiras-e-festival-2026-1770041341486x147505777376493570",
+      "titulo": "Exposição de Startups Mineiras E-FESTIVAL 2026",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.031268+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/feiras2026",
+      "titulo": "Feiras e Eventos 2026 - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.036241+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Feiras e Eventos 2026 - Sebrae Startups",
+        "instituicao": "programas.sebraestartups.com.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "Por meio das inscrições (manifestação de interesse), realizamos a seleção de startups para cada evento, seguindo critérios específicos como a aderência ao perfil da feira.",
+        "trecho_oportunidade": "Por meio das inscrições (manifestação de interesse), realizamos a seleção de startups para cada evento, seguindo critérios específicos como a aderência ao perfil da feira.",
+        "trecho_publico": "Por meio das inscrições (manifestação de interesse), realizamos a seleção de startups para cada evento, seguindo critérios específicos como a aderência ao perfil da feira.",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "ab79fd08f0dd3a9d36164358a8bdb47874923e8bedbeec4501a0ecabb9ba3b7e"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/fintech-world-cup",
+      "titulo": "FinTech World Cup Brasil 2025 - Classificatórias",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.045560+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/inova-startups-5%C2%AA-ed---2026-1745493885274x442398076190326800",
+      "titulo": "Inova Startups 5ª ed - 2026",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.050594+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/jornada-startups-2026-1773442612635x470191742132420600",
+      "titulo": "Jornada Startups 2026",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.055777+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/lista-de-interesse-para-participa%C3%A7%C3%A3o-de-startups-no-sapiranga-summit-1782308533253x856354105437913300",
+      "titulo": "Lista de Interesse Para Participação de Startups no Sapiranga Summit",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.060841+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/mercopar2026",
+      "titulo": "Startups do RS e demais estados na Mercopar 2026 ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.066007+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/midihub2026",
+      "titulo": "A plataforma que é suporte e impulso para startups no Brasil.",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.071038+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/miss%C3%A3o-next-rise-2026---seul-coreia-do-sul-1771582492388x399221078118399100",
+      "titulo": "Missão Next Rise 2026 - Seul, Coreia do Sul - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.076187+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/missaobahiagamescom",
+      "titulo": "Missão Bahia - Gamescom Latam",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.081929+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/missaornneon2026",
+      "titulo": "Missão NEON 2026 - Sebrae/RN",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.087767+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/neon-2026---startups-expositoras-1772814295688x347903356906245300",
+      "titulo": "NEON 2026 - Startups expositoras",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.093566+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/pr%C3%AAmio-sebrae-startups-2026-1773937724236x843656155048992900",
+      "titulo": "Prêmio Sebrae Startups 2026",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.098704+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/premiosebraestartups2026",
+      "titulo": "Prêmio Sebrae Startups 2026",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.103837+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
+      "titulo": "Programa SCALE IA 2026 - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.108889+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Programa SCALE IA 2026 - Sebrae Startups",
+        "instituicao": "programas.sebraestartups.com.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "O Scale IA é um programa nacional de aceleração realizado pelo Sebrae Startups e pelo CEIA/UFG, com apoio da AWS e NVIDIA, que selecionará 30 startups de todo o Brasil para desenvolver soluções de Inteligência Artificial voltadas às micro e pequenas empresas.",
+        "trecho_oportunidade": "O Scale IA é um programa nacional de aceleração realizado pelo Sebrae Startups e pelo CEIA/UFG, com apoio da AWS e NVIDIA, que selecionará 30 startups de todo o Brasil para desenvolver soluções de Inteligência Artificial voltadas às micro e pequenas empresas.",
+        "trecho_publico": "O Scale IA é um programa nacional de aceleração realizado pelo Sebrae Startups e pelo CEIA/UFG, com apoio da AWS e NVIDIA, que selecionará 30 startups de todo o Brasil para desenvolver soluções de Inteligência Artificial voltadas às micro e pequenas empresas.",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "fd712ce1f26ab114947f3eba2b7f290697cd551827eaf64f2f0579ec92b421e3"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/rodadasdenegocio-1",
+      "titulo": "Rodadas de Negócio GO!RN 2026. - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.115047+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/startdigital2026",
+      "titulo": "START DIGITAL 2026 - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.120576+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/startup-cear%C3%A1-2026-1782993823227x739640016076444000",
+      "titulo": "Startup Ceará 2026 - Sebrae Startups",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.125669+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/startupsummit2026-missaobahia",
+      "titulo": "Missão Empresarial Bahia – Startup Summit 2026 #Startups ...",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:07.130859+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/startupsummit26",
+      "titulo": "Missão Startup Summit 2026 - Sebrae/RN",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:08.570719+00:00",
+      "tentativas": 1,
+      "status": "pendente_ia",
+      "motivo": "gemini_http_429"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/switch2025",
+      "titulo": "4a. Missão de Startups Brasileiras em Singapura",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:08.577734+00:00",
+      "tentativas": 1,
+      "status": "pendente_leitura",
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
+      "titulo": "Missão SXSW Sydney 2023",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T06:39:08.582908+00:00",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Missão SXSW Sydney 2023",
+        "instituicao": "programas.sebraestartups.com.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "[ml][ul][li indent=0 align=justify]Inscrições - 18 de julho a 18 de agosto de 2023 [/li][li indent=0 align=justify]Seleção das startups classificadas - 21 de agosto a 28 de agosto de 2023[/li][li indent=0 align=justify]Divulgação do resultado da seleção - 29 de agosto de 2023 [/li][li indent=0 align=justify]Data limite para envio do Formulário de Adesão - 5 de setembro de 2023 [/li][li indent=0 align=justify]Workshops Preparatórios online e sessões informativas - 25 a 29 de setembro de 2023 [/li",
+        "trecho_oportunidade": "[ml][ul][li indent=0 align=justify]Inscrições - 18 de julho a 18 de agosto de 2023 [/li][li indent=0 align=justify]Seleção das startups classificadas - 21 de agosto a 28 de agosto de 2023[/li][li indent=0 align=justify]Divulgação do resultado da seleção - 29 de agosto de 2023 [/li][li indent=0 align=justify]Data limite para envio do Formulário de Adesão - 5 de setembro de 2023 [/li][li indent=0 align=justify]Workshops Preparatórios online e sessões informativas - 25 a 29 de setembro de 2023 [/li][li indent=0 align=justify]Missão e participação no Festival SXSW Sydney 2023 - 18 a 21 de outubro de 2023[/li][li indent=0 align=justify]Prazo final para envio do relatório de participação e da prestação de contas - 21 de novembro de 2023[/li][/ul][/ml][justify][b]INSCRIÇÃO E REQUISITOS [/b][/justify]",
+        "trecho_publico": "[ml][ul][li indent=0 align=justify]Inscrições - 18 de julho a 18 de agosto de 2023 [/li][li indent=0 align=justify]Seleção das startups classificadas - 21 de agosto a 28 de agosto de 2023[/li][li indent=0 align=justify]Divulgação do resultado da seleção - 29 de agosto de 2023 [/li][li indent=0 align=justify]Data limite para envio do Formulário de Adesão - 5 de setembro de 2023 [/li][li indent=0 align=justify]Workshops Preparatórios online e sessões informativas - 25 a 29 de setembro de 2023 [/li][li indent=0 align=justify]Missão e participação no Festival SXSW Sydney 2023 - 18 a 21 de outubro de 2023[/li][li indent=0 align=justify]Prazo final para envio do relatório de participação e da prestação de contas - 21 de novembro de 2023[/li][/ul][/ml][justify][b]INSCRIÇÃO E REQUISITOS [/b][/justify]",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "a410fbaeee432e324f2d9d973ee6a0f41339f6f2fb775c49f13251ff94401f2a"
     }
   ]
 }

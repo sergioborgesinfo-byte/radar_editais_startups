@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 199, 'confirmada_no_conteudo': 49, 'pendente_ia': 176, 'pendente_evidencia': 10, 'nao_confirmada_no_texto': 1, 'falha_leitura': 11}
+{'pendente_leitura': 214, 'confirmada_no_conteudo': 54, 'pendente_ia': 206, 'pendente_evidencia': 10, 'nao_confirmada_no_texto': 1, 'falha_leitura': 11}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -116,7 +116,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos — https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas
 - pendente_ia: Batch #35 - Inscrição, WOW Aceleradora — https://www.wow.ac/inscricao
 - pendente_ia: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://alertaeditais.com.br/edital/chamada-fapemig-sede-032026-novo-seed:-aceler-recjw
-- pendente_ia: Incubadora de startups da bioeconomia amazônica é ... — https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para
+- pendente_ia: Incubadora de startups da bioeconomia amazônica é lançada no Pará | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para
 - confirmada_no_conteudo: Aceleração 2026: Inscrições Abertas para Startups do Norte — https://ecti.ac.gov.br/rascunho-automaticoprogramas-aceleracao-norte-cidades-inteligentes-lideranca-feminina
   - trecho_oportunidade: Aceleração 2026: Inscrições Abertas para Startups do Norte
   - trecho_publico: Aceleração 2026: Inscrições Abertas para Startups do Norte
@@ -548,3 +548,63 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho — https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho
   - trecho_oportunidade: Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho
   - trecho_publico: Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho
+- pendente_ia: Capital Empreendedor 2026 - Turma PR - Sebrae Startups — https://programas.sebraestartups.com.br/in/capital-empreendedor-2026-turma-pr
+- pendente_ia: ICM Lab Solana — Darwin Startups — https://www.darwinstartups.com/icmlab
+- pendente_leitura: Estão abertas as inscrições para o Conecta, programa ... — https://institutocaldeira.org.br/blog/estao-abertas-as-inscricoes-para-o-conecta-programa-promovido-pelo-instituto-caldeira
+- pendente_leitura: BlackRocks faz 2º programa de aceleração para empreendedores negros — https://startups.com.br/negocios/blackrocks-traz-nova-edicao-de-programa-de-aceleracao-para-empreendedores-negros
+- pendente_leitura: Desafío Emprendedor 2026:... - Radio Comunicativa de Ovalle — https://www.facebook.com/radiocomunicativadeovalle/posts/desaf%C3%ADo-emprendedor-2026-c%C3%B3mo-postular-requisitos-y-premios-de-m%C3%A1s-de-200-millon/1599227898884883
+- pendente_leitura: A Missão Empresarial South Summit Brasil 2026 é uma ... — https://www.instagram.com/reel/DU1FwWNDq5p?hl=en
+- pendente_ia: 100 Open Startups - inovabra bradesco: Grande Desafio Agronegócio — https://www.openstartups.net/events/inovabra/agronegocio
+- pendente_leitura: Smart Cities Challenge for Startups — https://www.seedstars.com/community/entrepreneurs/programs/open-innovation-challenge-es
+- pendente_ia: Suzano lança desafio em busca de parceiros — https://www.suzano.com.br/noticia/suzano-lanca-desafio-em-busca-de-parceiros-para-desenvolvimento-de-novas-aplicacoes-ao-papel
+- pendente_leitura: BNDES Garagem: Oportunidades e desafios de empreender na floresta - online - Sympla — https://www.sympla.com.br/evento-online/bndes-garagem-oportunidades-e-desafios-de-empreender-na-floresta/3083679
+- pendente_leitura: WEG lanza el desafío de Innovación Abierta en el mercado | WEG — https://www.weg.net/institutional/US/es/news/corporativo/weg-lanza-el-desafio-de-innovacion-abierta-en-el-mercado
+- pendente_leitura: Lançamento Chamada de Startups BNDES Garagem 2023 — https://www.youtube.com/watch?v=-lnAfwItuHU
+- pendente_ia: Capital Empreendedor 2026 - Turma GO - Sebrae Startups — https://programas.sebraestartups.com.br/in/capitalempreendedor-go26
+- confirmada_no_conteudo: Suzano lança Programa de Mentoria de Startups — https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups
+  - trecho_oportunidade: , referência global na fabricação de bioprodutos desenvolvidos a partir do cultivo de eucalipto, abriu as inscrições para seu Programa de Mentoria de Startups.
+  - trecho_publico: , referência global na fabricação de bioprodutos desenvolvidos a partir do cultivo de eucalipto, abriu as inscrições para seu Programa de Mentoria de Startups.
+- pendente_leitura: Apresentação do Edital Novo Seed em Ouro Branco - Sympla — https://www.sympla.com.br/evento/apresentacao-do-edital-novo-seed/3377139
+- pendente_leitura: Oportunidades y desafíos para la generación de startups AgTech en América Latina y el Caribe — https://www.youtube.com/watch?v=XiEZnzCkY3Y&xstg=CAMSBhUD-7L2Hw%3D%3D
+- pendente_ia: Capital Empreendedor 2026 - Rio Grande do Norte — https://programas.sebraestartups.com.br/in/capitalempreendedorrn2026
+- pendente_leitura: From challenge to results: how Sebrae helps startups in Piauí innovate and grow — https://www.youtube.com/watch?v=YsEHUKS21gw
+- pendente_ia: Capital Empreendedor 2026 - Rio Grande do Sul — https://programas.sebraestartups.com.br/in/capitalempreendedorrs
+- pendente_leitura: 💡🌐 DESAFÍOS de INNOVACIÓN  abierta para emprendedores y startups - Episodio 40 — https://www.youtube.com/watch?v=lmzrYBwrysM
+- pendente_ia: Chamada Startup Day- Batalha de Startups — https://programas.sebraestartups.com.br/in/chamada-startup-day--batalha-de-startups-1770151031465x980272493506798100
+- pendente_leitura: Primeira Rodada de Negócios com Propósito fortalece laços e impulsiona marcas — https://www.youtube.com/watch?v=sfP2AJF1fTo
+- pendente_ia: Coworking Space GO!RN 2026 - Sebrae Startups — https://programas.sebraestartups.com.br/in/coworking-space-gorn-2026-1779212416626x358173180744617340
+- pendente_leitura: Quer impulsionar a sua startup? Participe do Impulsiona Startups! - Inscrições abertas — https://www.youtube.com/watch?v=vrf_2AaQb-Y
+- pendente_ia: Deep Tech Summit 2026 #Startups da Bahia — https://programas.sebraestartups.com.br/in/deeptech-summit-2026-missaobahia
+- pendente_ia: Developers Ciclo 2026 - Sebrae Startups — https://programas.sebraestartups.com.br/in/developers-ciclo-2026-1709557563419x256074552006410240
+- confirmada_no_conteudo: Rodada de Negócios Fórum E-commerce Brasil — https://programas.sebraestartups.com.br/in/ecommerce
+  - trecho_oportunidade: A Rodada de Negócios de Startups, promovida pelo Sebrae e E-Commerce Brasil durante o Fórum E-Commerce Brasil 2026, selecionará startups com soluções para o mercado digital e as conectará a empresas e parceiros estratégicos, visando gerar negócios, parcerias e projetos-piloto.
+  - trecho_publico: A Rodada de Negócios de Startups, promovida pelo Sebrae e E-Commerce Brasil durante o Fórum E-Commerce Brasil 2026, selecionará startups com soluções para o mercado digital e as conectará a empresas e parceiros estratégicos, visando gerar negócios, parcerias e projetos-piloto.
+- pendente_ia: Exposição de Startups Gaúchas - Noroeste Summit — https://programas.sebraestartups.com.br/in/exposi%C3%A7%C3%A3o-de-startups-ga%C3%BAchas---noroeste-summit-1781189221421x880206587749473500
+- pendente_ia: Exposição de Startups Mineiras E-FESTIVAL 2026 — https://programas.sebraestartups.com.br/in/exposi%C3%A7%C3%A3o-de-startups-mineiras-e-festival-2026-1770041341486x147505777376493570
+- confirmada_no_conteudo: Feiras e Eventos 2026 - Sebrae Startups — https://programas.sebraestartups.com.br/in/feiras2026
+  - trecho_oportunidade: Por meio das inscrições (manifestação de interesse), realizamos a seleção de startups para cada evento, seguindo critérios específicos como a aderência ao perfil da feira.
+  - trecho_publico: Por meio das inscrições (manifestação de interesse), realizamos a seleção de startups para cada evento, seguindo critérios específicos como a aderência ao perfil da feira.
+- pendente_ia: FinTech World Cup Brasil 2025 - Classificatórias — https://programas.sebraestartups.com.br/in/fintech-world-cup
+- pendente_ia: Inova Startups 5ª ed - 2026 — https://programas.sebraestartups.com.br/in/inova-startups-5%C2%AA-ed---2026-1745493885274x442398076190326800
+- pendente_ia: Jornada Startups 2026 — https://programas.sebraestartups.com.br/in/jornada-startups-2026-1773442612635x470191742132420600
+- pendente_ia: Lista de Interesse Para Participação de Startups no Sapiranga Summit — https://programas.sebraestartups.com.br/in/lista-de-interesse-para-participa%C3%A7%C3%A3o-de-startups-no-sapiranga-summit-1782308533253x856354105437913300
+- pendente_ia: Startups do RS e demais estados na Mercopar 2026 ... — https://programas.sebraestartups.com.br/in/mercopar2026
+- pendente_ia: A plataforma que é suporte e impulso para startups no Brasil. — https://programas.sebraestartups.com.br/in/midihub2026
+- pendente_ia: Missão Next Rise 2026 - Seul, Coreia do Sul - Sebrae Startups — https://programas.sebraestartups.com.br/in/miss%C3%A3o-next-rise-2026---seul-coreia-do-sul-1771582492388x399221078118399100
+- pendente_ia: Missão Bahia - Gamescom Latam — https://programas.sebraestartups.com.br/in/missaobahiagamescom
+- pendente_ia: Missão NEON 2026 - Sebrae/RN — https://programas.sebraestartups.com.br/in/missaornneon2026
+- pendente_ia: NEON 2026 - Startups expositoras — https://programas.sebraestartups.com.br/in/neon-2026---startups-expositoras-1772814295688x347903356906245300
+- pendente_ia: Prêmio Sebrae Startups 2026 — https://programas.sebraestartups.com.br/in/pr%C3%AAmio-sebrae-startups-2026-1773937724236x843656155048992900
+- pendente_ia: Prêmio Sebrae Startups 2026 — https://programas.sebraestartups.com.br/in/premiosebraestartups2026
+- confirmada_no_conteudo: Programa SCALE IA 2026 - Sebrae Startups — https://programas.sebraestartups.com.br/in/programascaleia2026
+  - trecho_oportunidade: O Scale IA é um programa nacional de aceleração realizado pelo Sebrae Startups e pelo CEIA/UFG, com apoio da AWS e NVIDIA, que selecionará 30 startups de todo o Brasil para desenvolver soluções de Inteligência Artificial voltadas às micro e pequenas empresas.
+  - trecho_publico: O Scale IA é um programa nacional de aceleração realizado pelo Sebrae Startups e pelo CEIA/UFG, com apoio da AWS e NVIDIA, que selecionará 30 startups de todo o Brasil para desenvolver soluções de Inteligência Artificial voltadas às micro e pequenas empresas.
+- pendente_ia: Rodadas de Negócio GO!RN 2026. - Sebrae Startups — https://programas.sebraestartups.com.br/in/rodadasdenegocio-1
+- pendente_ia: START DIGITAL 2026 - Sebrae Startups — https://programas.sebraestartups.com.br/in/startdigital2026
+- pendente_ia: Startup Ceará 2026 - Sebrae Startups — https://programas.sebraestartups.com.br/in/startup-cear%C3%A1-2026-1782993823227x739640016076444000
+- pendente_ia: Missão Empresarial Bahia – Startup Summit 2026 #Startups ... — https://programas.sebraestartups.com.br/in/startupsummit2026-missaobahia
+- pendente_ia: Missão Startup Summit 2026 - Sebrae/RN — https://programas.sebraestartups.com.br/in/startupsummit26
+- pendente_leitura: 4a. Missão de Startups Brasileiras em Singapura — https://programas.sebraestartups.com.br/in/switch2025
+- confirmada_no_conteudo: Missão SXSW Sydney 2023 — https://programas.sebraestartups.com.br/in/sxswsydney2023
+  - trecho_oportunidade: [ml][ul][li indent=0 align=justify]Inscrições - 18 de julho a 18 de agosto de 2023 [/li][li indent=0 align=justify]Seleção das startups classificadas - 21 de agosto a 28 de agosto de 2023[/li][li indent=0 align=justify]Divulgação do resultado da seleção - 29 de agosto de 2023 [/li][li indent=0 align=justify]Data limite para envio do Formulário de Adesão - 5 de setembro de 2023 [/li][li indent=0 align=justify]Workshops Preparatórios online e sessões informativas - 25 a 29 de setembro de 2023 [/li][li indent=0 align=justify]Missão e participação no Festival SXSW Sydney 2023 - 18 a 21 de outubro de 2023[/li][li indent=0 align=justify]Prazo final para envio do relatório de participação e da prestação de contas - 21 de novembro de 2023[/li][/ul][/ml][justify][b]INSCRIÇÃO E REQUISITOS [/b][/justify]
+  - trecho_publico: [ml][ul][li indent=0 align=justify]Inscrições - 18 de julho a 18 de agosto de 2023 [/li][li indent=0 align=justify]Seleção das startups classificadas - 21 de agosto a 28 de agosto de 2023[/li][li indent=0 align=justify]Divulgação do resultado da seleção - 29 de agosto de 2023 [/li][li indent=0 align=justify]Data limite para envio do Formulário de Adesão - 5 de setembro de 2023 [/li][li indent=0 align=justify]Workshops Preparatórios online e sessões informativas - 25 a 29 de setembro de 2023 [/li][li indent=0 align=justify]Missão e participação no Festival SXSW Sydney 2023 - 18 a 21 de outubro de 2023[/li][li indent=0 align=justify]Prazo final para envio do relatório de participação e da prestação de contas - 21 de novembro de 2023[/li][/ul][/ml][justify][b]INSCRIÇÃO E REQUISITOS [/b][/justify]
