@@ -11,6 +11,8 @@ from zoneinfo import ZoneInfo
 FUSO = ZoneInfo('America/Sao_Paulo')
 MERCOPAR = 'https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100'
 FONTES_OFICIAIS = {
+    'https://www.darwinstartups.com/icmlab':
+        'https://www.darwinstartups.com/icmlab',
     'https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups':
         'https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-24-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-para-o-ecossistema-catarinense-de-inovacao-vii-edicao/',
     'https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital':
@@ -40,7 +42,7 @@ def oficial(url):
             host.endswith('.edu.br') or host.endswith('.org.br') or
             any(x in host for x in ('sebrae', 'fapemig', 'fapesc', 'finep', 'google.com',
                 'grupoboticario.com.br', 'natura.com.br', 'randoncorp.com', 'startupbrasil.org.br',
-                'cbamazonia.org')))
+                'cbamazonia.org', 'darwinstartups.com')))
 
 
 def dados_sebrae(url, abrir=urlopen):
@@ -164,7 +166,7 @@ def validar_oficial(registro, agora, ler=None):
     # Algumas instituições mantêm a página primária no próprio URL descoberto.
     # O catálogo estruturado da FAPEMIG é uma página dedicada à chamada, não uma
     # notícia agregadora; seu cronograma pode separar o nome da chamada da data.
-    pagina_dedicada = (fonte != url or
+    pagina_dedicada = (fonte != url or url in FONTES_OFICIAIS or
                        '/oportunidades/chamadas-e-editais/' in urlsplit(fonte).path)
     edicao = re.search(r'\b20\d{2}\b', titulo)
     if (not edicao and not pagina_dedicada) or not re.search(r'startup|neg[oó]cio inovador|projeto inovador', publico, re.I):
@@ -174,7 +176,7 @@ def validar_oficial(registro, agora, ler=None):
     # Mapeamentos são páginas oficiais dedicadas à oportunidade. Nelas, o prazo
     # pode estar no cronograma sem repetir o nome do programa na mesma linha.
     candidatos = [(data_literal(x), x) for x in trechos
-                  if re.search(r'inscri[cç]|inscrev|candidat|submiss|prazo', x, re.I)
+                  if re.search(r'inscri[cç]|inscrev|candidat|cadast|submiss|prazo', x, re.I)
                   and not re.search(r'\babert[ao]s?\s+a\s+partir\s+de\b', x, re.I)
                   and (pagina_dedicada or prazo_da_oportunidade(x, titulo))]
     candidatos = [(d,x) for d,x in candidatos if d]
@@ -197,7 +199,8 @@ def validar_oficial(registro, agora, ler=None):
     evidencia_edicao = edicao.group(0) if edicao else str(fim.year)
     if fim <= agora:
         return {'url':url,'titulo':titulo,'status':'encerrada','prazo_iso':fim.isoformat(),'evidencia_prazo':evidencia}
-    modalidade=('Pré-inscrição' if 'pré-inscri' in titulo.lower() else
+    modalidade=('Aceleração' if dados_registro.get('tipo') == 'Aceleração' else
+                'Pré-inscrição' if 'pré-inscri' in titulo.lower() else
                 'Manifestação de interesse' if 'manifestação de interesse' in titulo.lower() else
                 'Pré-incubação' if 'pré-incuba' in titulo.lower() else 'Seleção')
     return {'url':url,'fonte_oficial':fonte,'status':'aberta_confirmada','titulo':titulo,'instituicao':urlsplit(fonte).hostname,

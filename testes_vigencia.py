@@ -8,6 +8,24 @@ from validar_vigencia import validar_sebrae, validar_oficial, exportar_abertas, 
 FUSO=ZoneInfo('America/Sao_Paulo')
 
 class Vigencia(unittest.TestCase):
+    def test_icm_lab_oficial_com_publico_e_prazo_literal(self):
+        from validar_vigencia import validar_oficial
+        r={'url':'https://www.darwinstartups.com/icmlab',
+           'titulo':'ICM Lab Solana — Darwin Startups',
+           'dados':{'titulo':'ICM Lab Solana — Darwin Startups',
+                    'tipo':'Aceleração',
+                    'resumo':'Programa de aceleração focado em infraestrutura.',
+                    'trecho_oportunidade':'ICM Lab Solana é um programa de aceleração.',
+                    'trecho_publico':'Nosso objetivo é selecionar até 10 startups.'}}
+        texto=('ICM Lab Solana powered by Darwin Startups.\n'
+               'Nosso objetivo é selecionar e impulsionar de perto até 10 startups.\n'
+               'Cadastros abertos de 14 de setembro de 2026 até 11 de outubro de 2026.')
+        d=validar_oficial(r,datetime(2026,10,2,tzinfo=FUSO),lambda _:texto)
+        self.assertEqual(d['status'],'aberta_confirmada')
+        self.assertEqual(d['tipo'],'Aceleração')
+        self.assertEqual(d['prazo'],'2026-10-11')
+        self.assertIn('Cadastros abertos',d['evidencia_prazo'])
+
     def registro(self):
         return {'url':'https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100',
                 'titulo':'Mercopar 2026', 'dados':{'trecho_publico':'Startups do RS e demais estados'}}
