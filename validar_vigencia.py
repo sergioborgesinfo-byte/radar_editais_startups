@@ -145,13 +145,14 @@ def validar_oficial(registro, agora, ler=None):
                 'motivo':'fonte_oficial_indisponivel'}
     titulo = registro.get('dados',{}).get('titulo') or registro.get('titulo','')
     publico = registro.get('dados',{}).get('trecho_publico','')
-    if not re.search(r'\b20\d{2}\b', titulo + ' ' + texto) or not re.search(r'startup|neg[oó]cio inovador|projeto inovador', publico, re.I):
+    pagina_dedicada = fonte != url
+    edicao = re.search(r'\b20\d{2}\b', titulo)
+    if (not edicao and not pagina_dedicada) or not re.search(r'startup|neg[oó]cio inovador|projeto inovador', publico, re.I):
         return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
                 'motivo':'edicao_ou_publico_nao_comprovado'}
     trechos = [x.strip() for x in re.split(r'(?<=[.!?])\s+|\n+', texto) if x.strip()]
     # Mapeamentos são páginas oficiais dedicadas à oportunidade. Nelas, o prazo
     # pode estar no cronograma sem repetir o nome do programa na mesma linha.
-    pagina_dedicada = fonte != url
     candidatos = [(data_literal(x), x) for x in trechos
                   if re.search(r'inscri[cç]|candidat|submiss|prazo', x, re.I)
                   and (pagina_dedicada or prazo_da_oportunidade(x, titulo))]
@@ -161,14 +162,18 @@ def validar_oficial(registro, agora, ler=None):
         return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
                 'motivo':'prazo_literal_com_ano_nao_encontrado'}
     if continuo:
+        if not edicao:
+            return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
+                    'motivo':'edicao_nao_comprovada'}
         modalidade='Pré-incubação' if 'pré-incuba' in titulo.lower() else 'Inscrição'
         return {'url':url,'fonte_oficial':fonte,'status':'aberta_confirmada','titulo':titulo,'instituicao':urlsplit(fonte).hostname,
                 'tipo':modalidade,'estagio':'Qualquer','descricao':registro.get('dados',{}).get('resumo',''),
                 'requisitos':publico,'prazo':None,'prazo_iso':None,'inicio_iso':None,
-                'evidencia_edicao':re.search(r'\b20\d{2}\b',titulo+' '+texto).group(0),
+                'evidencia_edicao':edicao.group(0),
                 'evidencia_publico':publico,'evidencia_prazo':continuo,
                 'modalidade_inscricao':'fluxo_continuo','sem_data_final':True}
     fim, evidencia = max(candidatos, key=lambda x:x[0])
+    evidencia_edicao = edicao.group(0) if edicao else str(fim.year)
     if fim <= agora:
         return {'url':url,'titulo':titulo,'status':'encerrada','prazo_iso':fim.isoformat(),'evidencia_prazo':evidencia}
     modalidade=('Pré-inscrição' if 'pré-inscri' in titulo.lower() else
@@ -177,7 +182,7 @@ def validar_oficial(registro, agora, ler=None):
     return {'url':url,'fonte_oficial':fonte,'status':'aberta_confirmada','titulo':titulo,'instituicao':urlsplit(fonte).hostname,
             'tipo':modalidade,'estagio':'Qualquer','descricao':registro.get('dados',{}).get('resumo',''),
             'requisitos':publico,'prazo':fim.date().isoformat(),'prazo_iso':fim.isoformat(),'inicio_iso':None,
-            'evidencia_edicao':re.search(r'\b20\d{2}\b',titulo+' '+texto).group(0),
+            'evidencia_edicao':evidencia_edicao,
             'evidencia_publico':publico,'evidencia_prazo':evidencia,
             'modalidade_inscricao':normalizar(modalidade).replace(' ','_'),'sem_data_final':False}
 
@@ -246,8 +251,8 @@ def main():
     confirmadas = [e for e in conteudo['itens'] if e.get('status') == 'confirmada_no_conteudo']
     anteriores_path = Path('data/oportunidades-vigencia.json')
     historico = json.loads(anteriores_path.read_text()) if anteriores_path.exists() else {}
-    # Invalida resultados do método antigo que aceitava prazos de notícias relacionadas.
-    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v2' else []
+    # Invalida resultados antigos que aceitavam um ano histórico como edição atual.
+    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v3' else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
@@ -260,7 +265,7 @@ def main():
         feitos[e['url']] = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
                             else validar_oficial(e, agora))
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v2', 'atualizado_em':agora.isoformat(), 'itens':itens}
+    relatorio = {'versao':'vigencia-v3', 'atualizado_em':agora.isoformat(), 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     abertas = exportar_abertas(itens, agora)
     Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')

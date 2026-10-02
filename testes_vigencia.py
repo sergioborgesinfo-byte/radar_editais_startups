@@ -69,6 +69,14 @@ class Vigencia(unittest.TestCase):
             lambda u:'Centelha 2026 apoia startups. O British Council recebe, até 15 de outubro de 2026, inscrições para Study UK Alumni Awards 2027.')
         self.assertEqual(v['status'],'pendente_evidencia')
 
+    def test_ano_historico_no_texto_nao_comprova_edicao_atual(self):
+        r={'url':'https://cob.org.br/desafio','titulo':'Desafio COB de Startups',
+           'dados':{'trecho_publico':'Startups podem participar'}}
+        v=validar_oficial(r,datetime(2026,10,2,12,tzinfo=FUSO),
+            lambda u:'Depois de reunir startups em 2025, recebe inscrições até 10 de janeiro de 2027.')
+        self.assertEqual(v['status'],'pendente_evidencia')
+        self.assertEqual(v['motivo'],'edicao_ou_publico_nao_comprovado')
+
     def test_data_mais_recente_de_outra_chamada_nao_substitui_prazo(self):
         r={'url':'https://fapemig.br/centelha','titulo':'Programa Centelha 2026',
            'dados':{'trecho_publico':'Podem participar startups brasileiras'}}
