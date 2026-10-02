@@ -5887,14 +5887,14 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T03:39:31.422575-03:00",
+    "atualizado_em": "2026-10-02T03:42:53.576053-03:00",
     "examinadas": 54,
-    "abertas_publicadas": 2,
+    "abertas_publicadas": 1,
     "status": {
-      "aberta_confirmada": 2,
-      "pendente_evidencia": 20,
-      "pendente_fonte_oficial": 26,
+      "aberta_confirmada": 1,
+      "pendente_evidencia": 21,
       "pendente_acesso": 5,
+      "pendente_fonte_oficial": 26,
       "encerrada": 1
     },
     "resultados": [
@@ -5908,13 +5908,13 @@
         "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
         "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
         "url": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Programa Nacional de Pré-Incubação de Ideias Inovadoras - Trilha Nacional de Pré-Incubação Brasil Inovador",
@@ -5932,7 +5932,7 @@
         "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
         "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
@@ -5956,7 +5956,7 @@
         "titulo": "Natura abre inscrições para desafio de inovação que vai acelerar startups de beleza na América Latina - Natura RI",
         "url": "https://ri.natura.com.br/noticias/natura-abre-inscricoes-para-desafio-de-inovacao-que-vai-acelerar-startups-de-beleza-na-america-latina",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias",
@@ -5968,13 +5968,13 @@
         "titulo": "InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc",
         "url": "https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Programa Centelha Paraíba - Novo Edital",
         "url": "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA",
@@ -5986,7 +5986,7 @@
         "titulo": "UFT abre seleção para programa de pré-incubação ...",
         "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
@@ -5998,13 +5998,55 @@
         "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões",
         "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "",
         "url": "https://programas.sebraestartups.com.br/in/1784324907689x991447417353928700",
         "status": "pendente_evidencia",
         "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado"
+      },
+      {
+        "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
+        "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
+        "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
+        "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/ecommerce",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/feiras2026",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
       },
       {
         "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
@@ -6145,48 +6187,6 @@
         "motivo": "localizar_fonte_primaria"
       },
       {
-        "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
-        "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
-        "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
-        "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
-        "status": "aberta_confirmada",
-        "motivo": ""
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/ecommerce",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/feiras2026",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
         "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
         "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
         "status": "pendente_fonte_oficial",
@@ -6228,13 +6228,13 @@
         "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
         "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
         "url": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Programa Nacional de Pré-Incubação de Ideias Inovadoras - Trilha Nacional de Pré-Incubação Brasil Inovador",
@@ -6252,7 +6252,7 @@
         "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
         "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
@@ -6276,7 +6276,7 @@
         "titulo": "Natura abre inscrições para desafio de inovação que vai acelerar startups de beleza na América Latina - Natura RI",
         "url": "https://ri.natura.com.br/noticias/natura-abre-inscricoes-para-desafio-de-inovacao-que-vai-acelerar-startups-de-beleza-na-america-latina",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias",
@@ -6288,13 +6288,13 @@
         "titulo": "InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc",
         "url": "https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Programa Centelha Paraíba - Novo Edital",
         "url": "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA",
@@ -6306,7 +6306,7 @@
         "titulo": "UFT abre seleção para programa de pré-incubação ...",
         "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
@@ -6318,13 +6318,55 @@
         "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões",
         "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
         "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "",
         "url": "https://programas.sebraestartups.com.br/in/1784324907689x991447417353928700",
         "status": "pendente_evidencia",
         "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado"
+      },
+      {
+        "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
+        "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
+        "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
+        "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/ecommerce",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/feiras2026",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
       },
       {
         "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
@@ -6457,42 +6499,6 @@
         "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
-        "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
-        "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/ecommerce",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/feiras2026",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
       },
       {
         "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
