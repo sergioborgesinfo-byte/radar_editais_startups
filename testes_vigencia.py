@@ -125,7 +125,7 @@ class Vigencia(unittest.TestCase):
         acessada=[]
         v=validar_oficial(r,datetime(2026,10,2,12,tzinfo=FUSO),
             lambda u:(acessada.append(u) or 'Startups podem participar. Inscrições prorrogadas até 06/02/2026.'))
-        self.assertIn('prefeitura.rio',acessada[0])
+        self.assertIn('prosas.com.br/editais/16756',acessada[0])
         self.assertEqual(v['status'],'encerrada')
 
     def test_randon_2024_usa_fonte_corporativa_e_nao_reaparece(self):

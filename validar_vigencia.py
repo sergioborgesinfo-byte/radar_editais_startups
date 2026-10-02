@@ -18,7 +18,7 @@ FONTES_OFICIAIS = {
     'https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao':
         'https://www.darwinstartups.com/batch15',
     'https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups':
-        'https://cienciaetecnologia.prefeitura.rio/noticias/hub-rio-ia-promove-webinario-sobre-1o-edital-do-programa-de-inovacao-aberta-2026/',
+        'https://prosas.com.br/editais/16756-1o-edital-para-o-programa-de-inovacao-aberta-do-hub-rio-ia-2026?subdominio=prosas',
     'https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups':
         'https://www.randoncorp.com/pt/blog/rv-abre-inscri%C3%A7%C3%B5es-para-a-nova-turma-de-acelera%C3%A7%C3%A3o-de-startups/',
 }
@@ -269,7 +269,7 @@ def main():
     anteriores_path = Path('data/oportunidades-vigencia.json')
     historico = json.loads(anteriores_path.read_text()) if anteriores_path.exists() else {}
     # Invalida resultados antigos que aceitavam um ano histórico como edição atual.
-    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v6' else []
+    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v7' else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
@@ -282,7 +282,7 @@ def main():
         feitos[e['url']] = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
                             else validar_oficial(e, agora))
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v6', 'atualizado_em':agora.isoformat(), 'itens':itens}
+    relatorio = {'versao':'vigencia-v7', 'atualizado_em':agora.isoformat(), 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     abertas = exportar_abertas(itens, agora)
     Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')
