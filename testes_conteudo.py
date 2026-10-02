@@ -102,6 +102,17 @@ class Evidencias(unittest.TestCase):
         self.assertIsNone(evidencias_textuais('Programas de aceleração para startups oferecem mentoria e fomento por meio de ambientes de inovação.',
             {'titulo':'Chamada de aceleração','url':'https://fonte.br/1'}))
 
+    def test_icm_lab_confirma_sem_ia_com_citacoes_literais_separadas(self):
+        from confirmar_oportunidades import evidencias_textuais
+        texto=('ICM Lab Solana powered by Darwin Startups, um programa de aceleração focado em infraestrutura.\n'
+               'Nosso objetivo é selecionar e impulsionar de perto até 10 startups na aceleração.\n'
+               'Cadastros abertos de 14 de setembro de 2026 até 11 de outubro de 2026.')
+        e={'titulo':'ICM Lab Solana — Darwin Startups',
+           'url':'https://www.darwinstartups.com/icmlab'}
+        d=evidencias_textuais(texto,e)
+        self.assertEqual(d['metodo'],'regra_oficial_icm_lab')
+        self.assertTrue(conferir(d,texto))
+
 
 class ProgressoFila(unittest.TestCase):
     def test_pendente_nao_bloqueia_pagina_nova(self):

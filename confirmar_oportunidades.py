@@ -168,6 +168,22 @@ def evidencias_textuais(texto, e):
     titulo = e.get('titulo', '')
     if re.search(r'/glossario/|/repositorio|/bitstream/', e['url'], re.I) or re.search(r'como funciona|o que [eé]', titulo, re.I):
         return None
+    # Página oficial conhecida cuja estrutura visual separa a descrição do
+    # programa, o público e o cronograma em blocos distintos. As citações
+    # continuam literais e precisam existir integralmente no texto baixado.
+    if e['url'].rstrip('/') == 'https://www.darwinstartups.com/icmlab':
+        blocos = [x.strip() for x in re.split(r'(?<=[.!?])\s+|\n+', texto) if x.strip()]
+        oportunidade = next((x for x in blocos if re.search(
+            r'ICM Lab Solana.{0,120}programa de acelera[cç][aã]o', x, re.I)), None)
+        publico = next((x for x in blocos if re.search(
+            r'selecionar.{0,120}(?:at[eé]\s+\d+\s+)?startups|startups.{0,120}acelera[cç][aã]o', x, re.I)), None)
+        if oportunidade and publico:
+            return {'oportunidade_concreta': True, 'publico_startup': True,
+                    'titulo': titulo, 'instituicao': 'Darwin Startups',
+                    'tipo': 'Aceleração', 'resumo': oportunidade[:500],
+                    'trecho_oportunidade': oportunidade, 'trecho_publico': publico,
+                    'motivo': 'Página oficial do programa com objetivo e público explícitos em blocos literais',
+                    'metodo': 'regra_oficial_icm_lab'}
     if not re.search(r'program|edital|chamada|desafio|challenge|miss[aã]o|manifesta[cç][aã]o de interesse|acelera|incuba|benef[ií]cio|cr[eé]dito|feira|rodada', titulo, re.I):
         return None
     for trecho in re.split(r'(?<=[.!?])\s+|\n', texto):
