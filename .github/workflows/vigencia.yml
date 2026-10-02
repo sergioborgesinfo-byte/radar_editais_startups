@@ -1,0 +1,44 @@
+name: Validar vigência e publicar abertas
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [validar_vigencia.py, testes_vigencia.py, '.github/workflows/vigencia.yml']
+  workflow_run:
+    workflows: ["Confirmar oportunidades pelo conteúdo"]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: write
+concurrency:
+  group: radar-vigencia
+  cancel-in-progress: false
+
+jobs:
+  validar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testar vigência, modalidade e duplicação
+        run: python -I -S -m unittest discover -s . -p testes_vigencia.py
+      - name: Validar lote e exportar somente abertas
+        run: python -u validar_vigencia.py
+      - name: Salvar validações e publicação
+        run: |
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
+          git add data/oportunidades-vigencia.json docs/editais.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Valida edição, público e prazo; publica somente oportunidades abertas"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
