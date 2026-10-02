@@ -633,13 +633,16 @@
     {
       "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
       "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
+      "status": "encerrada",
       "metodo_fontes": "links-v1",
       "verificado_em": "2026-10-02T14:59:38.541804-03:00",
       "ia_tentada_em": "2026-10-02T15:09:27.263075-03:00",
       "ia_metodo": "gemini-v3",
-      "motivo_ia": "citacao_ou_identidade_invalida"
+      "prazo_iso": "2026-06-05T23:59:59-03:00",
+      "evidencia_prazo": "Inscrições — 05 de maio a 05 de junho de 2026",
+      "fonte_oficial": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
+      "metodo": "revisao_manual_cronograma",
+      "observacao": "Cronograma do edital IncubaScience/CETENE, página 16, conferido na captura enviada pela usuária em 02/10/2026."
     },
     {
       "url": "https://www.semadesc.ms.gov.br/desafio-pantanal-tech-2026-abre-inscricoes-para-impulsionar-startups-e-solucoes-inovadoras-em-ms",
