@@ -5887,14 +5887,14 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T01:43:03.094934-03:00",
-    "examinadas": 41,
-    "abertas_publicadas": 1,
+    "atualizado_em": "2026-10-02T03:39:31.422575-03:00",
+    "examinadas": 54,
+    "abertas_publicadas": 2,
     "status": {
-      "aberta_confirmada": 1,
-      "pendente_evidencia": 18,
-      "pendente_fonte_oficial": 20,
-      "pendente_acesso": 1,
+      "aberta_confirmada": 2,
+      "pendente_evidencia": 20,
+      "pendente_fonte_oficial": 26,
+      "pendente_acesso": 5,
       "encerrada": 1
     },
     "resultados": [
@@ -6143,6 +6143,84 @@
         "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
+        "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
+        "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
+        "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
+        "status": "aberta_confirmada",
+        "motivo": ""
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/ecommerce",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/feiras2026",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
+        "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
+        "url": "https://cedeprogram.com/startupventure",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
+        "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale",
+        "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
+        "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Suzano lança Programa de Mentoria de Startups",
+        "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       }
     ],
     "pendentes": [
@@ -6377,6 +6455,78 @@
       {
         "titulo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
         "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
+        "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
+        "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/ecommerce",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/feiras2026",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "",
+        "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
+        "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
+        "url": "https://cedeprogram.com/startupventure",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
+        "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale",
+        "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
+        "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Suzano lança Programa de Mentoria de Startups",
+        "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
       }

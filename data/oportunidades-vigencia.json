@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v2",
-  "atualizado_em": "2026-10-02T01:43:03.094934-03:00",
+  "atualizado_em": "2026-10-02T03:39:31.422575-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -256,6 +256,93 @@
     {
       "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
       "titulo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
+      "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado"
+    },
+    {
+      "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
+      "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado"
+    },
+    {
+      "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
+      "fonte_oficial": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
+      "status": "aberta_confirmada",
+      "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
+      "instituicao": "www.cob.org.br",
+      "tipo": "Seleção",
+      "estagio": "Qualquer",
+      "descricao": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
+      "requisitos": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
+      "prazo": "2027-01-10",
+      "prazo_iso": "2027-01-10T23:59:59-03:00",
+      "inicio_iso": null,
+      "evidencia_edicao": "2025",
+      "evidencia_publico": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
+      "evidencia_prazo": "Depois de reunir 163 startups em 2025, o programa do Comitê Olímpico do Brasil e do Arena Hub recebe inscrições até 10 de janeiro de 2027 e passa a ter um reconhecimento para startups em estágio inicial",
+      "modalidade_inscricao": "selecao",
+      "sem_data_final": false
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/ecommerce",
+      "status": "pendente_acesso",
+      "motivo": "dados_dinamicos_ausentes"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/feiras2026",
+      "status": "pendente_acesso",
+      "motivo": "dados_dinamicos_ausentes"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
+      "status": "pendente_acesso",
+      "motivo": "dados_dinamicos_ausentes"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
+      "status": "pendente_acesso",
+      "motivo": "dados_dinamicos_ausentes"
+    },
+    {
+      "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
+      "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://cedeprogram.com/startupventure",
+      "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
+      "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
+      "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
+      "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
+      "titulo": "Suzano lança Programa de Mentoria de Startups",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria"
     }
