@@ -1,14 +1,14 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T19:27:46.277386-03:00",
+  "atualizado_em": "2026-10-02T19:44:45.804460-03:00",
   "ia": {
     "chamadas": 0,
     "falhas_temporarias": [],
     "limite": 8,
     "parada": null,
-    "pendencias_restantes": 61,
+    "pendencias_restantes": 60,
     "casos_com_tentativa_ia": 71,
-    "resolvidas_automaticamente": 76,
+    "resolvidas_automaticamente": 77,
     "revisoes_manuais": 1
   },
   "itens": [
@@ -46,10 +46,10 @@
       "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado",
       "titulo": "Movimenta Sebrae",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.862990-03:00",
-      "ia_tentada_em": "2026-10-02T19:06:39.934040-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.090021-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:14.880894-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -494,8 +494,8 @@
       "motivo": "dados_dinamicos_ausentes",
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:27:04.083971-03:00"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:44:03.575660-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -524,11 +524,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.517946-03:00",
-      "ia_tentada_em": "2026-10-02T19:06:38.536476-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "evidencia_insuficiente"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:22.692828-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:07.206910-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
@@ -580,10 +580,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.617065-03:00",
-      "ia_tentada_em": "2026-10-02T19:06:39.224987-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:22.811102-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:08.092816-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -592,10 +592,10 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.598816-03:00",
-      "ia_tentada_em": "2026-10-02T19:06:39.236126-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:22.780441-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:08.107492-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -604,10 +604,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:56.800343-03:00",
-      "ia_tentada_em": "2026-10-02T19:06:39.820127-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.528195-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:08.857089-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -616,10 +616,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.632432-03:00",
-      "ia_tentada_em": "2026-10-02T19:06:39.839602-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:22.831906-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:08.882730-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -628,11 +628,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.665937-03:00",
-      "ia_tentada_em": "2026-10-02T19:06:39.875243-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "evidencia_insuficiente"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:22.870609-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:14.803179-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
@@ -719,10 +719,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.732561-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:05.627191-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:22.957374-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:38.588233-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -745,11 +745,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.799992-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:10.713094-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "evidencia_insuficiente"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.041706-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:54.397067-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://ri.natura.com.br/noticias/natura-abre-inscricoes-para-desafio-de-inovacao-que-vai-acelerar-startups-de-beleza-na-america-latina",
@@ -827,8 +827,8 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:27:46.223981-03:00"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:44:45.745895-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -836,11 +836,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.894656-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:11.654454-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "evidencia_insuficiente"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.180068-03:00",
+      "ia_tentada_em": "2026-10-02T19:42:02.416849-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
@@ -848,11 +848,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.914676-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:13.348755-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "evidencia_insuficiente"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.218618-03:00",
+      "ia_tentada_em": "2026-10-02T19:42:10.631771-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
@@ -860,10 +860,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.943393-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:13.566961-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.264226-03:00",
+      "ia_tentada_em": "2026-10-02T19:42:10.941941-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -872,11 +872,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.956251-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:13.679752-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "evidencia_insuficiente"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.288880-03:00",
+      "ia_tentada_em": "2026-10-02T19:42:18.449411-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -907,10 +907,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.683982-03:00",
-      "ia_tentada_em": "2026-10-02T19:06:39.902079-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:22.893413-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:14.840066-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -919,10 +919,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.695548-03:00",
-      "ia_tentada_em": "2026-10-02T19:06:39.930456-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:22.907339-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:14.876002-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -931,11 +931,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.772380-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:10.675431-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "sem_convite"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.006777-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:46.367747-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed",
@@ -943,10 +943,10 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.788951-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:10.697864-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.027012-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:46.396617-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -964,8 +964,8 @@
       "metodo": "revisao_manual_cronograma",
       "fonte_oficial": "https://www.maravalley.rio/__l5e/assets-v1/67c31b43-ebe4-4d74-b1d2-517b01a0a47e/edital-selecao-startups-ws-lisboa-2026.pdf",
       "observacao": "Cronograma conferido pela usuária na captura do edital, página 3. Leitura automatizada do Maravalley bloqueada pelo robots.txt. Resultado em 02/10/2026 não é prazo de inscrição.",
-      "metodo_leitura": "cronogramas-v1",
-      "resultado_releitura_automatica": "prazo_literal_com_ano_nao_encontrado"
+      "metodo_leitura": "cronogramas-v2",
+      "resultado_releitura_automatica": "fonte_oficial_indisponivel"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90",
@@ -973,10 +973,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.808375-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:10.739706-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.101794-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:54.433251-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -987,9 +987,9 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-02T19:27:46.277141-03:00",
-      "ia_tentada_em": "2026-10-02T19:27:46.277124-03:00",
-      "ia_metodo": "gemini-v5"
+      "verificado_em": "2026-10-02T19:44:45.804195-03:00",
+      "ia_tentada_em": "2026-10-02T19:44:45.804180-03:00",
+      "ia_metodo": "gemini-v6"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
@@ -997,10 +997,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.871603-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:13.247709-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.192382-03:00",
+      "ia_tentada_em": "2026-10-02T19:42:04.057002-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -1021,11 +1021,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.969849-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:18.525413-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "citacao_ou_identidade_invalida"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.308644-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:05.222223-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
@@ -1033,11 +1033,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:56.005982-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:18.548448-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "sem_documentos"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.345249-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:12.953455-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao",
@@ -1057,11 +1057,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:56.019824-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:18.675691-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "evidencia_insuficiente"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.407110-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:21.102339-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "inicio_nao_comprovado"
     },
     {
       "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
@@ -1069,10 +1069,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:56.101581-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:28.301464-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.470060-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:29.044550-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_convite"
     },
     {
@@ -1102,11 +1102,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:56.107590-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:36.082648-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "encerramento_nao_comprovado"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.538426-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:29.310514-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
@@ -1114,10 +1114,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:56.190552-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:37.604851-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.633962-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:45.209081-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1126,8 +1126,8 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:27:03.647921-03:00"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:44:03.207313-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1135,8 +1135,8 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:27:05.775750-03:00"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:44:05.350785-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1147,10 +1147,10 @@
         "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups"
       ],
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.243799-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:50.309681-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.023385-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:53.119909-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
@@ -1159,10 +1159,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:56.825415-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:50.334643-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.153696-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:53.152964-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1171,10 +1171,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:56.848351-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:50.351925-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.252976-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:53.182683-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1188,11 +1188,11 @@
         "http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups/garagem-chamada-publica-aceleradora-segunda-edicao"
       ],
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:05.891144-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:02.095081-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "ano_nao_comprovado"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.577843-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:56.837974-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29",
@@ -1200,10 +1200,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:58.494960-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:02.121748-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.615194-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:56.874895-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1212,10 +1212,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:58.517694-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:02.144479-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.636217-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:56.905361-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1224,8 +1224,8 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:27:03.690121-03:00"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:44:03.230660-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1233,10 +1233,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:58.791539-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:02.181169-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.686324-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:56.954774-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1261,8 +1261,8 @@
         "https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao"
       ],
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:27:03.780287-03:00"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:44:03.310097-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1279,10 +1279,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.043394-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:02.208692-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.760649-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:56.991573-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1291,10 +1291,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.066463-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:02.230615-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.789748-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:57.021446-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1306,8 +1306,8 @@
         "https://app.portodigital.org/publico/portodigital/desafios/40/cliente"
       ],
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:27:03.811764-03:00"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:44:03.339659-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -1315,10 +1315,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.173050-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:02.256555-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:24.980563-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:57.057824-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1336,10 +1336,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.202334-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:02.283611-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.017990-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:57.095094-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1348,10 +1348,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.240975-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:02.309730-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.053592-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:57.131895-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1360,10 +1360,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.306748-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:02.335527-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.136835-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:57.167548-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1398,10 +1398,10 @@
         "https://garagem.bndes.gov.br/"
       ],
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.302193-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:05.076418-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.130762-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:59.928640-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -1410,10 +1410,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.351385-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:05.100700-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.205315-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:59.963609-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1422,10 +1422,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.360536-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:05.128638-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.200928-03:00",
+      "ia_tentada_em": "2026-10-02T19:44:00.020300-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1452,23 +1452,23 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:55.714554-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:05.598824-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "evidencia_insuficiente"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:22.933617-03:00",
+      "ia_tentada_em": "2026-10-02T19:41:38.553601-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina",
       "titulo": "InovAtiva prorroga inscrições para o maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
-      "status": "pendente_evidencia",
-      "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:56.151701-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:36.191736-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "evidencia_insuficiente"
+      "fonte_oficial": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina",
+      "evidencia_prazo": "Os empreendedores interessados podem se inscrever gratuitamente pelo site até o próximo dia 15 de março.",
+      "metodo": "gemini_evidencia_literal",
+      "status": "encerrada",
+      "prazo_iso": "2023-03-15T23:59:59-03:00",
+      "verificado_em": "2026-10-02T19:43:36.849783-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:36.849771-03:00",
+      "ia_metodo": "gemini-v6"
     },
     {
       "url": "https://iphaep.pb.gov.br/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN005_2026SECTIESSEGUNDACHAMADADEINCUBAOPARASTARTUPS.pdf",
@@ -1488,11 +1488,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:05:56.164729-03:00",
-      "ia_tentada_em": "2026-10-02T19:08:37.581927-03:00",
-      "ia_metodo": "gemini-v5",
-      "motivo_ia": "evidencia_insuficiente"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:23.620660-03:00",
+      "ia_tentada_em": "2026-10-02T19:43:45.177786-03:00",
+      "ia_metodo": "gemini-v6",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://senaimt.ind.br/para-industria/1901/pre-aceleracao-startup",
@@ -1500,10 +1500,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.369386-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:05.136416-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.219379-03:00",
+      "ia_tentada_em": "2026-10-02T19:44:00.031171-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1515,10 +1515,10 @@
         "https://programas.sebraestartups.com.br/in/south-summit-brazil-2026---exposi%C3%A7%C3%A3o-de-startups-ga%C3%BAchas-1768484451965x681111351935545900?utm_source=alertaeditais.com.br"
       ],
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.375292-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:05.141182-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.224969-03:00",
+      "ia_tentada_em": "2026-10-02T19:44:00.038903-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1527,10 +1527,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.411655-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:05.169523-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.273657-03:00",
+      "ia_tentada_em": "2026-10-02T19:44:00.078365-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1539,10 +1539,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.440239-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:05.197076-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.299887-03:00",
+      "ia_tentada_em": "2026-10-02T19:44:00.115639-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1554,8 +1554,8 @@
         "https://www.maravalley.rio/programas/web-summit-lisboa-2026"
       ],
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:27:04.092775-03:00"
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:44:03.603393-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1566,10 +1566,10 @@
         "https://garagem.bndes.gov.br/"
       ],
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.480886-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:07.935701-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.387071-03:00",
+      "ia_tentada_em": "2026-10-02T19:44:02.762781-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
@@ -1581,10 +1581,10 @@
         "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100"
       ],
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:07.272847-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:07.967023-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.402155-03:00",
+      "ia_tentada_em": "2026-10-02T19:44:02.807237-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1593,10 +1593,10 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.948586-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:08.001460-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.483883-03:00",
+      "ia_tentada_em": "2026-10-02T19:44:02.856436-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1605,18 +1605,18 @@
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T19:06:04.994040-03:00",
-      "ia_tentada_em": "2026-10-02T19:09:08.026560-03:00",
-      "ia_metodo": "gemini-v5",
+      "metodo_leitura": "cronogramas-v2",
+      "verificado_em": "2026-10-02T19:40:25.463231-03:00",
+      "ia_tentada_em": "2026-10-02T19:44:02.890619-03:00",
+      "ia_metodo": "gemini-v6",
       "motivo_ia": "sem_documentos"
     }
   ],
   "fila_prioritaria": {
     "total_inicial": 78,
-    "resolvidas": 17,
-    "resolvidas_automaticamente": 17,
+    "resolvidas": 18,
+    "resolvidas_automaticamente": 18,
     "revisoes_manuais": 0,
-    "pendentes": 61
+    "pendentes": 60
   }
 }

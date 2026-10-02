@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T19:27:46.277386-03:00",
+    "atualizado_em": "2026-10-02T19:44:45.804460-03:00",
     "examinadas": 138,
     "abertas_publicadas": 8,
     "status": {
       "aberta_confirmada": 9,
-      "encerrada": 68,
-      "pendente_evidencia": 34,
+      "encerrada": 69,
+      "pendente_evidencia": 33,
       "pendente_acesso": 8,
       "pendente_fonte_oficial": 19
     },
@@ -6657,8 +6657,8 @@
       {
         "titulo": "InovAtiva prorroga inscrições para o maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
         "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Segunda Chamada de Incubação para Startups - Programa Parque Tecnológico Horizontes de Inovação",
@@ -7029,12 +7029,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "InovAtiva prorroga inscrições para o maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
-        "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
         "titulo": "Missão brasileira abre inscrições para levar 100 startups ...",
         "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/missao-brasileira-abre-inscricoes-para-levar-100-startups-ao-web-summit-lisboa",
         "status": "pendente_evidencia",
@@ -7097,10 +7091,20 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 17,
-      "resolvidas_automaticamente": 17,
+      "resolvidas": 18,
+      "resolvidas_automaticamente": 18,
       "revisoes_manuais": 0,
-      "pendentes": 61
+      "pendentes": 60
+    },
+    "ia": {
+      "chamadas": 0,
+      "falhas_temporarias": [],
+      "limite": 8,
+      "parada": null,
+      "pendencias_restantes": 60,
+      "casos_com_tentativa_ia": 71,
+      "resolvidas_automaticamente": 77,
+      "revisoes_manuais": 1
     }
   }
 }
