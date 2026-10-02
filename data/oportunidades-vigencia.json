@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T20:39:00.360690-03:00",
+  "atualizado_em": "2026-10-02T20:43:19.681158-03:00",
   "leitura_navegador": {
     "tentativas": 3,
     "sucessos": 0,
@@ -510,7 +510,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v4",
-      "verificado_em": "2026-10-02T20:37:52.591137-03:00"
+      "verificado_em": "2026-10-02T20:42:11.854811-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -843,7 +843,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v4",
-      "verificado_em": "2026-10-02T20:39:00.174767-03:00"
+      "verificado_em": "2026-10-02T20:43:19.506416-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -1002,8 +1002,8 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-02T20:39:00.360505-03:00",
-      "ia_tentada_em": "2026-10-02T20:39:00.360490-03:00",
+      "verificado_em": "2026-10-02T20:43:19.680978-03:00",
+      "ia_tentada_em": "2026-10-02T20:43:19.680967-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
@@ -1153,7 +1153,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v4",
-      "verificado_em": "2026-10-02T20:37:52.292533-03:00"
+      "verificado_em": "2026-10-02T20:42:11.512640-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1162,7 +1162,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v4",
-      "verificado_em": "2026-10-02T20:37:54.864186-03:00"
+      "verificado_em": "2026-10-02T20:42:14.250697-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1171,7 +1171,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v4",
-      "verificado_em": "2026-10-02T20:37:59.343670-03:00"
+      "verificado_em": "2026-10-02T20:42:18.461536-03:00"
     },
     {
       "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
@@ -1245,7 +1245,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v4",
-      "verificado_em": "2026-10-02T20:37:52.642491-03:00"
+      "verificado_em": "2026-10-02T20:42:11.876505-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1282,7 +1282,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v4",
-      "verificado_em": "2026-10-02T20:37:52.803599-03:00"
+      "verificado_em": "2026-10-02T20:42:11.952979-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1327,7 +1327,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v4",
-      "verificado_em": "2026-10-02T20:37:52.859794-03:00"
+      "verificado_em": "2026-10-02T20:42:11.982596-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -1575,7 +1575,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v4",
-      "verificado_em": "2026-10-02T20:37:53.147583-03:00"
+      "verificado_em": "2026-10-02T20:42:12.326679-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
