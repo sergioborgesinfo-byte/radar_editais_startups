@@ -137,7 +137,7 @@ function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;
 function setData(list,label,isDemo){
   $("src").dataset.demo=isDemo?"1":"0";
   E=list.map(norm);E.forEach(function(e,i){
-      e.automatico=list[i].validado_automaticamente===true;
+      e.automatico=list[i].validado_automaticamente===true || list[i].validado_manualmente===true;
       e.continuo=list[i].sem_data_final===true;
       if(e.continuo && /(^|\.)wow\.ac$/i.test(new URL(e.link,location.href).hostname))e.automatico=false;
       if(e.continuo)e.pend=false;

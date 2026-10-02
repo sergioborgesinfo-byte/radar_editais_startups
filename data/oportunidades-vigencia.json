@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T15:29:56.209525-03:00",
+  "atualizado_em": "2026-10-02T18:50:18.680Z",
   "ia": {
     "chamadas": 8,
     "limite": 8,
@@ -846,14 +846,28 @@
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
-      "titulo": "Hello Tomorrow Challenge",
-      "status": "pendente_evidencia",
-      "motivo": "edicao_ou_publico_nao_comprovado",
+      "titulo": "Hello Tomorrow Global Challenge — 12ª edição",
+      "status": "aberta_confirmada",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:32.642045-03:00",
+      "verificado_em": "2026-10-02T18:50:18.680Z",
       "ia_tentada_em": "2026-10-02T15:05:21.019193-03:00",
       "ia_metodo": "gemini-v2",
-      "motivo_ia": "ano_nao_comprovado"
+      "instituicao": "Hello Tomorrow",
+      "tipo": "Desafio",
+      "estagio": "Qualquer",
+      "descricao": "Desafio internacional para startups deep tech que desenvolvem soluções para desafios globais.",
+      "requisitos": "Startups deep tech; conferir os critérios completos na página oficial.",
+      "prazo": "2026-11-30",
+      "prazo_iso": "2026-11-30T23:59:59-03:00",
+      "inicio_iso": "2026-09-23T00:00:00-03:00",
+      "sem_data_final": false,
+      "evidencia_edicao": "Começa a 12a edição! — 23 de setembro de 2026",
+      "evidencia_publico": "Se você está construindo uma startup de tecnologia profunda resolvendo desafios globais, agora é sua chance de se candidatar.",
+      "evidencia_prazo": "30 de novembro de 2026 - Aplicações Fechar",
+      "metodo": "revisao_manual_cronograma",
+      "fonte_oficial": "https://hello-tomorrow.org/global-challenge",
+      "modalidade_inscricao": "inscricao",
+      "observacao": "Cronograma confirmado na captura enviada pela usuária em 02/10/2026; tradução exibida no navegador."
     },
     {
       "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",

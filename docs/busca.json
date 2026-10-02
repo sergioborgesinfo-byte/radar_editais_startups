@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T15:29:56.209525-03:00",
+    "atualizado_em": "2026-10-02T18:50:18.680Z",
     "examinadas": 138,
-    "abertas_publicadas": 6,
+    "abertas_publicadas": 7,
     "status": {
-      "aberta_confirmada": 7,
-      "encerrada": 58,
-      "pendente_evidencia": 42,
+      "aberta_confirmada": 8,
+      "encerrada": 59,
+      "pendente_evidencia": 40,
       "pendente_acesso": 5,
       "pendente_fonte_oficial": 26
     },
@@ -6261,8 +6261,8 @@
       {
         "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
         "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
@@ -6379,10 +6379,10 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Hello Tomorrow Challenge",
+        "titulo": "Hello Tomorrow Global Challenge — 12ª edição",
         "url": "https://hello-tomorrow.org/global-challenge",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "aberta_confirmada",
+        "motivo": ""
       },
       {
         "titulo": "Programa de Aceleração #GoHard15 da Ventiur",
@@ -6795,12 +6795,6 @@
         "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
-        "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
-        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
         "titulo": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará",
         "url": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
         "status": "pendente_evidencia",
@@ -6857,12 +6851,6 @@
       {
         "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
         "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Hello Tomorrow Challenge",
-        "url": "https://hello-tomorrow.org/global-challenge",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
       },

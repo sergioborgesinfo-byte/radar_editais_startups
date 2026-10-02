@@ -322,7 +322,8 @@ def exportar_abertas(validadas, agora):
             'd': None if continuo else (fim.date() - agora.date()).days, 'desc': e['descricao'], 'link': e.get('fonte_oficial', e['url']),
             'n': 1, 'r': 0, 'revisar': 0, 'status': e['modalidade_inscricao'] + '_aberta',
             'requisitos': e['requisitos'], 'verificado_em': e['verificado_em'],
-            'validado_automaticamente': True, 'prazo_iso': e['prazo_iso'],
+            'validado_automaticamente': not e.get('metodo', '').startswith('revisao_manual'),
+            'validado_manualmente': e.get('metodo', '').startswith('revisao_manual'), 'prazo_iso': e['prazo_iso'],
             'sem_data_final': continuo, 'verificacao_valida_ate': validade.isoformat(),
             'evidencia_edicao': e['evidencia_edicao'],
             'evidencia_publico': e['evidencia_publico'], 'evidencia_prazo': e['evidencia_prazo']})
