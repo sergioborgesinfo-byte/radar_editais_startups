@@ -40,5 +40,119 @@
       "evidencia_ano": "Programa Acelera Formiga 2026",
       "motivo": "As inscrições estão abertas até o dia 17 de julho de 2026 para o Programa Acelera Formiga 2026, conforme informado na matéria publicada em 30 de junho de 2026."
     }
+  },
+  "07172750e977c3b7462c9f093a6094f6a3c0da014945a623b71cca2fb4e3505c": {
+    "em": "2026-10-02T15:03:07.829013-03:00",
+    "resposta": {
+      "situacao": "sem_prazo",
+      "fonte": "https://cloud.google.com/startup/benefits?hl=pt-BR",
+      "evidencia_identidade": "Programa para Startups do Google Cloud",
+      "evidencia": "Inscreva-se agora",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": null,
+      "motivo": "O programa está aberto para inscrições contínuas, conforme indicado pelos botões de 'Inscreva-se agora', sem apresentar uma data limite ou cronograma final de encerramento nos documentos fornecidos."
+    }
+  },
+  "5e64646de7272493789a5389c4c4845bc06e5d5df34dda6e34da788e6d07d64b": {
+    "em": "2026-10-02T15:03:07.829013-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao",
+      "evidencia_identidade": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição",
+      "evidencia": "Submissão das propostas via SIGFAPESC 20/05/2026 a 22/06/2026",
+      "fim": "2026-06-22",
+      "inicio": "2026-05-20",
+      "evidencia_inicio": "20/05/2026 a 22/06/2026",
+      "evidencia_ano": "2026",
+      "motivo": "O edital estabelece o período de submissão das propostas de 20/05/2026 a 22/06/2026."
+    }
+  },
+  "50fb330c94678922d3c8c83fa348326ecd8f9db37a0a70f025608e001bf4c35d": {
+    "em": "2026-10-02T15:03:07.829013-03:00",
+    "resposta": {
+      "situacao": "pendente",
+      "fonte": "https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
+      "evidencia_identidade": "Invest.Rio e Maravalley lançam edital para selecionar dez startups para Missão Web Summit Lisboa 2026",
+      "evidencia": "As startups interessadas podem encontrar todas as informações no site [https://www.maravalley.rio/programas/web-summit-lisboa-2026].",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "Publicado em 18/09/2026",
+      "motivo": "O texto menciona que as inscrições estão abertas e indica o site externo para consulta do edital, mas não informa a data final de encerramento das inscrições nos documentos fornecidos."
+    }
+  },
+  "f0545209aa295ad9b197f32579031ba3795f89f8c2522c7c5d22a348ed769bcc": {
+    "em": "2026-10-02T15:03:07.829013-03:00",
+    "resposta": [
+      {
+        "situacao": "prazo",
+        "fonte": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
+        "evidencia_identidade": "Programa Trilha Nacional de Pré-Incubação Brasil Inovador",
+        "evidencia": "As inscrições estão abertas até o dia 27 de fevereiro de 2026 e devem ser realizadas, exclusivamente, por meio de formulário eletrônico",
+        "fim": "2026-02-27",
+        "inicio": null,
+        "evidencia_inicio": null,
+        "evidencia_ano": "As inscrições estão abertas até o dia 27 de fevereiro de 2026",
+        "motivo": "O documento informa explicitamente que as inscrições estão abertas até o dia 27 de fevereiro de 2026."
+      }
+    ]
+  },
+  "06165381aff671c2f39fbf3dc6f59c9d315fa6422f32aa0381edaeabb68c857f": {
+    "em": "2026-10-02T15:03:07.829013-03:00",
+    "resposta": {
+      "situacao": "pendente",
+      "fonte": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
+      "evidencia_identidade": "Resultado Chamada Pública 03/2026: Novo Seed",
+      "evidencia": null,
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "2026",
+      "motivo": "Os documentos fornecidos contêm apenas informações sobre o resultado e interposição de recursos da oportunidade, sem apresentar as datas ou regras de inscrição."
+    }
+  },
+  "b252fe5d1f818424b2f707375a03090999f2127eedd6b8b69d891d8f886e3878": {
+    "em": "2026-10-02T15:03:07.829013-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
+      "evidencia_identidade": "EDITAL DE CHAMADA PARA SELEÇÃO DE PROJETOS E EMPRESAS PARA INCUBAÇÃO - SELEÇÃO DE FLUXO CONTÍNUO",
+      "evidencia": "As propostas, para preenchimento das vagas existentes, poderão ser enviadas pelos proponentes a qualquer tempo, sempre condicionado à existência de vagas. 7.1.1. O número de vagas está vinculado à capacidade de atendimento por parte da JUMPSTART. A JUMPSTART se reserva ao direito de suspender a entrada de novos empreendimentos quando o seu limite de atendimento for atingido, com as rejeições das propostas, e determinação do encerramento do prazo de vigência do Edital.",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "Brasília - DF, 02 de Janeiro de 2024.",
+      "motivo": "O edital funciona em fluxo contínuo sem data final fixa, mas prevê encerramento condicionado à lotação das vagas e capacidade de atendimento da incubadora."
+    }
+  },
+  "e3842fd0e78eaedd4e4a144846293e7d6a131411d52d82d8a068e9b5b53ea052": {
+    "em": "2026-10-02T15:03:07.829013-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://hello-tomorrow.org/global-challenge",
+      "evidencia_identidade": "Hello Tomorrow Challenge",
+      "evidencia": "November 30th, 2026 - Applications Close",
+      "fim": "2026-11-30",
+      "inicio": "2026-09-23",
+      "evidencia_inicio": "September 23rd, 2026 - Applications open",
+      "evidencia_ano": "September 23rd, 2026",
+      "motivo": "O documento informa explicitamente que as inscrições abrem em 23 de setembro de 2026 e se encerram em 30 de novembro de 2026."
+    }
+  },
+  "34eecc6b47e36743935022546bfc7b3da4e64483cfe4c77537c0304f270a1966": {
+    "em": "2026-10-02T15:03:07.829013-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
+      "evidencia_identidade": "Edital de Chamamento Público nº 009/2026 – iNovaStartup Aceleração",
+      "evidencia": "As inscrições vão até o dia 18 de setembro, e devem ser realizadas pelo inovatech.pnl.mg.gov.br.",
+      "fim": "2026-09-18",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "21/08/2026",
+      "motivo": "O edital estabelece explicitamente que as inscrições vão até o dia 18 de setembro de 2026."
+    }
   }
 }

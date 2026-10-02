@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T15:01:12.980455-03:00",
+  "atualizado_em": "2026-10-02T15:05:27.615908-03:00",
   "ia": {
     "chamadas": 8,
     "limite": 8,
@@ -485,7 +485,7 @@
       "motivo": "dados_dinamicos_ausentes",
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:20.205331-03:00"
+      "verificado_em": "2026-10-02T15:03:08.293742-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -522,7 +522,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:29.749544-03:00"
+      "verificado_em": "2026-10-02T14:59:29.749544-03:00",
+      "ia_tentada_em": "2026-10-02T15:04:45.737890-03:00",
+      "ia_metodo": "gemini-v2",
+      "motivo_ia": "fonte_invalida"
     },
     {
       "url": "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil",
@@ -563,8 +566,9 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
       "verificado_em": "2026-10-02T14:59:28.253983-03:00",
-      "ia_tentada_em": "2026-10-02T15:00:18.827234-03:00",
-      "motivo_ia": "evidencia_insuficiente"
+      "ia_tentada_em": "2026-10-02T15:04:03.324233-03:00",
+      "motivo_ia": "citacao_ou_identidade_invalida",
+      "ia_metodo": "gemini-v2"
     },
     {
       "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
@@ -572,7 +576,10 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:30.048102-03:00"
+      "verificado_em": "2026-10-02T14:59:30.048102-03:00",
+      "ia_tentada_em": "2026-10-02T15:05:00.898251-03:00",
+      "ia_metodo": "gemini-v2",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
@@ -580,7 +587,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:34.063972-03:00"
+      "verificado_em": "2026-10-02T14:59:34.063972-03:00",
+      "ia_tentada_em": "2026-10-02T15:05:09.321600-03:00",
+      "ia_metodo": "gemini-v2",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
@@ -588,7 +598,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:34.396255-03:00"
+      "verificado_em": "2026-10-02T14:59:34.396255-03:00",
+      "ia_tentada_em": "2026-10-02T15:05:27.615877-03:00",
+      "ia_metodo": "gemini-v2",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
@@ -640,8 +653,9 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
       "verificado_em": "2026-10-02T14:59:47.621002-03:00",
-      "ia_tentada_em": "2026-10-02T15:00:41.187196-03:00",
-      "motivo_ia": "evidencia_insuficiente"
+      "ia_tentada_em": "2026-10-02T15:04:25.251271-03:00",
+      "motivo_ia": "citacao_ou_identidade_invalida",
+      "ia_metodo": "gemini-v2"
     },
     {
       "url": "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-formiga-2026-abre-inscricoes-para-selecionar-15-startups-e-empresas-inovadoras",
@@ -737,7 +751,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:29:57.252007-03:00"
+      "verificado_em": "2026-10-02T15:03:50.379009-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -773,7 +787,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:32.642045-03:00"
+      "verificado_em": "2026-10-02T14:59:32.642045-03:00",
+      "ia_tentada_em": "2026-10-02T15:05:21.019193-03:00",
+      "ia_metodo": "gemini-v2",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
@@ -814,8 +831,9 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
       "verificado_em": "2026-10-02T14:59:59.570437-03:00",
-      "ia_tentada_em": "2026-10-02T15:00:56.970193-03:00",
-      "motivo_ia": "evidencia_insuficiente"
+      "ia_tentada_em": "2026-10-02T15:04:35.008006-03:00",
+      "motivo_ia": "citacao_ou_identidade_invalida",
+      "ia_metodo": "gemini-v2"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90",
@@ -847,7 +865,7 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:29:18.298678-03:00"
+      "verificado_em": "2026-10-02T15:03:11.978630-03:00"
     },
     {
       "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
@@ -932,7 +950,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:29:20.771803-03:00"
+      "verificado_em": "2026-10-02T15:03:08.195829-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -940,7 +958,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:29:23.045575-03:00"
+      "verificado_em": "2026-10-02T15:03:10.387237-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -996,7 +1014,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:29:23.271294-03:00"
+      "verificado_em": "2026-10-02T15:03:08.562640-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1069,7 +1087,7 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:29:29.129110-03:00"
+      "verificado_em": "2026-10-02T15:03:14.821946-03:00"
     },
     {
       "url": "https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups",
