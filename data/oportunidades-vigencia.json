@@ -1,6 +1,6 @@
 {
-  "versao": "vigencia-v3",
-  "atualizado_em": "2026-10-02T03:42:53.576053-03:00",
+  "versao": "vigencia-v4",
+  "atualizado_em": "2026-10-02T06:14:47.566963-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -21,9 +21,9 @@
     },
     {
       "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-      "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
-      "status": "pendente_evidencia",
-      "motivo": "edicao_ou_publico_nao_comprovado"
+      "titulo": "EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...",
+      "status": "pendente_acesso",
+      "motivo": "fonte_oficial_indisponivel"
     },
     {
       "url": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
@@ -34,6 +34,12 @@
     {
       "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
       "titulo": "Programa Nacional de Pré-Incubação de Ideias Inovadoras - Trilha Nacional de Pré-Incubação Brasil Inovador",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado"
+    },
+    {
+      "url": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
+      "titulo": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado"
     },
@@ -94,8 +100,9 @@
     {
       "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-013-2026-pesquisador-na-empresa",
       "titulo": "CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado"
+      "status": "encerrada",
+      "prazo_iso": "2026-08-31T23:59:59-03:00",
+      "evidencia_prazo": "Prazo de submissão encerrado em 31 de agosto de 2026"
     },
     {
       "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
@@ -161,12 +168,6 @@
     {
       "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
       "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria"
-    },
-    {
-      "url": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
-      "titulo": "CBA lança edital de fluxo contínuo para atrair startups e empresas inovadoras voltadas à bioeconomia amazônica - CBA",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria"
     },
