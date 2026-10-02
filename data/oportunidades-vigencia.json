@@ -1,14 +1,14 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T18:54:45.542140-03:00",
+  "atualizado_em": "2026-10-02T19:10:33.591195-03:00",
   "ia": {
     "chamadas": 0,
     "falhas_temporarias": [],
     "limite": 8,
     "parada": null,
-    "pendencias_restantes": 62,
-    "casos_com_tentativa_ia": 73,
-    "resolvidas_automaticamente": 75,
+    "pendencias_restantes": 61,
+    "casos_com_tentativa_ia": 71,
+    "resolvidas_automaticamente": 76,
     "revisoes_manuais": 1
   },
   "itens": [
@@ -45,11 +45,11 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado",
       "titulo": "Movimenta Sebrae",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:01.443992-03:00",
-      "ia_tentada_em": "2026-10-02T18:21:45.140951-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:55.862990-03:00",
+      "ia_tentada_em": "2026-10-02T19:06:39.934040-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -493,9 +493,9 @@
       "status": "pendente_acesso",
       "motivo": "dados_dinamicos_ausentes",
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T18:54:03.287853-03:00"
+      "verificado_em": "2026-10-02T19:09:51.365521-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -523,12 +523,12 @@
       "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:03.594521-03:00",
-      "ia_tentada_em": "2026-10-02T16:27:26.974665-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.517946-03:00",
+      "ia_tentada_em": "2026-10-02T19:06:38.536476-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
@@ -579,23 +579,23 @@
       "titulo": "Programa para Startups do Google Cloud",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:04.264151-03:00",
-      "ia_tentada_em": "2026-10-02T16:27:43.876547-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "citacao_ou_identidade_invalida"
+      "verificado_em": "2026-10-02T19:05:55.617065-03:00",
+      "ia_tentada_em": "2026-10-02T19:06:39.224987-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
       "titulo": "Resultado Chamada Pública 03/2026: Novo Seed",
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:06.947390-03:00",
-      "ia_tentada_em": "2026-10-02T16:27:43.898599-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:55.598816-03:00",
+      "ia_tentada_em": "2026-10-02T19:06:39.236126-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -603,36 +603,36 @@
       "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:10.812180-03:00",
-      "ia_tentada_em": "2026-10-02T16:27:51.959659-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "sem_convite"
+      "verificado_em": "2026-10-02T19:05:56.800343-03:00",
+      "ia_tentada_em": "2026-10-02T19:06:39.820127-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
       "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:11.539943-03:00",
-      "ia_tentada_em": "2026-10-02T16:27:59.882339-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.632432-03:00",
+      "ia_tentada_em": "2026-10-02T19:06:39.839602-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
       "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:12.214159-03:00",
-      "ia_tentada_em": "2026-10-02T16:28:07.838298-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.665937-03:00",
+      "ia_tentada_em": "2026-10-02T19:06:39.875243-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
@@ -718,12 +718,12 @@
       "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:20.141921-03:00",
-      "ia_tentada_em": "2026-10-02T18:22:16.076333-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "sem_convite"
+      "verificado_em": "2026-10-02T19:05:55.732561-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:05.627191-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
@@ -744,12 +744,12 @@
       "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:26.730772-03:00",
-      "ia_tentada_em": "2026-10-02T18:22:40.025478-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.799992-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:10.713094-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://ri.natura.com.br/noticias/natura-abre-inscricoes-para-desafio-de-inovacao-que-vai-acelerar-startups-de-beleza-na-america-latina",
@@ -826,57 +826,57 @@
       "titulo": "UFT abre seleção para programa de pré-incubação ...",
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T18:54:45.476647-03:00"
+      "verificado_em": "2026-10-02T19:10:33.546779-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
       "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:33.059695-03:00",
-      "ia_tentada_em": "2026-10-02T18:23:48.213237-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.894656-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:11.654454-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
       "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:34.017143-03:00",
-      "ia_tentada_em": "2026-10-02T18:51:12.683477-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.914676-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:13.348755-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
       "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:41.674867-03:00",
-      "ia_tentada_em": "2026-10-02T18:51:25.657840-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "encerramento_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.943393-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:13.566961-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
       "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:36.272261-03:00",
-      "ia_tentada_em": "2026-10-02T18:51:34.184543-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.956251-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:13.679752-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -906,35 +906,35 @@
       "titulo": "Programa de Aceleração #GoHard15 da Ventiur",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:15.534681-03:00",
-      "ia_tentada_em": "2026-10-02T18:21:34.926856-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.683982-03:00",
+      "ia_tentada_em": "2026-10-02T19:06:39.902079-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993",
       "titulo": "Darwin Startups abre inscrições para programa de aceleração",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:16.057297-03:00",
-      "ia_tentada_em": "2026-10-02T18:21:42.620249-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "convite_atual_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.695548-03:00",
+      "ia_tentada_em": "2026-10-02T19:06:39.930456-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
       "titulo": "Acelera Vibra",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:24.093437-03:00",
-      "ia_tentada_em": "2026-10-02T18:22:23.790311-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:55.772380-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:10.675431-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_convite"
     },
     {
@@ -942,12 +942,12 @@
       "titulo": "Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico",
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:27.025939-03:00",
-      "ia_tentada_em": "2026-10-02T18:22:32.030139-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "sem_convite"
+      "verificado_em": "2026-10-02T19:05:55.788951-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:10.697864-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
@@ -972,12 +972,12 @@
       "titulo": "FIEMG Lab abre inscrições para sua primeira jornada de aceleração",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:30.057472-03:00",
-      "ia_tentada_em": "2026-10-02T18:23:31.971760-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "encerramento_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.808375-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:10.739706-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
@@ -987,21 +987,21 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-02T18:54:45.541866-03:00",
-      "ia_tentada_em": "2026-10-02T18:54:45.541852-03:00",
-      "ia_metodo": "gemini-v4"
+      "verificado_em": "2026-10-02T19:10:33.591009-03:00",
+      "ia_tentada_em": "2026-10-02T19:10:33.590998-03:00",
+      "ia_metodo": "gemini-v5"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
       "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:34.935509-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado",
-      "ia_tentada_em": "2026-10-02T18:51:04.904602-03:00"
+      "verificado_em": "2026-10-02T19:05:55.871603-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:13.247709-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
@@ -1020,23 +1020,23 @@
       "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:41.518882-03:00",
-      "ia_tentada_em": "2026-10-02T18:51:46.373321-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:55.969849-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:18.525413-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
       "titulo": "Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:41.185724-03:00",
-      "ia_tentada_em": "2026-10-02T18:51:46.412263-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:56.005982-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:18.548448-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1056,23 +1056,23 @@
       "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:45.052905-03:00",
-      "ia_tentada_em": "2026-10-02T18:51:58.403701-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "inicio_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:56.019824-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:18.675691-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
       "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:45.451045-03:00",
-      "ia_tentada_em": "2026-10-02T18:52:28.179157-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:56.101581-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:28.301464-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_convite"
     },
     {
@@ -1101,23 +1101,23 @@
       "titulo": "Suzano lança Programa de Mentoria de Startups",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:43.925576-03:00",
-      "ia_tentada_em": "2026-10-02T18:52:36.244268-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:56.107590-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:36.082648-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "encerramento_nao_comprovado"
     },
     {
       "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
       "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:48.482599-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.370131-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:56.190552-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:37.604851-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1125,41 +1125,44 @@
       "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups – ConvergenciaDigital",
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T18:54:02.992731-03:00"
+      "verificado_em": "2026-10-02T19:09:51.246670-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
       "titulo": "Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana",
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T18:54:05.113163-03:00"
+      "verificado_em": "2026-10-02T19:09:53.377083-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
       "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado",
+      "fontes_consultadas": [
+        "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups"
+      ],
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:53.119980-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.381626-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-02T19:06:04.243799-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:50.309681-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
       "titulo": "Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:52.936384-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.387566-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:56.825415-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:50.334643-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1167,35 +1170,40 @@
       "titulo": "Programa de aceleração para startups do Nordeste abre inscrições",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:55.841375-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.418154-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:56.848351-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:50.351925-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
       "url": "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto",
       "titulo": "BNDES Garagem abre inscrições para programa de aceleração de startups e negócios de impacto | Exame",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado",
+      "fontes_consultadas": [
+        "https://garagem.bndes.gov.br/",
+        "http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups",
+        "http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups/garagem-chamada-publica-aceleradora-segunda-edicao"
+      ],
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:57.121920-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.436295-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-02T19:06:05.891144-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:02.095081-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29",
       "titulo": "Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:57.086029-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.445891-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:58.494960-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:02.121748-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1203,11 +1211,11 @@
       "titulo": "Natura Ventures abre chamada para startups do Norte e Nordeste com foco em inovação, parceria e investimento",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:59.884816-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.449783-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:58.517694-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:02.144479-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1215,45 +1223,46 @@
       "titulo": "Porto Digital abre inscrições para Pré-Incubação | Jornal Digital",
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T18:54:03.013040-03:00"
+      "verificado_em": "2026-10-02T19:09:51.283335-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
       "titulo": "Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:01.445256-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.473272-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:05:58.791539-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:02.181169-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
       "url": "https://portalradarenergia.com.br/noticias/cnen-abre-chamada-para-programa-granioter-acelera-2026-em-nanotecnologia-e-mater-1f5df243",
-      "titulo": "CNEN abre chamada para programa Granioter Acelera 2026 em ...",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "titulo": "Programa Granioter Acelera 2026",
+      "fonte_oficial": "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil",
+      "prazo_iso": "2026-08-30T23:59:59-03:00",
+      "evidencia_prazo": "Encerramento das inscrições: 30/08/2026",
+      "metodo": "cronograma_documentado",
+      "status": "encerrada",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:00.544036-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.490976-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-02T19:06:03.690452-03:00"
     },
     {
       "url": "https://prpi.ufg.br/p/empreendedorismo-e-inovacao",
       "titulo": "Empreendedorismo e Inovação: como programas de incubação impulsionam negócios e startups | Pesquisa e Inovação: Universidade Federal de Goiás",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "status": "pendente_acesso",
+      "motivo": "fonte_oficial_indisponivel",
+      "fontes_consultadas": [
+        "https://multiplicidades.org.br/pre-aceleracao-e-incubacao-de-empresas",
+        "https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao"
+      ],
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:03.935228-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.500513-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-02T19:09:51.385872-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1269,11 +1278,11 @@
       "titulo": "Embrapa e Venture Hub selecionam startups em programa de aceleração – Sociedade Nacional de Agricultura",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:03.542486-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.511128-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.043394-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:02.208692-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1281,11 +1290,11 @@
       "titulo": "Edital 01/2026 e-Goiás Transformação Digital das empresas 2º Ciclo – Chamada de Solucionadoras",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:03.709467-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.514402-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.066463-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:02.230615-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1296,20 +1305,20 @@
       "fontes_consultadas": [
         "https://app.portodigital.org/publico/portodigital/desafios/40/cliente"
       ],
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T18:54:03.040912-03:00"
+      "verificado_em": "2026-10-02T19:09:51.407553-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
       "titulo": "Empresa oferece programa de aceleração 100% online para startups de todo o Brasil - Startupi",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:09.735780-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.524222-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.173050-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:02.256555-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1326,11 +1335,11 @@
       "titulo": "Facebook e Baita abrem inscrições para segunda edição do programa de aceleração de startups - Startupi",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:09.585199-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.534173-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.202334-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:02.283611-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1338,11 +1347,11 @@
       "titulo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:13.311732-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.542851-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.240975-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:02.309730-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1350,11 +1359,11 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:42.236325-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:42.054024-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.306748-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:02.335527-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1388,23 +1397,23 @@
       "fontes_consultadas": [
         "https://garagem.bndes.gov.br/"
       ],
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:22.379626-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:54.604036-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "citacao_ou_identidade_invalida"
+      "verificado_em": "2026-10-02T19:06:04.302193-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:05.076418-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
       "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:23.375768-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:54.610325-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.351385-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:05.100700-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1412,11 +1421,11 @@
       "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:26.400478-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:54.622760-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.360536-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:05.128638-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1442,24 +1451,24 @@
       "titulo": "Inscrições abertas para novas startups se instalarem no Parque Tecnológico da Bahia",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:26.490252-03:00",
-      "ia_tentada_em": "2026-10-02T18:22:07.979664-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "citacao_ou_identidade_invalida"
+      "verificado_em": "2026-10-02T19:05:55.714554-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:05.598824-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina",
       "titulo": "InovAtiva prorroga inscrições para o maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:46.060565-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:20.425811-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "encerramento_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:56.151701-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:36.191736-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://iphaep.pb.gov.br/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN005_2026SECTIESSEGUNDACHAMADADEINCUBAOPARASTARTUPS.pdf",
@@ -1478,23 +1487,23 @@
       "titulo": "Missão brasileira abre inscrições para levar 100 startups ...",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:47.587064-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:36.365027-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:05:56.164729-03:00",
+      "ia_tentada_em": "2026-10-02T19:08:37.581927-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://senaimt.ind.br/para-industria/1901/pre-aceleracao-startup",
       "titulo": "Programa de Pré-aceleração Start&Up está com inscrições abertas - Senai MT - Serviço Nacional de Aprendizagem Industrial",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:25.722049-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:54.634334-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.369386-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:05.136416-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1505,11 +1514,11 @@
       "fontes_consultadas": [
         "https://programas.sebraestartups.com.br/in/south-summit-brazil-2026---exposi%C3%A7%C3%A3o-de-startups-ga%C3%BAchas-1768484451965x681111351935545900?utm_source=alertaeditais.com.br"
       ],
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:28.330173-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:54.642888-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.375292-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:05.141182-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1517,11 +1526,11 @@
       "titulo": "Endeavor, Sebrae, Elo7: veja programas de aceleração para startups abertos | Exame",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:29.395318-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:54.655923-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.411655-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:05.169523-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1529,11 +1538,11 @@
       "titulo": "Cotidiano Aceleradora realiza seleção para acelerar Startups | Jornal de Brasília",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:29.133830-03:00",
-      "ia_tentada_em": "2026-10-02T18:53:54.667724-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.440239-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:05.197076-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1544,9 +1553,9 @@
       "fontes_consultadas": [
         "https://www.maravalley.rio/programas/web-summit-lisboa-2026"
       ],
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T18:54:03.281877-03:00"
+      "verificado_em": "2026-10-02T19:09:51.698725-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1556,23 +1565,26 @@
       "fontes_consultadas": [
         "https://garagem.bndes.gov.br/"
       ],
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:35.157184-03:00",
-      "ia_tentada_em": "2026-10-02T18:54:02.609747-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "ano_nao_comprovado"
+      "verificado_em": "2026-10-02T19:06:04.480886-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:07.935701-03:00",
+      "ia_metodo": "gemini-v5",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://startupmadeira.eu/2024/03/27/manifestacao-de-interesse-sim-conference",
       "titulo": "Manifestação de Interesse - SIM Conference",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado",
+      "fontes_consultadas": [
+        "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100"
+      ],
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:35.177043-03:00",
-      "ia_tentada_em": "2026-10-02T18:54:02.623501-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:07.272847-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:07.967023-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1580,11 +1592,11 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:33.299546-03:00",
-      "ia_tentada_em": "2026-10-02T18:54:02.646924-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.948586-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:08.001460-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1592,19 +1604,19 @@
       "titulo": "Portal UFS - Startups finalistas, criadas a partir de programa de indução da UFS, são apresentadas ao público",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria",
-      "metodo_fontes": "links-v1",
+      "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:19:37.809526-03:00",
-      "ia_tentada_em": "2026-10-02T18:54:02.655021-03:00",
-      "ia_metodo": "gemini-v4",
+      "verificado_em": "2026-10-02T19:06:04.994040-03:00",
+      "ia_tentada_em": "2026-10-02T19:09:08.026560-03:00",
+      "ia_metodo": "gemini-v5",
       "motivo_ia": "sem_documentos"
     }
   ],
   "fila_prioritaria": {
     "total_inicial": 78,
-    "resolvidas": 16,
-    "resolvidas_automaticamente": 16,
+    "resolvidas": 17,
+    "resolvidas_automaticamente": 17,
     "revisoes_manuais": 0,
-    "pendentes": 62
+    "pendentes": 61
   }
 }

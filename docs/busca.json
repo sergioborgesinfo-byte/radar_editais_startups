@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T18:54:45.542140-03:00",
+    "atualizado_em": "2026-10-02T19:10:33.591195-03:00",
     "examinadas": 138,
     "abertas_publicadas": 8,
     "status": {
       "aberta_confirmada": 9,
-      "encerrada": 67,
-      "pendente_evidencia": 31,
-      "pendente_acesso": 7,
-      "pendente_fonte_oficial": 24
+      "encerrada": 68,
+      "pendente_evidencia": 34,
+      "pendente_acesso": 8,
+      "pendente_fonte_oficial": 19
     },
     "resultados": [
       {
@@ -6501,8 +6501,8 @@
       {
         "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
         "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow",
@@ -6519,8 +6519,8 @@
       {
         "titulo": "BNDES Garagem abre inscrições para programa de aceleração de startups e negócios de impacto | Exame",
         "url": "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial",
@@ -6547,16 +6547,16 @@
         "motivo": "localizar_fonte_primaria"
       },
       {
-        "titulo": "CNEN abre chamada para programa Granioter Acelera 2026 em ...",
+        "titulo": "Programa Granioter Acelera 2026",
         "url": "https://portalradarenergia.com.br/noticias/cnen-abre-chamada-para-programa-granioter-acelera-2026-em-nanotecnologia-e-mater-1f5df243",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Empreendedorismo e Inovação: como programas de incubação impulsionam negócios e startups | Pesquisa e Inovação: Universidade Federal de Goiás",
         "url": "https://prpi.ufg.br/p/empreendedorismo-e-inovacao",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Darwin Startups abre inscrições para 15ª turma de aceleração",
@@ -6711,8 +6711,8 @@
       {
         "titulo": "Manifestação de Interesse - SIM Conference",
         "url": "https://startupmadeira.eu/2024/03/27/manifestacao-de-interesse-sim-conference",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "How to Disable Startup Programs in Windows",
@@ -6911,8 +6911,8 @@
       {
         "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
         "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow",
@@ -6929,8 +6929,8 @@
       {
         "titulo": "BNDES Garagem abre inscrições para programa de aceleração de startups e negócios de impacto | Exame",
         "url": "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial",
@@ -6957,16 +6957,10 @@
         "motivo": "localizar_fonte_primaria"
       },
       {
-        "titulo": "CNEN abre chamada para programa Granioter Acelera 2026 em ...",
-        "url": "https://portalradarenergia.com.br/noticias/cnen-abre-chamada-para-programa-granioter-acelera-2026-em-nanotecnologia-e-mater-1f5df243",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
         "titulo": "Empreendedorismo e Inovação: como programas de incubação impulsionam negócios e startups | Pesquisa e Inovação: Universidade Federal de Goiás",
         "url": "https://prpi.ufg.br/p/empreendedorismo-e-inovacao",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Embrapa e Venture Hub selecionam startups em programa de aceleração – Sociedade Nacional de Agricultura",
@@ -7085,8 +7079,8 @@
       {
         "titulo": "Manifestação de Interesse - SIM Conference",
         "url": "https://startupmadeira.eu/2024/03/27/manifestacao-de-interesse-sim-conference",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "How to Disable Startup Programs in Windows",
@@ -7103,10 +7097,10 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 16,
-      "resolvidas_automaticamente": 16,
+      "resolvidas": 17,
+      "resolvidas_automaticamente": 17,
       "revisoes_manuais": 0,
-      "pendentes": 62
+      "pendentes": 61
     }
   }
 }
