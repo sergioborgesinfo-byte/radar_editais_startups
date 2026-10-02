@@ -62,7 +62,7 @@ def oficial(url):
                 'grupoboticario.com.br', 'natura.com.br', 'randoncorp.com',
                 'startupbrasil.org.br', 'cbamazonia.org', 'darwinstartups.com',
                 'suzano.com.br', 'tecnosinos.com.br', 'senai.br', 'ufla.br',
-                'fapesp.br', 'feevale.br', 'prefeitura.rio', 'hello-tomorrow.org',
+                'fapesp.br', 'feevale.br', 'prefeitura.rio', 'maravalley.rio', 'hello-tomorrow.org',
                 'inatel.br', 'portodigital.org', 'startupsc.com.br')
     return (host.endswith(('.gov.br', '.gov.pt', '.edu.br', '.org.br')) or
             any(host == d or host.endswith('.' + d) for d in set(dominios) | dominios_configurados()))
@@ -333,7 +333,7 @@ def main():
     anteriores_path = Path('data/oportunidades-vigencia.json')
     historico = json.loads(anteriores_path.read_text()) if anteriores_path.exists() else {}
     # Invalida resultados antigos que aceitavam um ano histórico como edição atual.
-    anteriores = historico.get('itens', []) if historico.get('versao') in ('vigencia-v12') else []
+    anteriores = historico.get('itens', []) if historico.get('versao') in ('vigencia-v11', 'vigencia-v12') else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  (feitos[e['url']].get('status') == 'aberta_confirmada' and
@@ -373,15 +373,17 @@ def main():
                 break
             anterior = feitos[e['url']]
             tentativa = anterior.get('ia_tentada_em')
-            if tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
+            if anterior.get('ia_metodo') == 'gemini-v2' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
                 continue
             docs = documentos(dict(e, fonte_primaria_descoberta=FONTES_OFICIAIS.get(e['url'], e['url'])), oficial)
             resultado = assistente.verificar(e, docs, agora)
             anterior['ia_tentada_em'] = datetime.now(FUSO).isoformat()
-            anterior['motivo_ia'] = assistente.parada or ('sem_documentos' if not docs else 'evidencia_insuficiente')
+            anterior['ia_metodo'] = 'gemini-v2'
+            anterior['motivo_ia'] = assistente.parada or assistente.last_reason or ('sem_documentos' if not docs else 'evidencia_insuficiente')
             if resultado:
                 resultado['verificado_em'] = datetime.now(FUSO).isoformat()
                 resultado['ia_tentada_em'] = anterior['ia_tentada_em']
+                resultado['ia_metodo'] = 'gemini-v2'
                 feitos[e['url']] = resultado
                 print(f"IA: {resultado['status']}: {e['url']}", flush=True)
     print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)
