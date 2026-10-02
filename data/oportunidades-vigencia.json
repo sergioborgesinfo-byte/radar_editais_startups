@@ -1282,12 +1282,15 @@
       "url": "https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia",
       "titulo": "Inscrições abertas para novas startups se instalarem no Parque Tecnológico da Bahia",
       "status": "pendente_evidencia",
-      "motivo": "edicao_ou_publico_nao_comprovado",
+      "motivo": "fonte_historica_2020_sem_vigencia_atual",
       "metodo_fontes": "links-v1",
       "verificado_em": "2026-10-02T14:59:56.776840-03:00",
       "ia_tentada_em": "2026-10-02T15:10:40.272264-03:00",
       "ia_metodo": "gemini-v3",
-      "motivo_ia": "sem_convite"
+      "motivo_ia": "sem_convite",
+      "publicado_em": "2020-12-01T09:25:00-03:00",
+      "revisao_manual": "noticia_historica",
+      "observacao": "Publicação de 01/12/2020 às 09:25 confirmada na FAPESB. Sem prazo de inscrição na notícia. Link indicado para detalhes da chamada da SECTI não pôde ser recuperado. Não comprova candidatura aberta em 2026."
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina",
