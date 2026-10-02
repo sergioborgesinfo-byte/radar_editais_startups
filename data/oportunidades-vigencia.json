@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v11",
-  "atualizado_em": "2026-10-02T12:24:13.102484-03:00",
+  "atualizado_em": "2026-10-02T12:25:19.015298-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -433,7 +433,7 @@
       "motivo": "dados_dinamicos_ausentes",
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:23:30.592246-03:00"
+      "verificado_em": "2026-10-02T12:24:32.918669-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -648,7 +648,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:24:13.101784-03:00"
+      "verificado_em": "2026-10-02T12:25:15.485426-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -756,7 +756,7 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:23:34.396899-03:00"
+      "verificado_em": "2026-10-02T12:24:36.553246-03:00"
     },
     {
       "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
@@ -841,7 +841,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:23:30.446805-03:00"
+      "verificado_em": "2026-10-02T12:24:33.048918-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -849,7 +849,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:23:32.757469-03:00"
+      "verificado_em": "2026-10-02T12:24:35.171405-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -905,7 +905,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:23:30.633024-03:00"
+      "verificado_em": "2026-10-02T12:24:33.283168-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -959,14 +959,10 @@
     {
       "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
       "titulo": "Prorrogado! Programas para novas startups com inscrições até 30 de março | Jornal Digital",
-      "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel",
-      "fontes_consultadas": [
-        "https://site.portodigital.org/newsletter-jornal-digital-inscricao",
-        "https://app.portodigital.org/publico/portodigital/desafios/40/cliente"
-      ],
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:23:35.701240-03:00"
+      "verificado_em": "2026-10-02T12:25:15.907059-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -982,7 +978,7 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:23:39.201234-03:00"
+      "verificado_em": "2026-10-02T12:24:41.397273-03:00"
     },
     {
       "url": "https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups",
@@ -1033,13 +1029,10 @@
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
       "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
-      "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel",
-      "fontes_consultadas": [
-        "https://site.portodigital.org/newsletter-jornal-digital-inscricao"
-      ],
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:23:38.108357-03:00"
+      "verificado_em": "2026-10-02T12:25:19.014692-03:00"
     },
     {
       "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",

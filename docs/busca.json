@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T12:24:13.102484-03:00",
+    "atualizado_em": "2026-10-02T12:25:19.015298-03:00",
     "examinadas": 123,
     "abertas_publicadas": 6,
     "status": {
       "aberta_confirmada": 7,
       "encerrada": 44,
       "pendente_evidencia": 48,
-      "pendente_acesso": 7,
-      "pendente_fonte_oficial": 17
+      "pendente_acesso": 5,
+      "pendente_fonte_oficial": 19
     },
     "resultados": [
       {
@@ -6579,8 +6579,8 @@
       {
         "titulo": "Prorrogado! Programas para novas startups com inscrições até 30 de março | Jornal Digital",
         "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       },
       {
         "titulo": "Empresa oferece programa de aceleração 100% online para startups de todo o Brasil - Startupi",
@@ -6627,8 +6627,8 @@
       {
         "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
         "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       },
       {
         "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
@@ -7013,8 +7013,8 @@
       {
         "titulo": "Prorrogado! Programas para novas startups com inscrições até 30 de março | Jornal Digital",
         "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       },
       {
         "titulo": "Empresa oferece programa de aceleração 100% online para startups de todo o Brasil - Startupi",
@@ -7061,8 +7061,8 @@
       {
         "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
         "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       },
       {
         "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
