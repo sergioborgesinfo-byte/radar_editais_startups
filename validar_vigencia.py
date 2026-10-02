@@ -32,7 +32,8 @@ def oficial(url):
     host = (urlsplit(url).hostname or '').lower()
     return (host.endswith('.gov.br') or host.endswith('.edu.br') or host.endswith('.org.br') or
             any(x in host for x in ('sebrae', 'fapemig', 'fapesc', 'finep', 'google.com',
-                'grupoboticario.com.br', 'natura.com.br', 'randoncorp.com', 'startupbrasil.org.br')))
+                'grupoboticario.com.br', 'natura.com.br', 'randoncorp.com', 'startupbrasil.org.br',
+                'cbamazonia.org')))
 
 
 def dados_sebrae(url, abrir=urlopen):
@@ -145,7 +146,11 @@ def validar_oficial(registro, agora, ler=None):
                 'motivo':'fonte_oficial_indisponivel'}
     titulo = registro.get('dados',{}).get('titulo') or registro.get('titulo','')
     publico = registro.get('dados',{}).get('trecho_publico','')
-    pagina_dedicada = fonte != url
+    # Algumas instituições mantêm a página primária no próprio URL descoberto.
+    # O catálogo estruturado da FAPEMIG é uma página dedicada à chamada, não uma
+    # notícia agregadora; seu cronograma pode separar o nome da chamada da data.
+    pagina_dedicada = (fonte != url or
+                       '/oportunidades/chamadas-e-editais/' in urlsplit(fonte).path)
     edicao = re.search(r'\b20\d{2}\b', titulo)
     if (not edicao and not pagina_dedicada) or not re.search(r'startup|neg[oó]cio inovador|projeto inovador', publico, re.I):
         return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
@@ -252,7 +257,7 @@ def main():
     anteriores_path = Path('data/oportunidades-vigencia.json')
     historico = json.loads(anteriores_path.read_text()) if anteriores_path.exists() else {}
     # Invalida resultados antigos que aceitavam um ano histórico como edição atual.
-    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v3' else []
+    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v4' else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
@@ -265,7 +270,7 @@ def main():
         feitos[e['url']] = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
                             else validar_oficial(e, agora))
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v3', 'atualizado_em':agora.isoformat(), 'itens':itens}
+    relatorio = {'versao':'vigencia-v4', 'atualizado_em':agora.isoformat(), 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     abertas = exportar_abertas(itens, agora)
     Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')

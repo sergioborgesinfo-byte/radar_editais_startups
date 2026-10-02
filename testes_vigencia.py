@@ -3,7 +3,7 @@ import json
 import unittest
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from validar_vigencia import validar_sebrae, validar_oficial, exportar_abertas, deduplicar, data_literal, texto_relevante, atualizar_acompanhamento
+from validar_vigencia import validar_sebrae, validar_oficial, exportar_abertas, deduplicar, data_literal, texto_relevante, atualizar_acompanhamento, oficial
 
 FUSO=ZoneInfo('America/Sao_Paulo')
 
@@ -94,5 +94,26 @@ class Vigencia(unittest.TestCase):
             lambda u:(acessada.append(u) or 'Batch #15 Darwin Startups 2026. Inscrições: de 26 de agosto a 25 de setembro de 2026.'))
         self.assertIn('darwinstartups.com/batch15',acessada[0])
         self.assertEqual(v['status'],'encerrada')
+
+    def test_catalogo_estruturado_fapemig_usa_cronograma_da_chamada(self):
+        r={'url':'https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-013-2026-pesquisador-na-empresa',
+           'titulo':'CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA',
+           'dados':{'trecho_publico':'Empresas, startups e cooperativas de Minas Gerais'}}
+        v=validar_oficial(r,datetime(2026,10,2,12,tzinfo=FUSO),
+            lambda u:'Data Início de Submissão de Propostas: 13/07/2026\nData Final de Submissão de Propostas: 31/08/2026')
+        self.assertEqual(v['status'],'encerrada')
+        self.assertIn('31/08/2026',v['evidencia_prazo'])
+
+    def test_cba_e_fonte_oficial_e_fluxo_continuo(self):
+        url='https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica'
+        self.assertTrue(oficial(url))
+        r={'url':url,'titulo':'CBA Open 2026',
+           'dados':{'titulo':'Edital de Fluxo Contínuo CBA Open nº 01/2026',
+                    'trecho_publico':'O edital contempla startups e empresas de base tecnológica',
+                    'resumo':'Residência no Hub de Bionegócios'}}
+        v=validar_oficial(r,datetime(2026,10,2,12,tzinfo=FUSO),
+            lambda u:'CBA Open 2026 para startups. As inscrições permanecerão abertas em fluxo contínuo.')
+        self.assertEqual(v['status'],'aberta_confirmada')
+        self.assertTrue(v['sem_data_final'])
 
 if __name__=='__main__': unittest.main()
