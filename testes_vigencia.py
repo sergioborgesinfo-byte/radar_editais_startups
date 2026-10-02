@@ -109,7 +109,8 @@ class Vigencia(unittest.TestCase):
         self.assertTrue(oficial(url))
         r={'url':url,'titulo':'CBA Open 2026',
            'dados':{'titulo':'Edital de Fluxo Contínuo CBA Open nº 01/2026',
-                    'trecho_publico':'O edital contempla startups e empresas de base tecnológica',
+                    'trecho_publico':'O edital contempla empresas com até 10 anos de CNPJ',
+                    'trecho_oportunidade':'O CBA lançou edital para startups e empresas de base tecnológica',
                     'resumo':'Residência no Hub de Bionegócios'}}
         v=validar_oficial(r,datetime(2026,10,2,12,tzinfo=FUSO),
             lambda u:'CBA Open 2026 para startups. As inscrições permanecerão abertas em fluxo contínuo.')
