@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v2",
-  "atualizado_em": "2026-10-02T00:06:37.381759-03:00",
+  "atualizado_em": "2026-10-02T00:42:07.482763-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -183,8 +183,8 @@
     {
       "url": "https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital",
       "titulo": "Porto Digital abre inscrições para Pré-Incubação | Jornal Digital",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria"
+      "status": "pendente_acesso",
+      "motivo": "fonte_oficial_indisponivel"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -201,8 +201,9 @@
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
       "titulo": "Darwin Startups abre inscrições para 15ª turma de aceleração",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria"
+      "status": "encerrada",
+      "prazo_iso": "2026-09-25T23:59:59-03:00",
+      "evidencia_prazo": "Inscrições para o Batch #15 da Darwin Startups: de 26 de agosto a 25 de setembro de 2026."
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90",
@@ -231,8 +232,8 @@
     {
       "url": "https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups",
       "titulo": "Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria"
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
