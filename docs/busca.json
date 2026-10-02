@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T20:43:19.681158-03:00",
-    "examinadas": 138,
-    "abertas_publicadas": 9,
+    "atualizado_em": "2026-10-02T20:52:33.711751-03:00",
+    "examinadas": 139,
+    "abertas_publicadas": 8,
     "status": {
-      "aberta_confirmada": 10,
+      "aberta_confirmada": 9,
       "encerrada": 71,
-      "pendente_evidencia": 29,
+      "pendente_evidencia": 31,
       "pendente_acesso": 9,
       "pendente_fonte_oficial": 19
     },
@@ -6219,8 +6219,8 @@
       {
         "titulo": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
         "url": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
-        "status": "aberta_confirmada",
-        "motivo": ""
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Programa para Startups do Google Cloud",
@@ -6459,8 +6459,8 @@
       {
         "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
         "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
-        "status": "aberta_confirmada",
-        "motivo": ""
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale",
@@ -6725,6 +6725,12 @@
         "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Desafio COB de Startups — 2ª edição com 11 teses e foco no ciclo rumo a Los Angeles 2028",
+        "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-abre-2-edicao-com-11-teses-e-foco-no-ciclo-rumo-a-los-angeles-2028",
+        "status": "aberta_confirmada",
+        "motivo": ""
       }
     ],
     "pendentes": [
@@ -6745,6 +6751,12 @@
         "url": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
+        "url": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Programa para Startups do Google Cloud",
@@ -6857,6 +6869,12 @@
       {
         "titulo": "Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups",
         "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
+        "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
@@ -7073,19 +7091,19 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 21,
-      "resolvidas_automaticamente": 21,
+      "resolvidas": 20,
+      "resolvidas_automaticamente": 20,
       "revisoes_manuais": 0,
-      "pendentes": 57
+      "pendentes": 58
     },
     "ia": {
       "chamadas": 0,
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 57,
-      "casos_com_tentativa_ia": 67,
-      "resolvidas_automaticamente": 80,
+      "pendencias_restantes": 59,
+      "casos_com_tentativa_ia": 69,
+      "resolvidas_automaticamente": 79,
       "revisoes_manuais": 1
     }
   }
