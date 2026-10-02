@@ -5887,14 +5887,14 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T06:14:47.566963-03:00",
+    "atualizado_em": "2026-10-02T06:20:01.069559-03:00",
     "examinadas": 54,
-    "abertas_publicadas": 1,
+    "abertas_publicadas": 2,
     "status": {
-      "aberta_confirmada": 1,
-      "pendente_acesso": 6,
+      "aberta_confirmada": 2,
       "pendente_evidencia": 20,
       "encerrada": 2,
+      "pendente_acesso": 5,
       "pendente_fonte_oficial": 25
     },
     "resultados": [
@@ -5905,10 +5905,10 @@
         "motivo": ""
       },
       {
-        "titulo": "EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...",
+        "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
         "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
@@ -5925,8 +5925,8 @@
       {
         "titulo": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
         "url": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "aberta_confirmada",
+        "motivo": ""
       },
       {
         "titulo": "Programa para Startups do Google Cloud",
@@ -6225,10 +6225,10 @@
     ],
     "pendentes": [
       {
-        "titulo": "EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...",
+        "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
         "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
@@ -6239,12 +6239,6 @@
       {
         "titulo": "Programa Nacional de Pré-Incubação de Ideias Inovadoras - Trilha Nacional de Pré-Incubação Brasil Inovador",
         "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
-        "url": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
       },

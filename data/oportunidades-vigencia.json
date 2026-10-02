@@ -1,6 +1,6 @@
 {
-  "versao": "vigencia-v4",
-  "atualizado_em": "2026-10-02T06:14:47.566963-03:00",
+  "versao": "vigencia-v5",
+  "atualizado_em": "2026-10-02T06:20:01.069559-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -21,9 +21,9 @@
     },
     {
       "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-      "titulo": "EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...",
-      "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel"
+      "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado"
     },
     {
       "url": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
@@ -39,9 +39,22 @@
     },
     {
       "url": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
+      "fonte_oficial": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
+      "status": "aberta_confirmada",
       "titulo": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
-      "status": "pendente_evidencia",
-      "motivo": "edicao_ou_publico_nao_comprovado"
+      "instituicao": "cbamazonia.org",
+      "tipo": "Inscrição",
+      "estagio": "Qualquer",
+      "descricao": "O Centro de Bionegócios da Amazônia (CBA) lançou o Edital de Fluxo Contínuo CBA Open nº 01/2026 para selecionar startups e empresas inovadoras para a modalidade residente em seu Hub de Bionegócios, oferecendo infraestrutura laboratorial, mentorias e conexões estratégicas.",
+      "requisitos": "O Centro de Bionegócios da Amazônia (CBA) lançou nesta quinta-feira (30) o Edital de Fluxo Contínuo CBA Open nº 01/2026, iniciativa que abre novas oportunidades para startups e empresas de base tecnológica interessadas em desenvolver soluções inovadoras a partir da biodiversidade amazônica.",
+      "prazo": null,
+      "prazo_iso": null,
+      "inicio_iso": null,
+      "evidencia_edicao": "2026",
+      "evidencia_publico": "O Centro de Bionegócios da Amazônia (CBA) lançou nesta quinta-feira (30) o Edital de Fluxo Contínuo CBA Open nº 01/2026, iniciativa que abre novas oportunidades para startups e empresas de base tecnológica interessadas em desenvolver soluções inovadoras a partir da biodiversidade amazônica.",
+      "evidencia_prazo": "As inscrições permanecerão abertas em fluxo contínuo, permitindo que novos empreendimentos ingressem no programa ao longo do ano.",
+      "modalidade_inscricao": "fluxo_continuo",
+      "sem_data_final": true
     },
     {
       "url": "https://cloud.google.com/startup/benefits?hl=pt-BR",
