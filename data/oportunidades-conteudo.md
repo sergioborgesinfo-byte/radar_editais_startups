@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 219, 'confirmada_no_conteudo': 80, 'pendente_evidencia': 60, 'nao_confirmada_no_texto': 15, 'pendente_ia': 122}
+{'pendente_leitura': 241, 'confirmada_no_conteudo': 94, 'pendente_evidencia': 64, 'nao_confirmada_no_texto': 16, 'pendente_ia': 122}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -153,7 +153,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf
   - trecho_oportunidade: O objetivo é selecionar e apoiar startups com alto potencial de crescimento por meio de ações estruturadas de aceleração e a concessão de até 60 Bolsas de Inovação Tecnológica (BIT), no valor de R$ 3.000,00 cada.
   - trecho_publico: As propostas devem ser apresentadas por startups formalizadas no Ceará, com atuação voltada à inovação.
-- pendente_evidencia: Inscrições abertas para novas startups se instalarem no Parque Tecnológico da Bahia – Portal FAPESB — https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia
+- confirmada_no_conteudo: Inscrições abertas para novas startups se instalarem no Parque Tecnológico da Bahia — https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia
+  - trecho_oportunidade: a Áity, também conhecida como Espaço Fortalecer, abrirá vagas, através de chamada pública, para que startups possam se instalar no Parque e receber capacitação, orientação e mentoria, através de parceria com o Serviço de Apoio às Micro e Pequenas Empresas (Sebrae Bahia).
+  - trecho_publico: o edital é voltado para startups que possuam CNPJ e registro na Junta Comercial do Estado da Bahia (Juceb), com faturamento anual inferior a R$ 4,8 milhões.
 - pendente_evidencia: CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ... — https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/EditalGranioterAcelera2026
 - pendente_leitura: Inscrições para o Conexo Challenge estão abertas — https://www.randoncorp.com/pt/blog/inscri%C3%A7%C3%B5es-para-o-conexo-challenge-est%C3%A3o-abertas
 - pendente_leitura: Comunicado: Alteração na Lista de Aceleradoras da ... — https://www.startupbrasil.org.br/2014/06/18/nota-informativa
@@ -660,3 +662,70 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Missão SXSW Sydney 2023 — https://programas.sebraestartups.com.br/in/sxswsydney2023
   - trecho_oportunidade: [ml][ul][li indent=0 align=justify]Inscrições - 18 de julho a 18 de agosto de 2023 [/li][li indent=0 align=justify]Seleção das startups classificadas - 21 de agosto a 28 de agosto de 2023[/li][li indent=0 align=justify]Divulgação do resultado da seleção - 29 de agosto de 2023 [/li][li indent=0 align=justify]Data limite para envio do Formulário de Adesão - 5 de setembro de 2023 [/li][li indent=0 align=justify]Workshops Preparatórios online e sessões informativas - 25 a 29 de setembro de 2023 [/li][li indent=0 align=justify]Missão e participação no Festival SXSW Sydney 2023 - 18 a 21 de outubro de 2023[/li][li indent=0 align=justify]Prazo final para envio do relatório de participação e da prestação de contas - 21 de novembro de 2023[/li][/ul][/ml][justify][b]INSCRIÇÃO E REQUISITOS [/b][/justify]
   - trecho_publico: [ml][ul][li indent=0 align=justify]Inscrições - 18 de julho a 18 de agosto de 2023 [/li][li indent=0 align=justify]Seleção das startups classificadas - 21 de agosto a 28 de agosto de 2023[/li][li indent=0 align=justify]Divulgação do resultado da seleção - 29 de agosto de 2023 [/li][li indent=0 align=justify]Data limite para envio do Formulário de Adesão - 5 de setembro de 2023 [/li][li indent=0 align=justify]Workshops Preparatórios online e sessões informativas - 25 a 29 de setembro de 2023 [/li][li indent=0 align=justify]Missão e participação no Festival SXSW Sydney 2023 - 18 a 21 de outubro de 2023[/li][li indent=0 align=justify]Prazo final para envio do relatório de participação e da prestação de contas - 21 de novembro de 2023[/li][/ul][/ml][justify][b]INSCRIÇÃO E REQUISITOS [/b][/justify]
+- confirmada_no_conteudo: InovAtiva prorroga inscrições para o maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina
+  - trecho_oportunidade: InovAtiva prorroga inscrições para o maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias
+  - trecho_publico: InovAtiva prorroga inscrições para o maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias
+- confirmada_no_conteudo: Segunda Chamada de Incubação para Startups - Programa Parque Tecnológico Horizontes de Inovação — https://iphaep.pb.gov.br/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN005_2026SECTIESSEGUNDACHAMADADEINCUBAOPARASTARTUPS.pdf
+  - trecho_oportunidade: torna público que estão abertas as inscrições para a Segunda Chamada de Incubação para Startups e convida os interessados a apresentarem seus empreendimentos, observadas as disposições contidas neste Edital.
+  - trecho_publico: Poderão participar startups de base tecnológica com CNPJ ativo há, no máximo, 5 (cinco) anos, contados até a data da inscrição, sediadas no Estado da Paraíba, que não possuam débitos ﬁscais e que se encontrem na fase inicial de comercialização de seu produto ou serviço.
+- confirmada_no_conteudo: Missão Empresarial Web Summit Lisboa 2026 - Piauí — https://programas.sebraestartups.com.br/in/miss%C3%A3o-empresarial-web-summit-lisboa-2026---piau%C3%AD-1783345324060x916741265089269500
+  - trecho_oportunidade: A Missão Web Summit Lisboa 2026 é uma iniciativa de internacionalização que selecionará até 25 startups piauienses para participação em um dos maiores eventos de tecnologia e inovação do mundo.
+  - trecho_publico: A Missão Web Summit Lisboa 2026 é uma iniciativa de internacionalização que selecionará até 25 startups piauienses para participação em um dos maiores eventos de tecnologia e inovação do mundo.
+- pendente_leitura: Estão abertas inscrições para seleção de startups que solucionem desafios de grandes empresas – Senai ES — https://senaies.com.br/estao-abertas-inscricoes-para-selecao-de-startups-que-solucionem-desafios-de-grandes-empresas
+- confirmada_no_conteudo: Programa de Pré-aceleração Start&Up — https://senaimt.ind.br/para-industria/1901/pre-aceleracao-startup
+  - trecho_oportunidade: Estão abertas as inscrições para o programa de pré-aceleração Start&UP. Ao todo, 30 ideias, startups ou projetos inovadores serão selecionados para integrar a ação de estímulo ao desenvolvimento de modelos de negócios inovadores e sustentáveis. Para isso, serão ofertados programas de mentorias, workshops, conexões com mercado e ecossistema de inovação.
+  - trecho_publico: É necessário ter, de forma individual ou em equipe, uma ideia, startup ou modelo de negócio inovador em desenvolvimento nas fases de ideação ou operação.
+- pendente_leitura: Programa Start-UP Brasil lança edital para qualificação de ... — https://www.startupbrasil.org.br/2014/12/02/programa-start-up-brasil-lanca-edital-para-qualificacao-de-aceleradoras-3
+- pendente_leitura: Aceleradora WOW abre seleção para startups - ABES — https://abes.org.br/en/aceleradora-wow-abre-selecao-para-startups
+- pendente_leitura: Programas para Startups | ACE Ventures - Impulsionando Potencial — https://aceventures.com.br/venture-capital/programas
+- confirmada_no_conteudo: South Summit Brazil 2026 - Exposição de Startups Gaúchas — https://alertaeditais.com.br/edital/south-summit-brazil-2026-exposicao-de-startup-w083r
+  - trecho_oportunidade: Selecionar até 26 startups gaúchas para exporem no South Summit Brazil 2026, ampliando visibilidade, conexões e oportunidades de negócios.
+  - trecho_publico: Startups (MPE) do Rio Grande do Sul, em estágio de tração, crescimento ou escala.
+- pendente_leitura: Um dos maiores programas de aceleração de startups do Brasil abre novas inscrições - Anprotec — https://anprotec.org.br/site/2024/07/um-dos-maiores-programas-de-aceleracao-de-startups-do-brasil-abre-novas-inscricoes
+- pendente_leitura: Edital n.01/2026 AI.AQUÁRIO: Incubação de Startups :: Aquário de Ideias — https://aquariounesp.com.br/editalstartup/6/edital-n-01-2026-ai-aquario-incubacao-de-startups
+- pendente_leitura: HUB SALVADOR SE UNE À MAIOR ACELERADORA DE STARTUPS DO BRASIL - Bahia Economica — https://bahiaeconomica.com.br/wp/2026/05/04/hub-salvador-se-une-a-maior-aceleradora-de-startups-do-brasil
+- pendente_leitura: Aceleradora aportará R$15mi em startups. Como inscrever a sua? — https://eduka.ai/aceleradora-aportara-startups-como-inscrever
+- confirmada_no_conteudo: Endeavor, Sebrae, Elo7: veja programas de aceleração para startups abertos | Exame — https://exame.com/pme/programas-de-aceleracao-para-startups
+  - trecho_oportunidade: A EXAME preparou uma lista com cursos de empreendedorismo e programas para startups que estão com inscrições abertas
+  - trecho_publico: A EXAME preparou uma lista com cursos de empreendedorismo e programas para startups que estão com inscrições abertas
+- pendente_leitura: Diferenca entre feira congresso summit e rodada de negocios | Notícias - Expo Empreendedor - A Feira oficial do Empreendedor — https://expoempreendedor.com.br/noticias/post/298/diferenca-entre-feira-congresso-summit-e-rodada-de-negocios
+- pendente_leitura: EDITAL ABERTO: FAPERJ EDITAL FAPERJ Nº 15/2026 — https://firjan.com.br/data/files/00/00/3B/7C/94D50A106CEF99E919284EA8/boletim_radar_edicao59_setembro_2026.pdf
+- pendente_leitura: Startup Competition South Summit Brazil 2026: Inscrições Abertas - FundMed: Fundação Médica do Rio Grande do Sul - Eventos – Processos Seletivos – Pesquisa Clínica – 51 3332-6840 – contato@fundmed.org.br — https://fundmed.org.br/nscricoes-startup-competition-south-summit-brazil-2026
+- pendente_leitura: Programas de Aceleração — https://inovativa.online/aceleracao
+- pendente_leitura: Invest.Rio e Maravalley lançam edital para selecionar dez ... — https://jornalaentrevista.com.br/noticia/25732/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026
+- confirmada_no_conteudo: Cotidiano Aceleradora realiza seleção para acelerar Startups | Jornal de Brasília — https://jornaldebrasilia.com.br/brasilia/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups
+  - trecho_oportunidade: Com um portifólio de 23 empresas, a aceleradora já teve mais 400 inscrições de projetos de startups.
+  - trecho_publico: Com um portifólio de 23 empresas, a aceleradora já teve mais 400 inscrições de projetos de startups.
+- confirmada_no_conteudo: Missão Web Summit Lisboa 2026 — https://jornalonlinealagoas.com/noticia/84078/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026
+  - trecho_oportunidade: A Invest.Rio, agência de atração e promoção de investimentos da cidade, e o Maravalley lançaram o edital para seleção das dez startups cariocas que irão integrar a Missão Lisboa 2026, que acontece entre os dias 8 e 12 de novembro, em Lisboa.
+  - trecho_publico: Startups cariocas interessadas em ampliar sua presença internacional e construir conexões com o mercado europeu poderão integrar a delegação do Rio de Janeiro no Web Summit Lisboa 2026.
+- pendente_evidencia: Desafios de negócios inovabra hub: oportunidade de negócio busca solução de projeção de balanços e DRE — https://redeinovacao.floripa.br/desafios-de-negocios-inovabra-hub-oportunidade-de-negocio-busca-solucao-de-projecao-de-balancos-e-dre
+- confirmada_no_conteudo: BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi — https://startupi.com.br/bndes-garagem-abre-inscricoes
+  - trecho_oportunidade: BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi
+  - trecho_publico: BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi
+- confirmada_no_conteudo: Manifestação de Interesse - SIM Conference — https://startupmadeira.eu/2024/03/27/manifestacao-de-interesse-sim-conference
+  - trecho_oportunidade: Manifestação de Interesse - SIM Conference - Startup Madeira
+  - trecho_publico: Manifestação de Interesse - SIM Conference - Startup Madeira
+- pendente_leitura: Crescer sem perder a alma de startup é desafio para founders - Startups — https://startups.com.br/eventos/web-summit/crescer-sem-perder-a-alma-de-startup-e-desafio-para-founders
+- pendente_leitura: Rio.IA - 1º Edital do Programa de Inovação Aberta — https://videos.ecoa.puc-rio.br/rioia-1o-edital-do-programa-de-inovacao-aberta
+- pendente_leitura: BNDES Garagem tem inscrições abertas até sexta-feira, 12 de maio - ACATE — https://www.acate.com.br/noticias/bndes-garagem-inscricoes
+- nao_confirmada_no_texto: Stanford e Fundação Lemann discutem os desafios da educação — https://www.estudarfora.org.br/stanford-e-fundacao-lemann-discutem-os-desafios-da-educacao-no-brasil
+- confirmada_no_conteudo: How to Disable Startup Programs in Windows — https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows
+  - trecho_oportunidade: Note that some applications need to be configured to stop launching themselves when the computer boots, or they will just add themselves to the list of startup programs again.
+  - trecho_publico: Note that some applications need to be configured to stop launching themselves when the computer boots, or they will just add themselves to the list of startup programs again.
+- pendente_leitura: *As inscrições para o Upgrade.TI 2026 estão abertas* 🚀 ... — https://www.instagram.com/p/DZF0z2kx8mI
+- pendente_evidencia: Programa de Aceleração de StartUps - Business Boost - RePosicione e ReInvente o seu Negócio — https://www.nersant.pt/agenda/evento/programa-de-aceleracao-de-startups-business-boost-reposicione-e-reinvente-o-seu-negocio-alcanena?1502=
+- pendente_evidencia: MetLife Digital Accelerator — https://www.segs.com.br/seguros/183503-metlife-anuncia-a-selecao-de-startups-para-programa-global-de-aceleracao-de-negocios
+- pendente_evidencia: INCUBAUECE abre inscrições para Programa de Pré‑Incubação Deep Tech 2026 - INCUBAUECE | Incubadora de Empresas e Centro de Desenvolvimento Tecnológico e Inovação da Universidade Estadual do Ceará — https://www.uece.br/incubauece/noticias/incubauece-abre-inscricoes-para-programa-de-pre%E2%80%91incubacao-deep-tech-2026
+- confirmada_no_conteudo: Programa de Indução à Criação de Startups (PICS) — https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico
+  - trecho_oportunidade: Diante do sucesso do Programa de Indução a Startups e da garantia dos recursos financeiros e dos parceiros, já está confirmada a terceira edição da iniciativa. A previsão é que o edital para a seleção dos futuros participantes seja lançado no mês de junho.
+  - trecho_publico: Jovens universitários com ideias inovadoras e possíveis soluções para desafios que enfrentamos em nosso cotidiano, mas que ainda estavam no campo da abstração. Como transformá-las em realidade? Como empreender? A resposta veio com a participação no Programa de Indução à Criação de Startups (PICS 2.0), desenvolvido pela Universidade Federal de Sergipe (UFS) e parceiros, com a meta de estimular a criação de novas startups locais, por meio das produções tecnológicas ou científicas.
+- pendente_leitura: Premio Reifenservice — https://www.zoominfo.com/c/premio-reifenservice/430086615
+- confirmada_no_conteudo: Missão brasileira abre inscrições para levar 100 startups ... — https://agenciasebrae.com.br/inovacao-e-tecnologia/missao-brasileira-abre-inscricoes-para-levar-100-startups-ao-web-summit-lisboa
+  - trecho_oportunidade: Missão brasileira abre inscrições para levar 100 startups ao Web Summit Lisboa | ASN Nacional - Agência Sebrae de Notícias
+  - trecho_publico: Missão brasileira abre inscrições para levar 100 startups ao Web Summit Lisboa | ASN Nacional - Agência Sebrae de Notícias
+- pendente_evidencia: Startup Experience ESX 2026 - Sebrae Startups — https://programas.sebraestartups.com.br/in/startup-experience-esx-2026-1771597174940x883690215484256800
+- pendente_leitura: Natura lança programa de aceleração de startups - ABES — https://abes.org.br/natura-lanca-programa-de-aceleracao-de-startups
+- pendente_leitura: DPSP lança programa de inovação e promete ganhos para startups - Startups — https://startups.com.br/negocios/dpsp-lanca-programa-de-inovacao-e-promete-ganhos-para-startups
+- pendente_leitura: Rede MIDIHUB abre inscrições para startups de base tecnológica em Santa Catarina - ACATE — https://www.acate.com.br/noticias/rede-midihub-abre-inscricoes-para-startups-em-sc
+- pendente_leitura: Tudo sobre programa de aceleração - Startups — https://startups.com.br/tag/programa-de-aceleracao
