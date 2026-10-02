@@ -375,8 +375,9 @@ def main():
     if os.getenv('GEMINI_API_KEY'):
         candidatos_ia = [e for e in confirmadas if feitos.get(e['url'], {}).get('status') in
                          ('pendente_evidencia', 'pendente_fonte_oficial')]
-        revisoes = ('edital-granioter-acelera-2026', 'cloud.google.com/startup/benefits', 'desafio-pantanal-tech-2026', '31-2026-programa-acelera', 'programa-acelera-formiga-2026', 'prefeitura.rio/cidade/invest-rio-e-maravalley')
-        candidatos_ia.sort(key=lambda e: (not any(caso in e['url'] for caso in revisoes), bool(feitos[e['url']].get('ia_tentada_em')), not oficial(e['url'])))
+        # Casos inéditos primeiro; exemplos já revisados não monopolizam a cota.
+        candidatos_ia.sort(key=lambda e: (bool(feitos[e['url']].get('ia_tentada_em')),
+                                             feitos[e['url']].get('ia_tentada_em', ''), not oficial(e['url'])))
         for e in candidatos_ia:
             if assistente.parada or assistente.usadas >= assistente.limite:
                 break
@@ -398,7 +399,7 @@ def main():
     print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)
     agora = datetime.now(FUSO)
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'ia': {'chamadas': assistente.usadas, 'limite': assistente.limite, 'parada': assistente.parada}, 'itens':itens}
+    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'ia': {'chamadas': assistente.usadas, 'limite': assistente.limite, 'parada': assistente.parada, 'pendencias_restantes': sum(x.get('status', '').startswith('pendente_') for x in itens), 'casos_com_tentativa_ia': sum(bool(x.get('ia_tentada_em')) for x in itens)}, 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     abertas = exportar_abertas(itens, agora)
     Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')
