@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v10",
-  "atualizado_em": "2026-10-02T11:35:23.856324-03:00",
+  "atualizado_em": "2026-10-02T11:39:07.168686-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -302,8 +302,8 @@
     {
       "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
       "titulo": "Programa Startup SC – Sebrae Startups",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado"
+      "status": "pendente_acesso",
+      "motivo": "fonte_oficial_indisponivel"
     },
     {
       "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
@@ -487,9 +487,22 @@
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
+      "fonte_oficial": "https://www.darwinstartups.com/icmlab",
+      "status": "aberta_confirmada",
       "titulo": "ICM Lab Solana — Darwin Startups",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria"
+      "instituicao": "www.darwinstartups.com",
+      "tipo": "Aceleração",
+      "estagio": "Qualquer",
+      "descricao": "ICM Lab Solana powered by Darwin Startups, um programa de aceleração focado em infraestrutura do mercado de capitais e tecnologia Web3.",
+      "requisitos": "Nosso objetivo é selecionar e impulsionar de perto até 10 startups na aceleração.",
+      "prazo": "2026-10-11",
+      "prazo_iso": "2026-10-11T23:59:59-03:00",
+      "inicio_iso": null,
+      "evidencia_edicao": "2026",
+      "evidencia_publico": "Nosso objetivo é selecionar e impulsionar de perto até 10 startups na aceleração.",
+      "evidencia_prazo": "Cadastros abertos de 14 de setembro de 2026 até 11 de outubro de 2026.",
+      "modalidade_inscricao": "aceleracao",
+      "sem_data_final": false
     }
   ]
 }
