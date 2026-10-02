@@ -1,10 +1,10 @@
 {
   "versao": "conteudo-v1",
-  "atualizado_em": "2026-10-02T15:28:48.898605+00:00",
+  "atualizado_em": "2026-10-02T23:47:41.174Z",
   "vigencia": "nao_avaliada",
   "contagem": {
     "pendente_leitura": 241,
-    "confirmada_no_conteudo": 94,
+    "confirmada_no_conteudo": 95,
     "pendente_evidencia": 64,
     "nao_confirmada_no_texto": 16,
     "pendente_ia": 122
@@ -7247,6 +7247,27 @@
       "tentativas": 1,
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura"
+    },
+    {
+      "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-abre-2-edicao-com-11-teses-e-foco-no-ciclo-rumo-a-los-angeles-2028",
+      "titulo": "Desafio COB de Startups — 2ª edição com 11 teses e foco no ciclo rumo a Los Angeles 2028",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-02T23:47:41.170Z",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Desafio COB de Startups — 2ª edição com 11 teses e foco no ciclo rumo a Los Angeles 2028",
+        "instituicao": "Comitê Olímpico do Brasil e Arena Hub",
+        "tipo": "Desafio de inovação no esporte",
+        "resumo": "Seleção de startups com soluções em tecnologia, gestão, performance e experiência para o esporte.",
+        "trecho_oportunidade": "O Comitê Olímpico do Brasil (COB) e o Arena Hub lançaram nesta quinta-feira (1º), durante a COB Expo 2026, a segunda edição do Desafio COB de Startups.",
+        "trecho_publico": "Quem pode participar: startups formalmente constituídas no Brasil, em qualquer estágio, da ideação à escala",
+        "motivo": "Nova edição descoberta na fonte oficial, registrada separadamente da notícia de 2025",
+        "metodo": "pesquisa_fonte_oficial"
+      }
     }
   ]
 }

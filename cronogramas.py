@@ -40,10 +40,11 @@ def ler_texto(ctype, bruto):
     if b'<' not in bruto:return radar.para_texto(ctype,bruto)
     from bs4 import BeautifulSoup
     sopa=BeautifulSoup(bruto,'html.parser')
-    # Blocos article podem ser cartões dentro do conteúdo principal.
-    raiz=sopa.find('main') or max(sopa.find_all('article'), key=lambda t:len(t.get_text()), default=sopa)
-    cabecalho=[]
+    # Um article que contém o título é a notícia; cartões não substituem o main.
     titulo=sopa.find('h1')
+    artigo=titulo.find_parent('article') if titulo else None
+    raiz=artigo or sopa.find('main') or max(sopa.find_all('article'), key=lambda t:len(t.get_text()), default=sopa)
+    cabecalho=[]
     if titulo and titulo not in raiz.descendants:
         cabecalho.append(titulo.get_text(' ',strip=True))
     for meta in sopa.find_all('meta'):
