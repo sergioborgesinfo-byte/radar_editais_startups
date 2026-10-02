@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v10",
-  "atualizado_em": "2026-10-02T11:28:11.576595-03:00",
+  "atualizado_em": "2026-10-02T11:35:23.856324-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -434,6 +434,60 @@
     {
       "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
       "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil - Impacta Nordeste",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf",
+      "titulo": "VIII Programa de Aceleração – Negócios Inovadores de Impacto Socioambiental - Edital Regera 2026",
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado"
+    },
+    {
+      "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
+      "titulo": "Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado"
+    },
+    {
+      "url": "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao",
+      "titulo": "Start-Ed Lab",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado"
+    },
+    {
+      "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
+      "titulo": "Natura Ventures abre chamada para startups do Norte e Nordeste com foco em inovação, parceria e investimento",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
+      "titulo": "Inatel lidera projeto de aceleração de startups no Sul de Minas | Notícias - Inatel",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://portalradarenergia.com.br/noticias/cnen-abre-chamada-para-programa-granioter-acelera-2026-em-nanotecnologia-e-mater-1f5df243",
+      "titulo": "CNEN abre chamada para programa Granioter Acelera 2026 em ...",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
+      "titulo": "Invest.Rio e Maravalley lançam edital para selecionar dez startups para Missão Web Summit Lisboa 2026 - Prefeitura da Cidade do Rio de Janeiro - prefeitura.rio",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://alertaeditais.com.br/edital/edital-012026-e-goias-transformacao-digital-d-4t8fn",
+      "titulo": "Edital 01/2026 e-Goiás Transformação Digital das empresas 2º Ciclo – Chamada de Solucionadoras",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://www.darwinstartups.com/icmlab",
+      "titulo": "ICM Lab Solana — Darwin Startups",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria"
     }
