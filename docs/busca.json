@@ -5887,21 +5887,308 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T12:04:00.432888-03:00",
-    "examinadas": 78,
-    "abertas_publicadas": 3,
+    "atualizado_em": "2026-10-02T12:15:37.157581-03:00",
+    "examinadas": 80,
+    "abertas_publicadas": 5,
     "status": {
-      "aberta_confirmada": 3,
-      "pendente_evidencia": 35,
-      "encerrada": 2,
-      "pendente_acesso": 7,
-      "pendente_fonte_oficial": 31
+      "aberta_confirmada": 6,
+      "encerrada": 43,
+      "pendente_evidencia": 28,
+      "pendente_acesso": 3
     },
     "resultados": [
       {
         "titulo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
         "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
         "status": "aberta_confirmada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Programa Start&UP - Edição 9 - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/1773155744320x304125193997948540",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Movimenta Sebrae",
+        "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado"
+      },
+      {
+        "titulo": "São Paulo Innovation Week - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/1776264699513x196992201218308300",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "NEON 2026 - RODADAS DE NEGÓCIO - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/1776277757511x988059082358467800",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Missão Bahia - NEON 2026 - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/1778619488505x762672382797509800",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Missão Startup Summit 2026 - Sebrae/RN",
+        "url": "https://programas.sebraestartups.com.br/in/1778780627550x839845601247809900",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "BRAVI 2026 | Leve sua Agrifoodtech para a Itália",
+        "url": "https://programas.sebraestartups.com.br/in/1780940068996x289665906945032200",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Missão Empresarial Bahia – Startup Summit 2026 #Startups ...",
+        "url": "https://programas.sebraestartups.com.br/in/1783454154242x983490009200236500",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "A plataforma que é suporte e impulso para startups no Brasil.",
+        "url": "https://programas.sebraestartups.com.br/in/1784030276359x103297627130880540",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Deep Tech Indústria - Cadastro de deeptechs interessadas",
+        "url": "https://programas.sebraestartups.com.br/in/1784305375587x589675719966326800",
+        "status": "aberta_confirmada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Missão Técnica PR: Web Summit Lisboa 2026 - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/1784324907689x991447417353928700",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Health Meeting 2026 | Exposição de Startups",
+        "url": "https://programas.sebraestartups.com.br/in/1784907106298x372208081546510340",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Expointer 2026 - Exposição de startups, estande coletivo ...",
+        "url": "https://programas.sebraestartups.com.br/in/1784908703725x500892852049595900",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "RODADAS DE INVESTIMENTOS | GREEN RIO 2026",
+        "url": "https://programas.sebraestartups.com.br/in/1786393514323x887855479641897900",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Todos os direitos reservados © Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/apex-northstar2025",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "BRAVI 2026 | Leve sua Agrifoodtech para a Itália",
+        "url": "https://programas.sebraestartups.com.br/in/bravi",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Capital Empreendedor 2026 - Turma PR - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/capital-empreendedor-2026-turma-pr",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Capital Empreendedor 2026 - Turma GO - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/capitalempreendedor-go26",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Capital Empreendedor 2026 - Rio Grande do Norte",
+        "url": "https://programas.sebraestartups.com.br/in/capitalempreendedorrn2026",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Capital Empreendedor 2026 - Rio Grande do Sul",
+        "url": "https://programas.sebraestartups.com.br/in/capitalempreendedorrs",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Chamada Startup Day- Batalha de Startups",
+        "url": "https://programas.sebraestartups.com.br/in/chamada-startup-day--batalha-de-startups-1770151031465x980272493506798100",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Coworking Space GO!RN 2026 - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/coworking-space-gorn-2026-1779212416626x358173180744617340",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Deep Tech Summit 2026 #Startups da Bahia",
+        "url": "https://programas.sebraestartups.com.br/in/deeptech-summit-2026-missaobahia",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Developers Ciclo 2026",
+        "url": "https://programas.sebraestartups.com.br/in/developers-ciclo-2026-1709557563419x256074552006410240",
+        "status": "aberta_confirmada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Rodada de Negócios Fórum E-commerce Brasil",
+        "url": "https://programas.sebraestartups.com.br/in/ecommerce",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Exposição de Startups Gaúchas - Noroeste Summit",
+        "url": "https://programas.sebraestartups.com.br/in/exposi%C3%A7%C3%A3o-de-startups-ga%C3%BAchas---noroeste-summit-1781189221421x880206587749473500",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Exposição de Startups Mineiras E-FESTIVAL 2026",
+        "url": "https://programas.sebraestartups.com.br/in/exposi%C3%A7%C3%A3o-de-startups-mineiras-e-festival-2026-1770041341486x147505777376493570",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Feiras e Eventos 2026",
+        "url": "https://programas.sebraestartups.com.br/in/feiras2026",
+        "status": "aberta_confirmada",
+        "motivo": ""
+      },
+      {
+        "titulo": "FinTech World Cup Brasil 2025 - Classificatórias",
+        "url": "https://programas.sebraestartups.com.br/in/fintech-world-cup",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Inova Startups 5ª ed - 2026",
+        "url": "https://programas.sebraestartups.com.br/in/inova-startups-5%C2%AA-ed---2026-1745493885274x442398076190326800",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Jornada Startups 2026",
+        "url": "https://programas.sebraestartups.com.br/in/jornada-startups-2026-1773442612635x470191742132420600",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Lista de Interesse Para Participação de Startups no Sapiranga Summit",
+        "url": "https://programas.sebraestartups.com.br/in/lista-de-interesse-para-participa%C3%A7%C3%A3o-de-startups-no-sapiranga-summit-1782308533253x856354105437913300",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
+        "url": "https://programas.sebraestartups.com.br/in/mercopar2026",
+        "status": "aberta_confirmada",
+        "motivo": ""
+      },
+      {
+        "titulo": "A plataforma que é suporte e impulso para startups no Brasil.",
+        "url": "https://programas.sebraestartups.com.br/in/midihub2026",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Missão Next Rise 2026 - Seul, Coreia do Sul - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/miss%C3%A3o-next-rise-2026---seul-coreia-do-sul-1771582492388x399221078118399100",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Missão Bahia - Gamescom Latam",
+        "url": "https://programas.sebraestartups.com.br/in/missaobahiagamescom",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Missão NEON 2026 - Sebrae/RN",
+        "url": "https://programas.sebraestartups.com.br/in/missaornneon2026",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "NEON 2026 - Startups expositoras",
+        "url": "https://programas.sebraestartups.com.br/in/neon-2026---startups-expositoras-1772814295688x347903356906245300",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Prêmio Sebrae Startups 2026",
+        "url": "https://programas.sebraestartups.com.br/in/pr%C3%AAmio-sebrae-startups-2026-1773937724236x843656155048992900",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Prêmio Sebrae Startups 2026",
+        "url": "https://programas.sebraestartups.com.br/in/premiosebraestartups2026",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Programa SCALE IA 2026 - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Rodadas de Negócio GO!RN 2026. - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/rodadasdenegocio-1",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "START DIGITAL 2026 - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/startdigital2026",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Startup Ceará 2026 - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/startup-cear%C3%A1-2026-1782993823227x739640016076444000",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Missão Empresarial Bahia – Startup Summit 2026 #Startups ...",
+        "url": "https://programas.sebraestartups.com.br/in/startupsummit2026-missaobahia",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Missão Startup Summit 2026 - Sebrae/RN",
+        "url": "https://programas.sebraestartups.com.br/in/startupsummit26",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "4a. Missão de Startups Brasileiras em Singapura",
+        "url": "https://programas.sebraestartups.com.br/in/switch2025",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
+      {
+        "titulo": "Missão SXSW Sydney 2023",
+        "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
+        "status": "encerrada",
         "motivo": ""
       },
       {
@@ -5921,6 +6208,12 @@
         "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Edital Granioter Acelera 2026",
+        "url": "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -5935,10 +6228,40 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
+        "titulo": "Resultado Chamada Pública 03/2026: Novo Seed",
+        "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
+        "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
+        "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
         "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
         "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "EDITAL N.º 21/2024 CHAMAMENTO PÚBLICO PARA SELEÇÃO DE PROJETOS DE INOVAÇÃO PARA O PROGRAMA STARTUP NORDESTE – BAHIA – Portal FAPESB",
+        "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
+      },
+      {
+        "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
+        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
@@ -5953,10 +6276,34 @@
         "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
+        "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição",
+        "url": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
         "titulo": "Programa Acelera Formiga 2026 abre inscrições para selecionar 15 startups e empresas inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias",
         "url": "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-formiga-2026-abre-inscricoes-para-selecionar-15-startups-e-empresas-inovadoras",
         "status": "pendente_evidencia",
         "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará",
+        "url": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
+        "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
+        "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
@@ -5989,6 +6336,12 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
+        "titulo": "VIII Programa de Aceleração – Negócios Inovadores de Impacto Socioambiental - Edital Regera 2026",
+        "url": "https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
         "titulo": "CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA",
         "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-013-2026-pesquisador-na-empresa",
         "status": "encerrada",
@@ -5997,8 +6350,8 @@
       {
         "titulo": "UFT abre seleção para programa de pré-incubação ...",
         "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
@@ -6013,12 +6366,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/1784324907689x991447417353928700",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado"
-      },
-      {
         "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
         "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
         "status": "pendente_evidencia",
@@ -6029,345 +6376,21 @@
         "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
-        "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/ecommerce",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/feiras2026",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
-        "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups – ConvergenciaDigital",
-        "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
-      },
-      {
-        "titulo": "Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana",
-        "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
-      },
-      {
-        "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
-        "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow",
-        "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa de aceleração para startups do Nordeste abre inscrições",
-        "url": "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "BNDES Garagem abre inscrições para programa de aceleração de startups e negócios de impacto | Exame",
-        "url": "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Darwin Startups abre inscrições para programa de aceleração",
-        "url": "https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial",
-        "url": "https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Porto Digital abre inscrições para Pré-Incubação | Jornal Digital",
-        "url": "https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
-      },
-      {
-        "titulo": "Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março",
-        "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Darwin Startups abre inscrições para 15ª turma de aceleração",
-        "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
-        "status": "encerrada",
-        "motivo": ""
-      },
-      {
-        "titulo": "FIEMG Lab abre inscrições para sua primeira jornada de aceleração",
-        "url": "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Prorrogado! Programas para novas startups com inscrições até 30 de março | Jornal Digital",
-        "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Natura Innovation Challenge seleciona startups com soluções para compensação de carbono",
-        "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Empresa oferece programa de aceleração 100% online para startups de todo o Brasil - Startupi",
-        "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta",
-        "url": "https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
-        "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Facebook e Baita abrem inscrições para segunda edição do programa de aceleração de startups - Startupi",
-        "url": "https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa Startup SC – Sebrae Startups",
-        "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
-        "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
-        "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
-        "url": "https://cedeprogram.com/startupventure",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
-        "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale",
-        "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
-        "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Suzano lança Programa de Mentoria de Startups",
-        "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Edital Granioter Acelera 2026",
-        "url": "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Resultado Chamada Pública 03/2026: Novo Seed",
-        "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
-        "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
-        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos",
-        "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Brazil Startup Credits: 46 Programs Compared",
-        "url": "https://creditforstartups.com/brazil-startup-credits",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
-        "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
-        "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição",
-        "url": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará",
-        "url": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
-        "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
-        "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Hello Tomorrow Challenge",
-        "url": "https://hello-tomorrow.org/global-challenge",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico",
-        "url": "https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil - Impacta Nordeste",
-        "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "VIII Programa de Aceleração – Negócios Inovadores de Impacto Socioambiental - Edital Regera 2026",
-        "url": "https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups",
-        "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Start-Ed Lab",
-        "url": "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Natura Ventures abre chamada para startups do Norte e Nordeste com foco em inovação, parceria e investimento",
-        "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Inatel lidera projeto de aceleração de startups no Sul de Minas | Notícias - Inatel",
-        "url": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "CNEN abre chamada para programa Granioter Acelera 2026 em ...",
-        "url": "https://portalradarenergia.com.br/noticias/cnen-abre-chamada-para-programa-granioter-acelera-2026-em-nanotecnologia-e-mater-1f5df243",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Invest.Rio e Maravalley lançam edital para selecionar dez startups para Missão Web Summit Lisboa 2026 - Prefeitura da Cidade do Rio de Janeiro - prefeitura.rio",
-        "url": "https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Edital 01/2026 e-Goiás Transformação Digital das empresas 2º Ciclo – Chamada de Solucionadoras",
-        "url": "https://alertaeditais.com.br/edital/edital-012026-e-goias-transformacao-digital-d-4t8fn",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "ICM Lab Solana — Darwin Startups",
-        "url": "https://www.darwinstartups.com/icmlab",
-        "status": "aberta_confirmada",
-        "motivo": ""
       }
     ],
     "pendentes": [
+      {
+        "titulo": "Movimenta Sebrae",
+        "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado"
+      },
+      {
+        "titulo": "4a. Missão de Startups Brasileiras em Singapura",
+        "url": "https://programas.sebraestartups.com.br/in/switch2025",
+        "status": "pendente_acesso",
+        "motivo": "dados_dinamicos_ausentes"
+      },
       {
         "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
         "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
@@ -6387,8 +6410,32 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
+        "titulo": "Edital Granioter Acelera 2026",
+        "url": "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
         "titulo": "Programa para Startups do Google Cloud",
         "url": "https://cloud.google.com/startup/benefits?hl=pt-BR",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Resultado Chamada Pública 03/2026: Novo Seed",
+        "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
+        "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
+        "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
@@ -6397,6 +6444,18 @@
         "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "EDITAL N.º 21/2024 CHAMAMENTO PÚBLICO PARA SELEÇÃO DE PROJETOS DE INOVAÇÃO PARA O PROGRAMA STARTUP NORDESTE – BAHIA – Portal FAPESB",
+        "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
+      },
+      {
+        "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
+        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
@@ -6411,10 +6470,34 @@
         "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
+        "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição",
+        "url": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
         "titulo": "Programa Acelera Formiga 2026 abre inscrições para selecionar 15 startups e empresas inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias",
         "url": "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-formiga-2026-abre-inscricoes-para-selecionar-15-startups-e-empresas-inovadoras",
         "status": "pendente_evidencia",
         "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará",
+        "url": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
+        "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
+        "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
@@ -6447,10 +6530,16 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
+        "titulo": "VIII Programa de Aceleração – Negócios Inovadores de Impacto Socioambiental - Edital Regera 2026",
+        "url": "https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
         "titulo": "UFT abre seleção para programa de pré-incubação ...",
         "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
@@ -6465,12 +6554,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/1784324907689x991447417353928700",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado"
-      },
-      {
         "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
         "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
         "status": "pendente_evidencia",
@@ -6481,330 +6564,6 @@
         "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
-        "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/ecommerce",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/feiras2026",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/programascaleia2026",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "",
-        "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
-        "status": "pendente_acesso",
-        "motivo": "dados_dinamicos_ausentes"
-      },
-      {
-        "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
-        "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups – ConvergenciaDigital",
-        "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
-      },
-      {
-        "titulo": "Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana",
-        "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
-      },
-      {
-        "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
-        "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow",
-        "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa de aceleração para startups do Nordeste abre inscrições",
-        "url": "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "BNDES Garagem abre inscrições para programa de aceleração de startups e negócios de impacto | Exame",
-        "url": "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Darwin Startups abre inscrições para programa de aceleração",
-        "url": "https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial",
-        "url": "https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Porto Digital abre inscrições para Pré-Incubação | Jornal Digital",
-        "url": "https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
-      },
-      {
-        "titulo": "Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março",
-        "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "FIEMG Lab abre inscrições para sua primeira jornada de aceleração",
-        "url": "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Prorrogado! Programas para novas startups com inscrições até 30 de março | Jornal Digital",
-        "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Natura Innovation Challenge seleciona startups com soluções para compensação de carbono",
-        "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Empresa oferece programa de aceleração 100% online para startups de todo o Brasil - Startupi",
-        "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta",
-        "url": "https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
-        "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Facebook e Baita abrem inscrições para segunda edição do programa de aceleração de startups - Startupi",
-        "url": "https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa Startup SC – Sebrae Startups",
-        "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
-        "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
-        "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
-        "url": "https://cedeprogram.com/startupventure",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
-        "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale",
-        "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
-        "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Suzano lança Programa de Mentoria de Startups",
-        "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Edital Granioter Acelera 2026",
-        "url": "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Resultado Chamada Pública 03/2026: Novo Seed",
-        "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
-        "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
-        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos",
-        "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Brazil Startup Credits: 46 Programs Compared",
-        "url": "https://creditforstartups.com/brazil-startup-credits",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
-        "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
-        "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição",
-        "url": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará",
-        "url": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
-        "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
-        "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Hello Tomorrow Challenge",
-        "url": "https://hello-tomorrow.org/global-challenge",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico",
-        "url": "https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil - Impacta Nordeste",
-        "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "VIII Programa de Aceleração – Negócios Inovadores de Impacto Socioambiental - Edital Regera 2026",
-        "url": "https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
-        "titulo": "Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups",
-        "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Start-Ed Lab",
-        "url": "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Natura Ventures abre chamada para startups do Norte e Nordeste com foco em inovação, parceria e investimento",
-        "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Inatel lidera projeto de aceleração de startups no Sul de Minas | Notícias - Inatel",
-        "url": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "CNEN abre chamada para programa Granioter Acelera 2026 em ...",
-        "url": "https://portalradarenergia.com.br/noticias/cnen-abre-chamada-para-programa-granioter-acelera-2026-em-nanotecnologia-e-mater-1f5df243",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Invest.Rio e Maravalley lançam edital para selecionar dez startups para Missão Web Summit Lisboa 2026 - Prefeitura da Cidade do Rio de Janeiro - prefeitura.rio",
-        "url": "https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Edital 01/2026 e-Goiás Transformação Digital das empresas 2º Ciclo – Chamada de Solucionadoras",
-        "url": "https://alertaeditais.com.br/edital/edital-012026-e-goias-transformacao-digital-d-4t8fn",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
       }
     ]
   }
