@@ -49,7 +49,9 @@ def documentos(registro, oficial):
             ct, bruto = radar.baixar(fonte)
             if bruto is None: continue
             from validar_vigencia import texto_relevante
-            docs[fonte] = texto_relevante(radar.para_texto(ct, bruto), 30000)
+            texto = texto_relevante(radar.para_texto(ct, bruto), 30000)
+            if len(norm(texto)) < 100 or re.search(r'^Site Unavailable', norm(texto), re.I): continue
+            docs[fonte] = texto
             if nivel < 2 and 'html' in ct:
                 parser = Ancoras(); parser.feed(bruto.decode('utf-8', errors='replace'))
                 titulo = registro.get('dados',{}).get('titulo') or registro.get('titulo','')
@@ -73,7 +75,7 @@ def conferir(d, docs, registro, agora):
     if not isinstance(d, dict) or d.get('fonte') not in docs: raise ValueError('fonte_invalida')
     texto = norm(docs[d['fonte']]); ev = norm(d.get('evidencia')); identidade = norm(d.get('evidencia_identidade'))
     titulo = registro.get('dados',{}).get('titulo') or registro.get('titulo','')
-    if len(ev)<12 or ev not in texto or identidade not in texto or not prazo_da_oportunidade(identidade,titulo):
+    if len(ev)<12 or ev.casefold() not in texto.casefold() or identidade.casefold() not in texto.casefold() or not prazo_da_oportunidade(identidade,titulo):
         raise ValueError('citacao_ou_identidade_invalida')
     if not re.search(r'inscri[cç]|inscrev|submiss|candidat|apply|applications',ev,re.I): raise ValueError('sem_convite')
     base = {'url':registro['url'],'titulo':titulo,'fonte_oficial':d['fonte'],
@@ -84,11 +86,12 @@ def conferir(d, docs, registro, agora):
         if not re.search(r'inscri[cç].{0,50}encerrad|applications.{0,30}closed',ev,re.I): raise ValueError('encerramento_nao_comprovado')
         return dict(base,status='encerrada')
     if situacao=='prazo':
+        if re.search(r'resultado|homologa[cç]|divulga[cç]|realiza[cç][aã]o do evento', ev, re.I): raise ValueError('mistura_inscricao_e_resultado')
         fim=datetime.fromisoformat(d['fim']).replace(hour=23,minute=59,second=59,tzinfo=FUSO)
         literal=data_literal(ev)
         if literal is None:
             ano=norm(d.get('evidencia_ano'))
-            if not ano or ano not in texto or str(fim.year) not in ano or not prazo_da_oportunidade(ano,titulo): raise ValueError('ano_nao_comprovado')
+            if not ano or ano.casefold() not in texto.casefold() or str(fim.year) not in ano or not prazo_da_oportunidade(ano,titulo): raise ValueError('ano_nao_comprovado')
             limpo=__import__('unicodedata').normalize('NFKD',ev.lower()).encode('ascii','ignore').decode()
             numeric=re.search(r'\b'+str(fim.day)+r'[/-]0?'+str(fim.month)+r'\b',limpo)
             extenso=re.search(r'\b'+str(fim.day)+r' de '+next(k for k,v in MESES.items() if v==fim.month)+r'\b',limpo)
@@ -96,7 +99,7 @@ def conferir(d, docs, registro, agora):
         elif literal.date()!=fim.date(): raise ValueError('data_nao_comprovada')
         if fim<=agora: return dict(base,status='encerrada',prazo_iso=fim.isoformat())
     elif situacao=='sem_prazo':
-        if d.get('fim') is not None or not re.search(r'inscreva|inscri[cç].{0,30}abert|apply now|candidat.{0,30}dispon',ev,re.I): raise ValueError('convite_atual_nao_comprovado')
+        if d.get('fim') is not None or not re.search(r'inscrev(?:a|er)[- ]se|inscri[cç].{0,30}abert|apply (?:now|to|for)|applications.{0,30}open|candidat.{0,30}dispon',ev,re.I): raise ValueError('convite_atual_nao_comprovado')
         # Não publicar ausência de prazo quando o documento inclui cronograma datado.
         for texto_doc in docs.values():
             if re.search(r'(?:prazo|encerramento|inscri[cç][oõ]es|submiss[aã]o).{0,100}(?:\d{1,2}[/-]\d{1,2}|\d{1,2} de [a-zç]+)',norm(texto_doc),re.I): raise ValueError('cronograma_requer_interpretacao')
@@ -106,7 +109,7 @@ def conferir(d, docs, registro, agora):
     if d.get('inicio'):
         ei=norm(d.get('evidencia_inicio'))
         inicio=datetime.fromisoformat(d['inicio']).replace(tzinfo=FUSO)
-        if ei not in texto or data_literal(ei) is None or data_literal(ei).date()!=inicio.date(): raise ValueError('inicio_nao_comprovado')
+        if ei.casefold() not in texto.casefold() or data_literal(ei) is None or data_literal(ei).date()!=inicio.date(): raise ValueError('inicio_nao_comprovado')
     dados=registro.get('dados',{})
     publico=dados.get('trecho_publico','')
     return dict(base,status='ainda_nao_aberta' if inicio and inicio>agora else 'aberta_confirmada',
@@ -134,6 +137,7 @@ class Verificador:
         with urlopen(req,timeout=45) as r:d=json.load(r)
         return json.loads(''.join(x.get('text','') for x in d['candidates'][0]['content']['parts']))
     def verificar(self, registro, docs, agora):
+        self.last_reason=None
         if not docs:return None
         docs = {url: texto for url, texto in docs.items()}
         chave=hashlib.sha256(json.dumps([PROMPT,registro,docs],sort_keys=True,ensure_ascii=False).encode()).hexdigest()

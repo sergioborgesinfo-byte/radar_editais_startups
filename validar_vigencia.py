@@ -15,6 +15,8 @@ from sebrae_programas import ler_programa, texto_programa
 FUSO = ZoneInfo('America/Sao_Paulo')
 MERCOPAR = 'https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100'
 FONTES_OFICIAIS = {
+    'https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao':
+        'https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao',
     'https://www.darwinstartups.com/icmlab':
         'https://www.darwinstartups.com/icmlab',
     'https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups':
@@ -214,6 +216,13 @@ def validar_oficial(registro, agora, ler=None):
                   if re.search(r'inscri[cç]|inscrev|candidat|cadast|submiss|prazo', x, re.I)
                   and not re.search(r'\babert[ao]s?\s+a\s+partir\s+de\b', x, re.I)
                   and (pagina_dedicada or prazo_da_oportunidade(x, titulo))]
+    # Rótulos de cronograma podem ficar separados da data por tags HTML.
+    if prazo_da_oportunidade(texto[:5000], titulo):
+        data_numerica = r'\d{1,2}[/-]\d{1,2}[/-]20\d{2}'
+        padrao = (r'(?:encerramento\s+(?:das\s+)?inscri[cç][oõ]es|prazo\s+para\s+submiss[aã]o)'
+                  r'\s*:?\s*' + data_numerica + r'(?:\s+a\s+' + data_numerica + r')?')
+        for m in re.finditer(padrao, texto, re.I):
+            candidatos.append((data_literal(m.group(0)), m.group(0)))
     candidatos = [(d,x) for d,x in candidatos if d]
     continuo = next((x for x in trechos if prazo_da_oportunidade(x, titulo) and re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
     if not candidatos and not continuo:
@@ -373,17 +382,17 @@ def main():
                 break
             anterior = feitos[e['url']]
             tentativa = anterior.get('ia_tentada_em')
-            if anterior.get('ia_metodo') == 'gemini-v2' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
+            if anterior.get('ia_metodo') == 'gemini-v3' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
                 continue
             docs = documentos(dict(e, fonte_primaria_descoberta=FONTES_OFICIAIS.get(e['url'], e['url'])), oficial)
             resultado = assistente.verificar(e, docs, agora)
             anterior['ia_tentada_em'] = datetime.now(FUSO).isoformat()
-            anterior['ia_metodo'] = 'gemini-v2'
+            anterior['ia_metodo'] = 'gemini-v3'
             anterior['motivo_ia'] = assistente.parada or assistente.last_reason or ('sem_documentos' if not docs else 'evidencia_insuficiente')
             if resultado:
                 resultado['verificado_em'] = datetime.now(FUSO).isoformat()
                 resultado['ia_tentada_em'] = anterior['ia_tentada_em']
-                resultado['ia_metodo'] = 'gemini-v2'
+                resultado['ia_metodo'] = 'gemini-v3'
                 feitos[e['url']] = resultado
                 print(f"IA: {resultado['status']}: {e['url']}", flush=True)
     print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)

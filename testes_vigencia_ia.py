@@ -25,6 +25,14 @@ class VigenciaIA(unittest.TestCase):
                 docs[r['url']]+='\nDivulgação do resultado: 02/10/2026'
                 resultado=conferir(d,docs,r,AGORA)
                 self.assertEqual(resultado['status'],'encerrada');self.assertTrue(resultado['prazo_iso'].startswith(fim))
+    def test_cronograma_em_blocos_sem_ia(self):
+        from validar_vigencia import validar_oficial
+        r={'url':'https://fapesc.sc.gov.br/chamada','titulo':'Programa Acelera Startup SC 2026',
+           'dados':{'trecho_publico':'Participação para startups'}}
+        texto='Programa Acelera Startup SC 2026\nPrazo para submissão:\n20/05/2026 a 22/06/2026\nResultado: 02/10/2026'
+        resultado=validar_oficial(r,AGORA,ler=lambda u:texto)
+        self.assertEqual(resultado['status'],'encerrada')
+        self.assertTrue(resultado['prazo_iso'].startswith('2026-06-22'))
     def test_google_sem_prazo_nao_permanente(self):
         r,docs,d=self.caso('Google Cloud Startup Program','Inscreva-se agora no programa para startups',None,situacao='sem_prazo')
         resultado=conferir(d,docs,r,AGORA)

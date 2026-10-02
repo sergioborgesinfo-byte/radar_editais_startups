@@ -827,13 +827,18 @@
     {
       "url": "https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
       "titulo": "Invest.Rio e Maravalley lançam edital para selecionar dez startups para Missão Web Summit Lisboa 2026",
-      "status": "pendente_evidencia",
+      "status": "encerrada",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
       "verificado_em": "2026-10-02T14:59:59.570437-03:00",
       "ia_tentada_em": "2026-10-02T15:04:35.008006-03:00",
       "motivo_ia": "citacao_ou_identidade_invalida",
-      "ia_metodo": "gemini-v2"
+      "ia_metodo": "gemini-v2",
+      "prazo_iso": "2026-09-27T23:59:59-03:00",
+      "evidencia_prazo": "Inscrição online (...) até 27/09/2026",
+      "metodo": "revisao_manual_cronograma",
+      "fonte_oficial": "https://www.maravalley.rio/__l5e/assets-v1/67c31b43-ebe4-4d74-b1d2-517b01a0a47e/edital-selecao-startups-ws-lisboa-2026.pdf",
+      "observacao": "Cronograma conferido pela usuária na captura do edital, página 3. Leitura automatizada do Maravalley bloqueada pelo robots.txt. Resultado em 02/10/2026 não é prazo de inscrição."
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90",
