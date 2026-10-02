@@ -111,7 +111,17 @@ class Evidencias(unittest.TestCase):
            'url':'https://www.darwinstartups.com/icmlab'}
         d=evidencias_textuais(texto,e)
         self.assertEqual(d['metodo'],'regra_oficial_icm_lab')
+        self.assertNotEqual(d['trecho_oportunidade'], d['trecho_publico'])
         self.assertTrue(conferir(d,texto))
+
+    def test_icm_lab_auditado_volta_a_fila_sem_repetir_ia(self):
+        from confirmar_oportunidades import fila
+        e={'titulo':'ICM Lab Solana — Darwin Startups',
+           'url':'https://www.darwinstartups.com/icmlab',
+           'categoria':'prioridade_verificacao'}
+        feitos={e['url']:{'status':'pendente_evidencia',
+                          'auditoria_relevancia':'requer_revisao'}}
+        self.assertEqual(fila([e],feitos,1),[e])
 
 
 class ProgressoFila(unittest.TestCase):

@@ -97,7 +97,8 @@ def fila(itens, feitos, limite):
         # Confirmações já obtidas não precisam consumir IA novamente.
         if anterior.get('status') in ('confirmada_no_conteudo', 'nao_confirmada_no_texto'):
             continue
-        if anterior.get('auditoria_relevancia') == 'requer_revisao':
+        if (anterior.get('auditoria_relevancia') == 'requer_revisao'
+                and e['url'].rstrip('/') != 'https://www.darwinstartups.com/icmlab'):
             continue
         if anterior.get('status') in ('falha_leitura', 'pendente_leitura') and anterior.get('tentativas', 0) >= 3:
             continue
@@ -176,7 +177,7 @@ def evidencias_textuais(texto, e):
         oportunidade = next((x for x in blocos if re.search(
             r'ICM Lab Solana.{0,120}programa de acelera[cç][aã]o', x, re.I)), None)
         publico = next((x for x in blocos if re.search(
-            r'selecionar.{0,120}(?:at[eé]\s+\d+\s+)?startups|startups.{0,120}acelera[cç][aã]o', x, re.I)), None)
+            r'selecionar.{0,120}(?:at[eé]\s+\d+\s+)?startups', x, re.I)), None)
         if oportunidade and publico:
             return {'oportunidade_concreta': True, 'publico_startup': True,
                     'titulo': titulo, 'instituicao': 'Darwin Startups',
