@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v11",
-  "atualizado_em": "2026-10-02T12:25:19.015298-03:00",
+  "atualizado_em": "2026-10-02T12:30:02.843662-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -433,7 +433,7 @@
       "motivo": "dados_dinamicos_ausentes",
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:24:32.918669-03:00"
+      "verificado_em": "2026-10-02T12:29:14.481758-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -648,7 +648,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:25:15.485426-03:00"
+      "verificado_em": "2026-10-02T12:29:57.252007-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -756,7 +756,7 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:24:36.553246-03:00"
+      "verificado_em": "2026-10-02T12:29:18.298678-03:00"
     },
     {
       "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
@@ -841,7 +841,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:24:33.048918-03:00"
+      "verificado_em": "2026-10-02T12:29:20.771803-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -849,7 +849,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:24:35.171405-03:00"
+      "verificado_em": "2026-10-02T12:29:23.045575-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -905,7 +905,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:24:33.283168-03:00"
+      "verificado_em": "2026-10-02T12:29:23.271294-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -978,7 +978,7 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:24:41.397273-03:00"
+      "verificado_em": "2026-10-02T12:29:29.129110-03:00"
     },
     {
       "url": "https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups",
@@ -1041,6 +1041,134 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v1",
       "verificado_em": "2026-10-02T12:23:10.644647-03:00"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/miss%C3%A3o-empresarial-web-summit-lisboa-2026---piau%C3%AD-1783345324060x916741265089269500",
+      "status": "encerrada",
+      "prazo_iso": "2026-08-17T23:59:59-03:00",
+      "evidencia_prazo": "data_final_date=1787021999000",
+      "titulo": "Missão Empresarial Web Summit Lisboa 2026 - Piauí",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:14.459704-03:00"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/startup-experience-esx-2026-1771597174940x883690215484256800",
+      "status": "encerrada",
+      "prazo_iso": "2026-04-13T23:59:59-03:00",
+      "evidencia_prazo": "data_final_date=1776135599000",
+      "titulo": "Startup Experience ESX 2026 - Sebrae Startups",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:14.438351-03:00"
+    },
+    {
+      "url": "https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia",
+      "titulo": "Inscrições abertas para novas startups se instalarem no Parque Tecnológico da Bahia – Portal FAPESB",
+      "status": "pendente_acesso",
+      "motivo": "fonte_oficial_indisponivel",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:30:02.843101-03:00"
+    },
+    {
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina",
+      "titulo": "InovAtiva prorroga inscrições para o maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:16.977965-03:00"
+    },
+    {
+      "url": "https://iphaep.pb.gov.br/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN005_2026SECTIESSEGUNDACHAMADADEINCUBAOPARASTARTUPS.pdf",
+      "titulo": "Segunda Chamada de Incubação para Startups - Programa Parque Tecnológico Horizontes de Inovação",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:22.973977-03:00"
+    },
+    {
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/missao-brasileira-abre-inscricoes-para-levar-100-startups-ao-web-summit-lisboa",
+      "titulo": "Missão brasileira abre inscrições para levar 100 startups ...",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:20.535082-03:00"
+    },
+    {
+      "url": "https://senaimt.ind.br/para-industria/1901/pre-aceleracao-startup",
+      "titulo": "Programa de Pré-aceleração Start&Up está com inscrições abertas - Senai MT - Serviço Nacional de Aprendizagem Industrial",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:27.083935-03:00"
+    },
+    {
+      "url": "https://alertaeditais.com.br/edital/south-summit-brazil-2026-exposicao-de-startup-w083r",
+      "titulo": "South Summit Brazil 2026 - Exposição de Startups Gaúchas",
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado",
+      "fontes_consultadas": [
+        "https://programas.sebraestartups.com.br/in/south-summit-brazil-2026---exposi%C3%A7%C3%A3o-de-startups-ga%C3%BAchas-1768484451965x681111351935545900?utm_source=alertaeditais.com.br"
+      ],
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:32.282456-03:00"
+    },
+    {
+      "url": "https://exame.com/pme/programas-de-aceleracao-para-startups",
+      "titulo": "Endeavor, Sebrae, Elo7: veja programas de aceleração para startups abertos | Exame",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:33.862050-03:00"
+    },
+    {
+      "url": "https://jornaldebrasilia.com.br/brasilia/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
+      "titulo": "Cotidiano Aceleradora realiza seleção para acelerar Startups | Jornal de Brasília",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:35.159717-03:00"
+    },
+    {
+      "url": "https://jornalonlinealagoas.com/noticia/84078/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
+      "titulo": "Invest.Rio e Maravalley lançam edital para selecionar dez ...",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:36.558299-03:00"
+    },
+    {
+      "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
+      "titulo": "BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado",
+      "fontes_consultadas": [
+        "https://garagem.bndes.gov.br/"
+      ],
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:42.902868-03:00"
+    },
+    {
+      "url": "https://startupmadeira.eu/2024/03/27/manifestacao-de-interesse-sim-conference",
+      "titulo": "Manifestação de Interesse - SIM Conference",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:45.641283-03:00"
+    },
+    {
+      "url": "https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows",
+      "titulo": "How to Disable Startup Programs in Windows",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:45.487297-03:00"
+    },
+    {
+      "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
+      "titulo": "Portal UFS - Startups finalistas, criadas a partir de programa de indução da UFS, são apresentadas ao público",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
+      "metodo_fontes": "links-v1",
+      "verificado_em": "2026-10-02T12:29:50.195660-03:00"
     }
   ]
 }
