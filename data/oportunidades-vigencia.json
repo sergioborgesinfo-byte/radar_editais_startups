@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T15:05:27.615908-03:00",
+  "atualizado_em": "2026-10-02T15:10:40.272299-03:00",
   "ia": {
     "chamadas": 8,
     "limite": 8,
@@ -41,7 +41,10 @@
       "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado",
       "titulo": "Movimenta Sebrae",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:17.488890-03:00"
+      "verificado_em": "2026-10-02T14:59:17.488890-03:00",
+      "ia_tentada_em": "2026-10-02T15:09:53.745925-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "sem_documentos"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/1776264699513x196992201218308300",
@@ -485,7 +488,7 @@
       "motivo": "dados_dinamicos_ausentes",
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:03:08.293742-03:00"
+      "verificado_em": "2026-10-02T15:07:57.757713-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -566,9 +569,9 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
       "verificado_em": "2026-10-02T14:59:28.253983-03:00",
-      "ia_tentada_em": "2026-10-02T15:04:03.324233-03:00",
-      "motivo_ia": "citacao_ou_identidade_invalida",
-      "ia_metodo": "gemini-v2"
+      "ia_tentada_em": "2026-10-02T15:08:50.549742-03:00",
+      "motivo_ia": "evidencia_insuficiente",
+      "ia_metodo": "gemini-v3"
     },
     {
       "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
@@ -609,7 +612,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:32.666443-03:00"
+      "verificado_em": "2026-10-02T14:59:32.666443-03:00",
+      "ia_tentada_em": "2026-10-02T15:08:54.474656-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
@@ -617,7 +623,10 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:49.377048-03:00"
+      "verificado_em": "2026-10-02T14:59:49.377048-03:00",
+      "ia_tentada_em": "2026-10-02T15:09:19.354053-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
@@ -625,7 +634,10 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:38.541804-03:00"
+      "verificado_em": "2026-10-02T14:59:38.541804-03:00",
+      "ia_tentada_em": "2026-10-02T15:09:27.263075-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://www.semadesc.ms.gov.br/desafio-pantanal-tech-2026-abre-inscricoes-para-impulsionar-startups-e-solucoes-inovadoras-em-ms",
@@ -641,21 +653,23 @@
     {
       "url": "https://ecti.ac.gov.br/rascunho-automaticoprogramas-aceleracao-norte-cidades-inteligentes-lideranca-feminina",
       "titulo": "Aceleração 2026: Inscrições Abertas para Startups do Norte",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
-      "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:42.981636-03:00"
+      "fonte_oficial": "https://ecti.ac.gov.br/rascunho-automaticoprogramas-aceleracao-norte-cidades-inteligentes-lideranca-feminina",
+      "evidencia_prazo": "Inscrições: Até 15 de fevereiro de 2026.",
+      "metodo": "gemini_evidencia_literal",
+      "status": "encerrada",
+      "prazo_iso": "2026-02-15T23:59:59-03:00",
+      "verificado_em": "2026-10-02T15:09:43.059193-03:00",
+      "ia_tentada_em": "2026-10-02T15:09:43.059180-03:00",
+      "ia_metodo": "gemini-v3"
     },
     {
       "url": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao",
       "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
+      "status": "encerrada",
+      "prazo_iso": "2026-06-22T23:59:59-03:00",
+      "evidencia_prazo": "Prazo para submissão:\n20/05/2026 a 22/06/2026",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:47.621002-03:00",
-      "ia_tentada_em": "2026-10-02T15:04:25.251271-03:00",
-      "motivo_ia": "citacao_ou_identidade_invalida",
-      "ia_metodo": "gemini-v2"
+      "verificado_em": "2026-10-02T15:08:05.656132-03:00"
     },
     {
       "url": "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-formiga-2026-abre-inscricoes-para-selecionar-15-startups-e-empresas-inovadoras",
@@ -674,7 +688,10 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:48.963254-03:00"
+      "verificado_em": "2026-10-02T14:59:48.963254-03:00",
+      "ia_tentada_em": "2026-10-02T15:10:00.702736-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
@@ -751,7 +768,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:03:50.379009-03:00"
+      "verificado_em": "2026-10-02T15:08:40.220722-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -798,7 +815,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:39.298591-03:00"
+      "verificado_em": "2026-10-02T14:59:39.298591-03:00",
+      "ia_tentada_em": "2026-10-02T15:09:35.094001-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993",
@@ -806,7 +826,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:46.458629-03:00"
+      "verificado_em": "2026-10-02T14:59:46.458629-03:00",
+      "ia_tentada_em": "2026-10-02T15:09:50.998867-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
@@ -870,7 +893,7 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:03:11.978630-03:00"
+      "verificado_em": "2026-10-02T15:08:01.335869-03:00"
     },
     {
       "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
@@ -955,7 +978,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:03:08.195829-03:00"
+      "verificado_em": "2026-10-02T15:07:58.035937-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -963,7 +986,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:03:10.387237-03:00"
+      "verificado_em": "2026-10-02T15:08:00.538923-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1019,7 +1042,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:03:08.562640-03:00"
+      "verificado_em": "2026-10-02T15:08:00.669551-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1089,10 +1112,11 @@
     {
       "url": "https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups",
       "titulo": "Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
+      "status": "encerrada",
+      "prazo_iso": "2026-06-15T23:59:59-03:00",
+      "evidencia_prazo": "Prazo para submissão:\n05/05/2026 a 15/06/2026",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:03:14.821946-03:00"
+      "verificado_em": "2026-10-02T15:08:05.798948-03:00"
     },
     {
       "url": "https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups",
@@ -1180,7 +1204,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:56.776840-03:00"
+      "verificado_em": "2026-10-02T14:59:56.776840-03:00",
+      "ia_tentada_em": "2026-10-02T15:10:40.272264-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina",
