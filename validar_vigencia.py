@@ -119,17 +119,9 @@ def validar_sebrae(registro, agora, abrir=urlopen):
 
 
 def data_literal(trecho):
-    limpo = ''.join(c for c in unicodedata.normalize('NFKD', str(trecho).lower())
-                    if not unicodedata.combining(c))
-    datas = []
-    for m in re.finditer(r'\b(\d{1,2})[/-](\d{1,2})[/-](20\d{2})\b', limpo):
-        dia, mes, ano = map(int, m.groups())
-        try: datas.append(datetime(ano, mes, dia, 23, 59, 59, tzinfo=FUSO))
-        except ValueError: pass
-    for m in re.finditer(r'\b(\d{1,2}) de (' + '|'.join(MESES) + r') de (20\d{2})\b', limpo):
-        try: datas.append(datetime(int(m.group(3)), MESES[m.group(2)], int(m.group(1)), 23, 59, 59, tzinfo=FUSO))
-        except ValueError: pass
-    return max(datas) if datas else None
+    from cronogramas import datas
+    encontradas = datas(trecho)
+    return max(encontradas) if encontradas else None
 
 
 def texto_relevante(texto, limite=30000):
@@ -184,7 +176,8 @@ def validar_oficial(registro, agora, ler=None):
             ctype, bruto = radar.baixar(fonte)
             if bruto is None:
                 raise ValueError('leitura_bloqueada')
-            texto = texto_relevante(radar.para_texto(ctype, bruto), radar.MAX_CHARS)
+            from cronogramas import ler_texto
+            texto = texto_relevante(ler_texto(ctype, bruto), radar.MAX_CHARS)
         else:
             texto = ler(fonte)
     except Exception:
@@ -200,6 +193,23 @@ def validar_oficial(registro, agora, ler=None):
     publico = next((x for x in trechos_publico
                     if re.search(r'startup|neg[oó]cio inovador|projeto inovador', x, re.I)),
                    dados_registro.get('trecho_publico', ''))
+    from cronogramas import prazo_documentado
+    cronograma = prazo_documentado(texto, titulo)
+    if cronograma and re.search(r'startup|neg[oó]cio inovador|projeto inovador', publico, re.I):
+        fim = cronograma['fim']; inicio = cronograma['inicio']
+        base = {'url':url, 'titulo':titulo, 'fonte_oficial':fonte,
+                'prazo_iso':fim.isoformat(), 'evidencia_prazo':cronograma['evidencia'],
+                'metodo':'cronograma_documentado'}
+        if fim <= agora:
+            return dict(base, status='encerrada')
+        dados = registro.get('dados', {})
+        return dict(base, status='ainda_nao_aberta' if inicio and inicio > agora else 'aberta_confirmada',
+            instituicao=dados.get('instituicao') or urlsplit(fonte).hostname,
+            tipo=dados.get('tipo') or 'Seleção', estagio='Qualquer',
+            descricao=dados.get('resumo', ''), requisitos=publico,
+            prazo=fim.date().isoformat(), inicio_iso=inicio.isoformat() if inicio else None,
+            evidencia_edicao=str(fim.year), evidencia_publico=publico,
+            modalidade_inscricao='inscricao', sem_data_final=False)
     # Algumas instituições mantêm a página primária no próprio URL descoberto.
     # O catálogo estruturado da FAPEMIG é uma página dedicada à chamada, não uma
     # notícia agregadora; seu cronograma pode separar o nome da chamada da data.
@@ -266,7 +276,7 @@ def deduplicar(itens):
     return list(unicos.values())
 
 
-def atualizar_acompanhamento(itens, abertas, agora):
+def atualizar_acompanhamento(itens, abertas, agora, fila=None):
     """Mantém o progresso da vigência visível no painel já publicado."""
     caminho = Path('docs/busca.json')
     painel = json.loads(caminho.read_text()) if caminho.exists() else {}
@@ -290,6 +300,7 @@ def atualizar_acompanhamento(itens, abertas, agora):
             for item in itens if item.get('status', '').startswith('pendente_')
         ],
     }
+    if fila is not None:painel['vigencia']['fila_prioritaria'] = fila
     caminho.write_text(json.dumps(painel, ensure_ascii=False, indent=2) + '\n')
 
 
@@ -331,6 +342,9 @@ def exportar_abertas(validadas, agora):
 
 
 def main():
+    import radar
+    from leitura_cache import leitor_cache
+    radar.baixar = leitor_cache(radar.baixar)
     agora = datetime.now(FUSO)
     qualidade = json.loads(Path('data/revisao-qualidade.json').read_text())
     if not qualidade.get('avancar_vigencia'):
@@ -348,12 +362,13 @@ def main():
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  (feitos[e['url']].get('status') == 'aberta_confirmada' and
                   not verificacao_atual(feitos[e['url']], agora)) or
+                 (feitos[e['url']].get('metodo', '').startswith('revisao_manual') and feitos[e['url']].get('metodo_leitura') != 'cronogramas-v1') or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
                  (feitos[e['url']].get('status') == 'pendente_fonte_oficial' and
                   (feitos[e['url']].get('metodo_fontes') != 'links-v1' or
                    not verificacao_atual(feitos[e['url']], agora))) or
                  (feitos[e['url']].get('status', '').startswith('pendente_') and
-                  (e['url'] in FONTES_OFICIAIS or not verificacao_atual(feitos[e['url']], agora)))]
+                  (e['url'] in FONTES_OFICIAIS or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v1' or not verificacao_atual(feitos[e['url']], agora)))]
     # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
     # todas as confirmações restantes sem depender de uma segunda execução manual.
     lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR,
@@ -364,12 +379,18 @@ def main():
                      else validar_oficial(e, agora))
         resultado.setdefault('titulo', e.get('titulo', ''))
         resultado['metodo_fontes'] = 'links-v1'
+        resultado['metodo_leitura'] = 'cronogramas-v1'
         resultado['verificado_em'] = datetime.now(FUSO).isoformat()
         print(f"{resultado['status']}: {e['url']}", flush=True)
         return resultado
     with ThreadPoolExecutor(max_workers=4) as pool:
         for resultado in pool.map(validar, lote):
-            feitos[resultado['url']] = resultado
+            antigo = feitos.get(resultado['url'], {})
+            if antigo.get('metodo', '').startswith('revisao_manual') and resultado['status'].startswith('pendente_'):
+                antigo['metodo_leitura'] = 'cronogramas-v1'
+                antigo['resultado_releitura_automatica'] = resultado.get('motivo')
+            else:
+                feitos[resultado['url']] = resultado
     # IA sequencial e limitada: somente os casos não resolvidos por regras.
     from vigencia_ia import Verificador, documentos
     assistente = Verificador()
@@ -384,27 +405,39 @@ def main():
                 break
             anterior = feitos[e['url']]
             tentativa = anterior.get('ia_tentada_em')
-            if anterior.get('ia_metodo') == 'gemini-v3' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
+            if anterior.get('ia_metodo') == 'gemini-v4' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
                 continue
             docs = documentos(dict(e, fonte_primaria_descoberta=FONTES_OFICIAIS.get(e['url'], e['url'])), oficial)
             resultado = assistente.verificar(e, docs, agora)
             anterior['ia_tentada_em'] = datetime.now(FUSO).isoformat()
-            anterior['ia_metodo'] = 'gemini-v3'
+            anterior['ia_metodo'] = 'gemini-v4'
             anterior['motivo_ia'] = assistente.parada or assistente.last_reason or ('sem_documentos' if not docs else 'evidencia_insuficiente')
+            if assistente.parada:
+                anterior.pop('ia_tentada_em', None)
+                break
             if resultado:
                 resultado['verificado_em'] = datetime.now(FUSO).isoformat()
                 resultado['ia_tentada_em'] = anterior['ia_tentada_em']
-                resultado['ia_metodo'] = 'gemini-v3'
+                resultado['ia_metodo'] = 'gemini-v4'
                 feitos[e['url']] = resultado
                 print(f"IA: {resultado['status']}: {e['url']}", flush=True)
     print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)
     agora = datetime.now(FUSO)
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'ia': {'chamadas': assistente.usadas, 'limite': assistente.limite, 'parada': assistente.parada, 'pendencias_restantes': sum(x.get('status', '').startswith('pendente_') for x in itens), 'casos_com_tentativa_ia': sum(bool(x.get('ia_tentada_em')) for x in itens)}, 'itens':itens}
+    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'ia': {'chamadas': assistente.usadas, 'limite': assistente.limite, 'parada': assistente.parada, 'pendencias_restantes': sum(x.get('status', '').startswith('pendente_') for x in itens), 'casos_com_tentativa_ia': sum(bool(x.get('ia_tentada_em')) for x in itens), 'resolvidas_automaticamente': sum(x.get('status') in ('aberta_confirmada','encerrada') and not x.get('metodo','').startswith('revisao_manual') for x in itens), 'revisoes_manuais': sum(x.get('metodo','').startswith('revisao_manual') for x in itens)}, 'itens':itens}
+    anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
+    fila_path = Path('data/fila-vigencia-inicial.json')
+    fila_urls = json.loads(fila_path.read_text()).get('urls', []) if fila_path.exists() else []
+    resolvidas = [feitos[u] for u in fila_urls if u in feitos and feitos[u].get('status') in ('aberta_confirmada','encerrada','ainda_nao_aberta')]
+    fila = {'total_inicial': len(fila_urls), 'resolvidas': len(resolvidas),
+            'resolvidas_automaticamente': sum(not x.get('metodo','').startswith('revisao_manual') for x in resolvidas),
+            'revisoes_manuais': sum(x.get('metodo','').startswith('revisao_manual') for x in resolvidas),
+            'pendentes': len(fila_urls)-len(resolvidas)}
+    relatorio['fila_prioritaria'] = fila
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     abertas = exportar_abertas(itens, agora)
     Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')
-    atualizar_acompanhamento(itens, abertas, agora)
+    atualizar_acompanhamento(itens, abertas, agora, fila)
     print(f'{len(lote)} examinadas; {len(abertas)} abertas confirmadas publicadas')
 
 

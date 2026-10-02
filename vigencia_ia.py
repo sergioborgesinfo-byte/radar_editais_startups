@@ -5,7 +5,7 @@ import re
 import time
 import hashlib
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 from fontes_primarias import Ancoras, selecionar_links
@@ -49,7 +49,7 @@ def documentos(registro, oficial):
             ct, bruto = radar.baixar(fonte)
             if bruto is None: continue
             from validar_vigencia import texto_relevante
-            texto = texto_relevante(radar.para_texto(ct, bruto), 30000)
+            texto = texto_relevante(__import__('cronogramas').ler_texto(ct, bruto), 30000)
             if len(norm(texto)) < 100 or re.search(r'^Site Unavailable', norm(texto), re.I): continue
             docs[fonte] = texto
             if nivel < 2 and 'html' in ct:
@@ -136,6 +136,11 @@ class Verificador:
         self.path=Path(cache)
         try:self.cache=json.loads(self.path.read_text())
         except (OSError,ValueError):self.cache={}
+        pausa=self.cache.get('__pausa__',{}).get('ate')
+        if pausa:
+            try:
+                if datetime.now().astimezone() < datetime.fromisoformat(pausa):self.parada='gemini_cota_em_pausa'
+            except (ValueError,TypeError):pass
     def api(self, corpo):
         time.sleep(max(0,8-(time.monotonic()-self.ultima)));self.ultima=time.monotonic()
         modelo=os.getenv('GEMINI_MODEL','gemini-3.5-flash-lite')
@@ -164,7 +169,11 @@ class Verificador:
             self.path.parent.mkdir(parents=True,exist_ok=True);self.path.write_text(json.dumps(self.cache,ensure_ascii=False,indent=2)+'\n')
             return resultado
         except HTTPError as erro:
-            self.parada='gemini_http_'+str(erro.code);erro.close()
+            self.parada='gemini_http_'+str(erro.code)
+            if erro.code == 429:
+                self.cache['__pausa__']={'ate':(agora+timedelta(hours=6)).isoformat()}
+                self.path.parent.mkdir(parents=True,exist_ok=True);self.path.write_text(json.dumps(self.cache,ensure_ascii=False,indent=2)+'\n')
+            erro.close()
         except (URLError,TimeoutError):self.parada='gemini_conexao'
         except (ValueError,KeyError,TypeError,IndexError,StopIteration) as erro:self.last_reason=str(erro)[:150]
         return None
