@@ -6,7 +6,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 
 49 páginas individuais do catálogo Sebrae encontradas.
 
-## prioridade_verificacao: 414
+## prioridade_verificacao: 415
 
 - [Embraer Startup Program](http://embraer.com/corporate-innovation/embraer-startup-program/pt) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...](http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -329,6 +329,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [WOW Aceleradora Portfolio Investments, WOW Aceleradora Funds, WOW Aceleradora Exits](https://www.cbinsights.com/investor/wow-aceleradora) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil](https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Crub | Prêmio Mulheres Inovadoras 2026 abre inscrições com R$ 3,6 milhões para startups com liderança feminina](https://www.crub.org.br/premio-mulheres-inovadoras-2026-abre-inscricoes-com-r-36-milhoes-para-startups-com-lideranca-feminina) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [ICM Lab Solana — Darwin Startups](https://www.darwinstartups.com/icmlab) — Página oficial indicada de programa com inscrições; conteúdo e vigência ainda serão verificados.
 - [Financiamentos, desafios e programas de inovação - Portal Embrapa](https://www.embrapa.br/financiamentos-desafios-e-programas-de-inovacao) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Ei, você! Ainda não fez sua inscrição? Escuta o que a Vivi ...](https://www.facebook.com/BiominasBrasil/videos/ei-voc%C3%AA-ainda-n%C3%A3o-fez-sua-inscri%C3%A7%C3%A3o-escuta-o-que-a-vivi-da-equipe-do-granioter-t/1753857149190504) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [GEN Paraguay - "El Desafío de Startups en Latinoamérica"...](https://www.facebook.com/GENParaguay1/posts/2613428455401153) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -493,7 +494,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Startup Summit 2026](https://www.startupsummit.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [WOW Aceleradora: Aceleração de Startup e Investidores](https://www.wow.ac/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 
-## revisar_contexto: 725
+## revisar_contexto: 724
 
 - [Programa Desafía | España Digital 2026](http://espanadigital.gob.es/lineas-de-actuacion/programa-desafia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [BNDES Garagem - BNDES](http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -911,7 +912,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Cloudflare para Startups | Cloudflare](https://www.cloudflare.com/pt-br/forstartups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Startups conhecem instituições que impulsionam a inovação - Prefeitura de Curitiba](https://www.curitiba.pr.gov.br/noticias/startups-conhecem-instituicoes-que-impulsionam-a-inovacao/45749) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Batch #15 - Darwin Startups — Darwin Startups](https://www.darwinstartups.com/batch15) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [ICM Lab Solana — Darwin Startups](https://www.darwinstartups.com/icmlab) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [MS lança AgroValley para acelerar startups e tecnologias do agro - Geral - Diário Digital](https://www.diariodigital.com.br/geral/ms-lanca-agrovalley-para-acelerar-startups-e-tecnologias-do-agro) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Google for Startups Accelerator Brasil: conheça as 11 startups da 13ª edição](https://www.distrito.me/blog/google-for-startups-accelerator-brasil-startups-ia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Home | Comisión para la Igualdad de Oportunidades en el Empleo](https://www.eeoc.gov/es) — Título insuficiente; precisa ler o conteúdo antes de decidir.

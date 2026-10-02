@@ -1,12 +1,12 @@
 {
-  "executado_em": "2026-10-02T06:09:27.435942+00:00",
+  "executado_em": "2026-10-02T06:38:27.421877+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
   "links_recebidos": 1210,
   "paginas_agrupadas": 1209,
   "duplicacoes_de_url": 1,
   "contagem": {
-    "prioridade_verificacao": 414,
-    "revisar_contexto": 725,
+    "prioridade_verificacao": 415,
+    "revisar_contexto": 724,
     "fora_escopo": 3,
     "fonte_catalogo": 67
   },
@@ -7886,8 +7886,8 @@
     {
       "titulo": "ICM Lab Solana — Darwin Startups",
       "url": "https://www.darwinstartups.com/icmlab",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Página oficial indicada de programa com inscrições; conteúdo e vigência ainda serão verificados",
       "links_equivalentes": [
         "https://www.darwinstartups.com/icmlab"
       ],
