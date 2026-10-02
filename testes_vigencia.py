@@ -3,7 +3,7 @@ import json
 import unittest
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from validar_vigencia import validar_sebrae, validar_oficial, exportar_abertas, deduplicar, data_literal, atualizar_acompanhamento
+from validar_vigencia import validar_sebrae, validar_oficial, exportar_abertas, deduplicar, data_literal, texto_relevante, atualizar_acompanhamento
 
 FUSO=ZoneInfo('America/Sao_Paulo')
 
@@ -43,6 +43,11 @@ class Vigencia(unittest.TestCase):
         self.assertEqual(deduplicar([a,b]),[a])
     def test_data_sem_ano_nao_e_inferida(self):
         self.assertIsNone(data_literal('Inscrições até 21 de agosto'))
+    def test_intervalo_usa_data_final_literal(self):
+        self.assertEqual(data_literal('Prazo para submissão: 05/05/2026 a 15/06/2026').date().isoformat(),'2026-06-15')
+    def test_texto_longo_preserva_prazo_no_final(self):
+        texto='A'*31000+'\nPrazo para submissão: 05/05/2026 a 15/06/2026'
+        self.assertIn('15/06/2026',texto_relevante(texto,30000))
     def test_oficial_encerrada_nao_publica(self):
         r={'url':'https://agifes.ifes.edu.br/programa','titulo':'Horizontes 2026',
            'dados':{'titulo':'Horizontes 2026 para startups','trecho_publico':'Startups e projetos inovadores'}}

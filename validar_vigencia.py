@@ -14,7 +14,7 @@ FONTES_OFICIAIS = {
     'https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups':
         'https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-24-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-para-o-ecossistema-catarinense-de-inovacao-vii-edicao/',
     'https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital':
-        'https://www.portodigital.org/noticias/inscricoes-para-programas-early-stage-com-inscricoes-prorrogadas',
+        'https://novosite.portodigital.org/noticia/inscricoes-prorrogadas-para-programas-early-stage/',
     'https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao':
         'https://www.darwinstartups.com/batch15',
 }
@@ -87,16 +87,29 @@ def validar_sebrae(registro, agora, abrir=urlopen):
 def data_literal(trecho):
     limpo = ''.join(c for c in unicodedata.normalize('NFKD', str(trecho).lower())
                     if not unicodedata.combining(c))
-    m = re.search(r'\b(\d{1,2})[/-](\d{1,2})[/-](20\d{2})\b', limpo)
-    if m:
+    datas = []
+    for m in re.finditer(r'\b(\d{1,2})[/-](\d{1,2})[/-](20\d{2})\b', limpo):
         dia, mes, ano = map(int, m.groups())
-        try: return datetime(ano, mes, dia, 23, 59, 59, tzinfo=FUSO)
-        except ValueError: return None
-    m = re.search(r'\b(\d{1,2}) de (' + '|'.join(MESES) + r') de (20\d{2})\b', limpo)
-    if m:
-        try: return datetime(int(m.group(3)), MESES[m.group(2)], int(m.group(1)), 23, 59, 59, tzinfo=FUSO)
-        except ValueError: return None
-    return None
+        try: datas.append(datetime(ano, mes, dia, 23, 59, 59, tzinfo=FUSO))
+        except ValueError: pass
+    for m in re.finditer(r'\b(\d{1,2}) de (' + '|'.join(MESES) + r') de (20\d{2})\b', limpo):
+        try: datas.append(datetime(int(m.group(3)), MESES[m.group(2)], int(m.group(1)), 23, 59, 59, tzinfo=FUSO))
+        except ValueError: pass
+    return max(datas) if datas else None
+
+
+def texto_relevante(texto, limite=30000):
+    """Preserva cronogramas no fim de páginas longas sem enviar conteúdo inteiro."""
+    if len(texto) <= limite:
+        return texto
+    linhas = texto.splitlines()
+    marcadas = set()
+    padrao = re.compile(r'inscri[cç]|candidat|submiss|prazo|cronograma|fluxo cont[ií]nuo|\b20\d{2}\b', re.I)
+    for i, linha in enumerate(linhas):
+        if padrao.search(linha):
+            marcadas.add(i)
+    recortes = '\n'.join(linhas[i] for i in sorted(marcadas))
+    return texto[:5000] + '\n' + recortes[:limite - 5001]
 
 
 def prazo_da_oportunidade(trecho, titulo):
@@ -124,7 +137,7 @@ def validar_oficial(registro, agora, ler=None):
             ctype, bruto = radar.baixar(fonte)
             if bruto is None:
                 raise ValueError('leitura_bloqueada')
-            texto = radar.para_texto(ctype, bruto)[:radar.MAX_CHARS]
+            texto = texto_relevante(radar.para_texto(ctype, bruto), radar.MAX_CHARS)
         else:
             texto = ler(fonte)
     except Exception:
@@ -238,7 +251,7 @@ def main():
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
-                 (feitos[e['url']].get('status') == 'pendente_fonte_oficial' and
+                 (feitos[e['url']].get('status', '').startswith('pendente_') and
                   e['url'] in FONTES_OFICIAIS)]
     # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
     # todas as confirmações restantes sem depender de uma segunda execução manual.
