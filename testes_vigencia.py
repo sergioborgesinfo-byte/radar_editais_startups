@@ -186,4 +186,36 @@ class Vigencia(unittest.TestCase):
         self.assertEqual(v['status'],'pendente_evidencia')
         self.assertEqual(v['motivo'],'prazo_literal_com_ano_nao_encontrado')
 
+class Atualizacao(unittest.TestCase):
+    def item(self):
+        return {'status':'aberta_confirmada','titulo':'Programa X','instituicao':'X',
+                'tipo':'Seleção','estagio':'Qualquer','descricao':'Apoio','url':'https://x.org.br',
+                'prazo':'2026-10-02','prazo_iso':'2026-10-02T23:59:59-03:00',
+                'inicio_iso':None,'requisitos':'Startups','modalidade_inscricao':'selecao',
+                'evidencia_edicao':'2026','evidencia_publico':'Startups',
+                'evidencia_prazo':'Até 02/10/2026',
+                'verificado_em':'2026-10-01T12:00:00-03:00'}
+
+    def test_expirada_nao_republica_mesmo_status_aberto(self):
+        self.assertEqual(exportar_abertas([self.item()], datetime(2026,10,3,0,tzinfo=FUSO)), [])
+
+    def test_preserva_hora_real_e_limita_validade_ao_prazo(self):
+        e=self.item()
+        saida=exportar_abertas([e], datetime(2026,10,2,12,tzinfo=FUSO))[0]
+        self.assertEqual(saida['verificado_em'],e['verificado_em'])
+        self.assertEqual(saida['verificacao_valida_ate'],e['prazo_iso'])
+
+    def test_sem_hora_de_verificacao_exige_releitura(self):
+        e=self.item(); del e['verificado_em']
+        self.assertEqual(exportar_abertas([e],datetime(2026,10,2,12,tzinfo=FUSO)),[])
+
+    def test_fluxo_continuo_expira_em_24_horas(self):
+        e=self.item(); e.update(sem_data_final=True,prazo=None,prazo_iso=None)
+        self.assertEqual(exportar_abertas([e],datetime(2026,10,2,12,tzinfo=FUSO)),[])
+
+    def test_inscricao_futura_nao_publica(self):
+        e=self.item(); e['inicio_iso']='2026-10-02T18:00:00-03:00'
+        self.assertEqual(exportar_abertas([e],datetime(2026,10,2,12,tzinfo=FUSO)),[])
+
+
 if __name__=='__main__': unittest.main()

@@ -81,6 +81,9 @@ def validar_sebrae(registro, agora, abrir=urlopen):
     if fim <= agora:
         return {'url': url, 'status': 'encerrada', 'prazo_iso': fim.isoformat(),
                 'evidencia_prazo': f'data_final_date={int(fim_ms)}'}
+    if inicio and inicio > agora:
+        return {'url': url, 'titulo': titulo, 'status': 'ainda_nao_aberta',
+                'inicio_iso': inicio.isoformat(), 'prazo_iso': fim.isoformat()}
     modalidade = ('Manifestação de interesse' if 'manifestação de interesse' in titulo.lower()
                   else 'Pré-inscrição' if 'pré-inscri' in titulo.lower() else 'Seleção')
     return {'url': url, 'status': 'aberta_confirmada', 'titulo': titulo,
@@ -249,18 +252,37 @@ def atualizar_acompanhamento(itens, abertas, agora):
     caminho.write_text(json.dumps(painel, ensure_ascii=False, indent=2) + '\n')
 
 
+def verificacao_atual(item, agora):
+    try:
+        verificado = datetime.fromisoformat(item['verificado_em'])
+        idade = agora - verificado
+    except (KeyError, TypeError, ValueError):
+        return False
+    limite = timedelta(hours=24 if item.get('sem_data_final') else 48)
+    return timedelta(0) <= idade < limite
+
+
 def exportar_abertas(validadas, agora):
     saida = []
     for e in deduplicar([x for x in validadas if x.get('status') == 'aberta_confirmada']):
         continuo = e.get('sem_data_final', False)
         fim = None if continuo else datetime.fromisoformat(e['prazo_iso'])
+        if fim and fim <= agora:
+            continue
+        inicio = datetime.fromisoformat(e['inicio_iso']) if e.get('inicio_iso') else None
+        if (inicio and inicio > agora) or not verificacao_atual(e, agora):
+            continue
+        verificado = datetime.fromisoformat(e['verificado_em'])
+        validade = verificado + timedelta(hours=24 if continuo else 48)
+        if fim:
+            validade = min(validade, fim)
         saida.append({'t': e['titulo'], 'o': e['instituicao'], 'tipo': e['tipo'],
             'est': e['estagio'], 'v': 0, 'prazo': e['prazo'],
             'd': None if continuo else (fim.date() - agora.date()).days, 'desc': e['descricao'], 'link': e.get('fonte_oficial', e['url']),
             'n': 1, 'r': 0, 'revisar': 0, 'status': e['modalidade_inscricao'] + '_aberta',
-            'requisitos': e['requisitos'], 'verificado_em': agora.isoformat(),
+            'requisitos': e['requisitos'], 'verificado_em': e['verificado_em'],
             'validado_automaticamente': True, 'prazo_iso': e['prazo_iso'],
-            'sem_data_final': continuo, 'verificacao_valida_ate': (agora + timedelta(hours=48)).isoformat(),
+            'sem_data_final': continuo, 'verificacao_valida_ate': validade.isoformat(),
             'evidencia_edicao': e['evidencia_edicao'],
             'evidencia_publico': e['evidencia_publico'], 'evidencia_prazo': e['evidencia_prazo']})
     return saida
@@ -279,6 +301,8 @@ def main():
     anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v10' else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
+                 (feitos[e['url']].get('status') == 'aberta_confirmada' and
+                  not verificacao_atual(feitos[e['url']], agora)) or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
                  (feitos[e['url']].get('status', '').startswith('pendente_') and
                   e['url'] in FONTES_OFICIAIS)]
@@ -288,6 +312,7 @@ def main():
     for e in lote:
         feitos[e['url']] = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
                             else validar_oficial(e, agora))
+        feitos[e['url']]['verificado_em'] = agora.isoformat()
     itens = list(feitos.values())
     relatorio = {'versao':'vigencia-v10', 'atualizado_em':agora.isoformat(), 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
