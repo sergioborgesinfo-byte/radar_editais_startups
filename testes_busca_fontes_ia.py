@@ -4,6 +4,16 @@ from datetime import datetime,timezone
 from busca_fontes_ia import BuscaFontes,links_citados
 
 class Busca(unittest.TestCase):
+    def test_cota_pausa_busca_entre_execucoes(self):
+        from urllib.error import HTTPError
+        def cota(_):raise HTTPError('https://api',429,'quota',{},None)
+        with tempfile.TemporaryDirectory() as t:
+            b=BuscaFontes(chamar=cota,caminho=t+'/cache.json')
+            b.buscar({'url':'https://a'},lambda _:True,datetime.now(timezone.utc))
+            proxima=BuscaFontes(chamar=cota,caminho=t+'/cache.json')
+            self.assertEqual(proxima.parada,'busca_cota_em_pausa')
+            proxima.buscar({'url':'https://b'},lambda _:True,datetime.now(timezone.utc))
+            self.assertEqual(proxima.chamadas,0)
     def test_usa_apenas_citacoes_e_fontes_oficiais(self):
         r={'candidates':[{'content':{'parts':[{'text':'https://inventado.gov.br'}]},
            'groundingMetadata':{'groundingChunks':[{'web':{'uri':'https://blog.com'}},

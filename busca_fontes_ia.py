@@ -31,6 +31,11 @@ class BuscaFontes:
         self.path=Path(caminho)
         try:self.cache=json.loads(self.path.read_text())
         except (OSError,ValueError):self.cache={}
+        pausa=self.cache.get('__pausa__',{}).get('ate')
+        if pausa:
+            try:
+                if datetime.now().astimezone()<datetime.fromisoformat(pausa):self.parada='busca_cota_em_pausa'
+            except (ValueError,TypeError):pass
 
     def redirecionar(self,url):
         with urlopen(Request(url,headers={'User-Agent':'Radar-startups'}),timeout=15) as r:return r.url
@@ -62,6 +67,7 @@ class BuscaFontes:
             codigo=getattr(erro,'code',None)
             self.erros.append({'tipo':type(erro).__name__,'codigo':codigo})
             if codigo in (401,403,404,429):self.parada='busca_http_'+str(codigo)
+            if codigo==429:self.cache['__pausa__']={'ate':(agora+timedelta(hours=6)).isoformat()}
             self.cache[url]={'em':(agora-timedelta(days=6)).isoformat(),'fontes':[]}
             print('Busca de fontes falhou: '+type(erro).__name__+' '+str(codigo),flush=True)
             if hasattr(erro,'close'):erro.close()
