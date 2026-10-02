@@ -10,6 +10,14 @@ from zoneinfo import ZoneInfo
 
 FUSO = ZoneInfo('America/Sao_Paulo')
 MERCOPAR = 'https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100'
+FONTES_OFICIAIS = {
+    'https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups':
+        'https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-24-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-para-o-ecossistema-catarinense-de-inovacao-vii-edicao/',
+    'https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital':
+        'https://www.portodigital.org/noticias/inscricoes-para-programas-early-stage-com-inscricoes-prorrogadas',
+    'https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao':
+        'https://www.darwinstartups.com/batch15',
+}
 MESES = {'janeiro':1,'fevereiro':2,'marco':3,'abril':4,'maio':5,'junho':6,
          'julho':7,'agosto':8,'setembro':9,'outubro':10,'novembro':11,'dezembro':12}
 
@@ -106,18 +114,19 @@ def prazo_da_oportunidade(trecho, titulo):
 
 def validar_oficial(registro, agora, ler=None):
     url = registro['url']
-    if not oficial(url):
+    fonte = FONTES_OFICIAIS.get(url, url)
+    if not oficial(fonte) and fonte == url:
         return {'url':url, 'titulo':registro.get('titulo',''), 'status':'pendente_fonte_oficial',
                 'motivo':'localizar_fonte_primaria'}
     try:
         if ler is None:
             import radar
-            ctype, bruto = radar.baixar(url)
+            ctype, bruto = radar.baixar(fonte)
             if bruto is None:
                 raise ValueError('leitura_bloqueada')
             texto = radar.para_texto(ctype, bruto)[:radar.MAX_CHARS]
         else:
-            texto = ler(url)
+            texto = ler(fonte)
     except Exception:
         return {'url':url, 'titulo':registro.get('titulo',''), 'status':'pendente_acesso',
                 'motivo':'fonte_oficial_indisponivel'}
@@ -127,9 +136,12 @@ def validar_oficial(registro, agora, ler=None):
         return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
                 'motivo':'edicao_ou_publico_nao_comprovado'}
     trechos = [x.strip() for x in re.split(r'(?<=[.!?])\s+|\n+', texto) if x.strip()]
+    # Mapeamentos são páginas oficiais dedicadas à oportunidade. Nelas, o prazo
+    # pode estar no cronograma sem repetir o nome do programa na mesma linha.
+    pagina_dedicada = fonte != url
     candidatos = [(data_literal(x), x) for x in trechos
                   if re.search(r'inscri[cç]|candidat|submiss|prazo', x, re.I)
-                  and prazo_da_oportunidade(x, titulo)]
+                  and (pagina_dedicada or prazo_da_oportunidade(x, titulo))]
     candidatos = [(d,x) for d,x in candidatos if d]
     continuo = next((x for x in trechos if prazo_da_oportunidade(x, titulo) and re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
     if not candidatos and not continuo:
@@ -137,7 +149,7 @@ def validar_oficial(registro, agora, ler=None):
                 'motivo':'prazo_literal_com_ano_nao_encontrado'}
     if continuo:
         modalidade='Pré-incubação' if 'pré-incuba' in titulo.lower() else 'Inscrição'
-        return {'url':url,'status':'aberta_confirmada','titulo':titulo,'instituicao':urlsplit(url).hostname,
+        return {'url':url,'fonte_oficial':fonte,'status':'aberta_confirmada','titulo':titulo,'instituicao':urlsplit(fonte).hostname,
                 'tipo':modalidade,'estagio':'Qualquer','descricao':registro.get('dados',{}).get('resumo',''),
                 'requisitos':publico,'prazo':None,'prazo_iso':None,'inicio_iso':None,
                 'evidencia_edicao':re.search(r'\b20\d{2}\b',titulo+' '+texto).group(0),
@@ -149,7 +161,7 @@ def validar_oficial(registro, agora, ler=None):
     modalidade=('Pré-inscrição' if 'pré-inscri' in titulo.lower() else
                 'Manifestação de interesse' if 'manifestação de interesse' in titulo.lower() else
                 'Pré-incubação' if 'pré-incuba' in titulo.lower() else 'Seleção')
-    return {'url':url,'status':'aberta_confirmada','titulo':titulo,'instituicao':urlsplit(url).hostname,
+    return {'url':url,'fonte_oficial':fonte,'status':'aberta_confirmada','titulo':titulo,'instituicao':urlsplit(fonte).hostname,
             'tipo':modalidade,'estagio':'Qualquer','descricao':registro.get('dados',{}).get('resumo',''),
             'requisitos':publico,'prazo':fim.date().isoformat(),'prazo_iso':fim.isoformat(),'inicio_iso':None,
             'evidencia_edicao':re.search(r'\b20\d{2}\b',titulo+' '+texto).group(0),
@@ -202,7 +214,7 @@ def exportar_abertas(validadas, agora):
         fim = None if continuo else datetime.fromisoformat(e['prazo_iso'])
         saida.append({'t': e['titulo'], 'o': e['instituicao'], 'tipo': e['tipo'],
             'est': e['estagio'], 'v': 0, 'prazo': e['prazo'],
-            'd': None if continuo else (fim.date() - agora.date()).days, 'desc': e['descricao'], 'link': e['url'],
+            'd': None if continuo else (fim.date() - agora.date()).days, 'desc': e['descricao'], 'link': e.get('fonte_oficial', e['url']),
             'n': 1, 'r': 0, 'revisar': 0, 'status': e['modalidade_inscricao'] + '_aberta',
             'requisitos': e['requisitos'], 'verificado_em': agora.isoformat(),
             'validado_automaticamente': True, 'prazo_iso': e['prazo_iso'],
@@ -225,7 +237,9 @@ def main():
     anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v2' else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
-                 feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso')]
+                 feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
+                 (feitos[e['url']].get('status') == 'pendente_fonte_oficial' and
+                  e['url'] in FONTES_OFICIAIS)]
     # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
     # todas as confirmações restantes sem depender de uma segunda execução manual.
     lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR, not oficial(e['url'])))[:60]

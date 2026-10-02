@@ -72,4 +72,14 @@ class Vigencia(unittest.TestCase):
         self.assertEqual(v['status'],'encerrada')
         self.assertIn('31/08/2026',v['evidencia_prazo'])
 
+    def test_fonte_oficial_mapeada_usa_cronograma_da_pagina_dedicada(self):
+        r={'url':'https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao',
+           'titulo':'Darwin Startups abre inscrições para 15ª turma de aceleração',
+           'dados':{'trecho_publico':'Programa de aceleração para startups'}}
+        acessada=[]
+        v=validar_oficial(r,datetime(2026,10,2,12,tzinfo=FUSO),
+            lambda u:(acessada.append(u) or 'Batch #15 Darwin Startups 2026. Inscrições: de 26 de agosto a 25 de setembro de 2026.'))
+        self.assertIn('darwinstartups.com/batch15',acessada[0])
+        self.assertEqual(v['status'],'encerrada')
+
 if __name__=='__main__': unittest.main()
