@@ -1,16 +1,16 @@
 {
-  "executado_em": "2026-10-01T18:41:20.896387+00:00",
+  "executado_em": "2026-10-02T06:09:27.435942+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
-  "links_recebidos": 973,
-  "paginas_agrupadas": 973,
-  "duplicacoes_de_url": 0,
+  "links_recebidos": 1210,
+  "paginas_agrupadas": 1209,
+  "duplicacoes_de_url": 1,
   "contagem": {
-    "prioridade_verificacao": 344,
-    "revisar_contexto": 570,
+    "prioridade_verificacao": 414,
+    "revisar_contexto": 725,
     "fora_escopo": 3,
-    "fonte_catalogo": 56
+    "fonte_catalogo": 67
   },
-  "programas_sebrae": 47,
+  "programas_sebrae": 49,
   "itens": [
     {
       "titulo": "Embraer Startup Program",
@@ -64,6 +64,16 @@
     },
     {
       "titulo": "BNDES Garagem - BNDES",
+      "url": "http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups/garagem-chamada-publica-aceleradora-segunda-edicao",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups/garagem-chamada-publica-aceleradora-segunda-edicao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BNDES Garagem - BNDES",
       "url": "http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups/rede-bndes-garagem",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -93,6 +103,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Embraer brings together startups from all over Brazil to promote innovation and process efficiency",
+      "url": "http://www.embraer.com/media-center/en?mediatype=NEWS&detail=13310",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "http://www.embraer.com/media-center/en?mediatype=NEWS&detail=13310"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "ANÁLISE CRÍTICA DA METODOLOGIA LEAN STARTUP ...",
       "url": "http://www.monografias.poli.ufrj.br/monografias/monopoli10032351.pdf",
       "categoria": "fora_escopo",
@@ -113,12 +133,22 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Gerdau e FIEMG Lab buscam startups para resolver desafios",
+      "titulo": "Gerdau e FIEMG Lab buscam startups para resolver desafios - ABES",
       "url": "https://abes.org.br/en/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://abes.org.br/en/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "7 programas de fomento para empreendedores ficarem de olho - Abstartups",
+      "url": "https://abstartups.com.br/7-programas-de-fomento-para-empreendedores-ficarem-de-olho",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://abstartups.com.br/7-programas-de-fomento-para-empreendedores-ficarem-de-olho"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -143,6 +173,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "FAPESP simplifica submissão de propostas ao PIPE",
+      "url": "https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
       "url": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
       "categoria": "prioridade_verificacao",
@@ -153,7 +193,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Incubadora de startups da bioeconomia amazônica é ...",
+      "titulo": "Incubadora de startups da bioeconomia amazônica é lançada no Pará | ASN Nacional - Agência Sebrae de Notícias",
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
@@ -203,6 +243,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Startups alcançam novos mercados por meio do programa de aceleração Startup Nordeste Piauí | ASN Nacional - Agência Sebrae de Notícias",
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-alcancam-novos-mercados-por-meio-do-programa-de-aceleracao-startup-nordeste-piaui",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-alcancam-novos-mercados-por-meio-do-programa-de-aceleracao-startup-nordeste-piaui"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões | ASN Nacional - Agência Sebrae de Notícias",
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
       "categoria": "prioridade_verificacao",
@@ -219,6 +269,26 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Programa Natura Startups está com inscrições abertas | - Agora RN",
+      "url": "https://agorarn.com.br/coluna/programa-natura-startups-esta-com-inscricoes-abertas",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://agorarn.com.br/coluna/programa-natura-startups-esta-com-inscricoes-abertas"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Startups comemoram aceleração após participação em programa do Sebrae | ASN Alagoas - Agência Sebrae de Notícias",
+      "url": "https://al.agenciasebrae.com.br/inovacao-e-tecnologia/startups-comemoram-aceleracao-apos-participacao-em-programa-do-sebrae",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://al.agenciasebrae.com.br/inovacao-e-tecnologia/startups-comemoram-aceleracao-apos-participacao-em-programa-do-sebrae"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -463,12 +533,22 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Governo Federal lança Comitê Nacional para fortalecer ...",
+      "titulo": "Governo Federal lança Comitê Nacional para fortalecer políticas de apoio às startups e ao empreendedorismo inovador - Anprotec",
       "url": "https://anprotec.org.br/site/2026/08/governo-federal-lanca-comite-nacional-para-fortalecer-politicas-de-apoio-as-startups-e-ao-empreendedorismo-inovador",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://anprotec.org.br/site/2026/08/governo-federal-lanca-comite-nacional-para-fortalecer-politicas-de-apoio-as-startups-e-ao-empreendedorismo-inovador"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Parque Tecnológico Horizontes de Inovação do Governo da Paraíba abre dois editais para startups - Anprotec",
+      "url": "https://anprotec.org.br/site/2026/09/parque-tecnologico-horizontes-de-inovacao-do-governo-da-paraiba-abre-dois-editais-para-startups",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://anprotec.org.br/site/2026/09/parque-tecnologico-horizontes-de-inovacao-do-governo-da-paraiba-abre-dois-editais-para-startups"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -509,6 +589,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://aragonedih.eu/en/funding/x-2-0-driving-deep-tech-growth-healthtech-biotech"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Estos son los desafíos más comunes en startups",
+      "url": "https://aragonemprende.com/los-desafios-mas-comunes-en-startups",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://aragonemprende.com/los-desafios-mas-comunes-en-startups"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -563,7 +653,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Para se tornar um “mapinguari”, startups da Amazônia ...",
+      "titulo": "PPBIO - Idesam",
       "url": "https://bioeconomia.org.br/para-se-tornar-um-mapinguari-startups-da-amazonia-desafiam-o-modelo-tradicional-de-negocios",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -579,6 +669,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Habitat e Biominas Brasil estão com inscrições abertas para seleção de novas empresas para seu programa de incubação – Biominas Brasil",
+      "url": "https://biominas.org.br/habitat-e-biominas-brasil-estao-com-inscricoes-abertas-para-selecao-de-novas-empresas-para-seu-programa-de-incubacao",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://biominas.org.br/habitat-e-biominas-brasil-estao-com-inscricoes-abertas-para-selecao-de-novas-empresas-para-seu-programa-de-incubacao"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -599,6 +699,26 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://blog.cubo.itau/inovacao-aberta"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Cinco anos de Google for Startups no Brasil: celebrando a evolução do ecossistema e a reinvenção do cotidiano",
+      "url": "https://blog.google/intl/pt-br/novidades/iniciativas/cinco-anos-de-google-for-startups-no",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://blog.google/intl/pt-br/novidades/iniciativas/cinco-anos-de-google-for-startups-no"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Hubs de inovação: uma nova oportunidade para o Rio de Janeiro",
+      "url": "https://blogdodesenvolvimento.bndes.gov.br/categoria/industria-e-comercio-exterior/Hubs-de-inovacao-uma-nova-oportunidade-para-o-Rio-de-Janeiro",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://blogdodesenvolvimento.bndes.gov.br/categoria/industria-e-comercio-exterior/Hubs-de-inovacao-uma-nova-oportunidade-para-o-Rio-de-Janeiro"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -639,6 +759,26 @@
       "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
       "links_equivalentes": [
         "https://br.linkedin.com/in/startupindustria"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Endeavor Brasil - Dream bigger. Scale faster. Pay it forward.",
+      "url": "https://brasil.endeavor.org/",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://brasil.endeavor.org/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Grupo Equatorial abre programa de inovação para startups | Editora Brasil Energia",
+      "url": "https://brasilenergia.com.br/energia/empresas/grupo-equatorial-abre-programa-de-inovacao-para-startups",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://brasilenergia.com.br/energia/empresas/grupo-equatorial-abre-programa-de-inovacao-para-startups"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -783,12 +923,52 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "CitzTech",
+      "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
+      "url": "https://cedeprogram.com/startupventure",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://cedeprogram.com/startupventure"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ",
+      "url": "https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Bolsista em Gestão de Inovação e inovação Aberta, CERTI | Powered by Plooral",
+      "url": "https://certi.enlizt.me/vagas/bolsista_em_gestao_de_inovacao_e_inovacao_aberta-220426",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://certi.enlizt.me/vagas/bolsista_em_gestao_de_inovacao_e_inovacao_aberta-220426"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "CitzTech – Fundação CERTI",
       "url": "https://certi.org.br/citztech",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://certi.org.br/citztech"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Quer empreender? Não perca esta oportunidade da InovAtiva Brasil – CFA",
+      "url": "https://cfa.org.br/quer-empreender-nao-perca-esta-oportunidade-da-inovativa-brasil",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://cfa.org.br/quer-empreender-nao-perca-esta-oportunidade-da-inovativa-brasil"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -799,6 +979,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://ciia.org.br/inovacao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Três startups do CRIO são selecionadas para programa de aceleração - Circulando.net",
+      "url": "https://circulando.net/artigo/tres-startups-do-crio-sao-selecionadas-para-programa-de-aceleracao",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://circulando.net/artigo/tres-startups-do-crio-sao-selecionadas-para-programa-de-aceleracao"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -903,6 +1093,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Brazil Startup Credits: 46 Programs Compared",
+      "url": "https://creditforstartups.com/brazil-startup-credits",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://creditforstartups.com/brazil-startup-credits"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "20 editais que financiam ideias inovadoras no Brasil em 2026 - Crédito Empreendedor - Buscador de Empréstimo pra CNPJ",
       "url": "https://creditoempreendedor.com.br/editais-de-inovacao/20-editais-que-financiam-ideias-inovadoras-no-brasil-em-2026",
       "categoria": "revisar_contexto",
@@ -923,7 +1123,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "El ecosistema de innovación de América Latina",
+      "titulo": "Cubo Itaú - El ecosistema de innovación de América Latina",
       "url": "https://cubo.itau/es",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -949,6 +1149,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://dceo.illinois.gov/expandrelocate/incentives/edge-for-startups.html"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Sebrae tem programa para acelerar startups - Diário dos Campos",
+      "url": "https://dcmais.com.br/brasil/sebrae-tem-programa-para-acelerar-startups",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://dcmais.com.br/brasil/sebrae-tem-programa-para-acelerar-startups"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1013,6 +1223,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Incubadora Desavexe",
+      "url": "https://desavexe.org.br/",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://desavexe.org.br/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Concurso Desavexe 2026 | Inovação, Startups e Incubação",
       "url": "https://desavexe.org.br/concurso",
       "categoria": "prioridade_verificacao",
@@ -1043,6 +1263,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Startup Challenge Parque Arauco | Desafíos Abiertos | Dirección General de Investigación Innovación y Desarrollo",
+      "url": "https://dgiie.usm.cl/concursos/startup-challenge-desafios-abiertos",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://dgiie.usm.cl/concursos/startup-challenge-desafios-abiertos"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Notícias e Prêmios - DIPPG",
       "url": "https://dippg.cefet-rj.br/index.php/pt/noticias-e-premios",
       "categoria": "prioridade_verificacao",
@@ -1058,7 +1288,18 @@
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
-        "https://distrito.me/blog/aceleradora-de-startups-no-brasil"
+        "https://distrito.me/blog/aceleradora-de-startups-no-brasil",
+        "https://www.distrito.me/blog/aceleradora-de-startups-no-brasil"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Innpulse Forum 2025",
+      "url": "https://doity.com.br/innpulse-forum-2025",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://doity.com.br/innpulse-forum-2025"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1099,6 +1340,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://economiasc.com/2026/07/27/avisa-app-e-selecionada-para-o-brde-labs-com-crescimento-bootstrap"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "ECT&I | Ecossistema",
+      "url": "https://ecti.ac.gov.br/",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://ecti.ac.gov.br/"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1173,6 +1424,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Embrapii e Sebrae | Apoio à inovação para MPMEs",
+      "url": "https://embrapii.org.br/sebrae",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://embrapii.org.br/sebrae"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Empreendedorismo SECTI",
       "url": "https://empreendedorismo.secti.al.gov.br/",
       "categoria": "fonte_catalogo",
@@ -1183,12 +1444,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Startups goianas são selecionadas para programa nacional - Empreender em Goiás",
+      "url": "https://empreenderemgoias.com.br/2026/05/18/startups-goianas-sao-selecionadas-para-programa-nacional",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://empreenderemgoias.com.br/2026/05/18/startups-goianas-sao-selecionadas-para-programa-nacional"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Natura - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Natura",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://en.wikipedia.org/wiki/Natura"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Oportunidades - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Oportunidades",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://en.wikipedia.org/wiki/Oportunidades"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1209,6 +1490,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "StartUp Challenge: abren convocatoria para emprendimientos de energías renovables",
+      "url": "https://es-us.finanzas.yahoo.com/noticias/startup-challenge-abren-convocatoria-emprendimientos-181500905.html",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://es-us.finanzas.yahoo.com/noticias/startup-challenge-abren-convocatoria-emprendimientos-181500905.html"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1263,6 +1554,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "EIT – inovação e tecnologia | União Europeia",
+      "url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-institute-innovation-and-technology-eit_pt",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-institute-innovation-and-technology-eit_pt"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "BNDES Garagem abre inscrições para programa de aceleração de startups e negócios de impacto | Exame",
       "url": "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto",
       "categoria": "prioridade_verificacao",
@@ -1283,10 +1584,10 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Startups incubadas no Senac são selecionadas para ...",
+      "titulo": "Startups incubadas no Senac são selecionadas para programa de aceleração | Faculdade Senac Pernambuco",
       "url": "https://faculdadesenacpe.edu.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://faculdadesenacpe.edu.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao"
       ],
@@ -1363,6 +1664,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
+      "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 03/2026 PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS VI EDIÇÃO SUPER PITCH DAY – Fapesc",
       "url": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-003-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-vi-edicao-super-pitch-day",
       "categoria": "prioridade_verificacao",
@@ -1433,6 +1744,36 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Fapto - Notícia de 12/01/2026",
+      "url": "https://fapto.org.br/Site/Noticia/Visualizar?uid=NjY5",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapto.org.br/Site/Noticia/Visualizar?uid=NjY5"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups - FAU",
+      "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Startups brasileiras cruzam fronteiras e transformam missão do BretA2026 em ponte de negócios com a Argentina - Sistema Fecomércio",
+      "url": "https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Founder Institute, World's Largest AI-Native Company Builder",
       "url": "https://fi.co/",
       "categoria": "fonte_catalogo",
@@ -1449,6 +1790,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://fi.co/apply/11257"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Founder Institute: World's largest pre-seed startup accelerator.",
+      "url": "https://fi.co/apply/11449",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/apply/11449"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1583,7 +1934,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Aprendizados para quem quer empreender em educação",
+      "titulo": "Aprendizados para quem quer empreender em educação - Fundação Lemann",
       "url": "https://fundacaolemann.org.br/noticias/aprendizados-para-quem-quer-empreender-em-educacao",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -1593,7 +1944,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Desafio Start-Ed",
+      "titulo": "Desafio Start-Ed - Fundação Lemann",
       "url": "https://fundacaolemann.org.br/noticias/desafio-start-ed",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
@@ -1603,12 +1954,32 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Tecnologia para uma educação mais inclusiva",
+      "titulo": "Tecnologia para uma educação mais inclusiva - Fundação Lemann",
       "url": "https://fundacaolemann.org.br/noticias/tecnologia-para-uma-educacao-mais-inclusiva",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://fundacaolemann.org.br/noticias/tecnologia-para-uma-educacao-mais-inclusiva"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Pelo futuro agora - Fundação Lemann",
+      "url": "https://fundacaolemann.org.br/pelo-futuro-agora",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fundacaolemann.org.br/pelo-futuro-agora"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "List of Recently Funded Startups in the USA (2026) - Fundraise Insider",
+      "url": "https://fundraiseinsider.com/blog/funded-startups-united-states",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fundraiseinsider.com/blog/funded-startups-united-states"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1619,6 +1990,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://funtefpr.org.br/2026/07/01/conheca-o-conexoes-para-inovacao-petrobras"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Aceleração de startups: Sebrae Roraima lança novo programa | G1",
+      "url": "https://g1.globo.com/rr/roraima/especial-publicitario/sebrae-roraima-onde-tem-empreendedor-tem-sebrae/noticia/2026/06/10/aceleracao-de-startups-sebrae-roraima-lanca-novo-programa.ghtml",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://g1.globo.com/rr/roraima/especial-publicitario/sebrae-roraima-onde-tem-empreendedor-tem-sebrae/noticia/2026/06/10/aceleracao-de-startups-sebrae-roraima-lanca-novo-programa.ghtml"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1673,7 +2054,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Como montar uma equipe de atendimento de alta ...",
+      "titulo": "Como montar uma equipe de atendimento de alta performance - GestãoClick",
       "url": "https://gestaoclick.com.br/blog/como-montar-uma-equipe-de-atendimento-de-alta-performance",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -1693,7 +2074,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Fintechs: entenda o que são e qual a importância para ...",
+      "titulo": "Fintechs: entenda o que são e qual a importância para o Brasil - GestãoClick",
       "url": "https://gestaoclick.com.br/blog/conheca-mais-sobre-fintech",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -1723,7 +2104,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Gestão de tempo para empreendedores: 6 dicas",
+      "titulo": "Gestão de tempo para empreendedores: 6 dicas - GestãoClick",
       "url": "https://gestaoclick.com.br/blog/melhorar-gestao-de-tempo-empresarios",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -1733,7 +2114,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Mentalidade de crescimento: desenvolva na sua empresa",
+      "titulo": "Mentalidade de crescimento: desenvolva na sua empresa - GestãoClick",
       "url": "https://gestaoclick.com.br/blog/mentalidade-de-crescimento",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -1753,12 +2134,32 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Novas oportunidades para startup",
+      "titulo": "Novas oportunidades para startup - GestãoClick",
       "url": "https://gestaoclick.com.br/blog/novas-oportunidades-para-startup",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://gestaoclick.com.br/blog/novas-oportunidades-para-startup"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Startups goianas mostram que Goiás é um celeiro de inovação no Capital Empreendedor | ASN Goiás - Agência Sebrae de Notícias",
+      "url": "https://go.agenciasebrae.com.br/inovacao-e-tecnologia/startups-goianas-mostram-que-goias-e-um-celeiro-de-inovacao-no-capital-empreendedor",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://go.agenciasebrae.com.br/inovacao-e-tecnologia/startups-goianas-mostram-que-goias-e-um-celeiro-de-inovacao-no-capital-empreendedor"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Créditos em nuvem para Startups - Conheça alguns programas - GoCache",
+      "url": "https://gocache.com.br/nao-categorizado/creditos-em-nuvem-para-startups-conheca-alguns-programas",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://gocache.com.br/nao-categorizado/creditos-em-nuvem-para-startups-conheca-alguns-programas"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1769,6 +2170,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://goias.gov.br/inovacao/govtech"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Startups – Secretaria de Estado de Ciência, Tecnologia e Inovação",
+      "url": "https://goias.gov.br/inovacao/startups",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://goias.gov.br/inovacao/startups"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1903,6 +2314,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "EPICENTRO – HUB GOIÁS",
+      "url": "https://hubgoias.org/epicentro",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://hubgoias.org/epicentro"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "1.Edital_Chamamento_Solucionadoras_Edital 01/2026.docx",
       "url": "https://hubgoias.org/wp-content/uploads/2026/01/1.Edital_Chamamento_Solucionadoras_Edital-01_2026.docx-1.pdf",
       "categoria": "prioridade_verificacao",
@@ -1923,12 +2344,22 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Gerdau launches new open innovation challenge to ...",
+      "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence - IBRAM",
       "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Gerdau y FIEMG Lab buscan startups para resolver los desafíos de IBRAM.",
+      "url": "https://ibram.org.br/es/noticia/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://ibram.org.br/es/noticia/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1959,6 +2390,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil - Impacta Nordeste",
+      "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2053,6 +2494,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Gerdau Challenge FIEMG Lab - Oportunidade para Startups - Universidade Federal do ABC",
+      "url": "https://inova.ufabc.edu.br/noticias/9049-gerdau-challenge-fiemg-lab-oportunidade-para-startups",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://inova.ufabc.edu.br/noticias/9049-gerdau-challenge-fiemg-lab-oportunidade-para-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Home - Desafio Unicamp",
       "url": "https://inova.unicamp.br/desafio",
       "categoria": "prioridade_verificacao",
@@ -2069,6 +2520,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://inovae.cofenplay.com.br/oportunidades/chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-pernambuco-pro-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "4 das 15 startups mineiras selecionadas para Programa de Internacionalização do Sebrae são vinculadas à INCIT – INOVAI",
+      "url": "https://inovai.org.br/4-das-15-startups-mineiras-selecionadas-para-programa-de-internacionalizacao-do-sebrae-sao-vinculadas-a-incit",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://inovai.org.br/4-das-15-startups-mineiras-selecionadas-para-programa-de-internacionalizacao-do-sebrae-sao-vinculadas-a-incit"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2103,6 +2564,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Conecta Caldeira reúne 7 desafios de inovação aberta ...",
+      "url": "https://institutocaldeira.org.br/blog/conecta-caldeira-reune-7-desafios-de-inovacao-aberta-de-grandes-empresas-veja-como-inscrever-sua-startup",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://institutocaldeira.org.br/blog/conecta-caldeira-reune-7-desafios-de-inovacao-aberta-de-grandes-empresas-veja-como-inscrever-sua-startup"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Estão abertas as inscrições para o Conecta, programa ...",
+      "url": "https://institutocaldeira.org.br/blog/estao-abertas-as-inscricoes-para-o-conecta-programa-promovido-pelo-instituto-caldeira",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://institutocaldeira.org.br/blog/estao-abertas-as-inscricoes-para-o-conecta-programa-promovido-pelo-instituto-caldeira"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Meta Ventures lança desafio para internacionalização de ...",
       "url": "https://institutocaldeira.org.br/blog/meta-ventures-lanca-desafio-para-internacionalizacao-de-startups",
       "categoria": "prioridade_verificacao",
@@ -2129,6 +2610,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://institutocaldeira.org.br/programas/inscricao-startup-hunting"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instituto Caldeira — Conexões que aceleram a transformação",
+      "url": "https://institutocaldeira.org/",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://institutocaldeira.org/"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2173,6 +2664,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "ABDI divulga lista das selecionadas para a segunda fase do Conexão Startup Indústria - IT Forum",
+      "url": "https://itforum.com.br/noticias/abdi-divulga-lista-das-selecionadas-para-segunda-fase-do-conexao-startup-industria",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://itforum.com.br/noticias/abdi-divulga-lista-das-selecionadas-para-segunda-fase-do-conexao-startup-industria"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Abertas inscrições para a 11ª rodada de aceleração de startups da WOW - IT Forum",
       "url": "https://itforum.com.br/noticias/abertas-inscricoes-para-11a-rodada-de-aceleracao-de-startups-da-wow?amp=1",
       "categoria": "prioridade_verificacao",
@@ -2183,12 +2684,52 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Aceleradora seleciona startups brasileiras para programa internacional - IT Forum",
+      "url": "https://itforum.com.br/noticias/aceleradora-seleciona-startups-brasileiras-para-programa-de-internacional",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://itforum.com.br/noticias/aceleradora-seleciona-startups-brasileiras-para-programa-de-internacional"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Natura busca startups de beleza para programa de aceleração voltado à inovação e crescimento na América Latina - IT Forum",
       "url": "https://itforum.com.br/noticias/natura-busca-startups-programa-aceleracao",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://itforum.com.br/noticias/natura-busca-startups-programa-aceleracao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Gerdau",
+      "url": "https://jobs.gerdau.com/?locale=es_MX",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://jobs.gerdau.com/?locale=es_MX"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Jornada para Negócios Inovadores em Tecnologia - Joint",
+      "url": "https://jointacelera.com.br/",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://jointacelera.com.br/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
+      "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2209,6 +2750,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Hub Goiás recebe startups de todo o Brasil para imersão intensiva em IA | Jornal Digital",
+      "url": "https://jornaldigital.recife.br/2026/05/11/hub-goias-recebe-startups-de-todo-o-brasil-para-imersao-intensiva-em-ia",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://jornaldigital.recife.br/2026/05/11/hub-goias-recebe-startups-de-todo-o-brasil-para-imersao-intensiva-em-ia"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2353,6 +2904,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Do Paraná Para O Mundo: Lions Aposta Em Startups Em Estágio Inicial Para Formar A Próxima Geração De Unicórnios - Lions Startups",
+      "url": "https://lionsstartups.com.br/do-parana-para-o-mundo-lions-aposta-em-startups-em-estagio-inicial-para-formar-a-proxima-geracao-de-unicornios",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://lionsstartups.com.br/do-parana-para-o-mundo-lions-aposta-em-startups-em-estagio-inicial-para-formar-a-proxima-geracao-de-unicornios"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "2025 Cubo Startup Badge",
       "url": "https://lp.cubo.network/en/startup-badge",
       "categoria": "revisar_contexto",
@@ -2433,6 +2994,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Feira de Negócios - Programa Centelha 2 PI",
+      "url": "https://materiais.programacentelha.com.br/pi-3-workshop-vf",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://materiais.programacentelha.com.br/pi-3-workshop-vf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Oportunidade: Sebrae Minas abre editais para programa de aceleração de startups na Europa e imersão em Dubai | ASN Minas Gerais - Agência Sebrae de Notícias",
       "url": "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/oportunidade-sebrae-minas-abre-editais-para-programa-de-aceleracao-de-startups-na-europa-e-imersao-em-dubai",
       "categoria": "prioridade_verificacao",
@@ -2453,6 +3024,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Sebrae Minas abre edital para atração de startups e soluções inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias",
+      "url": "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-minas-abre-edital-para-atracao-de-startups-e-solucoes-inovadoras",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-minas-abre-edital-para-atracao-de-startups-e-solucoes-inovadoras"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Crédito do BNDES ainda esbarra em entraves burocráticos | Monitor Mercantil",
       "url": "https://monitormercantil.com.br/bndes-e-capital-de-giro-por-que-tantas-empresas-aptas-ao-credito-ficam-pelo-caminho",
       "categoria": "revisar_contexto",
@@ -2463,12 +3044,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Startups de AL unem IA e impacto social e ganham projeção nacional",
+      "url": "https://movimentoeconomico.com.br/economia/negocios/2026/01/04/startups-de-al-unem-ia-e-impacto-social-e-ganham-projecao-nacional",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://movimentoeconomico.com.br/economia/negocios/2026/01/04/startups-de-al-unem-ia-e-impacto-social-e-ganham-projecao-nacional"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Porto Digital lança editais de incubação e internacionalização de negócios",
       "url": "https://movimentoeconomico.com.br/tecnologia/2026/02/10/porto-digital-lanca-editais-de-incubacao-e-internacionalizacao-de-negocios",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://movimentoeconomico.com.br/tecnologia/2026/02/10/porto-digital-lanca-editais-de-incubacao-e-internacionalizacao-de-negocios"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
+      "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2503,12 +3104,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Pré-aceleração e incubação de empresas - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia",
+      "url": "https://multiplicidades.org.br/pre-aceleracao-e-incubacao-de-empresas",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://multiplicidades.org.br/pre-aceleracao-e-incubacao-de-empresas"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "BNDES Garagem: conheça esse programa voltado para as startups – Núcleo de acesso ao crédito",
       "url": "https://nac.cni.com.br/blog/bndes-garagem-conheca-esse-programa-voltado-para-as-startups",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://nac.cni.com.br/blog/bndes-garagem-conheca-esse-programa-voltado-para-as-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Programa apoia novas startups de tecnologia em educação | Na Prática",
+      "url": "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2529,6 +3150,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Programas para startups: mentoria e imersões | NewHack",
+      "url": "https://newhack.vc/programas-para-startups",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://newhack.vc/programas-para-startups"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2623,6 +3254,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Mapeamento das startups do Tocantins | Revista DCS",
+      "url": "https://ojs.revistadcs.com/index.php/revista/article/view/5824",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://ojs.revistadcs.com/index.php/revista/article/view/5824"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Aceleração – Open Innovation Lab",
+      "url": "https://openinnovationlab.org.br/aceleracao",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://openinnovationlab.org.br/aceleracao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Oportunidades de Impacto",
       "url": "https://oportunidadesdeimpacto.com.br/",
       "categoria": "fonte_catalogo",
@@ -2673,12 +3324,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Embrapii oferece oportunidade de cooperação internacional para pequenas empresas e startups",
+      "url": "https://pesquisaparainovacao.fapesp.br/embrapii_oferece_oportunidade_de_cooperacao_internacional_para_pequenas_empresas_e_startups/2086",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pesquisaparainovacao.fapesp.br/embrapii_oferece_oportunidade_de_cooperacao_internacional_para_pequenas_empresas_e_startups/2086"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "FIEMG Lab abre inscrições para sua primeira jornada de aceleração",
       "url": "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Meta seleciona startups voltadas à cidadania e transparência",
+      "url": "https://pesquisaparainovacao.fapesp.br/meta_seleciona_startups_voltadas_a_cidadania_e_transparencia/2377",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pesquisaparainovacao.fapesp.br/meta_seleciona_startups_voltadas_a_cidadania_e_transparencia/2377"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2709,6 +3380,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BRSR3 | Banco do Estado do Rio Grande do Sul SA Stock Price - Investing.com PH",
+      "url": "https://ph.investing.com/equities/banco-do-estado-do-rio-grande-do-su",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://ph.investing.com/equities/banco-do-estado-do-rio-grande-do-su"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2803,6 +3484,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Link Lab (ACATE) investment portfolio | PitchBook",
+      "url": "https://pitchbook.com/profiles/investor/340877-53",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pitchbook.com/profiles/investor/340877-53"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Inova Startups investment portfolio | PitchBook",
       "url": "https://pitchbook.com/profiles/investor/496751-32",
       "categoria": "revisar_contexto",
@@ -2849,6 +3540,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://platform.younoodle.com/competition/fiemg_lab_40_4a_jornada"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Tecnopuc Talks recibe a Steve Blank, referente del emprendimiento moderno | PUCRS",
+      "url": "https://portal.pucrs.br/es/noticias/innovaci%C3%B3n/Tecnopuc-Talks-recibe-a-Steve-Blank--el-principal-referente-internacional-en-emprendimiento-moderno",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://portal.pucrs.br/es/noticias/innovaci%C3%B3n/Tecnopuc-Talks-recibe-a-Steve-Blank--el-principal-referente-internacional-en-emprendimiento-moderno"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -3183,6 +3884,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Capital Empreendedor 2026 - Turma PR - Sebrae Startups",
+      "url": "https://programas.sebraestartups.com.br/in/capital-empreendedor-2026-turma-pr",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Página individual de programa Sebrae; regras ainda não verificadas",
+      "links_equivalentes": [
+        "https://programas.sebraestartups.com.br/in/capital-empreendedor-2026-turma-pr"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Capital Empreendedor 2026 - Turma GO - Sebrae Startups",
       "url": "https://programas.sebraestartups.com.br/in/capitalempreendedor-go26",
       "categoria": "prioridade_verificacao",
@@ -3283,7 +3994,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "A plataforma que é suporte e impulso para startups no Brasil.",
+      "titulo": "Feiras e Eventos 2026 - Sebrae Startups",
       "url": "https://programas.sebraestartups.com.br/in/feiras2026",
       "categoria": "prioridade_verificacao",
       "motivo": "Página individual de programa Sebrae; regras ainda não verificadas",
@@ -3379,6 +4090,16 @@
       "motivo": "Página individual de programa Sebrae; regras ainda não verificadas",
       "links_equivalentes": [
         "https://programas.sebraestartups.com.br/in/missaornneon2026"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "NEON 2026 - Startups expositoras",
+      "url": "https://programas.sebraestartups.com.br/in/neon-2026---startups-expositoras-1772814295688x347903356906245300",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Página individual de programa Sebrae; regras ainda não verificadas",
+      "links_equivalentes": [
+        "https://programas.sebraestartups.com.br/in/neon-2026---startups-expositoras-1772814295688x347903356906245300"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -3533,6 +4254,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Associação Brasil Internacional dos Inventores, Cientistas e ...",
+      "url": "https://pt.linkedin.com/posts/abipir-associa%C3%A7%C3%A3o-brasil-internacional-dos-inventores-cientistas-e-empreendedores-inovadores_oportunidade-para-startups-brasileiras-apresentarem-activity-7434308716801183745-MU5W",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pt.linkedin.com/posts/abipir-associa%C3%A7%C3%A3o-brasil-internacional-dos-inventores-cientistas-e-empreendedores-inovadores_oportunidade-para-startups-brasileiras-apresentarem-activity-7434308716801183745-MU5W"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "#scaleia #sebraestartups #ia #startups #inovacao",
       "url": "https://pt.linkedin.com/posts/alexsouzanet_scaleia-sebraestartups-ia-activity-7457913949540483073-BgJ_",
       "categoria": "revisar_contexto",
@@ -3569,6 +4300,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://pt.linkedin.com/posts/brasil-it-plus_startup-brasileira-premiada-activity-7506691653152227328-89ht"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Publicação de Carlos Magno",
+      "url": "https://pt.linkedin.com/posts/c4rl0sm4gn0_oportunidade-para-startups-com-solu%C3%A7%C3%B5es-de-activity-7452723949966360577-rlNT",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pt.linkedin.com/posts/c4rl0sm4gn0_oportunidade-para-startups-com-solu%C3%A7%C3%B5es-de-activity-7452723949966360577-rlNT"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -3663,6 +4404,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Agência de Inovação da Unicamp",
+      "url": "https://pt.linkedin.com/posts/inovaunicamp_as-inscri%C3%A7%C3%B5es-para-o-edge-call-for-startups-activity-7461113289150877696-KWiO",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pt.linkedin.com/posts/inovaunicamp_as-inscri%C3%A7%C3%B5es-para-o-edge-call-for-startups-activity-7461113289150877696-KWiO"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "#insper #hubpaulocunha #empreendedorismo #inovação ...",
       "url": "https://pt.linkedin.com/posts/insper-edu_insper-hubpaulocunha-empreendedorismo-activity-7474888608416555009-dk2P",
       "categoria": "revisar_contexto",
@@ -3723,6 +4474,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Publicação de SENAI Rio Claro",
+      "url": "https://pt.linkedin.com/posts/senairioclaro_chamada-de-acelera%C3%A7%C3%A3o-de-startups-para-gest%C3%A3o-activity-7447759339160813570-UbNK",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pt.linkedin.com/posts/senairioclaro_chamada-de-acelera%C3%A7%C3%A3o-de-startups-para-gest%C3%A3o-activity-7447759339160813570-UbNK"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "O UpLab | SENAI São Paulo oferece infraestrutura e ...",
       "url": "https://pt.linkedin.com/posts/senaisp_o-uplab-senai-s%C3%A3o-paulo-oferece-infraestrutura-activity-7415368500191662080-KgV-",
       "categoria": "revisar_contexto",
@@ -3763,12 +4524,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Publicação de The Next Big Idea",
+      "url": "https://pt.linkedin.com/posts/thenextbigidea_a-f%C3%A1brica-de-startups-sa-com-o-apoio-activity-7474008336284327936-6rZW",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pt.linkedin.com/posts/thenextbigidea_a-f%C3%A1brica-de-startups-sa-com-o-apoio-activity-7474008336284327936-6rZW"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "04/06 - Oportunidades para startups!",
       "url": "https://pt.linkedin.com/pulse/0406-oportunidades-para-startups-gustavo-vannucchi-ungari-cmfcf",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://pt.linkedin.com/pulse/0406-oportunidades-para-startups-gustavo-vannucchi-ungari-cmfcf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "13/08 - Oportunidades para startups!",
+      "url": "https://pt.linkedin.com/pulse/1308-oportunidades-para-startups-gustavo-vannucchi-ungari-thidf",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pt.linkedin.com/pulse/1308-oportunidades-para-startups-gustavo-vannucchi-ungari-thidf"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -3783,12 +4564,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "30/07 - Oportunidades para startups!",
+      "url": "https://pt.linkedin.com/pulse/3007-oportunidades-para-startups-gustavo-vannucchi-ungari-tktvf",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pt.linkedin.com/pulse/3007-oportunidades-para-startups-gustavo-vannucchi-ungari-tktvf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Gravataí encerra primeiro ciclo de incubação e prepara ...",
       "url": "https://pt.linkedin.com/pulse/gravata%C3%AD-encerra-primeiro-ciclo-de-incuba%C3%A7%C3%A3o-e-nova-smict--detrf",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://pt.linkedin.com/pulse/gravata%C3%AD-encerra-primeiro-ciclo-de-incuba%C3%A7%C3%A3o-e-nova-smict--detrf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Insights da Aula Inaugural de Pré-Incubação: Construindo ...",
+      "url": "https://pt.linkedin.com/pulse/insights-da-aula-inaugural-de-pr%C3%A9-incuba%C3%A7%C3%A3o-startups-ol%C3%ADvia-vfaqf",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://pt.linkedin.com/pulse/insights-da-aula-inaugural-de-pr%C3%A9-incuba%C3%A7%C3%A3o-startups-ol%C3%ADvia-vfaqf"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -3863,6 +4664,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Aceleração de Startups — PTIn · PTIn",
+      "url": "https://ptin.pontapora.ms.gov.br/pagina/aceleracao",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://ptin.pontapora.ms.gov.br/pagina/aceleracao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Grandes empresas, startups e innovación en América Latina",
       "url": "https://publications.iadb.org/es/grandes-empresas-startups-e-innovacion-en-america-latina-promesas-y-desafios",
       "categoria": "revisar_contexto",
@@ -3893,6 +4704,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Activos y estructuras de oportunidades: estudios sobre las raíces de la vulnerabilidad social en Uruguay",
+      "url": "https://repositorio.cepal.org/handle/11362/28651",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://repositorio.cepal.org/handle/11362/28651"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "PROGRAMA NACIONAL CONEXÃO STARTUP INDÚSTRIA",
       "url": "https://repositorio.ipea.gov.br/bitstreams/fca4836e-7dc0-43fb-8d6d-9c809c7bfad8/download",
       "categoria": "prioridade_verificacao",
@@ -3903,12 +4724,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Desafio para startups abre oportunidade para projetos de inovação - Pequenas Empresas Grandes Negócios | Startups",
+      "url": "https://revistapegn.globo.com/Startups/noticia/2018/06/petrobras-lanca-desafio-para-startups-e-abre-oportunidade-para-projetos-de-inovacao.html",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://revistapegn.globo.com/Startups/noticia/2018/06/petrobras-lanca-desafio-para-startups-e-abre-oportunidade-para-projetos-de-inovacao.html"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Vista de OPORTUNIDADES Y DESAFÍOS PARA STARTUPS FINTECH EN CHILE: UNA VISIÓN DESDE LA INNOVACIÓN FINANCIERA",
       "url": "https://revistas.uv.cl/index.php/IACE/article/view/5439/4863",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://revistas.uv.cl/index.php/IACE/article/view/5439/4863"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Governo inaugura Hub de Inovação e marca nova etapa da política de ciência e tecnologia do Acre",
+      "url": "https://revistavivaacre.com/noticia/1878/governo-inaugura-hub-de-inovacao-e-marca-nova-etapa-da-politica-de-ciencia-e-tecnologia-do-acre",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://revistavivaacre.com/noticia/1878/governo-inaugura-hub-de-inovacao-e-marca-nova-etapa-da-politica-de-ciencia-e-tecnologia-do-acre"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -3943,6 +4784,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Web Summit Rio 2027 | A principal conferência de tecnologia da América do Sul | June 14-17, 2027",
+      "url": "https://rio.websummit.com/",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://rio.websummit.com/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Inscreva-se para participar do programa de startups do Web Summit Rio | June 14-17, 2027",
       "url": "https://rio.websummit.com/pt-br/startups",
       "categoria": "prioridade_verificacao",
@@ -3969,6 +4820,36 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://riodeimpacto.com.br/noticias/premio-impactos-positivos-2026-abre-inscricoes-para-negocios-e-organizacoes-de-impacto"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Rio de Impacto",
+      "url": "https://riodeimpacto.com.br/noticias/sebrae-lanca-jornada-de-inovacao-aberta-para-conectar-startups-e-grandes-empresas",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://riodeimpacto.com.br/noticias/sebrae-lanca-jornada-de-inovacao-aberta-para-conectar-startups-e-grandes-empresas"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "GO!RN conecta experiências de inovação de diferentes regiões do Brasil | ASN Rio Grande do Norte - Agência Sebrae de Notícias",
+      "url": "https://rn.agenciasebrae.com.br/cultura-empreendedora/gorn-conecta-experiencias-de-inovacao-de-diferentes-regioes-do-brasil",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rn.agenciasebrae.com.br/cultura-empreendedora/gorn-conecta-experiencias-de-inovacao-de-diferentes-regioes-do-brasil"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Startup Day mobiliza ecossistema de inovação em todo o Estado | ASN Rondônia - Agência Sebrae de Notícias",
+      "url": "https://ro.agenciasebrae.com.br/inovacao-e-tecnologia/startup-day-mobiliza-ecossistema-de-inovacao-em-todo-o-estado",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://ro.agenciasebrae.com.br/inovacao-e-tecnologia/startup-day-mobiliza-ecossistema-de-inovacao-em-todo-o-estado"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4193,6 +5074,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Fábrica de Ideias Information",
+      "url": "https://rocketreach.co/fabrica-de-ideias-profile_b5de05d8f42e4d4e",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rocketreach.co/fabrica-de-ideias-profile_b5de05d8f42e4d4e"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Felipe Amaral Email & Phone Number | Instituto Caldeira Director Campus Caldeira Contact Information",
       "url": "https://rocketreach.co/felipe-amaral-email_280600493",
       "categoria": "revisar_contexto",
@@ -4229,6 +5120,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://rocketreach.co/fundacao-certi-profile_b5c6fff0f42e0cd6"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Fundacion Parque Metropolitano La Libertad Information",
+      "url": "https://rocketreach.co/fundacion-parque-metropolitano-la-libertad-profile_b412f33eff87d1c9",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rocketreach.co/fundacion-parque-metropolitano-la-libertad-profile_b412f33eff87d1c9"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4393,6 +5294,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Letícia da Silva Email & Phone Number | FAPESP Bolsista FAPESP Contact Information",
+      "url": "https://rocketreach.co/leticia-da-silva-email_859199729",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rocketreach.co/leticia-da-silva-email_859199729"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Marco Braga Email & Phone Number | Vale Diretor - Programa Novo Carajás Contact Information",
       "url": "https://rocketreach.co/marcos-ronaldo-braga-email_34390551",
       "categoria": "revisar_contexto",
@@ -4423,12 +5334,22 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "[Natura &Co Information](/natura-co-profile_b457bc65fca49c0b \"Natura &Co Information\")",
+      "titulo": "Natura &Co Information",
       "url": "https://rocketreach.co/natura-co-profile_b457bc65fca49c0b",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://rocketreach.co/natura-co-profile_b457bc65fca49c0b"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Nicole Ramos Email & Phone Number | FAPESP Pesquisadora de projeto Contact Information",
+      "url": "https://rocketreach.co/nicole-ramos-email_801030783",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rocketreach.co/nicole-ramos-email_801030783"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4539,6 +5460,26 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://rocketreach.co/sandora-bolsas-profile_b76b26f1c53c4d01"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Sebrae-SP Competitors | Companies like Sebrae-SP",
+      "url": "https://rocketreach.co/sebrae-sp-competitors_b5c37acbf42e0f54",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rocketreach.co/sebrae-sp-competitors_b5c37acbf42e0f54"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Secretaria De Estado De Planejamento E Orcamento Do Distrito Federal Competitors | Companies like Secretaria De Estado De Planejamento E Orcamento Do Distrito Federal",
+      "url": "https://rocketreach.co/secretaria-de-estado-de-planejamento-e-orcamento-do-distrito-federal-competitors_b41fc774ff6a1f9c",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rocketreach.co/secretaria-de-estado-de-planejamento-e-orcamento-do-distrito-federal-competitors_b41fc774ff6a1f9c"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4743,6 +5684,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Sebrae Roraima lança programa para acelerar startups e fortalecer ecossistema de inovação no estado | ASN Roraima - Agência Sebrae de Notícias",
+      "url": "https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-roraima-lanca-programa-para-acelerar-startups-e-fortalecer-ecossistema-de-inovacao-no-estado",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-roraima-lanca-programa-para-acelerar-startups-e-fortalecer-ecossistema-de-inovacao-no-estado"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Darwin Startups abre inscrições para 15ª turma de aceleração",
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
       "categoria": "prioridade_verificacao",
@@ -4783,12 +5734,22 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Inovação na Indústria: Chamada Pública do Instituto ...",
+      "titulo": "Inovação na Indústria: Chamada Pública do Instituto Atlântico Conecta Startups e Empresas com Apoio da EMBRAPII - SantoTech",
       "url": "https://santotech.com.br/inovacao-na-industria-chamada-publica-do-instituto-atlantico-conecta-startups-e-empresas-com-apoio-da-embrapii",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://santotech.com.br/inovacao-na-industria-chamada-publica-do-instituto-atlantico-conecta-startups-e-empresas-com-apoio-da-embrapii"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Natura procura startups para acelerar negócios e conectar founders ao mercado - SantoTech",
+      "url": "https://santotech.com.br/natura-innovation-challenge-2026-aceleracao-startups-beleza-bem-estar",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://santotech.com.br/natura-innovation-challenge-2026-aceleracao-startups-beleza-bem-estar"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4803,12 +5764,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Tecnologia e inovação em Santa Catarina | ACATE",
+      "url": "https://sc.acate.com.br/associe-se-ads",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://sc.acate.com.br/associe-se-ads"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "BRDE Labs SC Growth",
       "url": "https://sc.acate.com.br/brdelabs-sc-growth",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://sc.acate.com.br/brdelabs-sc-growth"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Desafios e oportunidades LinkLab",
+      "url": "https://sc.acate.com.br/linklab-todos-desafios-abertos",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://sc.acate.com.br/linklab-todos-desafios-abertos"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4829,6 +5810,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://sc.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-startup-sc-anuncia-20-premiadas-com-investimento-de-cerca-de-r-16-milhao-no-startup-summit-2026"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Programa vai acelerar 400 startups neste primeiro semestre | ASN Sergipe - Agência Sebrae de Notícias",
+      "url": "https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4903,6 +5894,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "SEEDES - Inovação na prática: conheça as trajetórias e os resultados das startups destaque do ciclo",
+      "url": "https://seedes.es.gov.br/resultados-ciclo-aceleracao-startups-destaque-es",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://seedes.es.gov.br/resultados-ciclo-aceleracao-startups-destaque-es"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Hub.RO e o desenvolvimento do empreendedorismo em Rondônia",
+      "url": "https://sementenegocios.com.br/case-aceleradora/hub-ro",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://sementenegocios.com.br/case-aceleradora/hub-ro"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Jornada de inovação aberta Sebrae - Uma jornada para grandes e pequenas empresas atuarem de forma conjunta na busca por melhores resultados.",
       "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/solucoes",
       "categoria": "revisar_contexto",
@@ -4913,12 +5924,42 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Senai anuncia R$ 152 milhões para projetos de inovação na indústria brasileira - Senai MT - Serviço Nacional de Aprendizagem Industrial",
+      "url": "https://senaimt.ind.br/noticias/2546/senai-anuncia-r-152-milhoes-para-projetos-de-inovacao-na-industria-brasileira",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://senaimt.ind.br/noticias/2546/senai-anuncia-r-152-milhoes-para-projetos-de-inovacao-na-industria-brasileira"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia",
       "url": "https://sict.rs.gov.br/edital-sict-02-2026",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://sict.rs.gov.br/edital-sict-02-2026"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Rede RS Startup - Secretaria de Inovação, Ciência e Tecnologia",
+      "url": "https://sict.rs.gov.br/rede-rs-startup-6a4fb734494f5",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://sict.rs.gov.br/rede-rs-startup-6a4fb734494f5"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Biotic seleciona startups para programa de ativação e aceleração no DF - SINFOR/DF",
+      "url": "https://sinfor.org.br/biotic-seleciona-startups-programa-ativacao-multiplicidades-df",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://sinfor.org.br/biotic-seleciona-startups-programa-ativacao-multiplicidades-df"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4943,12 +5984,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Smart City Business America – Smart City Business America",
+      "url": "https://smartcitybusiness.com.br/",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://smartcitybusiness.com.br/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Embrapa e Venture Hub selecionam startups em programa de aceleração – Sociedade Nacional de Agricultura",
       "url": "https://sna.agr.br/embrapa-e-venture-hub-selecionam-startups-em-programa-de-aceleracao",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://sna.agr.br/embrapa-e-venture-hub-selecionam-startups-em-programa-de-aceleracao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "LatAm Tech Report revela oportunidades e tendências no cenário de startups da América Latina - Softex",
+      "url": "https://softex.br/es/latam-tech-report-revela-oportunidades-e-tendencias-no-cenario-de-startups-da-america-latina-es",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://softex.br/es/latam-tech-report-revela-oportunidades-e-tendencias-no-cenario-de-startups-da-america-latina-es"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4999,6 +6060,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://startupi.com.br/bossa-invest-r-31-milhoes"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Conheça o ecossistema de inovação e startups de Roraima - Startupi",
+      "url": "https://startupi.com.br/conheca-o-ecossistema-de-inovacao-e-startups-de-roraima",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://startupi.com.br/conheca-o-ecossistema-de-inovacao-e-startups-de-roraima"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -5073,6 +6144,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Scale Up Now - Startup Portugal",
+      "url": "https://startupportugal.com/pt/programs/scale-up-now",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://startupportugal.com/pt/programs/scale-up-now"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Startups.com.br — notícias como pistas de oportunidades",
       "url": "https://startups.com.br/",
       "categoria": "fonte_catalogo",
@@ -5089,6 +6170,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://startups.com.br/artigo/identificar-uma-boa-oportunidade-pode-garantir-sucesso-de-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Grupo Boticário, Autor em Startups",
+      "url": "https://startups.com.br/autor/grupoboricario",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://startups.com.br/autor/grupoboricario"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -5133,7 +6224,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Programa de Aceleração de Startups do Grupo Boticário está ...",
+      "titulo": "Programa de Aceleração de Startups do Grupo Boticário está na reta final das inscrições - Startups",
       "url": "https://startups.com.br/branded-content/programa-de-aceleracao-de-startups-do-grupo-boticario-esta-na-reta-final-das-inscricoes",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
@@ -5203,7 +6294,17 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Google for Startups lança programa de aceleração para ...",
+      "titulo": "ABVCAP e ApexBrasil vão acelerar até 15 startups no Nordeste  - Startups",
+      "url": "https://startups.com.br/negocios/aceleracao/abvcap-e-apexbrasil-vao-acelerar-ate-15-startups-no-nordeste",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://startups.com.br/negocios/aceleracao/abvcap-e-apexbrasil-vao-acelerar-ate-15-startups-no-nordeste"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Google for Startups lança programa de aceleração para startups de IA - Startups",
       "url": "https://startups.com.br/negocios/aceleracao/google-for-startups-lanca-programa-de-aceleracao-para-startups-de-ia",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
@@ -5219,6 +6320,26 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://startups.com.br/negocios/agronegocio/ace-ventures-e-gener8tor-querem-atrair-startups-dos-eua-ao-brasil"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BlackRocks abre inscrições para nova turma da aceleração Grow Startups - Startups",
+      "url": "https://startups.com.br/negocios/blackrocks-abre-inscricoes-para-nova-turma-da-aceleracao-grow-startups",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://startups.com.br/negocios/blackrocks-abre-inscricoes-para-nova-turma-da-aceleracao-grow-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BlackRocks faz 2º programa de aceleração para empreendedores negros",
+      "url": "https://startups.com.br/negocios/blackrocks-traz-nova-edicao-de-programa-de-aceleracao-para-empreendedores-negros",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://startups.com.br/negocios/blackrocks-traz-nova-edicao-de-programa-de-aceleracao-para-empreendedores-negros"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -5293,7 +6414,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Porto Digital amplia alcance e aposta em novas frentes para ...",
+      "titulo": "Porto Digital amplia alcance e aposta em novas frentes para inovação e inclusão - Startups",
       "url": "https://startups.com.br/negocios/porto-digital-amplia-alcance-e-aposta-em-novas-frentes-para-inovacao-e-inclusao",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -5433,6 +6554,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Ibmec e inovabra, ecossistema de inovação do Bradesco, lançam parceria para conectar estudantes e startups ao mercado de inovação - The University Journal",
+      "url": "https://theuniversityjournal.com/ibmec-e-inovabra-ecossistema-de-inovacao-do-bradesco-lancam-parceria-para-conectar-estudantes-e-startups-ao-mercado-de-inovacao",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://theuniversityjournal.com/ibmec-e-inovabra-ecossistema-de-inovacao-do-bradesco-lancam-parceria-para-conectar-estudantes-e-startups-ao-mercado-de-inovacao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Startups",
       "url": "https://tibahia.com/categoria/startups",
       "categoria": "revisar_contexto",
@@ -5473,12 +6604,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Programa de Pré-incubação Empreendedora com Sebrae Sergipe – Tiradentes Innovation Center",
+      "url": "https://tiradentesinnovation.com/cursos_e_eventos/programa-de-pre-incubacao-empreendedora-com-sebrae-sergipe",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://tiradentesinnovation.com/cursos_e_eventos/programa-de-pre-incubacao-empreendedora-com-sebrae-sergipe"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "TIVIT",
       "url": "https://tivit.com/inovacao-aberta-o-que-e",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://tivit.com/inovacao-aberta-o-que-e"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Prorrogadas as inscrições para programas de Incubação e Aceleração de empresas da Fapto, com premiação de até R$ 22,5 mil - Tocantins Rural",
+      "url": "https://tocantinsrural.com.br/prorrogadas-as-inscricoes-para-programas-de-incubacao-e-aceleracao-de-empresas-da-fapto-com-premiacao-de-ate-r-225-mil",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://tocantinsrural.com.br/prorrogadas-as-inscricoes-para-programas-de-incubacao-e-aceleracao-de-empresas-da-fapto-com-premiacao-de-ate-r-225-mil"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -5583,6 +6734,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Parana Games - 2026 Company Profile, Team & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/parana-games/__uL8LkiFL_CWxGnKMJAyKjYcajDFNIOc_xRWErx0iQaY",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://tracxn.com/d/companies/parana-games/__uL8LkiFL_CWxGnKMJAyKjYcajDFNIOc_xRWErx0iQaY"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Pernambuco Press - 2026 Company Profile & Competitors - Tracxn",
       "url": "https://tracxn.com/d/companies/pernambuco-press/__GLItdt4yI8kZuftqtVuGGuhddgMF_KfNTIVmMVrVYIk",
       "categoria": "revisar_contexto",
@@ -5599,6 +6760,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://tracxn.com/d/companies/portodigital/__s-SMvsbk7SmhilVO7B81oq3jN1xsdLI62f71c-ToKi8"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Randoncorp - 2026 Company Profile & Funding - Tracxn",
+      "url": "https://tracxn.com/d/companies/randoncorp/__rEUXl0pgsDcKgtcSqOwUXzV0CN_lVMIYg0ZuG5iju38",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://tracxn.com/d/companies/randoncorp/__rEUXl0pgsDcKgtcSqOwUXzV0CN_lVMIYg0ZuG5iju38"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -5763,12 +6934,42 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Inovação Aberta com startups: desafios e oportunidades. - Troposlab",
+      "url": "https://troposlab.com/inovacao-aberta-com-startups-desafios-e-oportunidades",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://troposlab.com/inovacao-aberta-com-startups-desafios-e-oportunidades"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Natura abre inscrições para aceleração de startups de beleza na América Latina",
       "url": "https://tvsimbrasil.com.br/negocios/natura-abre-inscricoes-para-aceleracao-de-startups-de-beleza-na-america-latina-1781162123",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://tvsimbrasil.com.br/negocios/natura-abre-inscricoes-para-aceleracao-de-startups-de-beleza-na-america-latina-1781162123"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Divulgado edital com instruções para participação no Programa de Incubação Empresarial do CIEPB",
+      "url": "https://uepb.edu.br/divulgado-edital-com-instrucoes-para-participacao-no-programa-de-incubacao-empresarial-do-ciepb",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://uepb.edu.br/divulgado-edital-com-instrucoes-para-participacao-no-programa-de-incubacao-empresarial-do-ciepb"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Pró-Reitoria de Pesquisa e Inovação",
+      "url": "https://ufpr.br/prpi/edital-no-04-2026-prpi-nit-startup-garage-2026-edicao-curitiba-turma-2026-1",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://ufpr.br/prpi/edital-no-04-2026-prpi-nit-startup-garage-2026-edicao-curitiba-turma-2026-1"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -5799,6 +7000,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://valor.globo.com/inovacao/noticia/2026/08/18/inovacao-agiliza-transacoes-nos-servicos-financeiros.ghtml"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Plataforma conecta desafios da Amazônia a startups e soluções de tecnologia | VEJA",
+      "url": "https://veja.abril.com.br/agenda-verde/plataforma-conecta-desafios-da-amazonia-a-startups-e-solucoes-de-tecnologia",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://veja.abril.com.br/agenda-verde/plataforma-conecta-desafios-da-amazonia-a-startups-e-solucoes-de-tecnologia"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -5843,6 +7054,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Vórtex Aceleradora",
+      "url": "https://vortexaceleradora.com/",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://vortexaceleradora.com/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Google for Startups: posicionamento com conteúdo estratégico",
+      "url": "https://wearesmart.com.br/cases/google-for-startups",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://wearesmart.com.br/cases/google-for-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Aceleração de startups no Brasil: evidências de impacto do ...",
       "url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/29307/1/PRArt_216962_RAE%20n.%2022_Acelera%C3%A7%C3%A3o%20de%20startups%20no%20Brasil.pdf",
       "categoria": "prioridade_verificacao",
@@ -5883,7 +7114,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Startup Indústria",
+      "titulo": "Startup Indústria – ABDI – Agência Brasileira de Desenvolvimento Industrial",
       "url": "https://www.abdi.com.br/startupindustria",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -5893,7 +7124,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Desafios de negócios inovabra hub: participe do programa ...",
+      "titulo": "Desafios de negócios inovabra hub: participe do programa de inovação que conecta startups a grandes empresas - ACATE",
       "url": "https://www.acate.com.br/blog-da-acate/desafios-de-negocios-inovabra-hub-participe-do-programa-de-inovacao-que-conecta-startups-a-grandes-empresas",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
@@ -5919,6 +7150,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.acritica.com/geral/o-mercado-de-cosmeticos-no-brasil-em-2026-projec-es-desafios-e-oportunidades-1.394590"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Conditional Cash Transfers: The Case of Progresa/Oportunidades - American Economic Association",
+      "url": "https://www.aeaweb.org/articles?id=10.1257%2Fjel.20151233",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.aeaweb.org/articles?id=10.1257%2Fjel.20151233"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -5953,6 +7194,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
+      "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Direção de Inovação (LabX) – ARTE",
+      "url": "https://www.arte.gov.pt/centro-para-a-inovacao-do-setor-publico-labx",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.arte.gov.pt/centro-para-a-inovacao-do-setor-publico-labx"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Aceleração de Startups – educação empreendedora – Banco do Nordeste - Portal Banco do Nordeste",
       "url": "https://www.bnb.gov.br/hub-de-inovacao/aceleracao-de-startups",
       "categoria": "prioridade_verificacao",
@@ -5969,6 +7230,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.bndes.gov.br/wps/vanityurl/bndes-garagem-aceleradora"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BNDES Mais Inovação - Painel de desempenho",
+      "url": "https://www.bndes.gov.br/wps/vanityurl/painel-mais-inovacao",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.bndes.gov.br/wps/vanityurl/painel-mais-inovacao"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6019,6 +7290,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.brdelabs.com.br/pr"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Facebook e Baita abrem inscrições para programa de aceleração em startups do agro",
+      "url": "https://www.canalrural.com.br/agropocket/facebook-inscricoes-programa-aceleracao-startups-agro",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.canalrural.com.br/agropocket/facebook-inscricoes-programa-aceleracao-startups-agro"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6099,6 +7380,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.cbinsights.com/company/cyberx-1"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Deonibus - Products, Competitors, Financials, Employees, Headquarters Locations",
+      "url": "https://www.cbinsights.com/company/deonibuscom",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.cbinsights.com/company/deonibuscom"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6533,12 +7824,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Como startups e PMEs podem prosperar com o apoio da Embrapii | CESAR",
+      "url": "https://www.cesar.org.br/w/como-startups-e-pmes-podem-prosperar-com-o-apoio-da-embrapii-2",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.cesar.org.br/w/como-startups-e-pmes-podem-prosperar-com-o-apoio-da-embrapii-2"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Cloudflare para Startups | Cloudflare",
       "url": "https://www.cloudflare.com/pt-br/forstartups",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.cloudflare.com/pt-br/forstartups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
+      "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6573,12 +7884,52 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "ICM Lab Solana — Darwin Startups",
+      "url": "https://www.darwinstartups.com/icmlab",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.darwinstartups.com/icmlab"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "MS lança AgroValley para acelerar startups e tecnologias do agro - Geral - Diário Digital",
+      "url": "https://www.diariodigital.com.br/geral/ms-lanca-agrovalley-para-acelerar-startups-e-tecnologias-do-agro",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.diariodigital.com.br/geral/ms-lanca-agrovalley-para-acelerar-startups-e-tecnologias-do-agro"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Google for Startups Accelerator Brasil: conheça as 11 startups da 13ª edição",
       "url": "https://www.distrito.me/blog/google-for-startups-accelerator-brasil-startups-ia",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.distrito.me/blog/google-for-startups-accelerator-brasil-startups-ia"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Home | Comisión para la Igualdad de Oportunidades en el Empleo",
+      "url": "https://www.eeoc.gov/es",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.eeoc.gov/es"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Embraer extends registration for Startup Marathon",
+      "url": "https://www.embraer.com/media-center/pt?mediatype=NEWS&detail=19427",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.embraer.com/media-center/pt?mediatype=NEWS&detail=19427"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6603,6 +7954,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "100 Top Startups Companies in United States · September 2026 | F6S",
+      "url": "https://www.f6s.com/companies/startups/united-states/co",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.f6s.com/companies/startups/united-states/co"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Espaço S - O SENAI inicia um novo ciclo de oportunidades...",
+      "url": "https://www.facebook.com/100092591115871/posts/o-senai-inicia-um-novo-ciclo-de-oportunidades-para-impulsionar-o-desenvolvimento/967726602990368",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.facebook.com/100092591115871/posts/o-senai-inicia-um-novo-ciclo-de-oportunidades-para-impulsionar-o-desenvolvimento/967726602990368"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Biominas Brasil - A sua oportunidade de transformar...",
       "url": "https://www.facebook.com/BiominasBrasil/posts/a-sua-oportunidade-de-transformar-ci%C3%AAncia-em-um-neg%C3%B3cio-de-mercado-ganhou-mais-t/1701486131986542",
       "categoria": "revisar_contexto",
@@ -6623,10 +7994,10 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Panamá • Paraguay • Ecuador • México Los ...",
+      "titulo": "GEN Paraguay - \"El Desafío de Startups en Latinoamérica\"...",
       "url": "https://www.facebook.com/GENParaguay1/posts/2613428455401153",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.facebook.com/GENParaguay1/posts/2613428455401153"
       ],
@@ -6643,12 +8014,42 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "UTLA - 📣 ¡Atención jóvenes emprendedores!💡 ¿Tienes una...",
+      "url": "https://www.facebook.com/fputla/posts/-atenci%C3%B3n-j%C3%B3venes-emprendedorestienes-una-idea-innovadora-y-el-sue%C3%B1o-de-transfor/1209105091219338",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.facebook.com/fputla/posts/-atenci%C3%B3n-j%C3%B3venes-emprendedorestienes-una-idea-innovadora-y-el-sue%C3%B1o-de-transfor/1209105091219338"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Here are four more new ag tech... - Husker Harvest Days",
       "url": "https://www.facebook.com/huskerharvest/posts/here-are-four-more-new-ag-tech-startup-companies-exhibiting-at-the-ag-tech-pavil/1472897181552480",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.facebook.com/huskerharvest/posts/here-are-four-more-new-ag-tech-startup-companies-exhibiting-at-the-ag-tech-pavil/1472897181552480"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Porto Digital - Ainda dá tempo! 🔔 Últimos dias para você...",
+      "url": "https://www.facebook.com/portodigital/posts/ainda-d%C3%A1-tempo-%C3%BAltimos-dias-para-voc%C3%AA-se-inscrever-na-chamada-de-inova%C3%A7%C3%A3o-aberta/933217585513984",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.facebook.com/portodigital/posts/ainda-d%C3%A1-tempo-%C3%BAltimos-dias-para-voc%C3%AA-se-inscrever-na-chamada-de-inova%C3%A7%C3%A3o-aberta/933217585513984"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Desafío Emprendedor 2026:... - Radio Comunicativa de Ovalle",
+      "url": "https://www.facebook.com/radiocomunicativadeovalle/posts/desaf%C3%ADo-emprendedor-2026-c%C3%B3mo-postular-requisitos-y-premios-de-m%C3%A1s-de-200-millon/1599227898884883",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.facebook.com/radiocomunicativadeovalle/posts/desaf%C3%ADo-emprendedor-2026-c%C3%B3mo-postular-requisitos-y-premios-de-m%C3%A1s-de-200-millon/1599227898884883"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6673,12 +8074,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Softex Nacional - O Brasil IT+, uma iniciativa da Softex e...",
+      "url": "https://www.facebook.com/softexnacional/posts/o-brasil-it-uma-iniciativa-da-softex-e-da-apexbrasil-re%C3%BAne-recursos-para-apoiar-/1710714251056082",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.facebook.com/softexnacional/posts/o-brasil-it-uma-iniciativa-da-softex-e-da-apexbrasil-re%C3%BAne-recursos-para-apoiar-/1710714251056082"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Programa Nacional Conexão Startup Indústria",
       "url": "https://www.facebook.com/startupindustria",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.facebook.com/startupindustria"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "🌟 ¿Listo... - UTEC Universidad Tecnológica de El Salvador",
+      "url": "https://www.facebook.com/universidadtecnologica/posts/-listo-para-un-reto-que-transforme-el-futuro-el-start-up-challenge-busca-j%C3%B3venes/1061272159376294",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.facebook.com/universidadtecnologica/posts/-listo-para-un-reto-que-transforme-el-futuro-el-start-up-challenge-busca-j%C3%B3venes/1061272159376294"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6699,6 +8120,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.facepe.br/wp-content/uploads/2026/03/2026.03.03-Pr%C3%B3-Startups-Mulheres-2.pdf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Top 94 HealthTech Accelerators and Incubators (2026)",
+      "url": "https://www.failory.com/startups/healthtech-accelerators-incubators",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.failory.com/startups/healthtech-accelerators-incubators"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6739,6 +8170,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.fapepi.pi.gov.br/wp-content/uploads/2025/06/Proposta-Instituto-Atlantico-do-Brasil.pdf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FAPERJ",
+      "url": "https://www.faperj.br/",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://www.faperj.br/"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6833,6 +8274,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale",
+      "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Financiamento à Inovação: Finep, BNDES e Embrapii | FI Group Brasil",
       "url": "https://www.fi-groupbr.com/pt/servico/financiamentos",
       "categoria": "revisar_contexto",
@@ -6869,6 +8320,26 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.finnosummit.com/que-hacemos/startup-programs"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Forbes Next Billion-Dollar Startups 2026 List",
+      "url": "https://www.forbes.com/sites/richardnieva/2026/07/28/next-billion-dollar-startups-2026",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.forbes.com/sites/richardnieva/2026/07/28/next-billion-dollar-startups-2026"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "150 HealthTech Startups Funded in 2026 - Founders, Rounds, Contacts",
+      "url": "https://www.fundedstartupsdaily.com/raises/healthtech",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.fundedstartupsdaily.com/raises/healthtech"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6973,7 +8444,47 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "BID Lab, Fundação Lemann e Imaginable Futures lançam ...",
+      "titulo": "Como o Google for Startups ajuda o seu negócio decolar?",
+      "url": "https://www.hostmidia.com.br/blog/google-for-startups",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.hostmidia.com.br/blog/google-for-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Inovação Aberta | Hub Salvador",
+      "url": "https://www.hubsalvador.com/programa-de-inovacao-aberta",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.hubsalvador.com/programa-de-inovacao-aberta"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BID | Cinco empresas “startup” de América Latina avanzan a los finales de la competencia global “1776 Challenge Cup”",
+      "url": "https://www.iadb.org/es/noticias/cinco-empresas-startup-de-america-latina-avanzan-los-finales-de-la-competencia-global-1776-challenge",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.iadb.org/es/noticias/cinco-empresas-startup-de-america-latina-avanzan-los-finales-de-la-competencia-global-1776-challenge"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BID | BID Lab e Cubo Itaú lançam nova edição do \"BID ao Cubo\" para acelerar startups no Brasil",
+      "url": "https://www.iadb.org/pt-br/noticias/bid-lab-e-cubo-itau-lancam-nova-edicao-do-bid-ao-cubo-para-acelerar-startups-no-brasil",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.iadb.org/pt-br/noticias/bid-lab-e-cubo-itau-lancam-nova-edicao-do-bid-ao-cubo-para-acelerar-startups-no-brasil"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BID | BID Lab, Fundação Lemann e Imaginable Futures lançam programa de soluções pedagógicas",
       "url": "https://www.iadb.org/pt-br/noticias/bid-lab-fundacao-lemann-e-imaginable-futures-lancam-programa-de-solucoes-pedagogicas",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7073,7 +8584,27 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Alô startups de todo Brasil, mais uma oportunidade de ...",
+      "titulo": "CIDE INCUBADORA (@cideincubadora) • Instagram photos and videos",
+      "url": "https://www.instagram.com/cideincubadora?hl=en",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.instagram.com/cideincubadora?hl=en"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/C8DN3u0PZb7",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/C8DN3u0PZb7"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/C8Naeh1OHod",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7093,7 +8624,17 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "é um passo estratégico rumo ao futuro colaborativo da ...",
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DM0Q96POWgl",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DM0Q96POWgl"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DMdciC2vCaH",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7103,17 +8644,27 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Participe do Webinar do Gerdau Challenge FIEMG Lab ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DOEtXNNj41Z",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DOEtXNNj41Z"
       ],
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "inpetuhub",
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DOJCD2lE-00",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DOJCD2lE-00"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DOW6rG9jUUx",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7129,6 +8680,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DRCjSOqkUBJ"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DRzI3Hrj6zb",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DRzI3Hrj6zb"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -7164,6 +8725,16 @@
     },
     {
       "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DTN4kvmDjO_",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DTN4kvmDjO_"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DT_OcRAD1pI",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7173,10 +8744,10 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Com novo prazo definido, as inscrições para os programas ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DTgQWnniY3R",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DTgQWnniY3R"
       ],
@@ -7189,6 +8760,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DTx_G9eDuJ-"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DUWbZr-AV_K?hl=en",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DUWbZr-AV_K?hl=en"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -7239,6 +8820,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DV0npRqkfPC"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DVLlRdAgEzh",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DVLlRdAgEzh"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -7314,6 +8905,16 @@
     },
     {
       "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DWWpcFqCri8",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DWWpcFqCri8"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DWY_JymjSYI",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7323,7 +8924,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Ideias boas precisam de impulso certo O Paraná lançou ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DWoNV0mERc9",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7343,7 +8944,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Vem aí a 6ª edição do Hub PB",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DX99Rt3Gnp0",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7403,10 +9004,10 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "A Trilha Growth é um método de aceleração de startups ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DXcWTP2EdRa",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DXcWTP2EdRa"
       ],
@@ -7419,6 +9020,36 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DYDGGrlFUtw"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DYDa_4gE2rH",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DYDa_4gE2rH"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DYXJnKyxOnY",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DYXJnKyxOnY"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DYXRHL8kzRr",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DYXRHL8kzRr"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -7483,7 +9114,17 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "GO!RN - Inovação e Startups on Instagram",
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DZa0V43HxpN",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DZa0V43HxpN"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DZqTB83lKOh",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7493,7 +9134,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "sebrae.roraima",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DZvlv_iPIkB",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7563,7 +9204,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "O SENAI inicia um novo ciclo de oportunidades para ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DaVM8nSHILj",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7613,7 +9254,17 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "🚀 ¡Una oportunidad para startups que están generando ...",
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DaoG-boFjwH",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DaoG-boFjwH"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/Db-7pWfRLbX",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7633,7 +9284,17 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "você sabe qual é a diferença? Cada fase de uma startup ...",
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/Db6cTqoowdS",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/Db6cTqoowdS"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/Db9FFiQGWl2",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7664,6 +9325,16 @@
     },
     {
       "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DbGJffAn-OP",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DbGJffAn-OP"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DbIsuWSRESs",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7679,6 +9350,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DbVkzHOJzx1"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/Dbd1ZLVydUs",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/Dbd1ZLVydUs"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -7703,7 +9384,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "O Hub de Inovação do SESI Bahia selecionou 10 startups ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DboKYmNJAzE",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7713,7 +9394,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "As oportunidades não esperam. E o próximo passo da sua ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DbtZG1_lXaz",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7723,27 +9404,27 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "A Aceleração Startup Piauí é uma iniciativa voltada ao ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/Dc1s5Hvp7aW",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/Dc1s5Hvp7aW"
       ],
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "O O O Hub.RO é a primeira incubadora e aceleradora ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DcbhNhoFN31",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DcbhNhoFN31"
       ],
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Sua empresa conhece o potencial da Embrapii ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DchKaftDnJt",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7793,7 +9474,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "conectar startups, empresas y personas para transformar ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DdEeTfUEXjK",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7803,7 +9484,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Tudo o que sua startup precisa para evoluir em um só ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DdHf45apWjb",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7843,6 +9524,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DdpKr0RGDsg",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DdpKr0RGDsg"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "📢 Confira a nova edição da Revista Locus Científico! ...",
       "url": "https://www.instagram.com/p/DdrPaBPjrdC",
       "categoria": "revisar_contexto",
@@ -7874,6 +9565,16 @@
     },
     {
       "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/Cp27gm1g0qJ",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/Cp27gm1g0qJ"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DA55NQYu6jg",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7883,7 +9584,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Com mais de 700 lideranças, a Rede de Líderes da Fundação ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DCz4IjKPH3a?hl=en",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7899,6 +9600,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/reel/DDNgjLZyoAZ"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DG3v3yzNqwm",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DG3v3yzNqwm"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -7923,10 +9634,10 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "qual o maior desafio para captar investimentos e acelerar ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DHMYXtUBkmi",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/reel/DHMYXtUBkmi"
       ],
@@ -7953,7 +9664,17 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Atenção, empreendedores de Roraima! Chegou a sua chance ...",
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DLA9emVJHhQ?hl=en",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DLA9emVJHhQ?hl=en"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DLukfGWRh2q",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -7969,6 +9690,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/reel/DMQhKz2yWGF"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DN1JlrNXP1f",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DN1JlrNXP1f"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -7993,7 +9724,17 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "HUB DE INOVAÇÃO AMAZOOM on ...",
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DQ91jewjPN4",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DQ91jewjPN4"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DQCRTuMjYWW",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8003,12 +9744,22 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "No inovabra, acreditamos que boas ideias podem se tornar ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DQCSV7_EXEs",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/reel/DQCSV7_EXEs"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DR7ZL5OAEa5",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DR7ZL5OAEa5"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8023,7 +9774,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Tive a honra de participar do lançamento do novo HUB.RO, um ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DSIpugdgd6Z",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8054,6 +9805,16 @@
     },
     {
       "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DTN3l84gIti",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DTN3l84gIti"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DTaqFt9gF4m?hl=en",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8063,12 +9824,32 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Senai Construção Civil | A jornada de evolução de uma startup ...",
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DTv56r3APXg",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DTv56r3APXg"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DTwKXeHjfrj",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/reel/DTwKXeHjfrj"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "A Missão Empresarial South Summit Brasil 2026 é uma ...",
+      "url": "https://www.instagram.com/reel/DU1FwWNDq5p?hl=en",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DU1FwWNDq5p?hl=en"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8093,10 +9874,10 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Los desafíos que enfrentarán las startups en los próximos ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DUSqgcwDSLl",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/reel/DUSqgcwDSLl"
       ],
@@ -8124,6 +9905,16 @@
     },
     {
       "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DVw64JnjSfq?hl=en",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DVw64JnjSfq?hl=en"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DVyCywqD74h",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8139,6 +9930,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/reel/DWHYuQSiWJc?hl=en"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DWKddwDibf4",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DWKddwDibf4"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8243,6 +10044,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DXrtHUQkcn7",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DXrtHUQkcn7"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DYBNQavt7kt",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DYBNQavt7kt"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Inovação para os jovens! O Sebrae Amapá e o Governo ...",
       "url": "https://www.instagram.com/reel/DYCbwY8A8td",
       "categoria": "revisar_contexto",
@@ -8274,6 +10095,16 @@
     },
     {
       "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DZ5zg-WlT44",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DZ5zg-WlT44"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DZNjFm0OM4t",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8289,6 +10120,26 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/reel/DZQ_2XYlFPk"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DZdK3X8saA-",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DZdK3X8saA-"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DZuk4c6v9WY",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DZuk4c6v9WY"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8323,7 +10174,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Mato Grosso do Sul é um celeiro de startups.  As empresas ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/Db3j7boyi5x",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8333,12 +10184,62 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "#TBT de uma semana inesquecível para o ecossistema ...",
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/Db8u3jsu6vU",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/Db8u3jsu6vU"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DbeTjXPSA6n",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DbeTjXPSA6n"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DbgP1KKKPQ7",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DbgP1KKKPQ7"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/Dc1Fr1xR6vM",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/reel/Dc1Fr1xR6vM"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DcRCO1whBre",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DcRCO1whBre"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DckNJhMgrBc",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DckNJhMgrBc"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8363,12 +10264,22 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Arapiraca tem uma oportunidade estratégica de transformar ...",
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/Dd4unWrpKtY",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/reel/Dd4unWrpKtY"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DdZ5WzpPX7l",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DdZ5WzpPX7l"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8383,7 +10294,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Startup Indústria (@startupindustria)",
+      "titulo": "Startup Indústria (@startupindustria) • Instagram photos and videos",
       "url": "https://www.instagram.com/startupindustria",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8453,12 +10364,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Acesso a Oportunidades",
+      "url": "https://www.ipea.gov.br/acessooportunidades",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.ipea.gov.br/acessooportunidades"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Para sua Startup - Itaipu Parquetec",
       "url": "https://www.itaipuparquetec.org.br/para-sua-startup",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.itaipuparquetec.org.br/para-sua-startup"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Nossos Programas | Join.Valle",
+      "url": "https://www.joinvalle.com.br/nossosprogramas",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.joinvalle.com.br/nossosprogramas"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8473,12 +10404,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "FIEMG Lab",
+      "url": "https://www.linkedin.com/company/fiemglab",
+      "categoria": "fonte_catalogo",
+      "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
+      "links_equivalentes": [
+        "https://www.linkedin.com/company/fiemglab"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "26/03 - Oportunidades para startups!",
       "url": "https://www.linkedin.com/pulse/2603-oportunidades-para-startups-gustavo-vannucchi-ungari-rpvmf",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.linkedin.com/pulse/2603-oportunidades-para-startups-gustavo-vannucchi-ungari-rpvmf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Pulsar Incubadora Tecnológica divulga resultado final do edital ...",
+      "url": "https://www.linkedin.com/pulse/pulsar-incubadora-tecnol%C3%B3gica-divulga-resultado-final-do-ijpke",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.linkedin.com/pulse/pulsar-incubadora-tecnol%C3%B3gica-divulga-resultado-final-do-ijpke"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8613,10 +10564,10 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Conecta Caldeira: desafios que geram resultados - Numerik",
+      "titulo": "Numerik | Resultados para um mundo em transformação",
       "url": "https://www.numerik.co/cases/caldeira",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.numerik.co/cases/caldeira"
       ],
@@ -8633,12 +10584,42 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "100 Open Startups - Desafío Deportes",
+      "url": "https://www.openstartups.net/es/challenges/sport",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.openstartups.net/es/challenges/sport"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "100 Open Startups - inovabra bradesco: Grande Desafio Agronegócio",
+      "url": "https://www.openstartups.net/events/inovabra/agronegocio",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.openstartups.net/events/inovabra/agronegocio"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "100 Open Startups - Desafio Pequenas Empresas",
       "url": "https://www.opentechs.net/br-pt/challenges/smallbusiness",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.opentechs.net/br-pt/challenges/smallbusiness"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "100 Open Startups - Desafio Esporte",
+      "url": "https://www.opentechs.net/br-pt/challenges/sport",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.opentechs.net/br-pt/challenges/sport"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8663,12 +10644,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Startups piauienses são selecionadas no InovAtiva Brasil",
+      "url": "https://www.piauinegocios.com.br/noticia/1724/startups-piauienses-sao-selecionadas-no-inovativa-brasil",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.piauinegocios.com.br/noticia/1724/startups-piauienses-sao-selecionadas-no-inovativa-brasil"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Governo abre inscrição para programa de aceleração de startups",
       "url": "https://www.poder360.com.br/poder-empreendedor/governo-abre-inscricao-para-programa-de-aceleracao-de-startups",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.poder360.com.br/poder-empreendedor/governo-abre-inscricao-para-programa-de-aceleracao-de-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Nuvem da AWS: como funciona a oferta de crédito para startups",
+      "url": "https://www.poder360.com.br/poder-empreendedor/saiba-como-funciona-oferta-de-credito-em-nuvem-da-aws-para-startups",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.poder360.com.br/poder-empreendedor/saiba-como-funciona-oferta-de-credito-em-nuvem-da-aws-para-startups"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8683,12 +10684,42 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Categorias - Portal da Indústria",
+      "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/empreendedorismo-industrial-startuptech",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/empreendedorismo-industrial-startuptech"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "O que é inovação? Definição, importância e as ações que têm impulsionado a inovação no Brasil - Portal da Indústria",
+      "url": "https://www.portaldaindustria.com.br/industria-de-a-z/inovacao",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.portaldaindustria.com.br/industria-de-a-z/inovacao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Governo de Pernambuco e Porto Digital abrem inscrições para programas de fomento ao empreendedorismo e internacionalização - Porto Digital",
       "url": "https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
+      "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8773,6 +10804,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Entenda o que é aprendizagem dialógica e como ela pode contribuir para a sua empresa! | Randoncorp",
+      "url": "https://www.randoncorp.com/pt/blog/aprendizagem-dialogica",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.randoncorp.com/pt/blog/aprendizagem-dialogica"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Conexo Challenge: segunda rodada de desafios de ...",
       "url": "https://www.randoncorp.com/pt/blog/conexo-challenge-segunda-rodada-de-desafios-de-inova%C3%A7%C3%A3o-est%C3%A1-com-inscri%C3%A7%C3%B5es-abertas",
       "categoria": "prioridade_verificacao",
@@ -8783,7 +10824,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Conexo completa um ano com mais de 50 projetos ...",
+      "titulo": "Conexo completa um ano com mais de 50 projetos desenvolvidos | Randoncorp",
       "url": "https://www.randoncorp.com/pt/blog/conexo-completa-um-ano-com-mais-de-50-projetos-desenvolvidos",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8823,6 +10864,36 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "4 metodologias inovadoras que vão revolucionar o seu negócio | Randoncorp",
+      "url": "https://www.randoncorp.com/pt/blog/metodologias-de-inovacao",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.randoncorp.com/pt/blog/metodologias-de-inovacao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Quer saber o que é um ecossistema de inovação? Confira agora! | Randoncorp",
+      "url": "https://www.randoncorp.com/pt/blog/o-que-e-um-ecossistema-de-inovacao",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.randoncorp.com/pt/blog/o-que-e-um-ecossistema-de-inovacao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Quais os tipos de inovação e como aplicá-las na sua empresa? | Randoncorp",
+      "url": "https://www.randoncorp.com/pt/blog/quais-os-tipos-de-inovacao",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.randoncorp.com/pt/blog/quais-os-tipos-de-inovacao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Randon Ventures seleciona cinco startups para programa ...",
       "url": "https://www.randoncorp.com/pt/blog/randon-ventures-seleciona-cinco-startups-para-programa-de-acelera%C3%A7%C3%A3o",
       "categoria": "prioridade_verificacao",
@@ -8833,7 +10904,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Como inovamos",
+      "titulo": "Como inovamos | Randoncorp",
       "url": "https://www.randoncorp.com/pt/como-inovamos",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8843,7 +10914,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Inovação",
+      "titulo": "Inovação | Randoncorp",
       "url": "https://www.randoncorp.com/pt/inovacao",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8853,7 +10924,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "SomosRandoncorp",
+      "titulo": "#SomosRandoncorp | Randoncorp",
       "url": "https://www.randoncorp.com/pt/pesquisar?word=inova",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -8953,6 +11024,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Evento | Startup Summit 2026",
+      "url": "https://www.sebraeplay.com.br/eventos/startup-summit-2026",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.sebraeplay.com.br/eventos/startup-summit-2026"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Sebrae Supernova",
       "url": "https://www.sebraesupernova.com.br/index.html",
       "categoria": "revisar_contexto",
@@ -8963,12 +11044,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Smart Cities Challenge for Startups",
+      "url": "https://www.seedstars.com/community/entrepreneurs/programs/open-innovation-challenge-es",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.seedstars.com/community/entrepreneurs/programs/open-innovation-challenge-es"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
       "url": "https://www.semadesc.ms.gov.br/desafio-pantanal-tech-2026-abre-inscricoes-para-impulsionar-startups-e-solucoes-inovadoras-em-ms",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.semadesc.ms.gov.br/desafio-pantanal-tech-2026-abre-inscricoes-para-impulsionar-startups-e-solucoes-inovadoras-em-ms"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Startups aceleradas pelo Senai Paran apresentam solues que esto transformando a indstria - Notcias - Senai Paran - Senai Tecnologia e Inovao - Blog STI",
+      "url": "https://www.senaipr.org.br/tecnologiaeinovacao/blog/startups-aceleradas-pelo-senai-parana-apresentam-solucoes-que-estao-transformando-a-industria-1-36128-498124.shtml",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.senaipr.org.br/tecnologiaeinovacao/blog/startups-aceleradas-pelo-senai-parana-apresentam-solucoes-que-estao-transformando-a-industria-1-36128-498124.shtml"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -9009,6 +11110,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.snowflake.com/en/startup-challenge"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Ciência, Tecnologia e Inovação",
+      "url": "https://www.sp.gov.br/sp/institucional/estrutura/secretarias/ciencia-tecnologia-inovacao",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.sp.gov.br/sp/institucional/estrutura/secretarias/ciencia-tecnologia-inovacao"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -9143,7 +11254,17 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Startup Growth Engine | Startups.com",
+      "titulo": "Embraer Case: Wings to Innovate | Startup Mundi",
+      "url": "https://www.startupmundi.com/embraer-application",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.startupmundi.com/embraer-application"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Startup Growth Engine",
       "url": "https://www.startups.com/",
       "categoria": "fonte_catalogo",
       "motivo": "Página institucional ou catálogo: serve para descobrir chamadas individuais",
@@ -9213,6 +11334,46 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Suzano lança desafio em busca de parceiros",
+      "url": "https://www.suzano.com.br/noticia/suzano-lanca-desafio-em-busca-de-parceiros-para-desenvolvimento-de-novas-aplicacoes-ao-papel",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.suzano.com.br/noticia/suzano-lanca-desafio-em-busca-de-parceiros-para-desenvolvimento-de-novas-aplicacoes-ao-papel"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Suzano lança Programa de Mentoria de Startups",
+      "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BNDES Garagem: Oportunidades e desafios de empreender na floresta - online - Sympla",
+      "url": "https://www.sympla.com.br/evento-online/bndes-garagem-oportunidades-e-desafios-de-empreender-na-floresta/3083679",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.sympla.com.br/evento-online/bndes-garagem-oportunidades-e-desafios-de-empreender-na-floresta/3083679"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Apresentação do Edital Novo Seed em Ouro Branco - Sympla",
+      "url": "https://www.sympla.com.br/evento/apresentacao-do-edital-novo-seed/3377139",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.sympla.com.br/evento/apresentacao-do-edital-novo-seed/3377139"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Evento de Pré-Lançamento - Programa Deep Tech FAPDF em Brasília - Sympla",
       "url": "https://www.sympla.com.br/evento/evento-de-pre-lancamento-programa-deep-tech-fapdf/3284346",
       "categoria": "revisar_contexto",
@@ -9223,12 +11384,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Startup Day 2026 - Inatel | SEBRAE em Santa Rita do Sapucaí - Sympla",
+      "url": "https://www.sympla.com.br/evento/startup-day-2026-inatel-sebrae/3323416",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.sympla.com.br/evento/startup-day-2026-inatel-sebrae/3323416"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos",
       "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Digital Health Accelerator Switzerland | Pre-Seed Healthtech Program | Tenity",
+      "url": "https://www.tenity.com/program/digital-health-accelerator",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.tenity.com/program/digital-health-accelerator"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -9253,6 +11434,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Agência de Inovação da UECE apresenta oportunidades de cooperação a startups do Rio Grande do Norte durante visita ao Hub de Inovação do IEL Ceará – AGIN | Agência de Inovação da UECE",
+      "url": "https://www.uece.br/agin/noticias/agencia-de-inovacao-da-uece-apresenta-oportunidades-de-cooperacao-a-startups-do-rio-grande-do-norte-durante-visita-ao-hub-de-inovacao-do-iel-ceara",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.uece.br/agin/noticias/agencia-de-inovacao-da-uece-apresenta-oportunidades-de-cooperacao-a-startups-do-rio-grande-do-norte-durante-visita-ao-hub-de-inovacao-do-iel-ceara"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "FINEP lança série de editais com R$ 3,3 bilhões para impulsionar a inovação no Brasil - INCUBAUECE | Incubadora de Empresas e Centro de Desenvolvimento Tecnológico e Inovação da Universidade Estadual do Ceará",
       "url": "https://www.uece.br/incubauece/noticias/finep-lanca-serie-de-editais-com-r-33-bilhoes-para-impulsionar-a-inovacao-no-brasil",
       "categoria": "prioridade_verificacao",
@@ -9263,12 +11454,22 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "UFT abre seleção para programa de pré-incubação ...",
+      "titulo": "UFT abre seleção para programa de pré-incubação de startups",
       "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "UNIR - Universidade Federal de Rondônia",
+      "url": "https://www.unir.br/evento/exibir/529",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.unir.br/evento/exibir/529"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -9303,6 +11504,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "WEG lanza el desafío de Innovación Abierta en el mercado | WEG",
+      "url": "https://www.weg.net/institutional/US/es/news/corporativo/weg-lanza-el-desafio-de-innovacion-abierta-en-el-mercado",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.weg.net/institutional/US/es/news/corporativo/weg-lanza-el-desafio-de-innovacion-abierta-en-el-mercado"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "WOW Aceleradora: Aceleração de Startup e Investidores",
       "url": "https://www.wow.ac/",
       "categoria": "fonte_catalogo",
@@ -9319,6 +11530,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.wow.ac/inscricao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Oportunidades de empleo | WSP",
+      "url": "https://www.wsp.com/es-la/trabajemos/oportunidades-de-empleo",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.wsp.com/es-la/trabajemos/oportunidades-de-empleo"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -9403,6 +11624,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Lançamento Chamada de Startups BNDES Garagem 2023",
+      "url": "https://www.youtube.com/watch?v=-lnAfwItuHU",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=-lnAfwItuHU"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Webinar on the Legal Framework for Startups: From Regulatory Sandbox Challenges to Innovation Opp...",
       "url": "https://www.youtube.com/watch?v=0m4EhUB5yMs",
       "categoria": "prioridade_verificacao",
@@ -9433,6 +11664,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Como o Porto Digital incentiva startups do NE? | DooDrops",
+      "url": "https://www.youtube.com/watch?v=86d0EsOqO6M",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=86d0EsOqO6M"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Governo lança Edital PISIM 2026 de incubação de startups nesta terça",
       "url": "https://www.youtube.com/watch?v=CbUqxo3H7Ow",
       "categoria": "prioridade_verificacao",
@@ -9453,6 +11694,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Apoio direto: oportunidades e casos de sucesso com EMBRAPII",
+      "url": "https://www.youtube.com/watch?v=EkthaUyMe9o",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=EkthaUyMe9o"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Hub Paraíba reaches its sixth edition with a focus on innovation and industry solutions",
+      "url": "https://www.youtube.com/watch?v=FR7LU6YA_PQ",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=FR7LU6YA_PQ"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "TV Inova SC | Startup Summit 2026 highlights ESG and sustainability in SC businesses",
       "url": "https://www.youtube.com/watch?v=FV1saZk98vM",
       "categoria": "revisar_contexto",
@@ -9469,6 +11730,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.youtube.com/watch?v=Ge-5D9QDajE"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "What is CUBO ITAÚ? The hub connecting STARTUPS with major companies in Uruguay 🚀",
+      "url": "https://www.youtube.com/watch?v=I5lC0OLeReU",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=I5lC0OLeReU"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -9543,12 +11814,62 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Oportunidades y desafíos para la generación de startups AgTech en América Latina y el Caribe",
+      "url": "https://www.youtube.com/watch?v=XiEZnzCkY3Y&xstg=CAMSBhUD-7L2Hw%3D%3D",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=XiEZnzCkY3Y&xstg=CAMSBhUD-7L2Hw%3D%3D"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Google for Startups Accelerator: AI First (Brazil) - Demo Day 2025",
+      "url": "https://www.youtube.com/watch?v=YAGY0_LA_TU",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=YAGY0_LA_TU"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "From challenge to results: how Sebrae helps startups in Piauí innovate and grow",
+      "url": "https://www.youtube.com/watch?v=YsEHUKS21gw",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=YsEHUKS21gw"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "BNDES GARAGEM | Aline Corrêa - programa de aceleração de startups",
       "url": "https://www.youtube.com/watch?v=evLovz1nHoQ",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.youtube.com/watch?v=evLovz1nHoQ"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "💡🌐 DESAFÍOS de INNOVACIÓN  abierta para emprendedores y startups - Episodio 40",
+      "url": "https://www.youtube.com/watch?v=lmzrYBwrysM",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=lmzrYBwrysM"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Programa G-Start - GERDAU CORSA",
+      "url": "https://www.youtube.com/watch?v=oQK4oGyLdNk",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=oQK4oGyLdNk"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -9563,7 +11884,27 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "1/2 Patricia Hansen \"Inversión en startups el 2023, desafíos y ...",
+      "titulo": "Primeira Rodada de Negócios com Propósito fortalece laços e impulsiona marcas",
+      "url": "https://www.youtube.com/watch?v=sfP2AJF1fTo",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=sfP2AJF1fTo"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Quer impulsionar a sua startup? Participe do Impulsiona Startups! - Inscrições abertas",
+      "url": "https://www.youtube.com/watch?v=vrf_2AaQb-Y",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=vrf_2AaQb-Y"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "1/2 Patricia Hansen \"Inversión en startups el 2023, desafíos y oportunidades\"",
       "url": "https://www.youtube.com/watch?v=wRM3Az7BdpQ",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
@@ -9739,6 +12080,26 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www1.folha.uol.com.br/folha-social-mais/2026/07/programa-de-aceleracao-abre-inscricoes-para-startups-da-america-latina.shtml"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Gerdau e FIEMG Lab apresentam resultados do programa de inovação aberta | Gerdau Brasil",
+      "url": "https://www2.gerdau.com.br/noticias/gerdau-e-fiemg-lab-apresentam-resultados-do-programa-de-inovacao-aberta",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www2.gerdau.com.br/noticias/gerdau-e-fiemg-lab-apresentam-resultados-do-programa-de-inovacao-aberta"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Anprotec (@Anprotec) / X",
+      "url": "https://x.com/Anprotec",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://x.com/Anprotec"
       ],
       "vigencia": "nao_avaliada"
     }
