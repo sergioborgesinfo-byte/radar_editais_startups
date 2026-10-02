@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T06:20:01.069559-03:00",
+    "atualizado_em": "2026-10-02T07:38:03.634427-03:00",
     "examinadas": 54,
     "abertas_publicadas": 2,
     "status": {
       "aberta_confirmada": 2,
-      "pendente_evidencia": 20,
+      "pendente_evidencia": 21,
       "encerrada": 2,
-      "pendente_acesso": 5,
-      "pendente_fonte_oficial": 25
+      "pendente_acesso": 6,
+      "pendente_fonte_oficial": 23
     },
     "resultados": [
       {
@@ -6061,16 +6061,16 @@
         "motivo": "localizar_fonte_primaria"
       },
       {
-        "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups – ConvergenciaDigital",
+        "titulo": "Programa de Inovação Aberta do Hub Rio.IA – 2026",
         "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana",
         "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
@@ -6369,16 +6369,16 @@
         "motivo": "localizar_fonte_primaria"
       },
       {
-        "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups – ConvergenciaDigital",
+        "titulo": "Programa de Inovação Aberta do Hub Rio.IA – 2026",
         "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana",
         "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
