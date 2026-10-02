@@ -159,4 +159,13 @@ class Vigencia(unittest.TestCase):
         self.assertEqual(v['status'],'encerrada')
         self.assertIn('08 de março de 2026',v['evidencia_prazo'])
 
+    def test_data_de_abertura_nao_e_tratada_como_prazo_final(self):
+        r={'url':'https://www.startupsc.com.br/programa-de-capacitacao-startup-sc',
+           'titulo':'Programa Startup SC – Sebrae Startups',
+           'dados':{'trecho_publico':'Programa gratuito para startups incubadas'}}
+        v=validar_oficial(r,datetime(2026,10,2,12,tzinfo=FUSO),
+            lambda u:'16ª Turma do Programa Startup SC 2026. Inscrições abertas a partir de 02/02/2026.')
+        self.assertEqual(v['status'],'pendente_evidencia')
+        self.assertEqual(v['motivo'],'prazo_literal_com_ano_nao_encontrado')
+
 if __name__=='__main__': unittest.main()

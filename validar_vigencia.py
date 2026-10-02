@@ -175,6 +175,7 @@ def validar_oficial(registro, agora, ler=None):
     # pode estar no cronograma sem repetir o nome do programa na mesma linha.
     candidatos = [(data_literal(x), x) for x in trechos
                   if re.search(r'inscri[cç]|inscrev|candidat|submiss|prazo', x, re.I)
+                  and not re.search(r'\babert[ao]s?\s+a\s+partir\s+de\b', x, re.I)
                   and (pagina_dedicada or prazo_da_oportunidade(x, titulo))]
     candidatos = [(d,x) for d,x in candidatos if d]
     continuo = next((x for x in trechos if prazo_da_oportunidade(x, titulo) and re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
@@ -272,7 +273,7 @@ def main():
     anteriores_path = Path('data/oportunidades-vigencia.json')
     historico = json.loads(anteriores_path.read_text()) if anteriores_path.exists() else {}
     # Invalida resultados antigos que aceitavam um ano histórico como edição atual.
-    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v9' else []
+    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v10' else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
@@ -285,7 +286,7 @@ def main():
         feitos[e['url']] = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
                             else validar_oficial(e, agora))
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v9', 'atualizado_em':agora.isoformat(), 'itens':itens}
+    relatorio = {'versao':'vigencia-v10', 'atualizado_em':agora.isoformat(), 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     abertas = exportar_abertas(itens, agora)
     Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')
