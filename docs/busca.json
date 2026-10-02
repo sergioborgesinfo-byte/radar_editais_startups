@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T16:22:16.920266-03:00",
+    "atualizado_em": "2026-10-02T16:28:19.551858-03:00",
     "examinadas": 138,
     "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 8,
-      "encerrada": 61,
-      "pendente_evidencia": 38,
+      "encerrada": 64,
+      "pendente_evidencia": 35,
       "pendente_acesso": 7,
       "pendente_fonte_oficial": 24
     },
@@ -6195,8 +6195,8 @@
       {
         "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
         "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
@@ -6207,8 +6207,8 @@
       {
         "titulo": "Programa Nacional de Pré-Incubação de Ideias Inovadoras - Trilha Nacional de Pré-Incubação Brasil Inovador",
         "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Edital Granioter Acelera 2026",
@@ -6255,8 +6255,8 @@
       {
         "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
         "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
@@ -6741,20 +6741,8 @@
         "motivo": "dados_dinamicos_ausentes"
       },
       {
-        "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
-        "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
         "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
         "url": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Programa Nacional de Pré-Incubação de Ideias Inovadoras - Trilha Nacional de Pré-Incubação Brasil Inovador",
-        "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
@@ -6787,12 +6775,6 @@
         "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
-        "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará",
@@ -7145,10 +7127,10 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 9,
-      "resolvidas_automaticamente": 9,
+      "resolvidas": 12,
+      "resolvidas_automaticamente": 12,
       "revisoes_manuais": 0,
-      "pendentes": 69
+      "pendentes": 66
     }
   }
 }

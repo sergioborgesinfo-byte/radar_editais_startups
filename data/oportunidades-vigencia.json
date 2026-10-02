@@ -1,13 +1,13 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T16:22:16.920266-03:00",
+  "atualizado_em": "2026-10-02T16:28:19.551858-03:00",
   "ia": {
-    "chamadas": 1,
+    "chamadas": 8,
     "limite": 8,
-    "parada": "gemini_conexao",
-    "pendencias_restantes": 69,
-    "casos_com_tentativa_ia": 11,
-    "resolvidas_automaticamente": 68,
+    "parada": null,
+    "pendencias_restantes": 66,
+    "casos_com_tentativa_ia": 20,
+    "resolvidas_automaticamente": 71,
     "revisoes_manuais": 1
   },
   "itens": [
@@ -491,7 +491,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:20:47.524101-03:00"
+      "verificado_em": "2026-10-02T16:26:33.600017-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -505,13 +505,14 @@
     {
       "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
       "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
-      "status": "pendente_evidencia",
-      "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:07.895623-03:00",
-      "ia_metodo": "gemini-v4",
-      "motivo_ia": "gemini_conexao"
+      "fonte_oficial": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
+      "evidencia_prazo": "Período de inscrição e submissão da documentação 15/06/2026 a 16/09/2026",
+      "metodo": "gemini_evidencia_literal",
+      "status": "encerrada",
+      "prazo_iso": "2026-09-16T23:59:59-03:00",
+      "verificado_em": "2026-10-02T16:27:19.480494-03:00",
+      "ia_tentada_em": "2026-10-02T16:27:19.480482-03:00",
+      "ia_metodo": "gemini-v4"
     },
     {
       "url": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
@@ -520,16 +521,22 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:03.594521-03:00"
+      "verificado_em": "2026-10-02T16:18:03.594521-03:00",
+      "ia_tentada_em": "2026-10-02T16:27:26.974665-03:00",
+      "ia_metodo": "gemini-v4",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
       "titulo": "Programa Nacional de Pré-Incubação de Ideias Inovadoras - Trilha Nacional de Pré-Incubação Brasil Inovador",
-      "status": "pendente_evidencia",
-      "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:09.881740-03:00"
+      "fonte_oficial": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
+      "evidencia_prazo": "As inscrições estão abertas até o dia 27 de fevereiro de 2026 e devem ser realizadas, exclusivamente, por meio de formulário eletrônico",
+      "metodo": "gemini_evidencia_literal",
+      "status": "encerrada",
+      "prazo_iso": "2026-02-27T23:59:59-03:00",
+      "verificado_em": "2026-10-02T16:27:34.775072-03:00",
+      "ia_tentada_em": "2026-10-02T16:27:34.775060-03:00",
+      "ia_metodo": "gemini-v4"
     },
     {
       "url": "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil",
@@ -570,7 +577,10 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:04.264151-03:00"
+      "verificado_em": "2026-10-02T16:18:04.264151-03:00",
+      "ia_tentada_em": "2026-10-02T16:27:43.876547-03:00",
+      "ia_metodo": "gemini-v4",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
@@ -579,7 +589,10 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:06.947390-03:00"
+      "verificado_em": "2026-10-02T16:18:06.947390-03:00",
+      "ia_tentada_em": "2026-10-02T16:27:43.898599-03:00",
+      "ia_metodo": "gemini-v4",
+      "motivo_ia": "sem_documentos"
     },
     {
       "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
@@ -588,7 +601,10 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:10.812180-03:00"
+      "verificado_em": "2026-10-02T16:18:10.812180-03:00",
+      "ia_tentada_em": "2026-10-02T16:27:51.959659-03:00",
+      "ia_metodo": "gemini-v4",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
@@ -597,7 +613,10 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:11.539943-03:00"
+      "verificado_em": "2026-10-02T16:18:11.539943-03:00",
+      "ia_tentada_em": "2026-10-02T16:27:59.882339-03:00",
+      "ia_metodo": "gemini-v4",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
@@ -606,16 +625,22 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:12.214159-03:00"
+      "verificado_em": "2026-10-02T16:18:12.214159-03:00",
+      "ia_tentada_em": "2026-10-02T16:28:07.838298-03:00",
+      "ia_metodo": "gemini-v4",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
       "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
-      "metodo_fontes": "links-v1",
-      "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:18:25.980592-03:00"
+      "fonte_oficial": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
+      "evidencia_prazo": "1 Período de inscrições | 09/08 a 22/09/2024",
+      "metodo": "gemini_evidencia_literal",
+      "status": "encerrada",
+      "prazo_iso": "2024-09-22T23:59:59-03:00",
+      "verificado_em": "2026-10-02T16:28:19.551821-03:00",
+      "ia_tentada_em": "2026-10-02T16:28:19.551810-03:00",
+      "ia_metodo": "gemini-v4"
     },
     {
       "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
@@ -787,7 +812,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:21:29.772583-03:00"
+      "verificado_em": "2026-10-02T16:27:15.789437-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -1035,7 +1060,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:20:47.407581-03:00"
+      "verificado_em": "2026-10-02T16:26:33.433898-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1044,7 +1069,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:20:49.835090-03:00"
+      "verificado_em": "2026-10-02T16:26:35.419641-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1107,7 +1132,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:20:47.635773-03:00"
+      "verificado_em": "2026-10-02T16:26:33.625401-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1173,7 +1198,7 @@
       ],
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:20:47.601186-03:00"
+      "verificado_em": "2026-10-02T16:26:33.771043-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -1365,7 +1390,7 @@
       ],
       "metodo_fontes": "links-v1",
       "metodo_leitura": "cronogramas-v1",
-      "verificado_em": "2026-10-02T16:20:47.853625-03:00"
+      "verificado_em": "2026-10-02T16:26:33.909846-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1409,9 +1434,9 @@
   ],
   "fila_prioritaria": {
     "total_inicial": 78,
-    "resolvidas": 9,
-    "resolvidas_automaticamente": 9,
+    "resolvidas": 12,
+    "resolvidas_automaticamente": 12,
     "revisoes_manuais": 0,
-    "pendentes": 69
+    "pendentes": 66
   }
 }

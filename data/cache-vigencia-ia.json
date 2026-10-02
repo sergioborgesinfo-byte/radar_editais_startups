@@ -608,5 +608,117 @@
       "evidencia_ano": null,
       "motivo": "O documento informa explicitamente que as inscrições para o Programa de Mentoria de Startups podem ser feitas até 16 de fevereiro."
     }
+  },
+  "9dc976d0e6bb41df10fe9fa4f7a25a2a86966be013730f830f8345b9b9aebc6a": {
+    "em": "2026-10-02T16:26:33.242726-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
+      "evidencia_identidade": "PRIMEIRA CHAMADA DE INCUBAÇÃO DE IMPACTO PARA STARTUPS",
+      "evidencia": "Período de inscrição e submissão da documentação 15/06/2026 a 16/09/2026",
+      "inicio": "2026-06-15",
+      "fim": "2026-09-16",
+      "evidencia_inicio": "15/06/2026",
+      "evidencia_ano": "2026",
+      "motivo": "O edital define claramente o período de inscrições de 15/06/2026 a 16/09/2026."
+    }
+  },
+  "c5d9c3a9525f7be8b71786672c59fc15021d0c6f41cc3821df6980bdf26e5472": {
+    "em": "2026-10-02T16:26:33.242726-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
+      "evidencia_identidade": "Estão abertas as inscrições para o segundo ciclo do ano do InovAtiva Brasil",
+      "evidencia": "De 29 de junho a 03 de agosto, soluções brasileiras inovadoras, de qualquer segmento, podem se inscrever gratuitamente pelo site .",
+      "fim": "2020-08-03",
+      "inicio": "2020-06-29",
+      "evidencia_inicio": "De 29 de junho a 03 de agosto",
+      "evidencia_ano": "07/07/2020",
+      "motivo": "O prazo de inscrições para o segundo ciclo de 2020 do InovAtiva Brasil encerra-se em 03 de agosto de 2020."
+    }
+  },
+  "4060806526f9e8f7fcda60e4dbe39ceb4a6213641bda5d38b1155a66d76d4b77": {
+    "em": "2026-10-02T16:26:33.242726-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
+      "evidencia_identidade": "Programa Trilha Nacional de Pré-Incubação Brasil Inovador",
+      "evidencia": "As inscrições estão abertas até o dia 27 de fevereiro de 2026 e devem ser realizadas, exclusivamente, por meio de formulário eletrônico",
+      "fim": "2026-02-27",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "2026",
+      "motivo": "O documento informa explicitamente que as inscrições estão abertas até o dia 27 de fevereiro de 2026."
+    }
+  },
+  "7be29879c86ecdbd1333a5cd10528c09033c68eb93add2a1cff4c361c65aaa5e": {
+    "em": "2026-10-02T16:26:33.242726-03:00",
+    "resposta": {
+      "situacao": "sem_prazo",
+      "fonte": "https://cloud.google.com/startup/benefits?hl=pt-BR",
+      "evidencia_identidade": "Programa para Startups do Google Cloud",
+      "evidencia": "As inscrições para o programa são analisadas e aprovadas com base nos requisitos de qualificação abaixo. Inscreva-se agora",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": null,
+      "motivo": "O programa de benefícios para startups do Google Cloud aceita inscrições contínuas sem data limite de encerramento especificada nos documentos fornecidos."
+    }
+  },
+  "0c064599b04eab295cd43bd90d54994425bc77c3a5b3426a3600e71d4ffd0657": {
+    "em": "2026-10-02T16:26:33.242726-03:00",
+    "resposta": {
+      "situacao": "sem_prazo",
+      "fonte": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
+      "evidencia_identidade": "EDITAL DE CHAMADA PARA SELEÇÃO DE PROJETOS E EMPRESAS PARA INCUBAÇÃO - SELEÇÃO DE FLUXO CONTÍNUO",
+      "evidencia": "As propostas, para preenchimento das vagas existentes, poderão ser enviadas pelos proponentes a qualquer tempo, sempre condicionado à existência de vagas.",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "Brasília - DF, 02 de Janeiro de 2024.",
+      "motivo": "O edital opera em fluxo contínuo, com recebimento de propostas a qualquer tempo condicionado à existência de vagas e sem prazo final determinado."
+    }
+  },
+  "c67c1b5691217d83b91fb8cf568cb725238992d36849a3efa762e8674df2d24f": {
+    "em": "2026-10-02T16:26:33.242726-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
+      "evidencia_identidade": "Edital de Chamamento Público nº 009/2026 – iNovaStartup Aceleração",
+      "evidencia": "As inscrições vão até o dia 18 de setembro, e devem ser realizadas pelo inovatech.pnl.mg.gov.br.",
+      "fim": "2026-09-18",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "21/08/2026",
+      "motivo": "O edital estabelece o encerramento das inscrições para o dia 18 de setembro de 2026."
+    }
+  },
+  "5a0acb7057856314a27f26f4b1a895beacc8638d71081dbe4c13037533bfd7c0": {
+    "em": "2026-10-02T16:26:33.242726-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
+      "evidencia_identidade": "Acelera Startups – Da Ideia à Venda, programa de aceleração do Sebrae no Piauí",
+      "evidencia": "Os interessados podem se inscrever até a próxima sexta-feira, 21 de agosto, no endereço eletrônico https://programas.sebraestartups.com.br/in/acelerastartups .",
+      "fim": "2026-08-21",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "14/08/2026",
+      "motivo": "As inscrições estão abertas até o dia 21 de agosto de 2026."
+    }
+  },
+  "6982658105f5f39800143f332044821f6a37473ae1f25b7f6e45a4a443bfbfa3": {
+    "em": "2026-10-02T16:26:33.242726-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
+      "evidencia_identidade": "EDITAL N.º 21/2024 CHAMAMENTO PÚBLICO PARA SELEÇÃO DE PROJETOS DE INOVAÇÃO PARA O PROGRAMA STARTUP NORDESTE – BAHIA",
+      "evidencia": "1 Período de inscrições | 09/08 a 22/09/2024",
+      "fim": "2024-09-22",
+      "inicio": "2024-08-09",
+      "evidencia_inicio": "09/08",
+      "evidencia_ano": "2024",
+      "motivo": "O período de inscrições para o Edital N.º 21/2024 encerrou-se em 22/09/2024."
+    }
   }
 }
