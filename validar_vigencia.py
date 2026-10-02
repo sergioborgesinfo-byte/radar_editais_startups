@@ -150,9 +150,10 @@ def prazo_da_oportunidade(trecho, titulo):
     """Exige nome distintivo no mesmo trecho do prazo; não usa datas da página inteira."""
     genericos = {'programa', 'edital', 'novo', 'nova', 'chamada', 'selecao', 'para',
                  'startups', 'startup', 'inscricoes', 'abertas', 'primeira', 'de', 'da',
-                 'do', 'e', 'a', 'o', 'no', 'na', 'em'}
+                 'do', 'e', 'a', 'o', 'no', 'na', 'em', 'fluxo', 'continuo', 'open'}
     palavras = [p for p in normalizar(titulo).split()
                 if len(p) >= 4 and not p.isdigit() and p not in genericos]
+    palavras += [normalizar(p) for p in re.findall(r'\b[A-Z]{3,}\b', titulo)]
     if not palavras:
         return False
     encontrados = set(normalizar(trecho).split())
@@ -242,7 +243,9 @@ def validar_oficial(registro, agora, ler=None):
         for m in re.finditer(padrao, texto, re.I):
             candidatos.append((data_literal(m.group(0)), m.group(0)))
     candidatos = [(d,x) for d,x in candidatos if d]
-    continuo = next((x for x in trechos if prazo_da_oportunidade(x, titulo) and re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
+    continuo = next((' '.join(trechos[max(0,i-3):i+1]) for i,x in enumerate(trechos)
+                     if prazo_da_oportunidade(' '.join(trechos[max(0,i-3):i+1]), titulo)
+                     and re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
     if not candidatos and not continuo:
         return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
                 'motivo':'prazo_literal_com_ano_nao_encontrado'}
