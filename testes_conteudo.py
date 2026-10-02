@@ -168,7 +168,7 @@ class PaginaDinamica(unittest.TestCase):
 
     def test_recupera_dados_oficiais_do_sebrae(self):
         from confirmar_oportunidades import recuperar_sebrae_dinamico
-        corpo = json.dumps([{'data': {'titulo_text':'Startups na Mercopar 2026 (Manifestação de interesse)',
+        corpo = json.dumps([{'id':'1783963246760x826977266273542100','data': {'titulo_text':'Startups na Mercopar 2026 (Manifestação de interesse)',
                     'descricao_text':'Podem participar startups do Brasil interessadas na feira.'}}]).encode()
         class Resposta(io.BytesIO):
             def __enter__(self): return self

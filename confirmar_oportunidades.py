@@ -70,22 +70,12 @@ def prioridade(e):
 
 def recuperar_sebrae_dinamico(url, abrir=urlopen):
     """Lê os dados oficiais usados pela página dinâmica do Sebrae Startups."""
-    p = urlsplit(url)
-    if p.hostname != 'programas.sebraestartups.com.br' or not p.path.startswith('/in/'):
-        return None
-    endpoint = f'{p.scheme}://{p.netloc}/api/1.1/init/data?location={quote(url, safe="")}'
-    req = Request(endpoint, headers={'User-Agent': 'RadarStartups/1.0'})
+    from sebrae_programas import ler_programa, texto_programa
     try:
-        with abrir(req, timeout=30) as resposta:
-            registros = json.load(resposta)
-    except (HTTPError, URLError, TimeoutError, ValueError, json.JSONDecodeError):
+        dados = ler_programa(url, abrir)
+    except (HTTPError, URLError, TimeoutError, ValueError):
         return None
-    textos = []
-    for registro in registros if isinstance(registros, list) else []:
-        for valor in registro.get('data', {}).values():
-            if isinstance(valor, str) and len(valor.strip()) >= 20:
-                textos.append(valor.strip())
-    return '\n'.join(textos) if textos else None
+    return texto_programa(dados) if dados else None
 
 
 def fila(itens, feitos, limite):

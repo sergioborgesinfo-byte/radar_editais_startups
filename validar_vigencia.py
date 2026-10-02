@@ -7,6 +7,8 @@ from pathlib import Path
 from urllib.parse import quote, urlsplit
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
+from concurrent.futures import ThreadPoolExecutor
+from sebrae_programas import ler_programa, texto_programa
 
 FUSO = ZoneInfo('America/Sao_Paulo')
 MERCOPAR = 'https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100'
@@ -46,17 +48,7 @@ def oficial(url):
 
 
 def dados_sebrae(url, abrir=urlopen):
-    p = urlsplit(url)
-    if p.hostname != 'programas.sebraestartups.com.br' or not p.path.startswith('/in/'):
-        return None
-    endpoint = f'{p.scheme}://{p.netloc}/api/1.1/init/data?location={quote(url, safe="")}'
-    req = Request(endpoint, headers={'User-Agent': 'RadarStartups/1.0'})
-    with abrir(req, timeout=30) as resposta:
-        registros = json.load(resposta)
-    for registro in registros if isinstance(registros, list) else []:
-        if registro.get('id') == p.path.rsplit('/', 1)[-1]:
-            return registro.get('data', {})
-    return None
+    return ler_programa(url, abrir)
 
 
 def validar_sebrae(registro, agora, abrir=urlopen):
@@ -71,9 +63,11 @@ def validar_sebrae(registro, agora, abrir=urlopen):
     fim_ms = dados.get('data_final_date')
     inicio_ms = dados.get('data_inicio_date')
     ativo = dados.get('ativo_boolean') is True
-    publico = bool(re.search(r'\bstartups?\b', titulo + ' ' + dados.get('descricao_text', ''), re.I))
+    texto = texto_programa(dados)
+    publico = bool(re.search(r'\bstartups?\b|\bdeep\s*techs?\b|empreendedores? inovadores?|neg[oó]cios inovadores?', texto, re.I))
+    concreta = bool(re.search(r'programa|miss[aã]o|rodada|exposi[cç][aã]o|feira|evento|edital|pr[eê]mio|chamada|cadastro|incuba|acelera|jornada|capital empreendedor|manifesta[cç][aã]o de interesse', titulo + ' ' + dados.get('descricao_breve_text', ''), re.I))
     edicao = re.search(r'\b20\d{2}\b', titulo)
-    if not (ativo and publico and edicao and isinstance(fim_ms, (int, float))):
+    if not (publico and concreta and isinstance(fim_ms, (int, float))):
         return {'url': url, 'status': 'pendente_evidencia',
                 'motivo': 'edicao_publico_atividade_ou_prazo_nao_comprovado'}
     fim = datetime.fromtimestamp(fim_ms / 1000, FUSO)
@@ -81,18 +75,22 @@ def validar_sebrae(registro, agora, abrir=urlopen):
     if fim <= agora:
         return {'url': url, 'status': 'encerrada', 'prazo_iso': fim.isoformat(),
                 'evidencia_prazo': f'data_final_date={int(fim_ms)}'}
+    if not ativo:
+        return {'url': url, 'titulo': titulo, 'status': 'pendente_evidencia',
+                'motivo': 'inscricoes_nao_ativas_na_fonte'}
     if inicio and inicio > agora:
         return {'url': url, 'titulo': titulo, 'status': 'ainda_nao_aberta',
                 'inicio_iso': inicio.isoformat(), 'prazo_iso': fim.isoformat()}
-    modalidade = ('Manifestação de interesse' if 'manifestação de interesse' in titulo.lower()
+    modalidade = ('Cadastro de interesse' if re.search(r'cadastro.{0,40}interess', titulo, re.I)
+                  else 'Manifestação de interesse' if 'manifestação de interesse' in titulo.lower()
                   else 'Pré-inscrição' if 'pré-inscri' in titulo.lower() else 'Seleção')
     return {'url': url, 'status': 'aberta_confirmada', 'titulo': titulo,
             'instituicao': 'Sebrae Startups', 'tipo': modalidade, 'estagio': 'Qualquer',
             'descricao': dados.get('descricao_breve_text', ''), 'requisitos': dados.get('descricao_text', ''),
             'prazo': fim.date().isoformat(), 'prazo_iso': fim.isoformat(),
             'inicio_iso': inicio.isoformat() if inicio else None,
-            'evidencia_edicao': edicao.group(0),
-            'evidencia_publico': registro.get('dados', {}).get('trecho_publico', ''),
+            'evidencia_edicao': edicao.group(0) if edicao else f'Período de inscrição até {fim.date().isoformat()}',
+            'evidencia_publico': next((x for x in texto.splitlines() if re.search(r'\bstartups?\b|\bdeep\s*techs?\b|empreendedores? inovadores?|neg[oó]cios inovadores?', x, re.I)), ''),
             'evidencia_prazo': f'data_final_date={int(fim_ms)}',
             'modalidade_inscricao': normalizar(modalidade).replace(' ', '_')}
 
@@ -294,11 +292,14 @@ def main():
     if not qualidade.get('avancar_vigencia'):
         raise SystemExit('Gate de qualidade ainda não liberou vigência')
     conteudo = json.loads(Path('data/oportunidades-conteudo.json').read_text())
-    confirmadas = [e for e in conteudo['itens'] if e.get('status') == 'confirmada_no_conteudo']
+    confirmadas = [e for e in conteudo['itens'] if e.get('status') == 'confirmada_no_conteudo'
+                   or ('programas.sebraestartups.com.br/in/' in e['url'])]
+    # Nas páginas estruturadas, a própria validação confere programa, público e prazo;
+    # não depende da cota de IA para ler campos oficiais.
     anteriores_path = Path('data/oportunidades-vigencia.json')
     historico = json.loads(anteriores_path.read_text()) if anteriores_path.exists() else {}
     # Invalida resultados antigos que aceitavam um ano histórico como edição atual.
-    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v10' else []
+    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v11' else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  (feitos[e['url']].get('status') == 'aberta_confirmada' and
@@ -308,11 +309,20 @@ def main():
                   e['url'] in FONTES_OFICIAIS)]
     # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
     # todas as confirmações restantes sem depender de uma segunda execução manual.
-    lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR, not oficial(e['url'])))[:60]
-    for e in lote:
-        feitos[e['url']] = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
-                            else validar_oficial(e, agora))
-        feitos[e['url']]['verificado_em'] = agora.isoformat()
+    lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR,
+                       'programas.sebraestartups.com.br/in/' not in e['url'],
+                       not oficial(e['url'])))[:80]
+    def validar(e):
+        resultado = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
+                     else validar_oficial(e, agora))
+        resultado.setdefault('titulo', e.get('titulo', ''))
+        resultado['verificado_em'] = datetime.now(FUSO).isoformat()
+        print(f"{resultado['status']}: {e['url']}", flush=True)
+        return resultado
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for resultado in pool.map(validar, lote):
+            feitos[resultado['url']] = resultado
+    agora = datetime.now(FUSO)
     itens = list(feitos.values())
     relatorio = {'versao':'vigencia-v10', 'atualizado_em':agora.isoformat(), 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
