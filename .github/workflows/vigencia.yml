@@ -30,6 +30,9 @@ jobs:
           python-version: "3.12"
       - name: Testar vigência, modalidade e duplicação
         run: python -I -S -m unittest discover -s . -p testes_vigencia.py
+      - name: Instalar leitor de páginas e PDFs
+        run: >-
+          python -m pip install --index-url https://pypi.org/simple --only-binary=:all: -r requirements.txt
       - name: Validar lote e exportar somente abertas
         run: python -u validar_vigencia.py
       - name: Salvar validações e publicação

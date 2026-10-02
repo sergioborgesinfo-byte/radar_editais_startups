@@ -3,7 +3,7 @@ import json
 import unittest
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from validar_vigencia import validar_sebrae, exportar_abertas, deduplicar
+from validar_vigencia import validar_sebrae, validar_oficial, exportar_abertas, deduplicar, data_literal
 
 FUSO=ZoneInfo('America/Sao_Paulo')
 
@@ -37,5 +37,20 @@ class Vigencia(unittest.TestCase):
         a={'titulo':'Programa X','instituicao':'Órgão','prazo_iso':'2026-10-02T23:59:59-03:00'}
         b=dict(a);b['prazo_iso']='2026-10-03T23:59:59-03:00'
         self.assertEqual(deduplicar([a,b]),[b])
+    def test_data_sem_ano_nao_e_inferida(self):
+        self.assertIsNone(data_literal('Inscrições até 21 de agosto'))
+    def test_oficial_encerrada_nao_publica(self):
+        r={'url':'https://agifes.ifes.edu.br/programa','titulo':'Programa 2026',
+           'dados':{'titulo':'Programa 2026 para startups','trecho_publico':'Startups e projetos inovadores'}}
+        v=validar_oficial(r,datetime(2026,10,1,12,tzinfo=FUSO),
+                         lambda u:'As inscrições estão abertas até 27 de fevereiro de 2026.')
+        self.assertEqual(v['status'],'encerrada')
+    def test_oficial_aberta_exige_prazo_literal(self):
+        r={'url':'https://fapemig.br/edital','titulo':'Edital 2026',
+           'dados':{'titulo':'Edital 2026 para startups','trecho_publico':'Podem participar startups brasileiras','resumo':'Apoio'}}
+        v=validar_oficial(r,datetime(2026,10,1,12,tzinfo=FUSO),
+                         lambda u:'Inscrições abertas. Prazo para submissão: 15/10/2026.')
+        self.assertEqual(v['status'],'aberta_confirmada')
+        self.assertEqual(v['prazo'],'2026-10-15')
 
 if __name__=='__main__': unittest.main()

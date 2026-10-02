@@ -10,6 +10,8 @@ from zoneinfo import ZoneInfo
 
 FUSO = ZoneInfo('America/Sao_Paulo')
 MERCOPAR = 'https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100'
+MESES = {'janeiro':1,'fevereiro':2,'marco':3,'abril':4,'maio':5,'junho':6,
+         'julho':7,'agosto':8,'setembro':9,'outubro':10,'novembro':11,'dezembro':12}
 
 
 def normalizar(s):
@@ -74,6 +76,73 @@ def validar_sebrae(registro, agora, abrir=urlopen):
             'modalidade_inscricao': normalizar(modalidade).replace(' ', '_')}
 
 
+def data_literal(trecho):
+    limpo = ''.join(c for c in unicodedata.normalize('NFKD', str(trecho).lower())
+                    if not unicodedata.combining(c))
+    m = re.search(r'\b(\d{1,2})[/-](\d{1,2})[/-](20\d{2})\b', limpo)
+    if m:
+        dia, mes, ano = map(int, m.groups())
+        try: return datetime(ano, mes, dia, 23, 59, 59, tzinfo=FUSO)
+        except ValueError: return None
+    m = re.search(r'\b(\d{1,2}) de (' + '|'.join(MESES) + r') de (20\d{2})\b', limpo)
+    if m:
+        try: return datetime(int(m.group(3)), MESES[m.group(2)], int(m.group(1)), 23, 59, 59, tzinfo=FUSO)
+        except ValueError: return None
+    return None
+
+
+def validar_oficial(registro, agora, ler=None):
+    url = registro['url']
+    if not oficial(url):
+        return {'url':url, 'titulo':registro.get('titulo',''), 'status':'pendente_fonte_oficial',
+                'motivo':'localizar_fonte_primaria'}
+    try:
+        if ler is None:
+            import radar
+            ctype, bruto = radar.baixar(url)
+            if bruto is None:
+                raise ValueError('leitura_bloqueada')
+            texto = radar.para_texto(ctype, bruto)[:radar.MAX_CHARS]
+        else:
+            texto = ler(url)
+    except Exception:
+        return {'url':url, 'titulo':registro.get('titulo',''), 'status':'pendente_acesso',
+                'motivo':'fonte_oficial_indisponivel'}
+    titulo = registro.get('dados',{}).get('titulo') or registro.get('titulo','')
+    publico = registro.get('dados',{}).get('trecho_publico','')
+    if not re.search(r'\b20\d{2}\b', titulo + ' ' + texto) or not re.search(r'startup|neg[oó]cio inovador|projeto inovador', publico, re.I):
+        return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
+                'motivo':'edicao_ou_publico_nao_comprovado'}
+    trechos = [x.strip() for x in re.split(r'(?<=[.!?])\s+|\n+', texto) if x.strip()]
+    candidatos = [(data_literal(x), x) for x in trechos
+                  if re.search(r'inscri[cç]|candidat|submiss|prazo', x, re.I)]
+    candidatos = [(d,x) for d,x in candidatos if d]
+    continuo = next((x for x in trechos if re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
+    if not candidatos and not continuo:
+        return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
+                'motivo':'prazo_literal_com_ano_nao_encontrado'}
+    if continuo:
+        modalidade='Pré-incubação' if 'pré-incuba' in titulo.lower() else 'Inscrição'
+        return {'url':url,'status':'aberta_confirmada','titulo':titulo,'instituicao':urlsplit(url).hostname,
+                'tipo':modalidade,'estagio':'Qualquer','descricao':registro.get('dados',{}).get('resumo',''),
+                'requisitos':publico,'prazo':None,'prazo_iso':None,'inicio_iso':None,
+                'evidencia_edicao':re.search(r'\b20\d{2}\b',titulo+' '+texto).group(0),
+                'evidencia_publico':publico,'evidencia_prazo':continuo,
+                'modalidade_inscricao':'fluxo_continuo','sem_data_final':True}
+    fim, evidencia = max(candidatos, key=lambda x:x[0])
+    if fim <= agora:
+        return {'url':url,'titulo':titulo,'status':'encerrada','prazo_iso':fim.isoformat(),'evidencia_prazo':evidencia}
+    modalidade=('Pré-inscrição' if 'pré-inscri' in titulo.lower() else
+                'Manifestação de interesse' if 'manifestação de interesse' in titulo.lower() else
+                'Pré-incubação' if 'pré-incuba' in titulo.lower() else 'Seleção')
+    return {'url':url,'status':'aberta_confirmada','titulo':titulo,'instituicao':urlsplit(url).hostname,
+            'tipo':modalidade,'estagio':'Qualquer','descricao':registro.get('dados',{}).get('resumo',''),
+            'requisitos':publico,'prazo':fim.date().isoformat(),'prazo_iso':fim.isoformat(),'inicio_iso':None,
+            'evidencia_edicao':re.search(r'\b20\d{2}\b',titulo+' '+texto).group(0),
+            'evidencia_publico':publico,'evidencia_prazo':evidencia,
+            'modalidade_inscricao':normalizar(modalidade).replace(' ','_'),'sem_data_final':False}
+
+
 def deduplicar(itens):
     unicos = {}
     for e in itens:
@@ -87,14 +156,15 @@ def deduplicar(itens):
 def exportar_abertas(validadas, agora):
     saida = []
     for e in deduplicar([x for x in validadas if x.get('status') == 'aberta_confirmada']):
-        fim = datetime.fromisoformat(e['prazo_iso'])
+        continuo = e.get('sem_data_final', False)
+        fim = None if continuo else datetime.fromisoformat(e['prazo_iso'])
         saida.append({'t': e['titulo'], 'o': e['instituicao'], 'tipo': e['tipo'],
             'est': e['estagio'], 'v': 0, 'prazo': e['prazo'],
-            'd': (fim.date() - agora.date()).days, 'desc': e['descricao'], 'link': e['url'],
+            'd': None if continuo else (fim.date() - agora.date()).days, 'desc': e['descricao'], 'link': e['url'],
             'n': 1, 'r': 0, 'revisar': 0, 'status': e['modalidade_inscricao'] + '_aberta',
             'requisitos': e['requisitos'], 'verificado_em': agora.isoformat(),
             'validado_automaticamente': True, 'prazo_iso': e['prazo_iso'],
-            'sem_data_final': False, 'verificacao_valida_ate': (agora + timedelta(hours=48)).isoformat(),
+            'sem_data_final': continuo, 'verificacao_valida_ate': (agora + timedelta(hours=48)).isoformat(),
             'evidencia_edicao': e['evidencia_edicao'],
             'evidencia_publico': e['evidencia_publico'], 'evidencia_prazo': e['evidencia_prazo']})
     return saida
@@ -110,13 +180,12 @@ def main():
     anteriores_path = Path('data/oportunidades-vigencia.json')
     anteriores = json.loads(anteriores_path.read_text()).get('itens', []) if anteriores_path.exists() else []
     feitos = {e['url']: e for e in anteriores}
-    pendentes = [e for e in confirmadas if e['url'] not in feitos]
+    pendentes = [e for e in confirmadas if e['url'] not in feitos or
+                 feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso')]
     lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR, not oficial(e['url'])))[:20]
     for e in lote:
         feitos[e['url']] = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
-                            else {'url': e['url'], 'titulo': e.get('titulo', ''),
-                                  'status': 'pendente_fonte_oficial' if not oficial(e['url']) else 'pendente_metodo',
-                                  'motivo': 'localizar_fonte_primaria' if not oficial(e['url']) else 'extrator_oficial_a_implementar'})
+                            else validar_oficial(e, agora))
     itens = list(feitos.values())
     relatorio = {'versao':'vigencia-v1', 'atualizado_em':agora.isoformat(), 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
