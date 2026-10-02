@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v10",
-  "atualizado_em": "2026-10-02T09:36:40.534869-03:00",
+  "atualizado_em": "2026-10-02T11:20:29.204957-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -344,6 +344,42 @@
     {
       "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
       "titulo": "Suzano lança Programa de Mentoria de Startups",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil",
+      "titulo": "Edital Granioter Acelera 2026",
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado"
+    },
+    {
+      "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
+      "titulo": "Resultado Chamada Pública 03/2026: Novo Seed",
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado"
+    },
+    {
+      "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
+      "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado"
+    },
+    {
+      "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
+      "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado"
+    },
+    {
+      "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
+      "titulo": "Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria"
+    },
+    {
+      "url": "https://creditforstartups.com/brazil-startup-credits",
+      "titulo": "Brazil Startup Credits: 46 Programs Compared",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria"
     }

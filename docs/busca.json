@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T09:36:40.534869-03:00",
-    "examinadas": 54,
+    "atualizado_em": "2026-10-02T11:20:29.204957-03:00",
+    "examinadas": 60,
     "abertas_publicadas": 2,
     "status": {
       "aberta_confirmada": 2,
-      "pendente_evidencia": 22,
+      "pendente_evidencia": 26,
       "encerrada": 2,
       "pendente_acesso": 7,
-      "pendente_fonte_oficial": 21
+      "pendente_fonte_oficial": 23
     },
     "resultados": [
       {
@@ -6221,6 +6221,42 @@
         "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Edital Granioter Acelera 2026",
+        "url": "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Resultado Chamada Pública 03/2026: Novo Seed",
+        "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
+        "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
+        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos",
+        "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Brazil Startup Credits: 46 Programs Compared",
+        "url": "https://creditforstartups.com/brazil-startup-credits",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       }
     ],
     "pendentes": [
@@ -6521,6 +6557,42 @@
       {
         "titulo": "Suzano lança Programa de Mentoria de Startups",
         "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Edital Granioter Acelera 2026",
+        "url": "https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Resultado Chamada Pública 03/2026: Novo Seed",
+        "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
+        "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026",
+        "url": "https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos",
+        "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Brazil Startup Credits: 46 Programs Compared",
+        "url": "https://creditforstartups.com/brazil-startup-credits",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
       }
