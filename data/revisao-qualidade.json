@@ -1,24 +1,24 @@
 {
-  "avaliado_em": "2026-10-01T23:38:13.871825+00:00",
-  "links_descobertos": 973,
-  "paginas_examinadas": 386,
+  "avaliado_em": "2026-10-02T06:10:35.429221+00:00",
+  "links_descobertos": 1209,
+  "paginas_examinadas": 446,
   "status": {
-    "pendente_leitura": 179,
-    "confirmada_no_conteudo": 41,
-    "pendente_ia": 146,
-    "pendente_evidencia": 8,
+    "pendente_leitura": 199,
+    "confirmada_no_conteudo": 49,
+    "pendente_ia": 176,
+    "pendente_evidencia": 10,
     "nao_confirmada_no_texto": 1,
     "falha_leitura": 11
   },
-  "candidatos_prioritarios": 344,
-  "prioritarios_examinados": 313,
-  "cobertura_prioritaria": 0.9099,
-  "dominios_confirmados": 31,
+  "candidatos_prioritarios": 414,
+  "prioritarios_examinados": 365,
+  "cobertura_prioritaria": 0.8816,
+  "dominios_confirmados": 37,
   "caso_mercopar": {
     "status": "confirmada_no_conteudo"
   },
   "catalogo_sebrae": "fonte_catalogo; não é oportunidade",
-  "avancar_vigencia": true,
-  "justificativa": "Cobertura, caso conhecido e variedade atingiram o gate.",
+  "avancar_vigencia": false,
+  "justificativa": "A cobertura dos candidatos prioritários ainda não atingiu 90%; confirmações seguem sob auditoria conservadora.",
   "falhas_controladas": "429 interrompe novas chamadas de IA no lote; candidatos e evidências são preservados"
 }
