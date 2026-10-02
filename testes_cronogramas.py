@@ -3,6 +3,12 @@ from datetime import datetime
 from cronogramas import datas, prazo_documentado, FUSO
 
 class Cronogramas(unittest.TestCase):
+    def test_cartao_article_nao_oculta_cronograma_do_main(self):
+        from cronogramas import ler_texto
+        html=b'<main><h1>Novo SEED 2026</h1><article>Categoria A</article><p>Data Final de Submissao de Propostas: 23/04/2026</p><p>Resultado: 16/07/2026</p></main>'
+        t=ler_texto('text/html',html)
+        r=prazo_documentado(t,'Novo SEED 2026')
+        self.assertEqual(r['fim'].date().isoformat(),'2026-04-23')
     def test_portugues_periodo_ano_no_final(self):
         r=prazo_documentado('IncubaScience CETENE\nInscrições\n05 de maio a 05 de junho de 2026\nHomologação das Inscrições\n10 de junho de 2026','IncubaScience CETENE')
         self.assertEqual(r['fim'].date().isoformat(),'2026-06-05')

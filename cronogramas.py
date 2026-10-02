@@ -40,7 +40,8 @@ def ler_texto(ctype, bruto):
     if b'<' not in bruto:return radar.para_texto(ctype,bruto)
     from bs4 import BeautifulSoup
     sopa=BeautifulSoup(bruto,'html.parser')
-    raiz=sopa.find('article') or sopa.find('main') or sopa
+    # Blocos article podem ser cartões dentro do conteúdo principal.
+    raiz=sopa.find('main') or max(sopa.find_all('article'), key=lambda t:len(t.get_text()), default=sopa)
     cabecalho=[]
     titulo=sopa.find('h1')
     if titulo and titulo not in raiz.descendants:
@@ -89,7 +90,7 @@ def prazo_documentado(texto,titulo):
                 trecho+='\n'+proxima
             else:break
         s=limpo(trecho)
-        rotulo=bool(re.match(r'^(?:inscricoes\b|periodo (?:de |das )?inscricoes|encerramento (?:de |das )?inscricoes|prazo (?:para |de )?submissao|applications? (?:close|deadline|open)|application deadline|submission deadline)',limpo(linha)))
+        rotulo=bool(re.match(r'^(?:data (?:final|inicio) de submissao|inscricoes\b|periodo (?:de |das )?inscricoes|encerramento (?:de |das )?inscricoes|prazo (?:para |de )?submissao|applications? (?:close|deadline|open)|application deadline|submission deadline)',limpo(linha)))
         if datas(linha) and re.match(r'^(?:\d|'+ '|'.join(MESES) +r')\b',limpo(linha)) and re.search(r'applications? (?:close|open)|application deadline',limpo(linha)):
             rotulo=True
         if not identidade(trecho,titulo) and not rotulo:continue
@@ -101,7 +102,7 @@ def prazo_documentado(texto,titulo):
             if edicao:ds=datas(trecho,int(edicao[0]))
         if not ds:continue
         abertura=bool(re.search(r'(?:applications?\s+(?:are\s+)?open|abert[ao]s?\s+a\s+partir|inicio\s+(?:das?\s+)?inscri|abertura\s+(?:das?\s+)?inscri)',s))
-        fechamento=bool(re.search(r'ate\b|prazo|encerr|termin|close|closing|deadline|until|through|ends?',s))
+        fechamento=bool(re.search(r'data final de submissao|ate\b|prazo|encerr|termin|close|closing|deadline|until|through|ends?',s))
         periodo=len(ds)>=2 and bool(re.search(r'\s(?:a|ao|to|through)\s|\s[-–]\s',s))
         if fechamento or periodo:
             fim.append((max(ds),trecho))
