@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [validar_vigencia.py, testes_vigencia.py, '.github/workflows/vigencia.yml']
+    paths: [validar_vigencia.py, testes_vigencia.py, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
   workflow_run:
     workflows: ["Confirmar oportunidades pelo conteúdo"]
     types: [completed]
@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "$GITHUB_ACTOR"
           git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
-          git add data/oportunidades-vigencia.json docs/editais.json
+          git add data/oportunidades-vigencia.json docs/editais.json docs/busca.json
           if ! git diff --cached --quiet; then
             git commit -m "Valida edição, público e prazo; publica somente oportunidades abertas"
             git pull --rebase origin main

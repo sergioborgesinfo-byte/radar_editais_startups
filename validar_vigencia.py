@@ -162,9 +162,37 @@ def deduplicar(itens):
     for e in itens:
         chave = (normalizar(e['titulo']), normalizar(e['instituicao']))
         atual = unicos.get(chave)
-        if not atual or e['prazo_iso'] > atual['prazo_iso']:
+        # Fluxo contínuo não tem prazo_iso; ainda assim pode ser deduplicado.
+        if not atual or (e.get('prazo_iso') or '') > (atual.get('prazo_iso') or ''):
             unicos[chave] = e
     return list(unicos.values())
+
+
+def atualizar_acompanhamento(itens, abertas, agora):
+    """Mantém o progresso da vigência visível no painel já publicado."""
+    caminho = Path('docs/busca.json')
+    painel = json.loads(caminho.read_text()) if caminho.exists() else {}
+    contagem = {}
+    for item in itens:
+        status = item.get('status', 'desconhecido')
+        contagem[status] = contagem.get(status, 0) + 1
+    painel['vigencia'] = {
+        'atualizado_em': agora.isoformat(),
+        'examinadas': len(itens),
+        'abertas_publicadas': len(abertas),
+        'status': contagem,
+        'resultados': [
+            {'titulo': item.get('titulo', ''), 'url': item['url'],
+             'status': item.get('status'), 'motivo': item.get('motivo', '')}
+            for item in itens
+        ],
+        'pendentes': [
+            {'titulo': item.get('titulo', ''), 'url': item['url'],
+             'status': item.get('status'), 'motivo': item.get('motivo', '')}
+            for item in itens if item.get('status', '').startswith('pendente_')
+        ],
+    }
+    caminho.write_text(json.dumps(painel, ensure_ascii=False, indent=2) + '\n')
 
 
 def exportar_abertas(validadas, agora):
@@ -198,15 +226,19 @@ def main():
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso')]
-    lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR, not oficial(e['url'])))[:20]
+    # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
+    # todas as confirmações restantes sem depender de uma segunda execução manual.
+    lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR, not oficial(e['url'])))[:60]
     for e in lote:
         feitos[e['url']] = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
                             else validar_oficial(e, agora))
     itens = list(feitos.values())
     relatorio = {'versao':'vigencia-v2', 'atualizado_em':agora.isoformat(), 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
-    Path('docs/editais.json').write_text(json.dumps(exportar_abertas(itens, agora), ensure_ascii=False, indent=2)+'\n')
-    print(f'{len(lote)} examinadas; {len(exportar_abertas(itens, agora))} abertas confirmadas publicadas')
+    abertas = exportar_abertas(itens, agora)
+    Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')
+    atualizar_acompanhamento(itens, abertas, agora)
+    print(f'{len(lote)} examinadas; {len(abertas)} abertas confirmadas publicadas')
 
 
 if __name__ == '__main__':
