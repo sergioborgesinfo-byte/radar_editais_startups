@@ -1,12 +1,12 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T18:50:18.680Z",
+  "atualizado_em": "2026-10-02T15:54:27.607062-03:00",
   "ia": {
     "chamadas": 8,
     "limite": 8,
     "parada": null,
-    "pendencias_restantes": 73,
-    "casos_com_tentativa_ia": 37
+    "pendencias_restantes": 70,
+    "casos_com_tentativa_ia": 45
   },
   "itens": [
     {
@@ -490,7 +490,7 @@
       "motivo": "dados_dinamicos_ausentes",
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:27:52.006885-03:00"
+      "verificado_em": "2026-10-02T15:51:04.409877-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -808,7 +808,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:28:34.088945-03:00"
+      "verificado_em": "2026-10-02T15:51:46.820528-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -835,14 +835,20 @@
       "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "verificado_em": "2026-10-02T12:18:58.633080-03:00"
+      "verificado_em": "2026-10-02T12:18:58.633080-03:00",
+      "ia_tentada_em": "2026-10-02T15:52:08.783152-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "encerramento_nao_comprovado"
     },
     {
       "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
       "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "verificado_em": "2026-10-02T12:18:56.216586-03:00"
+      "verificado_em": "2026-10-02T12:18:56.216586-03:00",
+      "ia_tentada_em": "2026-10-02T15:52:19.416567-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -981,7 +987,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:22:27.171373-03:00"
+      "verificado_em": "2026-10-02T12:22:27.171373-03:00",
+      "ia_tentada_em": "2026-10-02T15:52:37.054731-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
@@ -989,15 +998,22 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:22:27.776382-03:00"
+      "verificado_em": "2026-10-02T12:22:27.776382-03:00",
+      "ia_tentada_em": "2026-10-02T15:52:45.089789-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao",
       "titulo": "Start-Ed Lab",
-      "status": "pendente_evidencia",
-      "motivo": "edicao_ou_publico_nao_comprovado",
-      "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:22:25.392990-03:00"
+      "fonte_oficial": "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao",
+      "evidencia_prazo": "está com inscrições abertas até o dia 13 de maio",
+      "metodo": "gemini_evidencia_literal",
+      "status": "encerrada",
+      "prazo_iso": "2016-05-13T23:59:59-03:00",
+      "verificado_em": "2026-10-02T15:52:52.824294-03:00",
+      "ia_tentada_em": "2026-10-02T15:52:52.824285-03:00",
+      "ia_metodo": "gemini-v3"
     },
     {
       "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
@@ -1005,7 +1021,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:22:29.682563-03:00"
+      "verificado_em": "2026-10-02T12:22:29.682563-03:00",
+      "ia_tentada_em": "2026-10-02T15:53:07.806028-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "inicio_nao_comprovado"
     },
     {
       "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
@@ -1013,7 +1032,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:22:31.404520-03:00"
+      "verificado_em": "2026-10-02T12:22:31.404520-03:00",
+      "ia_tentada_em": "2026-10-02T15:54:18.128262-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1042,7 +1064,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T12:22:31.944253-03:00"
+      "verificado_em": "2026-10-02T12:22:31.944253-03:00",
+      "ia_tentada_em": "2026-10-02T15:54:27.607031-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "Invalid isoformat string: '02-16'"
     },
     {
       "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
@@ -1058,7 +1083,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:27:51.683230-03:00"
+      "verificado_em": "2026-10-02T15:51:04.482819-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1066,7 +1091,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:27:53.934451-03:00"
+      "verificado_em": "2026-10-02T15:51:06.404665-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1122,7 +1147,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:27:52.254735-03:00"
+      "verificado_em": "2026-10-02T15:51:04.590219-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",

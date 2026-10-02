@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T18:50:18.680Z",
+    "atualizado_em": "2026-10-02T15:54:27.607062-03:00",
     "examinadas": 138,
     "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 8,
-      "encerrada": 59,
-      "pendente_evidencia": 40,
+      "encerrada": 60,
+      "pendente_evidencia": 39,
       "pendente_acesso": 5,
       "pendente_fonte_oficial": 26
     },
@@ -6453,8 +6453,8 @@
       {
         "titulo": "Start-Ed Lab",
         "url": "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
@@ -6905,12 +6905,6 @@
       {
         "titulo": "Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups",
         "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Start-Ed Lab",
-        "url": "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
