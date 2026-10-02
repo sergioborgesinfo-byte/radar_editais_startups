@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T15:54:27.607062-03:00",
+    "atualizado_em": "2026-10-02T16:20:29.207244-03:00",
     "examinadas": 138,
     "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 8,
-      "encerrada": 60,
-      "pendente_evidencia": 39,
-      "pendente_acesso": 5,
-      "pendente_fonte_oficial": 26
+      "encerrada": 61,
+      "pendente_evidencia": 38,
+      "pendente_acesso": 7,
+      "pendente_fonte_oficial": 24
     },
     "resultados": [
       {
@@ -6321,8 +6321,8 @@
       {
         "titulo": "Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias",
         "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/pequenos-negocios-podem-se-inscrever-para-rodadas-de-negocios-com-startups-durante-forum-e-commerce-brasil-2026",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc",
@@ -6379,7 +6379,7 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Hello Tomorrow Global Challenge — 12ª edição",
+        "titulo": "Hello Tomorrow Challenge",
         "url": "https://hello-tomorrow.org/global-challenge",
         "status": "aberta_confirmada",
         "motivo": ""
@@ -6424,7 +6424,7 @@
         "titulo": "Natura Innovation Challenge seleciona startups com soluções para compensação de carbono",
         "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
         "status": "pendente_evidencia",
-        "motivo": "ia_inconclusiva"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
@@ -6579,8 +6579,8 @@
       {
         "titulo": "Prorrogado! Programas para novas startups com inscrições até 30 de março | Jornal Digital",
         "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Empresa oferece programa de aceleração 100% online para startups de todo o Brasil - Startupi",
@@ -6699,8 +6699,8 @@
       {
         "titulo": "Invest.Rio e Maravalley lançam edital para selecionar dez ...",
         "url": "https://jornalonlinealagoas.com/noticia/84078/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi",
@@ -6819,12 +6819,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias",
-        "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/pequenos-negocios-podem-se-inscrever-para-rodadas-de-negocios-com-startups-durante-forum-e-commerce-brasil-2026",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
         "titulo": "UFT abre seleção para programa de pré-incubação ...",
         "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
         "status": "pendente_acesso",
@@ -6888,7 +6882,7 @@
         "titulo": "Natura Innovation Challenge seleciona startups com soluções para compensação de carbono",
         "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
         "status": "pendente_evidencia",
-        "motivo": "ia_inconclusiva"
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
@@ -7019,8 +7013,8 @@
       {
         "titulo": "Prorrogado! Programas para novas startups com inscrições até 30 de março | Jornal Digital",
         "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Empresa oferece programa de aceleração 100% online para startups de todo o Brasil - Startupi",
@@ -7121,8 +7115,8 @@
       {
         "titulo": "Invest.Rio e Maravalley lançam edital para selecionar dez ...",
         "url": "https://jornalonlinealagoas.com/noticia/84078/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi",
@@ -7148,6 +7142,13 @@
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
       }
-    ]
+    ],
+    "fila_prioritaria": {
+      "total_inicial": 78,
+      "resolvidas": 9,
+      "resolvidas_automaticamente": 9,
+      "revisoes_manuais": 0,
+      "pendentes": 69
+    }
   }
 }
