@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T18:26:28.465306-03:00",
+    "atualizado_em": "2026-10-02T18:54:45.542140-03:00",
     "examinadas": 138,
-    "abertas_publicadas": 7,
+    "abertas_publicadas": 8,
     "status": {
-      "aberta_confirmada": 8,
-      "encerrada": 66,
-      "pendente_evidencia": 33,
+      "aberta_confirmada": 9,
+      "encerrada": 67,
+      "pendente_evidencia": 31,
       "pendente_acesso": 7,
       "pendente_fonte_oficial": 24
     },
@@ -6615,8 +6615,8 @@
       {
         "titulo": "Brazil Startup Credits: Cloud, AI & Software",
         "url": "https://creditforstartups.com/brazil-startup-credits",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "aberta_confirmada",
+        "motivo": ""
       },
       {
         "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil",
@@ -6663,8 +6663,8 @@
       {
         "titulo": "Segunda Chamada de Incubação para Startups - Programa Parque Tecnológico Horizontes de Inovação",
         "url": "https://iphaep.pb.gov.br/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN005_2026SECTIESSEGUNDACHAMADADEINCUBAOPARASTARTUPS.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Missão brasileira abre inscrições para levar 100 startups ...",
@@ -7011,12 +7011,6 @@
         "motivo": "localizar_fonte_primaria"
       },
       {
-        "titulo": "Brazil Startup Credits: Cloud, AI & Software",
-        "url": "https://creditforstartups.com/brazil-startup-credits",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
         "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil",
         "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
         "status": "pendente_evidencia",
@@ -7043,12 +7037,6 @@
       {
         "titulo": "InovAtiva prorroga inscrições para o maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
         "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Segunda Chamada de Incubação para Startups - Programa Parque Tecnológico Horizontes de Inovação",
-        "url": "https://iphaep.pb.gov.br/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN005_2026SECTIESSEGUNDACHAMADADEINCUBAOPARASTARTUPS.pdf",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
@@ -7115,10 +7103,10 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 14,
-      "resolvidas_automaticamente": 14,
+      "resolvidas": 16,
+      "resolvidas_automaticamente": 16,
       "revisoes_manuais": 0,
-      "pendentes": 64
+      "pendentes": 62
     }
   }
 }
