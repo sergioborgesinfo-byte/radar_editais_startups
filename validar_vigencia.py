@@ -15,6 +15,8 @@ from sebrae_programas import ler_programa, texto_programa
 FUSO = ZoneInfo('America/Sao_Paulo')
 MERCOPAR = 'https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100'
 FONTES_OFICIAIS = {
+    'https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026':
+        'https://www.maravalley.rio/programas/web-summit-lisboa-2026',
     'https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao':
         'https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao',
     'https://www.darwinstartups.com/icmlab':

@@ -8,6 +8,19 @@ from validar_vigencia import validar_sebrae, validar_oficial, exportar_abertas, 
 FUSO=ZoneInfo('America/Sao_Paulo')
 
 class Vigencia(unittest.TestCase):
+    def test_missao_lisboa_usa_pagina_oficial_do_maravalley(self):
+        origem=('https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-'
+                'selecionar-dez-startups-para-missao-web-summit-lisboa-2026')
+        acessada=[]
+        r={'url':origem,'titulo':'Missão Web Summit Lisboa 2026',
+           'dados':{'titulo':'Missão Web Summit Lisboa 2026',
+                    'trecho_publico':'Seleção de dez startups cariocas.',
+                    'resumo':'Missão de internacionalização.'}}
+        d=validar_oficial(r,datetime(2026,10,2,tzinfo=FUSO),
+                          lambda url:(acessada.append(url) or (_ for _ in ()).throw(ValueError())))
+        self.assertEqual(acessada,['https://www.maravalley.rio/programas/web-summit-lisboa-2026'])
+        self.assertEqual(d['status'],'pendente_acesso')
+
     def test_icm_lab_oficial_com_publico_e_prazo_literal(self):
         from validar_vigencia import validar_oficial
         r={'url':'https://www.darwinstartups.com/icmlab',
