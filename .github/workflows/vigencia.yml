@@ -55,7 +55,9 @@ jobs:
           for lote in 1 2 3; do
             echo "Processando lote automático $lote de 3"
             python -u validar_vigencia.py
-            python -c 'import json; d=json.load(open("data/oportunidades-vigencia.json")); exit(0 if d["ia"].get("parada") or not d["ia"].get("pendencias_restantes") else 1)' && break
+            if python -c 'import json; d=json.load(open("data/oportunidades-vigencia.json")); exit(0 if d["ia"].get("parada") or not d["ia"].get("pendencias_restantes") else 1)'; then
+              break
+            fi
           done
       - name: Preservar downloads para a próxima rodada
         if: always()
