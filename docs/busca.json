@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T11:20:29.204957-03:00",
-    "examinadas": 60,
+    "atualizado_em": "2026-10-02T11:28:11.576595-03:00",
+    "examinadas": 69,
     "abertas_publicadas": 2,
     "status": {
       "aberta_confirmada": 2,
-      "pendente_evidencia": 26,
+      "pendente_evidencia": 32,
       "encerrada": 2,
       "pendente_acesso": 7,
-      "pendente_fonte_oficial": 23
+      "pendente_fonte_oficial": 26
     },
     "resultados": [
       {
@@ -6257,6 +6257,60 @@
         "url": "https://creditforstartups.com/brazil-startup-credits",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
+        "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
+        "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição",
+        "url": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará",
+        "url": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
+        "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
+        "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Hello Tomorrow Challenge",
+        "url": "https://hello-tomorrow.org/global-challenge",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico",
+        "url": "https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil - Impacta Nordeste",
+        "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       }
     ],
     "pendentes": [
@@ -6593,6 +6647,60 @@
       {
         "titulo": "Brazil Startup Credits: 46 Programs Compared",
         "url": "https://creditforstartups.com/brazil-startup-credits",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
+        "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
+        "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição",
+        "url": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará",
+        "url": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
+        "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
+        "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Hello Tomorrow Challenge",
+        "url": "https://hello-tomorrow.org/global-challenge",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico",
+        "url": "https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil - Impacta Nordeste",
+        "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
       }
