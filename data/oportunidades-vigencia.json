@@ -5,7 +5,7 @@
     "chamadas": 8,
     "limite": 8,
     "parada": null,
-    "pendencias_restantes": 78,
+    "pendencias_restantes": 76,
     "casos_com_tentativa_ia": 29
   },
   "itens": [
@@ -709,13 +709,16 @@
     {
       "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
       "titulo": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
-      "status": "pendente_evidencia",
+      "status": "encerrada",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:52.584528-03:00",
+      "verificado_em": "2026-10-02T15:26:08.380336-03:00",
       "ia_tentada_em": "2026-10-02T15:20:25.091645-03:00",
       "ia_metodo": "gemini-v3",
-      "motivo_ia": "citacao_ou_identidade_invalida"
+      "motivo_ia": "citacao_ou_identidade_invalida",
+      "fonte_oficial": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
+      "evidencia_prazo": "ENCERRADO",
+      "metodo": "gemini_evidencia_literal"
     },
     {
       "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
@@ -753,12 +756,16 @@
     {
       "url": "https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups",
       "titulo": "InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc",
-      "status": "pendente_evidencia",
+      "status": "encerrada",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "verificado_em": "2026-10-02T12:18:50.406519-03:00",
+      "verificado_em": "2026-10-02T15:26:20.501307-03:00",
       "ia_tentada_em": "2026-10-02T15:21:24.579345-03:00",
       "ia_metodo": "gemini-v3",
-      "motivo_ia": "ano_nao_comprovado"
+      "motivo_ia": "ano_nao_comprovado",
+      "fonte_oficial": "https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups",
+      "evidencia_prazo": "Os interessados têm até 20 de fevereiro para acessar o site oficial e se candidatar a uma das 300 vagas para capacitação, mentoria e conexão com possíveis investidores.",
+      "metodo": "gemini_evidencia_literal",
+      "prazo_iso": "2017-02-20T23:59:59-03:00"
     },
     {
       "url": "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups",

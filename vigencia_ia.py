@@ -72,18 +72,21 @@ def documentos(registro, oficial):
 
 def conferir(d, docs, registro, agora):
     from validar_vigencia import data_literal, prazo_da_oportunidade, FUSO, MESES
+    if isinstance(d, list) and len(d) == 1: d = d[0]
     if not isinstance(d, dict) or d.get('fonte') not in docs: raise ValueError('fonte_invalida')
     texto = norm(docs[d['fonte']]); ev = norm(d.get('evidencia')); identidade = norm(d.get('evidencia_identidade'))
     titulo = registro.get('dados',{}).get('titulo') or registro.get('titulo','')
-    if len(ev)<12 or ev.casefold() not in texto.casefold() or identidade.casefold() not in texto.casefold() or not prazo_da_oportunidade(identidade,titulo):
+    selo_encerrado = (d.get('situacao') == 'encerrada_explicita' and ev.upper() in ('ENCERRADO', 'ENCERRADA')
+                      and '/editais/' in urlsplit(d['fonte']).path)
+    if (len(ev)<12 and not selo_encerrado) or ev.casefold() not in texto.casefold() or identidade.casefold() not in texto.casefold() or not prazo_da_oportunidade(identidade,titulo):
         raise ValueError('citacao_ou_identidade_invalida')
-    if not re.search(r'inscri[cç]|inscrev|submiss|candidat|apply|applications',ev,re.I): raise ValueError('sem_convite')
+    if not selo_encerrado and not re.search(r'inscri[cç]|inscrev|submiss|candidat|apply|applications',ev,re.I): raise ValueError('sem_convite')
     base = {'url':registro['url'],'titulo':titulo,'fonte_oficial':d['fonte'],
             'evidencia_prazo':ev,'metodo':'gemini_evidencia_literal'}
     situacao=d.get('situacao')
     if situacao=='pendente': return dict(base,status='pendente_evidencia',motivo='ia_inconclusiva')
     if situacao=='encerrada_explicita':
-        if not re.search(r'inscri[cç].{0,50}encerrad|applications.{0,30}closed',ev,re.I): raise ValueError('encerramento_nao_comprovado')
+        if not selo_encerrado and not re.search(r'inscri[cç].{0,50}encerrad|applications.{0,30}closed',ev,re.I): raise ValueError('encerramento_nao_comprovado')
         return dict(base,status='encerrada')
     if situacao=='prazo':
         if re.search(r'resultado|homologa[cç]|divulga[cç]|realiza[cç][aã]o do evento', ev, re.I): raise ValueError('mistura_inscricao_e_resultado')
@@ -91,7 +94,11 @@ def conferir(d, docs, registro, agora):
         literal=data_literal(ev)
         if literal is None:
             ano=norm(d.get('evidencia_ano'))
-            if not ano or ano.casefold() not in texto.casefold() or str(fim.year) not in ano or not prazo_da_oportunidade(ano,titulo): raise ValueError('ano_nao_comprovado')
+            pos_ano=texto.casefold().find(ano.casefold()) if ano else -1
+            contexto_ano=texto[max(0,pos_ano-400):pos_ano+len(ano)+400] if pos_ano>=0 else ''
+            vinculo_ano=(prazo_da_oportunidade(ano,titulo) or
+                         (re.search(r'ciclo|edi[cç][aã]o|turma|chamada|edital|programa',ano,re.I) and prazo_da_oportunidade(contexto_ano,titulo)))
+            if not ano or pos_ano<0 or str(fim.year) not in ano or not vinculo_ano: raise ValueError('ano_nao_comprovado')
             limpo=__import__('unicodedata').normalize('NFKD',ev.lower()).encode('ascii','ignore').decode()
             numeric=re.search(r'\b'+str(fim.day)+r'[/-]0?'+str(fim.month)+r'\b',limpo)
             extenso=re.search(r'\b'+str(fim.day)+r' de '+next(k for k,v in MESES.items() if v==fim.month)+r'\b',limpo)

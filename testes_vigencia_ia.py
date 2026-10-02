@@ -33,6 +33,21 @@ class VigenciaIA(unittest.TestCase):
         resultado=validar_oficial(r,AGORA,ler=lambda u:texto)
         self.assertEqual(resultado['status'],'encerrada')
         self.assertTrue(resultado['prazo_iso'].startswith('2026-06-22'))
+    def test_lista_com_unica_resposta(self):
+        r,docs,d=self.caso('Programa Alfa 2026','Inscrições até 20/12/2026','2026-12-20')
+        self.assertEqual(conferir([d],docs,r,AGORA)['status'],'aberta_confirmada')
+        with self.assertRaises(ValueError):conferir([d,d],docs,r,AGORA)
+    def test_selo_encerrado_apenas_pagina_edital(self):
+        r,docs,d=self.caso('EDITAL Pré-Incubação 2026','ENCERRADO',None,situacao='encerrada_explicita')
+        url='https://iftm.edu.br/editais/2026/pre-incubacao'
+        r['url']=url;d['fonte']=url;docs={url:next(iter(docs.values()))}
+        self.assertEqual(conferir(d,docs,r,AGORA)['status'],'encerrada')
+        d['fonte']='https://iftm.edu.br/noticias';docs[d['fonte']]=docs[url]
+        with self.assertRaises(ValueError):conferir(d,docs,r,AGORA)
+    def test_ano_edicao_em_contexto_proximo(self):
+        r,docs,d=self.caso('InovAtiva Brasil','Inscrições até 20 de fevereiro','2017-02-20',ano='primeiro ciclo de 2017')
+        docs[r['url']]='InovAtiva Brasil abriu inscrições para o primeiro ciclo de 2017. '+d['evidencia']
+        self.assertEqual(conferir(d,docs,r,AGORA)['status'],'encerrada')
     def test_google_sem_prazo_nao_permanente(self):
         r,docs,d=self.caso('Google Cloud Startup Program','Inscreva-se agora no programa para startups',None,situacao='sem_prazo')
         resultado=conferir(d,docs,r,AGORA)
