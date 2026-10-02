@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T08:17:24.947869-03:00",
+    "atualizado_em": "2026-10-02T09:31:47.277390-03:00",
     "examinadas": 54,
     "abertas_publicadas": 2,
     "status": {
       "aberta_confirmada": 2,
       "pendente_evidencia": 21,
-      "encerrada": 2,
+      "encerrada": 3,
       "pendente_acesso": 7,
-      "pendente_fonte_oficial": 22
+      "pendente_fonte_oficial": 21
     },
     "resultados": [
       {
@@ -6177,8 +6177,8 @@
       {
         "titulo": "Programa Startup SC – Sebrae Startups",
         "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Potencia Ventures abre inscrições para programa de aceleração de startups de educação na América Latina - Startupi",
@@ -6473,12 +6473,6 @@
       {
         "titulo": "Facebook e Baita abrem inscrições para segunda edição do programa de aceleração de startups - Startupi",
         "url": "https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Programa Startup SC – Sebrae Startups",
-        "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
       },

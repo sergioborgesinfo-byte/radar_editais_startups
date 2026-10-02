@@ -1,6 +1,6 @@
 {
-  "versao": "vigencia-v8",
-  "atualizado_em": "2026-10-02T08:17:24.947869-03:00",
+  "versao": "vigencia-v9",
+  "atualizado_em": "2026-10-02T09:31:47.277390-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -302,8 +302,9 @@
     {
       "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
       "titulo": "Programa Startup SC – Sebrae Startups",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria"
+      "status": "encerrada",
+      "prazo_iso": "2026-02-02T23:59:59-03:00",
+      "evidencia_prazo": "Inscrições abertas a partir de 02/02/2026"
     },
     {
       "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
