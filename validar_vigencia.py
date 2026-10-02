@@ -17,6 +17,10 @@ FONTES_OFICIAIS = {
         'https://novosite.portodigital.org/noticia/inscricoes-prorrogadas-para-programas-early-stage/',
     'https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao':
         'https://www.darwinstartups.com/batch15',
+    'https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups':
+        'https://cienciaetecnologia.prefeitura.rio/noticias/hub-rio-ia-promove-webinario-sobre-1o-edital-do-programa-de-inovacao-aberta-2026/',
+    'https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups':
+        'https://www.randoncorp.com/pt/blog/rv-abre-inscri%C3%A7%C3%B5es-para-a-nova-turma-de-acelera%C3%A7%C3%A3o-de-startups/',
 }
 MESES = {'janeiro':1,'fevereiro':2,'marco':3,'abril':4,'maio':5,'junho':6,
          'julho':7,'agosto':8,'setembro':9,'outubro':10,'novembro':11,'dezembro':12}
@@ -105,7 +109,7 @@ def texto_relevante(texto, limite=30000):
         return texto
     linhas = texto.splitlines()
     marcadas = set()
-    padrao = re.compile(r'inscri[cç]|candidat|submiss|prazo|cronograma|fluxo cont[ií]nuo|\b20\d{2}\b', re.I)
+    padrao = re.compile(r'inscri[cç]|inscrev|candidat|submiss|prazo|cronograma|fluxo cont[ií]nuo|\b20\d{2}\b', re.I)
     for i, linha in enumerate(linhas):
         if padrao.search(linha):
             marcadas.add(i)
@@ -167,7 +171,7 @@ def validar_oficial(registro, agora, ler=None):
     # Mapeamentos são páginas oficiais dedicadas à oportunidade. Nelas, o prazo
     # pode estar no cronograma sem repetir o nome do programa na mesma linha.
     candidatos = [(data_literal(x), x) for x in trechos
-                  if re.search(r'inscri[cç]|candidat|submiss|prazo', x, re.I)
+                  if re.search(r'inscri[cç]|inscrev|candidat|submiss|prazo', x, re.I)
                   and (pagina_dedicada or prazo_da_oportunidade(x, titulo))]
     candidatos = [(d,x) for d,x in candidatos if d]
     continuo = next((x for x in trechos if prazo_da_oportunidade(x, titulo) and re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
@@ -265,7 +269,7 @@ def main():
     anteriores_path = Path('data/oportunidades-vigencia.json')
     historico = json.loads(anteriores_path.read_text()) if anteriores_path.exists() else {}
     # Invalida resultados antigos que aceitavam um ano histórico como edição atual.
-    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v5' else []
+    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v6' else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
@@ -278,7 +282,7 @@ def main():
         feitos[e['url']] = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
                             else validar_oficial(e, agora))
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v5', 'atualizado_em':agora.isoformat(), 'itens':itens}
+    relatorio = {'versao':'vigencia-v6', 'atualizado_em':agora.isoformat(), 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     abertas = exportar_abertas(itens, agora)
     Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')

@@ -117,4 +117,25 @@ class Vigencia(unittest.TestCase):
         self.assertEqual(v['status'],'aberta_confirmada')
         self.assertTrue(v['sem_data_final'])
 
+    def test_rio_ia_usa_fonte_publica_e_prazo_prorrogado(self):
+        r={'url':'https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups',
+           'titulo':'Programa Rio.IA 2026 vai investir em startups',
+           'dados':{'titulo':'1º Edital do Programa de Inovação Aberta do Hub Rio.IA – 2026',
+                    'trecho_publico':'O edital selecionará até oito startups'}}
+        acessada=[]
+        v=validar_oficial(r,datetime(2026,10,2,12,tzinfo=FUSO),
+            lambda u:(acessada.append(u) or 'Startups podem participar. Inscrições prorrogadas até 06/02/2026.'))
+        self.assertIn('prefeitura.rio',acessada[0])
+        self.assertEqual(v['status'],'encerrada')
+
+    def test_randon_2024_usa_fonte_corporativa_e_nao_reaparece(self):
+        r={'url':'https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups',
+           'titulo':'Randoncorp abre inscrições para segunda turma',
+           'dados':{'trecho_publico':'Programa de aceleração para startups'}}
+        acessada=[]
+        v=validar_oficial(r,datetime(2026,10,2,12,tzinfo=FUSO),
+            lambda u:(acessada.append(u) or 'Segunda turma da Randon Ventures. Startups podem se inscrever até 9 de agosto de 2024.'))
+        self.assertIn('randoncorp.com',acessada[0])
+        self.assertEqual(v['status'],'encerrada')
+
 if __name__=='__main__': unittest.main()
