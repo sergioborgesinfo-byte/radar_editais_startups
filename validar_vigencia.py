@@ -34,6 +34,12 @@ FONTES_OFICIAIS = {
     'https://www.startupsc.com.br/programa-de-capacitacao-startup-sc':
         'https://www.startupsc.com.br/inscreva-se/',
 }
+# Fontes alternativas identificadas; datas continuam sendo lidas e comprovadas.
+try:
+    from fontes_primarias import carregar_fontes
+    FONTES_OFICIAIS.update(carregar_fontes())
+except (OSError, ValueError):
+    pass
 MESES = {'janeiro':1,'fevereiro':2,'marco':3,'abril':4,'maio':5,'junho':6,
          'julho':7,'agosto':8,'setembro':9,'outubro':10,'novembro':11,'dezembro':12}
 

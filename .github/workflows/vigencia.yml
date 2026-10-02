@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [leitor_navegador.py, testes_leitor_navegador.py, leitura_cache.py, cronogramas.py, testes_cronogramas.py, vigencia_ia.py, testes_vigencia_ia.py, validar_vigencia.py, testes_vigencia.py, fontes_primarias.py, sebrae_programas.py, testes_sebrae.py, testes_fontes_primarias.py, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
+    paths: [data/fontes-primarias-descobertas.json,leitor_navegador.py, testes_leitor_navegador.py, leitura_cache.py, cronogramas.py, testes_cronogramas.py, vigencia_ia.py, testes_vigencia_ia.py, validar_vigencia.py, testes_vigencia.py, fontes_primarias.py, sebrae_programas.py, testes_sebrae.py, testes_fontes_primarias.py, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
   workflow_run:
     workflows: ["Confirmar oportunidades pelo conteúdo"]
     types: [completed]

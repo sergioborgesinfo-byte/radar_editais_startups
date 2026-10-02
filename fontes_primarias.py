@@ -82,3 +82,18 @@ def localizar(registro, oficial):
         return links or fontes_do_indice(registro,oficial)
     except Exception:
         return fontes_do_indice(registro,oficial)
+
+
+def carregar_fontes(caminho='data/fontes-primarias-descobertas.json'):
+    """Registro de URLs, nunca decisões de vigência ou datas preenchidas."""
+    try:
+        dados=json.loads(Path(caminho).read_text())
+    except (OSError, ValueError):
+        return {}
+    if not isinstance(dados, dict):return {}
+    from urllib.parse import urlsplit
+    return {origem: alvo for origem, alvo in dados.items()
+            if isinstance(origem, str) and isinstance(alvo, str)
+            and urlsplit(origem).scheme in ('https', 'http')
+            and urlsplit(alvo).scheme in ('https', 'http')
+            and not urlsplit(alvo).username and not urlsplit(alvo).password}
