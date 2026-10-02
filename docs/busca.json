@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T07:41:32.572562-03:00",
+    "atualizado_em": "2026-10-02T08:17:24.947869-03:00",
     "examinadas": 54,
     "abertas_publicadas": 2,
     "status": {
       "aberta_confirmada": 2,
-      "pendente_acesso": 9,
-      "pendente_evidencia": 18,
+      "pendente_evidencia": 21,
       "encerrada": 2,
-      "pendente_fonte_oficial": 23
+      "pendente_acesso": 7,
+      "pendente_fonte_oficial": 22
     },
     "resultados": [
       {
@@ -5905,10 +5905,10 @@
         "motivo": ""
       },
       {
-        "titulo": "EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...",
+        "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
         "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
@@ -5943,8 +5943,8 @@
       {
         "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
         "url": "https://www.semadesc.ms.gov.br/desafio-pantanal-tech-2026-abre-inscricoes-para-impulsionar-startups-e-solucoes-inovadoras-em-ms",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Aceleração 2026: Inscrições Abertas para Startups do Norte",
@@ -5957,6 +5957,12 @@
         "url": "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-formiga-2026-abre-inscricoes-para-selecionar-15-startups-e-empresas-inovadoras",
         "status": "pendente_evidencia",
         "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
+        "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Natura abre inscrições para desafio de inovação que vai acelerar startups de beleza na América Latina - Natura RI",
@@ -6121,12 +6127,6 @@
         "motivo": "localizar_fonte_primaria"
       },
       {
-        "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
-        "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
         "titulo": "Darwin Startups abre inscrições para 15ª turma de aceleração",
         "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
         "status": "encerrada",
@@ -6225,10 +6225,10 @@
     ],
     "pendentes": [
       {
-        "titulo": "EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...",
+        "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
         "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
@@ -6257,8 +6257,8 @@
       {
         "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
         "url": "https://www.semadesc.ms.gov.br/desafio-pantanal-tech-2026-abre-inscricoes-para-impulsionar-startups-e-solucoes-inovadoras-em-ms",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Aceleração 2026: Inscrições Abertas para Startups do Norte",
@@ -6271,6 +6271,12 @@
         "url": "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-formiga-2026-abre-inscricoes-para-selecionar-15-startups-e-empresas-inovadoras",
         "status": "pendente_evidencia",
         "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
+        "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Natura abre inscrições para desafio de inovação que vai acelerar startups de beleza na América Latina - Natura RI",
@@ -6425,12 +6431,6 @@
       {
         "titulo": "Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março",
         "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
-      },
-      {
-        "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
-        "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
       },

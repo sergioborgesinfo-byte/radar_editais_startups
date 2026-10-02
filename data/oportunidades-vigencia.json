@@ -1,6 +1,6 @@
 {
-  "versao": "vigencia-v7",
-  "atualizado_em": "2026-10-02T07:41:32.572562-03:00",
+  "versao": "vigencia-v8",
+  "atualizado_em": "2026-10-02T08:17:24.947869-03:00",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -21,9 +21,9 @@
     },
     {
       "url": "http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf",
-      "titulo": "EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...",
-      "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel"
+      "titulo": "Primeira Chamada de Incubação de Impacto para Startups",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado"
     },
     {
       "url": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
@@ -71,8 +71,8 @@
     {
       "url": "https://www.semadesc.ms.gov.br/desafio-pantanal-tech-2026-abre-inscricoes-para-impulsionar-startups-e-solucoes-inovadoras-em-ms",
       "titulo": "Desafio Pantanal Tech 2026 abre inscrições para impulsionar startups e soluções inovadoras em MS – SEMADESC",
-      "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel"
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado"
     },
     {
       "url": "https://ecti.ac.gov.br/rascunho-automaticoprogramas-aceleracao-norte-cidades-inteligentes-lideranca-feminina",
@@ -85,6 +85,12 @@
       "titulo": "Programa Acelera Formiga 2026 abre inscrições para selecionar 15 startups e empresas inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias",
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado"
+    },
+    {
+      "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
+      "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado"
     },
     {
       "url": "https://ri.natura.com.br/noticias/natura-abre-inscricoes-para-desafio-de-inovacao-que-vai-acelerar-startups-de-beleza-na-america-latina",
@@ -241,12 +247,6 @@
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
       "titulo": "Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria"
-    },
-    {
-      "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
-      "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
       "status": "pendente_fonte_oficial",
       "motivo": "localizar_fonte_primaria"
     },
