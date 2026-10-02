@@ -402,6 +402,41 @@ def main():
                 antigo['resultado_releitura_automatica'] = resultado.get('motivo')
             else:
                 feitos[resultado['url']] = resultado
+    # Busca externa automática; resultados só fornecem URLs para leitura e prova.
+    from busca_fontes_ia import BuscaFontes
+    busca = BuscaFontes()
+    descobertas_path = Path('data/fontes-primarias-descobertas.json')
+    try: descobertas = json.loads(descobertas_path.read_text())
+    except (OSError, ValueError): descobertas = {}
+    if os.getenv('GEMINI_API_KEY'):
+        faltantes = [e for e in confirmadas
+                     if feitos.get(e['url'], {}).get('status', '').startswith('pendente_')
+                     and 'programas.sebraestartups.com.br/in/' not in e['url']
+                     and e['url'] not in FONTES_OFICIAIS]
+        faltantes.sort(key=lambda e: (busca.ordem(e),
+                         feitos[e['url']].get('motivo_ia') != 'sem_documentos'))
+        for e in faltantes:
+            if busca.parada or busca.chamadas >= busca.limite: break
+            for primaria in busca.buscar(e, oficial, agora):
+                from vigencia_ia import documentos
+                from cronogramas import identidade
+                docs = documentos(dict(e, fonte_primaria_descoberta=primaria), oficial)
+                titulo = e.get('dados', {}).get('titulo') or e.get('titulo', '')
+                texto_fonte = docs.get(primaria, '')
+                anos_titulo = set(re.findall(r'\b20\d{2}\b', titulo))
+                if not identidade(texto_fonte, titulo): continue
+                if anos_titulo and not any(ano in texto_fonte[:6000] for ano in anos_titulo): continue
+                # A identidade e a edição ainda serão conferidas na evidência de prazo.
+                FONTES_OFICIAIS[e['url']] = primaria
+                descobertas[e['url']] = primaria
+                resultado = validar_oficial(dict(e, fonte_primaria_descoberta=primaria), agora)
+                resultado['verificado_em'] = datetime.now(FUSO).isoformat()
+                resultado['fonte_primaria_descoberta'] = primaria
+                feitos[e['url']] = resultado
+                print('Fonte descoberta automaticamente: ' + e['url'] + ' -> ' + primaria, flush=True)
+                break
+        descobertas_path.write_text(json.dumps(descobertas, ensure_ascii=False, indent=2)+'\n')
+
     # IA sequencial e limitada: somente os casos não resolvidos por regras.
     from vigencia_ia import Verificador, documentos
     assistente = Verificador()
@@ -435,7 +470,7 @@ def main():
     print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)
     agora = datetime.now(FUSO)
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'leitura_navegador': leitor.estatisticas, 'ia': {'chamadas': assistente.usadas, 'falhas_temporarias': assistente.erros, 'limite': assistente.limite, 'parada': assistente.parada, 'pendencias_restantes': sum(x.get('status', '').startswith('pendente_') for x in itens), 'casos_com_tentativa_ia': sum(bool(x.get('ia_tentada_em')) for x in itens), 'resolvidas_automaticamente': sum(x.get('status') in ('aberta_confirmada','encerrada') and not x.get('metodo','').startswith('revisao_manual') for x in itens), 'revisoes_manuais': sum(x.get('metodo','').startswith('revisao_manual') for x in itens)}, 'itens':itens}
+    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'leitura_navegador': leitor.estatisticas, 'busca_fontes': {'chamadas': busca.chamadas, 'falhas': busca.erros, 'parada': busca.parada}, 'ia': {'chamadas': assistente.usadas, 'falhas_temporarias': assistente.erros, 'limite': assistente.limite, 'parada': assistente.parada, 'pendencias_restantes': sum(x.get('status', '').startswith('pendente_') for x in itens), 'casos_com_tentativa_ia': sum(bool(x.get('ia_tentada_em')) for x in itens), 'resolvidas_automaticamente': sum(x.get('status') in ('aberta_confirmada','encerrada') and not x.get('metodo','').startswith('revisao_manual') for x in itens), 'revisoes_manuais': sum(x.get('metodo','').startswith('revisao_manual') for x in itens)}, 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     fila_path = Path('data/fila-vigencia-inicial.json')
     fila_urls = json.loads(fila_path.read_text()).get('urls', []) if fila_path.exists() else []

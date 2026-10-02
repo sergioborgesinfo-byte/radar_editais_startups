@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [data/fontes-primarias-descobertas.json,leitor_navegador.py, testes_leitor_navegador.py, leitura_cache.py, cronogramas.py, testes_cronogramas.py, vigencia_ia.py, testes_vigencia_ia.py, validar_vigencia.py, testes_vigencia.py, fontes_primarias.py, sebrae_programas.py, testes_sebrae.py, testes_fontes_primarias.py, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
+    paths: [busca_fontes_ia.py, testes_busca_fontes_ia.py,data/fontes-primarias-descobertas.json,leitor_navegador.py, testes_leitor_navegador.py, leitura_cache.py, cronogramas.py, testes_cronogramas.py, vigencia_ia.py, testes_vigencia_ia.py, validar_vigencia.py, testes_vigencia.py, fontes_primarias.py, sebrae_programas.py, testes_sebrae.py, testes_fontes_primarias.py, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
   workflow_run:
     workflows: ["Confirmar oportunidades pelo conteúdo"]
     types: [completed]
@@ -35,6 +35,7 @@ jobs:
           python -m pip install --index-url https://pypi.org/simple --only-binary=:all: -r requirements.txt
       - name: Testar vigência, modalidade e duplicação
         run: |
+          python -m unittest discover -s . -p testes_busca_fontes_ia.py
           python -m unittest discover -s . -p testes_leitor_navegador.py
           python -m unittest discover -s . -p testes_cronogramas.py
           python -m unittest discover -s . -p testes_vigencia_ia.py
@@ -71,7 +72,7 @@ jobs:
           for lote in 1 2 3; do
             echo "Processando lote automático $lote de 3"
             python -u validar_vigencia.py
-            if python -c 'import json; d=json.load(open("data/oportunidades-vigencia.json")); exit(0 if d["ia"].get("parada") or not d["ia"].get("pendencias_restantes") or not d["ia"].get("chamadas") else 1)'; then
+            if python -c 'import json; d=json.load(open("data/oportunidades-vigencia.json")); exit(0 if d["ia"].get("parada") or not d["ia"].get("pendencias_restantes") or (not d["ia"].get("chamadas") and not d.get("busca_fontes", {}).get("chamadas")) else 1)'; then
               break
             fi
           done
@@ -85,7 +86,8 @@ jobs:
         run: |
           git config user.name "$GITHUB_ACTOR"
           git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
-          git add data/cache-vigencia-ia.json data/oportunidades-vigencia.json docs/editais.json docs/busca.json
+          test -f data/cache-busca-fontes.json || echo "{}" > data/cache-busca-fontes.json
+          git add data/cache-busca-fontes.json data/fontes-primarias-descobertas.json data/cache-vigencia-ia.json data/oportunidades-vigencia.json docs/editais.json docs/busca.json
           if ! git diff --cached --quiet; then
             git commit -m "Valida edição, público e prazo; publica somente oportunidades abertas"
             git pull --rebase origin main
