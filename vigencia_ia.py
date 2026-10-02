@@ -60,7 +60,8 @@ def documentos(registro, oficial):
                     alvo = urljoin(fonte, href).split('#')[0]
                     p = urlsplit(alvo)
                     if p.scheme not in ('http','https') or p.username or p.password: continue
-                    if not re.search(r'edital|regulamento|cronograma|inscri|inscreva|apply', rotulo, re.I): continue
+                    pdf = bool(re.search(r'\.pdf(?:\?|$)', alvo, re.I))
+                    if not re.search(r'edital|regulamento|cronograma|inscri|inscreva|apply', rotulo, re.I) and not pdf: continue
                     # PDFs explicitamente ligados pela fonte primária podem estar em CDN.
                     if oficial(alvo) or re.search(r'\.pdf(?:\?|$)|assets-v\d', alvo, re.I):
                         candidatos.append((0 if re.search(r'edital|regulamento|cronograma',rotulo,re.I) else 1, alvo))

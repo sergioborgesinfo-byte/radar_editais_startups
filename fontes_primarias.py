@@ -1,6 +1,8 @@
 """Localiza links primários explícitos em notícias, sem usar notícias como prova de vigência."""
 import re
 import unicodedata
+import json
+from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlsplit
 
@@ -42,19 +44,41 @@ def selecionar_links(html, origem, titulo, oficial):
         comuns=identidade & termos
         comuns |= {pista for pista in identidade if pista in p.path.lower()}
         finalidade=re.search(r'edital|regulamento|inscri|inscre|candidat|apply|program|chamada|acelera|incuba|desafio',rotulo+' '+p.path,re.I)
-        if comuns and finalidade:
+        pdf_generico = (re.search(r'\.pdf(?:$|\?)', alvo, re.I) and
+                        re.search(r'edital|regulamento|cronograma|aqui|download', rotulo, re.I))
+        if (comuns and finalidade) or pdf_generico:
             resultados.append((len(comuns),alvo.split('#')[0]))
     unicos=[]
     for _,url in sorted(resultados,key=lambda x:-x[0]):
         if url not in unicos:unicos.append(url)
     return unicos[:3]
 
+def fontes_do_indice(registro, oficial, caminho='data/triagem-descobertas.json'):
+    titulo=registro.get('dados',{}).get('titulo') or registro.get('titulo','')
+    termos=palavras(titulo)
+    anos=set(re.findall(r'\b20\d{2}\b',titulo))
+    if len(termos)<2:return []
+    try:itens=json.loads(Path(caminho).read_text()).get('itens',[])
+    except (OSError,ValueError):return []
+    candidatos=[]
+    for item in itens:
+        url=item.get('url','')
+        if url==registro['url'] or not oficial(url):continue
+        nome=item.get('titulo','')
+        edicao=set(re.findall(r'\b20\d{2}\b',nome))
+        if anos and edicao and not anos & edicao:continue
+        comuns=termos & palavras(nome)
+        if len(comuns)>=2 and len(comuns)/len(termos)>=0.5:
+            candidatos.append((len(comuns),url))
+    return list(dict.fromkeys(url for _,url in sorted(candidatos,key=lambda x:-x[0])))[:3]
+
 def localizar(registro, oficial):
     import radar
     try:
         ctype, bruto=radar.baixar(registro['url'])
-        if bruto is None or 'html' not in ctype:return []
+        if bruto is None or 'html' not in ctype:return fontes_do_indice(registro,oficial)
         titulo=registro.get('dados',{}).get('titulo') or registro.get('titulo','')
-        return selecionar_links(bruto.decode('utf-8',errors='replace'),registro['url'],titulo,oficial)
+        links=selecionar_links(bruto.decode('utf-8',errors='replace'),registro['url'],titulo,oficial)
+        return links or fontes_do_indice(registro,oficial)
     except Exception:
-        return []
+        return fontes_do_indice(registro,oficial)

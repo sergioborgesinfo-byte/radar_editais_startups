@@ -365,10 +365,10 @@ def main():
                  (feitos[e['url']].get('metodo', '').startswith('revisao_manual') and feitos[e['url']].get('metodo_leitura') != 'cronogramas-v1') or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
                  (feitos[e['url']].get('status') == 'pendente_fonte_oficial' and
-                  (feitos[e['url']].get('metodo_fontes') != 'links-v1' or
+                  (feitos[e['url']].get('metodo_fontes') != 'links-v2' or
                    not verificacao_atual(feitos[e['url']], agora))) or
                  (feitos[e['url']].get('status', '').startswith('pendente_') and
-                  (e['url'] in FONTES_OFICIAIS or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v1' or not verificacao_atual(feitos[e['url']], agora)))]
+                  (e['url'] in FONTES_OFICIAIS or feitos[e['url']].get('metodo_fontes') != 'links-v2' or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v1' or not verificacao_atual(feitos[e['url']], agora)))]
     # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
     # todas as confirmações restantes sem depender de uma segunda execução manual.
     lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR,
@@ -378,7 +378,7 @@ def main():
         resultado = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
                      else validar_oficial(e, agora))
         resultado.setdefault('titulo', e.get('titulo', ''))
-        resultado['metodo_fontes'] = 'links-v1'
+        resultado['metodo_fontes'] = 'links-v2'
         resultado['metodo_leitura'] = 'cronogramas-v1'
         resultado['verificado_em'] = datetime.now(FUSO).isoformat()
         print(f"{resultado['status']}: {e['url']}", flush=True)
@@ -405,12 +405,12 @@ def main():
                 break
             anterior = feitos[e['url']]
             tentativa = anterior.get('ia_tentada_em')
-            if anterior.get('ia_metodo') == 'gemini-v4' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
+            if anterior.get('ia_metodo') == 'gemini-v5' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
                 continue
             docs = documentos(dict(e, fonte_primaria_descoberta=FONTES_OFICIAIS.get(e['url'], e['url'])), oficial)
             resultado = assistente.verificar(e, docs, agora)
             anterior['ia_tentada_em'] = datetime.now(FUSO).isoformat()
-            anterior['ia_metodo'] = 'gemini-v4'
+            anterior['ia_metodo'] = 'gemini-v5'
             anterior['motivo_ia'] = assistente.parada or assistente.last_reason or ('sem_documentos' if not docs else 'evidencia_insuficiente')
             if assistente.parada:
                 anterior.pop('ia_tentada_em', None)
@@ -418,7 +418,7 @@ def main():
             if resultado:
                 resultado['verificado_em'] = datetime.now(FUSO).isoformat()
                 resultado['ia_tentada_em'] = anterior['ia_tentada_em']
-                resultado['ia_metodo'] = 'gemini-v4'
+                resultado['ia_metodo'] = 'gemini-v5'
                 feitos[e['url']] = resultado
                 print(f"IA: {resultado['status']}: {e['url']}", flush=True)
     print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)
