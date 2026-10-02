@@ -45,7 +45,10 @@ async function refresh(){
   var fase=snapshot.vigencia||{},fila=fase.fila_prioritaria,ia=fase.ia||{};
   if(fila)el('busca-status').textContent+=' Fila inicial: '+fila.resolvidas_automaticamente+' de '+fila.total_inicial+' resolvidos automaticamente; '+fila.pendentes+' pendentes.';
   if(ia.parada==='gemini_conexao')el('busca-status').textContent+=' A IA interrompeu a tentativa por falha de conexão.';
-  if(fila&&fila.pendentes)el('busca-status').textContent+=' Novas tentativas programadas a cada hora.';
+  if(ia.chamadas===0&&fila&&fila.pendentes)el('busca-status').textContent+=' Última rodada sem novas chamadas à IA: casos já tentados aguardam nova evidência ou liberação da próxima tentativa.';
+  if(ia.chamadas>0)el('busca-status').textContent+=' Última rodada: '+ia.chamadas+' chamadas à IA.';
+  if(fase.atualizado_em&&Date.now()-new Date(fase.atualizado_em).getTime()>90*60000)el('busca-status').textContent+=' Atenção: resultados sem atualização há mais de 90 minutos.';
+  if(fila&&fila.pendentes)el('busca-status').textContent+=' Agendamento configurado; o horário do resultado salvo confirma se houve execução.';
   render();
  }catch(e){el('busca-status').textContent='Não foi possível carregar o acompanhamento. Toque em Atualizar para tentar novamente.'}
  finally{busy=false;el('busca-refresh').disabled=false}

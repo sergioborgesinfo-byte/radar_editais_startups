@@ -41,6 +41,17 @@ def ler_texto(ctype, bruto):
     from bs4 import BeautifulSoup
     sopa=BeautifulSoup(bruto,'html.parser')
     raiz=sopa.find('article') or sopa.find('main') or sopa
+    cabecalho=[]
+    titulo=sopa.find('h1')
+    if titulo and titulo not in raiz.descendants:
+        cabecalho.append(titulo.get_text(' ',strip=True))
+    for meta in sopa.find_all('meta'):
+        nome=meta.get('property') or meta.get('name') or ''
+        if nome.lower() in ('article:published_time','datepublished','date','dc.date.issued'):
+            valor=meta.get('content','')
+            if valor:cabecalho.append('Data de publicação da página: '+valor)
+    for tag in sopa.find_all('time'):
+        if tag.get('datetime'):cabecalho.append('Data informada pela página: '+tag['datetime'])
     for tag in raiz(['script','style','nav','footer']):tag.decompose()
     # Mantém etapa e data da mesma linha de tabela juntas.
     for tr in raiz.find_all('tr'):
@@ -48,7 +59,7 @@ def ler_texto(ctype, bruto):
         if texto:tr.replace_with('\n'+texto+'\n')
     # Um parágrafo não deve virar várias linhas por causa de links ou spans.
     for p in raiz.find_all('p'):p.replace_with('\n'+p.get_text(' ',strip=True)+'\n')
-    return re.sub(r'\n{3,}','\n\n',raiz.get_text('\n',strip=True))
+    return re.sub(r'\n{3,}','\n\n','\n'.join(cabecalho+[raiz.get_text('\n',strip=True)]))
 
 
 def identidade(texto,titulo):

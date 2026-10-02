@@ -278,7 +278,7 @@ def deduplicar(itens):
     return list(unicos.values())
 
 
-def atualizar_acompanhamento(itens, abertas, agora, fila=None):
+def atualizar_acompanhamento(itens, abertas, agora, fila=None, ia=None):
     """Mantém o progresso da vigência visível no painel já publicado."""
     caminho = Path('docs/busca.json')
     painel = json.loads(caminho.read_text()) if caminho.exists() else {}
@@ -303,6 +303,7 @@ def atualizar_acompanhamento(itens, abertas, agora, fila=None):
         ],
     }
     if fila is not None:painel['vigencia']['fila_prioritaria'] = fila
+    if ia is not None:painel['vigencia']['ia'] = ia
     caminho.write_text(json.dumps(painel, ensure_ascii=False, indent=2) + '\n')
 
 
@@ -364,13 +365,13 @@ def main():
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  (feitos[e['url']].get('status') == 'aberta_confirmada' and
                   not verificacao_atual(feitos[e['url']], agora)) or
-                 (feitos[e['url']].get('metodo', '').startswith('revisao_manual') and feitos[e['url']].get('metodo_leitura') != 'cronogramas-v1') or
+                 (feitos[e['url']].get('metodo', '').startswith('revisao_manual') and feitos[e['url']].get('metodo_leitura') != 'cronogramas-v2') or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
                  (feitos[e['url']].get('status') == 'pendente_fonte_oficial' and
                   (feitos[e['url']].get('metodo_fontes') != 'links-v2' or
                    not verificacao_atual(feitos[e['url']], agora))) or
                  (feitos[e['url']].get('status', '').startswith('pendente_') and
-                  (e['url'] in FONTES_OFICIAIS or feitos[e['url']].get('metodo_fontes') != 'links-v2' or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v1' or not verificacao_atual(feitos[e['url']], agora)))]
+                  (e['url'] in FONTES_OFICIAIS or feitos[e['url']].get('metodo_fontes') != 'links-v2' or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v2' or not verificacao_atual(feitos[e['url']], agora)))]
     # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
     # todas as confirmações restantes sem depender de uma segunda execução manual.
     lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR,
@@ -381,7 +382,7 @@ def main():
                      else validar_oficial(e, agora))
         resultado.setdefault('titulo', e.get('titulo', ''))
         resultado['metodo_fontes'] = 'links-v2'
-        resultado['metodo_leitura'] = 'cronogramas-v1'
+        resultado['metodo_leitura'] = 'cronogramas-v2'
         resultado['verificado_em'] = datetime.now(FUSO).isoformat()
         print(f"{resultado['status']}: {e['url']}", flush=True)
         return resultado
@@ -389,7 +390,7 @@ def main():
         for resultado in pool.map(validar, lote):
             antigo = feitos.get(resultado['url'], {})
             if antigo.get('metodo', '').startswith('revisao_manual') and resultado['status'].startswith('pendente_'):
-                antigo['metodo_leitura'] = 'cronogramas-v1'
+                antigo['metodo_leitura'] = 'cronogramas-v2'
                 antigo['resultado_releitura_automatica'] = resultado.get('motivo')
             else:
                 feitos[resultado['url']] = resultado
@@ -407,12 +408,12 @@ def main():
                 break
             anterior = feitos[e['url']]
             tentativa = anterior.get('ia_tentada_em')
-            if anterior.get('ia_metodo') == 'gemini-v5' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
+            if anterior.get('ia_metodo') == 'gemini-v6' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
                 continue
             docs = documentos(dict(e, fonte_primaria_descoberta=FONTES_OFICIAIS.get(e['url'], e['url'])), oficial)
             resultado = assistente.verificar(e, docs, agora)
             anterior['ia_tentada_em'] = datetime.now(FUSO).isoformat()
-            anterior['ia_metodo'] = 'gemini-v5'
+            anterior['ia_metodo'] = 'gemini-v6'
             anterior['motivo_ia'] = assistente.parada or assistente.last_reason or ('sem_documentos' if not docs else 'evidencia_insuficiente')
             if assistente.parada:
                 anterior.pop('ia_tentada_em', None)
@@ -420,7 +421,7 @@ def main():
             if resultado:
                 resultado['verificado_em'] = datetime.now(FUSO).isoformat()
                 resultado['ia_tentada_em'] = anterior['ia_tentada_em']
-                resultado['ia_metodo'] = 'gemini-v5'
+                resultado['ia_metodo'] = 'gemini-v6'
                 feitos[e['url']] = resultado
                 print(f"IA: {resultado['status']}: {e['url']}", flush=True)
     print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)
@@ -439,7 +440,7 @@ def main():
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     abertas = exportar_abertas(itens, agora)
     Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')
-    atualizar_acompanhamento(itens, abertas, agora, fila)
+    atualizar_acompanhamento(itens, abertas, agora, fila, relatorio['ia'])
     print(f'{len(lote)} examinadas; {len(abertas)} abertas confirmadas publicadas')
 
 
