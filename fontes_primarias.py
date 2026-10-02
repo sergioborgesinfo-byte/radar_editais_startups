@@ -35,6 +35,8 @@ def selecionar_links(html, origem, titulo, oficial):
             continue
         if alvo.split('#')[0].rstrip('/') == origem.split('#')[0].rstrip('/'):
             continue
+        if re.search(r'newsletter|privacidade|politica|login|signin|contato|subscribe', p.path, re.I):
+            continue
         # A referência deve identificar o programa e apontar para sua participação/regras.
         termos=palavras(rotulo+' '+p.hostname+' '+p.path)
         comuns=identidade & termos
