@@ -138,4 +138,14 @@ class Vigencia(unittest.TestCase):
         self.assertIn('randoncorp.com',acessada[0])
         self.assertEqual(v['status'],'encerrada')
 
+    def test_portal_governamental_portugues_e_fonte_oficial(self):
+        url='https://portugal.gov.pt/gc25/comunicacao/comunicados/programa-para-startups'
+        self.assertTrue(oficial(url))
+        r={'url':url,'titulo':'Abertas candidaturas ao programa de aceleração',
+           'dados':{'trecho_publico':'Programa dirigido a startups de base científica'}}
+        v=validar_oficial(r,datetime(2026,10,2,12,tzinfo=FUSO),
+            lambda u:'Candidaturas abertas entre 16 de junho e 3 de julho. Programa decorre até dezembro de 2026.')
+        self.assertEqual(v['status'],'pendente_evidencia')
+        self.assertEqual(v['motivo'],'edicao_ou_publico_nao_comprovado')
+
 if __name__=='__main__': unittest.main()
