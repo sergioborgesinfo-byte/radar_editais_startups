@@ -1,5 +1,6 @@
 """Valida edição, público e prazo; publica somente oportunidades abertas comprovadas."""
 import json
+import os
 import re
 import unicodedata
 from datetime import datetime, timedelta
@@ -332,7 +333,7 @@ def main():
     anteriores_path = Path('data/oportunidades-vigencia.json')
     historico = json.loads(anteriores_path.read_text()) if anteriores_path.exists() else {}
     # Invalida resultados antigos que aceitavam um ano histórico como edição atual.
-    anteriores = historico.get('itens', []) if historico.get('versao') in ('vigencia-v10', 'vigencia-v11') else []
+    anteriores = historico.get('itens', []) if historico.get('versao') in ('vigencia-v12') else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  (feitos[e['url']].get('status') == 'aberta_confirmada' and
@@ -342,7 +343,7 @@ def main():
                   (feitos[e['url']].get('metodo_fontes') != 'links-v1' or
                    not verificacao_atual(feitos[e['url']], agora))) or
                  (feitos[e['url']].get('status', '').startswith('pendente_') and
-                  e['url'] in FONTES_OFICIAIS)]
+                  (e['url'] in FONTES_OFICIAIS or not verificacao_atual(feitos[e['url']], agora)))]
     # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
     # todas as confirmações restantes sem depender de uma segunda execução manual.
     lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR,
@@ -359,9 +360,34 @@ def main():
     with ThreadPoolExecutor(max_workers=4) as pool:
         for resultado in pool.map(validar, lote):
             feitos[resultado['url']] = resultado
+    # IA sequencial e limitada: somente os casos não resolvidos por regras.
+    from vigencia_ia import Verificador, documentos
+    assistente = Verificador()
+    if os.getenv('GEMINI_API_KEY'):
+        candidatos_ia = [e for e in confirmadas if feitos.get(e['url'], {}).get('status') in
+                         ('pendente_evidencia', 'pendente_fonte_oficial')]
+        revisoes = ('edital-granioter-acelera-2026', 'cloud.google.com/startup/benefits', 'desafio-pantanal-tech-2026', '31-2026-programa-acelera', 'programa-acelera-formiga-2026', 'prefeitura.rio/cidade/invest-rio-e-maravalley')
+        candidatos_ia.sort(key=lambda e: (not any(caso in e['url'] for caso in revisoes), bool(feitos[e['url']].get('ia_tentada_em')), not oficial(e['url'])))
+        for e in candidatos_ia:
+            if assistente.parada or assistente.usadas >= assistente.limite:
+                break
+            anterior = feitos[e['url']]
+            tentativa = anterior.get('ia_tentada_em')
+            if tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
+                continue
+            docs = documentos(dict(e, fonte_primaria_descoberta=FONTES_OFICIAIS.get(e['url'], e['url'])), oficial)
+            resultado = assistente.verificar(e, docs, agora)
+            anterior['ia_tentada_em'] = datetime.now(FUSO).isoformat()
+            anterior['motivo_ia'] = assistente.parada or ('sem_documentos' if not docs else 'evidencia_insuficiente')
+            if resultado:
+                resultado['verificado_em'] = datetime.now(FUSO).isoformat()
+                resultado['ia_tentada_em'] = anterior['ia_tentada_em']
+                feitos[e['url']] = resultado
+                print(f"IA: {resultado['status']}: {e['url']}", flush=True)
+    print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)
     agora = datetime.now(FUSO)
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v11', 'atualizado_em':agora.isoformat(), 'itens':itens}
+    relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'ia': {'chamadas': assistente.usadas, 'limite': assistente.limite, 'parada': assistente.parada}, 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     abertas = exportar_abertas(itens, agora)
     Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')
