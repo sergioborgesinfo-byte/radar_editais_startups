@@ -103,7 +103,7 @@ class Evidencias(unittest.TestCase):
             {'titulo':'Chamada de aceleração','url':'https://fonte.br/1'}))
 
     def test_icm_lab_confirma_sem_ia_com_citacoes_literais_separadas(self):
-        from confirmar_oportunidades import evidencias_textuais
+        from confirmar_oportunidades import auditar_confirmacoes, evidencias_textuais
         texto=('ICM Lab Solana powered by Darwin Startups, um programa de aceleração focado em infraestrutura.\n'
                'Nosso objetivo é selecionar e impulsionar de perto até 10 startups na aceleração.\n'
                'Cadastros abertos de 14 de setembro de 2026 até 11 de outubro de 2026.')
@@ -113,6 +113,9 @@ class Evidencias(unittest.TestCase):
         self.assertEqual(d['metodo'],'regra_oficial_icm_lab')
         self.assertNotEqual(d['trecho_oportunidade'], d['trecho_publico'])
         self.assertTrue(conferir(d,texto))
+        feitos={e['url']:{'url':e['url'],'status':'confirmada_no_conteudo','dados':d}}
+        self.assertEqual(auditar_confirmacoes(feitos),0)
+        self.assertEqual(feitos[e['url']]['status'],'confirmada_no_conteudo')
 
     def test_icm_lab_auditado_volta_a_fila_sem_repetir_ia(self):
         from confirmar_oportunidades import fila

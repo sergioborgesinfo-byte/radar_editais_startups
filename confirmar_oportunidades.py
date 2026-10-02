@@ -207,7 +207,7 @@ def evidencias_textuais(texto, e):
 def auditar_confirmacoes(feitos):
     """Retira da confirmação automática páginas sem convite direto comprovado."""
     alterados = 0
-    convite = re.compile(r'manifesta[cç][aã]o de interesse|inscri[cç][oõ]es?|candidat|podem participar|podem se inscrever|selecionar[aá]|sele[cç][aã]o|edital|chamada|inscreva-se|apply|applications', re.I)
+    convite = re.compile(r'manifesta[cç][aã]o de interesse|inscri[cç][oõ]es?|candidat|podem participar|podem se inscrever|selecionar(?:[aá])?\b|sele[cç][aã]o|edital|chamada|inscreva-se|apply|applications', re.I)
     publico = re.compile(r'\bstartups?\b|empreendedores? inovadores?|neg[oó]cios inovadores?|ideias? e projetos? inovadores?', re.I)
     historico = re.compile(r'\b(?:em|edi[cç][aã]o) 20(?:0\d|1\d|2[0-5])\b|recebeu \d.*inscri[cç]|foram selecionad', re.I)
     for registro in feitos.values():
