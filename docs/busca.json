@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T20:26:14.593712-03:00",
+    "atualizado_em": "2026-10-02T20:31:48.860219-03:00",
     "examinadas": 138,
-    "abertas_publicadas": 8,
+    "abertas_publicadas": 9,
     "status": {
-      "aberta_confirmada": 9,
-      "encerrada": 69,
-      "pendente_evidencia": 32,
+      "aberta_confirmada": 10,
+      "encerrada": 71,
+      "pendente_evidencia": 29,
       "pendente_acesso": 9,
       "pendente_fonte_oficial": 19
     },
@@ -6231,8 +6231,8 @@
       {
         "titulo": "Resultado Chamada Pública 03/2026: Novo Seed",
         "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
@@ -6405,8 +6405,8 @@
       {
         "titulo": "Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico",
         "url": "https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Invest.Rio e Maravalley lançam edital para selecionar dez startups para Missão Web Summit Lisboa 2026",
@@ -6459,8 +6459,8 @@
       {
         "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
         "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "aberta_confirmada",
+        "motivo": ""
       },
       {
         "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale",
@@ -6753,12 +6753,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Resultado Chamada Pública 03/2026: Novo Seed",
-        "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
         "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
         "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
         "status": "pendente_evidencia",
@@ -6837,12 +6831,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico",
-        "url": "https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
         "titulo": "FIEMG Lab abre inscrições para sua primeira jornada de aceleração",
         "url": "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90",
         "status": "pendente_evidencia",
@@ -6869,12 +6857,6 @@
       {
         "titulo": "Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups",
         "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil",
-        "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
@@ -7091,19 +7073,19 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 18,
-      "resolvidas_automaticamente": 18,
+      "resolvidas": 21,
+      "resolvidas_automaticamente": 21,
       "revisoes_manuais": 0,
-      "pendentes": 60
+      "pendentes": 57
     },
     "ia": {
       "chamadas": 0,
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 60,
-      "casos_com_tentativa_ia": 70,
-      "resolvidas_automaticamente": 77,
+      "pendencias_restantes": 57,
+      "casos_com_tentativa_ia": 67,
+      "resolvidas_automaticamente": 80,
       "revisoes_manuais": 1
     }
   }
