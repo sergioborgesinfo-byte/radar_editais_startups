@@ -91,6 +91,19 @@ def data_literal(trecho):
     return None
 
 
+def prazo_da_oportunidade(trecho, titulo):
+    """Exige nome distintivo no mesmo trecho do prazo; não usa datas da página inteira."""
+    genericos = {'programa', 'edital', 'novo', 'nova', 'chamada', 'selecao', 'para',
+                 'startups', 'startup', 'inscricoes', 'abertas', 'primeira', 'de', 'da',
+                 'do', 'e', 'a', 'o', 'no', 'na', 'em'}
+    palavras = [p for p in normalizar(titulo).split()
+                if len(p) >= 4 and not p.isdigit() and p not in genericos]
+    if not palavras:
+        return False
+    encontrados = set(normalizar(trecho).split())
+    return any(p in encontrados for p in palavras)
+
+
 def validar_oficial(registro, agora, ler=None):
     url = registro['url']
     if not oficial(url):
@@ -115,9 +128,10 @@ def validar_oficial(registro, agora, ler=None):
                 'motivo':'edicao_ou_publico_nao_comprovado'}
     trechos = [x.strip() for x in re.split(r'(?<=[.!?])\s+|\n+', texto) if x.strip()]
     candidatos = [(data_literal(x), x) for x in trechos
-                  if re.search(r'inscri[cç]|candidat|submiss|prazo', x, re.I)]
+                  if re.search(r'inscri[cç]|candidat|submiss|prazo', x, re.I)
+                  and prazo_da_oportunidade(x, titulo)]
     candidatos = [(d,x) for d,x in candidatos if d]
-    continuo = next((x for x in trechos if re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
+    continuo = next((x for x in trechos if prazo_da_oportunidade(x, titulo) and re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
     if not candidatos and not continuo:
         return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
                 'motivo':'prazo_literal_com_ano_nao_encontrado'}
@@ -178,7 +192,9 @@ def main():
     conteudo = json.loads(Path('data/oportunidades-conteudo.json').read_text())
     confirmadas = [e for e in conteudo['itens'] if e.get('status') == 'confirmada_no_conteudo']
     anteriores_path = Path('data/oportunidades-vigencia.json')
-    anteriores = json.loads(anteriores_path.read_text()).get('itens', []) if anteriores_path.exists() else []
+    historico = json.loads(anteriores_path.read_text()) if anteriores_path.exists() else {}
+    # Invalida resultados do método antigo que aceitava prazos de notícias relacionadas.
+    anteriores = historico.get('itens', []) if historico.get('versao') == 'vigencia-v2' else []
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso')]
@@ -187,7 +203,7 @@ def main():
         feitos[e['url']] = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
                             else validar_oficial(e, agora))
     itens = list(feitos.values())
-    relatorio = {'versao':'vigencia-v1', 'atualizado_em':agora.isoformat(), 'itens':itens}
+    relatorio = {'versao':'vigencia-v2', 'atualizado_em':agora.isoformat(), 'itens':itens}
     anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
     Path('docs/editais.json').write_text(json.dumps(exportar_abertas(itens, agora), ensure_ascii=False, indent=2)+'\n')
     print(f'{len(lote)} examinadas; {len(exportar_abertas(itens, agora))} abertas confirmadas publicadas')

@@ -40,17 +40,32 @@ class Vigencia(unittest.TestCase):
     def test_data_sem_ano_nao_e_inferida(self):
         self.assertIsNone(data_literal('Inscrições até 21 de agosto'))
     def test_oficial_encerrada_nao_publica(self):
-        r={'url':'https://agifes.ifes.edu.br/programa','titulo':'Programa 2026',
-           'dados':{'titulo':'Programa 2026 para startups','trecho_publico':'Startups e projetos inovadores'}}
+        r={'url':'https://agifes.ifes.edu.br/programa','titulo':'Horizontes 2026',
+           'dados':{'titulo':'Horizontes 2026 para startups','trecho_publico':'Startups e projetos inovadores'}}
         v=validar_oficial(r,datetime(2026,10,1,12,tzinfo=FUSO),
-                         lambda u:'As inscrições estão abertas até 27 de fevereiro de 2026.')
+                         lambda u:'Horizontes: inscrições estão abertas até 27 de fevereiro de 2026.')
         self.assertEqual(v['status'],'encerrada')
     def test_oficial_aberta_exige_prazo_literal(self):
-        r={'url':'https://fapemig.br/edital','titulo':'Edital 2026',
-           'dados':{'titulo':'Edital 2026 para startups','trecho_publico':'Podem participar startups brasileiras','resumo':'Apoio'}}
+        r={'url':'https://fapemig.br/edital','titulo':'Centelha 2026',
+           'dados':{'titulo':'Centelha 2026 para startups','trecho_publico':'Podem participar startups brasileiras','resumo':'Apoio'}}
         v=validar_oficial(r,datetime(2026,10,1,12,tzinfo=FUSO),
-                         lambda u:'Inscrições abertas. Prazo para submissão: 15/10/2026.')
+                         lambda u:'Centelha: prazo para submissão: 15/10/2026.')
         self.assertEqual(v['status'],'aberta_confirmada')
         self.assertEqual(v['prazo'],'2026-10-15')
+
+    def test_prazo_de_outra_noticia_nao_confirma_centelha(self):
+        r={'url':'https://news.confap.org.br/centelha','titulo':'Programa Centelha Paraíba',
+           'dados':{'trecho_publico':'Podem participar startups brasileiras'}}
+        v=validar_oficial(r,datetime(2026,10,1,12,tzinfo=FUSO),
+            lambda u:'Centelha 2026 apoia startups. O British Council recebe, até 15 de outubro de 2026, inscrições para Study UK Alumni Awards 2027.')
+        self.assertEqual(v['status'],'pendente_evidencia')
+
+    def test_data_mais_recente_de_outra_chamada_nao_substitui_prazo(self):
+        r={'url':'https://fapemig.br/centelha','titulo':'Programa Centelha 2026',
+           'dados':{'trecho_publico':'Podem participar startups brasileiras'}}
+        v=validar_oficial(r,datetime(2026,10,1,12,tzinfo=FUSO),
+            lambda u:'Centelha recebe inscrições até 31/08/2026. British Council recebe inscrições até 15/10/2026.')
+        self.assertEqual(v['status'],'encerrada')
+        self.assertIn('31/08/2026',v['evidencia_prazo'])
 
 if __name__=='__main__': unittest.main()
