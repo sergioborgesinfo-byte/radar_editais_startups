@@ -1,10 +1,12 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T15:10:40.272299-03:00",
+  "atualizado_em": "2026-10-02T15:21:24.579375-03:00",
   "ia": {
     "chamadas": 8,
     "limite": 8,
-    "parada": null
+    "parada": null,
+    "pendencias_restantes": 78,
+    "casos_com_tentativa_ia": 29
   },
   "itens": [
     {
@@ -488,7 +490,7 @@
       "motivo": "dados_dinamicos_ausentes",
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:07:57.757713-03:00"
+      "verificado_em": "2026-10-02T15:19:19.613781-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -699,7 +701,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:51.249449-03:00"
+      "verificado_em": "2026-10-02T14:59:51.249449-03:00",
+      "ia_tentada_em": "2026-10-02T15:20:12.135113-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "fonte_invalida"
     },
     {
       "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
@@ -707,7 +712,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:52.584528-03:00"
+      "verificado_em": "2026-10-02T14:59:52.584528-03:00",
+      "ia_tentada_em": "2026-10-02T15:20:25.091645-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
@@ -715,7 +723,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:56.068876-03:00"
+      "verificado_em": "2026-10-02T14:59:56.068876-03:00",
+      "ia_tentada_em": "2026-10-02T15:20:49.028737-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "fonte_invalida"
     },
     {
       "url": "https://ri.natura.com.br/noticias/natura-abre-inscricoes-para-desafio-de-inovacao-que-vai-acelerar-startups-de-beleza-na-america-latina",
@@ -723,7 +734,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:00:00.785029-03:00"
+      "verificado_em": "2026-10-02T15:00:00.785029-03:00",
+      "ia_tentada_em": "2026-10-02T15:20:56.828233-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/pequenos-negocios-podem-se-inscrever-para-rodadas-de-negocios-com-startups-durante-forum-e-commerce-brasil-2026",
@@ -731,14 +745,20 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:58.566260-03:00"
+      "verificado_em": "2026-10-02T14:59:58.566260-03:00",
+      "ia_tentada_em": "2026-10-02T15:21:06.865204-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "dia_mes_nao_comprovado"
     },
     {
       "url": "https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups",
       "titulo": "InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc",
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
-      "verificado_em": "2026-10-02T12:18:50.406519-03:00"
+      "verificado_em": "2026-10-02T12:18:50.406519-03:00",
+      "ia_tentada_em": "2026-10-02T15:21:24.579345-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups",
@@ -768,7 +788,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:08:40.220722-03:00"
+      "verificado_em": "2026-10-02T15:20:01.936306-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -837,7 +857,10 @@
       "status": "pendente_evidencia",
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:53.467922-03:00"
+      "verificado_em": "2026-10-02T14:59:53.467922-03:00",
+      "ia_tentada_em": "2026-10-02T15:20:32.724907-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed",
@@ -845,7 +868,10 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T14:59:56.328614-03:00"
+      "verificado_em": "2026-10-02T14:59:56.328614-03:00",
+      "ia_tentada_em": "2026-10-02T15:20:40.953806-03:00",
+      "ia_metodo": "gemini-v3",
+      "motivo_ia": "fonte_invalida"
     },
     {
       "url": "https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
@@ -893,7 +919,7 @@
       "status": "pendente_evidencia",
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:08:01.335869-03:00"
+      "verificado_em": "2026-10-02T15:19:22.855626-03:00"
     },
     {
       "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
@@ -978,7 +1004,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:07:58.035937-03:00"
+      "verificado_em": "2026-10-02T15:19:19.550132-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -986,7 +1012,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:08:00.538923-03:00"
+      "verificado_em": "2026-10-02T15:19:21.865311-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1042,7 +1068,7 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v1",
-      "verificado_em": "2026-10-02T15:08:00.669551-03:00"
+      "verificado_em": "2026-10-02T15:19:19.777590-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",

@@ -266,5 +266,123 @@
       "evidencia_ano": null,
       "motivo": "O documento informa que a chamada pública será aberta, mas não especifica datas de início nem de encerramento das inscrições."
     }
+  },
+  "7483c98da070e11c2f605ce0cdf0628875b6f87d4190aec6aebbd830f40fb579": {
+    "em": "2026-10-02T15:19:19.244416-03:00",
+    "resposta": [
+      {
+        "situacao": "prazo",
+        "fonte": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
+        "evidencia_identidade": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
+        "evidencia": "Applications for the challenge are open on the Conecta Caldeira website and close on June 27th.",
+        "fim": "2025-06-27",
+        "inicio": null,
+        "evidencia_inicio": null,
+        "evidencia_ano": "05/06/2025",
+        "motivo": "As inscrições estão abertas e encerram em 27 de junho de 2025."
+      }
+    ]
+  },
+  "985221299b9c977b36ab2158d0963a542216a4c85980d4887c58c26a24a2fd70": {
+    "em": "2026-10-02T15:19:19.244416-03:00",
+    "resposta": {
+      "situacao": "encerrada_explicita",
+      "fonte": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
+      "evidencia_identidade": "EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES",
+      "evidencia": "ENCERRADO",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "2026",
+      "motivo": "A página do edital exibe explicitamente a palavra 'ENCERRADO' e apresenta datas de divulgação de resultado final em 30/03/2026, indicando que o processo de inscrições e seleção já foi finalizado."
+    }
+  },
+  "5d861b7a4a950f6dd7e5beedcc792ca3be67e10216415525144af19d092ee388": {
+    "em": "2026-10-02T15:19:19.244416-03:00",
+    "resposta": {
+      "situacao": "pendente",
+      "fonte": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
+      "evidencia_identidade": "Acelera Vibra",
+      "evidencia": "Os critérios de participação e seleção serão divulgados no regulamento do programa.",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "Publicado:\n10 setembro 2026",
+      "motivo": "O texto apresenta o projeto Acelera Vibra e menciona que a expectativa é que o programa tenha início no começo de 2027, informando que os critérios de participação e seleção serão divulgados posteriormente no regulamento do programa, sem datas ou períodos de inscrições abertos no momento."
+    }
+  },
+  "1d8ef10963f3b5ed4dd72490669ee8195d3b78ddb795eeaf3b7ce11ca6ba3f8e": {
+    "em": "2026-10-02T15:19:19.244416-03:00",
+    "resposta": [
+      {
+        "situacao": "sem_prazo",
+        "fonte": "https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed",
+        "evidencia_identidade": "Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico",
+        "evidencia": "Garanta sua participação: https://www.sympla.com.br/evento/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed/3350424?algoliaID=06ba3328d923b17db62d1abbbfc0901b",
+        "fim": null,
+        "inicio": null,
+        "evidencia_inicio": null,
+        "evidencia_ano": "2026",
+        "motivo": "O documento convida para o evento de lançamento da chamada e aponta um link de inscrição para participar, mas não apresenta nenhum cronograma ou prazo final para subscrição nos documentos fornecidos."
+      }
+    ]
+  },
+  "041c94acea4fa21ee4cd1ae38cb51213110dfcdd6f4b0ef7a0549bc88d08b62d": {
+    "em": "2026-10-02T15:19:19.244416-03:00",
+    "resposta": [
+      {
+        "situacao": "prazo",
+        "fonte": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
+        "evidencia_identidade": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
+        "evidencia": "Candidaturas estão abertas entre 16 de junho e 3 de julho e destinam-se a projetos científicos em fase de comercialização.",
+        "inicio": null,
+        "fim": null,
+        "evidencia_inicio": null,
+        "evidencia_ano": "XXV Governo Constitucional",
+        "motivo": "As candidaturas estão abertas com prazo determinado, mas o documento não especifica o ano correspondente às datas de 16 de junho e 3 de julho."
+      }
+    ]
+  },
+  "d23b6de96f9c86fb5a4c51d262f0c9fad6c06f51be7469f401df716cc7a2a700": {
+    "em": "2026-10-02T15:19:19.244416-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://ri.natura.com.br/noticias/natura-abre-inscricoes-para-desafio-de-inovacao-que-vai-acelerar-startups-de-beleza-na-america-latina",
+      "evidencia_identidade": "Natura Innovation Challenge",
+      "evidencia": "As inscrições vão até 28 de junho",
+      "fim": "2026-06-28",
+      "inicio": "2026-06-15",
+      "evidencia_inicio": "15/06/2026",
+      "evidencia_ano": "edição de 2026",
+      "motivo": "O período de inscrições está aberto e encerra-se em 28 de junho de 2026."
+    }
+  },
+  "1df276f2c8777ec2a5c24103aef318afa07257f51568a2fabaff23252635fa1d": {
+    "em": "2026-10-02T15:19:19.244416-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://agenciasebrae.com.br/inovacao-e-tecnologia/pequenos-negocios-podem-se-inscrever-para-rodadas-de-negocios-com-startups-durante-forum-e-commerce-brasil-2026",
+      "evidencia_identidade": "Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026",
+      "evidencia": "Pequenos negócios que buscam soluções para transformar sua operação digital e ampliar a competitividade têm até a próxima quarta-feira (15) para se inscrever nas rodadas de negócios que o Sebrae vai promover durante o Fórum E-commerce Brasil 2026.",
+      "fim": "2026-07-15",
+      "inicio": "2026-07-13",
+      "evidencia_inicio": "ASN Nacional 13/07/2026 às 12:58",
+      "evidencia_ano": "Fórum E-commerce Brasil 2026",
+      "motivo": "As inscrições para as rodadas de negócios durante o Fórum E-commerce Brasil 2026 vão até o dia 15 de julho de 2026, conforme informado na notícia publicada em 13 de julho de 2026."
+    }
+  },
+  "1cfd8fe8f8e77a04901b5663125fa2008341fdc34c968f12e031a5a61c40eddd": {
+    "em": "2026-10-02T15:19:19.244416-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups",
+      "evidencia_identidade": "InovAtiva Brasil abre inscrições para aceleração de startups",
+      "evidencia": "Os interessados têm até 20 de fevereiro para acessar o site oficial e se candidatar a uma das 300 vagas para capacitação, mentoria e conexão com possíveis investidores.",
+      "fim": "2017-02-20",
+      "inicio": "2017-01-23",
+      "evidencia_inicio": "abriu nesta segunda-feira (23) as inscrições para empreendedores interessados em alavancar seus projetos no primeiro ciclo de 2017.",
+      "evidencia_ano": "primeiro ciclo de 2017",
+      "motivo": "A oportunidade possui prazo de inscrição encerrado em 20 de fevereiro de 2017."
+    }
   }
 }
