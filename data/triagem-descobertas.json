@@ -1,16 +1,16 @@
 {
-  "executado_em": "2026-10-02T15:24:57.227914+00:00",
+  "executado_em": "2026-10-03T14:10:10.034390+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
-  "links_recebidos": 1341,
-  "paginas_agrupadas": 1340,
+  "links_recebidos": 1395,
+  "paginas_agrupadas": 1394,
   "duplicacoes_de_url": 1,
   "contagem": {
-    "prioridade_verificacao": 456,
-    "revisar_contexto": 805,
+    "prioridade_verificacao": 478,
+    "revisar_contexto": 837,
     "fora_escopo": 3,
     "fonte_catalogo": 76
   },
-  "programas_sebrae": 51,
+  "programas_sebrae": 52,
   "itens": [
     {
       "titulo": "Embraer Startup Program",
@@ -163,6 +163,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Programas InovAtiva: estão abertas as inscrições para o Ciclo de Aceleração 2024.1 - ABES",
+      "url": "https://abes.org.br/programas-inovativa-estao-abertas-as-inscricoes-para-o-ciclo-de-aceleracao-2024-1",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://abes.org.br/programas-inovativa-estao-abertas-as-inscricoes-para-o-ciclo-de-aceleracao-2024-1"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "7 programas de fomento para empreendedores ficarem de olho - Abstartups",
       "url": "https://abstartups.com.br/7-programas-de-fomento-para-empreendedores-ficarem-de-olho",
       "categoria": "prioridade_verificacao",
@@ -199,6 +209,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://aceventures.com.br/venture-capital/programas"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "News & Insights - ACE Ventures",
+      "url": "https://aceventures.vc/category/news-and-insights",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://aceventures.vc/category/news-and-insights"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -289,6 +309,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://agenciasebrae.com.br/inovacao-e-tecnologia/premio-sebrae-startups-2026-abre-inscricoes-campea-nacional-recebera-r-250-mil"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Não perca o prazo: inscrições no Prêmio Sebrae Startups 2026 vão até o dia 30 | ASN Nacional - Agência Sebrae de Notícias",
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/segunda-nao-perca-o-prazo-inscricoes-no-premio-sebrae-startups-2026-vao-ate-o-dia-30",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://agenciasebrae.com.br/inovacao-e-tecnologia/segunda-nao-perca-o-prazo-inscricoes-no-premio-sebrae-startups-2026-vao-ate-o-dia-30"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -943,6 +973,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "InovAtiva Brasil abre pré-inscrições para o ciclo de aceleração 2025 - Brasil Inovador",
+      "url": "https://brasilinovador.com.br/inovativa-brasil-abre-pre-inscricoes-para-o-ciclo-de-aceleracao-2025",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://brasilinovador.com.br/inovativa-brasil-abre-pre-inscricoes-para-o-ciclo-de-aceleracao-2025"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Calendário de Missões e Feiras Internacionais | Brasil IT+",
       "url": "https://brasilitplus.com/calendario",
       "categoria": "revisar_contexto",
@@ -1083,6 +1123,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Pluginbot - Products, Competitors, Financials, Employees, Headquarters Locations",
+      "url": "https://cbinsights.com/company/pluginbot",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://cbinsights.com/company/pluginbot"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "url": "https://cedeprogram.com/startupventure",
       "categoria": "prioridade_verificacao",
@@ -1163,6 +1213,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "REGULAMENTO DE PARTICIPAÇÃO",
+      "url": "https://click.apexbrasil.com.br/mkt/Regulamento_GITEX2026.pdf",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://click.apexbrasil.com.br/mkt/Regulamento_GITEX2026.pdf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Qualificação e benefícios do programa para startups | Google Cloud",
       "url": "https://cloud.google.com/startup/benefits?hl=pt-BR",
       "categoria": "prioridade_verificacao",
@@ -1203,12 +1263,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Sebrae selecionará até 25 startups para o Web Summit ...",
+      "url": "https://conectapiaui.com.br/noticia/geral/sebrae-selecionara-ate-25-startups-para-o-web-summit-lisboa-21208.html",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://conectapiaui.com.br/noticia/geral/sebrae-selecionara-ate-25-startups-para-o-web-summit-lisboa-21208.html"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Granioter faz chamada pública para programa de pré-aceleração ...",
       "url": "https://conexao.serai.dev.br/granioter-faz-chamada-publica-para-programa-de-pre-aceleracao",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://conexao.serai.dev.br/granioter-faz-chamada-publica-para-programa-de-pre-aceleracao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "GO SRP abre edital de incubação e aceleração para startups do agronegócio - Conexão Agro",
+      "url": "https://conexaoagro.com.br/noticias-conexao/go-srp-abre-edital-de-incubacao-e-aceleracao-para-startups-do-agronegocio",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://conexaoagro.com.br/noticias-conexao/go-srp-abre-edital-de-incubacao-e-aceleracao-para-startups-do-agronegocio"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1620,6 +1700,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://embrapii.org.br/sebrae"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Programa abre inscrição para aceleração de startups do Rio Grande do Sul",
+      "url": "https://empreendedor.com.br/tecnologia/inovacao/programa-abre-inscricao-para-aceleracao-de-startups-do-rio-grande-do-sul",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://empreendedor.com.br/tecnologia/inovacao/programa-abre-inscricao-para-aceleracao-de-startups-do-rio-grande-do-sul"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2044,6 +2134,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Build a Fundable, Global Startup in Peru",
+      "url": "https://fi.co/apply/lima",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/apply/lima"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Founder Institute: World's largest pre-seed startup accelerator.",
       "url": "https://fi.co/events",
       "categoria": "revisar_contexto",
@@ -2134,6 +2234,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Symbol Lookup from Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MERC4.SA",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://finance.yahoo.com/quote/MERC4.SA"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Findes promove rodada de negócios exclusiva de startups",
       "url": "https://findes.com.br/findes-promove-rodada-de-negocios-exclusiva-de-startups",
       "categoria": "prioridade_verificacao",
@@ -2170,6 +2280,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://firjan.com.br/data/files/57/D3/07/AE/D282F9106CEF99E919284EA8/Boletim-Radar-Recursos_Firjan_Julho_2026.pdf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FORMULÁRIO DE INSCRIÇÃO: PROGRAMA NEXT - ACELERAÇÃO DE STARTUPS",
+      "url": "https://forms.gle/kbS7qkTJbu4nnbqj7",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://forms.gle/kbS7qkTJbu4nnbqj7"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -2814,6 +2934,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "InovAtiva 2025: Inscrições abertas para os maiores programas de aceleração de startups do Brasil | Portal Inova-e",
+      "url": "https://inovae.cofenplay.com.br/oportunidades/inovativa-2025-inscricoes-abertas-para-os-maiores-programas-de-aceleracao-de-startups-do-brasil",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://inovae.cofenplay.com.br/oportunidades/inovativa-2025-inscricoes-abertas-para-os-maiores-programas-de-aceleracao-de-startups-do-brasil"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "4 das 15 startups mineiras selecionadas para Programa de Internacionalização do Sebrae são vinculadas à INCIT – INOVAI",
       "url": "https://inovai.org.br/4-das-15-startups-mineiras-selecionadas-para-programa-de-internacionalizacao-do-sebrae-sao-vinculadas-a-incit",
       "categoria": "prioridade_verificacao",
@@ -2994,6 +3124,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "ACE Ventures e Gener8tor lançam programa para atrair startups dos EUA para o Brasil - IT Forum",
+      "url": "https://itforum.com.br/noticias/ace-ventures-gener8tor-startups",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://itforum.com.br/noticias/ace-ventures-gener8tor-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Aceleradora seleciona startups brasileiras para programa internacional - IT Forum",
       "url": "https://itforum.com.br/noticias/aceleradora-seleciona-startups-brasileiras-para-programa-de-internacional",
       "categoria": "prioridade_verificacao",
@@ -3134,6 +3274,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Sebrae | Notícias",
+      "url": "https://jundiai.sp.gov.br/noticias/tag/sebrae",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://jundiai.sp.gov.br/noticias/tag/sebrae"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Edital de Seleção - Capital LAB 2026",
       "url": "https://labcapitalbsb.com/edital",
       "categoria": "prioridade_verificacao",
@@ -3170,6 +3320,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://leadiq.com/c/cubo-ita%C3%BA/5a1dac022300005c00a1219f/employee-directory"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "UCLA UniCamp Employee Directory, Headcount & Staff | LeadIQ",
+      "url": "https://leadiq.com/c/ucla-unicamp/5a1d985b2300005b008707bd/employee-directory",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://leadiq.com/c/ucla-unicamp/5a1d985b2300005b008707bd/employee-directory"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -3220,6 +3380,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://learn.navitize.com/blog/invest/digital-health-startups-2026"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Edital 32/2026 - Desafios.Gov — edital de fomento FACEPE",
+      "url": "https://licitario.com.br/fomento/edital-32-2026-desafios-gov-tdz8kb",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://licitario.com.br/fomento/edital-32-2026-desafios-gov-tdz8kb"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -3594,6 +3764,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "OAPI na feira Promote 2026 em Yaoundé: um forte ...",
+      "url": "https://oapi.int/pt/2026/06/25/loapi-na-feira-promote-2026-em-yaounde-um-forte-compromisso-com-a-inovacao-e-os-negocios",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://oapi.int/pt/2026/06/25/loapi-na-feira-promote-2026-em-yaounde-um-forte-compromisso-com-a-inovacao-e-os-negocios"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Observatório Sebrae Startups",
       "url": "https://observatorio.sebraestartups.com.br/oportunidades",
       "categoria": "revisar_contexto",
@@ -3644,6 +3824,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Prêmio Sebrae Startups 2026 abre inscrições e oferece oportunidade de crescimento | ASN Pará - Agência Sebrae de Notícias",
+      "url": "https://pa.agenciasebrae.com.br/inovacao-e-tecnologia/premio-sebrae-startups-2026-abre-inscricoes-oferecendo-oportunidade-de-mercado-e-crescimento-a-empresas-inovadoras",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://pa.agenciasebrae.com.br/inovacao-e-tecnologia/premio-sebrae-startups-2026-abre-inscricoes-oferecendo-oportunidade-de-mercado-e-crescimento-a-empresas-inovadoras"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Grupo Equatorial seleciona startups para testar soluções com projetos remunerados",
       "url": "https://panoramanewsoficial.com.br/grupo-equatorial-seleciona-startups-para-testar-solucoes-com-projetos-remunerados",
       "categoria": "revisar_contexto",
@@ -3660,6 +3850,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://parque.inova.unicamp.br/baita-anuncia-chamada-para-aceleracao-de-startups-em-2021"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Baita Aceleradora abre inscrições para a turma 2022",
+      "url": "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -3940,6 +4140,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://portalinnova.cl/emprender-en-el-norte-antofagasta-y-sus-oportunidades-para-las-startups"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Sebrae leva startups brasileiras à Coreia do Sul em ...",
+      "url": "https://portalradar.com.br/sebrae-leva-startups-brasileiras-a-coreia-do-sul-em-missao-para-a-nextrise-2026",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://portalradar.com.br/sebrae-leva-startups-brasileiras-a-coreia-do-sul-em-missao-para-a-nextrise-2026"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4370,6 +4580,16 @@
       "motivo": "Página individual de programa Sebrae; regras ainda não verificadas",
       "links_equivalentes": [
         "https://programas.sebraestartups.com.br/in/capitalempreendedorrs"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Missão Técnica CE no NEON Alagoas 2026 - Sebrae Startups",
+      "url": "https://programas.sebraestartups.com.br/in/ceneon2026",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Página individual de programa Sebrae; regras ainda não verificadas",
+      "links_equivalentes": [
+        "https://programas.sebraestartups.com.br/in/ceneon2026"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -4840,6 +5060,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://pt.linkedin.com/posts/ferdinandokun_uberl%C3%A2ndia-startups-uberhub-activity-7490813425862877184-06jA"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Publicação de Fórum Oceano",
+      "url": "https://pt.linkedin.com/posts/forumoceano_%F0%9D%97%A3%F0%9D%97%A2%F0%9D%97%A5%F0%9D%97%A7-%F0%9D%97%A2%F0%9D%97%99-%F0%9D%97%A7%F0%9D%97%9B%F0%9D%97%98-%F0%9D%97%99%F0%9D%97%A8%F0%9D%97%A7%F0%9D%97%A8%F0%9D%97%A5%F0%9D%97%98-%F0%9D%97%AA%F0%9D%97%98%F0%9D%97%98%F0%9D%97%9E-activity-7485000190244880384-Rrsd",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://pt.linkedin.com/posts/forumoceano_%F0%9D%97%A3%F0%9D%97%A2%F0%9D%97%A5%F0%9D%97%A7-%F0%9D%97%A2%F0%9D%97%99-%F0%9D%97%A7%F0%9D%97%9B%F0%9D%97%98-%F0%9D%97%99%F0%9D%97%A8%F0%9D%97%A7%F0%9D%97%A8%F0%9D%97%A5%F0%9D%97%98-%F0%9D%97%AA%F0%9D%97%98%F0%9D%97%98%F0%9D%97%9E-activity-7485000190244880384-Rrsd"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -5434,6 +5664,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "CAESB - Companhia de Saneamento Ambiental do Distrito Federal Information",
+      "url": "https://rocketreach.co/caesb-companhia-de-saneamento-ambiental-do-distrito-federal-profile_b5d4c257f42e38fc",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rocketreach.co/caesb-companhia-de-saneamento-ambiental-do-distrito-federal-profile_b5d4c257f42e38fc"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Carla Nogueira Email & Phone Number | Vagalume Brasil Mentoria Co-Founder Contact Information",
       "url": "https://rocketreach.co/carla-nogueira-email_31193108",
       "categoria": "revisar_contexto",
@@ -5764,6 +6004,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Hugo Email & Phone Number | COSTA PORTO Diretor Contact Information",
+      "url": "https://rocketreach.co/hugo-email_25077181",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rocketreach.co/hugo-email_25077181"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "IFMS - Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul Information",
       "url": "https://rocketreach.co/ifms-instituto-federal-de-educacao-ciencia-e-tecnologia-de-mato-grosso-do-sul-profile_b40d9cc3ffb70e06",
       "categoria": "revisar_contexto",
@@ -5994,6 +6244,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Registro Publico de Panama Information",
+      "url": "https://rocketreach.co/registro-publico-de-panama-profile_b5abd5e0f961ae04",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rocketreach.co/registro-publico-de-panama-profile_b5abd5e0f961ae04"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Rodrigo Vianna Email & Phone Number | PMI Rio de Janeiro Chapter Programa de Parcerias PMI - Rio (Voluntário) Contact Information",
       "url": "https://rocketreach.co/rodrigo-vianna-email_87099377",
       "categoria": "revisar_contexto",
@@ -6150,6 +6410,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://rocketreach.co/thaisa-carvalho-email_228780049"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Tribunal de Justiça de Pernambuco Information",
+      "url": "https://rocketreach.co/tribunal-de-justica-de-pernambuco-profile_b441616efd9ab113",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://rocketreach.co/tribunal-de-justica-de-pernambuco-profile_b441616efd9ab113"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6344,12 +6614,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "edital de seleção de projetos e empresas para incubação",
+      "url": "https://saudeimpulsiona.com.br/wp-content/uploads/2026/03/Edital_Impulsionasaude-2.pdf",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://saudeimpulsiona.com.br/wp-content/uploads/2026/03/Edital_Impulsionasaude-2.pdf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Tecnologia e inovação em Santa Catarina | ACATE",
       "url": "https://sc.acate.com.br/associe-se-ads",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://sc.acate.com.br/associe-se-ads"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "BRDE Labs | ACATE",
+      "url": "https://sc.acate.com.br/brdelabs",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://sc.acate.com.br/brdelabs"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -6580,6 +6870,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://sict.rs.gov.br/rede-rs-startup-6a4fb734494f5"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Guia de programas de aceleração e seleção para construtechs e proptechs - Sienge",
+      "url": "https://sienge.com.br/blog/guia-de-programas-de-aceleracao-e-selecao-para-construtechs-e-proptechs",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://sienge.com.br/blog/guia-de-programas-de-aceleracao-e-selecao-para-construtechs-e-proptechs"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -7424,6 +7724,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Fapto lança edital para seleção de startups para participarem de programa de aceleração do InovaFapto  - Tocantins Rural",
+      "url": "https://tocantinsrural.com.br/fapto-lanca-edital-para-selecao-de-startups-para-participarem-de-programa-de-aceleracao-do-inovafapto",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://tocantinsrural.com.br/fapto-lanca-edital-para-selecao-de-startups-para-participarem-de-programa-de-aceleracao-do-inovafapto"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Prorrogadas as inscrições para programas de Incubação e Aceleração de empresas da Fapto, com premiação de até R$ 22,5 mil - Tocantins Rural",
       "url": "https://tocantinsrural.com.br/prorrogadas-as-inscricoes-para-programas-de-incubacao-e-aceleracao-de-empresas-da-fapto-com-premiacao-de-ate-r-225-mil",
       "categoria": "prioridade_verificacao",
@@ -7680,6 +7990,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://tracxn.com/d/explore/agritech-startups-in-brazil/__1CzGBYl0JIaz2flk6jpzwvlYlzZ10Mp3KeWjzqSnw_Y"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "List of 8,480 AgriTech Startups in Europe & Market Trends (Sep 2026) - Tracxn",
+      "url": "https://tracxn.com/d/explore/agritech-startups-in-europe/__ctWV8WGqHQPSqedEvgPyJP2QDvpYCPzwKMd9cWLIcxE",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://tracxn.com/d/explore/agritech-startups-in-europe/__ctWV8WGqHQPSqedEvgPyJP2QDvpYCPzwKMd9cWLIcxE"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -7954,6 +8274,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
+      "url": "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Aceleradora",
       "url": "https://www.2gether-international.org/pt/lac/aceleradora",
       "categoria": "prioridade_verificacao",
@@ -8140,6 +8470,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.boomee.com.br/boomee-selecionada-para-o-programa-speed-up"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Startups brasileiras participam de missão para feira na ...",
+      "url": "https://www.brasil247.com/empreender/startups-brasileiras-participam-de-missao-para-feira-na-coreia-do-sul",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.brasil247.com/empreender/startups-brasileiras-participam-de-missao-para-feira-na-coreia-do-sul"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8504,6 +8844,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "QualityStorm - Products, Competitors, Financials, Employees, Headquarters Locations",
+      "url": "https://www.cbinsights.com/company/qualitystorm-1",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.cbinsights.com/company/qualitystorm-1"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Remote Waters - Products, Competitors, Financials, Employees, Headquarters Locations",
       "url": "https://www.cbinsights.com/company/remote-waters",
       "categoria": "revisar_contexto",
@@ -8824,6 +9174,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Novos editais para startups e inovação no setor público ...",
+      "url": "https://www.diariodepernambuco.com.br/economia/2026/10/11725459-novos-editais-para-startups-e-inovacao-no-setor-publico-oferecem-rs-45-milhoes-em-pernambuco.html",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.diariodepernambuco.com.br/economia/2026/10/11725459-novos-editais-para-startups-e-inovacao-no-setor-publico-oferecem-rs-45-milhoes-em-pernambuco.html"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "MS lança AgroValley para acelerar startups e tecnologias do agro - Geral - Diário Digital",
       "url": "https://www.diariodigital.com.br/geral/ms-lanca-agrovalley-para-acelerar-startups-e-tecnologias-do-agro",
       "categoria": "revisar_contexto",
@@ -9074,6 +9434,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "EDITAL Nº 22/2026-FACEPE",
+      "url": "https://www.facepe.br/wp-content/uploads/2026/07/2026.07.15-Global-PE-Espanha-Ajustado.pdf",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.facepe.br/wp-content/uploads/2026/07/2026.07.15-Global-PE-Espanha-Ajustado.pdf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Top 94 HealthTech Accelerators and Incubators (2026)",
       "url": "https://www.failory.com/startups/healthtech-accelerators-incubators",
       "categoria": "revisar_contexto",
@@ -9250,6 +9620,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.fi-groupbr.com/pt/servico/financiamentos"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FIEMG Lab - FIEMG",
+      "url": "https://www.fiemg.com.br/area-de-interesse/inovacao-e-tecnologia/fiemg-lab",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.fiemg.com.br/area-de-interesse/inovacao-e-tecnologia/fiemg-lab"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -9484,6 +9864,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Feira BIEMH | Inscrições até 21 de março - IAPMEI",
+      "url": "https://www.iapmei.pt/pt/comunicacao/noticias/feira-biemh-inscricoes-ate-21-de-marco",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.iapmei.pt/pt/comunicacao/noticias/feira-biemh-inscricoes-ate-21-de-marco"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "IASP global directory of science & technology park & innovation district – IASP",
       "url": "https://www.iasp.ws/our-members/directory/@477220/sapiens-parque-s.a.",
       "categoria": "revisar_contexto",
@@ -9610,6 +10000,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/CkgysViOibS"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DIr6APjvWB6",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DIr6APjvWB6"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -9865,6 +10265,16 @@
     },
     {
       "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DVe4EudAPpI",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DVe4EudAPpI"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DVgWR8OlmfZ?hl=en",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -9900,6 +10310,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DVtmVQdkaaj"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DVyOLAVlmlg",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DVyOLAVlmlg"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -10150,6 +10570,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/DZI5C2_Tq-k"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
+      "url": "https://www.instagram.com/p/DZVtdg2mrI5",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DZVtdg2mrI5"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -10464,6 +10894,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "🚨 RADAR DE EDITAIS: Oportunidades abertas para ...",
+      "url": "https://www.instagram.com/p/DcJVLykEYqI",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/DcJVLykEYqI"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Instagram",
       "url": "https://www.instagram.com/p/DcbhNhoFN31",
       "categoria": "revisar_contexto",
@@ -10520,6 +10960,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.instagram.com/p/Dd4Bu1gFYdH"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Edital Nº 33/2026-FACEPE - Pró-Startups Operação: apoio ...",
+      "url": "https://www.instagram.com/p/Dd9nLBUJ_NO",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.instagram.com/p/Dd9nLBUJ_NO"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -11045,6 +11495,16 @@
     },
     {
       "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DW_4ZVvAj0L",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DW_4ZVvAj0L"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DWjA5dqDlXH",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -11305,6 +11765,16 @@
     },
     {
       "titulo": "Instagram",
+      "url": "https://www.instagram.com/reel/DceTN8eDfi_",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.instagram.com/reel/DceTN8eDfi_"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Instagram",
       "url": "https://www.instagram.com/reel/DckNJhMgrBc",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -11424,6 +11894,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Mercantil Financeira SA Crédito, Financiamento e Investimento Stock Price Today | BVMF: MERC4 Live - Investing.com",
+      "url": "https://www.investing.com/equities/mercantil-brasil-financeira",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.investing.com/equities/mercantil-brasil-financeira"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Mercantil Financeira SA Crédito, Financiamento e Investimento (MERC4) Financial Ratios",
       "url": "https://www.investing.com/equities/mercantil-brasil-financeira-ratios",
       "categoria": "revisar_contexto",
@@ -11440,6 +11920,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://www.investing.com/funds/itau-personnalite-selecao-ibiuna-he"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "IBIUNA HEDGE SELEÇÃO MULTIMERCADO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO Company Profile - Investing.com",
+      "url": "https://www.investing.com/funds/itau-personnalite-selecao-ibiuna-he-company-profile",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.investing.com/funds/itau-personnalite-selecao-ibiuna-he-company-profile"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -11870,6 +12360,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.pucminas.br/puctec/Paginas/default.aspx"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Empreendedorismo e Negócios de Impacto | Quintessa - Oficial",
+      "url": "https://www.quintessa.org.br/empreendedorismo",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.quintessa.org.br/empreendedorismo"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -12584,6 +13084,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Startup Day 2026 - Valença do Piauí",
+      "url": "https://www.sympla.com.br/evento/startup-day-2026-valenca-do-piaui/3276196",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.sympla.com.br/evento/startup-day-2026-valenca-do-piaui/3276196"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos",
       "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
       "categoria": "prioridade_verificacao",
@@ -12804,6 +13314,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "COMBIZ - Updated February 2026 - Request Consultation - Av. Coronel Lucas de Oliveira, 1668, Porto Alegre - RS, Brazil - Marketing - Phone Number - Yelp",
+      "url": "https://www.yelp.com/biz/combiz-porto-alegre",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.yelp.com/biz/combiz-porto-alegre"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Rio Mix - Rio de Janeiro, RJ",
       "url": "https://www.yelp.com/biz/rio-mix-rio-de-janeiro",
       "categoria": "revisar_contexto",
@@ -12840,6 +13360,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.yelp.com/biz/unimed-s%C3%A3o-jos%C3%A9-dos-campos-4"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Usimaza Indústria - São José dos Campos, SP",
+      "url": "https://www.yelp.com/biz/usimaza-ind%C3%BAstria-s%C3%A3o-jos%C3%A9-dos-campos",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.yelp.com/biz/usimaza-ind%C3%BAstria-s%C3%A3o-jos%C3%A9-dos-campos"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -13040,6 +13570,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.youtube.com/watch?v=MqzBSuIVqpY"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Parque Tecnológico abre inscrições para receber novas startups em São José dos Campos",
+      "url": "https://www.youtube.com/watch?v=N-LdijFATMI",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://www.youtube.com/watch?v=N-LdijFATMI"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -13324,7 +13864,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Search Companies in Rio De Janeiro | ZoomInfo.com",
+      "titulo": "Find Verified Company Profiles by Industry & Location | ZoomInfo",
       "url": "https://www.zoominfo.com/companies-search/location-brazil--rio-de-janeiro--rio-de-janeiro",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
@@ -13334,7 +13874,7 @@
       "vigencia": "nao_avaliada"
     },
     {
-      "titulo": "Search Companies in Sao Jose Dos Campos | ZoomInfo.com",
+      "titulo": "Find Verified Company Profiles by Industry & Location | ZoomInfo",
       "url": "https://www.zoominfo.com/companies-search/location-brazil--sao-paulo--sao-jose-dos-campos",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
