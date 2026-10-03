@@ -225,7 +225,10 @@ def validar_oficial(registro, agora, ler=None):
     pagina_dedicada = (url in FONTES_OFICIAIS or
                        '/oportunidades/chamadas-e-editais/' in urlsplit(fonte).path)
     edicao = re.search(r'\b20\d{2}\b', titulo)
-    if (not edicao and not pagina_dedicada) or not re.search(r'startup|neg[oó]cio inovador|projeto inovador', publico, re.I):
+    edicao_documentada = re.search(
+        r'(?:edital(?:\s+n[ºo.]*)?\s*\d+[/-]|abertura\s*:?\s*\d{1,2}[/-]\d{1,2}[/-])(20\d{2})',
+        texto, re.I)
+    if (not edicao and not pagina_dedicada and not edicao_documentada) or not re.search(r'startup|neg[oó]cio inovador|projeto inovador', publico, re.I):
         return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
                 'motivo':'edicao_ou_publico_nao_comprovado'}
     trechos = [x.strip() for x in re.split(r'(?<=[.!?])\s+|\n+', texto) if x.strip()]
@@ -260,11 +263,7 @@ def validar_oficial(registro, agora, ler=None):
         return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
                 'motivo':'prazo_literal_com_ano_nao_encontrado'}
     if continuo:
-        edicao_continua = edicao
-        if not edicao_continua:
-            edicao_continua = re.search(
-                r'(?:edital(?:\s+n[ºo.]*)?\s*\d+[/-]|abertura\s*:?\s*\d{1,2}[/-]\d{1,2}[/-])(20\d{2})',
-                texto, re.I)
+        edicao_continua = edicao or edicao_documentada
         if not edicao_continua:
             return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
                     'motivo':'edicao_nao_comprovada'}
