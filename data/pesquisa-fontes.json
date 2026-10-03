@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T06:50:29.000Z",
+  "atualizado_em": "2026-10-03T07:43:03.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -649,6 +649,29 @@
       ],
       "bloqueio_ou_observacao": "Fonte oficial confirma a primeira edição, seis startups madeirenses e inscrições até 03/04/2024 às 23h59; não foi substituída pela edição 2026.",
       "pesquisado_em": "2026-10-03T06:50:29.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows",
+      "titulo": "How to Disable Startup Programs in Windows",
+      "status": "nao_eh_oportunidade_startup",
+      "fontes_examinadas": [
+        "https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows"
+      ],
+      "bloqueio_ou_observacao": "Tutorial técnico sobre desativar programas iniciados com o Windows. O termo startup refere-se à inicialização do sistema operacional; não é chamada, edital ou oportunidade para empresas startups.",
+      "pesquisado_em": "2026-10-03T07:43:03.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
+      "titulo": "Resultados do PICS 2.0 da UFS",
+      "status": "resultado_de_edicao_antiga_sem_fonte_de_inscricao",
+      "fontes_examinadas": [
+        "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
+        "https://cinttec.ufs.br/conteudos/noticias?page=9"
+      ],
+      "bloqueio_ou_observacao": "Notícia oficial de maio de 2023 apresenta finalistas e vencedores do PICS 2.0, cujo edital foi lançado em julho de 2022. É resultado, não inscrição. A edição PICS 4.0 de 2024 e o PICS 5 de 2025 são distintos e não substituem esta ficha.",
+      "pesquisado_em": "2026-10-03T07:43:03.000Z",
       "tentativas": 1
     }
   ]
