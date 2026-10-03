@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T16:55:00.000Z",
+  "atualizado_em": "2026-10-03T17:54:00.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -77,13 +77,13 @@
     {
       "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
       "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
-      "pesquisado_em": "2026-10-03T08:51:00.000Z",
-      "tentativas": 2,
-      "status": "fonte_alternativa_localizada",
+      "pesquisado_em": "2026-10-03T17:54:00.000Z",
+      "tentativas": 3,
+      "status": "resolvida_pelo_verificador",
       "fontes_examinadas": [
         "https://programas.sebraestartups.com.br/in/acelerastartups"
       ],
-      "bloqueio_ou_observacao": "Reexame: a notícia oficial é legível, mas associa o prazo de 21 de agosto ao ano apenas pela data da publicação; não foi localizado PDF com o ano literal no prazo."
+      "bloqueio_ou_observacao": "O leitor estruturado da fonte Sebrae Startups comprovou encerramento em 21/08/2026; ficha classificada automaticamente como encerrada."
     },
     {
       "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
@@ -234,14 +234,14 @@
     {
       "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
       "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
-      "status": "fonte_alternativa_localizada",
+      "status": "resolvida_pelo_verificador",
       "fontes_examinadas": [
         "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
         "https://programas.sebraestartups.com.br/in/deeplabbio4"
       ],
-      "bloqueio_ou_observacao": "Reexame: não foi localizado edital ou PDF público oficial da DeepLab Bio 4; as fontes confirmam a edição, mas não oferecem cronograma literal melhor.",
-      "pesquisado_em": "2026-10-03T08:51:00.000Z",
-      "tentativas": 2
+      "bloqueio_ou_observacao": "O leitor estruturado da fonte Sebrae Startups comprovou encerramento em 24/03/2024; ficha classificada automaticamente como encerrada.",
+      "pesquisado_em": "2026-10-03T17:54:00.000Z",
+      "tentativas": 3
     },
     {
       "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
@@ -591,13 +591,13 @@
     {
       "url": "https://alertaeditais.com.br/edital/south-summit-brazil-2026-exposicao-de-startup-w083r",
       "titulo": "South Summit Brazil 2026 — Exposição de Startups Gaúchas",
-      "status": "fonte_alternativa_localizada",
+      "status": "resolvida_pelo_verificador",
       "fontes_examinadas": [
         "https://programas.sebraestartups.com.br/in/south-summit-brazil-2026---exposi%C3%A7%C3%A3o-de-startups-ga%C3%BAchas-1768484451965x681111351935545900"
       ],
-      "bloqueio_ou_observacao": "Página oficial Sebrae Startups confirma edição 2026, startups gaúchas e inscrições de 15/01/2026 a 26/01/2026.",
-      "pesquisado_em": "2026-10-03T06:50:29.000Z",
-      "tentativas": 1
+      "bloqueio_ou_observacao": "O leitor estruturado da fonte Sebrae Startups comprovou encerramento em 25/01/2026; ficha classificada automaticamente como encerrada.",
+      "pesquisado_em": "2026-10-03T17:54:00.000Z",
+      "tentativas": 2
     },
     {
       "url": "https://exame.com/pme/programas-de-aceleracao-para-startups",
