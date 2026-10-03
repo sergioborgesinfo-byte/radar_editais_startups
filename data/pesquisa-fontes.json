@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T14:54:30.000Z",
+  "atualizado_em": "2026-10-03T15:05:00.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -688,6 +688,65 @@
         "https://abvcap.com.br/programas/inova-invest/"
       ],
       "bloqueio_ou_observacao": "Página oficial atual da ABVCAP identifica a edição Região Norte, convida à inscrição e define startups da região como público. O vínculo foi registrado, mas o verificador terminou com motivo sem_documentos/localizar_fonte_primaria; a ficha permanece pendente até haver uma fonte oficial legível pelo app."
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/ceneon2026",
+      "titulo": "Missão Técnica CE no NEON Alagoas 2026 - Sebrae Startups",
+      "pesquisado_em": "2026-10-03T15:05:00.000Z",
+      "tentativas": 1,
+      "status": "fonte_dinamica_sem_dados",
+      "fontes_examinadas": [
+        "https://programas.sebraestartups.com.br/in/ceneon2026",
+        "https://programas.sebraestartups.com.br/in/1778179751658x242203888146565120"
+      ],
+      "bloqueio_ou_observacao": "A página oficial existe, mas o conteúdo dinâmico não carregou dados verificáveis de público e prazo; não foi localizada página oficial alternativa da mesma missão e edição."
+    },
+    {
+      "url": "https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf",
+      "titulo": "Processo de Seleção de Propostas para Incubação e Aceleração – Fluxo Contínuo",
+      "pesquisado_em": "2026-10-03T15:05:00.000Z",
+      "tentativas": 1,
+      "status": "fonte_primaria_localizada",
+      "fontes_examinadas": [
+        "https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf",
+        "https://mamiraua.org.br/nits",
+        "https://mamiraua.org.br/noticias/incubadora-mamiraua-lanca-edital-para-empreendedores/"
+      ],
+      "bloqueio_ou_observacao": "A página oficial do Nits identifica o Edital nº 01/2024 como fluxo contínuo, permite submissão a qualquer momento e inclui startups entre os públicos. Foi vinculada como alternativa legível ao PDF."
+    },
+    {
+      "url": "https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf",
+      "titulo": "Edital Inatel Startups - Seleção de Novos Projetos / Empresas",
+      "pesquisado_em": "2026-10-03T15:05:00.000Z",
+      "tentativas": 1,
+      "status": "fonte_primaria_examinada",
+      "fontes_examinadas": [
+        "https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf"
+      ],
+      "bloqueio_ou_observacao": "PDF oficial legível: Edital Inatel Startups, abertura em 10/05/2024, encerramento não se aplica, fluxo contínuo e inscrições para projetos e startups inovadoras. A regra do verificador foi ajustada para reconhecer esses elementos em blocos separados."
+    },
+    {
+      "url": "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294",
+      "titulo": "Baita Aceleradora abre inscrições para a turma 2022",
+      "pesquisado_em": "2026-10-03T15:05:00.000Z",
+      "tentativas": 1,
+      "status": "edicao_antiga_sem_fonte_primaria_localizada",
+      "fontes_examinadas": [
+        "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294",
+        "https://www.baita.ac/"
+      ],
+      "bloqueio_ou_observacao": "A notícia da FAPESP comprova turma 2022 e inscrições até 27 de junho, mas não é fonte do organizador. Não foi localizada página primária sobrevivente da mesma turma; o site atual da Baita não substitui a edição antiga."
+    },
+    {
+      "url": "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista",
+      "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista",
+      "pesquisado_em": "2026-10-03T15:05:00.000Z",
+      "tentativas": 1,
+      "status": "nao_e_oportunidade_para_startups",
+      "fontes_examinadas": [
+        "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista"
+      ],
+      "bloqueio_ou_observacao": "O objeto é seleção de bolsista para atuar no Programa Startup Lab, não chamada para selecionar ou apoiar startups. Mantido sem fonte alternativa para não publicar falso positivo."
     }
   ]
 }
