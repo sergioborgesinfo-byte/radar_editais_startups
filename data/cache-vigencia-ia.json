@@ -1520,5 +1520,75 @@
       "evidencia_ano": "Edital CBA Open 2026",
       "motivo": "O edital possui formato de fluxo contínuo para o recebimento de propostas, sem data final de encerramento de inscrições especificada nos documentos."
     }
+  },
+  "280fca88cafc28712e4f558bf5383caa3bba71960b841de21525fc9746d74c8e": {
+    "em": "2026-10-02T21:10:30.692409-03:00",
+    "resposta": {
+      "situacao": "pendente",
+      "fonte": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
+      "evidencia_identidade": "Acelera Vibra pretende mobilizar mais de 100 startups em cinco cidades e selecionar 17 negócios para a etapa final.",
+      "evidencia": null,
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "Chamada FAPEMIG/SEDE 03/2026 - Novo SEED",
+      "motivo": "O texto descreve o projeto Acelera Vibra e menciona que os critérios de participação e seleção serão divulgados no regulamento do programa, sem informar as datas de inscrição."
+    }
+  },
+  "db88d7884f236d19dff8d45e237bbf81795fcd798093ef10acffb83e5eed306e": {
+    "em": "2026-10-02T21:10:30.692409-03:00",
+    "resposta": {
+      "situacao": "encerrada_explicita",
+      "fonte": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
+      "evidencia_identidade": "InovAtiva Brasil",
+      "evidencia": "Na primeira etapa, que vai até o dia 19 de junho, o InovAtiva receberá a inscrição de empreendedores interessados em participar do ciclo de aceleração.",
+      "fim": "2015-06-19",
+      "inicio": "2015-04-27",
+      "evidencia_inicio": "abriu na segunda-feira, 27 de abril, as inscrições da terceira edição do InovAtiva Brasil",
+      "evidencia_ano": "edição 2015",
+      "motivo": "O programa da edição de 2015 teve inscrições encerradas em 19/06/2015, conforme cronograma da oportunidade."
+    }
+  },
+  "ce5f0648964dd38b78b4e2599201acedab4ce0482f21a40ac4d72124c86047f9": {
+    "em": "2026-10-02T21:10:30.692409-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
+      "evidencia_identidade": "Hub de Inovação do SENAI e SESI Amapá lançou nesta sexta-feira (4) uma chamada pública voltada à transformação do setor industrial.",
+      "evidencia": "As inscrições acontecem até o dia 19 de maio e podem ser feitas por meio do link",
+      "fim": "2025-05-19",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "Data informada pela página: 2025-04-04T17:26:55-03:00",
+      "motivo": "O edital possui prazo de inscrição definido até o dia 19 de maio, conforme o cronograma informado na página oficial."
+    }
+  },
+  "e4086c129f0569dc3f964f691c6608d2c7df72e72bea2d717991affb67c5bb27": {
+    "em": "2026-10-02T21:10:30.692409-03:00",
+    "resposta": {
+      "situacao": "pendente",
+      "fonte": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
+      "evidencia_identidade": "Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups",
+      "evidencia": "A seleção das Startups será realizada a partir da publicação de edital para ter início no próximo mês (agosto) e terá duração de 24 meses . Fique de olho em nossas redes sociais .",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": "A seleção das Startups será realizada a partir da publicação de edital para ter início no próximo mês (agosto)",
+      "evidencia_ano": "Data de publicação da página: 2026-07-30T20:17:20+00:00",
+      "motivo": "O texto menciona que a seleção das startups será realizada a partir da publicação de um edital futuro (com início previsto para agosto de 2026), mas não apresenta as datas específicas de início e fim do período de inscrições."
+    }
+  },
+  "730c6fb85f43e370874eaa44e74fbdfbe119f9dd5c233f45f45daee7039d17fb": {
+    "em": "2026-10-02T21:10:30.692409-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://garagem.bndes.gov.br/",
+      "evidencia_identidade": "BNDES Garagem",
+      "evidencia": "Inscrições até 14.09.25",
+      "fim": "2025-09-14",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "14.09.25",
+      "motivo": "O cronograma do programa indica que as inscrições vão até 14.09.25."
+    }
   }
 }
