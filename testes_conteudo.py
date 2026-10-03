@@ -203,7 +203,7 @@ class GateQualidade(unittest.TestCase):
         return {'url':url, 'status':'confirmada_no_conteudo', 'dados':{
             'titulo':titulo, 'trecho_oportunidade':evidencia, 'trecho_publico':evidencia}}
 
-    def test_nao_avanca_com_cobertura_incompleta(self):
+    def test_candidato_confirmado_avanca_sem_esperar_cobertura_global(self):
         import tempfile
         from pathlib import Path
         from unittest.mock import patch
@@ -215,7 +215,7 @@ class GateQualidade(unittest.TestCase):
         with tempfile.TemporaryDirectory() as pasta, patch('confirmar_oportunidades.Path',
                 side_effect=lambda nome: Path(pasta) / Path(nome).name):
             r=salvar_qualidade(origem,feitos,{'confirmada_no_conteudo':1})
-        self.assertFalse(r['avancar_vigencia'])
+        self.assertTrue(r['avancar_vigencia'])
         self.assertEqual(r['cobertura_prioritaria'],.5)
 
     def test_rejeita_registro_historico_sem_chamada_atual(self):

@@ -2,18 +2,11 @@ name: Triar descobertas sem avaliar vigência
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Descobrir oportunidades"]
-    types: [completed]
-    branches: [main]
-  push:
-    branches: [main]
-    paths: [triar_descobertas.py, testes_triagem.py, '.github/workflows/triagem.yml']
 
 permissions:
   contents: write
 concurrency:
-  group: radar-triagem
+  group: radar-pipeline
   cancel-in-progress: false
 
 jobs:

@@ -1,0 +1,25 @@
+name: Validar mudança do Radar
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar dependências
+        run: >-
+          python -m pip install --index-url https://pypi.org/simple --only-binary=:all: -r requirements.txt
+      - name: Validar orçamento, fila, fontes e publicação
+        run: python -m unittest discover -s . -p 'testes_*.py'
+      - name: Validar JavaScript
+        run: node --check docs/acompanhamento.js
+      - name: Confirmar que testes não alteram dados de produção
+        run: git diff --exit-code -- data docs/busca.json docs/editais.json

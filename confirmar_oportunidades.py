@@ -10,9 +10,10 @@ from threading import Lock
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 from collections import Counter, defaultdict, deque
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import quote, urlsplit
+from estado_pipeline import salvar_json
 
 VERSAO = 'conteudo-v1'
 PROMPT = '''Você classifica páginas sobre oportunidades para startups.
@@ -87,11 +88,12 @@ def fila(itens, feitos, limite):
         # Confirmações já obtidas não precisam consumir IA novamente.
         if anterior.get('status') in ('confirmada_no_conteudo', 'nao_confirmada_no_texto'):
             continue
-        if (anterior.get('auditoria_relevancia') == 'requer_revisao'
-                and e['url'].rstrip('/') != 'https://www.darwinstartups.com/icmlab'):
+        if anterior.get('status') == 'fora_escopo' or re.search(r'/cases?(?:/|$)', e['url'], re.I):
             continue
-        if anterior.get('status') in ('falha_leitura', 'pendente_leitura') and anterior.get('tentativas', 0) >= 3:
-            continue
+        try:
+            if anterior.get('metodo_leitura') == 'cronogramas-v6' and datetime.fromisoformat(anterior['proxima_tentativa']) > datetime.now(timezone.utc):
+                continue
+        except (KeyError, ValueError): pass
         elegiveis.append(e)
     selecionados = []
     # Primeiro cobre todas as páginas prioritárias inéditas, diversificando domínios.
@@ -122,24 +124,35 @@ _ultima = 0.0
 
 def classificar_texto(texto, url):
     global _ultima
+    chave_cache = hashlib.sha256(json.dumps([PROMPT, url, texto], ensure_ascii=False).encode()).hexdigest()
+    caminho_cache = Path('data/cache-conteudo-ia.json')
+    try: cache_respostas = json.loads(caminho_cache.read_text())
+    except (OSError, ValueError): cache_respostas = {}
+    if chave_cache in cache_respostas:
+        return cache_respostas[chave_cache]
     corpo = {'systemInstruction': {'parts': [{'text': PROMPT}]},
              'contents': [{'role': 'user', 'parts': [{'text': f'URL: {url}\nTEXTO:\n{texto}'}]}],
              'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json'}}
     modelo = os.getenv('GEMINI_MODEL', 'gemini-3.5-flash-lite')
     for tentativa in range(2):
+        from estado_pipeline import reservar, pausar
+        if not os.getenv('GEMINI_API_KEY'): raise ServicoIndisponivel('gemini_sem_credencial')
+        bloqueio = reservar('conteudo')
+        if bloqueio: raise ServicoIndisponivel(bloqueio)
         time.sleep(max(0, 7 - (time.monotonic() - _ultima)))
         _ultima = time.monotonic()
         req = Request(f'https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent',
                       data=json.dumps(corpo).encode(), method='POST',
                       headers={'Content-Type': 'application/json', 'x-goog-api-key': os.environ['GEMINI_API_KEY']})
         try:
-            with urlopen(req, timeout=30) as resposta:
+            with urlopen(req, timeout=60) as resposta:
                 dados = json.load(resposta)
         except HTTPError as erro:
             codigo = erro.code
             erro.close()
             # Uma cota esgotada afeta todos os candidatos, não cada página.
             if codigo == 429 or codigo in (401, 403):
+                if codigo == 429: pausar()
                 raise ServicoIndisponivel(f'gemini_http_{codigo}') from None
             if codigo >= 500 and tentativa == 0:
                 time.sleep(5)
@@ -151,7 +164,10 @@ def classificar_texto(texto, url):
             raise ServicoIndisponivel('gemini_conexao') from None
         partes = dados.get('candidates', [{}])[0].get('content', {}).get('parts', [])
         bruto = ''.join(p.get('text', '') for p in partes)
-        return json.loads(re.sub(r'^```(?:json)?|```$', '', bruto.strip(), flags=re.M))
+        resultado = json.loads(re.sub(r'^```(?:json)?|```$', '', bruto.strip(), flags=re.M))
+        cache_respostas[chave_cache] = resultado
+        salvar_json(caminho_cache, cache_respostas)
+        return resultado
 
 
 def evidencias_textuais(texto, e):
@@ -242,6 +258,7 @@ def executar(lote, feitos, ler, classificar, salvar_resultado, prazo=900):
             registro = {'url': url, 'titulo': e.get('titulo', ''), 'versao': VERSAO,
                         'vigencia': 'nao_avaliada', 'conferido_em': datetime.now(timezone.utc).isoformat(),
                         'tentativas': feitos.get(url, {}).get('tentativas', 0) + 1}
+            registro['metodo_leitura'] = 'cronogramas-v6'
             try:
                 texto, motivo = leituras[url].result()
                 if motivo:
@@ -260,6 +277,9 @@ def executar(lote, feitos, ler, classificar, salvar_resultado, prazo=900):
                 parada = erro.codigo
             except (ValueError, KeyError, IndexError, TypeError):
                 registro.update(status='pendente_evidencia', motivo='resposta_ia_invalida_ou_citacao_nao_comprovada')
+            if registro['status'].startswith('pendente_'):
+                espera = 15 if registro.get('motivo', '').startswith(('gemini', 'orcamento')) else 1440
+                registro['proxima_tentativa'] = (datetime.now(timezone.utc) + timedelta(minutes=espera)).isoformat()
             feitos[url] = registro
             examinados += 1
             salvar_resultado(feitos)
@@ -274,7 +294,7 @@ def salvar(feitos):
     contagem=dict(Counter(e['status'] for e in itens))
     r={'versao':VERSAO,'atualizado_em':datetime.now(timezone.utc).isoformat(),
        'vigencia':'nao_avaliada','contagem':contagem,'itens':itens}
-    Path('data/oportunidades-conteudo.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    salvar_json(Path('data/oportunidades-conteudo.json'), r)
     linhas=['# Confirmação de oportunidades por conteúdo\n\nVigência não avaliada. Não são inscrições confirmadas como abertas.\n\n',str(contagem)+'\n\n']
     for e in itens:
         titulo=e.get('dados',{}).get('titulo') or e.get('titulo','Sem título')
@@ -288,7 +308,7 @@ def salvar(feitos):
 
 def falha_execucao(parada):
     """Cota 429 deixa pendências, mas não invalida um lote integralmente preservado."""
-    return bool(parada and parada != 'gemini_http_429')
+    return bool(parada and parada not in ('gemini_http_429', 'gemini_cota_em_pausa', 'orcamento_execucao_esgotado', 'orcamento_etapa_esgotado', 'gemini_sem_credencial'))
 
 
 def salvar_qualidade(origem, feitos, contagem):
@@ -312,21 +332,34 @@ def salvar_qualidade(origem, feitos, contagem):
             'A cobertura dos candidatos prioritários ainda não atingiu 90%; confirmações seguem sob auditoria conservadora.'),
         'falhas_controladas': '429 interrompe novas chamadas de IA no lote; candidatos e evidências são preservados'
     }
-    Path('data/revisao-qualidade.json').write_text(
-        json.dumps(relatorio, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    relatorio['confirmadas_prontas_para_vigencia'] = len(confirmadas)
+    relatorio['avancar_vigencia'] = bool(confirmadas)
+    relatorio['justificativa'] = 'Cada candidato confirmado segue para vigência; cobertura é métrica, não bloqueio global.'
+    salvar_json(Path('data/revisao-qualidade.json'), relatorio)
     return relatorio
 
 
 def main():
     import radar
+    import estado_pipeline
+    if estado_pipeline.orcamento is None:
+        estado_pipeline.orcamento = estado_pipeline.Orcamento(int(os.getenv('RADAR_IA_LIMITE', '8')))
     from conferir_servicos import limpar_chave
-    os.environ['GEMINI_API_KEY'] = limpar_chave(os.getenv('GEMINI_API_KEY'))
-    print('::add-mask::' + os.environ['GEMINI_API_KEY'], flush=True)
+    if os.getenv('GEMINI_API_KEY'):
+        os.environ['GEMINI_API_KEY'] = limpar_chave(os.getenv('GEMINI_API_KEY'))
+        print('::add-mask::' + os.environ['GEMINI_API_KEY'], flush=True)
     origem = json.loads(Path('data/triagem-descobertas.json').read_text(encoding='utf-8'))
     destino = Path('data/oportunidades-conteudo.json')
     existentes = json.loads(destino.read_text())['itens'] if destino.exists() else []
     feitos = {e['url']: e for e in existentes}
-    lote = fila(origem['itens'], feitos, 60)
+    from triar_descobertas import classificar
+    for registro in feitos.values():
+        if classificar(registro)[0] == 'fora_escopo':
+            registro.update(status='fora_escopo', motivo='participacao_direta_de_startup_ausente')
+    lote = fila(origem['itens'], feitos, int(os.getenv('CONTEUDO_LOTE', '24')))
+    from leitura_cache import leitor_cache
+    from leitor_navegador import leitor_com_navegador
+    baixar = leitor_com_navegador(leitor_cache(radar.baixar), radar.permitido, limite=4)
     cache = Path('.radar-cache')
     cache.mkdir(exist_ok=True)
     locks = defaultdict(Lock)
@@ -335,7 +368,7 @@ def main():
         arquivo = cache / (hashlib.sha256(url.encode()).hexdigest() + '.json')
         if arquivo.exists():
             d = json.loads(arquivo.read_text())
-            if time.time() - d['salvo_em'] < 86400:
+            if d.get('metodo_leitura') == 'cronogramas-v6' and time.time() - d['salvo_em'] < 86400:
                 return d['texto'], None
         with locks[urlsplit(url).hostname]:
             try:
@@ -343,13 +376,15 @@ def main():
                 if dinamico:
                     arquivo.write_text(json.dumps({'texto': dinamico, 'salvo_em': time.time()}), encoding='utf-8')
                     return dinamico, None
-                ctype, bruto = radar.baixar(url)
+                ctype, bruto = baixar(url)
                 if bruto is None:
                     return None, 'robots_bloqueou_leitura'
-                texto = radar.para_texto(ctype, bruto)[:radar.MAX_CHARS]
+                from cronogramas import ler_texto
+                from validar_vigencia import texto_relevante
+                texto = texto_relevante(ler_texto(ctype, bruto), radar.MAX_CHARS)
                 if len(texto.strip()) < 200:
                     return None, 'pagina_dinamica_ou_conteudo_insuficiente'
-                arquivo.write_text(json.dumps({'texto': texto, 'salvo_em': time.time()}), encoding='utf-8')
+                salvar_json(arquivo, {'texto': texto, 'salvo_em': time.time(), 'metodo_leitura': 'cronogramas-v6'})
                 return texto, None
             except Exception as erro:
                 resposta = getattr(erro, 'response', None)

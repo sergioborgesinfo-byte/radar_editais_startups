@@ -2,18 +2,11 @@ name: Confirmar oportunidades pelo conteúdo
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Triar descobertas sem avaliar vigência"]
-    types: [completed]
-    branches: [main]
-  push:
-    branches: [main]
-    paths: [confirmar_oportunidades.py, testes_conteudo.py, '.github/workflows/conteudo.yml']
 
 permissions:
   contents: write
 concurrency:
-  group: radar-conteudo
+  group: radar-pipeline
   cancel-in-progress: false
 
 jobs:
