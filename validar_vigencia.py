@@ -484,6 +484,13 @@ def main():
         for e in candidatos_ia:
             if assistente.parada or assistente.usadas >= assistente.limite:
                 break
+            # O limite compartilhado inclui as chamadas já usadas no conteúdo.
+            # Não baixar documentos de dezenas de casos quando não há saldo
+            # para avaliá-los, nem registrar uma tentativa que não aconteceu.
+            import estado_pipeline
+            if estado_pipeline.orcamento and estado_pipeline.orcamento.motivo():
+                assistente.parada = estado_pipeline.orcamento.motivo()
+                break
             anterior = feitos[e['url']]
             tentativa = anterior.get('ia_tentada_em')
             fonte = FONTES_OFICIAIS.get(e['url'], e['url'])
