@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T13:46:23.000Z",
+  "atualizado_em": "2026-10-03T14:45:48.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -362,14 +362,14 @@
     {
       "url": "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml",
       "titulo": "Programa de aceleração para startups do Nordeste abre inscrições",
-      "pesquisado_em": "2026-10-03T03:46:58.463Z",
-      "tentativas": 1,
-      "status": "fonte_alternativa_localizada",
+      "pesquisado_em": "2026-10-03T14:45:48.000Z",
+      "tentativas": 2,
+      "status": "fonte_atual_nao_corresponde_a_edicao",
       "fontes_examinadas": [
         "https://abvcap.com.br/programas/inova-invest/",
         "https://pb.agenciasebrae.com.br/inovacao-e-tecnologia/programa-inova-invest-abre-inscricoes-para-acelerar-startups-com-foco-em-captacao-de-investimentos/"
       ],
-      "bloqueio_ou_observacao": "Página oficial da ABVCAP confirma a primeira edição Inova+Invest Nordeste, até 15 startups e encerramento das inscrições em 02/02/2026."
+      "bloqueio_ou_observacao": "Reexame da página oficial da ABVCAP: o conteúdo atual é da edição Inova+Invest Região Norte 2026 e informa que a edição Nordeste foi a primeira edição. O mapeamento foi removido para não substituir a oportunidade Nordeste por outra edição e região."
     },
     {
       "url": "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto",
