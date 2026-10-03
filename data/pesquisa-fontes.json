@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T01:50:18.980Z",
+  "atualizado_em": "2026-10-03T02:52:25.532Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -192,6 +192,99 @@
         "https://www.darwinstartups.com/batch15"
       ],
       "bloqueio_ou_observacao": "Ficha original é turma 11 de 2021. ICM Lab 2026 é oportunidade diferente e foi registrada separadamente; Batch 15 já informa inscrições encerradas."
+    },
+    {
+      "url": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
+      "titulo": "Inatel lidera projeto de aceleração de startups no Sul de Minas",
+      "status": "regulamento_ainda_nao_publicado",
+      "fontes_examinadas": [
+        "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas"
+      ],
+      "bloqueio_ou_observacao": "Acelera Vibra anunciado para início no começo de 2027. A própria fonte informa que critérios e regulamento ainda serão divulgados; não há inscrição verificável nesta edição.",
+      "pesquisado_em": "2026-10-03T02:52:25.532Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90",
+      "titulo": "FIEMG Lab abre inscrições para sua primeira jornada de aceleração",
+      "status": "edicao_antiga_sem_fonte_primaria_localizada",
+      "fontes_examinadas": [
+        "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90"
+      ],
+      "bloqueio_ou_observacao": "Primeira jornada, de 2016. Não foi localizada página oficial sobrevivente da mesma edição; programas posteriores não substituem esta ficha.",
+      "pesquisado_em": "2026-10-03T02:52:25.532Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
+      "titulo": "Natura Innovation Challenge seleciona startups com soluções para compensação de carbono",
+      "status": "edicao_antiga_sem_fonte_primaria_legivel",
+      "fontes_examinadas": [
+        "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
+        "https://www.naturaeco.com/pt-br/relatorio-anual-2024/"
+      ],
+      "bloqueio_ou_observacao": "Terceira edição de 2024, tema compensação de carbono. A edição 2026 é distinta e não foi usada; o destino antigo de inscrição não oferece fonte primária legível.",
+      "pesquisado_em": "2026-10-03T02:52:25.532Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
+      "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
+        "https://programas.sebraestartups.com.br/in/deeplabbio4"
+      ],
+      "bloqueio_ou_observacao": "Página oficial Sebrae Startups da DeepLab Bio 4, mesma edição de 2024 e mesma oportunidade.",
+      "pesquisado_em": "2026-10-03T02:52:25.532Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
+      "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial",
+      "status": "fase_nao_eh_selecao_de_startups",
+      "fontes_examinadas": [
+        "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
+        "https://ap.senai.br/tecnologia-e-inovacao/hub-de-inovacao.html"
+      ],
+      "bloqueio_ou_observacao": "A ficha corresponde ao mapeamento de desafios industriais, etapa anterior à seleção de startups. O hub lista editais e resultados, mas não comprova que esta notícia seja chamada para startups; sem mapeamento.",
+      "pesquisado_em": "2026-10-03T02:52:25.532Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
+      "titulo": "Instituições apoiadas pela FAU terão reforço para startups",
+      "status": "edital_de_startups_nao_localizado",
+      "fontes_examinadas": [
+        "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups"
+      ],
+      "bloqueio_ou_observacao": "Notícia de projeto aprovado informa que a seleção das startups ocorreria por edital futuro. O edital de ingresso da mesma edição não foi localizado; a notícia não é fonte de inscrição.",
+      "pesquisado_em": "2026-10-03T02:52:25.532Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
+      "titulo": "Desafio COB de Startups já soma mais de 100 inscrições",
+      "status": "fonte_original_examinada_sem_alternativa_estavel",
+      "fontes_examinadas": [
+        "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
+        "https://www.arenahub.com.br/desafio-cob-startups"
+      ],
+      "bloqueio_ou_observacao": "Fonte oficial do COB comprova a edição de 2025 e prazo de 8/08/2025. A rota do Arena Hub não forneceu conteúdo estável que comprove a mesma edição; não confundir com a segunda edição de 2026.",
+      "pesquisado_em": "2026-10-03T02:52:25.532Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
+      "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul",
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
+        "https://www.feevale.br/acontece/noticias/startups-ganham-mais-prazo-para-se-inscreverem-no-brde-labs"
+      ],
+      "bloqueio_ou_observacao": "Página oficial da Feevale da mesma 7ª edição do BRDE Labs RS 2026 registra prorrogação das inscrições até 22/05/2026.",
+      "pesquisado_em": "2026-10-03T02:52:25.532Z",
+      "tentativas": 1
     }
   ]
 }
