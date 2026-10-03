@@ -26,7 +26,7 @@ class Vigencia(unittest.TestCase):
             ({'url':'https://mamiraua.org.br/nits',
               'titulo':'Processo de Seleção de Propostas para Incubação e Aceleração – Fluxo Contínuo',
               'dados':{'trecho_publico':'empresas, associações, pessoas físicas, startups'}},
-             'Incubadora Mamirauá\nO EDITAL Nº 01/2024 seleciona interessados.\nDe fluxo contínuo.\nA inscrição será feita por formulário eletrônico. Startups podem participar.')
+             'Processo de Seleção de Propostas para Incubação e Aceleração\nO EDITAL Nº 01/2024 seleciona interessados.\nDe fluxo contínuo.\nA inscrição será feita por formulário eletrônico. Startups podem participar.')
         ]
         for registro, texto in casos:
             with self.subTest(registro=registro['url']):
