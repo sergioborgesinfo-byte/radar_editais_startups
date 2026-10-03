@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T13:51:44.837106-03:00",
+    "atualizado_em": "2026-10-03T13:54:03.550174-03:00",
     "examinadas": 145,
     "abertas_publicadas": 9,
     "status": {
       "aberta_confirmada": 12,
       "encerrada": 79,
       "pendente_evidencia": 28,
-      "pendente_acesso": 11,
-      "pendente_fonte_oficial": 15
+      "pendente_acesso": 10,
+      "pendente_fonte_oficial": 16
     },
     "resultados": [
       {
@@ -6525,8 +6525,8 @@
       {
         "titulo": "Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial",
         "url": "https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       },
       {
         "titulo": "Natura Ventures abre chamada para startups do Norte e Nordeste com foco em inovação, parceria e investimento",
@@ -6935,8 +6935,8 @@
       {
         "titulo": "Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial",
         "url": "https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       },
       {
         "titulo": "Porto Digital abre inscrições para Pré-Incubação | Jornal Digital",
@@ -7108,7 +7108,7 @@
       "limite": 8,
       "parada": null,
       "pendencias_restantes": 54,
-      "casos_com_tentativa_ia": 63,
+      "casos_com_tentativa_ia": 64,
       "resolvidas_automaticamente": 90,
       "revisoes_manuais": 1
     }
