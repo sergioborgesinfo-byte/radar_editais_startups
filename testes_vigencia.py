@@ -17,6 +17,24 @@ class Vigencia(unittest.TestCase):
         self.assertTrue(v['sem_data_final'])
         errado=validar_oficial(r,datetime(2026,10,2,tzinfo=FUSO),lambda _:'Programa XYZ: inscrições abertas em fluxo contínuo.')
         self.assertEqual(errado['status'],'pendente_evidencia')
+    def test_fluxo_continuo_em_blocos_separados_com_ano_no_cabecalho(self):
+        casos = [
+            ({'url':'https://inatel.br/startups/edital.pdf',
+              'titulo':'Edital Inatel Startups - Seleção de Novos Projetos / Empresas',
+              'dados':{'trecho_publico':'inscrições para projetos e startups inovadoras'}},
+             'EDITAL INATEL STARTUPS\nPERÍODO DE VIGÊNCIA: FLUXO CONTÍNUO\nABERTURA: 10/05/2024\nENCERRAMENTO: NÃO SE APLICA\nEstão abertas as inscrições para o processo seletivo de projetos e startups inovadoras.'),
+            ({'url':'https://mamiraua.org.br/nits',
+              'titulo':'Processo de Seleção de Propostas para Incubação e Aceleração – Fluxo Contínuo',
+              'dados':{'trecho_publico':'empresas, associações, pessoas físicas, startups'}},
+             'Incubadora Mamirauá\nO EDITAL Nº 01/2024 seleciona interessados.\nDe fluxo contínuo.\nA inscrição será feita por formulário eletrônico. Startups podem participar.')
+        ]
+        for registro, texto in casos:
+            with self.subTest(registro=registro['url']):
+                resultado=validar_oficial(registro,datetime(2026,10,3,tzinfo=FUSO),lambda _:texto)
+                self.assertEqual(resultado['status'],'aberta_confirmada')
+                self.assertTrue(resultado['sem_data_final'])
+                self.assertEqual(resultado['evidencia_edicao'],'2024')
+
     def test_icm_lab_oficial_com_publico_e_prazo_literal(self):
         from validar_vigencia import validar_oficial
         r={'url':'https://www.darwinstartups.com/icmlab',
