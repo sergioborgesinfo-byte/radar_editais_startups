@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T07:43:03.000Z",
+  "atualizado_em": "2026-10-03T08:51:00.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -75,13 +75,13 @@
     {
       "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
       "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
-      "pesquisado_em": "2026-10-03T00:56:12.058Z",
-      "tentativas": 1,
+      "pesquisado_em": "2026-10-03T08:51:00.000Z",
+      "tentativas": 2,
       "status": "fonte_alternativa_localizada",
       "fontes_examinadas": [
         "https://programas.sebraestartups.com.br/in/acelerastartups"
       ],
-      "bloqueio_ou_observacao": "Link de participação explicitamente citado pelo Sebrae PI para Acelera Startups Da Ideia à Venda; mesma oportunidade e região. Download retornou HTTP 200 e HTML de 74888 bytes com título correspondente; conteúdo dinâmico será examinado pelo verificador."
+      "bloqueio_ou_observacao": "Reexame: a notícia oficial é legível, mas associa o prazo de 21 de agosto ao ano apenas pela data da publicação; não foi localizado PDF com o ano literal no prazo."
     },
     {
       "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
@@ -122,26 +122,26 @@
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
       "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
-      "pesquisado_em": "2026-10-03T01:50:18.980Z",
-      "tentativas": 1,
+      "pesquisado_em": "2026-10-03T08:51:00.000Z",
+      "tentativas": 2,
       "status": "fonte_alternativa_localizada",
       "fontes_examinadas": [
         "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
         "https://www.finep.gov.br/chamadas-publicas/chamadapublica/776"
       ],
-      "bloqueio_ou_observacao": "Chamada oficial Finep Mais Inovação Brasil Rodada 2, R$ 300 milhões, regiões Norte, Nordeste e Centro-Oeste."
+      "bloqueio_ou_observacao": "Reexame: a rota oficial abriu integralmente e expõe prazo ISO 2026-04-09T17:00; mapeamento atualizado para essa rota."
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
       "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões",
-      "pesquisado_em": "2026-10-03T01:50:18.980Z",
-      "tentativas": 1,
+      "pesquisado_em": "2026-10-03T08:51:00.000Z",
+      "tentativas": 2,
       "status": "fonte_alternativa_localizada",
       "fontes_examinadas": [
         "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
         "https://www.finep.gov.br/chamadas-publicas/chamadapublica/776"
       ],
-      "bloqueio_ou_observacao": "Mesma seleção Finep da outra notícia; vinculada à chamada oficial sem criar edição nova."
+      "bloqueio_ou_observacao": "Reexame: a rota oficial abriu integralmente e expõe prazo ISO 2026-04-09T17:00; mapeamento atualizado para essa rota."
     },
     {
       "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
@@ -158,14 +158,14 @@
     {
       "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
       "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
-      "pesquisado_em": "2026-10-03T01:50:18.980Z",
-      "tentativas": 1,
+      "pesquisado_em": "2026-10-03T08:51:00.000Z",
+      "tentativas": 2,
       "status": "fonte_alternativa_localizada",
       "fontes_examinadas": [
         "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
         "https://sementenegocios.com.br/sebraeinovacaoaberta/solucoes/"
       ],
-      "bloqueio_ou_observacao": "Página do operador da Jornada de Inovação Aberta Sebrae encontrada e aberta; corresponde ao programa nacional citado pela notícia."
+      "bloqueio_ou_observacao": "Reexame: não foi localizado regulamento ou PDF estático oficial da mesma Jornada de Inovação Aberta; mantida a página do operador já registrada."
     },
     {
       "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
@@ -235,9 +235,9 @@
         "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
         "https://programas.sebraestartups.com.br/in/deeplabbio4"
       ],
-      "bloqueio_ou_observacao": "Página oficial Sebrae Startups da DeepLab Bio 4, mesma edição de 2024 e mesma oportunidade.",
-      "pesquisado_em": "2026-10-03T02:52:25.532Z",
-      "tentativas": 1
+      "bloqueio_ou_observacao": "Reexame: não foi localizado edital ou PDF público oficial da DeepLab Bio 4; as fontes confirmam a edição, mas não oferecem cronograma literal melhor.",
+      "pesquisado_em": "2026-10-03T08:51:00.000Z",
+      "tentativas": 2
     },
     {
       "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
@@ -282,9 +282,9 @@
         "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
         "https://www.feevale.br/acontece/noticias/startups-ganham-mais-prazo-para-se-inscreverem-no-brde-labs"
       ],
-      "bloqueio_ou_observacao": "Página oficial da Feevale da mesma 7ª edição do BRDE Labs RS 2026 registra prorrogação das inscrições até 22/05/2026.",
-      "pesquisado_em": "2026-10-03T02:52:25.532Z",
-      "tentativas": 1
+      "bloqueio_ou_observacao": "Reexame: a prorrogação oficial da Feevale permanece a melhor fonte; busca no BRDE e no Governo RS não localizou documento estático com prazo completo.",
+      "pesquisado_em": "2026-10-03T08:51:00.000Z",
+      "tentativas": 2
     },
     {
       "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
@@ -300,26 +300,26 @@
     {
       "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
       "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
-      "pesquisado_em": "2026-10-03T03:46:58.463Z",
-      "tentativas": 1,
+      "pesquisado_em": "2026-10-03T08:51:00.000Z",
+      "tentativas": 2,
       "status": "fonte_alternativa_localizada",
       "fontes_examinadas": [
         "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/oportunidade-sebrae-minas-abre-editais-para-programa-de-aceleracao-de-startups-na-europa-e-imersao-em-dubai/",
         "https://programas.sebraestartups.com.br/in/aceleracaointernacionalmg"
       ],
-      "bloqueio_ou_observacao": "Fonte oficial do Sebrae Minas comprova a edição 2025, público de startups mineiras, países e encerramento das inscrições em 22/08/2025."
+      "bloqueio_ou_observacao": "Reexame: não foi localizado PDF dos editais Sebrae Minas da mesma edição; mantida a notícia oficial de 2025 já registrada."
     },
     {
       "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
       "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups",
-      "pesquisado_em": "2026-10-03T03:47:51.066Z",
-      "tentativas": 1,
+      "pesquisado_em": "2026-10-03T08:51:00.000Z",
+      "tentativas": 2,
       "status": "fonte_alternativa_localizada",
       "fontes_examinadas": [
         "https://cienciaetecnologia.prefeitura.rio/noticias/hub-rio-ia-promove-webinario-sobre-1o-edital-do-programa-de-inovacao-aberta-2026/",
         "https://prosas.com.br/editais/16756"
       ],
-      "bloqueio_ou_observacao": "Edital oficial no Prosas confirma a primeira edição Rio.IA 2026, oito startups e a prorrogação das inscrições até 06/02/2026; substitui a notícia anterior de prazo original."
+      "bloqueio_ou_observacao": "Reexame: não foi localizada cópia oficial estática adicional do edital Rio.IA 2026; mantido o edital Prosas já registrado."
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
