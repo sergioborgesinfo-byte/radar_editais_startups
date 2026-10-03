@@ -366,6 +366,36 @@ def exportar_abertas(validadas, agora):
     return saida
 
 
+def carregar_conteudo(caminho='data/oportunidades-conteudo.json'):
+    """Recupera entrada danificada do histórico Git, sem inventar registros."""
+    import subprocess
+    def conferir(bruto):
+        dados = json.loads(bruto)
+        if not isinstance(dados, dict) or not isinstance(dados.get('itens'), list):
+            raise ValueError('estrutura_conteudo_invalida')
+        if not dados['itens'] or any(not isinstance(e, dict) or not e.get('url') for e in dados['itens']):
+            raise ValueError('registros_conteudo_invalidos')
+        return dados
+    arquivo = Path(caminho)
+    try:
+        return conferir(arquivo.read_text())
+    except (OSError, ValueError):
+        revisoes = subprocess.check_output(
+            ['git', 'log', '-10', '--format=%H', '--', caminho], text=True).splitlines()
+        for revisao in revisoes:
+            try:
+                bruto = subprocess.check_output(['git', 'show', revisao + ':' + caminho], text=True)
+                dados = conferir(bruto)
+            except (subprocess.CalledProcessError, ValueError):
+                continue
+            temporario = arquivo.with_suffix('.tmp')
+            temporario.write_text(bruto)
+            temporario.replace(arquivo)
+            print(f'Entrada recuperada da revisão {revisao}: {len(dados["itens"])} registros', flush=True)
+            return dados
+        raise ValueError('conteudo_corrompido_sem_versao_recuperavel')
+
+
 def main():
     import radar
     from leitura_cache import leitor_cache
@@ -376,7 +406,7 @@ def main():
     qualidade = json.loads(Path('data/revisao-qualidade.json').read_text())
     if not qualidade.get('avancar_vigencia'):
         raise SystemExit('Gate de qualidade ainda não liberou vigência')
-    conteudo = json.loads(Path('data/oportunidades-conteudo.json').read_text())
+    conteudo = carregar_conteudo()
     confirmadas = [e for e in conteudo['itens'] if e.get('status') == 'confirmada_no_conteudo'
                    or ('programas.sebraestartups.com.br/in/' in e['url'])]
     # Nas páginas estruturadas, a própria validação confere programa, público e prazo;

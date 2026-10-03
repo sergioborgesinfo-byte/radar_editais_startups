@@ -245,4 +245,28 @@ class Atualizacao(unittest.TestCase):
         self.assertEqual(exportar_abertas([e],datetime(2026,10,2,12,tzinfo=FUSO)),[])
 
 
+class RecuperacaoConteudo(unittest.TestCase):
+    def test_recupera_arquivo_truncado_sem_perder_registros(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+        from validar_vigencia import carregar_conteudo
+        with tempfile.TemporaryDirectory() as tmp:
+            caminho=Path(tmp)/'conteudo.json'
+            caminho.write_text('Warning: truncated output\n{"itens": [')
+            valido=json.dumps({'itens':[{'url':'https://fonte.gov.br/a'}]})
+            with patch('subprocess.check_output', side_effect=['ruim\nbom\n', 'invalid', valido]):
+                self.assertEqual(len(carregar_conteudo(str(caminho))['itens']),1)
+            self.assertEqual(json.loads(caminho.read_text())['itens'][0]['url'],'https://fonte.gov.br/a')
+    def test_nao_substitui_por_estrutura_invalida(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+        from validar_vigencia import carregar_conteudo
+        with tempfile.TemporaryDirectory() as tmp:
+            caminho=Path(tmp)/'conteudo.json'; caminho.write_text('corrompido')
+            with patch('subprocess.check_output', side_effect=['abc\n', '{"itens": []}']):
+                with self.assertRaises(ValueError): carregar_conteudo(str(caminho))
+            self.assertEqual(caminho.read_text(),'corrompido')
+
 if __name__=='__main__': unittest.main()
