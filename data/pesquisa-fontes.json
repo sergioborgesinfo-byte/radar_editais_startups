@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T02:52:25.532Z",
+  "atualizado_em": "2026-10-03T03:46:58.463Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -285,6 +285,98 @@
       "bloqueio_ou_observacao": "Página oficial da Feevale da mesma 7ª edição do BRDE Labs RS 2026 registra prorrogação das inscrições até 22/05/2026.",
       "pesquisado_em": "2026-10-03T02:52:25.532Z",
       "tentativas": 1
+    },
+    {
+      "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
+      "titulo": "Suzano lança Programa de Mentoria de Startups",
+      "pesquisado_em": "2026-10-03T03:46:58.463Z",
+      "tentativas": 1,
+      "status": "fonte_original_examinada_sem_ano_no_prazo",
+      "fontes_examinadas": [
+        "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups"
+      ],
+      "bloqueio_ou_observacao": "Fonte oficial identifica a edição publicada em 02/11/2021 e inscrições até 16 de fevereiro, mas não traz o ano junto ao prazo. Não foi localizada alternativa oficial da mesma edição."
+    },
+    {
+      "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
+      "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
+      "pesquisado_em": "2026-10-03T03:46:58.463Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/oportunidade-sebrae-minas-abre-editais-para-programa-de-aceleracao-de-startups-na-europa-e-imersao-em-dubai/",
+        "https://programas.sebraestartups.com.br/in/aceleracaointernacionalmg"
+      ],
+      "bloqueio_ou_observacao": "Fonte oficial do Sebrae Minas comprova a edição 2025, público de startups mineiras, países e encerramento das inscrições em 22/08/2025."
+    },
+    {
+      "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
+      "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups",
+      "pesquisado_em": "2026-10-03T03:46:58.463Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://cienciaetecnologia.prefeitura.rio/noticias/hub-rio-ia-promove-webinario-sobre-1o-edital-do-programa-de-inovacao-aberta-2026/"
+      ],
+      "bloqueio_ou_observacao": "Página oficial da Prefeitura do Rio confirma o 1º Edital Rio.IA 2026, até oito startups e inscrições até 29/01/2026."
+    },
+    {
+      "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
+      "titulo": "Randoncorp abre inscrições para segunda turma do programa de aceleração de startups",
+      "pesquisado_em": "2026-10-03T03:46:58.463Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://www.randoncorp.com/pt/blog/rv-abre-inscri%C3%A7%C3%B5es-para-a-nova-turma-de-acelera%C3%A7%C3%A3o-de-startups/"
+      ],
+      "bloqueio_ou_observacao": "Página oficial da Randoncorp confirma a segunda turma de 2024, parceria Darwin Startups e inscrições até 09/08/2024."
+    },
+    {
+      "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
+      "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
+      "pesquisado_em": "2026-10-03T03:46:58.463Z",
+      "tentativas": 1,
+      "status": "fonte_oficial_bloqueada_para_leitura",
+      "fontes_examinadas": [
+        "https://www.fappr.pr.gov.br/Noticia/Inscricoes-para-o-Programa-Centelha-III-sao-prorrogadas-ate-29-de-junho"
+      ],
+      "bloqueio_ou_observacao": "A fonte oficial do Programa Centelha III Paraná e sua prorrogação já estão mapeadas, mas a página retorna 403 ao leitor; nenhuma substituição não oficial foi adicionada."
+    },
+    {
+      "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
+      "titulo": "Cotidiano Aceleradora realiza seleção para acelerar Startups",
+      "pesquisado_em": "2026-10-03T03:46:58.463Z",
+      "tentativas": 1,
+      "status": "edicao_antiga_sem_fonte_primaria_localizada",
+      "fontes_examinadas": [
+        "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
+        "http://cotidiano.com.br"
+      ],
+      "bloqueio_ou_observacao": "Não foi localizada página oficial sobrevivente que comprove a mesma edição da seleção. Publicações atuais da aceleradora não substituem a ficha antiga."
+    },
+    {
+      "url": "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml",
+      "titulo": "Programa de aceleração para startups do Nordeste abre inscrições",
+      "pesquisado_em": "2026-10-03T03:46:58.463Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://abvcap.com.br/programas/inova-invest/",
+        "https://pb.agenciasebrae.com.br/inovacao-e-tecnologia/programa-inova-invest-abre-inscricoes-para-acelerar-startups-com-foco-em-captacao-de-investimentos/"
+      ],
+      "bloqueio_ou_observacao": "Página oficial da ABVCAP confirma a primeira edição Inova+Invest Nordeste, até 15 startups e encerramento das inscrições em 02/02/2026."
+    },
+    {
+      "url": "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto",
+      "titulo": "BNDES Garagem abre inscrições para programa de aceleração de startups e negócios de impacto",
+      "pesquisado_em": "2026-10-03T03:46:58.463Z",
+      "tentativas": 1,
+      "status": "fonte_oficial_sem_prazo_literal",
+      "fontes_examinadas": [
+        "https://garagem.bndes.gov.br/",
+        "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto/"
+      ],
+      "bloqueio_ou_observacao": "A ficha é o Ciclo 2 da 3ª edição, lançado em 11/08/2025. O portal oficial confirma o Ciclo 2 e os 100 negócios, mas não expõe no texto atual o prazo de inscrição; não foi feito novo mapeamento."
     }
   ]
 }
