@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T09:46:17.235996-03:00",
+    "atualizado_em": "2026-10-03T09:48:15.735107-03:00",
     "examinadas": 139,
     "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 10,
-      "encerrada": 76,
-      "pendente_evidencia": 28,
+      "encerrada": 77,
+      "pendente_evidencia": 27,
       "pendente_acesso": 11,
       "pendente_fonte_oficial": 14
     },
@@ -6483,8 +6483,8 @@
       {
         "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
         "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups – ConvergenciaDigital",
@@ -6867,12 +6867,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
-        "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
         "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups – ConvergenciaDigital",
         "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
         "status": "pendente_acesso",
@@ -7055,19 +7049,19 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 25,
-      "resolvidas_automaticamente": 25,
+      "resolvidas": 26,
+      "resolvidas_automaticamente": 26,
       "revisoes_manuais": 0,
-      "pendentes": 53
+      "pendentes": 52
     },
     "ia": {
       "chamadas": 0,
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 53,
-      "casos_com_tentativa_ia": 61,
-      "resolvidas_automaticamente": 85,
+      "pendencias_restantes": 52,
+      "casos_com_tentativa_ia": 60,
+      "resolvidas_automaticamente": 86,
       "revisoes_manuais": 1
     }
   }

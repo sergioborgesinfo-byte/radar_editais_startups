@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-03T09:46:17.235996-03:00",
+  "atualizado_em": "2026-10-03T09:48:15.735107-03:00",
   "leitura_navegador": {
     "tentativas": 3,
     "sucessos": 0,
@@ -11,9 +11,9 @@
     "falhas_temporarias": [],
     "limite": 8,
     "parada": null,
-    "pendencias_restantes": 53,
-    "casos_com_tentativa_ia": 61,
-    "resolvidas_automaticamente": 85,
+    "pendencias_restantes": 52,
+    "casos_com_tentativa_ia": 60,
+    "resolvidas_automaticamente": 86,
     "revisoes_manuais": 1
   },
   "itens": [
@@ -505,7 +505,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:47.907367-03:00"
+      "verificado_em": "2026-10-03T09:47:49.682622-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -628,8 +628,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:47.635561-03:00",
-      "ia_tentada_em": "2026-10-03T09:45:57.224979-03:00",
+      "verificado_em": "2026-10-03T09:47:49.342393-03:00",
+      "ia_tentada_em": "2026-10-03T09:47:57.298545-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "evidencia_insuficiente"
     },
@@ -640,8 +640,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:47.619062-03:00",
-      "ia_tentada_em": "2026-10-03T09:45:57.232590-03:00",
+      "verificado_em": "2026-10-03T09:47:49.335120-03:00",
+      "ia_tentada_em": "2026-10-03T09:47:57.305996-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "sem_documentos"
     },
@@ -883,7 +883,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:47.845097-03:00"
+      "verificado_em": "2026-10-03T09:47:49.501109-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -994,8 +994,8 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-03T09:45:57.304835-03:00",
-      "ia_tentada_em": "2026-10-03T09:45:57.304821-03:00",
+      "verificado_em": "2026-10-03T09:47:57.376901-03:00",
+      "ia_tentada_em": "2026-10-03T09:47:57.376886-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
@@ -1005,8 +1005,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:47.653795-03:00",
-      "ia_tentada_em": "2026-10-03T09:45:57.312486-03:00",
+      "verificado_em": "2026-10-03T09:47:49.367406-03:00",
+      "ia_tentada_em": "2026-10-03T09:47:57.384628-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "sem_documentos"
     },
@@ -1077,8 +1077,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:47.744434-03:00",
-      "ia_tentada_em": "2026-10-03T09:45:57.966425-03:00",
+      "verificado_em": "2026-10-03T09:47:49.466092-03:00",
+      "ia_tentada_em": "2026-10-03T09:47:58.017793-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "evidencia_insuficiente"
     },
@@ -1119,14 +1119,14 @@
     {
       "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
       "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
+      "fonte_oficial": "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/oportunidade-sebrae-minas-abre-editais-para-programa-de-aceleracao-de-startups-na-europa-e-imersao-em-dubai/",
+      "prazo_iso": "2025-08-22T23:59:59-03:00",
+      "evidencia_prazo": "As inscrições gratuitas podem ser feitas até o dia 22 de agosto , pelo site.",
+      "metodo": "cronograma_documentado",
+      "status": "encerrada",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:47.780487-03:00",
-      "ia_tentada_em": "2026-10-03T09:45:58.042457-03:00",
-      "ia_metodo": "gemini-v7",
-      "motivo_ia": "evidencia_insuficiente"
+      "verificado_em": "2026-10-03T09:47:49.486290-03:00"
     },
     {
       "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
@@ -1135,7 +1135,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:47.984454-03:00"
+      "verificado_em": "2026-10-03T09:47:49.600097-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1144,7 +1144,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:50.594573-03:00"
+      "verificado_em": "2026-10-03T09:47:52.417569-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1153,7 +1153,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:57.003741-03:00"
+      "verificado_em": "2026-10-03T09:47:57.118700-03:00"
     },
     {
       "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
@@ -1174,8 +1174,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:47.995304-03:00",
-      "ia_tentada_em": "2026-10-03T09:45:58.083630-03:00",
+      "verificado_em": "2026-10-03T09:47:49.666517-03:00",
+      "ia_tentada_em": "2026-10-03T09:47:58.059688-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "sem_documentos"
     },
@@ -1203,7 +1203,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:47.984591-03:00"
+      "verificado_em": "2026-10-03T09:47:49.666637-03:00"
     },
     {
       "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
@@ -1224,7 +1224,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:48.043170-03:00"
+      "verificado_em": "2026-10-03T09:47:49.886255-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1261,7 +1261,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:48.296458-03:00"
+      "verificado_em": "2026-10-03T09:47:49.888385-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1303,7 +1303,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:48.043298-03:00"
+      "verificado_em": "2026-10-03T09:47:49.886404-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -1381,8 +1381,8 @@
       "evidencia_edicao": "Early stage startups can get up to $350,000 in Cloud credits through the Google for Startups Cloud Program",
       "evidencia_publico": "Built for Brazilian founders. Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.",
       "modalidade_inscricao": "candidatura_sem_prazo",
-      "verificado_em": "2026-10-03T09:45:59.553572-03:00",
-      "ia_tentada_em": "2026-10-03T09:45:59.553555-03:00",
+      "verificado_em": "2026-10-03T09:47:59.523381-03:00",
+      "ia_tentada_em": "2026-10-03T09:47:59.523367-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
@@ -1392,8 +1392,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:48.499886-03:00",
-      "ia_tentada_em": "2026-10-03T09:46:04.864362-03:00",
+      "verificado_em": "2026-10-03T09:47:50.082971-03:00",
+      "ia_tentada_em": "2026-10-03T09:48:03.970261-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "evidencia_insuficiente"
     },
@@ -1404,7 +1404,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:48.505392-03:00"
+      "verificado_em": "2026-10-03T09:47:50.083276-03:00"
     },
     {
       "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
@@ -1501,8 +1501,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:48.539084-03:00",
-      "ia_tentada_em": "2026-10-03T09:46:04.872475-03:00",
+      "verificado_em": "2026-10-03T09:47:50.091876-03:00",
+      "ia_tentada_em": "2026-10-03T09:48:03.977941-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "sem_documentos"
     },
@@ -1537,7 +1537,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:48.990826-03:00"
+      "verificado_em": "2026-10-03T09:47:50.408487-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1546,8 +1546,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T09:45:48.582016-03:00",
-      "ia_tentada_em": "2026-10-03T09:46:17.235832-03:00",
+      "verificado_em": "2026-10-03T09:47:50.407483-03:00",
+      "ia_tentada_em": "2026-10-03T09:48:15.734960-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "evidencia_insuficiente"
     },
@@ -1615,9 +1615,9 @@
   ],
   "fila_prioritaria": {
     "total_inicial": 78,
-    "resolvidas": 25,
-    "resolvidas_automaticamente": 25,
+    "resolvidas": 26,
+    "resolvidas_automaticamente": 26,
     "revisoes_manuais": 0,
-    "pendentes": 53
+    "pendentes": 52
   }
 }
