@@ -119,7 +119,8 @@ def prazo_documentado(texto,titulo):
         # O ano pode estar no título da edição, nunca é presumido pelo dia atual.
         if not ds:
             edicao=re.search(r'\b20\d{2}\b',titulo)
-            if edicao:ds=datas(trecho,int(edicao[0]))
+            ano=int(edicao[0]) if edicao else ano_edicao_documentada(texto,titulo)
+            if ano:ds=datas(trecho,ano)
         if not ds:continue
         abertura=bool(re.search(r'(?:applications?\s+(?:are\s+)?open|abert[ao]s?\s+a\s+partir|inicio\s+(?:das?\s+)?inscri|abertura\s+(?:das?\s+)?inscri)',s))
         fechamento=bool(re.search(r'data final de submissao|ate\b|prazo|encerr|termin|close|closing|deadline|until|through|ends?',s))
