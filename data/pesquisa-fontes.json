@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T14:52:00.000Z",
+  "atualizado_em": "2026-10-03T14:54:30.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -681,13 +681,13 @@
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
       "titulo": "Inova+Invest – Região Norte 2026",
-      "pesquisado_em": "2026-10-03T14:52:00.000Z",
-      "tentativas": 1,
-      "status": "fonte_primaria_localizada",
+      "pesquisado_em": "2026-10-03T14:54:30.000Z",
+      "tentativas": 2,
+      "status": "fonte_primaria_nao_lida_pelo_app",
       "fontes_examinadas": [
         "https://abvcap.com.br/programas/inova-invest/"
       ],
-      "bloqueio_ou_observacao": "Página oficial atual da ABVCAP identifica a edição Região Norte, convida à inscrição e define startups da região como público. Fonte vinculada à nova ficha separada; a vigência será decidida pelo verificador."
+      "bloqueio_ou_observacao": "Página oficial atual da ABVCAP identifica a edição Região Norte, convida à inscrição e define startups da região como público. O vínculo foi registrado, mas o verificador terminou com motivo sem_documentos/localizar_fonte_primaria; a ficha permanece pendente até haver uma fonte oficial legível pelo app."
     }
   ]
 }
