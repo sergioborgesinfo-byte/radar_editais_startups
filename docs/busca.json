@@ -5887,14 +5887,14 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T14:53:28.634973-03:00",
+    "atualizado_em": "2026-10-03T15:58:16.120778-03:00",
     "examinadas": 145,
     "abertas_publicadas": 9,
     "status": {
       "aberta_confirmada": 12,
-      "encerrada": 82,
-      "pendente_evidencia": 25,
-      "pendente_acesso": 10,
+      "encerrada": 83,
+      "pendente_evidencia": 26,
+      "pendente_acesso": 8,
       "pendente_fonte_oficial": 16
     },
     "resultados": [
@@ -6501,8 +6501,8 @@
       {
         "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
         "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow",
@@ -6627,8 +6627,8 @@
       {
         "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
         "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
@@ -6899,8 +6899,8 @@
       {
         "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
         "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
         "titulo": "Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow",
@@ -6993,12 +6993,6 @@
         "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
-        "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
-        "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
-        "status": "pendente_acesso",
-        "motivo": "fonte_oficial_indisponivel"
-      },
-      {
         "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
         "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
         "status": "pendente_fonte_oficial",
@@ -7079,19 +7073,19 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 31,
-      "resolvidas_automaticamente": 31,
+      "resolvidas": 32,
+      "resolvidas_automaticamente": 32,
       "revisoes_manuais": 0,
-      "pendentes": 47
+      "pendentes": 46
     },
     "ia": {
       "chamadas": 0,
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 51,
-      "casos_com_tentativa_ia": 61,
-      "resolvidas_automaticamente": 93,
+      "pendencias_restantes": 50,
+      "casos_com_tentativa_ia": 62,
+      "resolvidas_automaticamente": 94,
       "revisoes_manuais": 1
     }
   }

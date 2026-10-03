@@ -1,19 +1,19 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-03T14:53:28.634973-03:00",
+  "atualizado_em": "2026-10-03T15:58:16.120778-03:00",
   "leitura_navegador": {
-    "tentativas": 3,
+    "tentativas": 2,
     "sucessos": 0,
-    "falhas": 3
+    "falhas": 2
   },
   "ia": {
     "chamadas": 0,
     "falhas_temporarias": [],
     "limite": 8,
     "parada": null,
-    "pendencias_restantes": 51,
-    "casos_com_tentativa_ia": 61,
-    "resolvidas_automaticamente": 93,
+    "pendencias_restantes": 50,
+    "casos_com_tentativa_ia": 62,
+    "resolvidas_automaticamente": 94,
     "revisoes_manuais": 1
   },
   "itens": [
@@ -505,7 +505,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:08.319224-03:00"
+      "verificado_em": "2026-10-03T15:57:42.792928-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -882,7 +882,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:07.657543-03:00"
+      "verificado_em": "2026-10-03T15:57:42.606834-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -993,8 +993,8 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-03T14:53:15.832367-03:00",
-      "ia_tentada_em": "2026-10-03T14:53:15.832353-03:00",
+      "verificado_em": "2026-10-03T15:57:53.629319-03:00",
+      "ia_tentada_em": "2026-10-03T15:57:53.629303-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
@@ -1075,8 +1075,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:07.732883-03:00",
-      "ia_tentada_em": "2026-10-03T14:53:20.494840-03:00",
+      "verificado_em": "2026-10-03T15:57:42.538192-03:00",
+      "ia_tentada_em": "2026-10-03T15:57:54.268293-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "evidencia_insuficiente"
     },
@@ -1133,7 +1133,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:07.882766-03:00"
+      "verificado_em": "2026-10-03T15:57:42.689402-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1142,16 +1142,22 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:10.489997-03:00"
+      "verificado_em": "2026-10-03T15:57:45.260539-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
       "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
-      "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado",
+      "fontes_consultadas": [
+        "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups"
+      ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:15.755402-03:00"
+      "verificado_em": "2026-10-03T15:57:53.553923-03:00",
+      "ia_tentada_em": "2026-10-03T15:58:07.303221-03:00",
+      "ia_metodo": "gemini-v7",
+      "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
@@ -1223,9 +1229,12 @@
       "titulo": "Porto Digital abre inscrições para Pré-Incubação | Jornal Digital",
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
+      "fontes_consultadas": [
+        "https://app.portodigital.org/publico/121/desafio"
+      ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:08.048708-03:00"
+      "verificado_em": "2026-10-03T15:57:47.353675-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1262,7 +1271,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:08.236100-03:00"
+      "verificado_em": "2026-10-03T15:57:43.222448-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1302,9 +1311,12 @@
       "titulo": "Prorrogado! Programas para novas startups com inscrições até 30 de março | Jornal Digital",
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
+      "fontes_consultadas": [
+        "https://app.portodigital.org/publico/portodigital/desafios/40/cliente"
+      ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:08.236213-03:00"
+      "verificado_em": "2026-10-03T15:57:47.621100-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -1382,8 +1394,8 @@
       "evidencia_edicao": "Early stage startups can get up to $350,000 in Cloud credits through the Google for Startups Cloud Program",
       "evidencia_publico": "Built for Brazilian founders. Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.",
       "modalidade_inscricao": "candidatura_sem_prazo",
-      "verificado_em": "2026-10-03T14:53:24.364767-03:00",
-      "ia_tentada_em": "2026-10-03T14:53:24.364750-03:00",
+      "verificado_em": "2026-10-03T15:58:08.757359-03:00",
+      "ia_tentada_em": "2026-10-03T15:58:08.757342-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
@@ -1393,19 +1405,22 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:12.065676-03:00",
-      "ia_tentada_em": "2026-10-03T14:53:28.584979-03:00",
+      "verificado_em": "2026-10-03T15:57:45.742934-03:00",
+      "ia_tentada_em": "2026-10-03T15:58:16.120610-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "evidencia_insuficiente"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
       "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
-      "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel",
+      "fonte_oficial": "https://jumpbrasil.org/wp-content/uploads/2024/05/Errata-Edital-Empreendedorismo-no-01_2024-1.pdf",
+      "prazo_iso": "2024-04-03T23:59:59-03:00",
+      "evidencia_prazo": "Período de Inscrições                                                     01/03/2024 até 03/04/2024",
+      "metodo": "cronograma_documentado",
+      "status": "encerrada",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:08.637153-03:00"
+      "verificado_em": "2026-10-03T15:57:49.905441-03:00"
     },
     {
       "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
@@ -1537,7 +1552,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:53:09.279713-03:00"
+      "verificado_em": "2026-10-03T15:57:47.712028-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1707,9 +1722,9 @@
   ],
   "fila_prioritaria": {
     "total_inicial": 78,
-    "resolvidas": 31,
-    "resolvidas_automaticamente": 31,
+    "resolvidas": 32,
+    "resolvidas_automaticamente": 32,
     "revisoes_manuais": 0,
-    "pendentes": 47
+    "pendentes": 46
   }
 }
