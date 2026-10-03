@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T10:49:03.474003-03:00",
-    "examinadas": 139,
+    "atualizado_em": "2026-10-03T11:14:54.063909-03:00",
+    "examinadas": 144,
     "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 10,
       "encerrada": 79,
-      "pendente_evidencia": 25,
+      "pendente_evidencia": 30,
       "pendente_acesso": 11,
       "pendente_fonte_oficial": 14
     },
@@ -6731,6 +6731,36 @@
         "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-abre-2-edicao-com-11-teses-e-foco-no-ciclo-rumo-a-los-angeles-2028",
         "status": "aberta_confirmada",
         "motivo": ""
+      },
+      {
+        "titulo": "Missão Técnica CE no NEON Alagoas 2026 - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/ceneon2026",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado"
+      },
+      {
+        "titulo": "Processo de Seleção de Propostas para Incubação e Aceleração – Fluxo Contínuo",
+        "url": "https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Edital Inatel Startups - Seleção de Novos Projetos / Empresas",
+        "url": "https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Baita Aceleradora abre inscrições para a turma 2022",
+        "url": "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
+        "url": "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       }
     ],
     "pendentes": [
@@ -7033,6 +7063,36 @@
         "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
         "status": "pendente_fonte_oficial",
         "motivo": "localizar_fonte_primaria"
+      },
+      {
+        "titulo": "Missão Técnica CE no NEON Alagoas 2026 - Sebrae Startups",
+        "url": "https://programas.sebraestartups.com.br/in/ceneon2026",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado"
+      },
+      {
+        "titulo": "Processo de Seleção de Propostas para Incubação e Aceleração – Fluxo Contínuo",
+        "url": "https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Edital Inatel Startups - Seleção de Novos Projetos / Empresas",
+        "url": "https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf",
+        "status": "pendente_evidencia",
+        "motivo": "edicao_ou_publico_nao_comprovado"
+      },
+      {
+        "titulo": "Baita Aceleradora abre inscrições para a turma 2022",
+        "url": "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
+        "url": "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista",
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       }
     ],
     "fila_prioritaria": {
@@ -7047,8 +7107,8 @@
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 50,
-      "casos_com_tentativa_ia": 59,
+      "pendencias_restantes": 55,
+      "casos_com_tentativa_ia": 64,
       "resolvidas_automaticamente": 88,
       "revisoes_manuais": 1
     }

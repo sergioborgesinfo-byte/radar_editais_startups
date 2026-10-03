@@ -1688,5 +1688,61 @@
       "evidencia_ano": "2024",
       "motivo": "O período de inscrições ocorreu de 19/08/2024 até 11/09/2024, conforme estabelecido nos editais do programa."
     }
+  },
+  "1400bbcaa4544f5436a43dedfe58a3dc3765120db3029920a3e488813cc1c8ac": {
+    "em": "2026-10-03T11:13:42.304628-03:00",
+    "resposta": {
+      "situacao": "sem_prazo",
+      "fonte": "https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf",
+      "evidencia_identidade": "PROCESSO DE SELEÇÃO DE PROPOSTAS PARA INCUBAÇÃO E ACELERAÇÃO – FLUXO CONTÍNUO",
+      "evidencia": "Este edital é de fluxo continuo e aceitará as inscrições dos empreendimentos nos",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "Edital-incubadora-Mamiraua.pdf",
+      "motivo": "O edital é de fluxo contínuo, permitindo inscrições em qualquer momento sem data final estipulada."
+    }
+  },
+  "b2ea3bc256bd0569171c3c4ee7e5f6ec89a0cc217f175351815b89904ecce111": {
+    "em": "2026-10-03T11:13:42.304628-03:00",
+    "resposta": {
+      "situacao": "sem_prazo",
+      "fonte": "https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf",
+      "evidencia_identidade": "EDITAL\n                            INATEL STARTUPS",
+      "evidencia": "PERÍODO DE VIGÊNCIA: FLUXO CONTÍNUO\n\n\n\n                                                   ABERTURA: 10/05/2024\n                                           ENCERRAMENTO: NÃO SE APLICA",
+      "fim": null,
+      "inicio": "2024-05-10",
+      "evidencia_inicio": "ABERTURA: 10/05/2024",
+      "evidencia_ano": "ABERTURA: 10/05/2024",
+      "motivo": "O edital opera em regime de fluxo contínuo com encerramento explicitamente indicado como 'não se aplica' e sem data final definida."
+    }
+  },
+  "4e2279869a4b6d0d777391dcf6bdab975989c39b492a9816541dc95af345fc29": {
+    "em": "2026-10-03T11:13:42.304628-03:00",
+    "resposta": {
+      "situacao": "encerrada_explicita",
+      "fonte": "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294",
+      "evidencia_identidade": "Baita Aceleradora abre inscrições para a turma 2022",
+      "evidencia": "Empresas nascentes de base tecnológica de todo o Brasil, atuantes em todos os segmentos de mercado, podem se inscrever por meio deste link até 27 de junho.",
+      "fim": "2022-06-27",
+      "inicio": "2022-06-14",
+      "evidencia_inicio": "14 de junho de 2022",
+      "evidencia_ano": "Baita Aceleradora abre inscrições para a turma 2022",
+      "motivo": "As inscrições para a turma de 2022 da Baita Aceleradora encerraram-se em 27 de junho de 2022, conforme informado na reportagem de junho de 2022."
+    }
+  },
+  "8bddbb3b45a1aa755a02ebdd76b03b4a47ad835d4c650eec2e24d5ccc6bd3c93": {
+    "em": "2026-10-03T11:13:42.304628-03:00",
+    "resposta": {
+      "situacao": "encerrada_explicita",
+      "fonte": "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista",
+      "evidencia_identidade": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
+      "evidencia": "Resultado Final do Edital de Seleção de Bolsista GTI 1B – FAPERGS – Programa Startup Lab",
+      "fim": "2026-08-20",
+      "inicio": "2026-08-13",
+      "evidencia_inicio": "Lançamento do Edital | 13/08/2026",
+      "evidencia_ano": "Edital 01/2026",
+      "motivo": "O processo seletivo encontra-se encerrado, pois a página já apresenta o resultado final do edital de seleção de bolsista."
+    }
   }
 }
