@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T14:45:48.000Z",
+  "atualizado_em": "2026-10-03T14:52:00.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -677,6 +677,17 @@
       "bloqueio_ou_observacao": "Notícia oficial de maio de 2023 apresenta finalistas e vencedores do PICS 2.0, cujo edital foi lançado em julho de 2022. É resultado, não inscrição. A edição PICS 4.0 de 2024 e o PICS 5 de 2025 são distintos e não substituem esta ficha.",
       "pesquisado_em": "2026-10-03T07:43:03.000Z",
       "tentativas": 1
+    },
+    {
+      "url": "https://abvcap.com.br/programas/inova-invest/",
+      "titulo": "Inova+Invest – Região Norte 2026",
+      "pesquisado_em": "2026-10-03T14:52:00.000Z",
+      "tentativas": 1,
+      "status": "fonte_primaria_localizada",
+      "fontes_examinadas": [
+        "https://abvcap.com.br/programas/inova-invest/"
+      ],
+      "bloqueio_ou_observacao": "Página oficial atual da ABVCAP identifica a edição Região Norte, convida à inscrição e define startups da região como público. Fonte vinculada à nova ficha separada; a vigência será decidida pelo verificador."
     }
   ]
 }
