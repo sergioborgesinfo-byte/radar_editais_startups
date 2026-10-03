@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T18:45:00.000Z",
+  "atualizado_em": "2026-10-03T19:42:00.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -752,6 +752,17 @@
         "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista"
       ],
       "bloqueio_ou_observacao": "O objeto é seleção de bolsista para atuar no Programa Startup Lab, não chamada para selecionar ou apoiar startups. Mantido sem fonte alternativa para não publicar falso positivo."
+    },
+    {
+      "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-abre-2-edicao-com-11-teses-e-foco-no-ciclo-rumo-a-los-angeles-2028",
+      "titulo": "Desafio COB de Startups — 2ª edição 2026/2027",
+      "pesquisado_em": "2026-10-03T19:42:00.000Z",
+      "tentativas": 1,
+      "status": "nova_edicao_confirmada_em_fonte_primaria",
+      "fontes_examinadas": [
+        "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-abre-2-edicao-com-11-teses-e-foco-no-ciclo-rumo-a-los-angeles-2028"
+      ],
+      "bloqueio_ou_observacao": "Página oficial do COB identifica expressamente a segunda edição, informa que as inscrições estão abertas e define o público como startups formalmente constituídas no Brasil, em qualquer estágio. A ficha própria já existente foi promovida a confirmada_no_conteudo, sem preenchimento manual do prazo."
     }
   ]
 }
