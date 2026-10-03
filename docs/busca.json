@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T11:53:34.972061-03:00",
+    "atualizado_em": "2026-10-03T12:55:00.317602-03:00",
     "examinadas": 145,
-    "abertas_publicadas": 7,
+    "abertas_publicadas": 8,
     "status": {
-      "aberta_confirmada": 10,
+      "aberta_confirmada": 11,
       "encerrada": 79,
-      "pendente_evidencia": 30,
+      "pendente_evidencia": 29,
       "pendente_acesso": 11,
       "pendente_fonte_oficial": 15
     },
@@ -6741,8 +6741,8 @@
       {
         "titulo": "Processo de Seleção de Propostas para Incubação e Aceleração – Fluxo Contínuo",
         "url": "https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "aberta_confirmada",
+        "motivo": ""
       },
       {
         "titulo": "Edital Inatel Startups - Seleção de Novos Projetos / Empresas",
@@ -7077,12 +7077,6 @@
         "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado"
       },
       {
-        "titulo": "Processo de Seleção de Propostas para Incubação e Aceleração – Fluxo Contínuo",
-        "url": "https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
         "titulo": "Edital Inatel Startups - Seleção de Novos Projetos / Empresas",
         "url": "https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf",
         "status": "pendente_evidencia",
@@ -7119,9 +7113,9 @@
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 56,
-      "casos_com_tentativa_ia": 65,
-      "resolvidas_automaticamente": 88,
+      "pendencias_restantes": 55,
+      "casos_com_tentativa_ia": 64,
+      "resolvidas_automaticamente": 89,
       "revisoes_manuais": 1
     }
   }
