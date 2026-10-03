@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T01:52:39.777960-03:00",
+    "atualizado_em": "2026-10-03T02:46:00.906536-03:00",
     "examinadas": 139,
     "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 10,
       "encerrada": 74,
       "pendente_evidencia": 28,
-      "pendente_acesso": 12,
-      "pendente_fonte_oficial": 15
+      "pendente_acesso": 13,
+      "pendente_fonte_oficial": 14
     },
     "resultados": [
       {
@@ -6622,13 +6622,13 @@
         "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil",
         "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
         "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
         "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
@@ -6984,13 +6984,13 @@
         "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil",
         "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
         "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Programa de suporte a novos negócios do Porto Digital abre inscrições | Jornal Digital",
         "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho",
@@ -7078,7 +7078,7 @@
       "limite": 8,
       "parada": null,
       "pendencias_restantes": 55,
-      "casos_com_tentativa_ia": 62,
+      "casos_com_tentativa_ia": 61,
       "resolvidas_automaticamente": 83,
       "revisoes_manuais": 1
     }
