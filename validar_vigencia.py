@@ -376,14 +376,14 @@ def main():
     feitos = {e['url']: e for e in anteriores}
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  (feitos[e['url']].get('status') == 'aberta_confirmada' and
-                  (not verificacao_atual(feitos[e['url']], agora) or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v5')) or
-                 (feitos[e['url']].get('metodo', '').startswith('revisao_manual') and feitos[e['url']].get('metodo_leitura') != 'cronogramas-v5') or
+                  (not verificacao_atual(feitos[e['url']], agora) or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v6')) or
+                 (feitos[e['url']].get('metodo', '').startswith('revisao_manual') and feitos[e['url']].get('metodo_leitura') != 'cronogramas-v6') or
                  feitos[e['url']].get('status') in ('pendente_metodo','pendente_acesso') or
                  (feitos[e['url']].get('status') == 'pendente_fonte_oficial' and
                   (feitos[e['url']].get('metodo_fontes') != 'links-v2' or
                    not verificacao_atual(feitos[e['url']], agora))) or
                  (feitos[e['url']].get('status', '').startswith('pendente_') and
-                  (e['url'] in FONTES_OFICIAIS or feitos[e['url']].get('metodo_fontes') != 'links-v2' or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v5' or not verificacao_atual(feitos[e['url']], agora)))]
+                  (e['url'] in FONTES_OFICIAIS or feitos[e['url']].get('metodo_fontes') != 'links-v2' or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v6' or not verificacao_atual(feitos[e['url']], agora)))]
     # Um commit de dados não dispara novamente este workflow. O lote precisa cobrir
     # todas as confirmações restantes sem depender de uma segunda execução manual.
     lote = sorted(pendentes, key=lambda e: (e['url'] != MERCOPAR,
@@ -394,7 +394,7 @@ def main():
                      else validar_oficial(e, agora))
         resultado.setdefault('titulo', e.get('titulo', ''))
         resultado['metodo_fontes'] = 'links-v2'
-        resultado['metodo_leitura'] = 'cronogramas-v5'
+        resultado['metodo_leitura'] = 'cronogramas-v6'
         resultado['verificado_em'] = datetime.now(FUSO).isoformat()
         print(f"{resultado['status']}: {e['url']}", flush=True)
         return resultado
@@ -402,7 +402,7 @@ def main():
         for resultado in pool.map(validar, lote):
             antigo = feitos.get(resultado['url'], {})
             if antigo.get('metodo', '').startswith('revisao_manual') and resultado['status'].startswith('pendente_'):
-                antigo['metodo_leitura'] = 'cronogramas-v5'
+                antigo['metodo_leitura'] = 'cronogramas-v6'
                 antigo['resultado_releitura_automatica'] = resultado.get('motivo')
             else:
                 feitos[resultado['url']] = resultado
