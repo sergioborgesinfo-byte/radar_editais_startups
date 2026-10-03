@@ -214,10 +214,9 @@ setInterval(function(){
   fetch("editais.json",{cache:"no-store"}).then(function(r){
     if(!r.ok)throw new Error("Dados indisponíveis");return r.json();
   }).then(function(a){if(Array.isArray(a))setData(a,"Editais atualizados automaticamente.",false)}).catch(function(){});
-},900000);
+},60000);
 document.addEventListener("visibilitychange",function(){if(!document.hidden)render()});
 </script>
 <script src="acompanhamento.js"></script>
 </body>
 </html>
-

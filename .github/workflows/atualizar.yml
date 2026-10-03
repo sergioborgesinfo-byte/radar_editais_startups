@@ -12,8 +12,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: radar-atualizar-${{ github.ref }}
-  cancel-in-progress: true
+  group: radar-pipeline
+  cancel-in-progress: false
 
 jobs:
   descobrir:

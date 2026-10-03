@@ -10,6 +10,7 @@ from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
+from estado_pipeline import salvar_json
 from sebrae_programas import ler_programa, texto_programa
 
 FUSO = ZoneInfo('America/Sao_Paulo')
@@ -139,8 +140,11 @@ def texto_relevante(texto, limite=30000):
     padrao = re.compile(r'inscri[cç]|inscrev|candidat|submiss|prazo|cronograma|fluxo cont[ií]nuo|\b20\d{2}\b', re.I)
     for i, linha in enumerate(linhas):
         if padrao.search(linha):
-            marcadas.add(i)
-    recortes = '\n'.join(linhas[i] for i in sorted(marcadas))
+            marcadas.update(range(max(0, i-2), min(len(linhas), i+3)))
+    recortes = '\n'.join(linhas[i][:1000] if len(linhas[i]) <= 1000 or not padrao.search(linhas[i])
+                          else ' '.join(linhas[i][max(0,m.start()-300):m.end()+500]
+                                        for m in padrao.finditer(linhas[i]))
+                          for i in sorted(marcadas))
     return texto[:5000] + '\n' + recortes[:limite - 5001]
 
 
@@ -326,7 +330,7 @@ def atualizar_acompanhamento(itens, abertas, agora, fila=None, ia=None):
     }
     if fila is not None:painel['vigencia']['fila_prioritaria'] = fila
     if ia is not None:painel['vigencia']['ia'] = ia
-    caminho.write_text(json.dumps(painel, ensure_ascii=False, indent=2) + '\n')
+    salvar_json(caminho, painel)
 
 
 def verificacao_atual(item, agora):
@@ -403,9 +407,8 @@ def main():
     leitor = leitor_com_navegador(leitor_cache(radar.baixar), radar.permitido)
     radar.baixar = leitor
     agora = datetime.now(FUSO)
-    qualidade = json.loads(Path('data/revisao-qualidade.json').read_text())
-    if not qualidade.get('avancar_vigencia'):
-        raise SystemExit('Gate de qualidade ainda não liberou vigência')
+    from fontes_primarias import carregar_fontes
+    FONTES_OFICIAIS.update(carregar_fontes())
     conteudo = carregar_conteudo()
     confirmadas = [e for e in conteudo['itens'] if e.get('status') == 'confirmada_no_conteudo'
                    or ('programas.sebraestartups.com.br/in/' in e['url'])]
@@ -416,6 +419,15 @@ def main():
     # Invalida resultados antigos que aceitavam um ano histórico como edição atual.
     anteriores = historico.get('itens', []) if historico.get('versao') in ('vigencia-v11', 'vigencia-v12') else []
     feitos = {e['url']: e for e in anteriores}
+    # Não gastar consultas de vigência com conteúdo comprovadamente fora do escopo.
+    from triar_descobertas import classificar
+    for e in conteudo['itens']:
+        if e.get('status') == 'fora_escopo' or classificar(e)[0] == 'fora_escopo':
+            if e['url'] in feitos:
+                feitos[e['url']] = {'url':e['url'], 'titulo':e.get('titulo',''),
+                    'status':'fora_escopo', 'motivo':'participacao_direta_de_startup_ausente',
+                    'verificado_em':agora.isoformat()}
+    confirmadas = [e for e in confirmadas if feitos.get(e['url'], {}).get('status') != 'fora_escopo']
     pendentes = [e for e in confirmadas if e['url'] not in feitos or
                  (feitos[e['url']].get('status') == 'aberta_confirmada' and
                   (not verificacao_atual(feitos[e['url']], agora) or feitos[e['url']].get('metodo_leitura') != 'cronogramas-v6')) or
@@ -462,7 +474,7 @@ def main():
     assistente = Verificador()
     if os.getenv('GEMINI_API_KEY'):
         candidatos_ia = [e for e in confirmadas if feitos.get(e['url'], {}).get('status') in
-                         ('pendente_evidencia', 'pendente_fonte_oficial')]
+                         ('pendente_evidencia', 'pendente_fonte_oficial', 'pendente_acesso')]
         # Casos inéditos primeiro; exemplos já revisados não monopolizam a cota.
         candidatos_ia.sort(key=lambda e: (bool(feitos[e['url']].get('ia_tentada_em')),
                                              feitos[e['url']].get('ia_tentada_em', ''), not oficial(e['url'])))
@@ -471,12 +483,18 @@ def main():
                 break
             anterior = feitos[e['url']]
             tentativa = anterior.get('ia_tentada_em')
-            if anterior.get('ia_metodo') == 'gemini-v7' and tentativa and (agora - datetime.fromisoformat(tentativa)) < timedelta(hours=24):
-                continue
+            fonte = FONTES_OFICIAIS.get(e['url'], e['url'])
+            try:
+                if anterior.get('ia_metodo') == 'gemini-v8' and anterior.get('ia_fonte') == fonte and datetime.fromisoformat(anterior['ia_proxima_tentativa']) > agora:
+                    continue
+            except (KeyError, ValueError): pass
             docs = documentos(dict(e, fonte_primaria_descoberta=FONTES_OFICIAIS.get(e['url'], e['url'])), oficial)
             resultado = assistente.verificar(e, docs, agora)
             anterior['ia_tentada_em'] = datetime.now(FUSO).isoformat()
-            anterior['ia_metodo'] = 'gemini-v7'
+            anterior['ia_metodo'] = 'gemini-v8'
+            anterior['ia_fonte'] = fonte
+            espera = 15 if assistente.last_reason and re.search(r'tempo_esgotado|rede|http_50', assistente.last_reason) else 360
+            anterior['ia_proxima_tentativa'] = (agora + timedelta(minutes=espera)).isoformat()
             anterior['motivo_ia'] = assistente.parada or assistente.last_reason or ('sem_documentos' if not docs else 'evidencia_insuficiente')
             if assistente.parada:
                 anterior.pop('ia_tentada_em', None)
@@ -484,25 +502,27 @@ def main():
             if resultado:
                 resultado['verificado_em'] = datetime.now(FUSO).isoformat()
                 resultado['ia_tentada_em'] = anterior['ia_tentada_em']
-                resultado['ia_metodo'] = 'gemini-v7'
+                resultado['ia_metodo'] = 'gemini-v8'
                 feitos[e['url']] = resultado
                 print(f"IA: {resultado['status']}: {e['url']}", flush=True)
     print(f'IA: {assistente.usadas} chamadas; parada={assistente.parada}', flush=True)
     agora = datetime.now(FUSO)
     itens = list(feitos.values())
     relatorio = {'versao':'vigencia-v12', 'atualizado_em':agora.isoformat(), 'leitura_navegador': leitor.estatisticas, 'ia': {'chamadas': assistente.usadas, 'falhas_temporarias': assistente.erros, 'limite': assistente.limite, 'parada': assistente.parada, 'pendencias_restantes': sum(x.get('status', '').startswith('pendente_') for x in itens), 'casos_com_tentativa_ia': sum(bool(x.get('ia_tentada_em')) for x in itens), 'resolvidas_automaticamente': sum(x.get('status') in ('aberta_confirmada','encerrada') and not x.get('metodo','').startswith('revisao_manual') for x in itens), 'revisoes_manuais': sum(x.get('metodo','').startswith('revisao_manual') for x in itens)}, 'itens':itens}
-    anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
+    salvar_json(anteriores_path, relatorio)
     fila_path = Path('data/fila-vigencia-inicial.json')
     fila_urls = json.loads(fila_path.read_text()).get('urls', []) if fila_path.exists() else []
-    resolvidas = [feitos[u] for u in fila_urls if u in feitos and feitos[u].get('status') in ('aberta_confirmada','encerrada','ainda_nao_aberta')]
+    resolvidas = [feitos[u] for u in fila_urls if u in feitos and feitos[u].get('status') in ('aberta_confirmada','encerrada','ainda_nao_aberta','fora_escopo')]
     fila = {'total_inicial': len(fila_urls), 'resolvidas': len(resolvidas),
             'resolvidas_automaticamente': sum(not x.get('metodo','').startswith('revisao_manual') for x in resolvidas),
             'revisoes_manuais': sum(x.get('metodo','').startswith('revisao_manual') for x in resolvidas),
             'pendentes': len(fila_urls)-len(resolvidas)}
+    fila['por_resultado'] = {s: sum(x['status'] == s for x in resolvidas)
+                           for s in ('aberta_confirmada','encerrada','ainda_nao_aberta','fora_escopo')}
     relatorio['fila_prioritaria'] = fila
-    anteriores_path.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2)+'\n')
+    salvar_json(anteriores_path, relatorio)
     abertas = exportar_abertas(itens, agora)
-    Path('docs/editais.json').write_text(json.dumps(abertas, ensure_ascii=False, indent=2)+'\n')
+    salvar_json('docs/editais.json', abertas)
     atualizar_acompanhamento(itens, abertas, agora, fila, relatorio['ia'])
     print(f'{len(lote)} examinadas; {len(abertas)} abertas confirmadas publicadas')
 

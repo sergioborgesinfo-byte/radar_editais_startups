@@ -1,5 +1,16 @@
 # Radar de editais (PWA)
 
+O fluxo automático atual é `python executar_pipeline.py`: triagem, relevância,
+pesquisa de fontes e vigência, com orçamento compartilhado de oito chamadas de
+IA por execução. `GEMINI_API_KEY` interpreta os documentos; `TAVILY_API_KEY`
+pesquisa fontes faltantes. A descoberta ampla roda separadamente, em lotes
+rotativos, sem descartar o histórico.
+
+O diagnóstico e as decisões da revisão estão em [AUDITORIA_RADAR.md](AUDITORIA_RADAR.md).
+`data/execucao-pipeline.json` registra avanço real, cota e resultados por etapa.
+Uma execução concluída pode não resolver novos casos; o painel informa isso.
+O fluxo legado `radar.py run` abaixo não é a rotina de publicação atual.
+
 ## Estrutura
 - `radar.py`, `sources.json`, `requirements.txt`: coleta e extração com IA
 - `data/radar.db`: banco (criado na primeira execução)

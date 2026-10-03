@@ -6,16 +6,16 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [data/oportunidades-conteudo.json,busca_fontes_ia.py, testes_busca_fontes_ia.py,data/fontes-primarias-descobertas.json,leitor_navegador.py, testes_leitor_navegador.py, leitura_cache.py, cronogramas.py, testes_cronogramas.py, vigencia_ia.py, testes_vigencia_ia.py, validar_vigencia.py, testes_vigencia.py, fontes_primarias.py, sebrae_programas.py, testes_sebrae.py, testes_fontes_primarias.py, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
+    paths: ['*.py', sources.json, data/fontes-primarias-descobertas.json, data/oportunidades-conteudo.json, docs/acompanhamento.js, '.github/workflows/vigencia.yml']
   workflow_run:
-    workflows: ["Confirmar oportunidades pelo conteúdo"]
+    workflows: ["Descobrir oportunidades"]
     types: [completed]
     branches: [main]
 
 permissions:
   contents: write
 concurrency:
-  group: radar-vigencia
+  group: radar-pipeline
   cancel-in-progress: false
 
 jobs:
@@ -27,68 +27,50 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 10
+          fetch-depth: 20
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Instalar leitor de páginas e PDFs
+          cache: pip
+      - name: Instalar dependências
         run: >-
           python -m pip install --index-url https://pypi.org/simple --only-binary=:all: -r requirements.txt
-      - name: Testar vigência, modalidade e duplicação
-        run: |
-          python -m unittest discover -s . -p testes_leitor_navegador.py
-          python -m unittest discover -s . -p testes_cronogramas.py
-          python -m unittest discover -s . -p testes_vigencia_ia.py
-          python -m unittest discover -s . -p testes_vigencia.py
-          python -m unittest discover -s . -p testes_sebrae.py
-          python -m unittest discover -s . -p testes_fontes_primarias.py
-      - name: Instalar navegador para páginas dinâmicas
-        id: navegador
-        continue-on-error: true
-        run: python -m playwright install --with-deps chromium
-      - name: Verificar execução real de JavaScript
-        if: steps.navegador.outcome == 'success'
-        run: |
-          python - <<'PY'
-          from leitor_navegador import renderizar_html
-          from urllib.parse import quote
-          html='<main id="x"></main><script>document.getElementById("x").textContent="Inscricoes ate 20/12/2026"</script>'
-          ct, corpo=renderizar_html('data:text/html,'+quote(html),lambda url:True)
-          assert b'<main id="x">Inscricoes ate 20/12/2026</main>' in corpo
-          print('Navegador leu o conteúdo produzido por JavaScript')
-          PY
-      - name: Reutilizar downloads de fontes oficiais
-        uses: actions/cache/restore@v4
+      - name: Validar contratos, orçamento e recuperação
+        run: python -m unittest discover -s . -p 'testes_*.py'
+      - name: Restaurar navegador e downloads
+        uses: actions/cache@v4
         with:
-          path: .radar-leituras
-          key: radar-vigencia-leituras-${{ github.run_id }}
-          restore-keys: radar-vigencia-leituras-
-      - name: Validar lote e exportar somente abertas
+          path: |
+            ~/.cache/ms-playwright
+            .radar-leituras
+            .radar-cache
+          key: radar-pipeline-${{ runner.os }}-${{ hashFiles('requirements.txt') }}-${{ github.run_id }}
+          restore-keys: radar-pipeline-${{ runner.os }}-${{ hashFiles('requirements.txt') }}-
+      - name: Preparar navegador
+        run: python -m playwright install --with-deps chromium
+      - name: Executar todas as etapas com orçamento total de oito chamadas
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.GEMINI }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY || secrets.TAVILY }}
+          RADAR_IA_LIMITE: "8"
+          CONTEUDO_LOTE: "24"
           VIGENCIA_IA_LIMITE: "8"
-        run: |
-          test -f data/cache-vigencia-ia.json || echo "{}" > data/cache-vigencia-ia.json
-          for lote in 1 2 3; do
-            echo "Processando lote automático $lote de 3"
-            python -u validar_vigencia.py
-            if python -c 'import json; d=json.load(open("data/oportunidades-vigencia.json")); exit(0 if d["ia"].get("parada") or not d["ia"].get("pendencias_restantes") or not d["ia"].get("chamadas") else 1)'; then
-              break
-            fi
-          done
-      - name: Preservar downloads para a próxima rodada
+        run: python -u executar_pipeline.py
+      - name: Preservar diagnóstico de execução
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/upload-artifact@v4
         with:
-          path: .radar-leituras
-          key: radar-vigencia-leituras-${{ github.run_id }}
-      - name: Salvar validações e publicação
+          name: execucao-radar
+          path: data/execucao-pipeline.json
+          if-no-files-found: ignore
+      - name: Salvar estado e publicação
+        if: always()
         run: |
           git config user.name "$GITHUB_ACTOR"
           git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
-          git add data/oportunidades-conteudo.json data/fontes-primarias-descobertas.json data/cache-vigencia-ia.json data/oportunidades-vigencia.json docs/editais.json docs/busca.json
+          git add data docs/busca.json docs/editais.json
           if ! git diff --cached --quiet; then
-            git commit -m "Valida edição, público e prazo; publica somente oportunidades abertas"
+            git commit -m "Salva rodada integrada, evidências e avanço real do Radar"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

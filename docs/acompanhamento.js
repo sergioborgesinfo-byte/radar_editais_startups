@@ -36,17 +36,24 @@ async function refresh(){
  if(busy)return;busy=true;el('busca-refresh').disabled=true;
  try{
   if(!snapshot){snapshot=await json('busca.json');render()}
-  var values=await Promise.allSettled([json(base+'triagem-descobertas.json'),json(base+'oportunidades-conteudo.json'),json('https://api.github.com/repos/sergioborgesinfo-byte/radar_editais_startups/actions/workflows/vigencia.yml/runs?per_page=1'),json('busca.json')]);
-  if(values[0].status==='fulfilled'){var t=values[0].value;snapshot.itens=t.itens;snapshot.links=t.links_recebidos;snapshot.candidatos=t.contagem.prioridade_verificacao||0}
-  if(values[1].status==='fulfilled'){snapshot.confirmacoes=values[1].value.itens;snapshot.atualizado_em=values[1].value.atualizado_em}
-  if(values[3].status==='fulfilled')snapshot.vigencia=values[3].value.vigencia;
-  if(values[2].status==='fulfilled'){var run=values[2].value.workflow_runs[0];el('busca-status').textContent=run.status==='completed'?(run.conclusion==='success'?'Última execução de vigência concluída.':'Último lote terminou com pendências; veja os resultados salvos.'):'Análise em andamento no GitHub. Os números abaixo são do último resultado salvo.'}
+  var values=await Promise.allSettled([json('busca.json'),json('https://api.github.com/repos/sergioborgesinfo-byte/radar_editais_startups/actions/workflows/vigencia.yml/runs?per_page=1')]);
+  if(values[0].status==='fulfilled')snapshot=values[0].value;
+  if(values[1].status==='fulfilled'){var run=values[1].value.workflow_runs[0];el('busca-status').textContent=run.status==='completed'?(run.conclusion==='success'?'Última execução concluída.':'Última execução falhou; os números são da última gravação disponível.'):'Processamento em andamento. Os números são do último resultado salvo.'}
   else el('busca-status').textContent='Resultados salvos disponíveis. Não foi possível consultar o status da execução agora.';
   var fase=snapshot.vigencia||{},fila=fase.fila_prioritaria,ia=fase.ia||{};
+  var pipeline=snapshot.pipeline;
+  if(pipeline){
+    el('busca-status').textContent+=' Última rodada salva: '+pipeline.casos_concluidos_nesta_rodada+' casos concluídos, '+pipeline.casos_reabertos+' reabertos, saldo de '+pipeline.saldo_abertas+' abertas.';
+    if(!pipeline.houve_avanco)el('busca-status').textContent+=' Sem avanço nesta rodada.';
+    if(pipeline.ia)el('busca-status').textContent+=' IA: '+pipeline.ia.chamadas+'/'+pipeline.ia.limite+' chamadas no total.';
+    if(pipeline.ultimo_avanco_em)el('busca-status').textContent+=' Último avanço: '+new Date(pipeline.ultimo_avanco_em).toLocaleString('pt-BR')+'.';
+    var fonte=(pipeline.etapas||[]).find(function(x){return x.nome==='fontes'});
+    if(fonte&&fonte.resultado&&fonte.resultado.motivo)el('busca-status').textContent+=' Busca de fontes: '+(fonte.resultado.motivo==='busca_cota_em_pausa'?'cota esgotada; retomada após a pausa':fonte.resultado.motivo==='busca_sem_credencial'?'credencial não configurada':'aguardando próxima tentativa')+'.';
+  }
   if(fila)el('busca-status').textContent+=' Fila inicial: '+fila.resolvidas_automaticamente+' de '+fila.total_inicial+' resolvidos automaticamente; '+fila.pendentes+' pendentes.';
   if(ia.parada==='gemini_conexao')el('busca-status').textContent+=' A IA interrompeu a tentativa por falha de conexão.';
-  if(ia.chamadas===0&&fila&&fila.pendentes)el('busca-status').textContent+=' Última rodada sem novas chamadas à IA: casos já tentados aguardam nova evidência ou liberação da próxima tentativa.';
-  if(ia.chamadas>0)el('busca-status').textContent+=' Última rodada: '+ia.chamadas+' chamadas à IA.';
+  if(!pipeline&&ia.chamadas===0&&fila&&fila.pendentes)el('busca-status').textContent+=' Última rodada sem novas chamadas à IA: casos já tentados aguardam nova evidência ou liberação da próxima tentativa.';
+  if(!pipeline&&ia.chamadas>0)el('busca-status').textContent+=' Última rodada: '+ia.chamadas+' chamadas à IA.';
   if(fase.atualizado_em&&Date.now()-new Date(fase.atualizado_em).getTime()>90*60000)el('busca-status').textContent+=' Atenção: resultados sem atualização há mais de 90 minutos.';
   if(fila&&fila.pendentes)el('busca-status').textContent+=' Agendamento configurado; o horário do resultado salvo confirma se houve execução.';
   render();
