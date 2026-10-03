@@ -1,10 +1,10 @@
 {
   "versao": "conteudo-v1",
-  "atualizado_em": "2026-10-03T14:12:52.528207+00:00",
+  "atualizado_em": "2026-10-03T14:45:48.000Z",
   "vigencia": "nao_avaliada",
   "contagem": {
     "pendente_leitura": 254,
-    "confirmada_no_conteudo": 98,
+    "confirmada_no_conteudo": 99,
     "pendente_evidencia": 70,
     "nao_confirmada_no_texto": 16,
     "pendente_ia": 122
@@ -7588,6 +7588,27 @@
       "tentativas": 1,
       "status": "pendente_leitura",
       "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+    },
+    {
+      "url": "https://abvcap.com.br/programas/inova-invest/",
+      "titulo": "Inova+Invest – Região Norte 2026",
+      "versao": "conteudo-v1",
+      "vigencia": "nao_avaliada",
+      "conferido_em": "2026-10-03T14:45:48.000Z",
+      "tentativas": 1,
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Inova+Invest – Região Norte 2026",
+        "instituicao": "ABVCAP e ApexBrasil",
+        "tipo": "Programa de capacitação e conexão com investidores",
+        "resumo": "Edição Região Norte do Inova+Invest para selecionar startups da região e prepará-las para captação de investimentos.",
+        "trecho_oportunidade": "Inscreva-se",
+        "trecho_publico": "O Inova+invest vai selecionar até 15 startups da região, avaliando inovação e tecnologia, potencial de escala, maturidade do negócio e a qualidade do time.",
+        "motivo": "Convite e público-alvo explícitos na página oficial da edição Região Norte.",
+        "metodo": "pesquisa_manual_em_fonte_primaria"
+      }
     }
   ]
 }
