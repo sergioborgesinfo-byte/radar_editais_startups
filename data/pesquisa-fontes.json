@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T15:05:00.000Z",
+  "atualizado_em": "2026-10-03T16:51:00.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -386,13 +386,14 @@
     {
       "url": "https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29",
       "titulo": "Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29",
-      "pesquisado_em": "2026-10-03T04:51:27.266Z",
-      "tentativas": 1,
-      "status": "fonte_alternativa_localizada",
+      "pesquisado_em": "2026-10-03T16:51:00.000Z",
+      "tentativas": 2,
+      "status": "fonte_primaria_canonica_localizada",
       "fontes_examinadas": [
-        "https://prosas.com.br/editais/16756"
+        "https://prosas.com.br/editais/16756",
+        "https://prosas.com.br/editais/16756-1o-edital-para-o-programa-de-inovacao-aberta-do-hub-rioia-2026"
       ],
-      "bloqueio_ou_observacao": "Edital oficial Rio.IA 2026 confirma startups de IA e prorrogação das inscrições até 06/02/2026."
+      "bloqueio_ou_observacao": "A rota canônica da Prosas é legível e confirma na mesma página o 1º Edital Rio.IA 2026, startups proponentes e a prorrogação das inscrições até 06/02/2026 às 18h. O mapeamento anterior, reduzido a /editais/16756, foi substituído."
     },
     {
       "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
