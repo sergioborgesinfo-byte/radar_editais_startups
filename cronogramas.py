@@ -73,6 +73,22 @@ def identidade(texto,titulo):
     return bool(termos) and len(comuns)>=min(2,len(termos))
 
 
+def ano_edicao_documentada(texto,titulo):
+    """Aceita ano explícito na identificação da edição, nunca em metadado de publicação."""
+    for linha in [x.strip() for x in texto.splitlines()[:40] if x.strip()]:
+        s=limpo(linha)
+        if re.search(r'data de publicacao|data informada pela pagina|resultado|homolog',s):
+            continue
+        anos=re.findall(r'\b20\d{2}\b',s)
+        if not anos:
+            continue
+        termos=palavras(titulo) & palavras(linha)
+        identifica=identidade(linha,titulo) or (re.search(r'edital|chamada|programa|ciclo|turma',s) and termos)
+        if identifica:
+            return int(anos[0])
+    return None
+
+
 def prazo_documentado(texto,titulo):
     if not identidade(texto,titulo):return None
     linhas=[x.strip() for x in re.split(r'\n+|(?<=[.!?])\s+',texto) if x.strip()]
