@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T16:53:00.000Z",
+  "atualizado_em": "2026-10-03T16:55:00.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -316,15 +316,15 @@
     {
       "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
       "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups",
-      "pesquisado_em": "2026-10-03T16:53:00.000Z",
-      "tentativas": 3,
-      "status": "fonte_primaria_canonica_localizada",
+      "pesquisado_em": "2026-10-03T16:55:00.000Z",
+      "tentativas": 4,
+      "status": "fonte_primaria_bloqueada_para_leitura",
       "fontes_examinadas": [
         "https://cienciaetecnologia.prefeitura.rio/noticias/hub-rio-ia-promove-webinario-sobre-1o-edital-do-programa-de-inovacao-aberta-2026/",
         "https://prosas.com.br/editais/16756",
         "https://prosas.com.br/editais/16756-1o-edital-para-o-programa-de-inovacao-aberta-do-hub-rioia-2026"
       ],
-      "bloqueio_ou_observacao": "A rota canônica legível da Prosas confirma a mesma primeira edição Rio.IA 2026, público de startups e prorrogação até 06/02/2026 às 18h. O vínculo reduzido anterior foi substituído."
+      "bloqueio_ou_observacao": "A página canônica da Prosas comprova edição Rio.IA 2026, público e prazo prorrogado até 06/02/2026, mas o workflow retornou fonte_oficial_indisponivel. O mapeamento foi removido porque o app não consegue lê-lo; não foi localizada cópia oficial estática acessível."
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -387,14 +387,14 @@
     {
       "url": "https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29",
       "titulo": "Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29",
-      "pesquisado_em": "2026-10-03T16:51:00.000Z",
-      "tentativas": 2,
-      "status": "fonte_primaria_canonica_localizada",
+      "pesquisado_em": "2026-10-03T16:55:00.000Z",
+      "tentativas": 3,
+      "status": "fonte_primaria_bloqueada_para_leitura",
       "fontes_examinadas": [
         "https://prosas.com.br/editais/16756",
         "https://prosas.com.br/editais/16756-1o-edital-para-o-programa-de-inovacao-aberta-do-hub-rioia-2026"
       ],
-      "bloqueio_ou_observacao": "A rota canônica da Prosas é legível e confirma na mesma página o 1º Edital Rio.IA 2026, startups proponentes e a prorrogação das inscrições até 06/02/2026 às 18h. O mapeamento anterior, reduzido a /editais/16756, foi substituído."
+      "bloqueio_ou_observacao": "A página canônica da Prosas comprova edição Rio.IA 2026, público e prazo prorrogado até 06/02/2026, mas o workflow retornou fonte_oficial_indisponivel. O mapeamento foi removido porque o app não consegue lê-lo; não foi localizada cópia oficial estática acessível."
     },
     {
       "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
