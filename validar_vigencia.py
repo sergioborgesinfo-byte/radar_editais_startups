@@ -23,8 +23,6 @@ FONTES_OFICIAIS = {
         'https://www.darwinstartups.com/icmlab',
     'https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups':
         'https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-24-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-para-o-ecossistema-catarinense-de-inovacao-vii-edicao/',
-    'https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital':
-        'https://novosite.portodigital.org/noticia/inscricoes-prorrogadas-para-programas-early-stage/',
     'https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao':
         'https://www.darwinstartups.com/batch15',
     'https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups':

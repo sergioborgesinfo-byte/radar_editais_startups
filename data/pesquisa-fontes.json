@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T17:54:00.000Z",
+  "atualizado_em": "2026-10-03T18:45:00.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -340,13 +340,13 @@
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
       "titulo": "Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná",
-      "pesquisado_em": "2026-10-03T03:46:58.463Z",
-      "tentativas": 1,
-      "status": "fonte_oficial_bloqueada_para_leitura",
+      "pesquisado_em": "2026-10-03T18:45:00.000Z",
+      "tentativas": 2,
+      "status": "fonte_oficial_bloqueada_sem_alternativa_legivel",
       "fontes_examinadas": [
         "https://www.fappr.pr.gov.br/Noticia/Inscricoes-para-o-Programa-Centelha-III-sao-prorrogadas-ate-29-de-junho"
       ],
-      "bloqueio_ou_observacao": "A fonte oficial do Programa Centelha III Paraná e sua prorrogação já estão mapeadas, mas a página retorna 403 ao leitor; nenhuma substituição não oficial foi adicionada."
+      "bloqueio_ou_observacao": "A página oficial da Fundação Araucária confirma o Centelha III Paraná e a prorrogação até 29/06/2026, mas retorna HTTP 403 ao leitor. A busca por PDF ou rota oficial alternativa da mesma edição não encontrou fonte legível; o mapeamento foi removido."
     },
     {
       "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
@@ -399,9 +399,9 @@
     {
       "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
       "titulo": "Natura Ventures abre chamada para startups do Norte e Nordeste",
-      "pesquisado_em": "2026-10-03T04:51:27.266Z",
-      "tentativas": 1,
-      "status": "fonte_alternativa_localizada",
+      "pesquisado_em": "2026-10-03T18:45:00.000Z",
+      "tentativas": 2,
+      "status": "fonte_oficial_bloqueada_sem_alternativa_legivel",
       "fontes_examinadas": [
         "https://chamadadeimpactonatura.com.br/"
       ],
@@ -415,9 +415,10 @@
       "status": "fonte_alternativa_localizada",
       "fontes_examinadas": [
         "https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao",
-        "https://www.portodigital.org/noticias/inscricoes-para-programas-early-stage-com-inscricoes-prorrogadas"
+        "https://www.portodigital.org/noticias/inscricoes-para-programas-early-stage-com-inscricoes-prorrogadas",
+        "https://novosite.portodigital.org/noticia/inscricoes-prorrogadas-para-programas-early-stage/"
       ],
-      "bloqueio_ou_observacao": "Página oficial do Porto Digital confirma Pré-Incubação 2026.1 e prorrogação até 30/03/2026."
+      "bloqueio_ou_observacao": "As duas rotas oficiais confirmam a Pré-Incubação 2026.1 e a prorrogação até 30/03/2026, mas o leitor não acessa nenhuma delas. Não foi localizado PDF oficial da mesma chamada; o mapeamento foi removido."
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -467,13 +468,14 @@
     {
       "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
       "titulo": "Prorrogado! Programas para novas startups com inscrições até 30 de março",
-      "pesquisado_em": "2026-10-03T04:51:27.266Z",
-      "tentativas": 1,
-      "status": "fonte_alternativa_localizada",
+      "pesquisado_em": "2026-10-03T18:45:00.000Z",
+      "tentativas": 2,
+      "status": "fonte_oficial_bloqueada_sem_alternativa_legivel",
       "fontes_examinadas": [
-        "https://www.portodigital.org/noticias/inscricoes-para-programas-early-stage-com-inscricoes-prorrogadas"
+        "https://www.portodigital.org/noticias/inscricoes-para-programas-early-stage-com-inscricoes-prorrogadas",
+        "https://novosite.portodigital.org/noticia/inscricoes-prorrogadas-para-programas-early-stage/"
       ],
-      "bloqueio_ou_observacao": "Fonte oficial confirma a prorrogação da Pré-Incubação e Incubação 2026.1 até 30/03/2026, sem alterar os prazos das outras trilhas."
+      "bloqueio_ou_observacao": "As rotas oficiais confirmam a prorrogação da Pré-Incubação e Incubação 2026.1 até 30/03/2026, mas são bloqueadas ao leitor. Não foi localizado PDF oficial da mesma chamada; o mapeamento foi removido."
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -522,7 +524,7 @@
     {
       "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
       "titulo": "BNDES Garagem abre novo ciclo para 100 negócios de impacto",
-      "status": "fonte_alternativa_localizada",
+      "status": "fonte_primaria_pdf_legivel_localizada",
       "fontes_examinadas": [
         "https://agenciadenoticias.bndes.gov.br/cultura/Em-novo-ciclo-BNDES-Garagem-abre-inscricoes-para-selecionar-ate-100-startups-de-impacto/",
         "https://garagem.bndes.gov.br/"
@@ -536,11 +538,12 @@
       "titulo": "Mind The Bizz 2024.1",
       "status": "fonte_alternativa_localizada",
       "fontes_examinadas": [
-        "https://www.portodigital.org/noticias/inscricoes-abertas-para-mind-the-bizz-2024-1"
+        "https://www.portodigital.org/noticias/inscricoes-abertas-para-mind-the-bizz-2024-1",
+        "https://jumpbrasil.org/wp-content/uploads/2024/05/Errata-Edital-Empreendedorismo-no-01_2024-1.pdf"
       ],
-      "bloqueio_ou_observacao": "Página oficial do Porto Digital confirma a edição Mind The Bizz 2024.1 e a prorrogação das inscrições até 03/04/2024.",
-      "pesquisado_em": "2026-10-03T05:42:07.000Z",
-      "tentativas": 1
+      "bloqueio_ou_observacao": "A página oficial do Porto Digital estava indisponível ao leitor. Foi localizado PDF oficial legível da JUMP/Porto Digital para o Edital Empreendedorismo nº 01/2024; ele identifica Mind The Bizz 2024.1 e o período de inscrições de 01/03/2024 a 03/04/2024.",
+      "pesquisado_em": "2026-10-03T18:45:00.000Z",
+      "tentativas": 2
     },
     {
       "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
@@ -683,13 +686,13 @@
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
       "titulo": "Inova+Invest – Região Norte 2026",
-      "pesquisado_em": "2026-10-03T14:54:30.000Z",
-      "tentativas": 2,
-      "status": "fonte_primaria_nao_lida_pelo_app",
+      "pesquisado_em": "2026-10-03T18:45:00.000Z",
+      "tentativas": 3,
+      "status": "fonte_primaria_nao_lida_pelo_app_sem_alternativa",
       "fontes_examinadas": [
         "https://abvcap.com.br/programas/inova-invest/"
       ],
-      "bloqueio_ou_observacao": "Página oficial atual da ABVCAP identifica a edição Região Norte, convida à inscrição e define startups da região como público. O vínculo foi registrado, mas o verificador terminou com motivo sem_documentos/localizar_fonte_primaria; a ficha permanece pendente até haver uma fonte oficial legível pelo app."
+      "bloqueio_ou_observacao": "A página oficial atual da ABVCAP identifica a edição Região Norte, convida à inscrição e define startups da região como público, mas o app não extrai documentos dela. Não foi localizado PDF oficial alternativo da mesma edição; o automapeamento foi removido."
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/ceneon2026",
