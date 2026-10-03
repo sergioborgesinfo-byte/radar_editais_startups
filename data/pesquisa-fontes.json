@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T04:51:27.266Z",
+  "atualizado_em": "2026-10-03T05:42:07.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -468,6 +468,96 @@
         "https://www.portodigital.org/noticias/inscricoes-para-programas-early-stage-com-inscricoes-prorrogadas"
       ],
       "bloqueio_ou_observacao": "Fonte oficial confirma a prorrogação da Pré-Incubação e Incubação 2026.1 até 30/03/2026, sem alterar os prazos das outras trilhas."
+    },
+    {
+      "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
+      "titulo": "WOW oferece programa de aceleração 100% online para startups",
+      "status": "edicao_antiga_sem_fonte_primaria_localizada",
+      "fontes_examinadas": [
+        "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil"
+      ],
+      "bloqueio_ou_observacao": "Notícia de 01/06/2020. Não foi localizada página oficial sobrevivente da mesma seleção; programas posteriores da WOW não substituem esta ficha.",
+      "pesquisado_em": "2026-10-03T05:42:07.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups",
+      "titulo": "Facebook e Baita abrem segunda edição de programa de aceleração",
+      "status": "edicao_antiga_sem_fonte_primaria_localizada",
+      "fontes_examinadas": [
+        "https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups"
+      ],
+      "bloqueio_ou_observacao": "Não foi localizada fonte oficial sobrevivente da segunda edição Facebook/Baita; nenhuma edição posterior foi usada.",
+      "pesquisado_em": "2026-10-03T05:42:07.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
+      "titulo": "Potencia Ventures abre inscrições para programa de aceleração",
+      "status": "edicao_antiga_nao_substituida_por_2026",
+      "fontes_examinadas": [
+        "https://potenciaventures.net/potencia-up/"
+      ],
+      "bloqueio_ou_observacao": "A página oficial disponível é da terceira edição Potencia UP 2026 e informa que a segunda edição ocorreu em 2025. Ela não foi usada para substituir a edição antiga da ficha.",
+      "pesquisado_em": "2026-10-03T05:42:07.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://cedeprogram.com/startupventure",
+      "titulo": "Startup Venture — CEDE",
+      "status": "publico_nao_eh_startup",
+      "fontes_examinadas": [
+        "https://cedeprogram.com/startupventure"
+      ],
+      "bloqueio_ou_observacao": "Página oficial examinada: curso de empreendedorismo para estudantes de 14 a 18 anos, com taxa de participação. Não é chamada para startups constituídas.",
+      "pesquisado_em": "2026-10-03T05:42:07.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
+      "titulo": "BNDES Garagem abre novo ciclo para 100 negócios de impacto",
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://agenciadenoticias.bndes.gov.br/cultura/Em-novo-ciclo-BNDES-Garagem-abre-inscricoes-para-selecionar-ate-100-startups-de-impacto/",
+        "https://garagem.bndes.gov.br/"
+      ],
+      "bloqueio_ou_observacao": "Fontes oficiais do BNDES confirmam o Ciclo 2 da 3ª edição, lançado em 11/08/2025, seleção de até 100 negócios e cronograma com inscrições até 14/09/2025.",
+      "pesquisado_em": "2026-10-03T05:42:07.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
+      "titulo": "Mind The Bizz 2024.1",
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://www.portodigital.org/noticias/inscricoes-abertas-para-mind-the-bizz-2024-1"
+      ],
+      "bloqueio_ou_observacao": "Página oficial do Porto Digital confirma a edição Mind The Bizz 2024.1 e a prorrogação das inscrições até 03/04/2024.",
+      "pesquisado_em": "2026-10-03T05:42:07.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
+      "titulo": "Moove Solutions Lab",
+      "status": "edicao_antiga_sem_fonte_primaria_localizada",
+      "fontes_examinadas": [
+        "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho"
+      ],
+      "bloqueio_ou_observacao": "Ficha da primeira edição, de 2021, com prazo até 13 de julho. Não foi localizada fonte oficial sobrevivente da mesma edição.",
+      "pesquisado_em": "2026-10-03T05:42:07.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia",
+      "titulo": "Seleção de startups para o Parque Tecnológico da Bahia",
+      "status": "fonte_oficial_redirecionada_inacessivel",
+      "fontes_examinadas": [
+        "https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia",
+        "https://www.ba.gov.br/secti/modules/conteudo/conteudo.php?conteudo=23"
+      ],
+      "bloqueio_ou_observacao": "Notícia oficial de 01/12/2020 foi examinada, mas não traz prazo. O link da Secti redireciona para rota hoje inacessível ao leitor; não foi inferida data nem usada chamada posterior.",
+      "pesquisado_em": "2026-10-03T05:42:07.000Z",
+      "tentativas": 1
     }
   ]
 }
