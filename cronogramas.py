@@ -110,7 +110,7 @@ def prazo_documentado(texto,titulo):
                 trecho+='\n'+proxima
             else:break
         s=limpo(trecho)
-        rotulo=bool(re.match(r'^(?:data (?:final|inicio) de submissao|inscricoes\b|periodo (?:de |das )?inscricoes|encerramento (?:de |das )?inscricoes|prazo (?:para |de )?submissao|applications? (?:close|deadline|open)|application deadline|submission deadline)',limpo(linha)))
+        rotulo=bool(re.match(r'^(?:data (?:final|inicio) de submissao|(?:as\s+)?inscricoes\b|periodo (?:de |das )?inscricoes|encerramento (?:de |das )?inscricoes|prazo (?:para |de )?submissao|applications? (?:close|deadline|open)|application deadline|submission deadline)',limpo(linha)))
         if datas(linha) and re.match(r'^(?:\d|'+ '|'.join(MESES) +r')\b',limpo(linha)) and re.search(r'applications? (?:close|open)|application deadline',limpo(linha)):
             rotulo=True
         if not identidade(trecho,titulo) and not rotulo:continue
