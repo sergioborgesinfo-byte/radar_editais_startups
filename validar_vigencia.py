@@ -404,8 +404,17 @@ def main():
                        'programas.sebraestartups.com.br/in/' not in e['url'],
                        not oficial(e['url'])))[:80]
     def validar(e):
-        resultado = (validar_sebrae(e, agora) if 'programas.sebraestartups.com.br/in/' in e['url']
-                     else validar_oficial(e, agora))
+        fonte_mapeada = FONTES_OFICIAIS.get(e['url'], '')
+        if 'programas.sebraestartups.com.br/in/' in e['url']:
+            resultado = validar_sebrae(e, agora)
+        elif 'programas.sebraestartups.com.br/in/' in fonte_mapeada:
+            # A API estruturada também deve ser usada quando a ficha veio de
+            # uma notícia, mas a fonte primária descoberta é do Sebrae Startups.
+            resultado = validar_sebrae(dict(e, url=fonte_mapeada), agora)
+            resultado['url'] = e['url']
+            resultado['fonte_oficial'] = fonte_mapeada
+        else:
+            resultado = validar_oficial(e, agora)
         resultado.setdefault('titulo', e.get('titulo', ''))
         resultado['metodo_fontes'] = 'links-v2'
         resultado['metodo_leitura'] = 'cronogramas-v6'
