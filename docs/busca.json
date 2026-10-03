@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T12:55:00.317602-03:00",
+    "atualizado_em": "2026-10-03T12:57:08.859998-03:00",
     "examinadas": 145,
-    "abertas_publicadas": 8,
+    "abertas_publicadas": 9,
     "status": {
-      "aberta_confirmada": 11,
+      "aberta_confirmada": 12,
       "encerrada": 79,
-      "pendente_evidencia": 29,
+      "pendente_evidencia": 28,
       "pendente_acesso": 11,
       "pendente_fonte_oficial": 15
     },
@@ -6747,8 +6747,8 @@
       {
         "titulo": "Edital Inatel Startups - Seleção de Novos Projetos / Empresas",
         "url": "https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "aberta_confirmada",
+        "motivo": ""
       },
       {
         "titulo": "Baita Aceleradora abre inscrições para a turma 2022",
@@ -7077,12 +7077,6 @@
         "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado"
       },
       {
-        "titulo": "Edital Inatel Startups - Seleção de Novos Projetos / Empresas",
-        "url": "https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
         "titulo": "Baita Aceleradora abre inscrições para a turma 2022",
         "url": "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294",
         "status": "pendente_evidencia",
@@ -7113,9 +7107,9 @@
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 55,
-      "casos_com_tentativa_ia": 64,
-      "resolvidas_automaticamente": 89,
+      "pendencias_restantes": 54,
+      "casos_com_tentativa_ia": 63,
+      "resolvidas_automaticamente": 90,
       "revisoes_manuais": 1
     }
   }
