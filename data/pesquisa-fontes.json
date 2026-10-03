@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T09:49:30.000Z",
+  "atualizado_em": "2026-10-03T10:42:14.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -122,28 +122,28 @@
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
       "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
-      "pesquisado_em": "2026-10-03T09:49:30.000Z",
-      "tentativas": 3,
-      "status": "fonte_alternativa_localizada",
+      "pesquisado_em": "2026-10-03T10:42:14.000Z",
+      "tentativas": 4,
+      "status": "fonte_oficial_bloqueada_para_o_app",
       "fontes_examinadas": [
         "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
         "https://www.finep.gov.br/chamadas-publicas/chamadapublica/776",
         "https://www.finep.gov.br/e/chamada-publica/222684/755080"
       ],
-      "bloqueio_ou_observacao": "A URL legada da Finep redireciona para a rota canônica atual, que contém a mesma Rodada 2, público regional e prazo 2026-04-09T17:00. Mapeamento corrigido para evitar a checagem de robots da rota antiga."
+      "bloqueio_ou_observacao": "A página oficial confirma a mesma Rodada 2 e o prazo 2026-04-09T17:00, mas o robots.txt impede a leitura pelo app. Busca específica não localizou PDF ou endpoint oficial alternativo legível. O mapeamento foi removido para cumprir a regra de registrar somente fontes que o app possa ler."
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
       "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões",
-      "pesquisado_em": "2026-10-03T09:49:30.000Z",
-      "tentativas": 3,
-      "status": "fonte_alternativa_localizada",
+      "pesquisado_em": "2026-10-03T10:42:14.000Z",
+      "tentativas": 4,
+      "status": "fonte_oficial_bloqueada_para_o_app",
       "fontes_examinadas": [
         "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
         "https://www.finep.gov.br/chamadas-publicas/chamadapublica/776",
         "https://www.finep.gov.br/e/chamada-publica/222684/755080"
       ],
-      "bloqueio_ou_observacao": "A URL legada da Finep redireciona para a rota canônica atual, que contém a mesma Rodada 2, público regional e prazo 2026-04-09T17:00. Mapeamento corrigido para evitar a checagem de robots da rota antiga."
+      "bloqueio_ou_observacao": "A página oficial confirma a mesma Rodada 2 e o prazo 2026-04-09T17:00, mas o robots.txt impede a leitura pelo app. Busca específica não localizou PDF ou endpoint oficial alternativo legível. O mapeamento foi removido para cumprir a regra de registrar somente fontes que o app possa ler."
     },
     {
       "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
