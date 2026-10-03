@@ -45,6 +45,19 @@ class Cronogramas(unittest.TestCase):
     def test_ano_ausente_vinculado_edicao(self):
         r=prazo_documentado('Desafio Pantanal Tech 2026\nInscrições abertas até 17 de junho','Desafio Pantanal Tech 2026')
         self.assertEqual(r['fim'].date().isoformat(),'2026-06-17')
+    def test_ano_da_identificacao_oficial_completa_prazo(self):
+        texto=('EDITAL DE CHAMAMENTO PÚBLICO Nº 009/2026 - iNovaStartup Aceleração\n'
+               'Programa para seleção de startups de Nova Lima.\n'
+               'As inscrições vão até 18 de setembro.')
+        r=prazo_documentado(texto,'Nova Lima lança chamamento para aceleração de startups')
+        self.assertEqual(r['fim'].date().isoformat(),'2026-09-18')
+
+    def test_ano_de_publicacao_nao_completa_prazo(self):
+        texto=('Data de publicação da página: 2026-08-21\n'
+               'Nova Lima lança chamamento para aceleração de startups\n'
+               'As inscrições vão até 18 de setembro.')
+        self.assertIsNone(prazo_documentado(texto,'Nova Lima lança chamamento para aceleração de startups'))
+
     def test_ano_nao_presumido(self):
         self.assertIsNone(prazo_documentado('Desafio Pantanal Tech\nInscrições até 17 de junho','Desafio Pantanal Tech'))
     def test_resultado_nao_e_prazo(self):
