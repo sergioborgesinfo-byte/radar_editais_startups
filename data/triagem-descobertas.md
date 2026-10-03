@@ -6,7 +6,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 
 52 páginas individuais do catálogo Sebrae encontradas.
 
-## prioridade_verificacao: 478
+## prioridade_verificacao: 475
 
 - [Embraer Startup Program](http://embraer.com/corporate-innovation/embraer-startup-program/pt) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...](http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -68,7 +68,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Inscrições abertas para programa de internacionalização](https://caisdoporto.org/oportunidade-de-internacionalizacao-porto-digital) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Prêmio Impacta Mais 2026 recebe inscrições 16 de março – ABCR – Associação Brasileira de Captadores de Recursos](https://captadores.org.br/editais/premio-impacta-mais-2026-recebe-inscricoes-16-de-marco) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [CBA lança edital de fluxo contínuo para atrair startups e empresas inovadoras voltadas à bioeconomia amazônica - CBA](https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Startup Venture Challenge - CEDE Program for High Schools](https://cedeprogram.com/startupventure) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ](https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Três startups do CRIO são selecionadas para programa de aceleração - Circulando.net](https://circulando.net/artigo/tres-startups-do-crio-sao-selecionadas-para-programa-de-aceleracao) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [REGULAMENTO PROGRAMA DE ACELERAÇÃO CITZ. ...](https://citztech.com.br/wp-content/uploads/2024/08/Regulamento-CitzTech-2-14-08-2024.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -358,7 +357,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Citz.tech: programa de aceleração de startups voltado à cidadania e transparência](https://via.ufsc.br/conheca-o-citz-tech) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Rio.IA - 1º Edital do Programa de Inovação Aberta](https://videos.ecoa.puc-rio.br/rioia-1o-edital-do-programa-de-inovacao-aberta) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Aceleração de startups no Brasil: evidências de impacto do ...](https://web.bndes.gov.br/bib/jspui/bitstream/1408/29307/1/PRArt_216962_RAE%20n.%2022_Acelera%C3%A7%C3%A3o%20de%20startups%20no%20Brasil.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo](https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Aceleradora](https://www.2gether-international.org/pt/lac/aceleradora) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Desafios de negócios inovabra hub: participe do programa de inovação que conecta startups a grandes empresas - ACATE](https://www.acate.com.br/blog-da-acate/desafios-de-negocios-inovabra-hub-participe-do-programa-de-inovacao-que-conecta-startups-a-grandes-empresas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [BNDES Garagem tem inscrições abertas até sexta-feira, 12 de maio - ACATE](https://www.acate.com.br/noticias/bndes-garagem-inscricoes) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -402,7 +400,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ...](https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/EditalGranioterAcelera2026) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [edital-incubadora-inpa-atualizado.pdf - Portal Gov.br](https://www.gov.br/inpa/pt-br/inovacao/documentos/edital-incubadora-inpa-atualizado.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Plano de Trabalho Programa Prioritário de Fomento ao ...](https://www.gov.br/suframa/pt-br/assuntos/pdi/modalidades/pps/content/PlanodeTrabalhoPPEI20242026.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [How to Disable Startup Programs in Windows](https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [BID | Cinco empresas “startup” de América Latina avanzan a los finales de la competencia global “1776 Challenge Cup”](https://www.iadb.org/es/noticias/cinco-empresas-startup-de-america-latina-avanzan-los-finales-de-la-competencia-global-1776-challenge) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Feira BIEMH | Inscrições até 21 de março - IAPMEI](https://www.iapmei.pt/pt/comunicacao/noticias/feira-biemh-inscricoes-ate-21-de-marco) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Arranca el programa “DESAFÍA San Francisco”, enfocado por primera vez a startups lideradas por mujeres](https://www.icex.es/es/radar-icex-mercados-y-oportunidades-internacionales/claves-para-exportar/mujer-internacionalizacion/al-dia/arranca-programa-desafia-sanfrancisco-enfocado-primera-vez-startups-lideradas-mujeres) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -1406,9 +1403,12 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Gerdau e FIEMG Lab apresentam resultados do programa de inovação aberta | Gerdau Brasil](https://www2.gerdau.com.br/noticias/gerdau-e-fiemg-lab-apresentam-resultados-do-programa-de-inovacao-aberta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Anprotec (@Anprotec) / X](https://x.com/Anprotec) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
-## fora_escopo: 3
+## fora_escopo: 6
 
 - [Chamada Pública para Seleção de Fundo de Investimento em Participações – FIP Conexões Startups – 2026](http://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/chamadas-publicas-para-selecao-de-fundos/fip-conexoes-startups-2026) — Seleção de fundo ou gestor; participação direta de startups não demonstrada.
 - [ANÁLISE CRÍTICA DA METODOLOGIA LEAN STARTUP ...](http://www.monografias.poli.ufrj.br/monografias/monopoli10032351.pdf) — Conteúdo acadêmico sobre startups, não anúncio de participação.
+- [Startup Venture Challenge - CEDE Program for High Schools](https://cedeprogram.com/startupventure) — Inicialização de computador, competição escolar ou seleção de pessoa bolsista; não é candidatura de startup.
 - [Deeptech Doroth capta R$ 23M em rodada liderada pela Loccus - Startups](https://startups.com.br/negocios/rodada-de-investimento/deeptehc-doroth-capta-r-23m-em-rodada-liderada-pela-loccus) — Notícia de mercado, contratação ou transação, sem chamada identificada no título.
+- [Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo](https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista) — Inicialização de computador, competição escolar ou seleção de pessoa bolsista; não é candidatura de startup.
+- [How to Disable Startup Programs in Windows](https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows) — Inicialização de computador, competição escolar ou seleção de pessoa bolsista; não é candidatura de startup.
 

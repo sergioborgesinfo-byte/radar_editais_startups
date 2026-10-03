@@ -1744,5 +1744,80 @@
       "evidencia_ano": "Edital 01/2026",
       "motivo": "O processo seletivo encontra-se encerrado, pois a página já apresenta o resultado final do edital de seleção de bolsista."
     }
+  },
+  "42cb70b01842bfb303c4f0073efe7ff5873d8808c625c52f88cd8bd0db766fcf": {
+    "em": "2026-10-03T17:45:03.640585-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais/",
+      "evidencia_identidade": "Jornada de Inovação Aberta",
+      "evidencia": "Jornada de Inovação Aberta do Sebrae recebe inscrições até 31 de julho e prevê projetos-piloto com 30 corporações",
+      "fim": "2026-07-31",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "28/07/2026",
+      "motivo": "A oportunidade de Jornada de Inovação Aberta possui prazo de inscrições explicitamente definido até 31 de julho de 2026."
+    },
+    "versao_validador": "evidencias-v2"
+  },
+  "a0dd2075dfd2f38719fde0030bf07727ca90514c886d7d30a28f1fb47adab458": {
+    "em": "2026-10-03T17:45:03.640585-03:00",
+    "resposta": {
+      "situacao": "sem_prazo",
+      "fonte": "https://cloud.google.com/startup?utm_source=creditforstartups.com&utm_medium=referral&utm_campaign=directory",
+      "evidencia_identidade": "Early stage startups can get up to $350,000 in Cloud credits through the Google for Startups Cloud Program",
+      "evidencia": "Apply now",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": null,
+      "motivo": "O programa está aberto para inscrições contínuas (Apply now) sem menção a uma data específica de encerramento nos documentos fornecidos."
+    },
+    "versao_validador": "evidencias-v2"
+  },
+  "a6c6254b3fc610c765353d3aabb3f7d8f1143e6b174f0f20932cbca19be4d11b": {
+    "em": "2026-10-03T17:45:03.640585-03:00",
+    "resposta": {
+      "situacao": "sem_prazo",
+      "fonte": "https://cloud.google.com/startup/benefits?hl=pt-BR",
+      "evidencia_identidade": "Programa para Startups do Google Cloud",
+      "evidencia": "Inscreva-se agora",
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": null,
+      "motivo": "O programa possui chamadas abertas continuamente para inscrição através de botões 'Inscreva-se agora' sem menção a datas específicas de encerramento nas páginas fornecidas."
+    },
+    "versao_validador": "evidencias-v2"
+  },
+  "50851d21c716e6fd7ad69c2011a8661ce648b3a22a9f7a0566a88aac7647fff3": {
+    "em": "2026-10-03T17:45:03.640585-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
+      "evidencia_identidade": "Desafio COB de Startups",
+      "evidencia": "Interessados em fazer parte do processo têm até a próxima sexta-feira, 8 de agosto, para se registrar",
+      "fim": "2025-08-08",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "5 de ago, 2025",
+      "motivo": "O prazo de inscrição encerra-se explicitamente em 8 de agosto de 2025, conforme informado no documento."
+    },
+    "versao_validador": "evidencias-v2"
+  },
+  "6fd012244d60510defe22a4a032e2f330872194930fc71acd4ff6c449f911acc": {
+    "em": "2026-10-03T17:45:03.640585-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://garagem.bndes.gov.br/",
+      "evidencia_identidade": "BNDES Garagem abre inscrições para programa de aceleração de startups e negócios de impacto",
+      "evidencia": "Inscrições\naté 14.09.25",
+      "fim": "2025-09-14",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "14.09.25",
+      "motivo": "As inscrições para o programa encerraram em 14 de setembro de 2025."
+    },
+    "versao_validador": "evidencias-v2"
   }
 }

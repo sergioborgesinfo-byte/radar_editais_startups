@@ -1,13 +1,13 @@
 {
-  "executado_em": "2026-10-03T14:10:10.034390+00:00",
+  "executado_em": "2026-10-03T20:44:35.064433+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
   "links_recebidos": 1395,
   "paginas_agrupadas": 1394,
   "duplicacoes_de_url": 1,
   "contagem": {
-    "prioridade_verificacao": 478,
+    "prioridade_verificacao": 475,
     "revisar_contexto": 837,
-    "fora_escopo": 3,
+    "fora_escopo": 6,
     "fonte_catalogo": 76
   },
   "programas_sebrae": 52,
@@ -1135,8 +1135,8 @@
     {
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "url": "https://cedeprogram.com/startupventure",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "fora_escopo",
+      "motivo": "Inicialização de computador, competição escolar ou seleção de pessoa bolsista; não é candidatura de startup",
       "links_equivalentes": [
         "https://cedeprogram.com/startupventure"
       ],
@@ -8276,8 +8276,8 @@
     {
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "url": "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "fora_escopo",
+      "motivo": "Inicialização de computador, competição escolar ou seleção de pessoa bolsista; não é candidatura de startup",
       "links_equivalentes": [
         "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista"
       ],
@@ -9816,8 +9816,8 @@
     {
       "titulo": "How to Disable Startup Programs in Windows",
       "url": "https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "categoria": "fora_escopo",
+      "motivo": "Inicialização de computador, competição escolar ou seleção de pessoa bolsista; não é candidatura de startup",
       "links_equivalentes": [
         "https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows"
       ],

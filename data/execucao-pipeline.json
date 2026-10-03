@@ -1,0 +1,96 @@
+{
+  "iniciada_em": "2026-10-03T20:44:29.178465+00:00",
+  "status": "concluida",
+  "etapas": [
+    {
+      "nome": "catalogos",
+      "status": "concluida",
+      "resultado": {
+        "fontes_visitadas": 2,
+        "candidatos_novos": 0,
+        "falhas_leitura": 0,
+        "chamadas_api_busca": 0
+      },
+      "segundos": 5.8
+    },
+    {
+      "nome": "triagem",
+      "status": "concluida",
+      "resultado": null,
+      "segundos": 0.1
+    },
+    {
+      "nome": "conteudo",
+      "status": "concluida",
+      "resultado": null,
+      "segundos": 28.4
+    },
+    {
+      "nome": "fontes",
+      "status": "concluida",
+      "resultado": {
+        "consultas": 1,
+        "fontes_encontradas": 0,
+        "motivo": "busca_cota_em_pausa"
+      },
+      "segundos": 0.2
+    },
+    {
+      "nome": "vigencia",
+      "status": "concluida",
+      "resultado": null,
+      "segundos": 467.9
+    }
+  ],
+  "casos_concluidos_nesta_rodada": 3,
+  "concluidos_por_resultado": {
+    "fora_escopo": 3
+  },
+  "casos_reabertos": 1,
+  "saldo_abertas": -1,
+  "finalizada_em": "2026-10-03T20:52:51.516265+00:00",
+  "houve_avanco": true,
+  "ultimo_avanco_em": "2026-10-03T20:52:51.516265+00:00",
+  "ia": {
+    "chamadas": 8,
+    "limite": 8,
+    "por_etapa": {
+      "conteudo": 3,
+      "vigencia": 5
+    },
+    "bloqueio": "orcamento_execucao_esgotado"
+  },
+  "contagem": {
+    "conteudo": {
+      "pendente_leitura": 255,
+      "confirmada_no_conteudo": 96,
+      "pendente_evidencia": 55,
+      "nao_confirmada_no_texto": 16,
+      "pendente_ia": 136,
+      "fora_escopo": 3
+    },
+    "vigencia": {
+      "aberta_confirmada": 11,
+      "encerrada": 83,
+      "pendente_evidencia": 26,
+      "pendente_acesso": 8,
+      "pendente_fonte_oficial": 14,
+      "fora_escopo": 3
+    },
+    "abertas_publicadas": 8,
+    "fila_inicial": {
+      "total_inicial": 78,
+      "resolvidas": 33,
+      "resolvidas_automaticamente": 33,
+      "revisoes_manuais": 0,
+      "pendentes": 45,
+      "por_resultado": {
+        "aberta_confirmada": 1,
+        "encerrada": 30,
+        "ainda_nao_aberta": 0,
+        "fora_escopo": 2
+      }
+    }
+  },
+  "motivo_sem_avanco": null
+}
