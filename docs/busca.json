@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T09:48:15.735107-03:00",
+    "atualizado_em": "2026-10-03T10:49:03.474003-03:00",
     "examinadas": 139,
     "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 10,
-      "encerrada": 77,
-      "pendente_evidencia": 27,
+      "encerrada": 79,
+      "pendente_evidencia": 25,
       "pendente_acesso": 11,
       "pendente_fonte_oficial": 14
     },
@@ -6243,8 +6243,8 @@
       {
         "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
         "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
@@ -6705,8 +6705,8 @@
       {
         "titulo": "BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi",
         "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Manifestação de Interesse - SIM Conference",
@@ -6763,12 +6763,6 @@
         "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
         "status": "pendente_evidencia",
         "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
-        "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
@@ -7023,12 +7017,6 @@
         "motivo": "fonte_oficial_indisponivel"
       },
       {
-        "titulo": "BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi",
-        "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
         "titulo": "Manifestação de Interesse - SIM Conference",
         "url": "https://startupmadeira.eu/2024/03/27/manifestacao-de-interesse-sim-conference",
         "status": "pendente_evidencia",
@@ -7049,19 +7037,19 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 26,
-      "resolvidas_automaticamente": 26,
+      "resolvidas": 28,
+      "resolvidas_automaticamente": 28,
       "revisoes_manuais": 0,
-      "pendentes": 52
+      "pendentes": 50
     },
     "ia": {
       "chamadas": 0,
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 52,
-      "casos_com_tentativa_ia": 60,
-      "resolvidas_automaticamente": 86,
+      "pendencias_restantes": 50,
+      "casos_com_tentativa_ia": 59,
+      "resolvidas_automaticamente": 88,
       "revisoes_manuais": 1
     }
   }
