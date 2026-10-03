@@ -44,7 +44,9 @@ def ler_texto(ctype, bruto):
     titulo=sopa.find('h1')
     artigo=titulo.find_parent('article') if titulo else None
     if artigo and len(artigo.get_text(' ',strip=True))<400:artigo=None
-    raiz=artigo or sopa.find('main') or max(sopa.find_all('article'), key=lambda t:len(t.get_text()), default=sopa)
+    corpos=sopa.select('[itemprop="articleBody"], .entry-content, .elementor-widget-theme-post-content')
+    corpo=max(corpos,key=lambda t:len(t.get_text()),default=None)
+    raiz=corpo or artigo or sopa.find('main') or max(sopa.find_all('article'), key=lambda t:len(t.get_text()), default=sopa)
     cabecalho=[]
     if titulo and titulo not in raiz.descendants:
         cabecalho.append(titulo.get_text(' ',strip=True))

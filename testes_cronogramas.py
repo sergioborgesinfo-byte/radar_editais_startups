@@ -3,6 +3,12 @@ from datetime import datetime
 from cronogramas import datas, prazo_documentado, FUSO
 
 class Cronogramas(unittest.TestCase):
+    def test_corpo_wordpress_prevalece_sobre_artigos_relacionados(self):
+        from cronogramas import ler_texto
+        html=b'<h1>Programa Centelha 2026</h1><div class="elementor-widget-theme-post-content"><p>Inscricoes ate 23/04/2026.</p></div><article>Programa Centelha inscricoes ate 10/01/2027.</article>'
+        t=ler_texto('text/html',html)
+        self.assertNotIn('2027',t)
+        self.assertEqual(prazo_documentado(t,'Programa Centelha 2026')['fim'].date().isoformat(),'2026-04-23')
     def test_article_so_com_titulo_nao_oculta_corpo_irmao(self):
         from cronogramas import ler_texto
         t=ler_texto('text/html',b'<main><article><h1>Novo SEED 2026</h1></article><div><p>Data Final de Submissao de Propostas: 23/04/2026</p></div></main>')
