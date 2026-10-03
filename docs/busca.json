@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T23:54:49.778875-03:00",
+    "atualizado_em": "2026-10-03T00:48:59.934725-03:00",
     "examinadas": 139,
-    "abertas_publicadas": 9,
+    "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 10,
       "encerrada": 74,
-      "pendente_evidencia": 25,
+      "pendente_evidencia": 27,
       "pendente_acesso": 11,
-      "pendente_fonte_oficial": 19
+      "pendente_fonte_oficial": 17
     },
     "resultados": [
       {
@@ -6483,8 +6483,8 @@
       {
         "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
         "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups – ConvergenciaDigital",
@@ -6513,8 +6513,8 @@
       {
         "titulo": "Programa de aceleração para startups do Nordeste abre inscrições",
         "url": "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "BNDES Garagem abre inscrições para programa de aceleração de startups e negócios de impacto | Exame",
@@ -6869,8 +6869,8 @@
       {
         "titulo": "Aceleração para Internacionalização de Negócios Inovadores - Holanda, Espanha e Portugal",
         "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups – ConvergenciaDigital",
@@ -6899,8 +6899,8 @@
       {
         "titulo": "Programa de aceleração para startups do Nordeste abre inscrições",
         "url": "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml",
-        "status": "pendente_fonte_oficial",
-        "motivo": "localizar_fonte_primaria"
+        "status": "pendente_evidencia",
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "BNDES Garagem abre inscrições para programa de aceleração de startups e negócios de impacto | Exame",

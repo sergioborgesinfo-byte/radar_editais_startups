@@ -1618,5 +1618,33 @@
       "evidencia_ano": "BRDE Labs RS 2026",
       "motivo": "As inscrições para o programa foram prorrogadas até o dia 22 de maio de 2026, conforme informado no documento oficial."
     }
+  },
+  "0e8c83b697d04ceb9e257b3c1bb67406d1e83e4d84fb54d4be06829253e2e1fc": {
+    "em": "2026-10-03T00:48:16.913533-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://www.feevale.br/acontece/noticias/startups-ganham-mais-prazo-para-se-inscreverem-no-brde-labs",
+      "evidencia_identidade": "Empreendedores de toda a região Sul do país interessados em participar do BRDE Labs RS 2026 ganharam um prazo extra para a inscrição.",
+      "evidencia": "Agora, as startups em fase de operação e tração têm até o dia 22 de maio para buscar uma vaga na sétima edição do programa do Banco Regional de Desenvolvimento do Extremo Sul (BRDE), que tem, novamente, a parceria da Universidade Feevale, por meio do Feevale Techpark.",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "fim": "2026-05-22",
+      "evidencia_ano": "BRDE Labs RS 2026",
+      "motivo": "As inscrições para o BRDE Labs RS 2026 foram prorrogadas e o prazo final foi estabelecido para 22 de maio de 2026."
+    }
+  },
+  "5bb727b1243006ba6d60bf48893c62a96e1a5df241cd1cc81b44050f3f34d3cf": {
+    "em": "2026-10-03T00:48:16.913533-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/oportunidade-sebrae-minas-abre-editais-para-programa-de-aceleracao-de-startups-na-europa-e-imersao-em-dubai/",
+      "evidencia_identidade": "Programa de Aceleração para Internacionalização de Startups",
+      "evidencia": "As inscrições gratuitas podem ser feitas até o dia 22 de agosto , pelo site.",
+      "fim": "2025-08-22",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "06/08/2025",
+      "motivo": "O documento estabelece claramente que as inscrições para o programa de aceleração na Europa podem ser feitas até o dia 22 de agosto de 2025."
+    }
   }
 }
