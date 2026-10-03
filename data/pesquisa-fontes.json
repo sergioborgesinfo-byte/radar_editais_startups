@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T00:56:12.058Z",
+  "atualizado_em": "2026-10-03T01:50:18.980Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -94,6 +94,104 @@
         "https://www2.gerdau.com.br/"
       ],
       "bloqueio_ou_observacao": "Notícia de 2025 examinada. Link Conecta Caldeira falhou e Gerdau retornou 403. Resultado encontrado de 2024 trata de gestão orçamentária, outro desafio, descartado."
+    },
+    {
+      "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
+      "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
+      "pesquisado_em": "2026-10-03T01:50:18.980Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://portugal.gov.pt/pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
+        "https://startupportugal.com/pt/programs/tech-foundry-portugal-deep-tech-edition-pt/"
+      ],
+      "bloqueio_ou_observacao": "Programa Tech Foundry Portugal Deep Tech Edition 2026 confirmado na página da organizadora; mesma edição e público."
+    },
+    {
+      "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
+      "titulo": "UFT abre seleção para programa de pré-incubação ...",
+      "pesquisado_em": "2026-10-03T01:50:18.980Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
+        "https://docs.uft.edu.br/share/proxy/alfresco-noauth/api/internal/shared/node/8hmRCWCsQ8a_pvpCWesbTQ/content/Edital%20N%C2%BA%2042-2026%20UFT%20Startups.pdf"
+      ],
+      "bloqueio_ou_observacao": "Edital 42/2026 da UFT, cinco páginas com texto extraível, confirma Programa UFT Startups e região Tocantins."
+    },
+    {
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
+      "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
+      "pesquisado_em": "2026-10-03T01:50:18.980Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
+        "https://www.finep.gov.br/chamadas-publicas/chamadapublica/776"
+      ],
+      "bloqueio_ou_observacao": "Chamada oficial Finep Mais Inovação Brasil Rodada 2, R$ 300 milhões, regiões Norte, Nordeste e Centro-Oeste."
+    },
+    {
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
+      "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões",
+      "pesquisado_em": "2026-10-03T01:50:18.980Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
+        "https://www.finep.gov.br/chamadas-publicas/chamadapublica/776"
+      ],
+      "bloqueio_ou_observacao": "Mesma seleção Finep da outra notícia; vinculada à chamada oficial sem criar edição nova."
+    },
+    {
+      "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
+      "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
+      "pesquisado_em": "2026-10-03T01:50:18.980Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
+        "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao/"
+      ],
+      "bloqueio_ou_observacao": "Edital oficial FAPESC 31/2026, Acelera Startup SC 6ª edição, mesma edição e região."
+    },
+    {
+      "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
+      "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
+      "pesquisado_em": "2026-10-03T01:50:18.980Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
+        "https://sementenegocios.com.br/sebraeinovacaoaberta/solucoes/"
+      ],
+      "bloqueio_ou_observacao": "Página do operador da Jornada de Inovação Aberta Sebrae encontrada e aberta; corresponde ao programa nacional citado pela notícia."
+    },
+    {
+      "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
+      "titulo": "Programa de Aceleração #GoHard15 da Ventiur",
+      "pesquisado_em": "2026-10-03T01:50:18.980Z",
+      "tentativas": 1,
+      "status": "edicao_antiga_sem_fonte_alternativa",
+      "fontes_examinadas": [
+        "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
+        "https://www.ventiur.net/gohard15/"
+      ],
+      "bloqueio_ou_observacao": "Página examinada identifica #GoHard15 e publicação de 24/03/2022. Destino da Ventiur não ficou disponível como fonte legível; não substituir por programa atual."
+    },
+    {
+      "url": "https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993",
+      "titulo": "Darwin Startups abre inscrições para programa de aceleração",
+      "pesquisado_em": "2026-10-03T01:50:18.980Z",
+      "tentativas": 1,
+      "status": "edicao_antiga_sem_fonte_alternativa",
+      "fontes_examinadas": [
+        "https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993",
+        "https://www.darwinstartups.com/",
+        "https://www.darwinstartups.com/icmlab",
+        "https://www.darwinstartups.com/batch15"
+      ],
+      "bloqueio_ou_observacao": "Ficha original é turma 11 de 2021. ICM Lab 2026 é oportunidade diferente e foi registrada separadamente; Batch 15 já informa inscrições encerradas."
     }
   ]
 }
