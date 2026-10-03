@@ -43,6 +43,7 @@ def ler_texto(ctype, bruto):
     # Um article que contém o título é a notícia; cartões não substituem o main.
     titulo=sopa.find('h1')
     artigo=titulo.find_parent('article') if titulo else None
+    if artigo and len(artigo.get_text(' ',strip=True))<400:artigo=None
     raiz=artigo or sopa.find('main') or max(sopa.find_all('article'), key=lambda t:len(t.get_text()), default=sopa)
     cabecalho=[]
     if titulo and titulo not in raiz.descendants:

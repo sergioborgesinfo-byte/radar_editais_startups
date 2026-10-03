@@ -3,9 +3,13 @@ from datetime import datetime
 from cronogramas import datas, prazo_documentado, FUSO
 
 class Cronogramas(unittest.TestCase):
+    def test_article_so_com_titulo_nao_oculta_corpo_irmao(self):
+        from cronogramas import ler_texto
+        t=ler_texto('text/html',b'<main><article><h1>Novo SEED 2026</h1></article><div><p>Data Final de Submissao de Propostas: 23/04/2026</p></div></main>')
+        self.assertEqual(prazo_documentado(t,'Novo SEED 2026')['fim'].date().isoformat(),'2026-04-23')
     def test_noticia_nao_usa_prazo_de_cartao_de_outra_edicao(self):
         from cronogramas import ler_texto
-        html=b'<main><article><h1>Desafio COB de Startups ja soma mais de 100 inscricoes</h1><p>Inscricoes encerradas em 08/08/2025.</p></article><article>Desafio COB de Startups recebe inscricoes ate 10/01/2027.</article></main>'
+        html=('<main><article><h1>Desafio COB de Startups ja soma mais de 100 inscricoes</h1><p>Inscricoes encerradas em 08/08/2025.</p><p>'+('Descricao do programa. '*20)+'</p></article><article>Desafio COB de Startups recebe inscricoes ate 10/01/2027.</article></main>').encode()
         t=ler_texto('text/html',html)
         self.assertNotIn('2027',t)
         self.assertEqual(prazo_documentado(t,'Desafio COB de Startups ja soma mais de 100 inscricoes')['fim'].date().isoformat(),'2025-08-08')

@@ -243,8 +243,9 @@ def validar_oficial(registro, agora, ler=None):
         for m in re.finditer(padrao, texto, re.I):
             candidatos.append((data_literal(m.group(0)), m.group(0)))
     candidatos = [(d,x) for d,x in candidatos if d]
-    continuo = next((' '.join(trechos[max(0,i-3):i+1]) for i,x in enumerate(trechos)
-                     if prazo_da_oportunidade(' '.join(trechos[max(0,i-3):i+1]), titulo)
+    blocos=[x.strip() for x in texto.split('\n') if x.strip()]
+    continuo = next((' '.join(blocos[max(0,i-1):i+1]) for i,x in enumerate(blocos)
+                     if prazo_da_oportunidade(' '.join(blocos[max(0,i-1):i+1]), titulo)
                      and re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
     if not candidatos and not continuo:
         return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
