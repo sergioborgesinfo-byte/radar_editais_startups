@@ -11,3 +11,9 @@ docs/*.db-*
 docs/editais-anterior.json
 docs/editais-recuperados.json
 docs/index-backup-*.html
+
+# Backups e arquivos locais (não versionar)
+_arquivo_docs/
+docs/_arquivo_docs/
+radar.py.bak-*
+data/radar.db
