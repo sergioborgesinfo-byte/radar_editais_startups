@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T02:46:00.906536-03:00",
+    "atualizado_em": "2026-10-03T03:55:37.913290-03:00",
     "examinadas": 139,
     "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 10,
-      "encerrada": 74,
-      "pendente_evidencia": 28,
+      "encerrada": 75,
+      "pendente_evidencia": 27,
       "pendente_acesso": 13,
       "pendente_fonte_oficial": 14
     },
@@ -6669,8 +6669,8 @@
       {
         "titulo": "Missão brasileira abre inscrições para levar 100 startups ...",
         "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/missao-brasileira-abre-inscricoes-para-levar-100-startups-ao-web-summit-lisboa",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Programa de Pré-aceleração Start&Up está com inscrições abertas - Senai MT - Serviço Nacional de Aprendizagem Industrial",
@@ -6706,7 +6706,7 @@
         "titulo": "BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi",
         "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
         "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Manifestação de Interesse - SIM Conference",
@@ -7005,12 +7005,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Missão brasileira abre inscrições para levar 100 startups ...",
-        "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/missao-brasileira-abre-inscricoes-para-levar-100-startups-ao-web-summit-lisboa",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
         "titulo": "Programa de Pré-aceleração Start&Up está com inscrições abertas - Senai MT - Serviço Nacional de Aprendizagem Industrial",
         "url": "https://senaimt.ind.br/para-industria/1901/pre-aceleracao-startup",
         "status": "pendente_fonte_oficial",
@@ -7044,7 +7038,7 @@
         "titulo": "BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi",
         "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
         "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Manifestação de Interesse - SIM Conference",
@@ -7067,19 +7061,19 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 23,
-      "resolvidas_automaticamente": 23,
+      "resolvidas": 24,
+      "resolvidas_automaticamente": 24,
       "revisoes_manuais": 0,
-      "pendentes": 55
+      "pendentes": 54
     },
     "ia": {
       "chamadas": 0,
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 55,
-      "casos_com_tentativa_ia": 61,
-      "resolvidas_automaticamente": 83,
+      "pendencias_restantes": 54,
+      "casos_com_tentativa_ia": 60,
+      "resolvidas_automaticamente": 84,
       "revisoes_manuais": 1
     }
   }
