@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-03T14:36:27.784327-03:00",
+  "atualizado_em": "2026-10-03T14:53:28.634973-03:00",
   "leitura_navegador": {
     "tentativas": 3,
     "sucessos": 0,
@@ -11,9 +11,9 @@
     "falhas_temporarias": [],
     "limite": 8,
     "parada": null,
-    "pendencias_restantes": 54,
-    "casos_com_tentativa_ia": 64,
-    "resolvidas_automaticamente": 90,
+    "pendencias_restantes": 51,
+    "casos_com_tentativa_ia": 61,
+    "resolvidas_automaticamente": 93,
     "revisoes_manuais": 1
   },
   "itens": [
@@ -505,7 +505,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.250338-03:00"
+      "verificado_em": "2026-10-03T14:53:08.319224-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -635,15 +635,14 @@
     },
     {
       "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
+      "status": "encerrada",
+      "prazo_iso": "2026-08-21T23:59:59-03:00",
+      "evidencia_prazo": "data_final_date=1787367599000",
+      "fonte_oficial": "https://programas.sebraestartups.com.br/in/acelerastartups",
       "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:09.964987-03:00",
-      "ia_tentada_em": "2026-10-03T14:36:19.856356-03:00",
-      "ia_metodo": "gemini-v7",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-03T14:53:07.742853-03:00"
     },
     {
       "url": "https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia",
@@ -883,7 +882,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.153786-03:00"
+      "verificado_em": "2026-10-03T14:53:07.657543-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -994,21 +993,20 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-03T14:36:19.927239-03:00",
-      "ia_tentada_em": "2026-10-03T14:36:19.927227-03:00",
+      "verificado_em": "2026-10-03T14:53:15.832367-03:00",
+      "ia_tentada_em": "2026-10-03T14:53:15.832353-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
+      "status": "encerrada",
+      "prazo_iso": "2024-03-24T23:59:59-03:00",
+      "evidencia_prazo": "data_final_date=1711335599000",
+      "fonte_oficial": "https://programas.sebraestartups.com.br/in/deeplabbio4",
       "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:09.972643-03:00",
-      "ia_tentada_em": "2026-10-03T14:36:19.934742-03:00",
-      "ia_metodo": "gemini-v7",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-03T14:53:07.762084-03:00"
     },
     {
       "url": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
@@ -1077,8 +1075,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.050522-03:00",
-      "ia_tentada_em": "2026-10-03T14:36:20.573541-03:00",
+      "verificado_em": "2026-10-03T14:53:07.732883-03:00",
+      "ia_tentada_em": "2026-10-03T14:53:20.494840-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "evidencia_insuficiente"
     },
@@ -1135,7 +1133,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.173774-03:00"
+      "verificado_em": "2026-10-03T14:53:07.882766-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1144,7 +1142,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:12.855490-03:00"
+      "verificado_em": "2026-10-03T14:53:10.489997-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1153,7 +1151,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:19.844955-03:00"
+      "verificado_em": "2026-10-03T14:53:15.755402-03:00"
     },
     {
       "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
@@ -1227,7 +1225,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.206257-03:00"
+      "verificado_em": "2026-10-03T14:53:08.048708-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1264,7 +1262,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.480213-03:00"
+      "verificado_em": "2026-10-03T14:53:08.236100-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1306,7 +1304,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.250462-03:00"
+      "verificado_em": "2026-10-03T14:53:08.236213-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -1384,8 +1382,8 @@
       "evidencia_edicao": "Early stage startups can get up to $350,000 in Cloud credits through the Google for Startups Cloud Program",
       "evidencia_publico": "Built for Brazilian founders. Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.",
       "modalidade_inscricao": "candidatura_sem_prazo",
-      "verificado_em": "2026-10-03T14:36:21.994104-03:00",
-      "ia_tentada_em": "2026-10-03T14:36:21.994092-03:00",
+      "verificado_em": "2026-10-03T14:53:24.364767-03:00",
+      "ia_tentada_em": "2026-10-03T14:53:24.364750-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
@@ -1395,8 +1393,8 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.670837-03:00",
-      "ia_tentada_em": "2026-10-03T14:36:27.727450-03:00",
+      "verificado_em": "2026-10-03T14:53:12.065676-03:00",
+      "ia_tentada_em": "2026-10-03T14:53:28.584979-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "evidencia_insuficiente"
     },
@@ -1407,7 +1405,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.676224-03:00"
+      "verificado_em": "2026-10-03T14:53:08.637153-03:00"
     },
     {
       "url": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
@@ -1499,15 +1497,14 @@
     },
     {
       "url": "https://alertaeditais.com.br/edital/south-summit-brazil-2026-exposicao-de-startup-w083r",
+      "status": "encerrada",
+      "prazo_iso": "2026-01-25T23:59:59-03:00",
+      "evidencia_prazo": "data_final_date=1769396399000",
+      "fonte_oficial": "https://programas.sebraestartups.com.br/in/south-summit-brazil-2026---exposi%C3%A7%C3%A3o-de-startups-ga%C3%BAchas-1768484451965x681111351935545900",
       "titulo": "South Summit Brazil 2026 - Exposição de Startups Gaúchas",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.720552-03:00",
-      "ia_tentada_em": "2026-10-03T14:36:27.735394-03:00",
-      "ia_metodo": "gemini-v7",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-03T14:53:08.923360-03:00"
     },
     {
       "url": "https://exame.com/pme/programas-de-aceleracao-para-startups",
@@ -1540,7 +1537,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:11.060580-03:00"
+      "verificado_em": "2026-10-03T14:53:09.279713-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1702,17 +1699,17 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T14:36:10.784089-03:00",
-      "ia_tentada_em": "2026-10-03T14:36:27.784183-03:00",
+      "verificado_em": "2026-10-03T14:53:09.329960-03:00",
+      "ia_tentada_em": "2026-10-03T14:53:28.634783-03:00",
       "ia_metodo": "gemini-v7",
       "motivo_ia": "sem_documentos"
     }
   ],
   "fila_prioritaria": {
     "total_inicial": 78,
-    "resolvidas": 28,
-    "resolvidas_automaticamente": 28,
+    "resolvidas": 31,
+    "resolvidas_automaticamente": 31,
     "revisoes_manuais": 0,
-    "pendentes": 50
+    "pendentes": 47
   }
 }

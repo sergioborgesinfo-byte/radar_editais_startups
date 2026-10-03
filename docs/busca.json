@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T14:36:27.784327-03:00",
+    "atualizado_em": "2026-10-03T14:53:28.634973-03:00",
     "examinadas": 145,
     "abertas_publicadas": 9,
     "status": {
       "aberta_confirmada": 12,
-      "encerrada": 79,
-      "pendente_evidencia": 28,
+      "encerrada": 82,
+      "pendente_evidencia": 25,
       "pendente_acesso": 10,
       "pendente_fonte_oficial": 16
     },
@@ -6249,8 +6249,8 @@
       {
         "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
         "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia",
@@ -6429,8 +6429,8 @@
       {
         "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
         "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Programa Startup SC – Sebrae Startups",
@@ -6681,8 +6681,8 @@
       {
         "titulo": "South Summit Brazil 2026 - Exposição de Startups Gaúchas",
         "url": "https://alertaeditais.com.br/edital/south-summit-brazil-2026-exposicao-de-startup-w083r",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Endeavor, Sebrae, Elo7: veja programas de aceleração para startups abertos | Exame",
@@ -6801,12 +6801,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
-        "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
         "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
         "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
         "status": "pendente_evidencia",
@@ -6859,12 +6853,6 @@
         "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
         "status": "pendente_evidencia",
         "motivo": "ia_inconclusiva"
-      },
-      {
-        "titulo": "Programa de aceleração tecnológica de biotechs abre inscrições",
-        "url": "https://pesquisaparainovacao.fapesp.br/programa_de_aceleracao_tecnologica_de_biotechs_abre_inscricoes/3026",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
       },
       {
         "titulo": "Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial",
@@ -7029,12 +7017,6 @@
         "motivo": "localizar_fonte_primaria"
       },
       {
-        "titulo": "South Summit Brazil 2026 - Exposição de Startups Gaúchas",
-        "url": "https://alertaeditais.com.br/edital/south-summit-brazil-2026-exposicao-de-startup-w083r",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
         "titulo": "Endeavor, Sebrae, Elo7: veja programas de aceleração para startups abertos | Exame",
         "url": "https://exame.com/pme/programas-de-aceleracao-para-startups",
         "status": "pendente_fonte_oficial",
@@ -7097,19 +7079,19 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 28,
-      "resolvidas_automaticamente": 28,
+      "resolvidas": 31,
+      "resolvidas_automaticamente": 31,
       "revisoes_manuais": 0,
-      "pendentes": 50
+      "pendentes": 47
     },
     "ia": {
       "chamadas": 0,
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 54,
-      "casos_com_tentativa_ia": 64,
-      "resolvidas_automaticamente": 90,
+      "pendencias_restantes": 51,
+      "casos_com_tentativa_ia": 61,
+      "resolvidas_automaticamente": 93,
       "revisoes_manuais": 1
     }
   }
