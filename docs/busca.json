@@ -5887,15 +5887,15 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T11:49:45.119838-03:00",
-    "examinadas": 144,
+    "atualizado_em": "2026-10-03T11:50:50.592430-03:00",
+    "examinadas": 145,
     "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 10,
       "encerrada": 79,
       "pendente_evidencia": 30,
       "pendente_acesso": 11,
-      "pendente_fonte_oficial": 14
+      "pendente_fonte_oficial": 15
     },
     "resultados": [
       {
@@ -6761,6 +6761,12 @@
         "url": "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista",
         "status": "pendente_evidencia",
         "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Inova+Invest – Região Norte 2026",
+        "url": "https://abvcap.com.br/programas/inova-invest/",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       }
     ],
     "pendentes": [
@@ -7093,6 +7099,12 @@
         "url": "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista",
         "status": "pendente_evidencia",
         "motivo": "prazo_literal_com_ano_nao_encontrado"
+      },
+      {
+        "titulo": "Inova+Invest – Região Norte 2026",
+        "url": "https://abvcap.com.br/programas/inova-invest/",
+        "status": "pendente_fonte_oficial",
+        "motivo": "localizar_fonte_primaria"
       }
     ],
     "fila_prioritaria": {
@@ -7107,8 +7119,8 @@
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 55,
-      "casos_com_tentativa_ia": 64,
+      "pendencias_restantes": 56,
+      "casos_com_tentativa_ia": 65,
       "resolvidas_automaticamente": 88,
       "revisoes_manuais": 1
     }
