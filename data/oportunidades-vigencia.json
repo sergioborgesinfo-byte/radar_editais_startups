@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-02T21:03:31.901631-03:00",
+  "atualizado_em": "2026-10-02T21:09:43.828172-03:00",
   "leitura_navegador": {
     "tentativas": 3,
     "sucessos": 0,
@@ -11,9 +11,9 @@
     "falhas_temporarias": [],
     "limite": 8,
     "parada": null,
-    "pendencias_restantes": 59,
-    "casos_com_tentativa_ia": 69,
-    "resolvidas_automaticamente": 79,
+    "pendencias_restantes": 58,
+    "casos_com_tentativa_ia": 68,
+    "resolvidas_automaticamente": 80,
     "revisoes_manuais": 1
   },
   "itens": [
@@ -505,7 +505,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T21:02:22.387947-03:00"
+      "verificado_em": "2026-10-02T21:08:35.615797-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -565,15 +565,25 @@
     },
     {
       "url": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
+      "fonte_oficial": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
+      "status": "aberta_confirmada",
       "titulo": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
+      "instituicao": "cbamazonia.org",
+      "tipo": "Inscrição",
+      "estagio": "Qualquer",
+      "descricao": "O Centro de Bionegócios da Amazônia (CBA) lançou o Edital de Fluxo Contínuo CBA Open nº 01/2026 para selecionar startups e empresas inovadoras para a modalidade residente em seu Hub de Bionegócios, oferecendo infraestrutura laboratorial, mentorias e conexões estratégicas.",
+      "requisitos": "O Centro de Bionegócios da Amazônia (CBA) lançou nesta quinta-feira (30) o Edital de Fluxo Contínuo CBA Open nº 01/2026, iniciativa que abre novas oportunidades para startups e empresas de base tecnológica interessadas em desenvolver soluções inovadoras a partir da biodiversidade amazônica.",
+      "prazo": null,
+      "prazo_iso": null,
+      "inicio_iso": null,
+      "evidencia_edicao": "2026",
+      "evidencia_publico": "O Centro de Bionegócios da Amazônia (CBA) lançou nesta quinta-feira (30) o Edital de Fluxo Contínuo CBA Open nº 01/2026, iniciativa que abre novas oportunidades para startups e empresas de base tecnológica interessadas em desenvolver soluções inovadoras a partir da biodiversidade amazônica.",
+      "evidencia_prazo": "O Centro de Bionegócios da Amazônia (CBA) lançou nesta quinta-feira (30) o Edital de Fluxo Contínuo CBA Open nº 01/2026, iniciativa que abre novas oportunidades para startups e empresas de base tecnológica interessadas em desenvolver soluções inovadoras a partir da biodiversidade amazônica. O chamamento público busca selecionar empresas para integrar, na modalidade residente, o Hub de Bionegócios e Inovação do CBA, fortalecendo o ecossistema regional de ciência, tecnologia, inovação e bioeconomia. O edital contempla empresas com até 10 anos de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ), que desenvolvam atividades alinhadas aos bionegócios e apresentem propostas inovadoras com potencial de impacto econômico, ambiental e social. As inscrições permanecerão abertas em fluxo contínuo, permitindo que novos empreendimentos ingressem no programa ao longo do ano.",
+      "modalidade_inscricao": "fluxo_continuo",
+      "sem_data_final": true,
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T21:02:22.105136-03:00",
-      "ia_tentada_em": "2026-10-02T21:03:30.857432-03:00",
-      "ia_metodo": "gemini-v7",
-      "motivo_ia": "evidencia_insuficiente"
+      "verificado_em": "2026-10-02T21:08:35.317585-03:00"
     },
     {
       "url": "https://cloud.google.com/startup/benefits?hl=pt-BR",
@@ -829,7 +839,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T21:03:30.105045-03:00"
+      "verificado_em": "2026-10-02T21:09:43.033185-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
@@ -988,8 +998,8 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-02T21:03:30.905214-03:00",
-      "ia_tentada_em": "2026-10-02T21:03:30.905200-03:00",
+      "verificado_em": "2026-10-02T21:09:43.072537-03:00",
+      "ia_tentada_em": "2026-10-02T21:09:43.072529-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
@@ -1129,7 +1139,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T21:02:22.251235-03:00"
+      "verificado_em": "2026-10-02T21:08:35.561420-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1138,7 +1148,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T21:02:24.919315-03:00"
+      "verificado_em": "2026-10-02T21:08:38.127060-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1147,7 +1157,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T21:02:29.396859-03:00"
+      "verificado_em": "2026-10-02T21:08:44.788481-03:00"
     },
     {
       "url": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
@@ -1221,7 +1231,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T21:02:22.580694-03:00"
+      "verificado_em": "2026-10-02T21:08:35.869176-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1258,7 +1268,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T21:02:22.907966-03:00"
+      "verificado_em": "2026-10-02T21:08:36.202635-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1303,7 +1313,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T21:02:23.120352-03:00"
+      "verificado_em": "2026-10-02T21:08:36.433600-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -1381,8 +1391,8 @@
       "evidencia_edicao": "Early stage startups can get up to $350,000 in Cloud credits through the Google for Startups Cloud Program",
       "evidencia_publico": "Built for Brazilian founders. Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.",
       "modalidade_inscricao": "candidatura_sem_prazo",
-      "verificado_em": "2026-10-02T21:03:31.901413-03:00",
-      "ia_tentada_em": "2026-10-02T21:03:31.901399-03:00",
+      "verificado_em": "2026-10-02T21:09:43.827999-03:00",
+      "ia_tentada_em": "2026-10-02T21:09:43.827988-03:00",
       "ia_metodo": "gemini-v7"
     },
     {
@@ -1551,7 +1561,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v5",
-      "verificado_em": "2026-10-02T21:02:23.624160-03:00"
+      "verificado_em": "2026-10-02T21:08:37.199156-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",

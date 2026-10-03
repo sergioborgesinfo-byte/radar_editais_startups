@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T21:03:31.901631-03:00",
+    "atualizado_em": "2026-10-02T21:09:43.828172-03:00",
     "examinadas": 139,
-    "abertas_publicadas": 8,
+    "abertas_publicadas": 9,
     "status": {
-      "aberta_confirmada": 9,
+      "aberta_confirmada": 10,
       "encerrada": 71,
-      "pendente_evidencia": 31,
+      "pendente_evidencia": 30,
       "pendente_acesso": 9,
       "pendente_fonte_oficial": 19
     },
@@ -6219,8 +6219,8 @@
       {
         "titulo": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
         "url": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "aberta_confirmada",
+        "motivo": ""
       },
       {
         "titulo": "Programa para Startups do Google Cloud",
@@ -6753,12 +6753,6 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
-        "url": "https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
         "titulo": "Programa para Startups do Google Cloud",
         "url": "https://cloud.google.com/startup/benefits?hl=pt-BR",
         "status": "pendente_evidencia",
@@ -7101,9 +7095,9 @@
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 59,
-      "casos_com_tentativa_ia": 69,
-      "resolvidas_automaticamente": 79,
+      "pendencias_restantes": 58,
+      "casos_com_tentativa_ia": 68,
+      "resolvidas_automaticamente": 80,
       "revisoes_manuais": 1
     }
   }
