@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T16:51:00.000Z",
+  "atualizado_em": "2026-10-03T16:53:00.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -316,14 +316,15 @@
     {
       "url": "https://convergenciadigital.com.br/mercado/programa-rio-ia-2026-vai-investir-r-640-mil-em-startups",
       "titulo": "Programa Rio.IA 2026 vai investir R$ 640 mil em startups",
-      "pesquisado_em": "2026-10-03T08:51:00.000Z",
-      "tentativas": 2,
-      "status": "fonte_alternativa_localizada",
+      "pesquisado_em": "2026-10-03T16:53:00.000Z",
+      "tentativas": 3,
+      "status": "fonte_primaria_canonica_localizada",
       "fontes_examinadas": [
         "https://cienciaetecnologia.prefeitura.rio/noticias/hub-rio-ia-promove-webinario-sobre-1o-edital-do-programa-de-inovacao-aberta-2026/",
-        "https://prosas.com.br/editais/16756"
+        "https://prosas.com.br/editais/16756",
+        "https://prosas.com.br/editais/16756-1o-edital-para-o-programa-de-inovacao-aberta-do-hub-rioia-2026"
       ],
-      "bloqueio_ou_observacao": "Reexame: não foi localizada cópia oficial estática adicional do edital Rio.IA 2026; mantido o edital Prosas já registrado."
+      "bloqueio_ou_observacao": "A rota canônica legível da Prosas confirma a mesma primeira edição Rio.IA 2026, público de startups e prorrogação até 06/02/2026 às 18h. O vínculo reduzido anterior foi substituído."
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
