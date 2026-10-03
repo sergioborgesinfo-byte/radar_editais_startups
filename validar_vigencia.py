@@ -247,18 +247,33 @@ def validar_oficial(registro, agora, ler=None):
     continuo = next((' '.join(blocos[max(0,i-1):i+1]) for i,x in enumerate(blocos)
                      if prazo_da_oportunidade(' '.join(blocos[max(0,i-1):i+1]), titulo)
                      and re.search(r'inscri[cç].{0,100}fluxo cont[ií]nuo|fluxo cont[ií]nuo.{0,100}inscri[cç]', x, re.I)), None)
+    # PDFs e páginas dedicadas podem separar "fluxo contínuo", a abertura das
+    # inscrições e a identificação do edital em blocos distintos.
+    if not continuo and (pagina_dedicada or prazo_da_oportunidade(texto[:5000], titulo)):
+        fluxo = next((x for x in blocos[:80] if re.search(r'fluxo cont[ií]nuo', x, re.I)), None)
+        convite = next((x for x in blocos[:120] if re.search(
+            r'est[aã]o abertas as inscri[cç]|inscri[cç][aã]o ser[aá]|podem submeter|'
+            r'processo de sele[cç][aã]o [ée] cont[ií]nuo|encerramento\s*:\s*n[aã]o se aplica', x, re.I)), None)
+        if fluxo and convite:
+            continuo = fluxo + ' ' + convite
     if not candidatos and not continuo:
         return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
                 'motivo':'prazo_literal_com_ano_nao_encontrado'}
     if continuo:
-        if not edicao:
+        edicao_continua = edicao
+        if not edicao_continua:
+            edicao_continua = re.search(
+                r'(?:edital(?:\s+n[ºo.]*)?\s*\d+[/-]|abertura\s*:?\s*\d{1,2}[/-]\d{1,2}[/-])(20\d{2})',
+                texto, re.I)
+        if not edicao_continua:
             return {'url':url, 'titulo':titulo, 'status':'pendente_evidencia',
                     'motivo':'edicao_nao_comprovada'}
+        ano_continuo = edicao_continua.group(1) if edicao_continua.lastindex else edicao_continua.group(0)
         modalidade='Pré-incubação' if 'pré-incuba' in titulo.lower() else 'Inscrição'
         return {'url':url,'fonte_oficial':fonte,'status':'aberta_confirmada','titulo':titulo,'instituicao':urlsplit(fonte).hostname,
                 'tipo':modalidade,'estagio':'Qualquer','descricao':registro.get('dados',{}).get('resumo',''),
                 'requisitos':publico,'prazo':None,'prazo_iso':None,'inicio_iso':None,
-                'evidencia_edicao':edicao.group(0),
+                'evidencia_edicao':ano_continuo,
                 'evidencia_publico':publico,'evidencia_prazo':continuo,
                 'modalidade_inscricao':'fluxo_continuo','sem_data_final':True}
     fim, evidencia = max(candidatos, key=lambda x:x[0])
