@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 241, 'confirmada_no_conteudo': 94, 'pendente_evidencia': 64, 'nao_confirmada_no_texto': 16, 'pendente_ia': 122}
+{'pendente_leitura': 254, 'confirmada_no_conteudo': 98, 'pendente_evidencia': 70, 'nao_confirmada_no_texto': 16, 'pendente_ia': 122}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -190,7 +190,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - nao_confirmada_no_texto: WOW Aceleradora de Startups Overview — https://leadiq.com/c/wow-aceleradora-de-startups/5a1d9d3e2300005c008d188c/email-format
 - pendente_leitura: Editais de fomento para startups: da ideia ao produto com dinheiro público · Licitário — https://licitario.com.br/fomento/para/startup
 - pendente_leitura: Grupo Equatorial abre inscrições para programa de inovação aberta com POCs remuneradas para startups – Equatorial Energia Maranhão — https://ma.equatorialenergia.com.br/grupo-equatorial-abre-inscricoes-para-programa-de-inovacao-aberta-com-pocs-remuneradas-para-startups
-- pendente_evidencia: Edital Incubadora Mamirauá — https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf
+- confirmada_no_conteudo: Processo de Seleção de Propostas para Incubação e Aceleração – Fluxo Contínuo — https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf
+  - trecho_oportunidade: Seleção de novos interessados para o Programa de Incubação e Aceleração da Incubadora de Negócios Sustentáveis Mamirauá, no presente Edital de fluxo con tinuo que terá divulgação pública na página eletrônica do Ins tituto de Desenvolvimento  Sustentável Mamirauá
+  - trecho_publico: em qualquer momento as empresas, associações, pessoas físicas, startups, entre outras formalidades jurídicas  interessadas em par ticipar do Programa de Incubação e Aceleração da Incubadora Mamirauá podem submeter suas propostas.
 - pendente_leitura: Porto Digital lança editais de incubação e internacionalização de negócios — https://movimentoeconomico.com.br/tecnologia/2026/02/10/porto-digital-lanca-editais-de-incubacao-e-internacionalizacao-de-negocios
 - pendente_leitura: Sebrae/MS abre seleção gratuita para acelerar até 30 startups sul-mato-grossenses | MSConecta — https://msconecta.com.br/noticia/15278/sebrae-ms-abre-selecao-gratuita-para-acelerar-ate-30-startups-sul-mato-grossenses/amp
 - pendente_leitura: Edital Nº 11/2026 - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia — https://multiplicidades.org.br/edital-no-11-2026-programa-fapdf-start-bsb-3o-ciclo-selecao-publica-de-propostas-para-apoio-financeiro-na-modalidade-subvencao-economica-as-startups
@@ -260,7 +262,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_oportunidade: Selecionar empresas/startups solucionadoras para implementar soluções junto às MPMEs demandantes do 2º Ciclo do Programa e-Goiás, atendendo desafios mapeados, a fim de promover transformação digital, eficiência e competitividade das empresas em Goiás.
   - trecho_publico: Startups e empresas inovadoras que possam solucionar desafios de transformação digital em diferentes segmentos empresariais
 - pendente_leitura: WOW Aceleradora seleciona startups para processo de aceleração - Anprotec — https://anprotec.org.br/site/2019/05/wow-aceleradora-seleciona-startups-para-processo-de-aceleracao
-- pendente_evidencia: EDITAL INATEL STARTUPS — https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf
+- confirmada_no_conteudo: Edital Inatel Startups - Seleção de Novos Projetos / Empresas — https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf
+  - trecho_oportunidade: SELEÇÃO DE NOVOS PROJETOS / EMPRESAS, PARA O PROGRAMA DE INCUBAÇÃO DE EMPRESAS E PROJETOS DO INATEL – INSTITUTO NACIONAL DE TELECOMUNICAÇÕES, DENOMINADO “INATEL STARTUPS”, NAS MODALIDADES DE IDEAÇÃO, PRÉ- INCUBAÇÃO E INCUBAÇÃO.
+  - trecho_publico: integra o portfólio de iniciativas de apoio ao e mpreendedorismo e inovação do INATEL , tendo como missão apoiar e fomentar a criação e o desenvolvimento de startups inovadoras de base tecnológica.
 - pendente_leitura: Startup Hunting | Formulário de Inscrição — https://institutocaldeira.org.br/programas/inscricao-startup-hunting
 - pendente_leitura: Natura busca startups de beleza para programa de aceleração voltado à inovação e crescimento na América Latina - IT Forum — https://itforum.com.br/noticias/natura-busca-startups-programa-aceleracao
 - confirmada_no_conteudo: Prorrogado! Programas para novas startups com inscrições até 30 de março | Jornal Digital — https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco
@@ -729,3 +733,30 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: DPSP lança programa de inovação e promete ganhos para startups - Startups — https://startups.com.br/negocios/dpsp-lanca-programa-de-inovacao-e-promete-ganhos-para-startups
 - pendente_leitura: Rede MIDIHUB abre inscrições para startups de base tecnológica em Santa Catarina - ACATE — https://www.acate.com.br/noticias/rede-midihub-abre-inscricoes-para-startups-em-sc
 - pendente_leitura: Tudo sobre programa de aceleração - Startups — https://startups.com.br/tag/programa-de-aceleracao
+- pendente_evidencia: Desafio COB de Startups — 2ª edição com 11 teses e foco no ciclo rumo a Los Angeles 2028 — https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-abre-2-edicao-com-11-teses-e-foco-no-ciclo-rumo-a-los-angeles-2028
+- pendente_evidencia: Não perca o prazo: inscrições no Prêmio Sebrae Startups 2026 vão até o dia 30 | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/segunda-nao-perca-o-prazo-inscricoes-no-premio-sebrae-startups-2026-vao-ate-o-dia-30
+- pendente_evidencia: Prêmio Sebrae Startups 2026 abre inscrições e oferece oportunidade de crescimento | ASN Pará - Agência Sebrae de Notícias — https://pa.agenciasebrae.com.br/inovacao-e-tecnologia/premio-sebrae-startups-2026-abre-inscricoes-oferecendo-oportunidade-de-mercado-e-crescimento-a-empresas-inovadoras
+- confirmada_no_conteudo: Baita Aceleradora abre inscrições para a turma 2022 — https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294
+  - trecho_oportunidade: A Baita Aceleradora abre inscrições para a turma 2022 de aceleração de startups.
+  - trecho_publico: A Baita Aceleradora abre inscrições para a turma 2022 de aceleração de startups.
+- pendente_evidencia: Missão Técnica CE no NEON Alagoas 2026 — https://programas.sebraestartups.com.br/in/ceneon2026
+- pendente_leitura: Programas InovAtiva: estão abertas as inscrições para o Ciclo de Aceleração 2024.1 - ABES — https://abes.org.br/programas-inovativa-estao-abertas-as-inscricoes-para-o-ciclo-de-aceleracao-2024-1
+- pendente_leitura: InovAtiva Brasil abre pré-inscrições para o ciclo de aceleração 2025 - Brasil Inovador — https://brasilinovador.com.br/inovativa-brasil-abre-pre-inscricoes-para-o-ciclo-de-aceleracao-2025
+- pendente_leitura: GO SRP abre edital de incubação e aceleração para startups do agronegócio - Conexão Agro — https://conexaoagro.com.br/noticias-conexao/go-srp-abre-edital-de-incubacao-e-aceleracao-para-startups-do-agronegocio
+- pendente_evidencia: Eleva Start powered by InovAtiva — https://empreendedor.com.br/tecnologia/inovacao/programa-abre-inscricao-para-aceleracao-de-startups-do-rio-grande-do-sul
+- pendente_evidencia: Programa NEXT - Aceleração de Startups “Da Ciência ao Negócio” — https://forms.gle/kbS7qkTJbu4nnbqj7
+- pendente_leitura: InovAtiva 2025: Inscrições abertas para os maiores programas de aceleração de startups do Brasil | Portal Inova-e — https://inovae.cofenplay.com.br/oportunidades/inovativa-2025-inscricoes-abertas-para-os-maiores-programas-de-aceleracao-de-startups-do-brasil
+- pendente_leitura: ACE Ventures e Gener8tor lançam programa para atrair startups dos EUA para o Brasil - IT Forum — https://itforum.com.br/noticias/ace-ventures-gener8tor-startups
+- pendente_leitura: Edital 32/2026 - Desafios.Gov — edital de fomento FACEPE — https://licitario.com.br/fomento/edital-32-2026-desafios-gov-tdz8kb
+- pendente_leitura: edital de seleção de projetos e empresas para incubação — https://saudeimpulsiona.com.br/wp-content/uploads/2026/03/Edital_Impulsionasaude-2.pdf
+- pendente_leitura: Guia de programas de aceleração e seleção para construtechs e proptechs - Sienge — https://sienge.com.br/blog/guia-de-programas-de-aceleracao-e-selecao-para-construtechs-e-proptechs
+- pendente_leitura: Fapto lança edital para seleção de startups para participarem de programa de aceleração do InovaFapto  - Tocantins Rural — https://tocantinsrural.com.br/fapto-lanca-edital-para-selecao-de-startups-para-participarem-de-programa-de-aceleracao-do-inovafapto
+- confirmada_no_conteudo: Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo — https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista
+  - trecho_oportunidade: Homologação das Inscrições do Edital de Seleção de Bolsista GTI 1B – FAPERGS – Programa Startup Lab
+  - trecho_publico: Homologação das Inscrições do Edital de Seleção de Bolsista GTI 1B – FAPERGS – Programa Startup Lab
+- pendente_leitura: Startups brasileiras participam de missão para feira na ... — https://www.brasil247.com/empreender/startups-brasileiras-participam-de-missao-para-feira-na-coreia-do-sul
+- pendente_evidencia: EDITAL Nº 22/2026-FACEPE — https://www.facepe.br/wp-content/uploads/2026/07/2026.07.15-Global-PE-Espanha-Ajustado.pdf
+- pendente_evidencia: Feira BIEMH - Participação organizada pela AIDA CCI — https://www.iapmei.pt/pt/comunicacao/noticias/feira-biemh-inscricoes-ate-21-de-marco
+- pendente_leitura: Edital Nº 33/2026-FACEPE - Pró-Startups Operação: apoio ... — https://www.instagram.com/p/Dd9nLBUJ_NO
+- pendente_leitura: IBIUNA HEDGE SELEÇÃO MULTIMERCADO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO Company Profile - Investing.com — https://www.investing.com/funds/itau-personnalite-selecao-ibiuna-he-company-profile
+- pendente_leitura: Parque Tecnológico abre inscrições para receber novas startups em São José dos Campos — https://www.youtube.com/watch?v=N-LdijFATMI
