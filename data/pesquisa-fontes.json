@@ -40,12 +40,12 @@
       "titulo": "Programa para Startups do Google Cloud",
       "pesquisado_em": "2026-10-03T00:56:12.058Z",
       "tentativas": 1,
-      "status": "fonte_alternativa_localizada",
+      "status": "fonte_primaria_inacessivel",
       "fontes_examinadas": [
         "https://cloud.google.com/startup",
         "https://cloud.google.com/startup/faq"
       ],
-      "bloqueio_ou_observacao": "Página oficial do mesmo programa apresenta convite e público; não estabelece prazo explícito. Classificação permanece com o app."
+      "bloqueio_ou_observacao": "Página oficial do mesmo programa apresenta convite e público; não estabelece prazo explícito. Classificação permanece com o app. Download direto retornou somente 195 bytes com Site Unavailable; mapeamento não adicionado."
     },
     {
       "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
@@ -81,7 +81,7 @@
       "fontes_examinadas": [
         "https://programas.sebraestartups.com.br/in/acelerastartups"
       ],
-      "bloqueio_ou_observacao": "Link de participação explicitamente citado pelo Sebrae PI para Acelera Startups Da Ideia à Venda; mesma oportunidade e região."
+      "bloqueio_ou_observacao": "Link de participação explicitamente citado pelo Sebrae PI para Acelera Startups Da Ideia à Venda; mesma oportunidade e região. Download retornou HTTP 200 e HTML de 74888 bytes com título correspondente; conteúdo dinâmico será examinado pelo verificador."
     },
     {
       "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
