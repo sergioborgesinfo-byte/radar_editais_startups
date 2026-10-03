@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T05:42:07.000Z",
+  "atualizado_em": "2026-10-03T06:50:29.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -557,6 +557,98 @@
       ],
       "bloqueio_ou_observacao": "Notícia oficial de 01/12/2020 foi examinada, mas não traz prazo. O link da Secti redireciona para rota hoje inacessível ao leitor; não foi inferida data nem usada chamada posterior.",
       "pesquisado_em": "2026-10-03T05:42:07.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/missao-brasileira-abre-inscricoes-para-levar-100-startups-ao-web-summit-lisboa",
+      "titulo": "Missão brasileira Web Summit Lisboa 2026",
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://crm-apps.apexbrasil.com.br/orgbdeab873/inscricao-eventos/evento/web-summit-lisboa-2026/0714952e-98da-f011-8543-7ced8db0f987"
+      ],
+      "bloqueio_ou_observacao": "Página oficial ApexBrasil/Sebrae confirma a missão Web Summit Lisboa 2026 para startups brasileiras e o encerramento em 01/09/2026 às 18h.",
+      "pesquisado_em": "2026-10-03T06:50:29.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://senaimt.ind.br/para-industria/1901/pre-aceleracao-startup",
+      "titulo": "Programa de Pré-aceleração Start&Up",
+      "status": "fonte_original_examinada_sem_ano_no_prazo",
+      "fontes_examinadas": [
+        "https://senaimt.ind.br/para-industria/1901/pre-aceleracao-startup",
+        "http://www.starteup.com.br"
+      ],
+      "bloqueio_ou_observacao": "Fonte oficial SENAI MT confirma público de ideias, startups e negócios inovadores e prazo em 6 de setembro, mas não informa o ano da edição. O antigo portal de inscrição não oferece fonte estável.",
+      "pesquisado_em": "2026-10-03T06:50:29.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://alertaeditais.com.br/edital/south-summit-brazil-2026-exposicao-de-startup-w083r",
+      "titulo": "South Summit Brazil 2026 — Exposição de Startups Gaúchas",
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://programas.sebraestartups.com.br/in/south-summit-brazil-2026---exposi%C3%A7%C3%A3o-de-startups-ga%C3%BAchas-1768484451965x681111351935545900"
+      ],
+      "bloqueio_ou_observacao": "Página oficial Sebrae Startups confirma edição 2026, startups gaúchas e inscrições de 15/01/2026 a 26/01/2026.",
+      "pesquisado_em": "2026-10-03T06:50:29.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://exame.com/pme/programas-de-aceleracao-para-startups",
+      "titulo": "Lista Exame de programas para startups em maio de 2021",
+      "status": "lista_agregadora_sem_ficha_unica",
+      "fontes_examinadas": [
+        "https://exame.com/pme/programas-de-aceleracao-para-startups"
+      ],
+      "bloqueio_ou_observacao": "Página reúne várias oportunidades distintas de 2021 (Innovation Academy, InovAtiva, StartupOn, Elo7/Sebrae, ShiftT, AgriFoodTech e Endeavor). Não existe uma única fonte oficial que possa substituir a ficha agregada.",
+      "pesquisado_em": "2026-10-03T06:50:29.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://jornaldebrasilia.com.br/brasilia/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
+      "titulo": "Cotidiano CAMP 4 — segunda rodada de 2017",
+      "status": "edicao_antiga_sem_fonte_primaria_localizada",
+      "fontes_examinadas": [
+        "https://jornaldebrasilia.com.br/brasilia/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
+        "https://www.cotidiano.com.br/"
+      ],
+      "bloqueio_ou_observacao": "Notícia identifica a quarta edição CAMP 4 e prazo de 25/08/2017. A página oficial da edição não sobreviveu; programas atuais não substituem esta seleção.",
+      "pesquisado_em": "2026-10-03T06:50:29.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://jornalonlinealagoas.com/noticia/84078/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
+      "titulo": "Seleção Web Summit Lisboa 2026 — Delegação Rio",
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026/",
+        "https://www.maravalley.rio/programas/web-summit-lisboa-2026"
+      ],
+      "bloqueio_ou_observacao": "Fontes oficiais da Prefeitura do Rio e do Maravalley confirmam a seleção de dez startups cariocas para a Missão Lisboa 2026.",
+      "pesquisado_em": "2026-10-03T06:50:29.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
+      "titulo": "BNDES Garagem Ciclo 2024",
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://startupi.com.br/bndes-garagem-abre-inscricoes/",
+        "https://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups/bndes-garagem-chamada-publica-para-selecao-de-empreendedores-e-startups/"
+      ],
+      "bloqueio_ou_observacao": "A notícia é de 06/09/2024 e descreve o Ciclo 2024, com inscrições até 11/09/2024. A página oficial do BNDES corresponde ao mesmo ciclo e público.",
+      "pesquisado_em": "2026-10-03T06:50:29.000Z",
+      "tentativas": 1
+    },
+    {
+      "url": "https://startupmadeira.eu/2024/03/27/manifestacao-de-interesse-sim-conference",
+      "titulo": "Manifestação de Interesse SIM Conference 2024",
+      "status": "fonte_original_examinada",
+      "fontes_examinadas": [
+        "https://startupmadeira.eu/2024/03/27/manifestacao-de-interesse-sim-conference/"
+      ],
+      "bloqueio_ou_observacao": "Fonte oficial confirma a primeira edição, seis startups madeirenses e inscrições até 03/04/2024 às 23h59; não foi substituída pela edição 2026.",
+      "pesquisado_em": "2026-10-03T06:50:29.000Z",
       "tentativas": 1
     }
   ]
