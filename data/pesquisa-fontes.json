@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T11:47:03.000Z",
+  "atualizado_em": "2026-10-03T13:46:23.000Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -63,8 +63,8 @@
     {
       "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
       "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
-      "pesquisado_em": "2026-10-03T11:47:03.000Z",
-      "tentativas": 2,
+      "pesquisado_em": "2026-10-03T13:46:23.000Z",
+      "tentativas": 3,
       "status": "fonte_alternativa_localizada",
       "fontes_examinadas": [
         "https://www.novalima.mg.gov.br/inicio/publicacoes-oficiais/publicacao/18806",
@@ -72,7 +72,7 @@
         "https://www.novalima.mg.gov.br/v1/storage/publications/edital_de_chamamento_publico_no_009_2026_1787331311334.pdf",
         "https://novalima.mg.gov.br/secretaria/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups"
       ],
-      "bloqueio_ou_observacao": "Reexame localizou página HTML oficial do Edital 009/2026, da mesma oportunidade, com identificação da edição, seleção de startups e arquivos do edital/errata. A notícia oficial confirma inscrições até 18/09/2026. Mapeamento feito para a página HTML, não para o PDF digitalizado."
+      "bloqueio_ou_observacao": "A página de publicações identifica o Edital 009/2026, mas não expõe o prazo no HTML. O mapeamento foi ajustado para a notícia oficial canônica, que reúne no mesmo texto a edição 009/2026, o público de startups e inscrições até 18/09/2026."
     },
     {
       "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
