@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 255, 'confirmada_no_conteudo': 97, 'pendente_ia': 140, 'pendente_evidencia': 50, 'nao_confirmada_no_texto': 16, 'fora_escopo': 3}
+{'pendente_leitura': 255, 'confirmada_no_conteudo': 98, 'pendente_ia': 137, 'pendente_evidencia': 52, 'nao_confirmada_no_texto': 16, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -59,7 +59,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow — https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups
   - trecho_oportunidade: A Cotidiano, aceleradora de Startups acaba de abrir inscrições para a primeira etapa de aceleração de 2018.
   - trecho_publico: A Cotidiano, aceleradora de Startups acaba de abrir inscrições para a primeira etapa de aceleração de 2018.
-- pendente_ia: PROGRAMA DE INVESTIMENTO EM STARTUPS INOVA – 5ª Edição - ECT&I — https://ecti.ac.gov.br/editais/programa-de-investimento-em-startups-inova-5a-edicao
+- confirmada_no_conteudo: PROGRAMA DE INVESTIMENTO EM STARTUPS INOVA – 5ª Edição — https://ecti.ac.gov.br/editais/programa-de-investimento-em-startups-inova-5a-edicao
+  - trecho_oportunidade: Sua startup pode receber até R$ 750 mil em investimento! O Inova Startups 5ª edição – 2026, realizado pelo Sebrae em parceria com grandes players do mercado, está com inscrições abertas até 23 de novembro de 2025. O programa oferece uma jornada completa de aceleração, mentorias exclusivas e acesso a investidores
+  - trecho_publico: para startups inovadoras e escaláveis em todo o Brasil. Se sua empresa já validou produtos/serviços, possui faturamento recorrente e busca captação Anjo ou Pre-seed, essa é a oportunidade de levar seu negócio para o próximo nível.
 - pendente_leitura: Aceleração 1 – Editais — https://editais.hubgovtechpr.org.br/aceleracao1
 - pendente_leitura: Aceleradoras: editais e oportunidades abertas no Brasil | Editais do Brasil — https://editaisdobrasil.com/oportunidades/aceleradoras
 - nao_confirmada_no_texto: ACE Startups: Aceleradora de Inovação no Brasil — https://eliascury.com.br/glossario/ace-startups-aceleradora-inovacao-brasil
@@ -74,9 +76,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Resultado Chamada Pública 03/2026: Novo Seed — https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed
   - trecho_oportunidade: Chamada FAPEMIG/Sede 03/2026 – Novo SEED (Startups and Entrepreneurship Ecosystem Development): Aceleração de Startups  por meio dos Ambientes Promotores de Inovação
   - trecho_publico: Novo SEED (Startups and Entrepreneurship Ecosystem Development): Aceleração de Startups  por meio dos Ambientes Promotores de Inovação
-- pendente_ia: EDITAL DE CHAMADA PÚBLICA FAPESC N.º 03/2026 PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS VI EDIÇÃO SUPER PITCH DAY – Fapesc — https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-003-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-vi-edicao-super-pitch-day
+- pendente_evidencia: Edital de Chamada Pública FAPESC N.º 03/2026 Programa Nascer de Pré-Incubação de Ideias Inovadoras VI Edição Super Pitch Day — https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-003-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-vi-edicao-super-pitch-day
 - pendente_leitura: Chamamento Público para Aceleradoras — https://fapesp.br/16346/chamamento-publico-para-aceleradoras
-- pendente_ia: Learn about the Founder Institute's pre-seed startup accelerator program — https://fi.co/overview/santa_cruz
+- pendente_evidencia: Founder Institute Bolivia - Latam Fall 2026 FI Agentic Program — https://fi.co/overview/santa_cruz
 - pendente_leitura: FIEMG Lab | aceleração de startups — https://fiemglab.com.br/tag/aceleracao-de-startups
 - pendente_leitura: Findes promove rodada de negócios exclusiva de startups — https://findes.com.br/findes-promove-rodada-de-negocios-exclusiva-de-startups
 - pendente_leitura: SENAI CHAMADA PÚBLICA C — https://firjan.com.br/data/files/49/80/25/07/BFCCF9106CEF99E919284EA8/boletim_radar_edicao58_agosto_2026.pdf

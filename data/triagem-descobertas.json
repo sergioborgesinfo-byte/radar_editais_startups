@@ -1,12 +1,12 @@
 {
-  "executado_em": "2026-10-03T20:55:20.848632+00:00",
+  "executado_em": "2026-10-03T23:19:33.571703+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
-  "links_recebidos": 1397,
-  "paginas_agrupadas": 1396,
+  "links_recebidos": 1399,
+  "paginas_agrupadas": 1398,
   "duplicacoes_de_url": 1,
   "contagem": {
     "prioridade_verificacao": 475,
-    "revisar_contexto": 839,
+    "revisar_contexto": 841,
     "fora_escopo": 6,
     "fonte_catalogo": 76
   },
@@ -13970,6 +13970,26 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Tecnosinos Unitec",
+      "url": "https://www.tecnosinos.com.br/programa-de-incubacao/",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.tecnosinos.com.br/programa-de-incubacao/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "aqui",
+      "url": "https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf"
       ],
       "vigencia": "nao_avaliada"
     }

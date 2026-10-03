@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-03T20:55:18.008281+00:00",
+  "iniciada_em": "2026-10-03T23:19:28.723461+00:00",
   "status": "concluida",
   "etapas": [
     {
@@ -11,7 +11,7 @@
         "falhas_leitura": 1,
         "chamadas_api_busca": 0
       },
-      "segundos": 2.7
+      "segundos": 4.8
     },
     {
       "nome": "triagem",
@@ -23,7 +23,7 @@
       "nome": "conteudo",
       "status": "concluida",
       "resultado": null,
-      "segundos": 70.1
+      "segundos": 15.6
     },
     {
       "nome": "fontes",
@@ -39,37 +39,38 @@
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 33.3
+      "segundos": 10.5
     }
   ],
-  "casos_concluidos_nesta_rodada": 0,
-  "concluidos_por_resultado": {},
+  "casos_concluidos_nesta_rodada": 1,
+  "concluidos_por_resultado": {
+    "encerrada": 1
+  },
   "casos_reabertos": 0,
   "saldo_abertas": 0,
-  "finalizada_em": "2026-10-03T20:57:04.276269+00:00",
-  "houve_avanco": false,
-  "ultimo_avanco_em": "2026-10-03T20:52:51.516265+00:00",
+  "finalizada_em": "2026-10-03T23:19:59.666589+00:00",
+  "houve_avanco": true,
+  "ultimo_avanco_em": "2026-10-03T23:19:59.666589+00:00",
   "ia": {
-    "chamadas": 4,
+    "chamadas": 3,
     "limite": 8,
     "por_etapa": {
-      "conteudo": 3,
-      "vigencia": 1
+      "conteudo": 3
     },
     "bloqueio": null
   },
   "contagem": {
     "conteudo": {
       "pendente_leitura": 255,
-      "confirmada_no_conteudo": 97,
-      "pendente_ia": 140,
-      "pendente_evidencia": 50,
+      "confirmada_no_conteudo": 98,
+      "pendente_ia": 137,
+      "pendente_evidencia": 52,
       "nao_confirmada_no_texto": 16,
       "fora_escopo": 3
     },
     "vigencia": {
       "aberta_confirmada": 11,
-      "encerrada": 83,
+      "encerrada": 84,
       "pendente_evidencia": 27,
       "pendente_acesso": 8,
       "pendente_fonte_oficial": 14,
@@ -90,5 +91,5 @@
       }
     }
   },
-  "motivo_sem_avanco": "aguardando_nova_evidencia_ou_proxima_tentativa"
+  "motivo_sem_avanco": null
 }

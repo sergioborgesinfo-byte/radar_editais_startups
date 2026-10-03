@@ -2,7 +2,7 @@
 
 Classificação preliminar por título e URL. Não comprova elegibilidade ou inscrições abertas. Nenhum candidato foi apagado.
 
-1397 links recebidos; 1396 páginas após agrupar 1 duplicações de URL.
+1399 links recebidos; 1398 páginas após agrupar 1 duplicações de URL.
 
 52 páginas individuais do catálogo Sebrae encontradas.
 
@@ -563,7 +563,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Startup Summit 2026](https://www.startupsummit.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [WOW Aceleradora: Aceleração de Startup e Investidores](https://www.wow.ac/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 
-## revisar_contexto: 839
+## revisar_contexto: 841
 
 - [Programa Desafía | España Digital 2026](http://espanadigital.gob.es/lineas-de-actuacion/programa-desafia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [BNDES Garagem - BNDES](http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1404,6 +1404,8 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Anprotec (@Anprotec) / X](https://x.com/Anprotec) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Darwin Startups](https://www.darwinstartups.com/startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Saiba mais](https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Tecnosinos Unitec](https://www.tecnosinos.com.br/programa-de-incubacao/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [aqui](https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
 ## fora_escopo: 6
 
