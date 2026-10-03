@@ -2,14 +2,14 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 255, 'confirmada_no_conteudo': 96, 'pendente_evidencia': 55, 'nao_confirmada_no_texto': 16, 'pendente_ia': 136, 'fora_escopo': 3}
+{'pendente_leitura': 255, 'confirmada_no_conteudo': 97, 'pendente_ia': 140, 'pendente_evidencia': 50, 'nao_confirmada_no_texto': 16, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
   - trecho_oportunidade: torna público que estão abertas as inscrições para a Primeira Chamada de Incubação de Impacto para Startups e convida os interessados a apresentarem seus empreendimentos, observadas as disposições contidas neste Edital.
   - trecho_publico: Poderão participar startups de impacto de base tecnológica com CNPJ ativo há, no máximo, 5 (cinco) anos, contados até a data da inscrição, sediadas no Estado da Paraíba
-- pendente_evidencia: ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM — http://www.ciaem.ufu.br/acontece/2016/11/aceleracao-fiemg-lab-startup-abre-inscricoes-para-sua-primeira-jornada
-- pendente_evidencia: Programa de aceleração de startups: inovação e desenvolvimento empresarial — http://www.repositorio.ufal.br/bitstream/riufal/7023/3/Programa%20de%20acelera%C3%A7%C3%A3o%20de%20startups%3A%20inova%C3%A7%C3%A3o%20e%20desenvolvimento%20empresarial.pdf
+- pendente_ia: ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM — http://www.ciaem.ufu.br/acontece/2016/11/aceleracao-fiemg-lab-startup-abre-inscricoes-para-sua-primeira-jornada
+- pendente_ia: Programa de aceleração de startups: inovação e ... — http://www.repositorio.ufal.br/bitstream/riufal/7023/3/Programa%20de%20acelera%C3%A7%C3%A3o%20de%20startups%3A%20inova%C3%A7%C3%A3o%20e%20desenvolvimento%20empresarial.pdf
 - pendente_leitura: Gerdau e FIEMG Lab buscam startups para resolver desafios — https://abes.org.br/en/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios
 - pendente_leitura: Programa de Aceleração de Startups de Impacto na Amazônia — https://aceventures.com.br/coalizao-pelo-impacto
 - confirmada_no_conteudo: Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina
@@ -130,8 +130,8 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Programa de Aceleração #GoHard15 da Ventiur — https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas
   - trecho_oportunidade: A VENTIUR abriu inscrições para startups que buscam investimento de até R$ 1 milhão. O programa de aceleração é direcionado a startups em early stage ou em tração
   - trecho_publico: O programa de aceleração é direcionado a startups em early stage ou em tração, com validação de mercado e preferencialmente gerando receita com clientes em um modelo escalável.
-- pendente_evidencia: Batch #36 - Pré-inscrição — https://www.wow.ac/inscricao
-- pendente_evidencia: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://alertaeditais.com.br/edital/chamada-fapemig-sede-032026-novo-seed:-aceler-recjw
+- pendente_ia: Batch #35 - Inscrição, WOW Aceleradora — https://www.wow.ac/inscricao
+- pendente_ia: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://alertaeditais.com.br/edital/chamada-fapemig-sede-032026-novo-seed:-aceler-recjw
 - pendente_evidencia: Oka Hub Incubadora da Floresta — https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para
 - confirmada_no_conteudo: Aceleração 2026: Inscrições Abertas para Startups do Norte — https://ecti.ac.gov.br/rascunho-automaticoprogramas-aceleracao-norte-cidades-inteligentes-lideranca-feminina
   - trecho_oportunidade: Aceleração 2026: Inscrições Abertas para Startups do Norte
@@ -145,18 +145,20 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Programa Acelera Formiga 2026 abre inscrições para selecionar 15 startups e empresas inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias — https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-formiga-2026-abre-inscricoes-para-selecionar-15-startups-e-empresas-inovadoras
   - trecho_oportunidade: Programa Acelera Formiga 2026 abre inscrições para selecionar 15 startups e empresas inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias
   - trecho_publico: Programa Acelera Formiga 2026 abre inscrições para selecionar 15 startups e empresas inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias
-- pendente_ia: CONFAP — Conselho Nacional das Fundações Estaduais de Amparo à PesquisaFapesc e Sebrae lançam quarta edição do Programa Acelera Startup SC — https://news.confap.org.br/fapesc-e-sebrae-lancam-quarta-edicao-do-programa-acelera-startup-sc
+- confirmada_no_conteudo: Fapesc e Sebrae lançam quarta edição do Programa Acelera Startup SC — https://news.confap.org.br/fapesc-e-sebrae-lancam-quarta-edicao-do-programa-acelera-startup-sc
+  - trecho_oportunidade: O edital 17/2024 vai fomentar até 20 projetos de empreendedorismo, com até R$ 80 mil para cada.
+  - trecho_publico: Podem enviar propostas startups que tiverem faturamento igual ou inferior a R$ 4,8 milhões entre 1º de janeiro de 2023 e 31 de dezembro de 2023.
 - confirmada_no_conteudo: Darwin Startups abre inscrições para programa de aceleração — https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993
   - trecho_oportunidade: Darwin Startups abre inscrições para programa de aceleração
   - trecho_publico: Darwin Startups abre inscrições para programa de aceleração
-- pendente_evidencia: Movimenta Sebrae — https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200
+- pendente_ia: Movimenta Sebrae — https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200
 - confirmada_no_conteudo: Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf
   - trecho_oportunidade: O objetivo é selecionar e apoiar startups com alto potencial de crescimento por meio de ações estruturadas de aceleração e a concessão de até 60 Bolsas de Inovação Tecnológica (BIT), no valor de R$ 3.000,00 cada.
   - trecho_publico: As propostas devem ser apresentadas por startups formalizadas no Ceará, com atuação voltada à inovação.
 - confirmada_no_conteudo: Inscrições abertas para novas startups se instalarem no Parque Tecnológico da Bahia — https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia
   - trecho_oportunidade: a Áity, também conhecida como Espaço Fortalecer, abrirá vagas, através de chamada pública, para que startups possam se instalar no Parque e receber capacitação, orientação e mentoria, através de parceria com o Serviço de Apoio às Micro e Pequenas Empresas (Sebrae Bahia).
   - trecho_publico: o edital é voltado para startups que possuam CNPJ e registro na Junta Comercial do Estado da Bahia (Juceb), com faturamento anual inferior a R$ 4,8 milhões.
-- pendente_evidencia: CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ... — https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/EditalGranioterAcelera2026
+- pendente_ia: CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ... — https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/EditalGranioterAcelera2026
 - pendente_leitura: Inscrições para o Conexo Challenge estão abertas — https://www.randoncorp.com/pt/blog/inscri%C3%A7%C3%B5es-para-o-conexo-challenge-est%C3%A3o-abertas
 - pendente_leitura: Comunicado: Alteração na Lista de Aceleradoras da ... — https://www.startupbrasil.org.br/2014/06/18/nota-informativa
 - pendente_evidencia: Desafio Petrobras - Módulo Startup - Outros desafios não especificados — https://alertaeditais.com.br/edital/desafio-petrobras-modulo-startup-outros-desaf-7ac0p
@@ -241,7 +243,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/pequenos-negocios-podem-se-inscrever-para-rodadas-de-negocios-com-startups-durante-forum-e-commerce-brasil-2026
   - trecho_oportunidade: Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias
   - trecho_publico: Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias
-- pendente_evidencia: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao
+- pendente_evidencia: CHAMADA FAPEMIG-SEDE 003/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao
 - confirmada_no_conteudo: InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc — https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups
   - trecho_oportunidade: InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc
   - trecho_publico: InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc
@@ -526,7 +528,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc — https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas
   - trecho_oportunidade: Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc
   - trecho_publico: Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc
-- pendente_ia: Sebrae Minas abre edital para atração de startups e soluções inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias — https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-minas-abre-edital-para-atracao-de-startups-e-solucoes-inovadoras
+- pendente_evidencia: Sebrae Minas abre edital para atração de startups e soluções inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias — https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-minas-abre-edital-para-atracao-de-startups-e-solucoes-inovadoras
 - confirmada_no_conteudo: Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias — https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais
   - trecho_oportunidade: Grandes empresas de diferentes setores da economia estão em busca de soluções inovadoras para desafios reais dos negócios, e startups de todo o país podem participar dessa conexão.
   - trecho_publico: Grandes empresas de diferentes setores da economia estão em busca de soluções inovadoras para desafios reais dos negócios, e startups de todo o país podem participar dessa conexão.

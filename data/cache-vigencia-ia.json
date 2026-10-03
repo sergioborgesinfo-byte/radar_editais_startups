@@ -1819,5 +1819,20 @@
       "motivo": "As inscrições para o programa encerraram em 14 de setembro de 2025."
     },
     "versao_validador": "evidencias-v2"
+  },
+  "7d7754a929d8c33d6ace6689674874e6e06dacb10a9840c1211df8e5faf99272": {
+    "em": "2026-10-03T17:56:30.997564-03:00",
+    "resposta": {
+      "situacao": "encerrada_explicita",
+      "fonte": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-no-17-2024-programa-acelera-startup-sc-4a-edicao",
+      "evidencia_identidade": "Edital de Chamada Pública FAPESC nº 17/2024 – Programa Acelera Startup SC 4ª Edição",
+      "evidencia": "Submissão das propostas no SIGFAPESC 15/05/2024 a 17/06/2024",
+      "fim": "2024-06-17",
+      "inicio": "2024-05-15",
+      "evidencia_inicio": "15/05/2024 a 17/06/2024",
+      "evidencia_ano": "2024",
+      "motivo": "O prazo de submissão das propostas encerrou-se em 17/06/2024, conforme o cronograma oficial do edital."
+    },
+    "versao_validador": "evidencias-v2"
   }
 }

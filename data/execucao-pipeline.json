@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-03T20:44:29.178465+00:00",
+  "iniciada_em": "2026-10-03T20:55:18.008281+00:00",
   "status": "concluida",
   "etapas": [
     {
@@ -7,11 +7,11 @@
       "status": "concluida",
       "resultado": {
         "fontes_visitadas": 2,
-        "candidatos_novos": 0,
-        "falhas_leitura": 0,
+        "candidatos_novos": 2,
+        "falhas_leitura": 1,
         "chamadas_api_busca": 0
       },
-      "segundos": 5.8
+      "segundos": 2.7
     },
     {
       "nome": "triagem",
@@ -23,56 +23,54 @@
       "nome": "conteudo",
       "status": "concluida",
       "resultado": null,
-      "segundos": 28.4
+      "segundos": 70.1
     },
     {
       "nome": "fontes",
       "status": "concluida",
       "resultado": {
-        "consultas": 1,
+        "consultas": 0,
         "fontes_encontradas": 0,
         "motivo": "busca_cota_em_pausa"
       },
-      "segundos": 0.2
+      "segundos": 0.0
     },
     {
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 467.9
+      "segundos": 33.3
     }
   ],
-  "casos_concluidos_nesta_rodada": 3,
-  "concluidos_por_resultado": {
-    "fora_escopo": 3
-  },
-  "casos_reabertos": 1,
-  "saldo_abertas": -1,
-  "finalizada_em": "2026-10-03T20:52:51.516265+00:00",
-  "houve_avanco": true,
+  "casos_concluidos_nesta_rodada": 0,
+  "concluidos_por_resultado": {},
+  "casos_reabertos": 0,
+  "saldo_abertas": 0,
+  "finalizada_em": "2026-10-03T20:57:04.276269+00:00",
+  "houve_avanco": false,
   "ultimo_avanco_em": "2026-10-03T20:52:51.516265+00:00",
   "ia": {
-    "chamadas": 8,
+    "chamadas": 4,
     "limite": 8,
     "por_etapa": {
       "conteudo": 3,
-      "vigencia": 5
+      "vigencia": 1
     },
-    "bloqueio": "orcamento_execucao_esgotado"
+    "bloqueio": null
   },
   "contagem": {
     "conteudo": {
       "pendente_leitura": 255,
-      "confirmada_no_conteudo": 96,
-      "pendente_evidencia": 55,
+      "confirmada_no_conteudo": 97,
+      "pendente_ia": 140,
+      "pendente_evidencia": 50,
       "nao_confirmada_no_texto": 16,
-      "pendente_ia": 136,
       "fora_escopo": 3
     },
     "vigencia": {
       "aberta_confirmada": 11,
       "encerrada": 83,
-      "pendente_evidencia": 26,
+      "pendente_evidencia": 27,
       "pendente_acesso": 8,
       "pendente_fonte_oficial": 14,
       "fora_escopo": 3
@@ -92,5 +90,5 @@
       }
     }
   },
-  "motivo_sem_avanco": null
+  "motivo_sem_avanco": "aguardando_nova_evidencia_ou_proxima_tentativa"
 }
