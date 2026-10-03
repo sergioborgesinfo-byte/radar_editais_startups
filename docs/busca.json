@@ -5887,13 +5887,13 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-03T03:55:37.913290-03:00",
+    "atualizado_em": "2026-10-03T04:05:33.720401-03:00",
     "examinadas": 139,
     "abertas_publicadas": 7,
     "status": {
       "aberta_confirmada": 10,
-      "encerrada": 75,
-      "pendente_evidencia": 27,
+      "encerrada": 76,
+      "pendente_evidencia": 26,
       "pendente_acesso": 13,
       "pendente_fonte_oficial": 14
     },
@@ -6531,8 +6531,8 @@
       {
         "titulo": "Natura Ventures abre chamada para startups do Norte e Nordeste com foco em inovação, parceria e investimento",
         "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Porto Digital abre inscrições para Pré-Incubação | Jornal Digital",
@@ -6915,12 +6915,6 @@
         "motivo": "fonte_oficial_indisponivel"
       },
       {
-        "titulo": "Natura Ventures abre chamada para startups do Norte e Nordeste com foco em inovação, parceria e investimento",
-        "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
-        "status": "pendente_evidencia",
-        "motivo": "prazo_literal_com_ano_nao_encontrado"
-      },
-      {
         "titulo": "Porto Digital abre inscrições para Pré-Incubação | Jornal Digital",
         "url": "https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital",
         "status": "pendente_acesso",
@@ -7061,19 +7055,19 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 24,
-      "resolvidas_automaticamente": 24,
+      "resolvidas": 25,
+      "resolvidas_automaticamente": 25,
       "revisoes_manuais": 0,
-      "pendentes": 54
+      "pendentes": 53
     },
     "ia": {
       "chamadas": 0,
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 54,
-      "casos_com_tentativa_ia": 60,
-      "resolvidas_automaticamente": 84,
+      "pendencias_restantes": 53,
+      "casos_com_tentativa_ia": 59,
+      "resolvidas_automaticamente": 85,
       "revisoes_manuais": 1
     }
   }
