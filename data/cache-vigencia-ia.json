@@ -1590,5 +1590,33 @@
       "evidencia_ano": "14.09.25",
       "motivo": "O cronograma do programa indica que as inscrições vão até 14.09.25."
     }
+  },
+  "d608c2e214b10629d35760228fc055af8c7ae9213ae3e4537bfe1627dbf070b0": {
+    "em": "2026-10-02T23:52:24.925936-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://www.feevale.br/acontece/noticias/startups-ganham-mais-prazo-para-se-inscreverem-no-brde-labs",
+      "evidencia_identidade": "BRDE Labs RS 2026",
+      "evidencia": "Período foi prorrogado até dia 22 deste mês. [...] as startups em fase de operação e tração têm até o dia 22 de maio para buscar uma vaga na sétima edição do programa do Banco Regional de Desenvolvimento do Extremo Sul (BRDE)",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "fim": "2026-05-22",
+      "evidencia_ano": "BRDE Labs RS 2026",
+      "motivo": "O período de inscrições foi prorrogado até o dia 22 de maio de 2026, conforme informado no documento."
+    }
+  },
+  "9a1912d63cae4a30359f23299e64d8221899d559eaec1ce2f99b6993f07a1994": {
+    "em": "2026-10-02T23:53:39.854592-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://www.feevale.br/acontece/noticias/startups-ganham-mais-prazo-para-se-inscreverem-no-brde-labs",
+      "evidencia_identidade": "BRDE Labs RS 2026",
+      "evidencia": "Agora, as startups em fase de operação e tração têm até o dia 22 de maio para buscar uma vaga na sétima edição do programa do Banco Regional de Desenvolvimento do Extremo Sul (BRDE), que tem, novamente, a parceria da Universidade Feevale, por meio do Feevale Techpark.",
+      "inicio": "2026-05-15",
+      "evidencia_inicio": "15/05/2026  - Atualizado 14h52min\nPeríodo foi prorrogado até dia 22 deste mês.",
+      "fim": "2026-05-22",
+      "evidencia_ano": "BRDE Labs RS 2026",
+      "motivo": "As inscrições para o programa foram prorrogadas até o dia 22 de maio de 2026, conforme informado no documento oficial."
+    }
   }
 }
