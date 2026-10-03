@@ -1,0 +1,99 @@
+{
+  "versao": "pesquisa-fontes-v1",
+  "atualizado_em": "2026-10-03T00:56:12.058Z",
+  "itens": [
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
+      "titulo": "Movimenta Sebrae",
+      "pesquisado_em": "2026-10-03T00:56:12.058Z",
+      "tentativas": 1,
+      "status": "identidade_nao_comprovada",
+      "fontes_examinadas": [
+        "https://rj.agenciasebrae.com.br/economia-e-politica/movimenta-sebrae-abre-espaco-para-mei-startups-e-empreendedores-do-norte-fluminense/"
+      ],
+      "bloqueio_ou_observacao": "Página original dinâmica sem texto; várias ações Movimenta em cidades diferentes. Nenhuma substituição sem comprovar cidade e edição."
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/switch2025",
+      "titulo": "4a. Missão de Startups Brasileiras em Singapura",
+      "pesquisado_em": "2026-10-03T00:56:12.058Z",
+      "tentativas": 1,
+      "status": "fonte_primaria_nao_localizada",
+      "fontes_examinadas": [
+        "https://anprotec.org.br/site/2025/06/ainda-da-tempo-inscricoes-para-a-4a-missao-de-startups-brasileiras-em-singapura-vao-ate-18-de-junho/"
+      ],
+      "bloqueio_ou_observacao": "Notícia examinada contém prorrogação da missão 2025, mas não é documento do organizador; não mapear para edição 2026."
+    },
+    {
+      "url": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
+      "titulo": "Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias",
+      "pesquisado_em": "2026-10-03T00:56:12.058Z",
+      "tentativas": 1,
+      "status": "edicao_antiga_sem_fonte_alternativa",
+      "fontes_examinadas": [
+        "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina/"
+      ],
+      "bloqueio_ou_observacao": "Corpo identifica segundo ciclo de 2020. Site atual não pode substituir essa ficha."
+    },
+    {
+      "url": "https://cloud.google.com/startup/benefits?hl=pt-BR",
+      "titulo": "Programa para Startups do Google Cloud",
+      "pesquisado_em": "2026-10-03T00:56:12.058Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://cloud.google.com/startup",
+        "https://cloud.google.com/startup/faq"
+      ],
+      "bloqueio_ou_observacao": "Página oficial do mesmo programa apresenta convite e público; não estabelece prazo explícito. Classificação permanece com o app."
+    },
+    {
+      "url": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
+      "titulo": "Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo",
+      "pesquisado_em": "2026-10-03T00:56:12.058Z",
+      "tentativas": 1,
+      "status": "fonte_original_examinada",
+      "fontes_examinadas": [
+        "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
+        "https://hardware.org.br/edital-startups/"
+      ],
+      "bloqueio_ou_observacao": "PDF original contém seleção de startups em fluxo contínuo, condicionada a vagas. Página edital-startups hoje é programa distinto de IA para DF; não substituir."
+    },
+    {
+      "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
+      "titulo": "Nova Lima lança Chamamento Público para programa de aceleração de startups",
+      "pesquisado_em": "2026-10-03T00:56:12.058Z",
+      "tentativas": 1,
+      "status": "pdf_sem_texto_extraivel",
+      "fontes_examinadas": [
+        "https://www.novalima.mg.gov.br/inicio/publicacoes-oficiais/publicacao/18806",
+        "https://www.novalima.mg.gov.br/v1/storage/publications/edital_de_chamamento_publico_no_009_2026_1787149139380.pdf",
+        "https://www.novalima.mg.gov.br/v1/storage/publications/edital_de_chamamento_publico_no_009_2026_1787331311334.pdf"
+      ],
+      "bloqueio_ou_observacao": "Edital 009/2026 e errata examinados visualmente; PDF digitalizado sem texto no leitor web. Não mapear enquanto leitura útil pelo app não for comprovada."
+    },
+    {
+      "url": "https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores",
+      "titulo": "Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias",
+      "pesquisado_em": "2026-10-03T00:56:12.058Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://programas.sebraestartups.com.br/in/acelerastartups"
+      ],
+      "bloqueio_ou_observacao": "Link de participação explicitamente citado pelo Sebrae PI para Acelera Startups Da Ideia à Venda; mesma oportunidade e região."
+    },
+    {
+      "url": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
+      "titulo": "Gerdau launches new open innovation challenge to transform tax management with data intelligence",
+      "pesquisado_em": "2026-10-03T00:56:12.058Z",
+      "tentativas": 1,
+      "status": "fonte_primaria_inacessivel",
+      "fontes_examinadas": [
+        "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados/",
+        "https://www2.gerdau.com.br/"
+      ],
+      "bloqueio_ou_observacao": "Notícia de 2025 examinada. Link Conecta Caldeira falhou e Gerdau retornou 403. Resultado encontrado de 2024 trata de gestão orçamentária, outro desafio, descartado."
+    }
+  ]
+}
