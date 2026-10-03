@@ -14,15 +14,17 @@ fila inicial de 78. Publicação: 9 oportunidades abertas.
 | Relevância | 122 registros em 429; leitor diferente do de vigência; bloqueio permanente após três falhas | Retomar a etapa a cada rodada, usar o mesmo leitor, cachear resposta pela entrada e registrar próxima tentativa |
 | Qualidade | A contagem de tentativas liberava ou bloqueava globalmente as oportunidades | Liberar cada registro comprovado; cobertura permanece uma métrica, sem impedir o restante da fila |
 | Fontes primárias | Arquivos e triggers citavam busca Gemini que não está presente no código atual | Pesquisa Tavily limitada a quatro casos sem documentos/acesso; só candidatos compatíveis de fonte reconhecida; o prazo continua dependendo da leitura do documento |
+| Catálogos institucionais | A lista de nove fontes já existia, mas o fluxo principal dependia da API de busca | Visitar duas fontes por rodada, com rotação; preservar o histórico e encaminhar novos links para relevância; sem chamadas à API de busca |
 | Vigência | Espera de 24 h mesmo depois de mudar a fonte; mesma resposta podia ser solicitada novamente por metadados | Retentativa em 15 min para rede, seis horas para evidência insuficiente; troca de fonte libera tentativa; hash usa identidade e documentos, sem horário de registro |
 | IA | Limites separados por etapa e até três lotes multiplicavam o consumo | Orçamento global de oito chamadas, incluindo retentativas; relevância usa no máximo três; cota gera pausa compartilhada de seis horas |
 | Persistência | Um commit gravou saída truncada como JSON e impediu a execução | Recuperação pelo Git já aplicada; nova escrita atômica com validação e substituição de arquivo |
 | Agendamento | Quatro workflows encadeados e grupos de concorrência diferentes | Uma rodada integrada por hora; descoberta diária aciona a mesma rodada; todos os escritores automáticos compartilham o grupo de concorrência |
+| Automações do ChatGPT | As rotinas “Resolver fontes do Radar” e “Revisar Radar Startups” estão pausadas, sem próxima execução | Não contar com elas como busca ativa; manter pausadas durante a revisão para evitar alterações concorrentes e concentrar a rotina no app |
 | Publicação | Painel combinava arquivos de atualizações diferentes e dizia apenas “concluído” | Uma fotografia conjunta; casos concluídos/reabertos, saldo de abertas, último avanço e bloqueio externo; atualização da página a cada minuto |
 
 ## Rota operacional
 
-1. Triar o catálogo preservado e descartar conteúdo explicitamente fora do público.
+1. Ler duas fontes institucionais cadastradas e triar o catálogo preservado, descartando conteúdo explicitamente fora do público.
 2. Retomar a relevância em lotes, preservando os resultados anteriores e a cota de vigência.
 3. Pesquisar fontes dos casos sem documento útil ou com acesso indisponível.
 4. Validar regras/datas nos documentos e recorrer à IA com citações verificáveis.
@@ -45,7 +47,9 @@ e triagem ficam disponíveis apenas para disparo manual, sem cadeia automática.
 
 ## Limites e próximas decisões
 
-O HTTP 432 da busca externa precisa ser medido na chamada real da nova rodada.
+O HTTP 432 registrado na busca externa significa limite de uso do plano,
+segundo a [documentação do Tavily](https://help.tavily.com/articles/8645538886-understanding-http-errors).
+O estado atual da cota precisa ser medido na chamada real da nova rodada.
 Caso persista, a descoberta fica em pausa: mudar o leitor ou o prompt não
 reconstitui a cota do fornecedor. O app continua validando o catálogo e os
 documentos disponíveis. A política de domínios reconhecidos ainda combina

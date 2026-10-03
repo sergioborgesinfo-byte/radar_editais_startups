@@ -39,6 +39,64 @@ def buscar(consulta, chave):
         return resposta.json().get('results', [])
 
 
+def catalogar(limite=2, baixar=None, agora=None):
+    """Visita fontes cadastradas sem consumir API de pesquisa nem IA."""
+    from urllib.parse import urljoin
+    from bs4 import BeautifulSoup
+    from descobrir_oportunidades import normalizar_url
+    from validar_vigencia import oficial
+    if baixar is None:
+        import radar
+        from leitura_cache import leitor_cache
+        baixar = leitor_cache(radar.baixar)
+    agora = agora or datetime.now(timezone.utc)
+    configuracao=json.loads(Path('sources.json').read_text())
+    fontes=configuracao.get('fontes', [])
+    estado_path=Path('data/estado-catalogos.json')
+    try: estado=json.loads(estado_path.read_text())
+    except (OSError,ValueError): estado={}
+    cursor=estado.get('cursor',0) % max(1,len(fontes))
+    try: origem=json.loads(Path('data/oportunidades-descobertas.json').read_text())
+    except (OSError,ValueError): origem={'oportunidades':[]}
+    itens={e['url']:e for e in origem['oportunidades']}
+    novas=0; consultadas=[]
+    for fonte in (fontes[cursor:]+fontes[:cursor])[:limite]:
+        entrada={'url':fonte['url']}
+        try:
+            tipo, bruto=baixar(fonte['url'])
+            if not bruto: raise ValueError('leitura_nao_autorizada')
+            sopa=BeautifulSoup(bruto, 'html.parser')
+            for bloco in sopa(['nav','footer','script','style']): bloco.decompose()
+            alvos=[(fonte['url'],fonte.get('nome','Fonte cadastrada'))]
+            for a in sopa.find_all('a',href=True):
+                url=normalizar_url(urljoin(fonte['url'],a['href']))
+                rotulo=a.get_text(' ',strip=True)
+                if not url: continue
+                mesma_fonte=urlsplit(url).hostname == urlsplit(fonte['url']).hostname
+                programa_sebrae='programas.sebraestartups.com.br/in/' in url
+                if (mesma_fonte or oficial(url)) and (programa_sebrae or re.search(
+                    r'edital|inscri|inscre|apply|candidat|program|chamada|acelera|incuba',rotulo+' '+urlsplit(url).path,re.I)):
+                    alvos.append((url,rotulo or urlsplit(url).path))
+            for url,titulo in alvos[:11]:
+                if url in itens: continue
+                novas+=1
+                itens[url]={'url':url,'titulo':titulo,'resumo_busca':'Link coletado em catálogo institucional',
+                    'descoberto_em':agora.isoformat(),'encontrado_em':agora.isoformat(),
+                    'consultas':['Catálogo institucional: '+fonte['url']], 'situacao':'aguarda_verificacao'}
+            entrada['status']='lida'
+        except Exception as erro:
+            entrada.update(status='pendente', tipo=type(erro).__name__)
+        consultadas.append(entrada)
+    origem['oportunidades']=list(itens.values())
+    origem['catalogos_atualizados_em']=agora.isoformat()
+    salvar_json('data/oportunidades-descobertas.json', origem)
+    salvar_json(estado_path,{'cursor':(cursor+len(consultadas)) % max(1,len(fontes)),
+                            'em':agora.isoformat(),'consultadas':consultadas})
+    return {'fontes_visitadas':len(consultadas),'candidatos_novos':novas,
+            'falhas_leitura':sum(x['status']=='pendente' for x in consultadas),
+            'chamadas_api_busca':0}
+
+
 def executar(limite=4, pesquisar=None, agora=None):
     from validar_vigencia import oficial
     agora = agora or datetime.now(timezone.utc)

@@ -105,6 +105,7 @@ class Pipeline(unittest.TestCase):
                 def validar():
                     salvar_json('data/oportunidades-vigencia.json',{'itens':[{'url':'https://fonte.gov.br/a','status':'encerrada'}]})
                 with patch('estado_pipeline.orcamento', None), patch('triar_descobertas.main', return_value=None), \
+                     patch('pesquisar_fontes.catalogar', return_value={'candidatos_novos':0}), \
                      patch('confirmar_oportunidades.main', side_effect=ValueError('falha')), \
                      patch('pesquisar_fontes.executar', return_value={'consultas':0}), \
                      patch('validar_vigencia.main', side_effect=validar):
@@ -114,4 +115,20 @@ class Pipeline(unittest.TestCase):
                 self.assertEqual(r['casos_concluidos_nesta_rodada'],1)
                 self.assertEqual(r['etapas'][-1]['status'],'concluida')
                 self.assertEqual(json.loads(Path('docs/busca.json').read_text())['pipeline']['status'],'falha_parcial')
+            finally: os.chdir(antigo)
+
+    def test_catalogos_descobrem_links_sem_api_e_preservam_historico(self):
+        from pesquisar_fontes import catalogar
+        with tempfile.TemporaryDirectory() as tmp:
+            antigo=os.getcwd(); os.chdir(tmp)
+            try:
+                salvar_json('sources.json',{'fontes':[{'url':'https://fonte.gov.br/programas','nome':'Catálogo'}]})
+                salvar_json('data/oportunidades-descobertas.json',{'oportunidades':[{'url':'https://antiga.com/a','titulo':'Anterior'}]})
+                corpo=b'<main><a href="/edital-alfa">Programa Alfa: inscricoes</a><a href="https://blog.com/outra">Inscricoes externas</a></main>'
+                r=catalogar(baixar=lambda url:('text/html',corpo))
+                urls=[e['url'] for e in json.loads(Path('data/oportunidades-descobertas.json').read_text())['oportunidades']]
+                self.assertIn('https://antiga.com/a',urls)
+                self.assertIn('https://fonte.gov.br/edital-alfa',urls)
+                self.assertNotIn('https://blog.com/outra',urls)
+                self.assertEqual(r['chamadas_api_busca'],0)
             finally: os.chdir(antigo)

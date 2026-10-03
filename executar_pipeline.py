@@ -49,10 +49,10 @@ def main():
     salvar_json('data/execucao-pipeline.json', relatorio)
     from triar_descobertas import main as triar
     from confirmar_oportunidades import main as confirmar
-    from pesquisar_fontes import executar as pesquisar
+    from pesquisar_fontes import executar as pesquisar, catalogar
     from validar_vigencia import main as validar
     # Uma cadeia única substitui workflows concorrentes escrevendo os mesmos arquivos.
-    for nome, tarefa in [('triagem', triar), ('conteudo', confirmar), ('fontes', pesquisar), ('vigencia', validar)]:
+    for nome, tarefa in [('catalogos', catalogar), ('triagem', triar), ('conteudo', confirmar), ('fontes', pesquisar), ('vigencia', validar)]:
         duracao = time.monotonic()
         etapa = {'nome': nome}
         try:
