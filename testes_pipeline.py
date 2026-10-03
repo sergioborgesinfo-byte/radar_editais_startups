@@ -95,3 +95,23 @@ class Pipeline(unittest.TestCase):
         from triar_descobertas import classificar
         for titulo in ['How to Disable Startup Programs in Windows','Startup Venture Challenge for High Schools','Programa Startup Lab – Seleção de Bolsista']:
             self.assertEqual(classificar({'url':'https://fonte.gov.br/a','titulo':titulo})[0],'fora_escopo')
+
+    def test_falha_de_uma_etapa_nao_esconde_resultado_nem_afirma_sucesso(self):
+        from executar_pipeline import main
+        with tempfile.TemporaryDirectory() as tmp:
+            antigo=os.getcwd(); os.chdir(tmp)
+            try:
+                salvar_json('docs/busca.json', {'itens':[], 'confirmacoes':[]})
+                def validar():
+                    salvar_json('data/oportunidades-vigencia.json',{'itens':[{'url':'https://fonte.gov.br/a','status':'encerrada'}]})
+                with patch('estado_pipeline.orcamento', None), patch('triar_descobertas.main', return_value=None), \
+                     patch('confirmar_oportunidades.main', side_effect=ValueError('falha')), \
+                     patch('pesquisar_fontes.executar', return_value={'consultas':0}), \
+                     patch('validar_vigencia.main', side_effect=validar):
+                    with self.assertRaises(SystemExit): main()
+                r=json.loads(Path('data/execucao-pipeline.json').read_text())
+                self.assertEqual(r['status'],'falha_parcial')
+                self.assertEqual(r['casos_concluidos_nesta_rodada'],1)
+                self.assertEqual(r['etapas'][-1]['status'],'concluida')
+                self.assertEqual(json.loads(Path('docs/busca.json').read_text())['pipeline']['status'],'falha_parcial')
+            finally: os.chdir(antigo)

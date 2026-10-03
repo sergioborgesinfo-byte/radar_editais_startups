@@ -136,9 +136,9 @@ def classificar_texto(texto, url):
     modelo = os.getenv('GEMINI_MODEL', 'gemini-3.5-flash-lite')
     for tentativa in range(2):
         from estado_pipeline import reservar, pausar
+        if not os.getenv('GEMINI_API_KEY'): raise ServicoIndisponivel('gemini_sem_credencial')
         bloqueio = reservar('conteudo')
         if bloqueio: raise ServicoIndisponivel(bloqueio)
-        if not os.getenv('GEMINI_API_KEY'): raise ServicoIndisponivel('gemini_sem_credencial')
         time.sleep(max(0, 7 - (time.monotonic() - _ultima)))
         _ultima = time.monotonic()
         req = Request(f'https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent',
@@ -341,6 +341,9 @@ def salvar_qualidade(origem, feitos, contagem):
 
 def main():
     import radar
+    import estado_pipeline
+    if estado_pipeline.orcamento is None:
+        estado_pipeline.orcamento = estado_pipeline.Orcamento(int(os.getenv('RADAR_IA_LIMITE', '8')))
     from conferir_servicos import limpar_chave
     if os.getenv('GEMINI_API_KEY'):
         os.environ['GEMINI_API_KEY'] = limpar_chave(os.getenv('GEMINI_API_KEY'))

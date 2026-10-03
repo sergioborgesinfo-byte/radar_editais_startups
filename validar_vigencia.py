@@ -402,6 +402,9 @@ def carregar_conteudo(caminho='data/oportunidades-conteudo.json'):
 
 def main():
     import radar
+    import estado_pipeline
+    if estado_pipeline.orcamento is None:
+        estado_pipeline.orcamento = estado_pipeline.Orcamento(int(os.getenv('RADAR_IA_LIMITE', '8')))
     from leitura_cache import leitor_cache
     from leitor_navegador import leitor_com_navegador
     leitor = leitor_com_navegador(leitor_cache(radar.baixar), radar.permitido)
