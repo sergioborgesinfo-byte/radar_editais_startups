@@ -1,6 +1,6 @@
 {
   "versao": "pesquisa-fontes-v1",
-  "atualizado_em": "2026-10-03T03:47:51.066Z",
+  "atualizado_em": "2026-10-03T04:51:27.266Z",
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
@@ -378,6 +378,96 @@
         "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto/"
       ],
       "bloqueio_ou_observacao": "A ficha é o Ciclo 2 da 3ª edição, lançado em 11/08/2025. O portal oficial confirma o Ciclo 2 e os 100 negócios, mas não expõe no texto atual o prazo de inscrição; não foi feito novo mapeamento."
+    },
+    {
+      "url": "https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29",
+      "titulo": "Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29",
+      "pesquisado_em": "2026-10-03T04:51:27.266Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://prosas.com.br/editais/16756"
+      ],
+      "bloqueio_ou_observacao": "Edital oficial Rio.IA 2026 confirma startups de IA e prorrogação das inscrições até 06/02/2026."
+    },
+    {
+      "url": "https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento",
+      "titulo": "Natura Ventures abre chamada para startups do Norte e Nordeste",
+      "pesquisado_em": "2026-10-03T04:51:27.266Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://chamadadeimpactonatura.com.br/"
+      ],
+      "bloqueio_ou_observacao": "Página oficial da Chamada de Impacto Natura confirma startups com CNPJ no Norte ou Nordeste e inscrições de 27/07 a 30/08/2026."
+    },
+    {
+      "url": "https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital",
+      "titulo": "Porto Digital abre inscrições para Pré-Incubação",
+      "pesquisado_em": "2026-10-03T04:51:27.266Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao",
+        "https://www.portodigital.org/noticias/inscricoes-para-programas-early-stage-com-inscricoes-prorrogadas"
+      ],
+      "bloqueio_ou_observacao": "Página oficial do Porto Digital confirma Pré-Incubação 2026.1 e prorrogação até 30/03/2026."
+    },
+    {
+      "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
+      "titulo": "Maior incubadora do Brasil abre vagas para startups em SC",
+      "pesquisado_em": "2026-10-03T04:51:27.266Z",
+      "tentativas": 1,
+      "status": "fonte_primaria_nao_localizada",
+      "fontes_examinadas": [
+        "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco"
+      ],
+      "bloqueio_ou_observacao": "Não foi localizada fonte oficial legível da mesma edição e das 11 cidades. Não mapear para chamadas posteriores de incubadoras catarinenses."
+    },
+    {
+      "url": "https://prpi.ufg.br/p/empreendedorismo-e-inovacao",
+      "titulo": "Empreendedorismo e Inovação: como programas de incubação impulsionam negócios e startups",
+      "pesquisado_em": "2026-10-03T04:51:27.266Z",
+      "tentativas": 1,
+      "status": "nao_eh_chamada_especifica_comprovada",
+      "fontes_examinadas": [
+        "https://prpi.ufg.br/p/empreendedorismo-e-inovacao",
+        "https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao"
+      ],
+      "bloqueio_ou_observacao": "Conteúdo institucional da UFG não identifica uma chamada específica da própria universidade. Links do Porto Digital são oportunidades diferentes e não substituem esta ficha."
+    },
+    {
+      "url": "https://sna.agr.br/embrapa-e-venture-hub-selecionam-startups-em-programa-de-aceleracao",
+      "titulo": "Embrapa e Venture Hub selecionam startups em programa de aceleração",
+      "pesquisado_em": "2026-10-03T04:51:27.266Z",
+      "tentativas": 1,
+      "status": "edicao_antiga_sem_fonte_primaria_localizada",
+      "fontes_examinadas": [
+        "https://sna.agr.br/embrapa-e-venture-hub-selecionam-startups-em-programa-de-aceleracao"
+      ],
+      "bloqueio_ou_observacao": "Não foi localizada página oficial sobrevivente da mesma edição do programa Embrapa/Venture Hub; programas posteriores foram descartados."
+    },
+    {
+      "url": "https://alertaeditais.com.br/edital/edital-012026-e-goias-transformacao-digital-d-4t8fn",
+      "titulo": "Edital 01/2026 e-Goiás Transformação Digital das empresas 2º Ciclo – Chamada de Solucionadoras",
+      "pesquisado_em": "2026-10-03T04:51:27.266Z",
+      "tentativas": 1,
+      "status": "fonte_primaria_nao_localizada",
+      "fontes_examinadas": [
+        "https://alertaeditais.com.br/edital/edital-012026-e-goias-transformacao-digital-d-4t8fn"
+      ],
+      "bloqueio_ou_observacao": "Não foi localizada página oficial legível do Edital 01/2026, 2º Ciclo, Chamada de Solucionadoras; sem associação a outro ciclo."
+    },
+    {
+      "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
+      "titulo": "Prorrogado! Programas para novas startups com inscrições até 30 de março",
+      "pesquisado_em": "2026-10-03T04:51:27.266Z",
+      "tentativas": 1,
+      "status": "fonte_alternativa_localizada",
+      "fontes_examinadas": [
+        "https://www.portodigital.org/noticias/inscricoes-para-programas-early-stage-com-inscricoes-prorrogadas"
+      ],
+      "bloqueio_ou_observacao": "Fonte oficial confirma a prorrogação da Pré-Incubação e Incubação 2026.1 até 30/03/2026, sem alterar os prazos das outras trilhas."
     }
   ]
 }
