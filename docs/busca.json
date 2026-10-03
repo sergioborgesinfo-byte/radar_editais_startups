@@ -5887,14 +5887,14 @@
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-02T21:58:54.221931-03:00",
+    "atualizado_em": "2026-10-02T22:50:28.235608-03:00",
     "examinadas": 139,
     "abertas_publicadas": 9,
     "status": {
       "aberta_confirmada": 10,
-      "encerrada": 71,
-      "pendente_evidencia": 30,
-      "pendente_acesso": 9,
+      "encerrada": 74,
+      "pendente_evidencia": 25,
+      "pendente_acesso": 11,
       "pendente_fonte_oficial": 19
     },
     "resultados": [
@@ -6309,8 +6309,8 @@
       {
         "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
         "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Natura abre inscrições para desafio de inovação que vai acelerar startups de beleza na América Latina - Natura RI",
@@ -6351,32 +6351,32 @@
       {
         "titulo": "UFT abre seleção para programa de pré-incubação ...",
         "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
+        "status": "encerrada",
+        "motivo": ""
+      },
+      {
+        "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste | ASN Nacional - Agência Sebrae de Notícias",
+        "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
         "status": "pendente_acesso",
         "motivo": "fonte_oficial_indisponivel"
       },
       {
-        "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
-        "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões",
+        "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões | ASN Nacional - Agência Sebrae de Notícias",
         "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
         "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "encerrada",
+        "motivo": ""
       },
       {
         "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
         "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Hello Tomorrow Challenge",
@@ -6783,40 +6783,22 @@
         "motivo": "edicao_ou_publico_nao_comprovado"
       },
       {
-        "titulo": "Abertas candidaturas ao programa de aceleração para apoiar startups a entrar no mercado - XXV Governo Constitucional",
-        "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/abertas-candidaturas-ao-programa-de-aceleracao-para-apoiar-startups-a-entrar-no-mercado",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "UFT abre seleção para programa de pré-incubação ...",
-        "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
+        "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste | ASN Nacional - Agência Sebrae de Notícias",
+        "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
         "status": "pendente_acesso",
         "motivo": "fonte_oficial_indisponivel"
       },
       {
-        "titulo": "Seleção disponibiliza R$ 300 milhões para investimento em startups do Norte, Nordeste e Centro-Oeste",
-        "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões",
+        "titulo": "Startups de três regiões já podem concorrer em seleção que soma R$ 300 milhões | ASN Nacional - Agência Sebrae de Notícias",
         "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
-      },
-      {
-        "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
-        "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias",
         "url": "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais",
-        "status": "pendente_evidencia",
-        "motivo": "edicao_ou_publico_nao_comprovado"
+        "status": "pendente_acesso",
+        "motivo": "fonte_oficial_indisponivel"
       },
       {
         "titulo": "Programa de Aceleração #GoHard15 da Ventiur",
@@ -7085,19 +7067,19 @@
     ],
     "fila_prioritaria": {
       "total_inicial": 78,
-      "resolvidas": 20,
-      "resolvidas_automaticamente": 20,
+      "resolvidas": 23,
+      "resolvidas_automaticamente": 23,
       "revisoes_manuais": 0,
-      "pendentes": 58
+      "pendentes": 55
     },
     "ia": {
       "chamadas": 0,
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
-      "pendencias_restantes": 58,
-      "casos_com_tentativa_ia": 68,
-      "resolvidas_automaticamente": 80,
+      "pendencias_restantes": 55,
+      "casos_com_tentativa_ia": 63,
+      "resolvidas_automaticamente": 83,
       "revisoes_manuais": 1
     }
   }
