@@ -2,7 +2,7 @@ name: Validar vigência e publicar abertas
 
 on:
   schedule:
-    - cron: "37 * * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -48,13 +48,13 @@ jobs:
           restore-keys: radar-pipeline-${{ runner.os }}-${{ hashFiles('requirements.txt') }}-
       - name: Preparar navegador
         run: python -m playwright install --with-deps chromium
-      - name: Executar todas as etapas com orçamento total de oito chamadas
+      - name: Executar todas as etapas com orçamento ampliado
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.GEMINI }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY || secrets.TAVILY }}
-          RADAR_IA_LIMITE: "8"
-          CONTEUDO_LOTE: "24"
-          VIGENCIA_IA_LIMITE: "8"
+          RADAR_IA_LIMITE: "20"
+          CONTEUDO_LOTE: "60"
+          VIGENCIA_IA_LIMITE: "20"
         run: python -u executar_pipeline.py
       - name: Preservar diagnóstico de execução
         if: always()

@@ -2,7 +2,7 @@ name: Descobrir oportunidades
 
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 6,12,18,23 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -46,8 +46,6 @@ jobs:
           git add data/oportunidades-descobertas.json data/descobertas.md
           if ! git diff --cached --quiet; then
             git commit -m "Atualiza candidatos descobertos; vigência não verificada"
-            # A vigência pode publicar enquanto a busca está rodando. Reaplica o
-            # relatório sobre o main atual para não perder o lote por non-fast-forward.
             git pull --rebase origin "$GITHUB_REF_NAME"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
