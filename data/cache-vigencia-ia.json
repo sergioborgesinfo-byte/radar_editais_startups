@@ -1879,5 +1879,35 @@
       "motivo": "O edital estabelece claramente o período de inscrições entre 19/08/2024 e 11/09/2024."
     },
     "versao_validador": "evidencias-v2"
+  },
+  "5e0cbc5c80ab6124cae3dc902549f334395fa0b8cae025040bfc76a8b11a5437": {
+    "em": "2026-10-04T07:05:16.359793-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://news.confap.org.br/novo-edital-do-compete-minas-oferece-r-50-milhoes-para-impulsionar-a-inovacao-tecnologica-no-setor-produtivo",
+      "evidencia_identidade": "Novo edital do Compete Minas oferece R$ 50 milhões para impulsionar a inovação tecnológica no setor produtivo",
+      "evidencia": "O período de submissões inicia em 15 de junho e vai até 30 de julho de 2026 , por meio do Sistema Everest .",
+      "fim": "2026-07-30",
+      "inicio": "2026-06-15",
+      "evidencia_inicio": "O período de submissões inicia em 15 de junho",
+      "evidencia_ano": "Chamada Fapemig/Sede nº 11/2026",
+      "motivo": "O edital possui cronograma definido com inscrições de 15 de junho de 2026 até 30 de julho de 2026."
+    },
+    "versao_validador": "evidencias-v2"
+  },
+  "923c007f7c0ba0b8f2b38b1b4d858d96c761833be3fb1e5648d8adb9bb6caa78": {
+    "em": "2026-10-04T07:05:16.359793-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://fapesq.rpp.br/editais/editais-2026/24_04-26-edital-centelha-3-fapesq-v220426.pdf",
+      "evidencia_identidade": "Programa Centelha 3 Paraíba",
+      "evidencia": "Fase 1 - Submissão das ideias inovadoras | 24/04/2026 | 25/05/2026 ... Fase 2 - Submissão dos Projetos de Fomento | 20/07/2026 | 10/08/2026",
+      "fim": "2026-08-10",
+      "inicio": "2026-04-24",
+      "evidencia_inicio": "Lançamento da Chamada Pública | 24/04/2026",
+      "evidencia_ano": "Edital nº 022/2026",
+      "motivo": "O edital do Programa Centelha 3 Paraíba estabelece o cronograma com prazos de submissão para a Fase 1 (24/04/2026 a 25/05/2026) e para a Fase 2 (20/07/2026 a 10/08/2026)."
+    },
+    "versao_validador": "evidencias-v2"
   }
 }

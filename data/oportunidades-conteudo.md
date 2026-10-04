@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 255, 'confirmada_no_conteudo': 100, 'pendente_ia': 134, 'pendente_evidencia': 52, 'nao_confirmada_no_texto': 17, 'fora_escopo': 3}
+{'pendente_leitura': 255, 'confirmada_no_conteudo': 102, 'pendente_ia': 131, 'pendente_evidencia': 53, 'nao_confirmada_no_texto': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -112,7 +112,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Aceleração de Startups: Sebrae no Piauí lança edital para seleção de negócios inovadores | ASN Piauí - Agência Sebrae de Notícias — https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores
   - trecho_oportunidade: Estão abertas as inscrições para o Acelera Startups – Da Ideia à Venda, programa de aceleração do Sebrae no Piauí, voltado ao desenvolvimento de startups em fases iniciais.
   - trecho_publico: Estão abertas as inscrições para o Acelera Startups – Da Ideia à Venda, programa de aceleração do Sebrae no Piauí, voltado ao desenvolvimento de startups em fases iniciais.
-- pendente_ia: Programa Start&UP - Edição 9 - Sebrae Startups — https://programas.sebraestartups.com.br/in/1773155744320x304125193997948540
+- pendente_evidencia: Programa Start&UP - Edição 9 - Sebrae Startups — https://programas.sebraestartups.com.br/in/1773155744320x304125193997948540
 - pendente_leitura: PROGRAMA NACIONAL CONEXÃO STARTUP INDÚSTRIA — https://repositorio.ipea.gov.br/bitstreams/fca4836e-7dc0-43fb-8d6d-9c809c7bfad8/download
 - nao_confirmada_no_texto: Programa Acelera Startup SC anuncia 20 premiadas com investimento de cerca de R$ 1,6 milhão no Startup Summit 2026 — https://sc.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-startup-sc-anuncia-20-premiadas-com-investimento-de-cerca-de-r-16-milhao-no-startup-summit-2026
 - pendente_ia: Boletim de Editais eAções de Fomento aos — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/boletim-de-inova%C3%A7%C3%A3o/Boletim%20de%20inova%C3%A7%C3%A3o%20-%20Maio%202026.pdf
@@ -329,7 +329,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA — https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-013-2026-pesquisador-na-empresa
   - trecho_oportunidade: Apoiar a inserção e fixação de pesquisadores em empresas, startups e cooperativas, por meio da concessão de bolsas e auxílio à pesquisa, visando fortalecer as atividades de pesquisa e desenvolvimento (P&D) e a capacidade de inovação do setor produtivo mineiro
   - trecho_publico: Empresas, startups e cooperativas que: não sejam Microempreendedor Individual (MEI); tenham sede ou filial em Minas Gerais;
-- pendente_ia: CONFAP — Conselho Nacional das Fundações Estaduais de Amparo à PesquisaNovo edital do Compete Minas oferece R$ 50 milhões para impulsionar a inovação tecnológica no setor produtivo — https://news.confap.org.br/novo-edital-do-compete-minas-oferece-r-50-milhoes-para-impulsionar-a-inovacao-tecnologica-no-setor-produtivo
+- confirmada_no_conteudo: Novo edital do Compete Minas oferece R$ 50 milhões para impulsionar a inovação tecnológica no setor produtivo — https://news.confap.org.br/novo-edital-do-compete-minas-oferece-r-50-milhoes-para-impulsionar-a-inovacao-tecnologica-no-setor-produtivo
+  - trecho_oportunidade: A Chamada Fapemig/Sede nº 11/2026 unifica as duas linhas que antes eram separadas no programa: a Linha A – Tríplice Hélice (projetos de Instituições de Ciência e Tecnologia de Minas Gerais em parceria com o setor produtivo) e a Linha B – Empresarial (projetos que partem de empreendimentos, startups ou cooperativas mineiras).
+  - trecho_publico: projetos que partem de empreendimentos, startups ou cooperativas mineiras
 - confirmada_no_conteudo: Natura Innovation Challenge seleciona startups com soluções para compensação de carbono — https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072
   - trecho_oportunidade: O Natura Innovation Challenge 2024 selecionará até cinco startups do mercado global, incluindo países da América Latina, Estados Unidos e Europa.
   - trecho_publico: O Natura Innovation Challenge 2024 selecionará até cinco startups do mercado global, incluindo países da América Latina, Estados Unidos e Europa.
@@ -739,7 +741,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Tudo sobre programa de aceleração - Startups — https://startups.com.br/tag/programa-de-aceleracao
 - pendente_evidencia: Desafio COB de Startups — 2ª edição com 11 teses e foco no ciclo rumo a Los Angeles 2028 — https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-abre-2-edicao-com-11-teses-e-foco-no-ciclo-rumo-a-los-angeles-2028
 - pendente_evidencia: Não perca o prazo: inscrições no Prêmio Sebrae Startups 2026 vão até o dia 30 | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/segunda-nao-perca-o-prazo-inscricoes-no-premio-sebrae-startups-2026-vao-ate-o-dia-30
-- pendente_ia: Prêmio Sebrae Startups 2026 abre inscrições e oferece oportunidade de crescimento | ASN Pará - Agência Sebrae de Notícias — https://pa.agenciasebrae.com.br/inovacao-e-tecnologia/premio-sebrae-startups-2026-abre-inscricoes-oferecendo-oportunidade-de-mercado-e-crescimento-a-empresas-inovadoras
+- confirmada_no_conteudo: Prêmio Sebrae Startups 2026 — https://pa.agenciasebrae.com.br/inovacao-e-tecnologia/premio-sebrae-startups-2026-abre-inscricoes-oferecendo-oportunidade-de-mercado-e-crescimento-a-empresas-inovadoras
+  - trecho_oportunidade: o Prêmio Sebrae Startups 2026 , que está com inscrições abertas até o dia 30 de abril. A campeã nacional receberá R$250 mil. Muito mais do que uma simples premiação, a iniciativa é um programa nacional que conecta startups brasileiras a oportunidades de mercado e crescimento
+  - trecho_publico: O Sebrae oferece mais uma oportunidade de desenvolvimento para pequenos negócios inovadores que estão em estágio inicial: o Prêmio Sebrae Startups 2026
 - confirmada_no_conteudo: Baita Aceleradora abre inscrições para a turma 2022 — https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294
   - trecho_oportunidade: A Baita Aceleradora abre inscrições para a turma 2022 de aceleração de startups.
   - trecho_publico: A Baita Aceleradora abre inscrições para a turma 2022 de aceleração de startups.

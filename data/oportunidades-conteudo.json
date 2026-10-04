@@ -1,12 +1,12 @@
 {
   "versao": "conteudo-v1",
-  "atualizado_em": "2026-10-04T02:51:53.384926+00:00",
+  "atualizado_em": "2026-10-04T10:05:16.107673+00:00",
   "vigencia": "nao_avaliada",
   "contagem": {
     "pendente_leitura": 255,
-    "confirmada_no_conteudo": 100,
-    "pendente_ia": 134,
-    "pendente_evidencia": 52,
+    "confirmada_no_conteudo": 102,
+    "pendente_ia": 131,
+    "pendente_evidencia": 53,
     "nao_confirmada_no_texto": 17,
     "fora_escopo": 3
   },
@@ -49,24 +49,24 @@
       "titulo": "ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.333111+00:00",
-      "tentativas": 12,
+      "conferido_em": "2026-10-04T10:05:16.010274+00:00",
+      "tentativas": 13,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.334504+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:16.011423+00:00"
     },
     {
       "url": "http://www.repositorio.ufal.br/bitstream/riufal/7023/3/Programa%20de%20acelera%C3%A7%C3%A3o%20de%20startups%3A%20inova%C3%A7%C3%A3o%20e%20desenvolvimento%20empresarial.pdf",
       "titulo": "Programa de aceleração de startups: inovação e ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.349359+00:00",
-      "tentativas": 7,
+      "conferido_em": "2026-10-04T10:05:16.026067+00:00",
+      "tentativas": 8,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.349384+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:16.026143+00:00"
     },
     {
       "url": "https://abes.org.br/en/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios",
@@ -413,8 +413,8 @@
       "titulo": "Programa de aceleração Citz.Tech",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:37.862664+00:00",
-      "tentativas": 9,
+      "conferido_em": "2026-10-04T10:04:54.174315+00:00",
+      "tentativas": 10,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -693,8 +693,8 @@
       "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 03/2026 PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS VI EDIÇÃO SUPER PITCH DAY – Fapesc",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:37.898818+00:00",
-      "tentativas": 8,
+      "conferido_em": "2026-10-04T10:04:54.209818+00:00",
+      "tentativas": 9,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -729,8 +729,8 @@
       "titulo": "Learn about the Founder Institute's pre-seed startup accelerator program",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:37.913944+00:00",
-      "tentativas": 8,
+      "conferido_em": "2026-10-04T10:04:54.225486+00:00",
+      "tentativas": 9,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -1084,12 +1084,12 @@
       "titulo": "Programa Start&UP - Edição 9 - Sebrae Startups",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.154458+00:00",
-      "tentativas": 7,
+      "conferido_em": "2026-10-04T10:05:08.820749+00:00",
+      "tentativas": 8,
       "metodo_leitura": "cronogramas-v6",
-      "status": "pendente_ia",
-      "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.155580+00:00"
+      "status": "pendente_evidencia",
+      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada",
+      "proxima_tentativa": "2026-10-05T10:05:15.850535+00:00"
     },
     {
       "url": "https://repositorio.ipea.gov.br/bitstreams/fca4836e-7dc0-43fb-8d6d-9c809c7bfad8/download",
@@ -1129,24 +1129,24 @@
       "titulo": "Boletim de Editais eAções de Fomento aos",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.221238+00:00",
-      "tentativas": 6,
+      "conferido_em": "2026-10-04T10:05:15.915544+00:00",
+      "tentativas": 7,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.221271+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:15.915628+00:00"
     },
     {
       "url": "https://sict.rs.gov.br/edital-sict-02-2026",
       "titulo": "Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.235859+00:00",
-      "tentativas": 11,
+      "conferido_em": "2026-10-04T10:05:15.930211+00:00",
+      "tentativas": 12,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.236326+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:15.930649+00:00"
     },
     {
       "url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/29307/1/PRArt_216962_RAE%20n.%2022_Acelera%C3%A7%C3%A3o%20de%20startups%20no%20Brasil.pdf",
@@ -1165,12 +1165,12 @@
       "titulo": "Aceleração de Startups – educação empreendedora – Banco do Nordeste - Portal Banco do Nordeste",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.250872+00:00",
-      "tentativas": 6,
+      "conferido_em": "2026-10-04T10:05:15.945558+00:00",
+      "tentativas": 7,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.251601+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:15.946203+00:00"
     },
     {
       "url": "https://www.fap.df.gov.br/documents/d/fap/sei_gdf-207047077-edital-n-11-2026-programa-fapdf-start-bsb-3-ciclo-pdf",
@@ -1322,32 +1322,32 @@
       "titulo": "Batch #35 - Inscrição, WOW Aceleradora",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.316774+00:00",
-      "tentativas": 6,
+      "conferido_em": "2026-10-04T10:05:15.994602+00:00",
+      "tentativas": 7,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.318329+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:15.995897+00:00"
     },
     {
       "url": "https://alertaeditais.com.br/edital/chamada-fapemig-sede-032026-novo-seed:-aceler-recjw",
       "titulo": "CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-03T20:56:30.950706+00:00",
-      "tentativas": 4,
+      "conferido_em": "2026-10-04T10:05:16.070045+00:00",
+      "tentativas": 5,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-03T21:11:30.952698+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:16.071942+00:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para",
       "titulo": "Incubadora de startups da bioeconomia amazônica é lançada no Pará | ASN Nacional - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:37.843323+00:00",
-      "tentativas": 8,
+      "conferido_em": "2026-10-04T10:04:54.155686+00:00",
+      "tentativas": 9,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -1580,12 +1580,12 @@
       "titulo": "CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.267109+00:00",
-      "tentativas": 9,
+      "conferido_em": "2026-10-04T10:05:15.961027+00:00",
+      "tentativas": 10,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.272217+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:15.965456+00:00"
     },
     {
       "url": "https://www.randoncorp.com/pt/blog/inscri%C3%A7%C3%B5es-para-o-conexo-challenge-est%C3%A3o-abertas",
@@ -1639,10 +1639,12 @@
       "titulo": "Inscrições para nova turma de aceleração da Baita terminam dia 15 de janeiro - Anprotec",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:25:24.841986+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-04T10:05:16.086843+00:00",
+      "tentativas": 4,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-05T10:05:16.086895+00:00"
     },
     {
       "url": "https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29",
@@ -2365,8 +2367,8 @@
       "titulo": "CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:37.879835+00:00",
-      "tentativas": 4,
+      "conferido_em": "2026-10-04T10:04:54.190572+00:00",
+      "tentativas": 5,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -3209,10 +3211,22 @@
       "titulo": "CONFAP — Conselho Nacional das Fundações Estaduais de Amparo à PesquisaNovo edital do Compete Minas oferece R$ 50 milhões para impulsionar a inovação tecnológica no setor produtivo",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:29:46.699200+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-04T10:04:54.248691+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Novo edital do Compete Minas oferece R$ 50 milhões para impulsionar a inovação tecnológica no setor produtivo",
+        "instituicao": "FAPEMIG / Governo de Minas Gerais",
+        "tipo": "fomento",
+        "resumo": "O programa Compete Minas lançou uma nova edição com R$ 50 milhões em recursos para financiar projetos de inovação tecnológica, contemplando empreendimentos, startups e cooperativas por meio da Linha B – Empresarial.",
+        "trecho_oportunidade": "A Chamada Fapemig/Sede nº 11/2026 unifica as duas linhas que antes eram separadas no programa: a Linha A – Tríplice Hélice (projetos de Instituições de Ciência e Tecnologia de Minas Gerais em parceria com o setor produtivo) e a Linha B – Empresarial (projetos que partem de empreendimentos, startups ou cooperativas mineiras).",
+        "trecho_publico": "projetos que partem de empreendimentos, startups ou cooperativas mineiras",
+        "motivo": "O texto apresenta um edital concreto de fomento à inovação (Compete Minas) com linhas específicas de financiamento para startups e empresas, especificando valores e regras de participação."
+      },
+      "hash_texto": "953c6fcfb64c18e9778c4640de0d80506e2b492e7b4435ae266cb5072457e287"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
@@ -5109,8 +5123,8 @@
       "titulo": "FAPESP simplifica submissão de propostas ao PIPE",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:37.817678+00:00",
-      "tentativas": 5,
+      "conferido_em": "2026-10-04T10:04:54.132348+00:00",
+      "tentativas": 6,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -5230,36 +5244,36 @@
       "titulo": "Aceleração de Startups — PTIn · PTIn",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.170320+00:00",
-      "tentativas": 5,
+      "conferido_em": "2026-10-04T10:05:15.867448+00:00",
+      "tentativas": 6,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.171041+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:15.868317+00:00"
     },
     {
       "url": "https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-roraima-lanca-programa-para-acelerar-startups-e-fortalecer-ecossistema-de-inovacao-no-estado",
       "titulo": "Sebrae Roraima lança programa para acelerar startups e fortalecer ecossistema de inovação no estado | ASN Roraima - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.186783+00:00",
-      "tentativas": 6,
+      "conferido_em": "2026-10-04T10:05:15.883634+00:00",
+      "tentativas": 7,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.189017+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:15.885419+00:00"
     },
     {
       "url": "https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre",
       "titulo": "Programa vai acelerar 400 startups neste primeiro semestre | ASN Sergipe - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.203957+00:00",
-      "tentativas": 5,
+      "conferido_em": "2026-10-04T10:05:15.900238+00:00",
+      "tentativas": 6,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.204808+00:00"
+      "proxima_tentativa": "2026-10-04T10:20:15.901132+00:00"
     },
     {
       "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
@@ -6758,10 +6772,12 @@
       "titulo": "Programa Start-UP Brasil lança edital para qualificação de ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-03T14:12:03.688194+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-04T10:05:15.979963+00:00",
+      "tentativas": 3,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-05T10:05:15.979998+00:00"
     },
     {
       "url": "https://abes.org.br/en/aceleradora-wow-abre-selecao-para-startups",
@@ -6780,10 +6796,12 @@
       "titulo": "Programas para Startups | ACE Ventures - Impulsionando Potencial",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-03T14:12:10.658981+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-04T10:05:16.055363+00:00",
+      "tentativas": 3,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-05T10:05:16.055411+00:00"
     },
     {
       "url": "https://alertaeditais.com.br/edital/south-summit-brazil-2026-exposicao-de-startup-w083r",
@@ -7236,10 +7254,12 @@
       "titulo": "Natura lança programa de aceleração de startups - ABES",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T15:27:07.486948+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-04T10:05:16.040852+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-05T10:05:16.040897+00:00"
     },
     {
       "url": "https://startups.com.br/negocios/dpsp-lanca-programa-de-inovacao-e-promete-ganhos-para-startups",
@@ -7309,12 +7329,22 @@
       "titulo": "Prêmio Sebrae Startups 2026 abre inscrições e oferece oportunidade de crescimento | ASN Pará - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T02:51:53.139156+00:00",
-      "tentativas": 4,
+      "conferido_em": "2026-10-04T10:05:02.002409+00:00",
+      "tentativas": 5,
       "metodo_leitura": "cronogramas-v6",
-      "status": "pendente_ia",
-      "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T03:06:53.139634+00:00"
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Prêmio Sebrae Startups 2026",
+        "instituicao": "Sebrae",
+        "tipo": "Premiação e aceleração",
+        "resumo": "O Prêmio Sebrae Startups 2026 é um programa nacional que seleciona empresas inovadoras em estágio inicial para conexão com mercados, capital e visibilidade, oferecendo premiações em dinheiro e capacitações.",
+        "trecho_oportunidade": "o Prêmio Sebrae Startups 2026 , que está com inscrições abertas até o dia 30 de abril. A campeã nacional receberá R$250 mil. Muito mais do que uma simples premiação, a iniciativa é um programa nacional que conecta startups brasileiras a oportunidades de mercado e crescimento",
+        "trecho_publico": "O Sebrae oferece mais uma oportunidade de desenvolvimento para pequenos negócios inovadores que estão em estágio inicial: o Prêmio Sebrae Startups 2026",
+        "motivo": "A página descreve detalhadamente um programa de premiação e conexão para startups com etapas de seleção, benefícios e premiações em dinheiro."
+      },
+      "hash_texto": "a8df0531a204388dabf1027abc9c223fbf9dccfe91590f20226eb909cc5a586f"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294",
