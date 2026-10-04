@@ -1,16 +1,14 @@
 {
-  "cursor": 5,
-  "em": "2026-10-04T15:29:55.301599+00:00",
+  "cursor": 7,
+  "em": "2026-10-04T18:27:18.132696+00:00",
   "consultadas": [
     {
-      "url": "https://venturehub.se/startups/",
-      "status": "pendente",
-      "tipo": "ValueError"
+      "url": "https://www.tecnosinos.com.br/programa-de-incubacao/",
+      "status": "lida"
     },
     {
-      "url": "https://aceventures.com.br/trilha-ai-ace/",
-      "status": "pendente",
-      "tipo": "ValueError"
+      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/",
+      "status": "lida"
     }
   ]
 }

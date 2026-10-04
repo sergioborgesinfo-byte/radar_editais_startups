@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 253, 'confirmada_no_conteudo': 104, 'pendente_ia': 128, 'pendente_evidencia': 56, 'nao_confirmada_no_texto': 17, 'fora_escopo': 3}
+{'pendente_leitura': 253, 'confirmada_no_conteudo': 104, 'pendente_ia': 131, 'pendente_evidencia': 53, 'nao_confirmada_no_texto': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -543,8 +543,8 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_oportunidade: Grandes empresas de diferentes setores da economia estão em busca de soluções inovadoras para desafios reais dos negócios, e startups de todo o país podem participar dessa conexão.
   - trecho_publico: Grandes empresas de diferentes setores da economia estão em busca de soluções inovadoras para desafios reais dos negócios, e startups de todo o país podem participar dessa conexão.
 - pendente_ia: BRAVI 2026 | Leve sua Agrifoodtech para a Itália — https://programas.sebraestartups.com.br/in/bravi
-- pendente_evidencia: Programas PTIn · Aceleração — https://ptin.pontapora.ms.gov.br/pagina/aceleracao
-- pendente_evidencia: Programa de Aceleração de Startups Sebrae Roraima — https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-roraima-lanca-programa-para-acelerar-startups-e-fortalecer-ecossistema-de-inovacao-no-estado
+- pendente_ia: Aceleração de Startups — PTIn · PTIn — https://ptin.pontapora.ms.gov.br/pagina/aceleracao
+- pendente_ia: Sebrae Roraima lança programa para acelerar startups e fortalecer ecossistema de inovação no estado | ASN Roraima - Agência Sebrae de Notícias — https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-roraima-lanca-programa-para-acelerar-startups-e-fortalecer-ecossistema-de-inovacao-no-estado
 - confirmada_no_conteudo: Programa vai acelerar 400 startups neste primeiro semestre — https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre
   - trecho_oportunidade: O programa InovAtiva Brasil vai selecionar 400 startups tecnológicas com soluções inovadoras de todo o país para o ciclo de aceleração 2021.1, que acontecerá de forma virtual e gratuita entre abril e agosto deste ano.
   - trecho_publico: O programa InovAtiva Brasil é voltado para a aceleração de startups brasileiras de qualquer setor e região do Brasil em estágio de validação, operação e tração.
@@ -554,7 +554,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: 7 programas de fomento para empreendedores ficarem de olho - Abstartups — https://abstartups.com.br/7-programas-de-fomento-para-empreendedores-ficarem-de-olho
 - pendente_leitura: Programa Natura Startups está com inscrições abertas | - Agora RN — https://agorarn.com.br/coluna/programa-natura-startups-esta-com-inscricoes-abertas
 - nao_confirmada_no_texto: Los desafíos más comunes en startups — https://aragonemprende.com/los-desafios-mas-comunes-en-startups
-- pendente_evidencia: Programa de Incubação Habitat e Biominas Brasil — https://biominas.org.br/habitat-e-biominas-brasil-estao-com-inscricoes-abertas-para-selecao-de-novas-empresas-para-seu-programa-de-incubacao
+- pendente_ia: Habitat e Biominas Brasil estão com inscrições abertas para seleção de novas empresas para seu programa de incubação – Biominas Brasil — https://biominas.org.br/habitat-e-biominas-brasil-estao-com-inscricoes-abertas-para-selecao-de-novas-empresas-para-seu-programa-de-incubacao
 - pendente_leitura: Grupo Equatorial abre programa de inovação para startups | Editora Brasil Energia — https://brasilenergia.com.br/energia/empresas/grupo-equatorial-abre-programa-de-inovacao-para-startups
 - fora_escopo: Startup Venture Challenge - CEDE Program for High Schools — https://cedeprogram.com/startupventure
 - pendente_evidencia: Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ — https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups
