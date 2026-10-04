@@ -1,12 +1,12 @@
 {
-  "executado_em": "2026-10-04T20:15:13.045351+00:00",
+  "executado_em": "2026-10-04T22:59:33.746167+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
-  "links_recebidos": 1414,
-  "paginas_agrupadas": 1412,
+  "links_recebidos": 1422,
+  "paginas_agrupadas": 1420,
   "duplicacoes_de_url": 2,
   "contagem": {
-    "prioridade_verificacao": 476,
-    "revisar_contexto": 854,
+    "prioridade_verificacao": 479,
+    "revisar_contexto": 859,
     "fora_escopo": 6,
     "fonte_catalogo": 76
   },
@@ -14131,6 +14131,86 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://fapesc.sc.gov.br/editais/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FAPES — Editais",
+      "url": "https://fapes.es.gov.br/editais",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/editais"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Licitações",
+      "url": "https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamadas Públicas",
+      "url": "https://fapes.es.gov.br/chamamento-publico",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/chamamento-publico"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Carreira Científica",
+      "url": "https://fapes.es.gov.br/edital-aberto-formação-científica",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/edital-aberto-formação-científica"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamadas Internacionais",
+      "url": "https://fapes.es.gov.br/chamadas-internacionais",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/chamadas-internacionais"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamadas Internacionais",
+      "url": "https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Programas em Ação",
+      "url": "https://fapes.es.gov.br/legislacao",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/legislacao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Programas e Ações",
+      "url": "https://transparencia.es.gov.br/Orcamento/PPA",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://transparencia.es.gov.br/Orcamento/PPA"
       ],
       "vigencia": "nao_avaliada"
     }

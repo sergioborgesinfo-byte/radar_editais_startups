@@ -2,11 +2,11 @@
 
 Classificação preliminar por título e URL. Não comprova elegibilidade ou inscrições abertas. Nenhum candidato foi apagado.
 
-1414 links recebidos; 1412 páginas após agrupar 2 duplicações de URL.
+1422 links recebidos; 1420 páginas após agrupar 2 duplicações de URL.
 
 52 páginas individuais do catálogo Sebrae encontradas.
 
-## prioridade_verificacao: 476
+## prioridade_verificacao: 479
 
 - [Embraer Startup Program](http://embraer.com/corporate-innovation/embraer-startup-program/pt) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...](http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -484,6 +484,9 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [InHire - Software de Recrutamento e Seleção Employee Directory](https://www.zoominfo.com/pic/inhire---software-de-recrutamento-e-seleção/1326924840) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Potencia UP LATAM 2026 abre inscrições - 06/07/2026 - Folha Social+ - Folha](https://www1.folha.uol.com.br/folha-social-mais/2026/07/programa-de-aceleracao-abre-inscricoes-para-startups-da-america-latina.shtml) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [FAPEMIG — Chamadas](https://fapemig.br/pt/chamadas/) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamadas Públicas](https://fapes.es.gov.br/chamamento-publico) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamadas Internacionais](https://fapes.es.gov.br/chamadas-internacionais) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamadas Internacionais](https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 
 ## fonte_catalogo: 76
 
@@ -564,7 +567,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Startup Summit 2026](https://www.startupsummit.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [WOW Aceleradora: Aceleração de Startup e Investidores](https://www.wow.ac/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 
-## revisar_contexto: 854
+## revisar_contexto: 859
 
 - [Programa Desafía | España Digital 2026](http://espanadigital.gob.es/lineas-de-actuacion/programa-desafia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [BNDES Garagem - BNDES](http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1420,6 +1423,11 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [FAPESC — Editais](https://fapesc.sc.gov.br/editais/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [FAPES — Editais](https://fapes.es.gov.br/editais) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Licitações](https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Carreira Científica](https://fapes.es.gov.br/edital-aberto-formação-científica) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Programas em Ação](https://fapes.es.gov.br/legislacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Programas e Ações](https://transparencia.es.gov.br/Orcamento/PPA) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
 ## fora_escopo: 6
 
