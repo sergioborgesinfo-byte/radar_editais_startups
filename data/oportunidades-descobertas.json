@@ -16355,7 +16355,18 @@
         "Catálogo institucional: https://fapemig.br/pt/chamadas/"
       ],
       "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://fapesc.sc.gov.br/editais/",
+      "titulo": "FAPESC — Editais",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T20:15:00.104540+00:00",
+      "encontrado_em": "2026-10-04T20:15:00.104540+00:00",
+      "consultas": [
+        "Catálogo institucional: https://fapesc.sc.gov.br/editais/"
+      ],
+      "situacao": "aguarda_verificacao"
     }
   ],
-  "catalogos_atualizados_em": "2026-10-04T19:58:53.567859+00:00"
+  "catalogos_atualizados_em": "2026-10-04T20:15:00.104540+00:00"
 }

@@ -2,7 +2,7 @@
 
 Classificação preliminar por título e URL. Não comprova elegibilidade ou inscrições abertas. Nenhum candidato foi apagado.
 
-1413 links recebidos; 1411 páginas após agrupar 2 duplicações de URL.
+1414 links recebidos; 1412 páginas após agrupar 2 duplicações de URL.
 
 52 páginas individuais do catálogo Sebrae encontradas.
 
@@ -564,7 +564,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Startup Summit 2026](https://www.startupsummit.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [WOW Aceleradora: Aceleração de Startup e Investidores](https://www.wow.ac/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 
-## revisar_contexto: 853
+## revisar_contexto: 854
 
 - [Programa Desafía | España Digital 2026](http://espanadigital.gob.es/lineas-de-actuacion/programa-desafia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [BNDES Garagem - BNDES](http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1419,6 +1419,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [FAPESC — Editais](https://fapesc.sc.gov.br/editais/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
 ## fora_escopo: 6
 

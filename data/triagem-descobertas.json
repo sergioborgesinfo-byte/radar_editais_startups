@@ -1,12 +1,12 @@
 {
-  "executado_em": "2026-10-04T19:58:58.814050+00:00",
+  "executado_em": "2026-10-04T20:15:13.045351+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
-  "links_recebidos": 1413,
-  "paginas_agrupadas": 1411,
+  "links_recebidos": 1414,
+  "paginas_agrupadas": 1412,
   "duplicacoes_de_url": 2,
   "contagem": {
     "prioridade_verificacao": 476,
-    "revisar_contexto": 853,
+    "revisar_contexto": 854,
     "fora_escopo": 6,
     "fonte_catalogo": 76
   },
@@ -14121,6 +14121,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FAPESC — Editais",
+      "url": "https://fapesc.sc.gov.br/editais/",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapesc.sc.gov.br/editais/"
       ],
       "vigencia": "nao_avaliada"
     }
