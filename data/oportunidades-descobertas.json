@@ -1,365 +1,13 @@
 {
-  "executado_em": "2026-10-03T14:07:42.371113+00:00",
-  "consultas_previstas": 142,
-  "consultas_concluidas": 71,
-  "urls_nesta_execucao": 512,
-  "erros": [
-    {
-      "consulta": "site:startupbrasil.org.br startups programas chamadas oportunidades",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "site:startupbrasil.org.br aceleradoras edital",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "site:startups.com.br startups inscrições programa aceleração",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "site:startups.com.br startups desafio seleção missão oportunidades",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "site:linkedin.com/posts startups chamada programa aceleração Brasil",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "site:linkedin.com/posts startups missão feira manifestação interesse Brasil",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "site:linkedin.com/pulse startups incubação seleção programa Brasil",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "site:randoncorp.com startups inovação aberta desafios programas",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Randoncorp\" startups seleção parceria programa",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "empresas inovação aberta desafios startups Brasil",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Acre\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Alagoas\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Amapá\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Amazonas\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Bahia\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Ceará\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Distrito Federal\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Espírito Santo\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Goiás\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Maranhão\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Mato Grosso\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Mato Grosso do Sul\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Minas Gerais\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Pará\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Paraíba\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Paraná\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Pernambuco\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Piauí\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Rio de Janeiro\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Rio Grande do Norte\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Rio Grande do Sul\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Rondônia\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Roraima\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Santa Catarina\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"São Paulo\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Sergipe\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups oportunidades incubação aceleração inovação \"Tocantins\"",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"ABDI\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Anprotec\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"ABStartups\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Embrapii\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Senai\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Senac\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Softex\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Artemisia\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Fundação Lemann\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Startup Católica\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"OITO Rio de Janeiro\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Google for Startups Brasil\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"inovabra Bradesco\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Petrobras\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Vale\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Gerdau\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Weg\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Suzano\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Embraer\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Itaú Cubo\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Porto Digital\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Instituto Caldeira\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"ACATE\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Sapiens Parque\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Tecnopuc\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Fundação CERTI\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"InovAtiva\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"BNDES Garagem\" startups oportunidades programa chamada desafio",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups programa internacional aceita brasileiras aceleração",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups programas gratuitos capacitação mentoria Brasil",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups missão empresarial feira exposição rodada negócios Brasil",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "startups bolsas benefícios créditos nuvem programas Brasil",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "site:gestaoclick.com.br/blog oportunidades startup",
-      "tipo": "HTTPError",
-      "http": 432
-    },
-    {
-      "consulta": "\"Conexão Startup Indústria\" programa startups",
-      "tipo": "HTTPError",
-      "http": 432
-    }
-  ],
+  "executado_em": "2026-10-04T14:36:09.944202+00:00",
+  "consultas_previstas": 0,
+  "status": "pausada_por_cota",
+  "pausa_ate": "2026-10-04T16:05:16.121571+00:00",
+  "cursor_consultas": 0,
+  "consultas_no_catalogo": 142,
+  "consultas_concluidas": 0,
+  "urls_nesta_execucao": 0,
+  "erros": [],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -474,6 +122,17 @@
       "titulo": "Embraer brings together startups from all over Brazil to promote innovation and process efficiency",
       "resumo_busca": "Over the course of four weeks, several activities will be carried out, such as the Global Innovation Day, an online podcast event intended to encourage people to think about technologies for the future; the Embraer Startup Marathon, a face-to-face program that will connect startups to develop solutions to enhance process efficiency in the Procurement area; the Innovation Day United States and EMEA (Europe, Middle East and Asia), which will foster discussions and promote innovation among [...] São José dos Campos, Brazil, September 11, 2024 – On September 13, Embraer will bring together ten startups from all over Brazil to discuss innovation and ways to increase process efficiency in various sectors of the company. The initiative, which is part of a series of events planned during September to commemorate Innovation Month, seeks to foster the innovation ecosystem and connect employees, startups, and leaders around the world. [...] innovation among employees in these regions; SETI, Embraer's Technology and Innovation Seminar; and HackaEMB, a face-to-face event to promote learning, social impact, a culture of collaboration, innovation and agility for Embraer.",
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras",
+      "titulo": "/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
+      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
+      "consultas": [
+        "Catálogo institucional: https://fi.co/apply/belo"
+      ],
       "situacao": "aguarda_verificacao"
     },
     {
@@ -1743,6 +1402,17 @@
       "situacao": "aguarda_verificacao"
     },
     {
+      "url": "https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB",
+      "titulo": "página de startups do Google Cloud",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
+      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
+      "consultas": [
+        "Catálogo institucional: https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/"
+      ],
+      "situacao": "aguarda_verificacao"
+    },
+    {
       "url": "https://cloud.google.com/startup/benefits?hl=pt-BR",
       "descoberto_em": "2026-10-01T17:08:39.060724+00:00",
       "consultas": [
@@ -2741,6 +2411,28 @@
       "situacao": "aguarda_verificacao"
     },
     {
+      "url": "https://fi.co/agreements",
+      "titulo": "Program Agreements",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
+      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
+      "consultas": [
+        "Catálogo institucional: https://fi.co/apply/belo"
+      ],
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://fi.co/aifounder",
+      "titulo": "Agentic Program",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
+      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
+      "consultas": [
+        "Catálogo institucional: https://fi.co/apply/belo"
+      ],
+      "situacao": "aguarda_verificacao"
+    },
+    {
       "url": "https://fi.co/apply/11257",
       "descoberto_em": "2026-10-01T16:57:02.835976+00:00",
       "consultas": [
@@ -2782,6 +2474,17 @@
       "titulo": "Founder Institute: World's largest pre-seed startup accelerator.",
       "resumo_busca": "Funding & Equity\n\nFI Venture Network Founder Capital Launch a Fund Equity Collective Investor Resources FAST Agreement Program Agreements\n\nWork at FI Our Impact Our Methodology Our Leaders Global Locations Our story The Great Reinvention FAQ Contact Us\n\nCopyright © 2026, Founder Institute, Inc. All Rights Reserved\n\nTerms of Use Privacy Policy Code of Conduct [...] The Founder Institute is the world’s largest agentic company builder, turning ideas into fundable startups, and startups into unicorns. Since 2009, the Founder Institute program has helped over 9,000 entrepreneurs build 9,000+ companies, including unicorns like Udemy and Esusu, raise over 2BN in funding, and grow a portfolio worth an estimated $20BN. Based in Silicon Valley and with chapters across 200+ cities and 95 countries, our mission is to empower communities of talented and motivated [...] and motivated people to build impactful technology companies worldwide. Learn more about the Founder Institute.",
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://fi.co/apply/belo",
+      "titulo": "Founder Institute Minas Gerais",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
+      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
+      "consultas": [
+        "Catálogo institucional: https://fi.co/apply/belo"
+      ],
       "situacao": "aguarda_verificacao"
     },
     {
@@ -2840,6 +2543,28 @@
       "situacao": "aguarda_verificacao"
     },
     {
+      "url": "https://fi.co/program/13543",
+      "titulo": "View Full curriculum",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
+      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
+      "consultas": [
+        "Catálogo institucional: https://fi.co/apply/belo"
+      ],
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://fi.co/programtypes",
+      "titulo": "Learn more here",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
+      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
+      "consultas": [
+        "Catálogo institucional: https://fi.co/apply/belo"
+      ],
+      "situacao": "aguarda_verificacao"
+    },
+    {
       "url": "https://fi.co/register/appbuilder",
       "descoberto_em": "2026-10-01T16:57:02.835976+00:00",
       "consultas": [
@@ -2848,6 +2573,17 @@
       "titulo": "Founder Institute: World's largest pre-seed startup accelerator.",
       "resumo_busca": "Funding & Equity\n\nFI Venture Network Founder Capital Launch a Fund Equity Collective Investor Resources FAST Agreement Program Agreements\n\nWork at FI Our Impact Our Methodology Our Leaders Global Locations Our story The Great Reinvention FAQ Contact Us\n\nCopyright © 2026, Founder Institute, Inc. All Rights Reserved\n\nTerms of Use Privacy Policy Code of Conduct [...] ## Join the world's largest agentic company builder\n\nA global network of founders, mentors, and investors building enduring companies, with free AI agents to help you do the work.\n\nApply Now [...] The Founder Institute is the world’s largest agentic company builder, turning ideas into fundable startups, and startups into unicorns. Since 2009, the Founder Institute program has helped over 9,000 entrepreneurs build 9,000+ companies, including unicorns like Udemy and Esusu, raise over 2BN in funding, and grow a portfolio worth an estimated $20BN. Based in Silicon Valley and with chapters across 200+ cities and 95 countries, our mission is to empower communities of talented and motivated",
       "encontrado_em": "2026-10-03T14:07:42.371113+00:00",
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://fi.co/reviews",
+      "titulo": "Program Reviews",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
+      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
+      "consultas": [
+        "Catálogo institucional: https://fi.co/apply/belo"
+      ],
       "situacao": "aguarda_verificacao"
     },
     {
@@ -8444,6 +8180,17 @@
       "situacao": "aguarda_verificacao"
     },
     {
+      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator",
+      "titulo": "Voltar para Aceleradores",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
+      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
+      "consultas": [
+        "Catálogo institucional: https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/"
+      ],
+      "situacao": "aguarda_verificacao"
+    },
+    {
       "url": "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil",
       "descoberto_em": "2026-10-01T16:57:02.835976+00:00",
       "consultas": [
@@ -8471,6 +8218,28 @@
       "titulo": "Google for Startups Accelerator: Brazil",
       "resumo_busca": "Datas Importantes\n\n Application_Open.svg  \n\n  12 de janeiro de 2026\n\n  Inscrições abertas\n\n   Adicionar à agenda\n Application_Open.svg  \n\n  1 de março de 2026\n\n  Fim das inscrições\n\n   Adicionar à agenda\n program Kick-off  \n\n  Maio de 2026\n\n  Início do programa\n Graduation  \n\n  Julho de 2026\n\n  Graduação\n Demo Day  \n\n  Julho de 2026\n\n  Demo Day\n\nConheça a turma\n\n8\n\n Antonella Logo  \n\n  Atonella.ai é a analista de IA sênior para o WhatsApp do seu time.\n\n  São Paulo, Brasil\n Charla Logo [...] Estamos em busca de startups dedicadas a solucionar desafios usando tecnologia cloud, IA, ML ou dados nos mais diversos setores e que possam crescer em escala. Analisamos as inscrições das startups para saber se as empresas estão qualificadas a participar do programa. Levamos em consideração critérios como a formação da equipe, o problema, a solução, a capacidade de escala e o encaixe do momento atual da empresa com o programa. As inscrições qualificadas serão revisadas por um painel de [...] O programa é ideal para startups que estão em estágio Seed a Série A, que geram receita e tenham sede no Brasil e estejam utilizando machine learning e/ou inteligência artificial em seus produtos, serviços ou operações. As empresas selecionadas precisam ter no mínimo de 5 funcionários, além do fundador, e os membros da equipe mais relevantes para o programa (como CTO ou líderes tecnicos) precisam estar disponíveis para as mentorias.\n\n## Como as startups serão escolhidas?",
       "encontrado_em": "2026-10-03T14:07:42.371113+00:00",
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/",
+      "titulo": "Google for Startups Brasil",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
+      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
+      "consultas": [
+        "Catálogo institucional: https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/"
+      ],
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil",
+      "titulo": "Saiba mais",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-03T20:55:18.123497+00:00",
+      "encontrado_em": "2026-10-03T20:55:18.123497+00:00",
+      "consultas": [
+        "Catálogo institucional: https://www.darwinstartups.com/startups"
+      ],
       "situacao": "aguarda_verificacao"
     },
     {
@@ -11052,6 +10821,17 @@
       "encontrado_em": "2026-10-02T06:06:00.178371+00:00",
       "consultas": [
         "Fonte indicada"
+      ],
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://www.darwinstartups.com/startups",
+      "titulo": "Darwin Startups",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-03T20:55:18.123497+00:00",
+      "encontrado_em": "2026-10-03T20:55:18.123497+00:00",
+      "consultas": [
+        "Catálogo institucional: https://www.darwinstartups.com/startups"
       ],
       "situacao": "aguarda_verificacao"
     },
@@ -15527,6 +15307,28 @@
       "situacao": "aguarda_verificacao"
     },
     {
+      "url": "https://www.tecnosinos.com.br/programa-de-incubacao/",
+      "titulo": "Tecnosinos Unitec",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-03T23:19:28.823823+00:00",
+      "encontrado_em": "2026-10-03T23:19:28.823823+00:00",
+      "consultas": [
+        "Catálogo institucional: https://www.tecnosinos.com.br/programa-de-incubacao/"
+      ],
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf",
+      "titulo": "aqui",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-03T23:19:28.823823+00:00",
+      "encontrado_em": "2026-10-03T23:19:28.823823+00:00",
+      "consultas": [
+        "Catálogo institucional: https://www.tecnosinos.com.br/programa-de-incubacao/"
+      ],
+      "situacao": "aguarda_verificacao"
+    },
+    {
       "url": "https://www.tenity.com/program/digital-health-accelerator",
       "descoberto_em": "2026-10-02T06:06:00.178371+00:00",
       "consultas": [
@@ -16509,161 +16311,6 @@
       "resumo_busca": "Aug 22, 2023\n\n  Conferência Anprotec 2023 tem recorde de 140 submissões na sua Chamada de Trabalho - venha ser um avaliador! Inscreva-se até quinta, 24/8/2023. O formulário para inscrição está disponível em forms.gle/GdMEwrXXPWNNfh…\n\n  \n @Anprotec\n\n  Anprotec@Anprotec\n\n  Aug 8, 2023 [...] Aug 8, 2023\n\n  Inscrições Prorrogadas para a Chamada de Trabalhos da Conferência Anprotec 2023 Para lhe dar mais tempo para preparar e submeter seu Artigo ou Relato de Boas Práticas, manteremos a chamada aberta até o dia 21/8. Saiba mais em conferenciaanprotec.com.br.\n\n  \n @Anprotec\n\n  Anprotec@Anprotec\n\n  Aug 8, 2023 [...] Aug 8, 2023\n\n  Inscrições prorrogadas para a Missão Internacional Anprotec 2023. O novo prazo para inscrições vai até o dia 10/8. Confira o regulamento em: lnkd.in/d3TCasfD Inscreva-se em lnkd.in/dj7wxcsy\n\n  \n @Anprotec\n\n  Anprotec@Anprotec\n\n  Jun 13, 2023\n\n  Já está no ar a lista de empreendimentos brasileiros selecionados para o Programa de Incubação Cruzada Brasil-México. Confira em nosso site.",
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://www.darwinstartups.com/startups",
-      "titulo": "Darwin Startups",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-03T20:55:18.123497+00:00",
-      "encontrado_em": "2026-10-03T20:55:18.123497+00:00",
-      "consultas": [
-        "Catálogo institucional: https://www.darwinstartups.com/startups"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil",
-      "titulo": "Saiba mais",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-03T20:55:18.123497+00:00",
-      "encontrado_em": "2026-10-03T20:55:18.123497+00:00",
-      "consultas": [
-        "Catálogo institucional: https://www.darwinstartups.com/startups"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://www.tecnosinos.com.br/programa-de-incubacao/",
-      "titulo": "Tecnosinos Unitec",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-03T23:19:28.823823+00:00",
-      "encontrado_em": "2026-10-03T23:19:28.823823+00:00",
-      "consultas": [
-        "Catálogo institucional: https://www.tecnosinos.com.br/programa-de-incubacao/"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf",
-      "titulo": "aqui",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-03T23:19:28.823823+00:00",
-      "encontrado_em": "2026-10-03T23:19:28.823823+00:00",
-      "consultas": [
-        "Catálogo institucional: https://www.tecnosinos.com.br/programa-de-incubacao/"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/",
-      "titulo": "Google for Startups Brasil",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
-      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
-      "consultas": [
-        "Catálogo institucional: https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB",
-      "titulo": "página de startups do Google Cloud",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
-      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
-      "consultas": [
-        "Catálogo institucional: https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator",
-      "titulo": "Voltar para Aceleradores",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
-      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
-      "consultas": [
-        "Catálogo institucional: https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://fi.co/apply/belo",
-      "titulo": "Founder Institute Minas Gerais",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
-      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
-      "consultas": [
-        "Catálogo institucional: https://fi.co/apply/belo"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://fi.co/programtypes",
-      "titulo": "Learn more here",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
-      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
-      "consultas": [
-        "Catálogo institucional: https://fi.co/apply/belo"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://fi.co/program/13543",
-      "titulo": "View Full curriculum",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
-      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
-      "consultas": [
-        "Catálogo institucional: https://fi.co/apply/belo"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras",
-      "titulo": "/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
-      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
-      "consultas": [
-        "Catálogo institucional: https://fi.co/apply/belo"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://fi.co/aifounder",
-      "titulo": "Agentic Program",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
-      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
-      "consultas": [
-        "Catálogo institucional: https://fi.co/apply/belo"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://fi.co/reviews",
-      "titulo": "Program Reviews",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
-      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
-      "consultas": [
-        "Catálogo institucional: https://fi.co/apply/belo"
-      ],
-      "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://fi.co/agreements",
-      "titulo": "Program Agreements",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-04T02:51:32.202478+00:00",
-      "encontrado_em": "2026-10-04T02:51:32.202478+00:00",
-      "consultas": [
-        "Catálogo institucional: https://fi.co/apply/belo"
-      ],
-      "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-04T10:04:48.878625+00:00"
+  ]
 }

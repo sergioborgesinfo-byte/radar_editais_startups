@@ -1,8 +1,9 @@
 ## Descoberta de oportunidades
 
-71/142 pesquisas concluídas. 512 URLs distintas nesta execução; 1395 no histórico.
+0/0 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1409 no histórico.
 
 São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
+Busca pausada pelo limite do serviço até 2026-10-04T16:05:16.121571+00:00. Histórico preservado.
 
 ## Candidatos (vigência não verificada)
 - Embraer Startup Program: http://embraer.com/corporate-innovation/embraer-startup-program/pt
@@ -15,6 +16,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM: http://www.ciaem.ufu.br/acontece/2016/11/aceleracao-fiemg-lab-startup-abre-inscricoes-para-sua-primeira-jornada
 - Innovation - Embraer: http://www.embraer.com/corporate-innovation/en
 - Embraer brings together startups from all over Brazil to promote innovation and process efficiency: http://www.embraer.com/media-center/en?mediatype=NEWS&detail=13310
+- /apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras: http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras
 - ANÁLISE CRÍTICA DA METODOLOGIA LEAN STARTUP ...: http://www.monografias.poli.ufrj.br/monografias/monopoli10032351.pdf
 - Programa de aceleração de startups: inovação e ...: http://www.repositorio.ufal.br/bitstream/riufal/7023/3/Programa%20de%20acelera%C3%A7%C3%A3o%20de%20startups%3A%20inova%C3%A7%C3%A3o%20e%20desenvolvimento%20empresarial.pdf
 - Aceleradora WOW abre seleção para startups - ABES: https://abes.org.br/en/aceleradora-wow-abre-selecao-para-startups
@@ -126,6 +128,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Três startups do CRIO são selecionadas para programa de aceleração - Circulando.net: https://circulando.net/artigo/tres-startups-do-crio-sao-selecionadas-para-programa-de-aceleracao
 - REGULAMENTO PROGRAMA DE ACELERAÇÃO CITZ. ...: https://citztech.com.br/wp-content/uploads/2024/08/Regulamento-CitzTech-2-14-08-2024.pdf
 - REGULAMENTO DE PARTICIPAÇÃO: https://click.apexbrasil.com.br/mkt/Regulamento_GITEX2026.pdf
+- página de startups do Google Cloud: https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB
 - Qualificação e benefícios do programa para startups | Google Cloud: https://cloud.google.com/startup/benefits?hl=pt-BR
 - Recursos e guias para startups | Google Cloud: https://cloud.google.com/startup/resources?hl=pt-BR
 - Editais – CocreationLab: https://cocreationlab.com.br/editais
@@ -213,16 +216,22 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups - FAU: https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups
 - Startups brasileiras cruzam fronteiras e transformam missão do BretA2026 em ponte de negócios com a Argentina - Sistema Fecomércio: https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina
 - Founder Institute, World's Largest AI-Native Company Builder: https://fi.co/
+- Program Agreements: https://fi.co/agreements
+- Agentic Program: https://fi.co/aifounder
 - Founder Institute: World's largest pre-seed startup accelerator.: https://fi.co/apply/11257
 - Founder Institute: World's largest pre-seed startup accelerator.: https://fi.co/apply/11449
 - Founder Institute: World's largest pre-seed startup accelerator.: https://fi.co/apply/14762
 - Founder Institute: World's largest pre-seed startup accelerator.: https://fi.co/apply/8
+- Founder Institute Minas Gerais: https://fi.co/apply/belo
 - Build a Fundable, Global Startup in Peru: https://fi.co/apply/lima
 - Founder Institute: World's largest pre-seed startup accelerator.: https://fi.co/events
 - Build a Great Startup in 2026 with the FI Brasil Startup Accelerator: https://fi.co/insight/build-a-great-startup-in-2026-with-the-fi-brasil-startup-accelerator
 - Build an Amazing Company with Silicon Valley Experts: https://fi.co/join
 - Learn about the Founder Institute's pre-seed startup accelerator program: https://fi.co/overview/santa_cruz
+- View Full curriculum: https://fi.co/program/13543
+- Learn more here: https://fi.co/programtypes
 - Founder Institute: World's largest pre-seed startup accelerator.: https://fi.co/register/appbuilder
+- Program Reviews: https://fi.co/reviews
 - Hubs de Inovação no Brasil – FIEMG Lab: https://fiemglab.com.br/hubs-de-inovacao
 - FIEMG Lab | aceleração de startups: https://fiemglab.com.br/tag/aceleracao-de-startups
 - Citizens Bancshares Corporation (CITZ) Stock Price, News, Quote & History - Yahoo Finance: https://finance.yahoo.com/quote/CITZ
@@ -705,7 +714,10 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - LatAm Tech Report revela oportunidades e tendências no cenário de startups da América Latina - Softex: https://softex.br/es/latam-tech-report-revela-oportunidades-e-tendencias-no-cenario-de-startups-da-america-latina-es
 - #SOFTEXAPOIA: Programa de Aceleração FIEMG Lab 4.0 recebe inscrições - Softex: https://softex.br/programa-de-aceleracao-fiemg-lab-4-0-recebe-inscricoes
 - Programa Deep Tech FAPDF: https://spaceindustry.aeb.gov.br/pt-br/oportunidades/programa-deep-tech-fapdf
+- Voltar para Aceleradores: https://startup.google.com/intl/pt-BR/programs/accelerator
 - Google for Startups Accelerator: Brazil: https://startup.google.com/intl/pt-BR/programs/accelerator/brazil
+- Google for Startups Brasil: https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/
+- Saiba mais: https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil
 - Startup Jobs – Developer, designer, marketing, sales jobs, and...: https://startup.jobs/
 - BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi: https://startupi.com.br/bndes-garagem-abre-inscricoes
 - Bossa Invest: R$ 31 milhões aceleram seleção das startups mais promissoras de 2026 - Startupi: https://startupi.com.br/bossa-invest-r-31-milhoes
@@ -921,6 +933,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Startups conhecem instituições que impulsionam a inovação - Prefeitura de Curitiba: https://www.curitiba.pr.gov.br/noticias/startups-conhecem-instituicoes-que-impulsionam-a-inovacao/45749
 - Batch #15 - Darwin Startups — Darwin Startups: https://www.darwinstartups.com/batch15
 - ICM Lab Solana — Darwin Startups: https://www.darwinstartups.com/icmlab
+- Darwin Startups: https://www.darwinstartups.com/startups
 - Novos editais para startups e inovação no setor público ...: https://www.diariodepernambuco.com.br/economia/2026/10/11725459-novos-editais-para-startups-e-inovacao-no-setor-publico-oferecem-rs-45-milhoes-em-pernambuco.html
 - MS lança AgroValley para acelerar startups e tecnologias do agro - Geral - Diário Digital: https://www.diariodigital.com.br/geral/ms-lanca-agrovalley-para-acelerar-startups-e-tecnologias-do-agro
 - Como funciona uma aceleradora de startups no Brasil?: https://www.distrito.me/blog/aceleradora-de-startups-no-brasil
@@ -1315,6 +1328,8 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Startup Day 2026 - Inatel | SEBRAE em Santa Rita do Sapucaí - Sympla: https://www.sympla.com.br/evento/startup-day-2026-inatel-sebrae/3323416
 - Startup Day 2026 - Valença do Piauí: https://www.sympla.com.br/evento/startup-day-2026-valenca-do-piaui/3276196
 - Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos: https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas
+- Tecnosinos Unitec: https://www.tecnosinos.com.br/programa-de-incubacao/
+- aqui: https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf
 - Digital Health Accelerator Switzerland | Pre-Seed Healthtech Program | Tenity: https://www.tenity.com/program/digital-health-accelerator
 - Evento no SebraeLab amplia conexões entre negócios de ...: https://www.threads.com/@eldogomes/post/Db8EJDFoFdM/evento-no-sebraelab-amplia-conex%C3%B5es-entre-neg%C3%B3cios-de-impacto-no-distrito-federa
 - Programa de fomento ao turismo de estrangeiros no Brasil terá investimento de R$ 126 milhões em 2025: https://www.tradingkey.com/pt/news/more-news/240235478-tradingKey
