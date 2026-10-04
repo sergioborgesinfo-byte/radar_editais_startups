@@ -571,6 +571,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [BNDES Garagem - BNDES](http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups/rede-bndes-garagem) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Innovation - Embraer](http://www.embraer.com/corporate-innovation/en) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Embraer brings together startups from all over Brazil to promote innovation and process efficiency](http://www.embraer.com/media-center/en?mediatype=NEWS&detail=13310) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras](http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [News & Insights - ACE Ventures](https://aceventures.vc/category/news-and-insights) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [AEVO Connect](https://aevo.com.br/connect) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [AgriHub Space vai incubar e acelerar startups de tecnologia voltadas ao agronegócio. – AgriHub](https://agrihub.com.br/agrihub-space-vai-incubar-e-acelerar-startups-de-tecnologia-voltadas-ao-agronegocio) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -613,6 +614,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Quer empreender? Não perca esta oportunidade da InovAtiva Brasil – CFA](https://cfa.org.br/quer-empreender-nao-perca-esta-oportunidade-da-inovativa-brasil) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Inovação - CIIA](https://ciia.org.br/inovacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [REGULAMENTO DE PARTICIPAÇÃO](https://click.apexbrasil.com.br/mkt/Regulamento_GITEX2026.pdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [página de startups do Google Cloud](https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Recursos e guias para startups | Google Cloud](https://cloud.google.com/startup/resources?hl=pt-BR) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Editais – CocreationLab](https://cocreationlab.com.br/editais) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Financiamentos disponíveis em 2026](https://concellera.com/financiamentos-disponiveis-em-2026) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -647,15 +649,21 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [PIPE | FAPESP](https://fapesp.br/pipe) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Vídeos PIPE | FAPESP](https://fapesp.br/pipe/videos) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Fapto - Notícia de 12/01/2026](https://fapto.org.br/Site/Noticia/Visualizar?uid=NjY5) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Program Agreements](https://fi.co/agreements) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Agentic Program](https://fi.co/aifounder) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Founder Institute: World's largest pre-seed startup accelerator.](https://fi.co/apply/11257) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Founder Institute: World's largest pre-seed startup accelerator.](https://fi.co/apply/11449) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Founder Institute: World's largest pre-seed startup accelerator.](https://fi.co/apply/14762) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Founder Institute: World's largest pre-seed startup accelerator.](https://fi.co/apply/8) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Founder Institute Minas Gerais](https://fi.co/apply/belo) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Build a Fundable, Global Startup in Peru](https://fi.co/apply/lima) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Founder Institute: World's largest pre-seed startup accelerator.](https://fi.co/events) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Build a Great Startup in 2026 with the FI Brasil Startup Accelerator](https://fi.co/insight/build-a-great-startup-in-2026-with-the-fi-brasil-startup-accelerator) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Build an Amazing Company with Silicon Valley Experts](https://fi.co/join) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [View Full curriculum](https://fi.co/program/13543) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Learn more here](https://fi.co/programtypes) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Founder Institute: World's largest pre-seed startup accelerator.](https://fi.co/register/appbuilder) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Program Reviews](https://fi.co/reviews) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Hubs de Inovação no Brasil – FIEMG Lab](https://fiemglab.com.br/hubs-de-inovacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Citizens Bancshares Corporation (CITZ) Stock Price, News, Quote & History - Yahoo Finance](https://finance.yahoo.com/quote/CITZ) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Citizens Bancshares Corporation (CITZ) Income Statement - Yahoo Finance](https://finance.yahoo.com/quote/CITZ/financials) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -909,7 +917,9 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [A quote from David L. Poole and Alan K. Mackworth](https://simonwillison.net/2025/Mar/19/worms-and-dogs-and-countries) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [LatAm Tech Report revela oportunidades e tendências no cenário de startups da América Latina - Softex](https://softex.br/es/latam-tech-report-revela-oportunidades-e-tendencias-no-cenario-de-startups-da-america-latina-es) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Programa Deep Tech FAPDF](https://spaceindustry.aeb.gov.br/pt-br/oportunidades/programa-deep-tech-fapdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Voltar para Aceleradores](https://startup.google.com/intl/pt-BR/programs/accelerator) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Google for Startups Accelerator: Brazil](https://startup.google.com/intl/pt-BR/programs/accelerator/brazil) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Saiba mais](https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Conheça o ecossistema de inovação e startups de Roraima - Startupi](https://startupi.com.br/conheca-o-ecossistema-de-inovacao-e-startups-de-roraima) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Porto Digital quer fazer de Recife a capital brasileira de tecnologia - Startupi](https://startupi.com.br/porto-digital-recife-capital-brasileira-tecnologia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Gerdau Next Ventures: Funding, Team & Investors | Startup Intros](https://startupintros.com/orgs/gerdau-next-ventures) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1053,6 +1063,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Cloudflare para Startups | Cloudflare](https://www.cloudflare.com/pt-br/forstartups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Startups conhecem instituições que impulsionam a inovação - Prefeitura de Curitiba](https://www.curitiba.pr.gov.br/noticias/startups-conhecem-instituicoes-que-impulsionam-a-inovacao/45749) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Batch #15 - Darwin Startups — Darwin Startups](https://www.darwinstartups.com/batch15) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Darwin Startups](https://www.darwinstartups.com/startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Novos editais para startups e inovação no setor público ...](https://www.diariodepernambuco.com.br/economia/2026/10/11725459-novos-editais-para-startups-e-inovacao-no-setor-publico-oferecem-rs-45-milhoes-em-pernambuco.html) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [MS lança AgroValley para acelerar startups e tecnologias do agro - Geral - Diário Digital](https://www.diariodigital.com.br/geral/ms-lanca-agrovalley-para-acelerar-startups-e-tecnologias-do-agro) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Google for Startups Accelerator Brasil: conheça as 11 startups da 13ª edição](https://www.distrito.me/blog/google-for-startups-accelerator-brasil-startups-ia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1348,6 +1359,8 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Evento de Pré-Lançamento - Programa Deep Tech FAPDF em Brasília - Sympla](https://www.sympla.com.br/evento/evento-de-pre-lancamento-programa-deep-tech-fapdf/3284346) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Startup Day 2026 - Inatel | SEBRAE em Santa Rita do Sapucaí - Sympla](https://www.sympla.com.br/evento/startup-day-2026-inatel-sebrae/3323416) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Startup Day 2026 - Valença do Piauí](https://www.sympla.com.br/evento/startup-day-2026-valenca-do-piaui/3276196) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Tecnosinos Unitec](https://www.tecnosinos.com.br/programa-de-incubacao/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [aqui](https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Digital Health Accelerator Switzerland | Pre-Seed Healthtech Program | Tenity](https://www.tenity.com/program/digital-health-accelerator) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Evento no SebraeLab amplia conexões entre negócios de ...](https://www.threads.com/@eldogomes/post/Db8EJDFoFdM/evento-no-sebraelab-amplia-conex%C3%B5es-entre-neg%C3%B3cios-de-impacto-no-distrito-federa) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [MIT India's IRS 2026 Brings 100+ Startups and 100+ Student Teams Together, Advancing Innovation, Entrepreneurship and Industry-Ready Solutions - The Tribune](https://www.tribuneindia.com/news/business/mit-indias-irs-2026-brings-100-startups-and-100-student-teams-together-advancing-innovation-entrepreneurship-and-industry-ready-solutions/amp) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1402,19 +1415,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Cubo: Employee Directory | ZoomInfo.com](https://www.zoominfo.com/pic/cubo/431092358) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Gerdau e FIEMG Lab apresentam resultados do programa de inovação aberta | Gerdau Brasil](https://www2.gerdau.com.br/noticias/gerdau-e-fiemg-lab-apresentam-resultados-do-programa-de-inovacao-aberta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Anprotec (@Anprotec) / X](https://x.com/Anprotec) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Darwin Startups](https://www.darwinstartups.com/startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Saiba mais](https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Tecnosinos Unitec](https://www.tecnosinos.com.br/programa-de-incubacao/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [aqui](https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [página de startups do Google Cloud](https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Voltar para Aceleradores](https://startup.google.com/intl/pt-BR/programs/accelerator) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Founder Institute Minas Gerais](https://fi.co/apply/belo) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Learn more here](https://fi.co/programtypes) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [View Full curriculum](https://fi.co/program/13543) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras](http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Agentic Program](https://fi.co/aifounder) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Program Reviews](https://fi.co/reviews) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Program Agreements](https://fi.co/agreements) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
 ## fora_escopo: 6
 

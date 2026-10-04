@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-04T10:05:16.107673+00:00",
+  "atualizado_em": "2026-10-04T14:37:08.297700+00:00",
   "links": 1409,
   "candidatos": 475,
   "confirmacoes": [
@@ -41,24 +41,24 @@
       "titulo": "ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:16.010274+00:00",
-      "tentativas": 13,
+      "conferido_em": "2026-10-04T14:37:08.161548+00:00",
+      "tentativas": 14,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:16.011423+00:00"
+      "proxima_tentativa": "2026-10-04T14:52:08.162998+00:00"
     },
     {
       "url": "http://www.repositorio.ufal.br/bitstream/riufal/7023/3/Programa%20de%20acelera%C3%A7%C3%A3o%20de%20startups%3A%20inova%C3%A7%C3%A3o%20e%20desenvolvimento%20empresarial.pdf",
       "titulo": "Programa de aceleração de startups: inovação e ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:16.026067+00:00",
-      "tentativas": 8,
+      "conferido_em": "2026-10-04T14:37:08.178835+00:00",
+      "tentativas": 9,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:16.026143+00:00"
+      "proxima_tentativa": "2026-10-04T14:52:08.178874+00:00"
     },
     {
       "url": "https://abes.org.br/en/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios",
@@ -165,43 +165,36 @@
       "titulo": "Incubação 2025.2 - Recife",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:02:38.935537+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-04T14:37:08.242039+00:00",
+      "tentativas": 4,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-05T14:37:08.242061+00:00"
     },
     {
       "url": "https://aquariounesp.com.br/editalstartup",
       "titulo": "Editais de Pré-Incubação e Incubação de Startups :: Aquário de Ideias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:02:38.936945+00:00",
-      "tentativas": 3,
-      "status": "pendente_leitura",
-      "motivo": "pagina_http_403"
+      "conferido_em": "2026-10-04T14:37:08.256952+00:00",
+      "tentativas": 4,
+      "metodo_leitura": "cronogramas-v6",
+      "status": "pendente_ia",
+      "motivo": "orcamento_etapa_esgotado",
+      "proxima_tentativa": "2026-10-04T14:52:08.257860+00:00"
     },
     {
       "url": "https://auspin.usp.br/bolsastartupusp2026",
       "titulo": "Resultado da Seleção – Programa Santander USP – Criação de Startups 2026 – Agência USP de Inovação",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T18:52:55.427267+00:00",
-      "tentativas": 1,
-      "status": "pendente_evidencia",
-      "dados": {
-        "oportunidade_concreta": true,
-        "publico_startup": true,
-        "titulo": "Programa Santander USP de Inovação e Empreendedorismo – Criação de Startups – Edição 2026",
-        "instituicao": "Agência USP de Inovação (AUSPIN) / Santander Universidades",
-        "tipo": "Edital de fomento / Pré-incubação e bolsas",
-        "resumo": "O programa visa selecionar estudantes de graduação e pós-graduação da USP para o desenvolvimento de projetos de startups em fase de pré-incubação, oferecendo bolsas mensais, mentoria e apoio para a estruturação de novos empreendimentos.",
-        "trecho_oportunidade": "O Programa Santander USP de Inovação e Empreendedorismo – Criação de Startups – Edição 2026 é uma ação da USP, por meio da Agência USP de Inovação, em parceria com a Pró-Reitoria de Graduação e a Pró-Reitoria de Pós-graduação, que visa selecionar estudantes de graduação e de pós-graduação (stricto sensu) da USP para realizarem atividades de desenvolvimento tecnológico e de inovação no “Programa STARTUP USP”.",
-        "trecho_publico": "As bolsas serão concedidas às equipes de estudantes regularmente matriculados, que se encontram desenvolvendo protótipos de novos produtos, serviços e/ou experiências, com foco na estruturação de novos empreendimentos",
-        "motivo": "O texto apresenta um edital concreto voltado para a seleção e apoio financeiro (bolsas) e de pré-incubação de projetos de startups formados por estudantes."
-      },
-      "hash_texto": "3b6f5e947f342dd45d40ca49b15c328259c39a92479c27c5d4de91de042f6cb9",
-      "motivo": "convite_direto_ou_publico_nao_comprovado",
-      "auditoria_relevancia": "requer_revisao"
+      "conferido_em": "2026-10-04T14:37:08.273065+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
+      "status": "pendente_ia",
+      "motivo": "orcamento_etapa_esgotado",
+      "proxima_tentativa": "2026-10-04T14:52:08.277100+00:00"
     },
     {
       "url": "https://baita.ac/aceleracao-de-startups",
@@ -405,8 +398,8 @@
       "titulo": "Programa de aceleração Citz.Tech",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:04:54.174315+00:00",
-      "tentativas": 10,
+      "conferido_em": "2026-10-04T14:36:52.513467+00:00",
+      "tentativas": 11,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -685,8 +678,8 @@
       "titulo": "EDITAL DE CHAMADA PÚBLICA FAPESC N.º 03/2026 PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS VI EDIÇÃO SUPER PITCH DAY – Fapesc",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:04:54.209818+00:00",
-      "tentativas": 9,
+      "conferido_em": "2026-10-04T14:36:52.550030+00:00",
+      "tentativas": 10,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -721,8 +714,8 @@
       "titulo": "Learn about the Founder Institute's pre-seed startup accelerator program",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:04:54.225486+00:00",
-      "tentativas": 9,
+      "conferido_em": "2026-10-04T14:36:52.566072+00:00",
+      "tentativas": 10,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -1121,24 +1114,24 @@
       "titulo": "Boletim de Editais eAções de Fomento aos",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:15.915544+00:00",
-      "tentativas": 7,
+      "conferido_em": "2026-10-04T14:37:08.062273+00:00",
+      "tentativas": 8,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:15.915628+00:00"
+      "proxima_tentativa": "2026-10-04T14:52:08.062343+00:00"
     },
     {
       "url": "https://sict.rs.gov.br/edital-sict-02-2026",
       "titulo": "Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:15.930211+00:00",
-      "tentativas": 12,
+      "conferido_em": "2026-10-04T14:37:08.077719+00:00",
+      "tentativas": 13,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:15.930649+00:00"
+      "proxima_tentativa": "2026-10-04T14:52:08.078352+00:00"
     },
     {
       "url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/29307/1/PRArt_216962_RAE%20n.%2022_Acelera%C3%A7%C3%A3o%20de%20startups%20no%20Brasil.pdf",
@@ -1157,12 +1150,12 @@
       "titulo": "Aceleração de Startups – educação empreendedora – Banco do Nordeste - Portal Banco do Nordeste",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:15.945558+00:00",
-      "tentativas": 7,
+      "conferido_em": "2026-10-04T14:37:08.093031+00:00",
+      "tentativas": 8,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:15.946203+00:00"
+      "proxima_tentativa": "2026-10-04T14:52:08.093824+00:00"
     },
     {
       "url": "https://www.fap.df.gov.br/documents/d/fap/sei_gdf-207047077-edital-n-11-2026-programa-fapdf-start-bsb-3-ciclo-pdf",
@@ -1314,32 +1307,32 @@
       "titulo": "Batch #35 - Inscrição, WOW Aceleradora",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:15.994602+00:00",
-      "tentativas": 7,
+      "conferido_em": "2026-10-04T14:37:08.144446+00:00",
+      "tentativas": 8,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:15.995897+00:00"
+      "proxima_tentativa": "2026-10-04T14:52:08.146030+00:00"
     },
     {
       "url": "https://alertaeditais.com.br/edital/chamada-fapemig-sede-032026-novo-seed:-aceler-recjw",
       "titulo": "CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:16.070045+00:00",
-      "tentativas": 5,
+      "conferido_em": "2026-10-04T14:37:08.209313+00:00",
+      "tentativas": 6,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:16.071942+00:00"
+      "proxima_tentativa": "2026-10-04T14:52:08.211706+00:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para",
       "titulo": "Incubadora de startups da bioeconomia amazônica é lançada no Pará | ASN Nacional - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:04:54.155686+00:00",
-      "tentativas": 9,
+      "conferido_em": "2026-10-04T14:36:52.493555+00:00",
+      "tentativas": 10,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -1518,12 +1511,12 @@
       "titulo": "Movimenta Sebrae",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-03T20:55:40.475317+00:00",
-      "tentativas": 6,
+      "conferido_em": "2026-10-04T14:36:52.590650+00:00",
+      "tentativas": 7,
       "metodo_leitura": "cronogramas-v6",
-      "status": "pendente_ia",
-      "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-03T21:10:40.495912+00:00"
+      "status": "pendente_evidencia",
+      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada",
+      "proxima_tentativa": "2026-10-05T14:36:54.063444+00:00"
     },
     {
       "url": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
@@ -1572,12 +1565,12 @@
       "titulo": "CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:15.961027+00:00",
-      "tentativas": 10,
+      "conferido_em": "2026-10-04T14:37:08.108821+00:00",
+      "tentativas": 11,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:15.965456+00:00"
+      "proxima_tentativa": "2026-10-04T14:52:08.114251+00:00"
     },
     {
       "url": "https://www.randoncorp.com/pt/blog/inscri%C3%A7%C3%B5es-para-o-conexo-challenge-est%C3%A3o-abertas",
@@ -2359,8 +2352,8 @@
       "titulo": "CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:04:54.190572+00:00",
-      "tentativas": 5,
+      "conferido_em": "2026-10-04T14:36:52.530164+00:00",
+      "tentativas": 6,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -2534,10 +2527,12 @@
       "titulo": "WOW Aceleradora seleciona startups para processo de aceleração - Anprotec",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T15:15:18.027032+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-04T14:37:08.226604+00:00",
+      "tentativas": 4,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-05T14:37:08.226625+00:00"
     },
     {
       "url": "https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf",
@@ -3257,10 +3252,12 @@
       "titulo": "Conheça as doze aceleradoras qualificadas pelo ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:00.798151+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-04T14:37:08.129345+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-05T14:37:08.129364+00:00"
     },
     {
       "url": "https://anprotec.org.br/site/2020/07/estao-abertas-as-inscricoes-para-o-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
@@ -5115,8 +5112,8 @@
       "titulo": "FAPESP simplifica submissão de propostas ao PIPE",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:04:54.132348+00:00",
-      "tentativas": 6,
+      "conferido_em": "2026-10-04T14:36:52.467908+00:00",
+      "tentativas": 7,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -5236,36 +5233,60 @@
       "titulo": "Aceleração de Startups — PTIn · PTIn",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:15.867448+00:00",
-      "tentativas": 6,
+      "conferido_em": "2026-10-04T14:36:54.079050+00:00",
+      "tentativas": 7,
       "metodo_leitura": "cronogramas-v6",
-      "status": "pendente_ia",
-      "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:15.868317+00:00"
+      "status": "pendente_evidencia",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Programas PTIn · Aceleração",
+        "instituicao": "PTIn",
+        "tipo": "Aceleração",
+        "resumo": "Programa de aceleração voltado para iniciativas validadas que buscam crescimento estruturado, abrangendo estratégia, mercado, operação e rede.",
+        "trecho_oportunidade": "As chamadas de aceleração publicadas pelo PTIn aparecem aqui, com informações sobre o estágio, os prazos e como participar.",
+        "trecho_publico": "Leve uma solução validada mais longe. Acelerar é olhar para crescimento com método: reconhecer o que já funciona, escolher prioridades e ampliar o alcance de uma iniciativa.",
+        "motivo": "A página descreve um programa contínuo de aceleração para iniciativas e soluções validadas que buscam crescimento e escala."
+      },
+      "hash_texto": "1df4a3108b2226d6579eb51724cd5b4dae69c4b1ff737757a2c0172ae0b24428",
+      "motivo": "convite_direto_ou_publico_nao_comprovado",
+      "auditoria_relevancia": "requer_revisao"
     },
     {
       "url": "https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-roraima-lanca-programa-para-acelerar-startups-e-fortalecer-ecossistema-de-inovacao-no-estado",
       "titulo": "Sebrae Roraima lança programa para acelerar startups e fortalecer ecossistema de inovação no estado | ASN Roraima - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:15.883634+00:00",
-      "tentativas": 7,
+      "conferido_em": "2026-10-04T14:37:00.993384+00:00",
+      "tentativas": 8,
       "metodo_leitura": "cronogramas-v6",
-      "status": "pendente_ia",
-      "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:15.885419+00:00"
+      "status": "pendente_evidencia",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "Programa de Aceleração de Startups Sebrae Roraima",
+        "instituicao": "Sebrae Roraima",
+        "tipo": "aceleração",
+        "resumo": "Programa de aceleração para 15 startups e negócios inovadores em Roraima, oferecendo mentorias, capacitações, workshops, diagnóstico estratégico e conexões com o mercado.",
+        "trecho_oportunidade": "Ao todo, 15 startups serão selecionadas para participar de uma jornada de aceleração que inclui mentorias especializadas, capacitações, workshops, diagnóstico estratégico e conexões com o mercado.",
+        "trecho_publico": "O programa é destinado a startups em diferentes estágios de desenvolvimento, desde a fase de ideação até negócios que já estão em operação ou em processo de expansão.",
+        "motivo": "O texto detalha o lançamento de um programa concreto de aceleração de startups promovido pelo Sebrae Roraima, com vagas, etapas definidas e apoio a negócios inovadores."
+      },
+      "hash_texto": "c984a75fadb5fba1376633f5ebd6ab5910ef0e2e5a4886b352cd60e1b9c85b17",
+      "motivo": "convite_direto_ou_publico_nao_comprovado",
+      "auditoria_relevancia": "requer_revisao"
     },
     {
       "url": "https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre",
       "titulo": "Programa vai acelerar 400 startups neste primeiro semestre | ASN Sergipe - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T10:05:15.900238+00:00",
-      "tentativas": 6,
+      "conferido_em": "2026-10-04T14:37:08.045734+00:00",
+      "tentativas": 7,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "orcamento_etapa_esgotado",
-      "proxima_tentativa": "2026-10-04T10:20:15.901132+00:00"
+      "proxima_tentativa": "2026-10-04T14:52:08.047045+00:00"
     },
     {
       "url": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
@@ -7388,10 +7409,12 @@
       "titulo": "Programas InovAtiva: estão abertas as inscrições para o Ciclo de Aceleração 2024.1 - ABES",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-03T14:10:46.426285+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-04T14:37:08.194257+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-05T14:37:08.194279+00:00"
     },
     {
       "url": "https://brasilinovador.com.br/inovativa-brasil-abre-pre-inscricoes-para-o-ciclo-de-aceleracao-2025",
@@ -7735,6 +7758,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "http://www.embraer.com/media-center/en?mediatype=NEWS&detail=13310"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras",
+      "url": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8849,6 +8882,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "página de startups do Google Cloud",
+      "url": "https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Qualificação e benefícios do programa para startups | Google Cloud",
       "url": "https://cloud.google.com/startup/benefits?hl=pt-BR",
       "categoria": "prioridade_verificacao",
@@ -9720,6 +9763,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Program Agreements",
+      "url": "https://fi.co/agreements",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/agreements"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Agentic Program",
+      "url": "https://fi.co/aifounder",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/aifounder"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Founder Institute: World's largest pre-seed startup accelerator.",
       "url": "https://fi.co/apply/11257",
       "categoria": "revisar_contexto",
@@ -9756,6 +9819,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://fi.co/apply/8"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Founder Institute Minas Gerais",
+      "url": "https://fi.co/apply/belo",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/apply/belo"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -9810,12 +9883,42 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "View Full curriculum",
+      "url": "https://fi.co/program/13543",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/program/13543"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Learn more here",
+      "url": "https://fi.co/programtypes",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/programtypes"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Founder Institute: World's largest pre-seed startup accelerator.",
       "url": "https://fi.co/register/appbuilder",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://fi.co/register/appbuilder"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Program Reviews",
+      "url": "https://fi.co/reviews",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/reviews"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -14640,6 +14743,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Voltar para Aceleradores",
+      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://startup.google.com/intl/pt-BR/programs/accelerator"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Google for Startups Accelerator: Brazil",
       "url": "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil",
       "categoria": "revisar_contexto",
@@ -14647,6 +14760,16 @@
       "links_equivalentes": [
         "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil",
         "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Saiba mais",
+      "url": "https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -16797,6 +16920,16 @@
       "motivo": "Página oficial indicada de programa com inscrições; conteúdo e vigência ainda serão verificados",
       "links_equivalentes": [
         "https://www.darwinstartups.com/icmlab"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Darwin Startups",
+      "url": "https://www.darwinstartups.com/startups",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.darwinstartups.com/startups"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -20731,6 +20864,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Tecnosinos Unitec",
+      "url": "https://www.tecnosinos.com.br/programa-de-incubacao/",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.tecnosinos.com.br/programa-de-incubacao/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "aqui",
+      "url": "https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Digital Health Accelerator Switzerland | Pre-Seed Healthtech Program | Tenity",
       "url": "https://www.tenity.com/program/digital-health-accelerator",
       "categoria": "revisar_contexto",
@@ -21579,141 +21732,11 @@
         "https://x.com/Anprotec"
       ],
       "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Darwin Startups",
-      "url": "https://www.darwinstartups.com/startups",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://www.darwinstartups.com/startups"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Saiba mais",
-      "url": "https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Tecnosinos Unitec",
-      "url": "https://www.tecnosinos.com.br/programa-de-incubacao/",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://www.tecnosinos.com.br/programa-de-incubacao/"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "aqui",
-      "url": "https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "página de startups do Google Cloud",
-      "url": "https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Voltar para Aceleradores",
-      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://startup.google.com/intl/pt-BR/programs/accelerator"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Founder Institute Minas Gerais",
-      "url": "https://fi.co/apply/belo",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fi.co/apply/belo"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Learn more here",
-      "url": "https://fi.co/programtypes",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fi.co/programtypes"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "View Full curriculum",
-      "url": "https://fi.co/program/13543",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fi.co/program/13543"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras",
-      "url": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Agentic Program",
-      "url": "https://fi.co/aifounder",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fi.co/aifounder"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Program Reviews",
-      "url": "https://fi.co/reviews",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fi.co/reviews"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Program Agreements",
-      "url": "https://fi.co/agreements",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fi.co/agreements"
-      ],
-      "vigencia": "nao_avaliada"
     }
   ],
   "programas_sebrae": 47,
   "vigencia": {
-    "atualizado_em": "2026-10-04T07:12:25.560225-03:00",
+    "atualizado_em": "2026-10-04T11:37:23.957470-03:00",
     "examinadas": 151,
     "abertas_publicadas": 8,
     "status": {
@@ -22942,7 +22965,7 @@
       }
     },
     "ia": {
-      "chamadas": 2,
+      "chamadas": 0,
       "falhas_temporarias": [],
       "limite": 8,
       "parada": null,
@@ -22953,7 +22976,7 @@
     }
   },
   "pipeline": {
-    "iniciada_em": "2026-10-04T10:04:48.753705+00:00",
+    "iniciada_em": "2026-10-04T14:36:47.389592+00:00",
     "status": "concluida",
     "etapas": [
       {
@@ -22965,7 +22988,7 @@
           "falhas_leitura": 0,
           "chamadas_api_busca": 0
         },
-        "segundos": 5.2
+        "segundos": 4.9
       },
       {
         "nome": "triagem",
@@ -22977,49 +23000,46 @@
         "nome": "conteudo",
         "status": "concluida",
         "resultado": null,
-        "segundos": 22.0
+        "segundos": 15.9
       },
       {
         "nome": "fontes",
         "status": "concluida",
         "resultado": {
-          "consultas": 1,
+          "consultas": 0,
           "fontes_encontradas": 0,
           "motivo": "busca_cota_em_pausa"
         },
-        "segundos": 0.2
+        "segundos": 0.0
       },
       {
         "nome": "vigencia",
         "status": "concluida",
         "resultado": null,
-        "segundos": 429.2
+        "segundos": 15.7
       }
     ],
-    "casos_concluidos_nesta_rodada": 2,
-    "concluidos_por_resultado": {
-      "encerrada": 2
-    },
+    "casos_concluidos_nesta_rodada": 0,
+    "concluidos_por_resultado": {},
     "casos_reabertos": 0,
     "saldo_abertas": 0,
-    "finalizada_em": "2026-10-04T10:12:25.604799+00:00",
-    "houve_avanco": true,
+    "finalizada_em": "2026-10-04T14:37:24.004017+00:00",
+    "houve_avanco": false,
     "ultimo_avanco_em": "2026-10-04T10:12:25.604799+00:00",
     "ia": {
-      "chamadas": 5,
+      "chamadas": 3,
       "limite": 8,
       "por_etapa": {
-        "conteudo": 3,
-        "vigencia": 2
+        "conteudo": 3
       },
       "bloqueio": null
     },
     "contagem": {
       "conteudo": {
-        "pendente_leitura": 255,
+        "pendente_leitura": 254,
         "confirmada_no_conteudo": 102,
-        "pendente_ia": 131,
-        "pendente_evidencia": 53,
+        "pendente_ia": 130,
+        "pendente_evidencia": 55,
         "nao_confirmada_no_texto": 17,
         "fora_escopo": 3
       },
@@ -23046,6 +23066,6 @@
         }
       }
     },
-    "motivo_sem_avanco": null
+    "motivo_sem_avanco": "aguardando_nova_evidencia_ou_proxima_tentativa"
   }
 }
