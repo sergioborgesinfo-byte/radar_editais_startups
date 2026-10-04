@@ -53,6 +53,54 @@
       "nome": "Sebrae Startups — Mercopar 2026 (manifestação de interesse)",
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
       "tipo": "pagina"
+    },
+    {
+      "nome": "FAPESP — Chamadas",
+      "url": "https://fapesp.br/chamadas/",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FAPEMIG — Chamadas",
+      "url": "https://fapemig.br/pt/chamadas/",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FAPERJ — Editais",
+      "url": "https://www.faperj.br/?id=16",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FAPESC — Editais",
+      "url": "https://fapesc.sc.gov.br/editais/",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FAPES — Editais",
+      "url": "https://fapes.es.gov.br/editais",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FAPDF — Editais",
+      "url": "https://www.fap.df.gov.br/editais",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FAPEAM — Editais",
+      "url": "https://www.fapeam.am.gov.br/editais/",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FAPESQ — Editais",
+      "url": "https://fapesq.rpp.br/editais/",
+      "tipo": "listagem",
+      "max_links": 50
     }
   ],
   "programas": [
