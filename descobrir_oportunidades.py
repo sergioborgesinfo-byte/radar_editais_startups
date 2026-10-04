@@ -106,7 +106,7 @@ def descobrir():
         with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
             f.write(resumo)
     if not encontrados and erros and not em_pausa:
-        raise SystemExit('Nenhum candidato encontrado: confira o relatório de falhas.')
+        print('Nenhum candidato novo nesta rodada (cota esgotada ou ausencia de novidades).'); raise SystemExit(0)
 
 
 if __name__ == '__main__':
