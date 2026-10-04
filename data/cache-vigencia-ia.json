@@ -1909,5 +1909,20 @@
       "motivo": "O edital do Programa Centelha 3 Paraíba estabelece o cronograma com prazos de submissão para a Fase 1 (24/04/2026 a 25/05/2026) e para a Fase 2 (20/07/2026 a 10/08/2026)."
     },
     "versao_validador": "evidencias-v2"
+  },
+  "09c806ac3b6cd537534b5558c0e38750e7882d44a7cda20ff0de02d9a4ab104a": {
+    "em": "2026-10-04T12:30:11.541565-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre",
+      "evidencia_identidade": "O programa InovAtiva Brasil vai selecionar 400 startups tecnológicas com soluções inovadoras de todo o país para o ciclo de aceleração 2021.1",
+      "evidencia": "As inscrições permanecem abertas até o dia 05 de abril no site https://www.inovativabrasil.com.br/ .",
+      "fim": "2021-04-05",
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "ciclo de aceleração 2021.1",
+      "motivo": "As inscrições para o programa InovAtiva Brasil fecham no dia 05 de abril de 2021 conforme informado no documento."
+    },
+    "versao_validador": "evidencias-v2"
   }
 }

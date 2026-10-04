@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 254, 'confirmada_no_conteudo': 102, 'pendente_ia': 130, 'pendente_evidencia': 55, 'nao_confirmada_no_texto': 17, 'fora_escopo': 3}
+{'pendente_leitura': 253, 'confirmada_no_conteudo': 104, 'pendente_ia': 128, 'pendente_evidencia': 56, 'nao_confirmada_no_texto': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -115,7 +115,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_evidencia: Programa Start&UP - Edição 9 - Sebrae Startups — https://programas.sebraestartups.com.br/in/1773155744320x304125193997948540
 - pendente_leitura: PROGRAMA NACIONAL CONEXÃO STARTUP INDÚSTRIA — https://repositorio.ipea.gov.br/bitstreams/fca4836e-7dc0-43fb-8d6d-9c809c7bfad8/download
 - nao_confirmada_no_texto: Programa Acelera Startup SC anuncia 20 premiadas com investimento de cerca de R$ 1,6 milhão no Startup Summit 2026 — https://sc.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-startup-sc-anuncia-20-premiadas-com-investimento-de-cerca-de-r-16-milhao-no-startup-summit-2026
-- pendente_ia: Boletim de Editais eAções de Fomento aos — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/boletim-de-inova%C3%A7%C3%A3o/Boletim%20de%20inova%C3%A7%C3%A3o%20-%20Maio%202026.pdf
+- pendente_evidencia: Boletim de Editais eAções de Fomento aos — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/boletim-de-inova%C3%A7%C3%A3o/Boletim%20de%20inova%C3%A7%C3%A3o%20-%20Maio%202026.pdf
 - pendente_ia: Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia — https://sict.rs.gov.br/edital-sict-02-2026
 - pendente_leitura: Aceleração de startups no Brasil: evidências de impacto do ... — https://web.bndes.gov.br/bib/jspui/bitstream/1408/29307/1/PRArt_216962_RAE%20n.%2022_Acelera%C3%A7%C3%A3o%20de%20startups%20no%20Brasil.pdf
 - pendente_ia: Aceleração de Startups – educação empreendedora – Banco do Nordeste - Portal Banco do Nordeste — https://www.bnb.gov.br/hub-de-inovacao/aceleracao-de-startups
@@ -259,7 +259,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: FIEMG Lab abre inscrições para sua primeira jornada de aceleração — https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90
   - trecho_oportunidade: O FIEMG Lab, programa do Sistema Federação das Indústrias do Estado de Minas Gerais (FIEMG) abriu inscrições para a primeira jornada de aceleração de startups, spin-offs corporativas e/ou projetos aplicados de base tecnológica de origem universitária.
   - trecho_publico: O FIEMG Lab, programa do Sistema Federação das Indústrias do Estado de Minas Gerais (FIEMG) abriu inscrições para a primeira jornada de aceleração de startups, spin-offs corporativas e/ou projetos aplicados de base tecnológica de origem universitária.
-- pendente_leitura: São Paulo Innovation Week - Sebrae Startups — https://programas.sebraestartups.com.br/in/1776264699513x196992201218308300
+- confirmada_no_conteudo: São Paulo Innovation Week 2026 — https://programas.sebraestartups.com.br/in/1776264699513x196992201218308300
+  - trecho_oportunidade: Por meio das inscrições (manifestação de interesse), realizamos a seleção de startups para cada evento, seguindo critérios específicos como a aderência ao perfil da feira. Dessa forma, o Sebrae for Startups oferece, gratuitamente, espaços de exposição conforme a disponibilidade.
+  - trecho_publico: O Sebrae for Startups participa anualmente de feiras e eventos para conectar startups ao mercado, ampliando oportunidades de vendas, fortalecendo a visibilidade e consolidando suas marcas.
 - confirmada_no_conteudo: VIII Programa de Aceleração – Negócios Inovadores de Impacto Socioambiental - Edital Regera 2026 — https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf
   - trecho_oportunidade: O Serviço de Apoio às Micro e Pequenas Empresas do Rio Grande do Norte – SEBRAE/RN torna pública a abertura do VIII PROGRAMA DE ACELERAÇÃO NEGÓCIOS INOVADORES DE IMPACTO SOCIOAMBIENTAL - REGENERA para seleção e premiação de empreendimentos
   - trecho_publico: iniciativas com modelos de negócios em diferentes formatos jurídicos (startups, cooperativas e empresas) que apresentam soluções para problemas sociais e ambientais e que obrigatoriamente estejam em fase de tração, comercializando seus serviços e produtos no mercado de forma contínua.
@@ -543,7 +545,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: BRAVI 2026 | Leve sua Agrifoodtech para a Itália — https://programas.sebraestartups.com.br/in/bravi
 - pendente_evidencia: Programas PTIn · Aceleração — https://ptin.pontapora.ms.gov.br/pagina/aceleracao
 - pendente_evidencia: Programa de Aceleração de Startups Sebrae Roraima — https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-roraima-lanca-programa-para-acelerar-startups-e-fortalecer-ecossistema-de-inovacao-no-estado
-- pendente_ia: Programa vai acelerar 400 startups neste primeiro semestre | ASN Sergipe - Agência Sebrae de Notícias — https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre
+- confirmada_no_conteudo: Programa vai acelerar 400 startups neste primeiro semestre — https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre
+  - trecho_oportunidade: O programa InovAtiva Brasil vai selecionar 400 startups tecnológicas com soluções inovadoras de todo o país para o ciclo de aceleração 2021.1, que acontecerá de forma virtual e gratuita entre abril e agosto deste ano.
+  - trecho_publico: O programa InovAtiva Brasil é voltado para a aceleração de startups brasileiras de qualquer setor e região do Brasil em estágio de validação, operação e tração.
 - confirmada_no_conteudo: Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial — https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html
   - trecho_oportunidade: “Nesta edição, o programa selecionará até cinco desafios industriais e, em seguida, buscaremos até dez startups com propostas aderentes aos problemas apresentados.
   - trecho_publico: “Nesta edição, o programa selecionará até cinco desafios industriais e, em seguida, buscaremos até dez startups com propostas aderentes aos problemas apresentados.
