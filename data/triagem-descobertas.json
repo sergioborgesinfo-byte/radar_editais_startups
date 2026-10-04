@@ -1,12 +1,12 @@
 {
-  "executado_em": "2026-10-04T18:47:30.174005+00:00",
+  "executado_em": "2026-10-04T19:58:58.814050+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
-  "links_recebidos": 1409,
-  "paginas_agrupadas": 1407,
+  "links_recebidos": 1413,
+  "paginas_agrupadas": 1411,
   "duplicacoes_de_url": 2,
   "contagem": {
-    "prioridade_verificacao": 475,
-    "revisar_contexto": 850,
+    "prioridade_verificacao": 476,
+    "revisar_contexto": 853,
     "fora_escopo": 6,
     "fonte_catalogo": 76
   },
@@ -14081,6 +14081,46 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://x.com/Anprotec"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FAPEMIG — Chamadas",
+      "url": "https://fapemig.br/pt/chamadas/",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapemig.br/pt/chamadas/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Saiba Mais",
+      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Saiba Mais",
+      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Saiba Mais",
+      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada"
       ],
       "vigencia": "nao_avaliada"
     }

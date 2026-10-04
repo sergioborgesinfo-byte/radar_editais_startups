@@ -1,15 +1,15 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-04T15:51:40.025744-03:00",
+  "atualizado_em": "2026-10-04T17:00:22.745180-03:00",
   "leitura_navegador": {
-    "tentativas": 4,
+    "tentativas": 3,
     "sucessos": 0,
-    "falhas": 4
+    "falhas": 3
   },
   "ia": {
     "chamadas": 0,
     "falhas_temporarias": [],
-    "limite": 8,
+    "limite": 20,
     "parada": null,
     "pendencias_restantes": 50,
     "casos_com_tentativa_ia": 70,
@@ -507,11 +507,11 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T15:47:52.112173-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:28.468652-03:00",
+      "verificado_em": "2026-10-04T16:59:35.480106-03:00",
+      "ia_tentada_em": "2026-10-04T17:00:10.723681-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://programas.sebraestartups.com.br/in/switch2025",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00",
+      "ia_proxima_tentativa": "2026-10-04T22:59:35.166274-03:00",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -901,11 +901,11 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T15:47:52.181854-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:17.663824-03:00",
+      "verificado_em": "2026-10-04T16:59:35.376045-03:00",
+      "ia_tentada_em": "2026-10-04T16:59:59.951023-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://sementenegocios.com.br/sebraeinovacaoaberta/solucoes/",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00",
+      "ia_proxima_tentativa": "2026-10-04T22:59:35.166274-03:00",
       "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
@@ -1025,8 +1025,8 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-04T15:48:07.840442-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:07.840338-03:00",
+      "verificado_em": "2026-10-04T16:59:49.834439-03:00",
+      "ia_tentada_em": "2026-10-04T16:59:49.834356-03:00",
       "ia_metodo": "gemini-v8"
     },
     {
@@ -1112,11 +1112,11 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T15:47:56.737951-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:26.004709-03:00",
+      "verificado_em": "2026-10-04T16:59:39.692310-03:00",
+      "ia_tentada_em": "2026-10-04T17:00:08.247424-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://www.feevale.br/acontece/noticias/startups-ganham-mais-prazo-para-se-inscreverem-no-brde-labs",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00",
+      "ia_proxima_tentativa": "2026-10-04T22:59:35.166274-03:00",
       "motivo_ia": "sem_convite"
     },
     {
@@ -1174,11 +1174,11 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T15:47:52.324003-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:31.039929-03:00",
+      "verificado_em": "2026-10-04T16:59:35.569352-03:00",
+      "ia_tentada_em": "2026-10-04T17:00:13.403809-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://prosas.com.br/editais/16756-1o-edital-para-o-programa-de-inovacao-aberta-do-hub-rio-ia-2026?subdominio=prosas",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00",
+      "ia_proxima_tentativa": "2026-10-04T22:59:35.166274-03:00",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1188,11 +1188,11 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T15:47:55.722457-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:33.739009-03:00",
+      "verificado_em": "2026-10-04T16:59:38.110042-03:00",
+      "ia_tentada_em": "2026-10-04T17:00:15.939785-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://www.randoncorp.com/pt/blog/rv-abre-inscri%C3%A7%C3%B5es-para-a-nova-turma-de-acelera%C3%A7%C3%A3o-de-startups/",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00",
+      "ia_proxima_tentativa": "2026-10-04T22:59:35.166274-03:00",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1288,11 +1288,11 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T15:47:57.160389-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:33.746694-03:00",
+      "verificado_em": "2026-10-04T16:59:40.272287-03:00",
+      "ia_tentada_em": "2026-10-04T17:00:15.945298-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00",
+      "ia_proxima_tentativa": "2026-10-04T22:59:35.166274-03:00",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1332,11 +1332,11 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T15:48:00.858952-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:33.786586-03:00",
+      "verificado_em": "2026-10-04T16:59:43.255874-03:00",
+      "ia_tentada_em": "2026-10-04T17:00:15.975782-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://prpi.ufg.br/p/empreendedorismo-e-inovacao",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00",
+      "ia_proxima_tentativa": "2026-10-04T22:59:35.166274-03:00",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1446,7 +1446,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-04T15:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T16:59:35.166274-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1472,11 +1472,11 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T15:48:00.583099-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:39.031808-03:00",
+      "verificado_em": "2026-10-04T16:59:43.159972-03:00",
+      "ia_tentada_em": "2026-10-04T17:00:22.744916-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://garagem.bndes.gov.br/",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00",
+      "ia_proxima_tentativa": "2026-10-04T22:59:35.166274-03:00",
       "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
@@ -1631,11 +1631,11 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T15:47:57.084104-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:39.031899-03:00",
+      "verificado_em": "2026-10-04T16:59:40.041156-03:00",
+      "ia_tentada_em": "2026-10-04T17:00:22.745000-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00",
+      "ia_proxima_tentativa": "2026-10-04T22:59:35.166274-03:00",
       "motivo_ia": "sem_documentos"
     },
     {
@@ -1672,7 +1672,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-04T15:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T16:59:35.166274-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1787,7 +1787,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-04T15:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T16:59:35.166274-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",

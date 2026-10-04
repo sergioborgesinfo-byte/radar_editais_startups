@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 253, 'confirmada_no_conteudo': 104, 'pendente_ia': 133, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 51, 'fora_escopo': 3}
+{'pendente_leitura': 251, 'confirmada_no_conteudo': 104, 'pendente_ia': 154, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 33, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -48,12 +48,12 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana — https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups
   - trecho_oportunidade: Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana
   - trecho_publico: Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana
-- pendente_evidencia: Programa de aceleração Citz.Tech — https://desafios.enap.gov.br/index.php/en/desafios/citz-tech
-- pendente_evidencia: Concurso Desavexe 2026 — https://desavexe.org.br/concurso
+- pendente_ia: Programa de aceleração Citz.Tech — https://desafios.enap.gov.br/index.php/en/desafios/citz-tech
+- pendente_ia: Concurso Desavexe 2026 | Inovação, Startups e Incubação — https://desavexe.org.br/concurso
 - confirmada_no_conteudo: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná — https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana
   - trecho_oportunidade: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná
   - trecho_publico: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná
-- pendente_leitura: Notícias e Prêmios - DIPPG — https://dippg.cefet-rj.br/index.php/pt/noticias-e-premios
+- pendente_ia: Notícias e Prêmios - DIPPG — https://dippg.cefet-rj.br/index.php/pt/noticias-e-premios
 - nao_confirmada_no_texto: Como funciona uma aceleradora de startups no Brasil? — https://distrito.me/blog/aceleradora-de-startups-no-brasil
 - pendente_leitura: Oracle lança programa para startups no Brasil, Argentina e Colômbia com até US$ 60 mil em créditos em nuvem — https://dplnews.com/oracle-programa-startups-brasil-argentina-e-colombia-us-60-mil-creditos-nuvem
 - confirmada_no_conteudo: Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow — https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups
@@ -76,9 +76,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Resultado Chamada Pública 03/2026: Novo Seed — https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed
   - trecho_oportunidade: Chamada FAPEMIG/Sede 03/2026 – Novo SEED (Startups and Entrepreneurship Ecosystem Development): Aceleração de Startups  por meio dos Ambientes Promotores de Inovação
   - trecho_publico: Novo SEED (Startups and Entrepreneurship Ecosystem Development): Aceleração de Startups  por meio dos Ambientes Promotores de Inovação
-- pendente_evidencia: Edital de Chamada Pública FAPESC N.º 03/2026 Programa Nascer de Pré-Incubação de Ideias Inovadoras VI Edição Super Pitch Day — https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-003-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-vi-edicao-super-pitch-day
+- pendente_ia: EDITAL DE CHAMADA PÚBLICA FAPESC N.º 03/2026 PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS VI EDIÇÃO SUPER PITCH DAY – Fapesc — https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-003-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-vi-edicao-super-pitch-day
 - pendente_leitura: Chamamento Público para Aceleradoras — https://fapesp.br/16346/chamamento-publico-para-aceleradoras
-- pendente_evidencia: Founder Institute Bolivia - Latam Fall 2026 FI Agentic Program — https://fi.co/overview/santa_cruz
+- pendente_ia: Learn about the Founder Institute's pre-seed startup accelerator program — https://fi.co/overview/santa_cruz
 - pendente_leitura: FIEMG Lab | aceleração de startups — https://fiemglab.com.br/tag/aceleracao-de-startups
 - pendente_leitura: Findes promove rodada de negócios exclusiva de startups — https://findes.com.br/findes-promove-rodada-de-negocios-exclusiva-de-startups
 - pendente_leitura: SENAI CHAMADA PÚBLICA C — https://firjan.com.br/data/files/49/80/25/07/BFCCF9106CEF99E919284EA8/boletim_radar_edicao58_agosto_2026.pdf
@@ -86,7 +86,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - nao_confirmada_no_texto: 100 startups selecionadas para aceleração no BNDES Garagem 2025 — https://garagem.bndes.gov.br/conteudo/100-startups-selecionadas-para-aceleracao-no-bndes-garagem-2025-impulsionam-economia-verde-e-impacto-social
 - pendente_leitura: Programa de apoio a startups abre inscrições para transformar ideias tecnológicas em grandes empresas - Gazeta da Semana — https://gazetadasemana.com.br/noticia/295227/programa-de-apoio-a-startups-abre-inscricoes-para-transformar-ideias-tecnologicas-em-grandes-empresas
 - pendente_leitura: Aceleradoras de Startups no Brasil | Growth System — https://growthsystem.com.br/aceleradoras
-- pendente_evidencia: edital startups nº 002 / 2025 — https://hardtechinnovation.com.br/wp-content/uploads/2025/08/Edital-Startup-_-HardTech-Innovation-2026.pdf
+- pendente_ia: edital startups nº 002 / 2025 — https://hardtechinnovation.com.br/wp-content/uploads/2025/08/Edital-Startup-_-HardTech-Innovation-2026.pdf
 - confirmada_no_conteudo: Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo — https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf
   - trecho_oportunidade: torna público aos empreendedores interessados, que estão abertas as inscrições para o processo seletivo de projetos e startups inovadoras para integrar o Programa de Incubação de empresas de base tecnológica do HBR
   - trecho_publico: processo seletivo de projetos e startups inovadoras para integrar o Programa de Incubação de empresas de base tecnológica do HBR
@@ -96,7 +96,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: SpeedUp - Programa de aceleração do HOTMILK PUCPR — https://hotmilk.pucpr.br/speedup
 - pendente_leitura: Missão Empresarial Espanha 2026 — https://hotsites.fecomercio-rs.org.br/missao-espanha
 - pendente_leitura: edital nº 01/2026 – processo seletivo para ingresso no — https://hotsites.oceanbrasil.com/ocean-launch/Edital_Ocean_Launch_2026_1.pdf
-- pendente_evidencia: Plataforma de Desafíos Tecnológicos - Andes Pacific Technology Access (APTA) — https://hubapta.com/desafios
+- pendente_ia: Desafíos - APTA - Andes Pacific Technology Access — https://hubapta.com/desafios
 - pendente_leitura: 1.Edital_Chamamento_Solucionadoras_Edital 01/2026.docx — https://hubgoias.org/wp-content/uploads/2026/01/1.Edital_Chamamento_Solucionadoras_Edital-01_2026.docx-1.pdf
 - nao_confirmada_no_texto: Sebrae conclui programas anuais de aceleração de startups fortalecendo a inovação — https://ma.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-conclui-programas-anuais-de-aceleracao-de-startups-fortalecendo-a-inovacao
 - confirmada_no_conteudo: Programa de Aceleração para Internacionalização de Startups e Imersão em Dubai — https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/oportunidade-sebrae-minas-abre-editais-para-programa-de-aceleracao-de-startups-na-europa-e-imersao-em-dubai
@@ -138,7 +138,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: O programa de aceleração é direcionado a startups em early stage ou em tração, com validação de mercado e preferencialmente gerando receita com clientes em um modelo escalável.
 - pendente_ia: Batch #35 - Inscrição, WOW Aceleradora — https://www.wow.ac/inscricao
 - pendente_ia: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://alertaeditais.com.br/edital/chamada-fapemig-sede-032026-novo-seed:-aceler-recjw
-- pendente_evidencia: Oka Hub Incubadora da Floresta — https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para
+- pendente_ia: Incubadora de startups da bioeconomia amazônica é lançada no Pará | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para
 - confirmada_no_conteudo: Aceleração 2026: Inscrições Abertas para Startups do Norte — https://ecti.ac.gov.br/rascunho-automaticoprogramas-aceleracao-norte-cidades-inteligentes-lideranca-feminina
   - trecho_oportunidade: Aceleração 2026: Inscrições Abertas para Startups do Norte
   - trecho_publico: Aceleração 2026: Inscrições Abertas para Startups do Norte
@@ -184,7 +184,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Acelera Vibra — https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas
   - trecho_oportunidade: A iniciativa pretende mobilizar mais de 100 startups e selecionar 17 negócios para uma jornada de aceleração, com capacitações, mentorias, acompanhamento técnico, conexões com o mercado e recursos para o desenvolvimento das soluções.
   - trecho_publico: Poderão participar startups de diferentes setores, desde que apresentem soluções baseadas em tecnologia, conhecimento intensivo e inovação.
-- pendente_evidencia: Desafio Unicamp — https://inova.unicamp.br/desafio
+- pendente_ia: Home - Desafio Unicamp — https://inova.unicamp.br/desafio
 - pendente_leitura: CHAMAMENTO PÚBLICO PARA SELEÇÃO DE PROJETOS DE INOVAÇÃO PARA O PROGRAMA STARTUP NORDESTE – PERNAMBUCO | PRÓ-STARTUPS | Portal Inova-e — https://inovae.cofenplay.com.br/oportunidades/chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-pernambuco-pro-startups
 - pendente_leitura: Meta Ventures lança desafio para internacionalização de ... — https://institutocaldeira.org.br/blog/meta-ventures-lanca-desafio-para-internacionalizacao-de-startups
 - confirmada_no_conteudo: Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico — https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed
@@ -249,7 +249,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/pequenos-negocios-podem-se-inscrever-para-rodadas-de-negocios-com-startups-durante-forum-e-commerce-brasil-2026
   - trecho_oportunidade: Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias
   - trecho_publico: Pequenos negócios podem se inscrever para rodadas de negócios com startups durante Fórum E-commerce Brasil 2026 | ASN Nacional - Agência Sebrae de Notícias
-- pendente_evidencia: CHAMADA FAPEMIG-SEDE 003/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao
+- pendente_ia: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao
 - confirmada_no_conteudo: InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc — https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups
   - trecho_oportunidade: InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc
   - trecho_publico: InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc
@@ -532,7 +532,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Los desafíos que enfrentarán las startups en los próximos ... — https://www.instagram.com/reel/DUSqgcwDSLl
 - pendente_ia: RODADAS DE INVESTIMENTOS | GREEN RIO 2026 — https://programas.sebraestartups.com.br/in/1786393514323x887855479641897900
 - pendente_ia: Todos os direitos reservados © Sebrae Startups — https://programas.sebraestartups.com.br/in/apex-northstar2025
-- pendente_evidencia: FAPESP simplifica submissão de propostas ao PIPE — https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036
+- pendente_ia: FAPESP simplifica submissão de propostas ao PIPE — https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036
 - pendente_ia: Startups alcançam novos mercados por meio do programa de aceleração Startup Nordeste Piauí | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-alcancam-novos-mercados-por-meio-do-programa-de-aceleracao-startup-nordeste-piaui
 - nao_confirmada_no_texto: Startups comemoram aceleração após participação em programa do Sebrae — https://al.agenciasebrae.com.br/inovacao-e-tecnologia/startups-comemoram-aceleracao-apos-participacao-em-programa-do-sebrae
 - confirmada_no_conteudo: Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc — https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas
@@ -563,21 +563,21 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_oportunidade: Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
   - trecho_publico: Built for Brazilian founders. Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
 - pendente_leitura: Sebrae tem programa para acelerar startups - Diário dos Campos — https://dcmais.com.br/brasil/sebrae-tem-programa-para-acelerar-startups
-- pendente_evidencia: Startup Challenge Parque Arauco | Desafíos Abiertos — https://dgiie.usm.cl/concursos/startup-challenge-desafios-abiertos
+- pendente_ia: Startup Challenge Parque Arauco | Desafíos Abiertos | Dirección General de Investigación Innovación y Desarrollo — https://dgiie.usm.cl/concursos/startup-challenge-desafios-abiertos
 - pendente_leitura: Startups goianas são selecionadas para programa nacional - Empreender em Goiás — https://empreenderemgoias.com.br/2026/05/18/startups-goianas-sao-selecionadas-para-programa-nacional
-- pendente_evidencia: StartUp Challenge Colombia 2023 - Energy Transition — https://es-us.finanzas.yahoo.com/noticias/startup-challenge-abren-convocatoria-emprendimientos-181500905.html
-- pendente_leitura: Startups incubadas no Senac são selecionadas para programa de aceleração | Faculdade Senac Pernambuco — https://faculdadesenacpe.edu.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao
+- pendente_ia: StartUp Challenge: abren convocatoria para emprendimientos de energías renovables — https://es-us.finanzas.yahoo.com/noticias/startup-challenge-abren-convocatoria-emprendimientos-181500905.html
+- pendente_ia: Startups incubadas no Senac são selecionadas para programa de aceleração | Faculdade Senac Pernambuco — https://faculdadesenacpe.edu.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao
 - confirmada_no_conteudo: Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups — https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups
   - trecho_oportunidade: O ‘Acelera TAP’ será estruturado em duas fases, com capacidade para atender pelo menos 30 startups em fase de validação e outras 15 em estágio de aceleração. O suporte vai muito além da mentoria: o programa prevê apoio financeiro direto de até R$ 100 mil para negócios em estágio inicial e até R$ 70 mil para empresas já consolidadas.
   - trecho_publico: O resultado desse edital estava sendo bastante esperado pelos empreendedores de Startups, especialmente ligadas aos setores do agro, saúde e indústria 4.0 no Triângulo Mineiro e Alto Paranaíba
-- pendente_evidencia: Brazilian Retail Techs in Argentina – BretA 2026 — https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina
-- pendente_evidencia: Programa de Aceleração de Startups Sebrae Roraima — https://g1.globo.com/rr/roraima/especial-publicitario/sebrae-roraima-onde-tem-empreendedor-tem-sebrae/noticia/2026/06/10/aceleracao-de-startups-sebrae-roraima-lanca-novo-programa.ghtml
+- pendente_ia: Startups brasileiras cruzam fronteiras e transformam missão do BretA2026 em ponte de negócios com a Argentina - Sistema Fecomércio — https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina
+- pendente_ia: Aceleração de startups: Sebrae Roraima lança novo programa | G1 — https://g1.globo.com/rr/roraima/especial-publicitario/sebrae-roraima-onde-tem-empreendedor-tem-sebrae/noticia/2026/06/10/aceleracao-de-startups-sebrae-roraima-lanca-novo-programa.ghtml
 - pendente_evidencia: Créditos em nuvem para Startups - Conheça alguns programas - GoCache — https://gocache.com.br/nao-categorizado/creditos-em-nuvem-para-startups-conheca-alguns-programas
-- pendente_evidencia: Gerdau Challenge em FIEMG Lab — https://ibram.org.br/es/noticia/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios
+- pendente_ia: Gerdau y FIEMG Lab buscan startups para resolver los desafíos de IBRAM. — https://ibram.org.br/es/noticia/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios
 - confirmada_no_conteudo: BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil — https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil
   - trecho_oportunidade: O Banco Nacional de Desenvolvimento Econômico e Social (BNDES) lança, nesta segunda-feira, 11, o segundo dos quatro ciclos da 3ª Edição do BNDES Garagem, programa gratuito de apoio a empreendedores e startups de impacto.
   - trecho_publico: 3ª Edição do BNDES Garagem, programa gratuito de apoio a empreendedores e startups de impacto.
-- pendente_evidencia: Gerdau Challenge FIEMG Lab - Oportunidade para Startups — https://inova.ufabc.edu.br/noticias/9049-gerdau-challenge-fiemg-lab-oportunidade-para-startups
+- pendente_ia: Gerdau Challenge FIEMG Lab - Oportunidade para Startups - Universidade Federal do ABC — https://inova.ufabc.edu.br/noticias/9049-gerdau-challenge-fiemg-lab-oportunidade-para-startups
 - nao_confirmada_no_texto: 4 das 15 startups mineiras selecionadas para Programa de Internacionalização do Sebrae são vinculadas à INCIT — https://inovai.org.br/4-das-15-startups-mineiras-selecionadas-para-programa-de-internacionalizacao-do-sebrae-sao-vinculadas-a-incit
 - pendente_leitura: Conecta Caldeira reúne 7 desafios de inovação aberta ... — https://institutocaldeira.org.br/blog/conecta-caldeira-reune-7-desafios-de-inovacao-aberta-de-grandes-empresas-veja-como-inscrever-sua-startup
 - pendente_leitura: Aceleradora seleciona startups brasileiras para programa internacional - IT Forum — https://itforum.com.br/noticias/aceleradora-seleciona-startups-brasileiras-para-programa-de-internacional
@@ -755,8 +755,8 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Programas InovAtiva: estão abertas as inscrições para o Ciclo de Aceleração 2024.1 - ABES — https://abes.org.br/programas-inovativa-estao-abertas-as-inscricoes-para-o-ciclo-de-aceleracao-2024-1
 - pendente_leitura: InovAtiva Brasil abre pré-inscrições para o ciclo de aceleração 2025 - Brasil Inovador — https://brasilinovador.com.br/inovativa-brasil-abre-pre-inscricoes-para-o-ciclo-de-aceleracao-2025
 - pendente_leitura: GO SRP abre edital de incubação e aceleração para startups do agronegócio - Conexão Agro — https://conexaoagro.com.br/noticias-conexao/go-srp-abre-edital-de-incubacao-e-aceleracao-para-startups-do-agronegocio
-- pendente_evidencia: Eleva Start powered by InovAtiva — https://empreendedor.com.br/tecnologia/inovacao/programa-abre-inscricao-para-aceleracao-de-startups-do-rio-grande-do-sul
-- pendente_evidencia: Programa NEXT - Aceleração de Startups “Da Ciência ao Negócio” — https://forms.gle/kbS7qkTJbu4nnbqj7
+- pendente_ia: Programa abre inscrição para aceleração de startups do Rio Grande do Sul — https://empreendedor.com.br/tecnologia/inovacao/programa-abre-inscricao-para-aceleracao-de-startups-do-rio-grande-do-sul
+- pendente_ia: FORMULÁRIO DE INSCRIÇÃO: PROGRAMA NEXT - ACELERAÇÃO DE STARTUPS — https://forms.gle/kbS7qkTJbu4nnbqj7
 - pendente_leitura: InovAtiva 2025: Inscrições abertas para os maiores programas de aceleração de startups do Brasil | Portal Inova-e — https://inovae.cofenplay.com.br/oportunidades/inovativa-2025-inscricoes-abertas-para-os-maiores-programas-de-aceleracao-de-startups-do-brasil
 - pendente_leitura: ACE Ventures e Gener8tor lançam programa para atrair startups dos EUA para o Brasil - IT Forum — https://itforum.com.br/noticias/ace-ventures-gener8tor-startups
 - pendente_leitura: Edital 32/2026 - Desafios.Gov — edital de fomento FACEPE — https://licitario.com.br/fomento/edital-32-2026-desafios-gov-tdz8kb
@@ -773,3 +773,4 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Inova+Invest – Região Norte 2026 — https://abvcap.com.br/programas/inova-invest/
   - trecho_oportunidade: Inscreva-se
   - trecho_publico: O Inova+invest vai selecionar até 15 startups da região, avaliando inovação e tecnologia, potencial de escala, maturidade do negócio e a qualidade do time.
+- pendente_ia: FAPEMIG — Chamadas — https://fapemig.br/pt/chamadas/
