@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-03T23:19:28.723461+00:00",
+  "iniciada_em": "2026-10-04T02:51:32.073339+00:00",
   "status": "concluida",
   "etapas": [
     {
@@ -7,11 +7,11 @@
       "status": "concluida",
       "resultado": {
         "fontes_visitadas": 2,
-        "candidatos_novos": 2,
-        "falhas_leitura": 1,
+        "candidatos_novos": 10,
+        "falhas_leitura": 0,
         "chamadas_api_busca": 0
       },
-      "segundos": 4.8
+      "segundos": 5.6
     },
     {
       "nome": "triagem",
@@ -29,63 +29,64 @@
       "nome": "fontes",
       "status": "concluida",
       "resultado": {
-        "consultas": 0,
+        "consultas": 1,
         "fontes_encontradas": 0,
         "motivo": "busca_cota_em_pausa"
       },
-      "segundos": 0.0
+      "segundos": 0.1
     },
     {
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 10.5
+      "segundos": 659.7
     }
   ],
-  "casos_concluidos_nesta_rodada": 1,
+  "casos_concluidos_nesta_rodada": 2,
   "concluidos_por_resultado": {
-    "encerrada": 1
+    "encerrada": 2
   },
   "casos_reabertos": 0,
   "saldo_abertas": 0,
-  "finalizada_em": "2026-10-03T23:19:59.666589+00:00",
+  "finalizada_em": "2026-10-04T03:02:53.175272+00:00",
   "houve_avanco": true,
-  "ultimo_avanco_em": "2026-10-03T23:19:59.666589+00:00",
+  "ultimo_avanco_em": "2026-10-04T03:02:53.175272+00:00",
   "ia": {
-    "chamadas": 3,
+    "chamadas": 6,
     "limite": 8,
     "por_etapa": {
-      "conteudo": 3
+      "conteudo": 3,
+      "vigencia": 3
     },
     "bloqueio": null
   },
   "contagem": {
     "conteudo": {
       "pendente_leitura": 255,
-      "confirmada_no_conteudo": 98,
-      "pendente_ia": 137,
+      "confirmada_no_conteudo": 100,
+      "pendente_ia": 134,
       "pendente_evidencia": 52,
-      "nao_confirmada_no_texto": 16,
+      "nao_confirmada_no_texto": 17,
       "fora_escopo": 3
     },
     "vigencia": {
       "aberta_confirmada": 11,
-      "encerrada": 84,
-      "pendente_evidencia": 27,
+      "encerrada": 86,
+      "pendente_evidencia": 26,
       "pendente_acesso": 8,
-      "pendente_fonte_oficial": 14,
+      "pendente_fonte_oficial": 15,
       "fora_escopo": 3
     },
     "abertas_publicadas": 8,
     "fila_inicial": {
       "total_inicial": 78,
-      "resolvidas": 33,
-      "resolvidas_automaticamente": 33,
+      "resolvidas": 34,
+      "resolvidas_automaticamente": 34,
       "revisoes_manuais": 0,
-      "pendentes": 45,
+      "pendentes": 44,
       "por_resultado": {
         "aberta_confirmada": 1,
-        "encerrada": 30,
+        "encerrada": 31,
         "ainda_nao_aberta": 0,
         "fora_escopo": 2
       }

@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 255, 'confirmada_no_conteudo': 98, 'pendente_ia': 137, 'pendente_evidencia': 52, 'nao_confirmada_no_texto': 16, 'fora_escopo': 3}
+{'pendente_leitura': 255, 'confirmada_no_conteudo': 100, 'pendente_ia': 134, 'pendente_evidencia': 52, 'nao_confirmada_no_texto': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -10,7 +10,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: Poderão participar startups de impacto de base tecnológica com CNPJ ativo há, no máximo, 5 (cinco) anos, contados até a data da inscrição, sediadas no Estado da Paraíba
 - pendente_ia: ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM — http://www.ciaem.ufu.br/acontece/2016/11/aceleracao-fiemg-lab-startup-abre-inscricoes-para-sua-primeira-jornada
 - pendente_ia: Programa de aceleração de startups: inovação e ... — http://www.repositorio.ufal.br/bitstream/riufal/7023/3/Programa%20de%20acelera%C3%A7%C3%A3o%20de%20startups%3A%20inova%C3%A7%C3%A3o%20e%20desenvolvimento%20empresarial.pdf
-- pendente_leitura: Gerdau e FIEMG Lab buscam startups para resolver desafios — https://abes.org.br/en/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios
+- pendente_leitura: Gerdau e FIEMG Lab buscam startups para resolver desafios - ABES — https://abes.org.br/en/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios
 - pendente_leitura: Programa de Aceleração de Startups de Impacto na Amazônia — https://aceventures.com.br/coalizao-pelo-impacto
 - confirmada_no_conteudo: Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina
   - trecho_oportunidade: Abertas inscrições para Inovativa Brasil, maior programa de aceleração de startups da América Latina | ASN Nacional - Agência Sebrae de Notícias
@@ -83,7 +83,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Findes promove rodada de negócios exclusiva de startups — https://findes.com.br/findes-promove-rodada-de-negocios-exclusiva-de-startups
 - pendente_leitura: SENAI CHAMADA PÚBLICA C — https://firjan.com.br/data/files/49/80/25/07/BFCCF9106CEF99E919284EA8/boletim_radar_edicao58_agosto_2026.pdf
 - pendente_leitura: Desafio Start-Ed - Fundação Lemann — https://fundacaolemann.org.br/noticias/desafio-start-ed
-- pendente_ia: 100 negócios são selecionados para aceleração no BNDES Garagem no ciclo 2 | BNDES Garagem — https://garagem.bndes.gov.br/conteudo/100-startups-selecionadas-para-aceleracao-no-bndes-garagem-2025-impulsionam-economia-verde-e-impacto-social
+- nao_confirmada_no_texto: 100 startups selecionadas para aceleração no BNDES Garagem 2025 — https://garagem.bndes.gov.br/conteudo/100-startups-selecionadas-para-aceleracao-no-bndes-garagem-2025-impulsionam-economia-verde-e-impacto-social
 - pendente_leitura: Programa de apoio a startups abre inscrições para transformar ideias tecnológicas em grandes empresas - Gazeta da Semana — https://gazetadasemana.com.br/noticia/295227/programa-de-apoio-a-startups-abre-inscricoes-para-transformar-ideias-tecnologicas-em-grandes-empresas
 - pendente_leitura: Aceleradoras de Startups no Brasil | Growth System — https://growthsystem.com.br/aceleradoras
 - pendente_evidencia: edital startups nº 002 / 2025 — https://hardtechinnovation.com.br/wp-content/uploads/2025/08/Edital-Startup-_-HardTech-Innovation-2026.pdf
@@ -99,8 +99,12 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_evidencia: Plataforma de Desafíos Tecnológicos - Andes Pacific Technology Access (APTA) — https://hubapta.com/desafios
 - pendente_leitura: 1.Edital_Chamamento_Solucionadoras_Edital 01/2026.docx — https://hubgoias.org/wp-content/uploads/2026/01/1.Edital_Chamamento_Solucionadoras_Edital-01_2026.docx-1.pdf
 - nao_confirmada_no_texto: Sebrae conclui programas anuais de aceleração de startups fortalecendo a inovação — https://ma.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-conclui-programas-anuais-de-aceleracao-de-startups-fortalecendo-a-inovacao
-- pendente_ia: Oportunidade: Sebrae Minas abre editais para programa de aceleração de startups na Europa e imersão em Dubai | ASN Minas Gerais - Agência Sebrae de Notícias — https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/oportunidade-sebrae-minas-abre-editais-para-programa-de-aceleracao-de-startups-na-europa-e-imersao-em-dubai
-- pendente_ia: CONFAP — Conselho Nacional das Fundações Estaduais de Amparo à PesquisaBNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto — https://news.confap.org.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto
+- confirmada_no_conteudo: Programa de Aceleração para Internacionalização de Startups e Imersão em Dubai — https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/oportunidade-sebrae-minas-abre-editais-para-programa-de-aceleracao-de-startups-na-europa-e-imersao-em-dubai
+  - trecho_oportunidade: O Sebrae Minas irá selecionar 25 startups para participarem do Programa de Aceleração para Internacionalização de Startups . A startups selecionadas irão receber capacitações e mentorias, e poderão ser classificadas para a segunda etapa do programa
+  - trecho_publico: Podem participar do edital empresas com CNPJ ativo em Minas Gerais, que possuam soluções tecnológicas na fase de operação e tração já estabelecidas, das áreas de Ciências da Vida ou Saúde Digital.
+- confirmada_no_conteudo: BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto — https://news.confap.org.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto
+  - trecho_oportunidade: O Banco Nacional de Desenvolvimento Econômico e Social ( BNDES ) lançou, no dia 11 de agosto, o segundo dos quatro ciclos da 3ª Edição do BNDES Garagem , programa gratuito de apoio a empreendedores e startups de impacto.
+  - trecho_publico: BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto
 - confirmada_no_conteudo: Nova Lima lança Chamamento Público para programa de aceleração de startups — https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups
   - trecho_oportunidade: O edital tem o intuito de selecionar empreendedores, startups e empresas de base tecnológica interessadas em participar de uma jornada de preparação e aceleração para o desenvolvimento de soluções inovadoras.
   - trecho_publico: O edital tem o intuito de selecionar empreendedores, startups e empresas de base tecnológica interessadas em participar de uma jornada de preparação e aceleração para o desenvolvimento de soluções inovadoras.

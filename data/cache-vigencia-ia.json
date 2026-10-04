@@ -1834,5 +1834,50 @@
       "motivo": "O prazo de submissão das propostas encerrou-se em 17/06/2024, conforme o cronograma oficial do edital."
     },
     "versao_validador": "evidencias-v2"
+  },
+  "25d4f1397d978779d1b6af434c44d2361dd4e8c624c79901d503634705073512": {
+    "em": "2026-10-03T23:51:53.508484-03:00",
+    "resposta": {
+      "situacao": "encerrada_explicita",
+      "fonte": "https://news.confap.org.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto",
+      "evidencia_identidade": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto",
+      "evidencia": "A chamada pública para seleção das startups foi lançada em 11 de agosto, as incrições vão até o dia 14 de setembro",
+      "fim": "2025-09-14",
+      "inicio": "2025-08-11",
+      "evidencia_inicio": "O Banco Nacional de Desenvolvimento Econômico e Social ( BNDES ) lançou, no dia 11 de agosto, o segundo dos quatro ciclos da 3ª Edição do BNDES Garagem",
+      "evidencia_ano": "Em 01/09/2025",
+      "motivo": "As inscrições para a oportunidade encerraram-se em 14 de setembro de 2025, conforme o cronograma informado no documento."
+    },
+    "versao_validador": "evidencias-v2"
+  },
+  "ff671b772df804fbf2b2a550070313d488fecb325ed7c13babbbf5af81430099": {
+    "em": "2026-10-03T23:51:53.508484-03:00",
+    "resposta": {
+      "situacao": "pendente",
+      "fonte": "https://news.confap.org.br/fapesq-cnpq-e-finep-lancam-novo-edital-do-centelha-paraiba-com-investimento-de-mais-de-r-2-milhoes-para-apoiar-startups",
+      "evidencia_identidade": "Programa Centelha Paraíba",
+      "evidencia": null,
+      "fim": null,
+      "inicio": null,
+      "evidencia_inicio": null,
+      "evidencia_ano": "2026",
+      "motivo": "Os documentos fornecidos não contêm informações sobre o cronograma ou prazos de inscrição para a oportunidade informada."
+    },
+    "versao_validador": "evidencias-v2"
+  },
+  "8c5770d2e3cd6ba542c485d6351335aa8b1d08e8bd1f1de8791070bb6675c4c8": {
+    "em": "2026-10-03T23:51:53.508484-03:00",
+    "resposta": {
+      "situacao": "prazo",
+      "fonte": "http://www.bndes.gov.br/wps/wcm/connect/site/27e9c2cf-f67a-4b95-bc18-32b38ef8ff8a/Edital-BNDES-Garagem-Negocios-de-Impacto-2024-Tracao.pdf?MOD=AJPERES&CVID=p7nc2OX",
+      "evidencia_identidade": "Edital BNDES Garagem – Negócios de Impacto - 2024 - Tração",
+      "evidencia": "As inscrições para o processo de seleção do Programa ficarão abertas do dia 19/08/2024 até às 23h59 (horário de Brasília) do dia 11/09/2024",
+      "fim": "2024-09-11",
+      "inicio": "2024-08-19",
+      "evidencia_inicio": "As inscrições para o processo de seleção do Programa ficarão abertas do dia 19/08/2024 até às 23h59 (horário de Brasília) do dia 11/09/2024",
+      "evidencia_ano": "2024",
+      "motivo": "O edital estabelece claramente o período de inscrições entre 19/08/2024 e 11/09/2024."
+    },
+    "versao_validador": "evidencias-v2"
   }
 }

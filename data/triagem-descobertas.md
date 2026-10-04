@@ -2,7 +2,7 @@
 
 Classificação preliminar por título e URL. Não comprova elegibilidade ou inscrições abertas. Nenhum candidato foi apagado.
 
-1399 links recebidos; 1398 páginas após agrupar 1 duplicações de URL.
+1409 links recebidos; 1407 páginas após agrupar 2 duplicações de URL.
 
 52 páginas individuais do catálogo Sebrae encontradas.
 
@@ -563,7 +563,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Startup Summit 2026](https://www.startupsummit.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [WOW Aceleradora: Aceleração de Startup e Investidores](https://www.wow.ac/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 
-## revisar_contexto: 841
+## revisar_contexto: 850
 
 - [Programa Desafía | España Digital 2026](http://espanadigital.gob.es/lineas-de-actuacion/programa-desafia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [BNDES Garagem - BNDES](http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1406,6 +1406,15 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Saiba mais](https://startup.google.com/intl/pt-BR_ALL/programs/black-founders-fund/brazil) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Tecnosinos Unitec](https://www.tecnosinos.com.br/programa-de-incubacao/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [aqui](https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [página de startups do Google Cloud](https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Voltar para Aceleradores](https://startup.google.com/intl/pt-BR/programs/accelerator) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Founder Institute Minas Gerais](https://fi.co/apply/belo) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Learn more here](https://fi.co/programtypes) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [View Full curriculum](https://fi.co/program/13543) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras](http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Agentic Program](https://fi.co/aifounder) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Program Reviews](https://fi.co/reviews) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Program Agreements](https://fi.co/agreements) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
 ## fora_escopo: 6
 

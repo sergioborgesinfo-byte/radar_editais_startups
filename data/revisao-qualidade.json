@@ -1,13 +1,13 @@
 {
-  "avaliado_em": "2026-10-03T23:19:49.181598+00:00",
-  "links_descobertos": 1398,
+  "avaliado_em": "2026-10-04T02:51:53.396232+00:00",
+  "links_descobertos": 1407,
   "paginas_examinadas": 561,
   "status": {
     "pendente_leitura": 255,
-    "confirmada_no_conteudo": 98,
-    "pendente_ia": 137,
+    "confirmada_no_conteudo": 100,
+    "pendente_ia": 134,
     "pendente_evidencia": 52,
-    "nao_confirmada_no_texto": 16,
+    "nao_confirmada_no_texto": 17,
     "fora_escopo": 3
   },
   "candidatos_prioritarios": 475,
@@ -21,5 +21,5 @@
   "avancar_vigencia": true,
   "justificativa": "Cada candidato confirmado segue para vigência; cobertura é métrica, não bloqueio global.",
   "falhas_controladas": "429 interrompe novas chamadas de IA no lote; candidatos e evidências são preservados",
-  "confirmadas_prontas_para_vigencia": 98
+  "confirmadas_prontas_para_vigencia": 100
 }

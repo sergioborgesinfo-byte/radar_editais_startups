@@ -1,12 +1,12 @@
 {
-  "executado_em": "2026-10-03T23:19:33.571703+00:00",
+  "executado_em": "2026-10-04T02:51:37.763277+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
-  "links_recebidos": 1399,
-  "paginas_agrupadas": 1398,
-  "duplicacoes_de_url": 1,
+  "links_recebidos": 1409,
+  "paginas_agrupadas": 1407,
+  "duplicacoes_de_url": 2,
   "contagem": {
     "prioridade_verificacao": 475,
-    "revisar_contexto": 841,
+    "revisar_contexto": 850,
     "fora_escopo": 6,
     "fonte_catalogo": 76
   },
@@ -7019,7 +7019,8 @@
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
-        "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil"
+        "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil",
+        "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -13990,6 +13991,96 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://www.tecnosinos.com.br/wp-content/uploads/2023/10/Programa-de-Incubacao_2023.pdf"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "página de startups do Google Cloud",
+      "url": "https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://cloud.google.com/startup/apply?hl=pt-BR&utm_source=google&utm_medium=cpc&utm_campaign=FY21-Q1-global-demandgen-website-cs-startup_program_mc&utm_content=rsa_bkws_GCP_long-form&gad_source=1&gad_campaignid=21126850059&gbraid=0AAAAApSNca_62IEPY7DJbI7dQdpMTcuk4&gclid=Cj0KCQjwotDBBhCQARIsAG5pinMsWQ2e1oy6WeEXfKEBc4FdXQK6iXt8NFUeSHHPpqFS4hUJDPZnC98aAuatEALw_wcB"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Voltar para Aceleradores",
+      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://startup.google.com/intl/pt-BR/programs/accelerator"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Founder Institute Minas Gerais",
+      "url": "https://fi.co/apply/belo",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/apply/belo"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Learn more here",
+      "url": "https://fi.co/programtypes",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/programtypes"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "View Full curriculum",
+      "url": "https://fi.co/program/13543",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/program/13543"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras",
+      "url": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/mulheresinovadoras"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Agentic Program",
+      "url": "https://fi.co/aifounder",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/aifounder"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Program Reviews",
+      "url": "https://fi.co/reviews",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/reviews"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Program Agreements",
+      "url": "https://fi.co/agreements",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fi.co/agreements"
       ],
       "vigencia": "nao_avaliada"
     }
