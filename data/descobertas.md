@@ -1,9 +1,9 @@
 ## Descoberta de oportunidades
 
-0/0 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1409 no histórico.
+0/0 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1422 no histórico.
 
 São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
-Busca pausada pelo limite do serviço até 2026-10-04T16:05:16.121571+00:00. Histórico preservado.
+Busca pausada pelo limite do serviço até 2026-10-05T02:16:20.053405+00:00. Histórico preservado.
 
 ## Candidatos (vigência não verificada)
 - Embraer Startup Program: http://embraer.com/corporate-innovation/embraer-startup-program/pt
@@ -200,11 +200,23 @@ Busca pausada pelo limite do serviço até 2026-10-04T16:05:16.121571+00:00. His
 - descrição do projeto: https://fap.df.gov.br/documents/10489263/39048189/Microsoft-Word-PLANO-DE-TRABALHO-STARTBSB-281024-159095315.pdf
 - Resultado Chamada Pública 03/2026: Novo Seed  | FAPEMIG: https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed
 - Chamadas e Editais - FAPEMIG: https://fapemig.br/oportunidades/chamadas-e-editais
+- Saiba Mais: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada
+- Saiba Mais: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada
 - CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao
 - CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-013-2026-pesquisador-na-empresa
+- Saiba Mais: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb
+- FAPEMIG — Chamadas: https://fapemig.br/pt/chamadas/
 - Pesquisas para a Inovação Tecnológica e Empreendedorismo - FAPERGS - Fundação de Amparo à pesquisa do Estado do RS: https://fapergs.rs.gov.br/60anos-pesquisas-inovacao
+- Licitações: https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022
+- Chamadas Internacionais: https://fapes.es.gov.br/chamadas-internacionais
+- Chamadas Públicas: https://fapes.es.gov.br/chamamento-publico
+- FAPES — Editais: https://fapes.es.gov.br/editais
+- Chamadas Internacionais: https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2
+- Carreira Científica: https://fapes.es.gov.br/edital-aberto-formação-científica
 - FAPES - Fundação de Amparo à Pesquisa e Inovação do Espírito Santo: https://fapes.es.gov.br/inovacao
+- Programas em Ação: https://fapes.es.gov.br/legislacao
 - Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc: https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas
+- FAPESC — Editais: https://fapesc.sc.gov.br/editais/
 - EDITAL DE CHAMADA PÚBLICA FAPESC N.º 03/2026 PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS VI EDIÇÃO SUPER PITCH DAY – Fapesc: https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-003-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-vi-edicao-super-pitch-day
 - EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição – Fapesc: https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao
 - InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc: https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups
@@ -825,6 +837,7 @@ Busca pausada pelo limite do serviço até 2026-10-04T16:05:16.121571+00:00. His
 - BRDE AUTOMATION PRIVATE LIMITED - 2026 Company Profile & Financials - Tracxn: https://tracxn.com/d/legal-entities/india/brde-automation-private-limited/__pOXTyB_SeYhsrMWoxHEIwYspRN4_Nf9AAF2pzkueFFA
 - Top Startups Founded by Pontifical Catholic University of Rio de Janeiro Alumni (Sep, 2026) - Tracxn: https://tracxn.com/d/startups-by-alumni/pontifical-catholic-university-of-rio-de-janeiro-alumni/__5bswMJIOdBJZBgxWt5exsTUCkTl1YZYuG6Dn6D7fgns
 - ACE Ventures - 2026 Investor Profile, Portfolio, Team & Investment Trends - Tracxn: https://tracxn.com/d/venture-capital/ace-ventures/__NBc6SZ1p0TCMabCsR-GSAWIBd6wt-fq_2TZEnISIyDA
+- Programas e Ações: https://transparencia.es.gov.br/Orcamento/PPA
 - Inovação Aberta com startups: desafios e oportunidades. - Troposlab: https://troposlab.com/inovacao-aberta-com-startups-desafios-e-oportunidades
 - Natura abre inscrições para aceleração de startups de beleza na América Latina: https://tvsimbrasil.com.br/negocios/natura-abre-inscricoes-para-aceleracao-de-startups-de-beleza-na-america-latina-1781162123
 - Divulgado edital com instruções para participação no Programa de Incubação Empresarial do CIEPB: https://uepb.edu.br/divulgado-edital-com-instrucoes-para-participacao-no-programa-de-incubacao-empresarial-do-ciepb
