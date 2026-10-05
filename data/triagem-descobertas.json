@@ -1,5 +1,5 @@
 {
-  "executado_em": "2026-10-04T22:59:33.746167+00:00",
+  "executado_em": "2026-10-05T01:45:52.236980+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
   "links_recebidos": 1422,
   "paginas_agrupadas": 1420,
@@ -1954,6 +1954,26 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Saiba Mais",
+      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Saiba Mais",
+      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação",
       "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao",
       "categoria": "prioridade_verificacao",
@@ -1974,12 +1994,92 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Saiba Mais",
+      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FAPEMIG — Chamadas",
+      "url": "https://fapemig.br/pt/chamadas/",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapemig.br/pt/chamadas/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Pesquisas para a Inovação Tecnológica e Empreendedorismo - FAPERGS - Fundação de Amparo à pesquisa do Estado do RS",
       "url": "https://fapergs.rs.gov.br/60anos-pesquisas-inovacao",
       "categoria": "revisar_contexto",
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://fapergs.rs.gov.br/60anos-pesquisas-inovacao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Licitações",
+      "url": "https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamadas Internacionais",
+      "url": "https://fapes.es.gov.br/chamadas-internacionais",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/chamadas-internacionais"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamadas Públicas",
+      "url": "https://fapes.es.gov.br/chamamento-publico",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/chamamento-publico"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FAPES — Editais",
+      "url": "https://fapes.es.gov.br/editais",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/editais"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamadas Internacionais",
+      "url": "https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Carreira Científica",
+      "url": "https://fapes.es.gov.br/edital-aberto-formação-científica",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/edital-aberto-formação-científica"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -1994,12 +2094,32 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Programas em Ação",
+      "url": "https://fapes.es.gov.br/legislacao",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapes.es.gov.br/legislacao"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc",
       "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
       "categoria": "prioridade_verificacao",
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FAPESC — Editais",
+      "url": "https://fapesc.sc.gov.br/editais/",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapesc.sc.gov.br/editais/"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -8195,6 +8315,16 @@
       "vigencia": "nao_avaliada"
     },
     {
+      "titulo": "Programas e Ações",
+      "url": "https://transparencia.es.gov.br/Orcamento/PPA",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://transparencia.es.gov.br/Orcamento/PPA"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
       "titulo": "Inovação Aberta com startups: desafios e oportunidades. - Troposlab",
       "url": "https://troposlab.com/inovacao-aberta-com-startups-desafios-e-oportunidades",
       "categoria": "prioridade_verificacao",
@@ -14081,136 +14211,6 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://x.com/Anprotec"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "FAPEMIG — Chamadas",
-      "url": "https://fapemig.br/pt/chamadas/",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
-      "links_equivalentes": [
-        "https://fapemig.br/pt/chamadas/"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Saiba Mais",
-      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Saiba Mais",
-      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Saiba Mais",
-      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "FAPESC — Editais",
-      "url": "https://fapesc.sc.gov.br/editais/",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fapesc.sc.gov.br/editais/"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "FAPES — Editais",
-      "url": "https://fapes.es.gov.br/editais",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fapes.es.gov.br/editais"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Licitações",
-      "url": "https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Chamadas Públicas",
-      "url": "https://fapes.es.gov.br/chamamento-publico",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
-      "links_equivalentes": [
-        "https://fapes.es.gov.br/chamamento-publico"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Carreira Científica",
-      "url": "https://fapes.es.gov.br/edital-aberto-formação-científica",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fapes.es.gov.br/edital-aberto-formação-científica"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Chamadas Internacionais",
-      "url": "https://fapes.es.gov.br/chamadas-internacionais",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
-      "links_equivalentes": [
-        "https://fapes.es.gov.br/chamadas-internacionais"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Chamadas Internacionais",
-      "url": "https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2",
-      "categoria": "prioridade_verificacao",
-      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
-      "links_equivalentes": [
-        "https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Programas em Ação",
-      "url": "https://fapes.es.gov.br/legislacao",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fapes.es.gov.br/legislacao"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Programas e Ações",
-      "url": "https://transparencia.es.gov.br/Orcamento/PPA",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://transparencia.es.gov.br/Orcamento/PPA"
       ],
       "vigencia": "nao_avaliada"
     }

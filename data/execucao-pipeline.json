@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-04T22:58:46.652029+00:00",
+  "iniciada_em": "2026-10-05T01:45:04.543718+00:00",
   "status": "falha_parcial",
   "etapas": [
     {
@@ -7,11 +7,11 @@
       "status": "concluida",
       "resultado": {
         "fontes_visitadas": 2,
-        "candidatos_novos": 8,
-        "falhas_leitura": 1,
+        "candidatos_novos": 0,
+        "falhas_leitura": 2,
         "chamadas_api_busca": 0
       },
-      "segundos": 47.0
+      "segundos": 47.6
     },
     {
       "nome": "triagem",
@@ -23,7 +23,7 @@
       "nome": "conteudo",
       "status": "falha",
       "tipo": "SystemExit",
-      "segundos": 63.7
+      "segundos": 51.0
     },
     {
       "nome": "fontes",
@@ -39,42 +39,43 @@
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 64.8
+      "segundos": 183.0
     }
   ],
   "casos_concluidos_nesta_rodada": 0,
   "concluidos_por_resultado": {},
   "casos_reabertos": 0,
-  "saldo_abertas": 0,
-  "finalizada_em": "2026-10-04T23:01:42.257480+00:00",
-  "houve_avanco": false,
-  "ultimo_avanco_em": "2026-10-04T10:12:25.604799+00:00",
+  "saldo_abertas": -1,
+  "finalizada_em": "2026-10-05T01:49:46.262036+00:00",
+  "houve_avanco": true,
+  "ultimo_avanco_em": "2026-10-05T01:49:46.262036+00:00",
   "ia": {
-    "chamadas": 1,
+    "chamadas": 2,
     "limite": 20,
     "por_etapa": {
-      "conteudo": 1
+      "conteudo": 1,
+      "vigencia": 1
     },
     "bloqueio": null
   },
   "contagem": {
     "conteudo": {
-      "pendente_leitura": 253,
-      "confirmada_no_conteudo": 104,
-      "pendente_ia": 159,
+      "pendente_leitura": 252,
+      "confirmada_no_conteudo": 105,
+      "pendente_ia": 158,
       "nao_confirmada_no_texto": 17,
-      "pendente_evidencia": 29,
+      "pendente_evidencia": 30,
       "fora_escopo": 3
     },
     "vigencia": {
-      "aberta_confirmada": 11,
-      "encerrada": 88,
-      "pendente_evidencia": 28,
+      "encerrada": 91,
+      "pendente_evidencia": 29,
+      "aberta_confirmada": 8,
       "pendente_acesso": 7,
       "pendente_fonte_oficial": 15,
       "fora_escopo": 3
     },
-    "abertas_publicadas": 8,
+    "abertas_publicadas": 7,
     "fila_inicial": {
       "total_inicial": 78,
       "resolvidas": 34,
@@ -89,5 +90,5 @@
       }
     }
   },
-  "motivo_sem_avanco": "aguardando_nova_evidencia_ou_proxima_tentativa"
+  "motivo_sem_avanco": null
 }

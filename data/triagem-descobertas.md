@@ -107,6 +107,10 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Chamadas e Editais - FAPEMIG](https://fapemig.br/oportunidades/chamadas-e-editais) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-013-2026-pesquisador-na-empresa) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [FAPEMIG — Chamadas](https://fapemig.br/pt/chamadas/) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamadas Internacionais](https://fapes.es.gov.br/chamadas-internacionais) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamadas Públicas](https://fapes.es.gov.br/chamamento-publico) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamadas Internacionais](https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc](https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [EDITAL DE CHAMADA PÚBLICA FAPESC N.º 03/2026 PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS VI EDIÇÃO SUPER PITCH DAY – Fapesc](https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-003-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-vi-edicao-super-pitch-day) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição – Fapesc](https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -483,10 +487,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Premio](https://www.zoominfo.com/c/premio/546807539) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [InHire - Software de Recrutamento e Seleção Employee Directory](https://www.zoominfo.com/pic/inhire---software-de-recrutamento-e-seleção/1326924840) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Potencia UP LATAM 2026 abre inscrições - 06/07/2026 - Folha Social+ - Folha](https://www1.folha.uol.com.br/folha-social-mais/2026/07/programa-de-aceleracao-abre-inscricoes-para-startups-da-america-latina.shtml) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [FAPEMIG — Chamadas](https://fapemig.br/pt/chamadas/) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamadas Públicas](https://fapes.es.gov.br/chamamento-publico) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamadas Internacionais](https://fapes.es.gov.br/chamadas-internacionais) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamadas Internacionais](https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 
 ## fonte_catalogo: 76
 
@@ -648,8 +648,16 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [EIT – inovação e tecnologia | União Europeia](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-institute-innovation-and-technology-eit_pt) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Porto Digital lança quatro programas para negócios em diferentes estágios | Exame](https://exame.com/negocios/porto-digital-abre-120-vagas-para-programas-de-inovacao-e-internacionalizacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [descrição do projeto](https://fap.df.gov.br/documents/10489263/39048189/Microsoft-Word-PLANO-DE-TRABALHO-STARTBSB-281024-159095315.pdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Pesquisas para a Inovação Tecnológica e Empreendedorismo - FAPERGS - Fundação de Amparo à pesquisa do Estado do RS](https://fapergs.rs.gov.br/60anos-pesquisas-inovacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Licitações](https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [FAPES — Editais](https://fapes.es.gov.br/editais) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Carreira Científica](https://fapes.es.gov.br/edital-aberto-formação-científica) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [FAPES - Fundação de Amparo à Pesquisa e Inovação do Espírito Santo](https://fapes.es.gov.br/inovacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Programas em Ação](https://fapes.es.gov.br/legislacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [FAPESC — Editais](https://fapesc.sc.gov.br/editais/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [PIPE | FAPESP](https://fapesp.br/pipe) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Vídeos PIPE | FAPESP](https://fapesp.br/pipe/videos) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Fapto - Notícia de 12/01/2026](https://fapto.org.br/Site/Noticia/Visualizar?uid=NjY5) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -992,6 +1000,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [BRDE AUTOMATION PRIVATE LIMITED - 2026 Company Profile & Financials - Tracxn](https://tracxn.com/d/legal-entities/india/brde-automation-private-limited/__pOXTyB_SeYhsrMWoxHEIwYspRN4_Nf9AAF2pzkueFFA) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Top Startups Founded by Pontifical Catholic University of Rio de Janeiro Alumni (Sep, 2026) - Tracxn](https://tracxn.com/d/startups-by-alumni/pontifical-catholic-university-of-rio-de-janeiro-alumni/__5bswMJIOdBJZBgxWt5exsTUCkTl1YZYuG6Dn6D7fgns) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [ACE Ventures - 2026 Investor Profile, Portfolio, Team & Investment Trends - Tracxn](https://tracxn.com/d/venture-capital/ace-ventures/__NBc6SZ1p0TCMabCsR-GSAWIBd6wt-fq_2TZEnISIyDA) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Programas e Ações](https://transparencia.es.gov.br/Orcamento/PPA) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Pró-Reitoria de Pesquisa e Inovação](https://ufpr.br/prpi/blog/2026/05/22/startups-vinculadas-ao-programa-de-incubacao-da-ufpr-aprovam-projetos-na-chamada-publica-do-programa-tecnova-iii-pr) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Pró-Reitoria de Pesquisa e Inovação](https://ufpr.br/prpi/edital-no-04-2026-prpi-nit-startup-garage-2026-edicao-curitiba-turma-2026-1) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Energy of Minas Gerais ADR Share Price | CIG Stock - Investing.com UK](https://uk.investing.com/equities/energetica-minas-gerais) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1419,15 +1428,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Cubo: Employee Directory | ZoomInfo.com](https://www.zoominfo.com/pic/cubo/431092358) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Gerdau e FIEMG Lab apresentam resultados do programa de inovação aberta | Gerdau Brasil](https://www2.gerdau.com.br/noticias/gerdau-e-fiemg-lab-apresentam-resultados-do-programa-de-inovacao-aberta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Anprotec (@Anprotec) / X](https://x.com/Anprotec) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [FAPESC — Editais](https://fapesc.sc.gov.br/editais/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [FAPES — Editais](https://fapes.es.gov.br/editais) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Licitações](https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Carreira Científica](https://fapes.es.gov.br/edital-aberto-formação-científica) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Programas em Ação](https://fapes.es.gov.br/legislacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Programas e Ações](https://transparencia.es.gov.br/Orcamento/PPA) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
 ## fora_escopo: 6
 

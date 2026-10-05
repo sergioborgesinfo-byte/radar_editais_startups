@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 253, 'confirmada_no_conteudo': 104, 'pendente_ia': 159, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 29, 'fora_escopo': 3}
+{'pendente_leitura': 252, 'confirmada_no_conteudo': 105, 'pendente_ia': 158, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 30, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -48,7 +48,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana — https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups
   - trecho_oportunidade: Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana
   - trecho_publico: Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana
-- pendente_ia: Programa de aceleração Citz.Tech — https://desafios.enap.gov.br/index.php/en/desafios/citz-tech
+- pendente_evidencia: Programa de aceleração Citz.Tech — https://desafios.enap.gov.br/index.php/en/desafios/citz-tech
 - pendente_ia: Concurso Desavexe 2026 | Inovação, Startups e Incubação — https://desavexe.org.br/concurso
 - confirmada_no_conteudo: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná — https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana
   - trecho_oportunidade: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná
@@ -138,7 +138,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: O programa de aceleração é direcionado a startups em early stage ou em tração, com validação de mercado e preferencialmente gerando receita com clientes em um modelo escalável.
 - pendente_ia: Batch #35 - Inscrição, WOW Aceleradora — https://www.wow.ac/inscricao
 - pendente_ia: CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação — https://alertaeditais.com.br/edital/chamada-fapemig-sede-032026-novo-seed:-aceler-recjw
-- pendente_ia: Incubadora de startups da bioeconomia amazônica é lançada no Pará | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para
+- pendente_evidencia: Oka Hub Incubadora da Floresta — https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para
 - confirmada_no_conteudo: Aceleração 2026: Inscrições Abertas para Startups do Norte — https://ecti.ac.gov.br/rascunho-automaticoprogramas-aceleracao-norte-cidades-inteligentes-lideranca-feminina
   - trecho_oportunidade: Aceleração 2026: Inscrições Abertas para Startups do Norte
   - trecho_publico: Aceleração 2026: Inscrições Abertas para Startups do Norte
@@ -230,7 +230,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: Você tem uma ideia inovadora, mas não sabe como transformá-la em um negócio real? Os programas de incubação são um caminho para empreendedores que buscam estruturar suas startups com maior chance de sucesso.
 - pendente_leitura: Junte-se aos Programas de Aceleração do Hub Conecta! — https://pt.linkedin.com/posts/junior-rodrigues-4028922b_fill-chamada-para-mentores-junte-se-aos-activity-7274793824713932800-I9Cg
 - nao_confirmada_no_texto: Edital 2026 - Prêmio Sebrae Startups | PDF | Empresa Startup | Microempresas e Empreendedores — https://pt.scribd.com/document/1020678887/Edital-2026-Premio-Sebrae-Startups
-- pendente_leitura: Vista de OPORTUNIDADES Y DESAFÍOS PARA STARTUPS FINTECH EN CHILE: UNA VISIÓN DESDE LA INNOVACIÓN FINANCIERA — https://revistas.uv.cl/index.php/IACE/article/view/5439/4863
+- pendente_ia: Vista de OPORTUNIDADES Y DESAFÍOS PARA STARTUPS FINTECH EN CHILE: UNA VISIÓN DESDE LA INNOVACIÓN FINANCIERA — https://revistas.uv.cl/index.php/IACE/article/view/5439/4863
 - confirmada_no_conteudo: Natura abre inscrições para desafio de inovação que vai acelerar startups de beleza na América Latina - Natura RI — https://ri.natura.com.br/noticias/natura-abre-inscricoes-para-desafio-de-inovacao-que-vai-acelerar-startups-de-beleza-na-america-latina
   - trecho_oportunidade: Natura abre inscrições para desafio de inovação que vai acelerar startups de beleza na América Latina - Natura RI
   - trecho_publico: Natura abre inscrições para desafio de inovação que vai acelerar startups de beleza na América Latina - Natura RI
@@ -532,7 +532,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Los desafíos que enfrentarán las startups en los próximos ... — https://www.instagram.com/reel/DUSqgcwDSLl
 - pendente_ia: RODADAS DE INVESTIMENTOS | GREEN RIO 2026 — https://programas.sebraestartups.com.br/in/1786393514323x887855479641897900
 - pendente_ia: Todos os direitos reservados © Sebrae Startups — https://programas.sebraestartups.com.br/in/apex-northstar2025
-- pendente_ia: FAPESP simplifica submissão de propostas ao PIPE — https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036
+- pendente_evidencia: FAPESP simplifica submissão de propostas ao PIPE — https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036
 - pendente_ia: Startups alcançam novos mercados por meio do programa de aceleração Startup Nordeste Piauí | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-alcancam-novos-mercados-por-meio-do-programa-de-aceleracao-startup-nordeste-piaui
 - nao_confirmada_no_texto: Startups comemoram aceleração após participação em programa do Sebrae — https://al.agenciasebrae.com.br/inovacao-e-tecnologia/startups-comemoram-aceleracao-apos-participacao-em-programa-do-sebrae
 - confirmada_no_conteudo: Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc — https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas
@@ -591,7 +591,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Programas para startups: mentoria e imersões | NewHack — https://newhack.vc/programas-para-startups
 - pendente_ia: Aceleração – Open Innovation Lab — https://openinnovationlab.org.br/aceleracao
 - pendente_leitura: Insights da Aula Inaugural de Pré-Incubação: Construindo ... — https://pt.linkedin.com/pulse/insights-da-aula-inaugural-de-pr%C3%A9-incuba%C3%A7%C3%A3o-startups-ol%C3%ADvia-vfaqf
-- pendente_evidencia: Desafio para startups abre oportunidade para projetos de inovação - Pequenas Empresas Grandes Negócios | Startups — https://revistapegn.globo.com/Startups/noticia/2018/06/petrobras-lanca-desafio-para-startups-e-abre-oportunidade-para-projetos-de-inovacao.html
+- confirmada_no_conteudo: Desafio para startups abre oportunidade para projetos de inovação - Pequenas Empresas Grandes Negócios | Startups — https://revistapegn.globo.com/Startups/noticia/2018/06/petrobras-lanca-desafio-para-startups-e-abre-oportunidade-para-projetos-de-inovacao.html
+  - trecho_oportunidade: A partir do próximo dia 19, estarão abertas as inscrições para o “Desafio de Startups Petrobras Distribuidora” , uma seleção pública de empresas em estágio inicial que apresentem soluções inovadoras para os segmentos de atuação da companhia, a partir de três vertentes: Mobilidade para Pessoas, Mobilidade para Negócios e Sustentabilidade.
+  - trecho_publico: A partir do próximo dia 19, estarão abertas as inscrições para o “Desafio de Startups Petrobras Distribuidora” , uma seleção pública de empresas em estágio inicial que apresentem soluções inovadoras para os segmentos de atuação da companhia, a partir de três vertentes: Mobilidade para Pessoas, Mobilidade para Negócios e Sustentabilidade.
 - pendente_leitura: Desafios e oportunidades LinkLab — https://sc.acate.com.br/linklab-todos-desafios-abertos
 - pendente_leitura: Biotic seleciona startups para programa de ativação e aceleração no DF - SINFOR/DF — https://sinfor.org.br/biotic-seleciona-startups-programa-ativacao-multiplicidades-df
 - pendente_leitura: BlackRocks abre inscrições para nova turma da aceleração Grow Startups - Startups — https://startups.com.br/negocios/blackrocks-abre-inscricoes-para-nova-turma-da-aceleracao-grow-startups
@@ -715,7 +717,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Missão Web Summit Lisboa 2026 — https://jornalonlinealagoas.com/noticia/84078/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026
   - trecho_oportunidade: A Invest.Rio, agência de atração e promoção de investimentos da cidade, e o Maravalley lançaram o edital para seleção das dez startups cariocas que irão integrar a Missão Lisboa 2026, que acontece entre os dias 8 e 12 de novembro, em Lisboa.
   - trecho_publico: Startups cariocas interessadas em ampliar sua presença internacional e construir conexões com o mercado europeu poderão integrar a delegação do Rio de Janeiro no Web Summit Lisboa 2026.
-- pendente_evidencia: Desafios de negócios inovabra hub: oportunidade de negócio busca solução de projeção de balanços e DRE — https://redeinovacao.floripa.br/desafios-de-negocios-inovabra-hub-oportunidade-de-negocio-busca-solucao-de-projecao-de-balancos-e-dre
+- pendente_ia: Desafios de negócios inovabra hub: oportunidade de negócio busca solução de projeção de balanços e DRE - Rede de Inovação Florianópolis — https://redeinovacao.floripa.br/desafios-de-negocios-inovabra-hub-oportunidade-de-negocio-busca-solucao-de-projecao-de-balancos-e-dre
 - confirmada_no_conteudo: BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi — https://startupi.com.br/bndes-garagem-abre-inscricoes
   - trecho_oportunidade: BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi
   - trecho_publico: BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi

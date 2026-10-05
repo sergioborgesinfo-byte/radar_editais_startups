@@ -1,41 +1,31 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-04T20:01:42.209657-03:00",
+  "atualizado_em": "2026-10-04T22:49:46.209049-03:00",
   "leitura_navegador": {
     "tentativas": 4,
-    "sucessos": 1,
-    "falhas": 3
+    "sucessos": 0,
+    "falhas": 4
   },
   "ia": {
-    "chamadas": 0,
+    "chamadas": 1,
     "falhas_temporarias": [],
     "limite": 20,
-    "parada": null,
-    "pendencias_restantes": 50,
-    "casos_com_tentativa_ia": 70,
+    "parada": "gemini_http_400",
+    "pendencias_restantes": 51,
+    "casos_com_tentativa_ia": 48,
     "resolvidas_automaticamente": 98,
     "revisoes_manuais": 1
   },
   "itens": [
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
-      "status": "aberta_confirmada",
-      "titulo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
-      "instituicao": "Sebrae Startups",
-      "tipo": "Manifestação de interesse",
-      "estagio": "Qualquer",
-      "descricao": "A Mercopar é uma feira de inovação industrial que visa promover a integração entre diferentes setores da economia, facilitando o networking, parcerias e a geração de negócios. A participação no evento proporciona uma oportunidade única de visibilidade, networking e potencial para parcerias e investimentos.",
-      "requisitos": "Regulamento geral completo: [url=https://drive.google.com/file/d/1wUWzzV-tLK7gRi7v9qR0sa0B8Ip65WCX/view?usp=sharing][b][color=#00ffff]Acesse aqui[/color][/b][/url]\n\nÉ obrigatória a leitura e aceite de todos os termos contidos no regulamento geral, o mesmo apresenta todas as informações necessárias sobre, Critérios de Seleção, Investimentos, prazos, infraestrutura e demais fatos relevantes para uma participação adequada na MERCOPAR 2026.\n\nAlém dos itens mencionados no regulamento, para as startups selecionadas no estado do Rio Grande do sul, o SEBRAERS estará oferecendo uma preparação comercial e acompanhamento dos resultados atingidos, o qual a participação é obrigatória.  \n\nSe mesmo assim restarem dúvidas, enviar para:[size=3][font=\"Times New Roman\", serif]startuprs@sebraers.com.br[/font][/size]\n",
-      "prazo": "2026-10-02",
+      "status": "encerrada",
       "prazo_iso": "2026-10-02T23:59:59-03:00",
-      "inicio_iso": "2026-07-22T00:00:00-03:00",
-      "evidencia_edicao": "2026",
-      "evidencia_publico": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
       "evidencia_prazo": "data_final_date=1790996399000",
-      "modalidade_inscricao": "manifestacao_de_interesse",
+      "titulo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.032888-03:00"
+      "verificado_em": "2026-10-04T22:46:43.495548-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/1773155744320x304125193997948540",
@@ -53,12 +43,12 @@
       "titulo": "Movimenta Sebrae",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.057144-03:00",
-      "ia_tentada_em": "2026-10-04T15:30:02.036105-03:00",
+      "verificado_em": "2026-10-04T22:46:43.695354-03:00",
+      "ia_tentada_em": "2026-10-04T22:48:56.298378-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
       "ia_fonte": "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "sem_documentos"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/1776264699513x196992201218308300",
@@ -141,7 +131,7 @@
       "modalidade_inscricao": "cadastro_de_interesse",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.047244-03:00"
+      "verificado_em": "2026-10-04T22:46:43.512665-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/1784324907689x991447417353928700",
@@ -262,23 +252,13 @@
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/developers-ciclo-2026-1709557563419x256074552006410240",
-      "status": "aberta_confirmada",
-      "titulo": "Developers Ciclo 2026",
-      "instituicao": "Sebrae Startups",
-      "tipo": "Seleção",
-      "estagio": "Qualquer",
-      "descricao": "O Programa Developers é uma iniciativa desenvolvida no âmbito da Política de Inovação do Sistema Sebrae. Esta Política tem como objeto a promoção da inovação para o desenvolvimento sustentável do país.\nO Developers promove a Aceleração de Gametechs e Estúdios de jogos com modelo de negócio inovador e a capacitação de empreendedores, trabalhando desde a ideação à operação de negócios inovadores com o objetivo de acesso ao mercado de forma rápida e consistente.\n",
-      "requisitos": "O Programa Developers tem como objetivo principal fomentar o Ecossistema de Inovação no Estado do Ceará, capacitar empreendedores para colocarem suas ideias de negócios inovadoras em jogos no mercado de forma rápida e consistente. Para isso, serão selecionadas até 30 (trinta) gametechs ou estúdios de jogos com modelo de negócio inovador em desenvolvimento nas fases de construção, crescimento ou consolidação.\n\n[b]São consideradas elegíveis inscrições de projetos já formalizados ou não (pessoas físicas e jurídicas) do Estado do Ceará:\n[/b]\n[b]a. Em caso de proponente com empresa constituída:[/b]\ni. Seja pessoa jurídica que se enquadre na definição de startups do presente edital e sediada (possuir sede ou filial) no estado do Ceará;\nii. Se enquadre no porte de micro ou pequena empresa (faturamento de até R$ 4.800.000,00 anual).\n\n[b]b. Em caso proponente sem empresa constituída:[/b]\ni. Seja pessoa física responsável pelo projeto e integrante do time;\nii. Tenha idade mínima de dezoito anos;\niii. Seja residente no estado do Ceará.\n\nc. que os representantes sejam brasileiros, natos ou naturalizados, e/ou estrangeiros em condição de permanecer no Brasil pelo período de participação no programa;\nd. que cada representante pertença apenas a um único projeto inscrito;\ne. É desejável que os times tenham empreendedores multidisciplinares (gestão, vendas, comercial, programação e desenvolvimento).\nf. Os times dos projetos aqui tratados deverão estar dispostos a participar do programa que acontecerá de maneira híbrida, online e presencial, em conformidade com o determinado no presente Regulamento e seus Anexos.\ng. Ao submeter os projetos, os times assumem o compromisso de manterem, durante a participação no programa, todos os requisitos estabelecidos nesta seção, preservando atualizados os seus dados cadastrais junto aos registros competentes.",
-      "prazo": "2026-10-02",
+      "status": "encerrada",
       "prazo_iso": "2026-10-02T23:59:59-03:00",
-      "inicio_iso": "2026-08-03T00:00:00-03:00",
-      "evidencia_edicao": "2026",
-      "evidencia_publico": "O Developers promove a Aceleração de Gametechs e Estúdios de jogos com modelo de negócio inovador e a capacitação de empreendedores, trabalhando desde a ideação à operação de negócios inovadores com o objetivo de acesso ao mercado de forma rápida e consistente.",
       "evidencia_prazo": "data_final_date=1790996399000",
-      "modalidade_inscricao": "selecao",
+      "titulo": "Developers Ciclo 2026 - Sebrae Startups",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.045180-03:00"
+      "verificado_em": "2026-10-04T22:46:43.758470-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/ecommerce",
@@ -325,7 +305,7 @@
       "modalidade_inscricao": "selecao",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.450496-03:00"
+      "verificado_em": "2026-10-04T22:46:43.772991-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/fintech-world-cup",
@@ -365,23 +345,13 @@
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/mercopar2026",
-      "status": "aberta_confirmada",
-      "titulo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
-      "instituicao": "Sebrae Startups",
-      "tipo": "Manifestação de interesse",
-      "estagio": "Qualquer",
-      "descricao": "A Mercopar é uma feira de inovação industrial que visa promover a integração entre diferentes setores da economia, facilitando o networking, parcerias e a geração de negócios. A participação no evento proporciona uma oportunidade única de visibilidade, networking e potencial para parcerias e investimentos.",
-      "requisitos": "Regulamento geral completo: [url=https://drive.google.com/file/d/1wUWzzV-tLK7gRi7v9qR0sa0B8Ip65WCX/view?usp=sharing][b][color=#00ffff]Acesse aqui[/color][/b][/url]\n\nÉ obrigatória a leitura e aceite de todos os termos contidos no regulamento geral, o mesmo apresenta todas as informações necessárias sobre, Critérios de Seleção, Investimentos, prazos, infraestrutura e demais fatos relevantes para uma participação adequada na MERCOPAR 2026.\n\nAlém dos itens mencionados no regulamento, para as startups selecionadas no estado do Rio Grande do sul, o SEBRAERS estará oferecendo uma preparação comercial e acompanhamento dos resultados atingidos, o qual a participação é obrigatória.  \n\nSe mesmo assim restarem dúvidas, enviar para:[size=3][font=\"Times New Roman\", serif]startuprs@sebraers.com.br[/font][/size]\n",
-      "prazo": "2026-10-02",
+      "status": "encerrada",
       "prazo_iso": "2026-10-02T23:59:59-03:00",
-      "inicio_iso": "2026-07-22T00:00:00-03:00",
-      "evidencia_edicao": "2026",
-      "evidencia_publico": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
       "evidencia_prazo": "data_final_date=1790996399000",
-      "modalidade_inscricao": "manifestacao_de_interesse",
+      "titulo": "Startups do RS e demais estados na Mercopar 2026 ...",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.380458-03:00"
+      "verificado_em": "2026-10-04T22:46:43.929428-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/midihub2026",
@@ -507,12 +477,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T20:00:37.817869-03:00",
-      "ia_tentada_em": "2026-10-04T20:01:30.499372-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://programas.sebraestartups.com.br/in/switch2025",
-      "ia_proxima_tentativa": "2026-10-05T02:00:37.491491-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-04T22:46:44.015986-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -542,12 +507,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.108644-03:00",
-      "ia_tentada_em": "2026-10-04T15:29:38.255316-03:00",
+      "verificado_em": "2026-10-04T22:46:46.035664-03:00",
+      "ia_tentada_em": "2026-10-04T22:48:41.867726-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "ano_nao_comprovado",
       "ia_fonte": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://agifes.ifes.edu.br/ifes-abre-inscricoes-para-programa-nacional-de-pre-incubacao-de-ideias-inovadoras",
@@ -601,12 +566,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.290396-03:00",
-      "ia_tentada_em": "2026-10-04T15:29:44.526727-03:00",
+      "verificado_em": "2026-10-04T22:46:46.514409-03:00",
+      "ia_tentada_em": "2026-10-04T22:48:50.105585-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "citacao_ou_identidade_invalida",
       "ia_fonte": "https://cloud.google.com/startup/benefits?hl=pt-BR",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed",
@@ -627,12 +592,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:32.686073-03:00",
-      "ia_tentada_em": "2026-10-04T15:29:52.154030-03:00",
+      "verificado_em": "2026-10-04T22:46:50.832891-03:00",
+      "ia_tentada_em": "2026-10-04T22:48:50.871942-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_convite",
       "ia_fonte": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
@@ -743,12 +708,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.539687-03:00",
-      "ia_tentada_em": "2026-10-04T15:30:42.982961-03:00",
+      "verificado_em": "2026-10-04T22:46:53.282373-03:00",
+      "ia_tentada_em": "2026-10-04T22:49:14.322307-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_convite",
       "ia_fonte": "https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores",
@@ -901,11 +866,11 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T20:00:37.643689-03:00",
-      "ia_tentada_em": "2026-10-04T20:01:00.631972-03:00",
+      "verificado_em": "2026-10-04T22:46:54.049758-03:00",
+      "ia_tentada_em": "2026-10-04T22:49:29.520667-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://sementenegocios.com.br/sebraeinovacaoaberta/solucoes/",
-      "ia_proxima_tentativa": "2026-10-05T02:00:37.491491-03:00",
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
       "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
@@ -929,7 +894,7 @@
       "sem_data_final": false,
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.422656-03:00"
+      "verificado_em": "2026-10-04T22:46:48.118452-03:00"
     },
     {
       "url": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
@@ -938,12 +903,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.488097-03:00",
-      "ia_tentada_em": "2026-10-04T15:29:56.106165-03:00",
+      "verificado_em": "2026-10-04T22:46:50.017988-03:00",
+      "ia_tentada_em": "2026-10-04T22:48:50.920483-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "ano_nao_comprovado",
       "ia_fonte": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993",
@@ -952,12 +917,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.504079-03:00",
-      "ia_tentada_em": "2026-10-04T15:29:59.526504-03:00",
+      "verificado_em": "2026-10-04T22:46:50.318974-03:00",
+      "ia_tentada_em": "2026-10-04T22:48:53.971568-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "convite_atual_nao_comprovado",
       "ia_fonte": "https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "convite_atual_nao_comprovado"
     },
     {
       "url": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
@@ -966,12 +931,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.604762-03:00",
-      "ia_tentada_em": "2026-10-04T15:30:49.921068-03:00",
+      "verificado_em": "2026-10-04T22:46:54.366863-03:00",
+      "ia_tentada_em": "2026-10-04T22:49:17.343228-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "citacao_ou_identidade_invalida",
       "ia_fonte": "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "citacao_ou_identidade_invalida"
     },
     {
       "url": "https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed",
@@ -1010,12 +975,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.633813-03:00",
-      "ia_tentada_em": "2026-10-04T15:30:53.347671-03:00",
+      "verificado_em": "2026-10-04T22:46:53.899053-03:00",
+      "ia_tentada_em": "2026-10-04T22:49:17.389434-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "encerramento_nao_comprovado",
       "ia_fonte": "https://pesquisaparainovacao.fapesp.br/fiemg_lab_abre_inscricoes_para_sua_primeira_jornada_de_aceleracao/90",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "encerramento_nao_comprovado"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/natura_innovation_challenge_seleciona_startups_com_solucoes_para_compensacao_de_carbono/3072",
@@ -1025,8 +990,8 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-04T20:00:51.001723-03:00",
-      "ia_tentada_em": "2026-10-04T20:00:51.001619-03:00",
+      "verificado_em": "2026-10-04T22:49:20.170057-03:00",
+      "ia_tentada_em": "2026-10-04T22:49:20.170031-03:00",
       "ia_metodo": "gemini-v8"
     },
     {
@@ -1059,12 +1024,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.950108-03:00",
-      "ia_tentada_em": "2026-10-04T15:31:06.816081-03:00",
+      "verificado_em": "2026-10-04T22:46:59.755605-03:00",
+      "ia_tentada_em": "2026-10-04T22:49:36.439284-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "ano_nao_comprovado",
       "ia_fonte": "https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "ano_nao_comprovado"
     },
     {
       "url": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
@@ -1073,12 +1038,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:32.044052-03:00",
-      "ia_tentada_em": "2026-10-04T15:31:12.806630-03:00",
+      "verificado_em": "2026-10-04T22:46:58.643756-03:00",
+      "ia_tentada_em": "2026-10-04T22:49:36.525093-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_convite",
       "ia_fonte": "https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao",
@@ -1099,11 +1064,11 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:32.159570-03:00",
+      "verificado_em": "2026-10-04T22:47:00.418171-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "gemini_http_400",
       "ia_fonte": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "gemini_http_400"
     },
     {
       "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
@@ -1112,12 +1077,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T20:00:41.491355-03:00",
-      "ia_tentada_em": "2026-10-04T20:01:27.835511-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://www.feevale.br/acontece/noticias/startups-ganham-mais-prazo-para-se-inscreverem-no-brde-labs",
-      "ia_proxima_tentativa": "2026-10-05T02:00:37.491491-03:00",
-      "motivo_ia": "sem_convite"
+      "verificado_em": "2026-10-04T22:47:02.590933-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1139,7 +1099,7 @@
       "sem_data_final": false,
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:32.402753-03:00"
+      "verificado_em": "2026-10-04T22:47:02.060478-03:00"
     },
     {
       "url": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
@@ -1148,12 +1108,7 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:32.483163-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:45.966527-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "encerramento_nao_comprovado",
-      "ia_fonte": "https://www.suzano.com.br/noticia/suzano-lanca-programa-de-mentoria-de-startups",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:02.761731-03:00"
     },
     {
       "url": "https://alertaeditais.com.br/edital/aceleracao-para-internacionalizacao-de-negoci-ygpzg",
@@ -1174,12 +1129,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T20:00:37.784389-03:00",
-      "ia_tentada_em": "2026-10-04T20:01:32.758319-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://prosas.com.br/editais/16756-1o-edital-para-o-programa-de-inovacao-aberta-do-hub-rio-ia-2026?subdominio=prosas",
-      "ia_proxima_tentativa": "2026-10-05T02:00:37.491491-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-04T22:47:02.060757-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1188,12 +1138,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T20:00:40.524774-03:00",
-      "ia_tentada_em": "2026-10-04T20:01:35.350980-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://www.randoncorp.com/pt/blog/rv-abre-inscri%C3%A7%C3%B5es-para-a-nova-turma-de-acelera%C3%A7%C3%A3o-de-startups/",
-      "ia_proxima_tentativa": "2026-10-05T02:00:37.491491-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-04T22:47:04.725971-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1219,12 +1164,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:32.875546-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:50.871553-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:05.691992-03:00"
     },
     {
       "url": "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml",
@@ -1288,12 +1228,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T20:00:41.943647-03:00",
-      "ia_tentada_em": "2026-10-04T20:01:35.358884-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital",
-      "ia_proxima_tentativa": "2026-10-05T02:00:37.491491-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-04T22:47:06.394997-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1302,12 +1237,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:33.411016-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:55.659656-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:06.939303-03:00"
     },
     {
       "url": "https://portalradarenergia.com.br/noticias/cnen-abre-chamada-para-programa-granioter-acelera-2026-em-nanotecnologia-e-mater-1f5df243",
@@ -1332,12 +1262,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T20:00:44.738279-03:00",
-      "ia_tentada_em": "2026-10-04T20:01:35.399506-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://prpi.ufg.br/p/empreendedorismo-e-inovacao",
-      "ia_proxima_tentativa": "2026-10-05T02:00:37.491491-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-04T22:47:09.014941-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1355,12 +1280,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:33.720948-03:00",
-      "ia_tentada_em": "2026-10-04T15:48:58.995926-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://sna.agr.br/embrapa-e-venture-hub-selecionam-startups-em-programa-de-aceleracao",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:08.379866-03:00"
     },
     {
       "url": "https://alertaeditais.com.br/edital/edital-012026-e-goias-transformacao-digital-d-4t8fn",
@@ -1369,12 +1289,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:33.743840-03:00",
-      "ia_tentada_em": "2026-10-04T15:49:01.912295-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://alertaeditais.com.br/edital/edital-012026-e-goias-transformacao-digital-d-4t8fn",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:08.579327-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
@@ -1397,12 +1312,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:33.990410-03:00",
-      "ia_tentada_em": "2026-10-04T15:49:07.232898-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:12.302190-03:00"
     },
     {
       "url": "https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups",
@@ -1420,12 +1330,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:34.040000-03:00",
-      "ia_tentada_em": "2026-10-04T15:49:12.323316-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://startupi.com.br/facebook-e-baita-abrem-inscricoes-para-segunda-edicao-do-programa-de-aceleracao-de-startups",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:13.402636-03:00"
     },
     {
       "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
@@ -1434,19 +1339,14 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:34.067266-03:00",
-      "ia_tentada_em": "2026-10-04T15:49:17.969045-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:13.853510-03:00"
     },
     {
       "url": "https://cedeprogram.com/startupventure",
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-04T20:00:37.491491-03:00"
+      "verificado_em": "2026-10-04T22:46:43.214140-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1472,12 +1372,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T20:00:44.675436-03:00",
-      "ia_tentada_em": "2026-10-04T20:01:39.628900-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://garagem.bndes.gov.br/",
-      "ia_proxima_tentativa": "2026-10-05T02:00:37.491491-03:00",
-      "motivo_ia": "citacao_ou_identidade_invalida"
+      "verificado_em": "2026-10-04T22:47:14.213895-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1498,12 +1393,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:34.445867-03:00",
-      "ia_tentada_em": "2026-10-04T15:50:46.536995-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:48:41.795110-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/miss%C3%A3o-empresarial-web-summit-lisboa-2026---piau%C3%AD-1783345324060x916741265089269500",
@@ -1530,12 +1420,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:31.584020-03:00",
-      "ia_tentada_em": "2026-10-04T15:30:38.226452-03:00",
+      "verificado_em": "2026-10-04T22:47:02.108535-03:00",
+      "ia_tentada_em": "2026-10-04T22:49:14.274339-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_convite",
       "ia_fonte": "https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia",
-      "ia_proxima_tentativa": "2026-10-04T21:27:30.274822-03:00"
+      "ia_proxima_tentativa": "2026-10-05T04:46:43.214140-03:00",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-prorroga-inscricoes-para-o-maior-programa-de-aceleracao-de-startups-da-america-latina",
@@ -1578,12 +1468,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:34.455515-03:00",
-      "ia_tentada_em": "2026-10-04T15:50:50.309065-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://senaimt.ind.br/para-industria/1901/pre-aceleracao-startup",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:17.817235-03:00"
     },
     {
       "url": "https://alertaeditais.com.br/edital/south-summit-brazil-2026-exposicao-de-startup-w083r",
@@ -1603,12 +1488,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:34.495749-03:00",
-      "ia_tentada_em": "2026-10-04T15:50:53.119049-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://exame.com/pme/programas-de-aceleracao-para-startups",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:16.707782-03:00"
     },
     {
       "url": "https://jornaldebrasilia.com.br/brasilia/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
@@ -1617,12 +1497,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:34.525457-03:00",
-      "ia_tentada_em": "2026-10-04T15:50:56.646218-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://jornaldebrasilia.com.br/brasilia/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:20.091104-03:00"
     },
     {
       "url": "https://jornalonlinealagoas.com/noticia/84078/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026",
@@ -1631,12 +1506,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-04T20:00:42.025583-03:00",
-      "ia_tentada_em": "2026-10-04T20:01:39.628988-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
-      "ia_proxima_tentativa": "2026-10-05T02:00:37.491491-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-04T22:47:17.105400-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1660,19 +1530,14 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:34.623068-03:00",
-      "ia_tentada_em": "2026-10-04T15:51:03.356334-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://startupmadeira.eu/2024/03/27/manifestacao-de-interesse-sim-conference",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:30.079776-03:00"
     },
     {
       "url": "https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows",
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-04T20:00:37.491491-03:00"
+      "verificado_em": "2026-10-04T22:46:43.214140-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1681,12 +1546,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-02T21:10:34.690169-03:00",
-      "ia_tentada_em": "2026-10-04T15:51:08.738848-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
-      "ia_proxima_tentativa": "2026-10-04T21:47:51.946722-03:00"
+      "verificado_em": "2026-10-04T22:47:22.892958-03:00"
     },
     {
       "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-abre-2-edicao-com-11-teses-e-foco-no-ciclo-rumo-a-los-angeles-2028",
@@ -1787,7 +1647,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-04T20:00:37.491491-03:00"
+      "verificado_em": "2026-10-04T22:46:43.214140-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
@@ -1892,6 +1752,18 @@
       "ia_fonte": "https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre",
       "ia_proxima_tentativa": "2026-10-05T02:00:37.491491-03:00",
       "motivo_ia": "citacao_ou_identidade_invalida"
+    },
+    {
+      "url": "https://revistapegn.globo.com/Startups/noticia/2018/06/petrobras-lanca-desafio-para-startups-e-abre-oportunidade-para-projetos-de-inovacao.html",
+      "titulo": "Desafio para startups abre oportunidade para projetos de inovação - Pequenas Empresas Grandes Negócios | Startups",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado",
+      "fontes_consultadas": [
+        "https://pesquisaparainovacao.fapesp.br/embrapii_oferece_oportunidade_de_cooperacao_internacional_para_pequenas_empresas_e_startups/2086"
+      ],
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-10-04T22:47:15.393893-03:00"
     }
   ],
   "fila_prioritaria": {

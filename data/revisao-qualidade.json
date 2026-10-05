@@ -1,19 +1,19 @@
 {
-  "avaliado_em": "2026-10-04T23:00:37.488482+00:00",
+  "avaliado_em": "2026-10-05T01:46:43.210847+00:00",
   "links_descobertos": 1420,
   "paginas_examinadas": 565,
   "status": {
-    "pendente_leitura": 253,
-    "confirmada_no_conteudo": 104,
-    "pendente_ia": 159,
+    "pendente_leitura": 252,
+    "confirmada_no_conteudo": 105,
+    "pendente_ia": 158,
     "nao_confirmada_no_texto": 17,
-    "pendente_evidencia": 29,
+    "pendente_evidencia": 30,
     "fora_escopo": 3
   },
   "candidatos_prioritarios": 479,
   "prioritarios_examinados": 479,
   "cobertura_prioritaria": 1.0,
-  "dominios_confirmados": 69,
+  "dominios_confirmados": 70,
   "caso_mercopar": {
     "status": "confirmada_no_conteudo"
   },
@@ -21,5 +21,5 @@
   "avancar_vigencia": true,
   "justificativa": "Cada candidato confirmado segue para vigência; cobertura é métrica, não bloqueio global.",
   "falhas_controladas": "429 interrompe novas chamadas de IA no lote; candidatos e evidências são preservados",
-  "confirmadas_prontas_para_vigencia": 104
+  "confirmadas_prontas_para_vigencia": 105
 }
