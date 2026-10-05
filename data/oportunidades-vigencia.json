@@ -1,18 +1,18 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-05T04:49:09.536019-03:00",
+  "atualizado_em": "2026-10-05T11:02:25.392337-03:00",
   "leitura_navegador": {
-    "tentativas": 5,
-    "sucessos": 1,
-    "falhas": 4
+    "tentativas": 1,
+    "sucessos": 0,
+    "falhas": 1
   },
   "ia": {
-    "chamadas": 0,
+    "chamadas": 1,
     "falhas_temporarias": [],
     "limite": 20,
-    "parada": null,
+    "parada": "gemini_http_400",
     "pendencias_restantes": 52,
-    "casos_com_tentativa_ia": 71,
+    "casos_com_tentativa_ia": 60,
     "resolvidas_automaticamente": 98,
     "revisoes_manuais": 1
   },
@@ -477,12 +477,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T04:44:37.893856-03:00",
-      "ia_tentada_em": "2026-10-05T04:45:30.974983-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://programas.sebraestartups.com.br/in/switch2025",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-05T11:02:07.703878-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -833,12 +828,11 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T07:43:57.174066-03:00",
-      "ia_tentada_em": "2026-10-05T04:48:43.703185-03:00",
+      "verificado_em": "2026-10-05T11:02:09.604257-03:00",
       "ia_metodo": "gemini-v8",
-      "motivo_ia": "ano_nao_comprovado",
       "ia_fonte": "https://agenciasebrae.com.br/inovacao-e-tecnologia/selecao-disponibiliza-r-300-milhoes-para-investimento-em-startups-do-norte-nordeste-e-centro-oeste",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00"
+      "ia_proxima_tentativa": "2026-10-05T17:02:07.335520-03:00",
+      "motivo_ia": "gemini_http_400"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
@@ -847,12 +841,7 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T07:43:57.299760-03:00",
-      "ia_tentada_em": "2026-10-05T04:48:48.143984-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "ano_nao_comprovado",
-      "ia_fonte": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00"
+      "verificado_em": "2026-10-05T11:02:09.721532-03:00"
     },
     {
       "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
@@ -871,12 +860,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T04:44:37.723831-03:00",
-      "ia_tentada_em": "2026-10-05T04:45:01.073901-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://sementenegocios.com.br/sebraeinovacaoaberta/solucoes/",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00",
-      "motivo_ia": "citacao_ou_identidade_invalida"
+      "verificado_em": "2026-10-05T11:02:07.947612-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -995,8 +979,8 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-05T04:44:51.546891-03:00",
-      "ia_tentada_em": "2026-10-05T04:44:51.546789-03:00",
+      "verificado_em": "2026-10-05T11:02:22.286856-03:00",
+      "ia_tentada_em": "2026-10-05T11:02:22.286779-03:00",
       "ia_metodo": "gemini-v8"
     },
     {
@@ -1082,12 +1066,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T04:44:41.680910-03:00",
-      "ia_tentada_em": "2026-10-05T04:45:28.389076-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://www.feevale.br/acontece/noticias/startups-ganham-mais-prazo-para-se-inscreverem-no-brde-labs",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00",
-      "motivo_ia": "sem_convite"
+      "verificado_em": "2026-10-05T11:02:12.080672-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1144,12 +1123,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T04:44:38.022821-03:00",
-      "ia_tentada_em": "2026-10-05T04:45:33.717046-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://prosas.com.br/editais/16756-1o-edital-para-o-programa-de-inovacao-aberta-do-hub-rio-ia-2026?subdominio=prosas",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-05T11:02:09.868574-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1158,12 +1132,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T04:44:40.759403-03:00",
-      "ia_tentada_em": "2026-10-05T04:45:36.475833-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://www.randoncorp.com/pt/blog/rv-abre-inscri%C3%A7%C3%B5es-para-a-nova-turma-de-acelera%C3%A7%C3%A3o-de-startups/",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-05T11:02:12.498810-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1258,12 +1227,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T04:44:44.928346-03:00",
-      "ia_tentada_em": "2026-10-05T04:45:36.482427-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-05T11:02:13.996258-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1302,12 +1266,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T04:44:45.627344-03:00",
-      "ia_tentada_em": "2026-10-05T04:45:36.518478-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://prpi.ufg.br/p/empreendedorismo-e-inovacao",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-05T11:02:15.697061-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1416,7 +1375,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-05T04:44:37.571162-03:00"
+      "verificado_em": "2026-10-05T11:02:07.335520-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1442,12 +1401,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T04:44:45.620707-03:00",
-      "ia_tentada_em": "2026-10-05T04:45:40.750199-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://garagem.bndes.gov.br/",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00",
-      "motivo_ia": "citacao_ou_identidade_invalida"
+      "verificado_em": "2026-10-05T11:02:15.870708-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1601,12 +1555,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T04:44:45.147897-03:00",
-      "ia_tentada_em": "2026-10-05T04:47:18.266623-03:00",
-      "ia_metodo": "gemini-v8",
-      "ia_fonte": "https://www.maravalley.rio/programas/web-summit-lisboa-2026",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00",
-      "motivo_ia": "sem_documentos"
+      "verificado_em": "2026-10-05T11:02:12.820140-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1642,7 +1591,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-05T04:44:37.571162-03:00"
+      "verificado_em": "2026-10-05T11:02:07.335520-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1757,7 +1706,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-05T04:44:37.571162-03:00"
+      "verificado_em": "2026-10-05T11:02:07.335520-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
