@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-05T01:45:04.543718+00:00",
+  "iniciada_em": "2026-10-05T01:50:16.022951+00:00",
   "status": "falha_parcial",
   "etapas": [
     {
@@ -8,22 +8,22 @@
       "resultado": {
         "fontes_visitadas": 2,
         "candidatos_novos": 0,
-        "falhas_leitura": 2,
+        "falhas_leitura": 0,
         "chamadas_api_busca": 0
       },
-      "segundos": 47.6
+      "segundos": 6.2
     },
     {
       "nome": "triagem",
       "status": "concluida",
       "resultado": null,
-      "segundos": 0.1
+      "segundos": 0.0
     },
     {
       "nome": "conteudo",
       "status": "falha",
       "tipo": "SystemExit",
-      "segundos": 51.0
+      "segundos": 42.8
     },
     {
       "nome": "fontes",
@@ -39,15 +39,15 @@
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 183.0
+      "segundos": 102.3
     }
   ],
   "casos_concluidos_nesta_rodada": 0,
   "concluidos_por_resultado": {},
   "casos_reabertos": 0,
-  "saldo_abertas": -1,
-  "finalizada_em": "2026-10-05T01:49:46.262036+00:00",
-  "houve_avanco": true,
+  "saldo_abertas": 0,
+  "finalizada_em": "2026-10-05T01:52:47.284814+00:00",
+  "houve_avanco": false,
   "ultimo_avanco_em": "2026-10-05T01:49:46.262036+00:00",
   "ia": {
     "chamadas": 2,
@@ -60,11 +60,11 @@
   },
   "contagem": {
     "conteudo": {
-      "pendente_leitura": 252,
-      "confirmada_no_conteudo": 105,
-      "pendente_ia": 158,
+      "pendente_leitura": 249,
+      "confirmada_no_conteudo": 106,
+      "pendente_ia": 168,
       "nao_confirmada_no_texto": 17,
-      "pendente_evidencia": 30,
+      "pendente_evidencia": 22,
       "fora_escopo": 3
     },
     "vigencia": {
@@ -72,7 +72,7 @@
       "pendente_evidencia": 29,
       "aberta_confirmada": 8,
       "pendente_acesso": 7,
-      "pendente_fonte_oficial": 15,
+      "pendente_fonte_oficial": 16,
       "fora_escopo": 3
     },
     "abertas_publicadas": 7,
@@ -90,5 +90,5 @@
       }
     }
   },
-  "motivo_sem_avanco": null
+  "motivo_sem_avanco": "aguardando_nova_evidencia_ou_proxima_tentativa"
 }
