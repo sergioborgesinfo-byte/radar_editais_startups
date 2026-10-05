@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-05T11:02:25.392337-03:00",
+  "atualizado_em": "2026-10-05T13:26:56.779109-03:00",
   "leitura_navegador": {
     "tentativas": 1,
     "sucessos": 0,
@@ -12,7 +12,7 @@
     "limite": 20,
     "parada": "gemini_http_400",
     "pendencias_restantes": 52,
-    "casos_com_tentativa_ia": 60,
+    "casos_com_tentativa_ia": 57,
     "resolvidas_automaticamente": 98,
     "revisoes_manuais": 1
   },
@@ -477,7 +477,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T11:02:07.703878-03:00"
+      "verificado_em": "2026-10-05T13:26:32.460832-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -841,7 +841,11 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T11:02:09.721532-03:00"
+      "verificado_em": "2026-10-05T11:02:09.721532-03:00",
+      "ia_metodo": "gemini-v8",
+      "ia_fonte": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-tres-regioes-ja-podem-concorrer-em-selecao-que-soma-r-300-milhoes",
+      "ia_proxima_tentativa": "2026-10-05T19:26:32.096574-03:00",
+      "motivo_ia": "gemini_http_400"
     },
     {
       "url": "https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas",
@@ -860,7 +864,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T11:02:07.947612-03:00"
+      "verificado_em": "2026-10-05T13:26:32.355254-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -979,8 +983,8 @@
       "metodo": "gemini_evidencia_literal",
       "status": "pendente_evidencia",
       "motivo": "ia_inconclusiva",
-      "verificado_em": "2026-10-05T11:02:22.286856-03:00",
-      "ia_tentada_em": "2026-10-05T11:02:22.286779-03:00",
+      "verificado_em": "2026-10-05T13:26:49.972089-03:00",
+      "ia_tentada_em": "2026-10-05T13:26:49.971984-03:00",
       "ia_metodo": "gemini-v8"
     },
     {
@@ -1066,7 +1070,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T11:02:12.080672-03:00"
+      "verificado_em": "2026-10-05T13:26:37.133292-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1123,7 +1127,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T11:02:09.868574-03:00"
+      "verificado_em": "2026-10-05T13:26:32.708687-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1132,7 +1136,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T11:02:12.498810-03:00"
+      "verificado_em": "2026-10-05T13:26:35.349898-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1168,16 +1172,11 @@
     {
       "url": "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml",
       "titulo": "Programa de aceleração para startups do Nordeste abre inscrições",
-      "status": "pendente_evidencia",
-      "motivo": "prazo_literal_com_ano_nao_encontrado",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T11:14:38.115311-03:00",
-      "ia_tentada_em": "2026-10-05T04:48:57.762217-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00"
+      "verificado_em": "2026-10-05T13:26:40.013763-03:00"
     },
     {
       "url": "https://exame.com/esg/bndes-garagem-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-negocios-de-impacto",
@@ -1227,7 +1226,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T11:02:13.996258-03:00"
+      "verificado_em": "2026-10-05T13:26:41.303372-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1266,7 +1265,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T11:02:15.697061-03:00"
+      "verificado_em": "2026-10-05T13:26:43.844039-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1375,7 +1374,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-05T11:02:07.335520-03:00"
+      "verificado_em": "2026-10-05T13:26:32.096574-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1401,7 +1400,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T11:02:15.870708-03:00"
+      "verificado_em": "2026-10-05T13:26:41.289844-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1555,7 +1554,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-05T11:02:12.820140-03:00"
+      "verificado_em": "2026-10-05T13:26:40.460480-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1591,7 +1590,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-05T11:02:07.335520-03:00"
+      "verificado_em": "2026-10-05T13:26:32.096574-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1636,12 +1635,7 @@
       "titulo": "Missão Técnica CE no NEON Alagoas 2026 - Sebrae Startups",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T11:13:42.650375-03:00",
-      "ia_tentada_em": "2026-10-05T04:48:53.908590-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "sem_documentos",
-      "ia_fonte": "https://programas.sebraestartups.com.br/in/ceneon2026",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00"
+      "verificado_em": "2026-10-05T13:26:32.437306-03:00"
     },
     {
       "url": "https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf",
@@ -1694,19 +1688,14 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-03T11:13:47.075208-03:00",
-      "ia_tentada_em": "2026-10-05T04:48:51.190000-03:00",
-      "ia_metodo": "gemini-v8",
-      "motivo_ia": "encerramento_nao_comprovado",
-      "ia_fonte": "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294",
-      "ia_proxima_tentativa": "2026-10-05T10:44:37.571162-03:00"
+      "verificado_em": "2026-10-05T13:26:36.621178-03:00"
     },
     {
       "url": "https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista",
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-05T11:02:07.335520-03:00"
+      "verificado_em": "2026-10-05T13:26:32.096574-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
