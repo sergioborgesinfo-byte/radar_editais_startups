@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 255, 'confirmada_no_conteudo': 106, 'pendente_ia': 167, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
+{'pendente_leitura': 254, 'confirmada_no_conteudo': 106, 'pendente_ia': 168, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -779,5 +779,5 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: O Inova+invest vai selecionar até 15 startups da região, avaliando inovação e tecnologia, potencial de escala, maturidade do negócio e a qualidade do time.
 - pendente_ia: FAPEMIG — Chamadas — https://fapemig.br/pt/chamadas/
 - pendente_ia: Chamadas Públicas — https://fapes.es.gov.br/chamamento-publico
-- pendente_leitura: Chamadas Internacionais — https://fapes.es.gov.br/chamadas-internacionais
+- pendente_ia: Chamadas Internacionais — https://fapes.es.gov.br/chamadas-internacionais
 - pendente_ia: Chamadas Internacionais — https://fapes.es.gov.br/editais-em-julgamento-chamadas-internacionais-2
