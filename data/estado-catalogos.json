@@ -1,16 +1,14 @@
 {
-  "cursor": 16,
-  "em": "2026-10-06T09:27:58.638404+00:00",
+  "cursor": 1,
+  "em": "2026-10-06T13:01:11.192061+00:00",
   "consultadas": [
     {
-      "url": "https://www.fap.df.gov.br/editais",
-      "status": "pendente",
-      "tipo": "ReadTimeout"
+      "url": "https://fapesq.rpp.br/editais/",
+      "status": "lida"
     },
     {
-      "url": "https://www.fapeam.am.gov.br/editais/",
-      "status": "pendente",
-      "tipo": "ConnectionError"
+      "url": "https://programas.sebraestartups.com.br/index/programas",
+      "status": "lida"
     }
   ]
 }
