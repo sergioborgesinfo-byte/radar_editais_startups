@@ -1,13 +1,19 @@
 {
-  "executado_em": "2026-10-06T13:00:28.272785+00:00",
-  "consultas_previstas": 0,
+  "executado_em": "2026-10-06T22:29:26.814032+00:00",
+  "consultas_previstas": 24,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-06T15:30:15.168393+00:00",
-  "cursor_consultas": 1,
+  "pausa_ate": "2026-10-07T04:29:26.814032+00:00",
+  "cursor_consultas": 2,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [],
+  "erros": [
+    {
+      "consulta": "programa aceleração startups seleção oportunidades Brasil 2026",
+      "tipo": "HTTPError",
+      "http": 432
+    }
+  ],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -2496,6 +2502,17 @@
       "titulo": "Vídeos PIPE | FAPESP",
       "resumo_busca": "### Vídeos\n\n    PIPE Jornada Tecnológica: 1ª Rodada 2026  \n   15 de julho de 2026\n\n  Esta é a primeira chamada do PIPE Jornada Tecnológica que receberá projetos em todos os os temas.\n    FAPESP Responde: AIR Iniciação Tecnológica  \n   08 de julho de 2026\n\n  Chamada destinada a apoiar projetos de inovação tecnológica para pesquisadores vinculados às FATECs.\n   Tecnologia transforma resíduo em adubo de baixo custo  \n   06 de julho de 2026 [...] Credenciamento para Incubação de Startups PIPE – Jornada Tecnológica AIR – Auxílio à Inovação Regular\n   Como drones estão ajudando a combater incêndios no Brasil   \n   13 de fevereiro de 2026\n\n  Tecnologia usa sensores e inteligência artificial para monitorar florestas e detectar focos de incêndio com precisão e rapidez\n   Ocellott: soluções para eletrificação de aeronaves e “carros voadores”  \n   14 de outubro de 2025 [...] Agência espacial dos Estados Unidos utilizou dispositivo desenvolvido pela startup paulista Condor Instruments, apoiada pelo PIPE-FAPESP, para monitorar os padrões de sono, a atividade física e as interações dos astronautas da missão Artemis II.\n    Apresentação das novas chamadas de estímulo à Inovação em São Paulo  \n   24 de março de 2026",
       "encontrado_em": "2026-10-03T14:07:42.371113+00:00",
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://fapesq.rpp.br/editais/",
+      "titulo": "FAPESQ — Editais",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-06T13:01:11.192061+00:00",
+      "encontrado_em": "2026-10-06T13:01:11.192061+00:00",
+      "consultas": [
+        "Catálogo institucional: https://fapesq.rpp.br/editais/"
+      ],
       "situacao": "aguarda_verificacao"
     },
     {
@@ -16454,18 +16471,6 @@
       "resumo_busca": "Aug 22, 2023\n\n  Conferência Anprotec 2023 tem recorde de 140 submissões na sua Chamada de Trabalho - venha ser um avaliador! Inscreva-se até quinta, 24/8/2023. O formulário para inscrição está disponível em forms.gle/GdMEwrXXPWNNfh…\n\n  \n @Anprotec\n\n  Anprotec@Anprotec\n\n  Aug 8, 2023 [...] Aug 8, 2023\n\n  Inscrições Prorrogadas para a Chamada de Trabalhos da Conferência Anprotec 2023 Para lhe dar mais tempo para preparar e submeter seu Artigo ou Relato de Boas Práticas, manteremos a chamada aberta até o dia 21/8. Saiba mais em conferenciaanprotec.com.br.\n\n  \n @Anprotec\n\n  Anprotec@Anprotec\n\n  Aug 8, 2023 [...] Aug 8, 2023\n\n  Inscrições prorrogadas para a Missão Internacional Anprotec 2023. O novo prazo para inscrições vai até o dia 10/8. Confira o regulamento em: lnkd.in/d3TCasfD Inscreva-se em lnkd.in/dj7wxcsy\n\n  \n @Anprotec\n\n  Anprotec@Anprotec\n\n  Jun 13, 2023\n\n  Já está no ar a lista de empreendimentos brasileiros selecionados para o Programa de Incubação Cruzada Brasil-México. Confira em nosso site.",
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://fapesq.rpp.br/editais/",
-      "titulo": "FAPESQ — Editais",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-06T13:01:11.192061+00:00",
-      "encontrado_em": "2026-10-06T13:01:11.192061+00:00",
-      "consultas": [
-        "Catálogo institucional: https://fapesq.rpp.br/editais/"
-      ],
-      "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-06T21:01:27.404750+00:00"
+  ]
 }

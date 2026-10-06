@@ -1,9 +1,9 @@
 ## Descoberta de oportunidades
 
-0/0 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1422 no histórico.
+0/24 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1423 no histórico.
 
 São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
-Busca pausada pelo limite do serviço até 2026-10-06T15:30:15.168393+00:00. Histórico preservado.
+Busca pausada pelo limite do serviço até 2026-10-07T04:29:26.814032+00:00. Histórico preservado.
 
 ## Candidatos (vigência não verificada)
 - Embraer Startup Program: http://embraer.com/corporate-innovation/embraer-startup-program/pt
@@ -224,6 +224,7 @@ Busca pausada pelo limite do serviço até 2026-10-06T15:30:15.168393+00:00. His
 - PIPE | FAPESP: https://fapesp.br/pipe
 - Edital de credenciamento para incubação de startups para atendimento a empresas participantes do programa PIPE-FAPESP: https://fapesp.br/pipe/2026-credenciamento
 - Vídeos PIPE | FAPESP: https://fapesp.br/pipe/videos
+- FAPESQ — Editais: https://fapesq.rpp.br/editais/
 - Fapto - Notícia de 12/01/2026: https://fapto.org.br/Site/Noticia/Visualizar?uid=NjY5
 - Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups - FAU: https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups
 - Startups brasileiras cruzam fronteiras e transformam missão do BretA2026 em ponte de negócios com a Argentina - Sistema Fecomércio: https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina
