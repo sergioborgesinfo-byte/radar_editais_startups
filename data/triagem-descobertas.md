@@ -660,6 +660,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [FAPESC — Editais](https://fapesc.sc.gov.br/editais/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [PIPE | FAPESP](https://fapesp.br/pipe) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Vídeos PIPE | FAPESP](https://fapesp.br/pipe/videos) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [FAPESQ — Editais](https://fapesq.rpp.br/editais/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Fapto - Notícia de 12/01/2026](https://fapto.org.br/Site/Noticia/Visualizar?uid=NjY5) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Program Agreements](https://fi.co/agreements) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Agentic Program](https://fi.co/aifounder) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1428,7 +1429,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Cubo: Employee Directory | ZoomInfo.com](https://www.zoominfo.com/pic/cubo/431092358) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Gerdau e FIEMG Lab apresentam resultados do programa de inovação aberta | Gerdau Brasil](https://www2.gerdau.com.br/noticias/gerdau-e-fiemg-lab-apresentam-resultados-do-programa-de-inovacao-aberta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Anprotec (@Anprotec) / X](https://x.com/Anprotec) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [FAPESQ — Editais](https://fapesq.rpp.br/editais/) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
 ## fora_escopo: 6
 

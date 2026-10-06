@@ -1,5 +1,5 @@
 {
-  "executado_em": "2026-10-06T21:01:27.961181+00:00",
+  "executado_em": "2026-10-06T22:30:17.361426+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
   "links_recebidos": 1423,
   "paginas_agrupadas": 1421,
@@ -2190,6 +2190,16 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://fapesp.br/pipe/videos"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FAPESQ — Editais",
+      "url": "https://fapesq.rpp.br/editais/",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapesq.rpp.br/editais/"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -14211,16 +14221,6 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://x.com/Anprotec"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "FAPESQ — Editais",
-      "url": "https://fapesq.rpp.br/editais/",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fapesq.rpp.br/editais/"
       ],
       "vigencia": "nao_avaliada"
     }
