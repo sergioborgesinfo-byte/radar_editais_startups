@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 253, 'confirmada_no_conteudo': 106, 'pendente_ia': 169, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
+{'pendente_leitura': 254, 'confirmada_no_conteudo': 106, 'pendente_ia': 168, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -32,7 +32,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: StartupCE abre edital para selecionar 60 startups com bolsas de inovação tecnológica – Papo de Negócios — https://blogs.opovo.com.br/papodenegocios/2026/07/10/startupce-abre-edital-para-selecionar-60-startups-com-bolsas-de-inovacao-tecnologica
 - pendente_leitura: 15 startups do Nordeste são selecionadas para aceleração pelo Inova+Invest - Business Moment — https://businessmoment.com.br/15-startups-do-nordeste-sao-selecionadas-para-aceleracao-pelo-inovainvest
 - pendente_leitura: Inscrições abertas para programa de internacionalização — https://caisdoporto.org/oportunidade-de-internacionalizacao-porto-digital
-- pendente_ia: Prêmio Impacta Mais 2026 recebe inscrições 16 de março – ABCR – Associação Brasileira de Captadores de Recursos — https://captadores.org.br/editais/premio-impacta-mais-2026-recebe-inscricoes-16-de-marco
+- pendente_leitura: Prêmio Impacta Mais 2026 recebe inscrições 16 de março – ABCR – Associação Brasileira de Captadores de Recursos — https://captadores.org.br/editais/premio-impacta-mais-2026-recebe-inscricoes-16-de-marco
 - confirmada_no_conteudo: Edital de Fluxo Contínuo CBA Open nº 01/2026 — https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica
   - trecho_oportunidade: O Centro de Bionegócios da Amazônia (CBA) lançou nesta quinta-feira (30) o Edital de Fluxo Contínuo CBA Open nº 01/2026, iniciativa que abre novas oportunidades para startups e empresas de base tecnológica interessadas em desenvolver soluções inovadoras a partir da biodiversidade amazônica.
   - trecho_publico: O edital contempla empresas com até 10 anos de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ), que desenvolvam atividades alinhadas aos bionegócios e apresentem propostas inovadoras com potencial de impacto econômico, ambiental e social.
