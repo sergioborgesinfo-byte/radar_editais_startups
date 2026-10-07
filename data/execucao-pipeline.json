@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-07T12:55:28.410554+00:00",
+  "iniciada_em": "2026-10-07T13:47:28.295028+00:00",
   "status": "falha_parcial",
   "etapas": [
     {
@@ -11,7 +11,7 @@
         "falhas_leitura": 1,
         "chamadas_api_busca": 0
       },
-      "segundos": 46.9
+      "segundos": 10.0
     },
     {
       "nome": "triagem",
@@ -29,24 +29,24 @@
       "nome": "fontes",
       "status": "concluida",
       "resultado": {
-        "consultas": 1,
+        "consultas": 0,
         "fontes_encontradas": 0,
         "motivo": "busca_cota_em_pausa"
       },
-      "segundos": 0.3
+      "segundos": 0.0
     },
     {
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 15.4
+      "segundos": 13.1
     }
   ],
   "casos_concluidos_nesta_rodada": 0,
   "concluidos_por_resultado": {},
   "casos_reabertos": 0,
   "saldo_abertas": 0,
-  "finalizada_em": "2026-10-07T12:57:50.247352+00:00",
+  "finalizada_em": "2026-10-07T13:49:10.676682+00:00",
   "houve_avanco": false,
   "ultimo_avanco_em": "2026-10-05T01:49:46.262036+00:00",
   "ia": {
