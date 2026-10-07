@@ -1,13 +1,14 @@
 {
-  "cursor": 9,
-  "em": "2026-10-07T00:33:52.109991+00:00",
+  "cursor": 11,
+  "em": "2026-10-07T02:11:03.103312+00:00",
   "consultadas": [
     {
-      "url": "https://fi.co/apply/belo",
-      "status": "lida"
+      "url": "https://fapesp.br/chamadas/",
+      "status": "pendente",
+      "tipo": "ValueError"
     },
     {
-      "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
+      "url": "https://fapemig.br/pt/chamadas/",
       "status": "lida"
     }
   ]
