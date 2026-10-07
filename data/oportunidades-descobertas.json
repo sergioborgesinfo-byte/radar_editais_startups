@@ -1,13 +1,19 @@
 {
-  "executado_em": "2026-10-07T02:10:05.434118+00:00",
-  "consultas_previstas": 0,
+  "executado_em": "2026-10-07T12:54:41.600362+00:00",
+  "consultas_previstas": 24,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-07T04:31:31.096617+00:00",
-  "cursor_consultas": 2,
+  "pausa_ate": "2026-10-07T18:54:41.600362+00:00",
+  "cursor_consultas": 3,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [],
+  "erros": [
+    {
+      "consulta": "incubadora startups fluxo contínuo seleção oportunidades Brasil",
+      "tipo": "HTTPError",
+      "http": 432
+    }
+  ],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16466,6 +16472,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-07T06:22:48.315216+00:00"
+  ]
 }
