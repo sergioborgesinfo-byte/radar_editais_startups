@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 252, 'confirmada_no_conteudo': 106, 'pendente_ia': 170, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
+{'pendente_leitura': 253, 'confirmada_no_conteudo': 106, 'pendente_ia': 169, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -265,7 +265,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: VIII Programa de Aceleração – Negócios Inovadores de Impacto Socioambiental - Edital Regera 2026 — https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf
   - trecho_oportunidade: O Serviço de Apoio às Micro e Pequenas Empresas do Rio Grande do Norte – SEBRAE/RN torna pública a abertura do VIII PROGRAMA DE ACELERAÇÃO NEGÓCIOS INOVADORES DE IMPACTO SOCIOAMBIENTAL - REGENERA para seleção e premiação de empreendimentos
   - trecho_publico: iniciativas com modelos de negócios em diferentes formatos jurídicos (startups, cooperativas e empresas) que apresentam soluções para problemas sociais e ambientais e que obrigatoriamente estejam em fase de tração, comercializando seus serviços e produtos no mercado de forma contínua.
-- pendente_ia: edital-incubadora-inpa-atualizado.pdf - Portal Gov.br — https://www.gov.br/inpa/pt-br/inovacao/documentos/edital-incubadora-inpa-atualizado.pdf
+- pendente_leitura: edital-incubadora-inpa-atualizado.pdf - Portal Gov.br — https://www.gov.br/inpa/pt-br/inovacao/documentos/edital-incubadora-inpa-atualizado.pdf
 - pendente_leitura: Randon Ventures seleciona cinco startups para programa ... — https://www.randoncorp.com/pt/blog/randon-ventures-seleciona-cinco-startups-para-programa-de-acelera%C3%A7%C3%A3o
 - pendente_leitura: Como escolher a sua aceleradora — https://www.startupbrasil.org.br/2014/07/03/como-escolher-a-sua-aceleradora
 - confirmada_no_conteudo: Edital 01/2026 e-Goiás Transformação Digital das empresas 2º Ciclo – Chamada de Solucionadoras — https://alertaeditais.com.br/edital/edital-012026-e-goias-transformacao-digital-d-4t8fn
