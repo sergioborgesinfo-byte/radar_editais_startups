@@ -1,14 +1,16 @@
 {
-  "cursor": 14,
-  "em": "2026-10-08T17:26:29.952750+00:00",
+  "cursor": 16,
+  "em": "2026-10-08T22:21:02.509144+00:00",
   "consultadas": [
     {
-      "url": "https://fapesc.sc.gov.br/editais/",
-      "status": "lida"
+      "url": "https://www.fap.df.gov.br/editais",
+      "status": "pendente",
+      "tipo": "ReadTimeout"
     },
     {
-      "url": "https://fapes.es.gov.br/editais",
-      "status": "lida"
+      "url": "https://www.fapeam.am.gov.br/editais/",
+      "status": "pendente",
+      "tipo": "ConnectionError"
     }
   ]
 }
