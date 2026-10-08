@@ -1,19 +1,13 @@
 {
-  "executado_em": "2026-10-07T22:53:26.798486+00:00",
-  "consultas_previstas": 24,
+  "executado_em": "2026-10-08T02:35:47.576149+00:00",
+  "consultas_previstas": 0,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-08T04:53:26.798486+00:00",
+  "pausa_ate": "2026-10-08T04:55:39.649081+00:00",
   "cursor_consultas": 4,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [
-    {
-      "consulta": "startup challenge inovação aberta seleção oportunidades Brasil 2026",
-      "tipo": "HTTPError",
-      "http": 432
-    }
-  ],
+  "erros": [],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16472,6 +16466,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-07T23:44:41.438884+00:00"
+  ]
 }
