@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 253, 'confirmada_no_conteudo': 106, 'pendente_ia': 169, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
+{'pendente_leitura': 252, 'confirmada_no_conteudo': 107, 'pendente_ia': 169, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -24,14 +24,16 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Experiências internacionais de inovação e lançamento de edital do MCTI marcam 2ª dia da 30ª Conferência Anprotec – Conferência Anprotec 2020 — https://anprotec.org.br/conferencia2020/2020/11/24/experiencias-internacionais-de-inovacao-e-lancamento-de-edital-do-mcti-marcam-2a-dia-da-30a-conferencia-anprotec
 - pendente_leitura: Incubação 2025.2 - Recife — https://app.portodigital.org/publico/84/desafio
 - pendente_ia: Editais de Pré-Incubação e Incubação de Startups :: Aquário de Ideias — https://aquariounesp.com.br/editalstartup
-- pendente_leitura: Resultado da Seleção – Programa Santander USP – Criação de Startups 2026 – Agência USP de Inovação — https://auspin.usp.br/bolsastartupusp2026
+- pendente_ia: Resultado da Seleção – Programa Santander USP – Criação de Startups 2026 – Agência USP de Inovação — https://auspin.usp.br/bolsastartupusp2026
 - pendente_leitura: Aceleração de Startups no Brasil: o guia 2026 | Baita Aceleradora — https://baita.ac/aceleracao-de-startups
 - confirmada_no_conteudo: Edital Granioter Acelera 2026 — https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil
   - trecho_oportunidade: O Granioter Acelera 2026 é um programa de pré-aceleração realizado pelo Granioter-MCTI/CDTN com o apoio da Biominas Brasil, voltado para pesquisadores, startups e spin-offs que desejam desenvolver competências empreendedoras, validar soluções tecnológicas e ampliar sua preparação para inserção no mercado.
   - trecho_publico: O Granioter Acelera 2026 é um programa de pré-aceleração realizado pelo Granioter-MCTI/CDTN com o apoio da Biominas Brasil, voltado para pesquisadores, startups e spin-offs que desejam desenvolver competências empreendedoras, validar soluções tecnológicas e ampliar sua preparação para inserção no mercado.
 - pendente_leitura: StartupCE abre edital para selecionar 60 startups com bolsas de inovação tecnológica – Papo de Negócios — https://blogs.opovo.com.br/papodenegocios/2026/07/10/startupce-abre-edital-para-selecionar-60-startups-com-bolsas-de-inovacao-tecnologica
 - pendente_leitura: 15 startups do Nordeste são selecionadas para aceleração pelo Inova+Invest - Business Moment — https://businessmoment.com.br/15-startups-do-nordeste-sao-selecionadas-para-aceleracao-pelo-inovainvest
-- pendente_leitura: Inscrições abertas para programa de internacionalização — https://caisdoporto.org/oportunidade-de-internacionalizacao-porto-digital
+- confirmada_no_conteudo: Inscrições abertas para programa de internacionalização — https://caisdoporto.org/oportunidade-de-internacionalizacao-porto-digital
+  - trecho_oportunidade: Este programa é específico para empresas e startups pernambucanas, de base tecnológica, que buscam expandir para o mercado europeu, saiba como participar, as inscrições estão abertas até dia 18 de dezembro.
+  - trecho_publico: Este programa é específico para empresas e startups pernambucanas, de base tecnológica, que buscam expandir para o mercado europeu, saiba como participar, as inscrições estão abertas até dia 18 de dezembro.
 - pendente_ia: Prêmio Impacta Mais 2026 recebe inscrições 16 de março – ABCR – Associação Brasileira de Captadores de Recursos — https://captadores.org.br/editais/premio-impacta-mais-2026-recebe-inscricoes-16-de-marco
 - confirmada_no_conteudo: Edital de Fluxo Contínuo CBA Open nº 01/2026 — https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica
   - trecho_oportunidade: O Centro de Bionegócios da Amazônia (CBA) lançou nesta quinta-feira (30) o Edital de Fluxo Contínuo CBA Open nº 01/2026, iniciativa que abre novas oportunidades para startups e empresas de base tecnológica interessadas em desenvolver soluções inovadoras a partir da biodiversidade amazônica.
@@ -53,7 +55,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná — https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana
   - trecho_oportunidade: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná
   - trecho_publico: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná
-- pendente_ia: Notícias e Prêmios - DIPPG — https://dippg.cefet-rj.br/index.php/pt/noticias-e-premios
+- pendente_leitura: Notícias e Prêmios - DIPPG — https://dippg.cefet-rj.br/index.php/pt/noticias-e-premios
 - nao_confirmada_no_texto: Como funciona uma aceleradora de startups no Brasil? — https://distrito.me/blog/aceleradora-de-startups-no-brasil
 - pendente_leitura: Oracle lança programa para startups no Brasil, Argentina e Colômbia com até US$ 60 mil em créditos em nuvem — https://dplnews.com/oracle-programa-startups-brasil-argentina-e-colombia-us-60-mil-creditos-nuvem
 - confirmada_no_conteudo: Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow — https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups
