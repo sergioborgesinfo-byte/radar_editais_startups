@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 249, 'confirmada_no_conteudo': 107, 'pendente_ia': 172, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
+{'pendente_leitura': 248, 'confirmada_no_conteudo': 107, 'pendente_ia': 173, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -166,7 +166,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Inscrições abertas para novas startups se instalarem no Parque Tecnológico da Bahia — https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia
   - trecho_oportunidade: a Áity, também conhecida como Espaço Fortalecer, abrirá vagas, através de chamada pública, para que startups possam se instalar no Parque e receber capacitação, orientação e mentoria, através de parceria com o Serviço de Apoio às Micro e Pequenas Empresas (Sebrae Bahia).
   - trecho_publico: o edital é voltado para startups que possuam CNPJ e registro na Junta Comercial do Estado da Bahia (Juceb), com faturamento anual inferior a R$ 4,8 milhões.
-- pendente_leitura: CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ... — https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/EditalGranioterAcelera2026
+- pendente_ia: CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ... — https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/EditalGranioterAcelera2026
 - pendente_leitura: Inscrições para o Conexo Challenge estão abertas — https://www.randoncorp.com/pt/blog/inscri%C3%A7%C3%B5es-para-o-conexo-challenge-est%C3%A3o-abertas
 - pendente_leitura: Comunicado: Alteração na Lista de Aceleradoras da ... — https://www.startupbrasil.org.br/2014/06/18/nota-informativa
 - pendente_ia: Desafio Petrobras - Módulo Startup - Outros desafios não especificados ("radar de startups/soluções") — https://alertaeditais.com.br/edital/desafio-petrobras-modulo-startup-outros-desaf-7ac0p
