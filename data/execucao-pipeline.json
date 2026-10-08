@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-08T03:00:07.212706+00:00",
+  "iniciada_em": "2026-10-08T10:20:50.518201+00:00",
   "status": "falha_parcial",
   "etapas": [
     {
@@ -8,45 +8,45 @@
       "resultado": {
         "fontes_visitadas": 2,
         "candidatos_novos": 0,
-        "falhas_leitura": 0,
+        "falhas_leitura": 1,
         "chamadas_api_busca": 0
       },
-      "segundos": 6.0
+      "segundos": 4.0
     },
     {
       "nome": "triagem",
       "status": "concluida",
       "resultado": null,
-      "segundos": 0.1
+      "segundos": 0.0
     },
     {
       "nome": "conteudo",
       "status": "falha",
       "tipo": "SystemExit",
-      "segundos": 65.2
+      "segundos": 103.3
     },
     {
       "nome": "fontes",
       "status": "concluida",
       "resultado": {
-        "consultas": 0,
+        "consultas": 1,
         "fontes_encontradas": 0,
         "motivo": "busca_cota_em_pausa"
       },
-      "segundos": 0.0
+      "segundos": 0.2
     },
     {
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 10.2
+      "segundos": 14.4
     }
   ],
   "casos_concluidos_nesta_rodada": 0,
   "concluidos_por_resultado": {},
   "casos_reabertos": 0,
   "saldo_abertas": 0,
-  "finalizada_em": "2026-10-08T03:01:28.803472+00:00",
+  "finalizada_em": "2026-10-08T10:22:52.524902+00:00",
   "houve_avanco": false,
   "ultimo_avanco_em": "2026-10-05T01:49:46.262036+00:00",
   "ia": {
@@ -60,9 +60,9 @@
   },
   "contagem": {
     "conteudo": {
-      "pendente_leitura": 251,
+      "pendente_leitura": 250,
       "confirmada_no_conteudo": 107,
-      "pendente_ia": 170,
+      "pendente_ia": 171,
       "nao_confirmada_no_texto": 17,
       "pendente_evidencia": 17,
       "fora_escopo": 3
@@ -71,8 +71,8 @@
       "encerrada": 91,
       "pendente_evidencia": 28,
       "aberta_confirmada": 8,
-      "pendente_acesso": 9,
-      "pendente_fonte_oficial": 16,
+      "pendente_acesso": 8,
+      "pendente_fonte_oficial": 17,
       "fora_escopo": 3
     },
     "abertas_publicadas": 7,
