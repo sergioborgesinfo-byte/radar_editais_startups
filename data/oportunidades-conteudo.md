@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 248, 'confirmada_no_conteudo': 107, 'pendente_ia': 173, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
+{'pendente_leitura': 247, 'confirmada_no_conteudo': 107, 'pendente_ia': 174, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -55,7 +55,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná — https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana
   - trecho_oportunidade: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná
   - trecho_publico: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná
-- pendente_leitura: Notícias e Prêmios - DIPPG — https://dippg.cefet-rj.br/index.php/pt/noticias-e-premios
+- pendente_ia: Notícias e Prêmios - DIPPG — https://dippg.cefet-rj.br/index.php/pt/noticias-e-premios
 - nao_confirmada_no_texto: Como funciona uma aceleradora de startups no Brasil? — https://distrito.me/blog/aceleradora-de-startups-no-brasil
 - pendente_leitura: Oracle lança programa para startups no Brasil, Argentina e Colômbia com até US$ 60 mil em créditos em nuvem — https://dplnews.com/oracle-programa-startups-brasil-argentina-e-colombia-us-60-mil-creditos-nuvem
 - confirmada_no_conteudo: Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow — https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups
