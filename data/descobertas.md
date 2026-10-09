@@ -1,9 +1,9 @@
 ## Descoberta de oportunidades
 
-0/0 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1423 no histórico.
+0/24 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1424 no histórico.
 
 São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
-Busca pausada pelo limite do serviço até 2026-10-09T15:11:22.764888+00:00. Histórico preservado.
+Busca pausada pelo limite do serviço até 2026-10-10T04:25:36.206263+00:00. Histórico preservado.
 
 ## Candidatos (vigência não verificada)
 - Embraer Startup Program: http://embraer.com/corporate-innovation/embraer-startup-program/pt
@@ -204,6 +204,7 @@ Busca pausada pelo limite do serviço até 2026-10-09T15:11:22.764888+00:00. His
 - Saiba Mais: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada
 - CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao
 - CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-013-2026-pesquisador-na-empresa
+- Saiba Mais: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-018-2026-hubmg-gov-resolucao-de-desafios-publicos-por-meio-de-inovacao-aberta
 - Saiba Mais: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb
 - FAPEMIG — Chamadas: https://fapemig.br/pt/chamadas/
 - Pesquisas para a Inovação Tecnológica e Empreendedorismo - FAPERGS - Fundação de Amparo à pesquisa do Estado do RS: https://fapergs.rs.gov.br/60anos-pesquisas-inovacao

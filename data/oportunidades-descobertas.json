@@ -1,13 +1,19 @@
 {
-  "executado_em": "2026-10-09T12:49:38.979673+00:00",
-  "consultas_previstas": 0,
+  "executado_em": "2026-10-09T22:25:36.206263+00:00",
+  "consultas_previstas": 24,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-09T15:11:22.764888+00:00",
-  "cursor_consultas": 4,
+  "pausa_ate": "2026-10-10T04:25:36.206263+00:00",
+  "cursor_consultas": 5,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [],
+  "erros": [
+    {
+      "consulta": "seleção investimento startups seleção oportunidades Brasil 2026",
+      "tipo": "HTTPError",
+      "http": 432
+    }
+  ],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -2275,6 +2281,17 @@
       "titulo": "CHAMADA FAPEMIG-SEDE 013/2026 - PESQUISADOR NA EMPRESA",
       "resumo_busca": "As empresas, startups e cooperativas deverão apresentar e ser responsável por apenas 1 (uma) proposta nesta Chamada. Caso a proponente venha a figurar em mais de uma proposta, todas elas serão inabilitadas.\n Apresentar prazo de execução de, no mínimo, 27 (vinte e sete) e, no máximo, 30 (trinta) meses;\n Prever, no mínimo, 1 (uma) bolsa, na modalidade BDCTI (Bolsa de Desenvolvimento em Ciência, Tecnologia e Inovação), nos níveis BDCTI I ou BDCTI II. [...] Empresas, startups e cooperativas que:\n\n não sejam Microempreendedor Individual (MEI);\n tenham sede ou filial em Minas Gerais;\n estejam constituídas e registradas, antes da publicação da Chamada, na JUCEMG, no RCPJ ou no Inova Simples, com atividade compatível com o projeto; e\n possuam pré-cadastro ou cadastro regular na FAPEMIG.\n\n## O que pode ser financiado?\n\nNo mínimo, uma bolsa  na modalidade BDCTI, nos níveis I ou II, conforme valores da FAPEMIG () Poderão ser solicitadas, adicionalmente: [...] |  |  |\n --- |\n| Categoria da empresa, startup ou cooperativa | Percentual para complemento financeiro do valor mensal da bolsa BDCTI |\n| Categoria A - Faturamento de até R$ 16.000.000,00 (dezesseis milhões de reais) | A partir de 25% do valor mensal da bolsa |\n| Categoria B - Faturamento superior a R$ 16.000.000,00 (dezesseis milhões de reais) | A partir de 50% do valor mensal da bolsa |\n\n‹  arraste para o lado  ›\n\n## Descrição da chamada",
       "encontrado_em": "2026-10-03T14:07:42.371113+00:00",
+      "situacao": "aguarda_verificacao"
+    },
+    {
+      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-018-2026-hubmg-gov-resolucao-de-desafios-publicos-por-meio-de-inovacao-aberta",
+      "titulo": "Saiba Mais",
+      "resumo_busca": "Link coletado em catálogo institucional",
+      "descoberto_em": "2026-10-09T20:57:43.196118+00:00",
+      "encontrado_em": "2026-10-09T20:57:43.196118+00:00",
+      "consultas": [
+        "Catálogo institucional: https://fapemig.br/pt/chamadas/"
+      ],
       "situacao": "aguarda_verificacao"
     },
     {
@@ -16465,18 +16482,6 @@
       "resumo_busca": "Aug 22, 2023\n\n  Conferência Anprotec 2023 tem recorde de 140 submissões na sua Chamada de Trabalho - venha ser um avaliador! Inscreva-se até quinta, 24/8/2023. O formulário para inscrição está disponível em forms.gle/GdMEwrXXPWNNfh…\n\n  \n @Anprotec\n\n  Anprotec@Anprotec\n\n  Aug 8, 2023 [...] Aug 8, 2023\n\n  Inscrições Prorrogadas para a Chamada de Trabalhos da Conferência Anprotec 2023 Para lhe dar mais tempo para preparar e submeter seu Artigo ou Relato de Boas Práticas, manteremos a chamada aberta até o dia 21/8. Saiba mais em conferenciaanprotec.com.br.\n\n  \n @Anprotec\n\n  Anprotec@Anprotec\n\n  Aug 8, 2023 [...] Aug 8, 2023\n\n  Inscrições prorrogadas para a Missão Internacional Anprotec 2023. O novo prazo para inscrições vai até o dia 10/8. Confira o regulamento em: lnkd.in/d3TCasfD Inscreva-se em lnkd.in/dj7wxcsy\n\n  \n @Anprotec\n\n  Anprotec@Anprotec\n\n  Jun 13, 2023\n\n  Já está no ar a lista de empreendimentos brasileiros selecionados para o Programa de Incubação Cruzada Brasil-México. Confira em nosso site.",
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
-    },
-    {
-      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-018-2026-hubmg-gov-resolucao-de-desafios-publicos-por-meio-de-inovacao-aberta",
-      "titulo": "Saiba Mais",
-      "resumo_busca": "Link coletado em catálogo institucional",
-      "descoberto_em": "2026-10-09T20:57:43.196118+00:00",
-      "encontrado_em": "2026-10-09T20:57:43.196118+00:00",
-      "consultas": [
-        "Catálogo institucional: https://fapemig.br/pt/chamadas/"
-      ],
-      "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-09T20:57:43.196118+00:00"
+  ]
 }
