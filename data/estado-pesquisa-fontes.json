@@ -1,5 +1,5 @@
 {
-  "__pausa__": "2026-10-09T15:11:22.764888+00:00",
+  "__pausa__": "2026-10-09T22:18:29.815543+00:00",
   "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200": {
     "em": "2026-10-03T20:45:03.485137+00:00",
     "proxima_tentativa": "2026-10-04T20:45:03.485137+00:00",
@@ -83,6 +83,11 @@
   "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao": {
     "em": "2026-10-09T09:11:22.764888+00:00",
     "proxima_tentativa": "2026-10-10T09:11:22.764888+00:00",
+    "erro": "http_432"
+  },
+  "https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho": {
+    "em": "2026-10-09T16:18:29.815543+00:00",
+    "proxima_tentativa": "2026-10-10T16:18:29.815543+00:00",
     "erro": "http_432"
   }
 }
