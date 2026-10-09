@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 248, 'confirmada_no_conteudo': 107, 'pendente_ia': 173, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
+{'pendente_leitura': 250, 'confirmada_no_conteudo': 107, 'pendente_ia': 171, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -50,7 +50,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana — https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups
   - trecho_oportunidade: Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana
   - trecho_publico: Randoncorp abre inscrições para segunda turma do programa de aceleração de startups - Canal Dana
-- pendente_ia: Programa de aceleração Citz.Tech — https://desafios.enap.gov.br/index.php/en/desafios/citz-tech
+- pendente_leitura: Programa de aceleração Citz.Tech — https://desafios.enap.gov.br/index.php/en/desafios/citz-tech
 - pendente_ia: Concurso Desavexe 2026 | Inovação, Startups e Incubação — https://desavexe.org.br/concurso
 - confirmada_no_conteudo: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná — https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana
   - trecho_oportunidade: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná
@@ -96,7 +96,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_oportunidade: If you’re building a deep tech startup solving global challenges, now’s your chance to apply.
   - trecho_publico: If you’re building a deep tech startup solving global challenges, now’s your chance to apply.
 - pendente_leitura: SpeedUp - Programa de aceleração do HOTMILK PUCPR — https://hotmilk.pucpr.br/speedup
-- pendente_ia: Missão Empresarial Espanha 2026 — https://hotsites.fecomercio-rs.org.br/missao-espanha
+- pendente_leitura: Missão Empresarial Espanha 2026 — https://hotsites.fecomercio-rs.org.br/missao-espanha
 - pendente_leitura: edital nº 01/2026 – processo seletivo para ingresso no — https://hotsites.oceanbrasil.com/ocean-launch/Edital_Ocean_Launch_2026_1.pdf
 - pendente_ia: Desafíos - APTA - Andes Pacific Technology Access — https://hubapta.com/desafios
 - pendente_leitura: 1.Edital_Chamamento_Solucionadoras_Edital 01/2026.docx — https://hubgoias.org/wp-content/uploads/2026/01/1.Edital_Chamamento_Solucionadoras_Edital-01_2026.docx-1.pdf
