@@ -3,7 +3,7 @@
 0/0 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1423 no histórico.
 
 São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
-Busca pausada pelo limite do serviço até 2026-10-08T23:28:19.950226+00:00. Histórico preservado.
+Busca pausada pelo limite do serviço até 2026-10-09T15:11:22.764888+00:00. Histórico preservado.
 
 ## Candidatos (vigência não verificada)
 - Embraer Startup Program: http://embraer.com/corporate-innovation/embraer-startup-program/pt
