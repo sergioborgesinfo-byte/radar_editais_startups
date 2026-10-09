@@ -1,14 +1,13 @@
 {
-  "cursor": 1,
-  "em": "2026-10-08T23:05:57.923347+00:00",
+  "cursor": 3,
+  "em": "2026-10-09T02:17:29.300310+00:00",
   "consultadas": [
     {
-      "url": "https://fapesq.rpp.br/editais/",
-      "status": "pendente",
-      "tipo": "ConnectTimeout"
+      "url": "https://www.wow.ac/inscricao",
+      "status": "lida"
     },
     {
-      "url": "https://programas.sebraestartups.com.br/index/programas",
+      "url": "https://www.darwinstartups.com/startups",
       "status": "lida"
     }
   ]
