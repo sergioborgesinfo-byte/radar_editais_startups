@@ -1,14 +1,13 @@
 {
-  "cursor": 6,
-  "em": "2026-10-10T12:58:16.632178+00:00",
+  "cursor": 8,
+  "em": "2026-10-10T17:45:00.260492+00:00",
   "consultadas": [
     {
-      "url": "https://aceventures.com.br/trilha-ai-ace/",
-      "status": "pendente",
-      "tipo": "ValueError"
+      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/",
+      "status": "lida"
     },
     {
-      "url": "https://www.tecnosinos.com.br/programa-de-incubacao/",
+      "url": "https://fi.co/apply/belo",
       "status": "lida"
     }
   ]
