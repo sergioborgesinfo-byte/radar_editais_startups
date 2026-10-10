@@ -1,19 +1,13 @@
 {
-  "executado_em": "2026-10-09T22:25:36.206263+00:00",
-  "consultas_previstas": 24,
+  "executado_em": "2026-10-10T02:10:33.995832+00:00",
+  "consultas_previstas": 0,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-10T04:25:36.206263+00:00",
+  "pausa_ate": "2026-10-10T04:27:37.502326+00:00",
   "cursor_consultas": 5,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [
-    {
-      "consulta": "seleção investimento startups seleção oportunidades Brasil 2026",
-      "tipo": "HTTPError",
-      "http": 432
-    }
-  ],
+  "erros": [],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16483,6 +16477,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-10T00:40:36.299477+00:00"
+  ]
 }
