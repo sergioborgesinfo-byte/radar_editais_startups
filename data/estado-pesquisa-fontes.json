@@ -1,5 +1,5 @@
 {
-  "__pausa__": "2026-10-11T17:35:00.471388+00:00",
+  "__pausa__": "2026-10-12T02:38:39.278505+00:00",
   "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200": {
     "em": "2026-10-03T20:45:03.485137+00:00",
     "proxima_tentativa": "2026-10-04T20:45:03.485137+00:00",
@@ -118,6 +118,11 @@
   "https://abvcap.com.br/programas/inova-invest/": {
     "em": "2026-10-11T11:35:00.471388+00:00",
     "proxima_tentativa": "2026-10-12T11:35:00.471388+00:00",
+    "erro": "http_432"
+  },
+  "https://www.inova.unicamp.br/events/batch-stars-2026": {
+    "em": "2026-10-11T20:38:39.278505+00:00",
+    "proxima_tentativa": "2026-10-12T20:38:39.278505+00:00",
     "erro": "http_432"
   }
 }
