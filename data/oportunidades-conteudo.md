@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 256, 'confirmada_no_conteudo': 107, 'pendente_ia': 165, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 17, 'fora_escopo': 3}
+{'pendente_leitura': 256, 'confirmada_no_conteudo': 108, 'pendente_ia': 168, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -144,7 +144,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Aceleração 2026: Inscrições Abertas para Startups do Norte — https://ecti.ac.gov.br/rascunho-automaticoprogramas-aceleracao-norte-cidades-inteligentes-lideranca-feminina
   - trecho_oportunidade: Aceleração 2026: Inscrições Abertas para Startups do Norte
   - trecho_publico: Aceleração 2026: Inscrições Abertas para Startups do Norte
-- pendente_evidencia: InovAtiva de Impacto 2026 — https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-de-impacto-2026-abre-inscricoes-a-partir-do-dia-13
+- pendente_ia: InovAtiva de Impacto 2026 abre inscrições a partir do dia 13 | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-de-impacto-2026-abre-inscricoes-a-partir-do-dia-13
 - pendente_leitura: Chamadas e Editais - FAPEMIG — https://fapemig.br/oportunidades/chamadas-e-editais
 - confirmada_no_conteudo: EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição — https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao
   - trecho_oportunidade: torna público o lançamento do presente Edital de Chamada Pública e convida startups catarinenses participantes da 16ª Turma do Programa Startup SC a apresentarem propostas de projetos de inovação, tendo como finalidade acelerar o empreendedorismo inovador.
@@ -159,7 +159,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Darwin Startups abre inscrições para programa de aceleração — https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993
   - trecho_oportunidade: Darwin Startups abre inscrições para programa de aceleração
   - trecho_publico: Darwin Startups abre inscrições para programa de aceleração
-- pendente_evidencia: Movimenta Sebrae — https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200
+- pendente_ia: Movimenta Sebrae — https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200
 - confirmada_no_conteudo: Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf
   - trecho_oportunidade: O objetivo é selecionar e apoiar startups com alto potencial de crescimento por meio de ações estruturadas de aceleração e a concessão de até 60 Bolsas de Inovação Tecnológica (BIT), no valor de R$ 3.000,00 cada.
   - trecho_publico: As propostas devem ser apresentadas por startups formalizadas no Ceará, com atuação voltada à inovação.
@@ -353,7 +353,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Libbs abre inscrições para o programa de inovação aberta Linna - Startups — https://startups.com.br/branded-content/libbs-abre-inscricoes-para-o-programa-de-inovacao-aberta-linna
 - pendente_ia: Desafio Stock Price, Funding, Valuation, Revenue & Financial Statements — https://www.cbinsights.com/company/desafio/financials
 - pendente_leitura: El Innovation Challenge Live: Startups que rediseñan el futuro del turismo presentan a innovadores de Colombia y Brasil. Tras cada intervención, tanto el jurado como el público votarán, evaluando las startups en función de su innovación e... - Secretaría de Prensa, Presidencia de la República de El Salvador — https://www.facebook.com/SecPrensaSV/posts/el-innovation-challenge-live-startups-que-redise%C3%B1an-el-futuro-del-turismo-presen/1464629985841257
-- pendente_ia: III Missão de Startups Brasileiras ao Dublin Tech Summit - Inova Unicamp — https://www.inova.unicamp.br/events/iii-missao-de-startups-brasileiras-ao-dublin-tech-summit
+- confirmada_no_conteudo: III Missão de Startups Brasileiras ao Dublin Tech Summit - Inova Unicamp — https://www.inova.unicamp.br/events/iii-missao-de-startups-brasileiras-ao-dublin-tech-summit
+  - trecho_oportunidade: A Embaixada do Brasil em Dublin convida empreendedores brasileiros a participarem de chamada pública que selecionará startups inovadoras a participarem como expositoras da edição 2026 do Dublin Tech Summit (DTS 2026) .
+  - trecho_publico: A Embaixada do Brasil em Dublin convida empreendedores brasileiros a participarem de chamada pública que selecionará startups inovadoras a participarem como expositoras da edição 2026 do Dublin Tech Summit (DTS 2026) .
 - pendente_leitura: Com novo prazo definido, as inscrições para os programas ... — https://www.instagram.com/p/DTgQWnniY3R
 - pendente_leitura: ITAÚ SELEÇÃO AÇÕES FUNDO DE INVESTIMENTO EM COTAS DE DE FUNDOS DE INVESTIMENTO Company Profile - Investing.com — https://www.investing.com/funds/itau-selecao-acoes-fundo-de-investi-company-profile
 - confirmada_no_conteudo: Programa Nascer abre inscrições para transformar ideias em startups - Santa Catarina em Pauta — https://www.santacatarinaempauta.com.br/2026/05/05/programa-nascer-abre-inscricoes-para-transformar-ideias-em-startups
@@ -734,8 +736,8 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - nao_confirmada_no_texto: Stanford e Fundação Lemann discutem os desafios da educação — https://www.estudarfora.org.br/stanford-e-fundacao-lemann-discutem-os-desafios-da-educacao-no-brasil
 - fora_escopo: How to Disable Startup Programs in Windows — https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows
 - pendente_leitura: *As inscrições para o Upgrade.TI 2026 estão abertas* 🚀 ... — https://www.instagram.com/p/DZF0z2kx8mI
-- pendente_evidencia: Programa de Aceleração de StartUps - Business Boost - RePosicione e ReInvente o seu Negócio — https://www.nersant.pt/agenda/evento/programa-de-aceleracao-de-startups-business-boost-reposicione-e-reinvente-o-seu-negocio-alcanena?1502=
-- pendente_evidencia: MetLife Digital Accelerator — https://www.segs.com.br/seguros/183503-metlife-anuncia-a-selecao-de-startups-para-programa-global-de-aceleracao-de-negocios
+- pendente_ia: Programa de Aceleração de StartUps - Business Boost - RePosicione e ReInvente o seu Negócio - NERSANT - Associação Empresarial — https://www.nersant.pt/agenda/evento/programa-de-aceleracao-de-startups-business-boost-reposicione-e-reinvente-o-seu-negocio-alcanena?1502=
+- pendente_ia: MetLife anuncia a seleção de startups para programa global de aceleração de negócios | SEGS Portal Nacional de Seguros, Saúde, Info, Ti, Educação — https://www.segs.com.br/seguros/183503-metlife-anuncia-a-selecao-de-startups-para-programa-global-de-aceleracao-de-negocios
 - pendente_evidencia: INCUBAUECE abre inscrições para Programa de Pré‑Incubação Deep Tech 2026 - INCUBAUECE | Incubadora de Empresas e Centro de Desenvolvimento Tecnológico e Inovação da Universidade Estadual do Ceará — https://www.uece.br/incubauece/noticias/incubauece-abre-inscricoes-para-programa-de-pre%E2%80%91incubacao-deep-tech-2026
 - confirmada_no_conteudo: Programa de Indução à Criação de Startups (PICS) — https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico
   - trecho_oportunidade: Diante do sucesso do Programa de Indução a Startups e da garantia dos recursos financeiros e dos parceiros, já está confirmada a terceira edição da iniciativa. A previsão é que o edital para a seleção dos futuros participantes seja lançado no mês de junho.

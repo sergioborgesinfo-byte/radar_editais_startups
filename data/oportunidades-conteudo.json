@@ -1,13 +1,13 @@
 {
   "versao": "conteudo-v1",
-  "atualizado_em": "2026-10-14T11:29:00.438913+00:00",
+  "atualizado_em": "2026-10-14T11:38:52.420833+00:00",
   "vigencia": "nao_avaliada",
   "contagem": {
     "pendente_leitura": 256,
-    "confirmada_no_conteudo": 107,
-    "pendente_ia": 165,
+    "confirmada_no_conteudo": 108,
+    "pendente_ia": 168,
     "nao_confirmada_no_texto": 17,
-    "pendente_evidencia": 17,
+    "pendente_evidencia": 13,
     "fora_escopo": 3
   },
   "itens": [
@@ -1370,23 +1370,12 @@
       "titulo": "InovAtiva de Impacto 2026 abre inscrições a partir do dia 13 | ASN Nacional - Agência Sebrae de Notícias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T14:31:21.103209+00:00",
-      "tentativas": 2,
-      "status": "pendente_evidencia",
-      "dados": {
-        "oportunidade_concreta": true,
-        "publico_startup": true,
-        "titulo": "InovAtiva de Impacto 2026",
-        "instituicao": "Sebrae / Hub InovAtiva",
-        "tipo": "Aceleração",
-        "resumo": "Programa de aceleração voltado para negócios de impacto socioambiental nos estados de Alagoas, Ceará, Espírito Santo, Pará, Pernambuco e Rio Grande do Norte, oferecendo mentorias, capacitação, conexão e premiação.",
-        "trecho_oportunidade": "O programa terá duração de quatro meses e incluirá mentorias individuais e coletivas de negócios, capacitação empreendedora, atividades de conexão entre participantes e participação em eventos on-line e presenciais.",
-        "trecho_publico": "o InovAtiva de Impacto 2026 é direcionado exclusivamente a negócios de impacto, ou seja, empreendimentos que combinam resultado financeiro sustentável com geração intencional de impacto socioambiental positivo.",
-        "motivo": "O texto detalha um programa de aceleração concreto (InovAtiva de Impacto 2026) com vagas, duração, premiação e regras de participação para negócios inovadores e de impacto."
-      },
-      "hash_texto": "6886e40b55f1745ee0a9800a4b5a726320ab1f198831aebb0f135c420c4e7127",
-      "motivo": "convite_direto_ou_publico_nao_comprovado",
-      "auditoria_relevancia": "requer_revisao"
+      "conferido_em": "2026-10-14T11:37:58.556159+00:00",
+      "tentativas": 3,
+      "metodo_leitura": "cronogramas-v6",
+      "status": "pendente_ia",
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:52:58.667462+00:00"
     },
     {
       "url": "https://fapemig.br/oportunidades/chamadas-e-editais",
@@ -1504,12 +1493,12 @@
       "titulo": "Movimenta Sebrae",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T14:36:52.590650+00:00",
-      "tentativas": 7,
+      "conferido_em": "2026-10-14T11:37:59.446010+00:00",
+      "tentativas": 8,
       "metodo_leitura": "cronogramas-v6",
-      "status": "pendente_evidencia",
-      "motivo": "resposta_ia_invalida_ou_citacao_nao_comprovada",
-      "proxima_tentativa": "2026-10-05T14:36:54.063444+00:00"
+      "status": "pendente_ia",
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:52:59.446049+00:00"
     },
     {
       "url": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
@@ -1594,12 +1583,12 @@
       "titulo": "Desafio Petrobras - Módulo Startup - Outros desafios não especificados (\"radar de startups/soluções\")",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:32.218585+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-14T11:38:18.132619+00:00",
+      "tentativas": 4,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-05T02:05:32.218764+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:18.132832+00:00"
     },
     {
       "url": "https://anprotec.org.br/site/2019/01/inscricoes-para-nova-turma-de-aceleracao-da-baita-terminam-dia-15-de-janeiro",
@@ -1929,8 +1918,8 @@
       "titulo": "BNDES Garagem: conheça esse programa voltado para as startups – Núcleo de acesso ao crédito",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-14T11:28:31.318212+00:00",
-      "tentativas": 57,
+      "conferido_em": "2026-10-14T11:38:18.177267+00:00",
+      "tentativas": 58,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -2803,8 +2792,8 @@
       "titulo": "Oracle lança programa de créditos em nuvem para startups na América Latina - Times Brasil | CNBC",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-14T11:29:00.345023+00:00",
-      "tentativas": 27,
+      "conferido_em": "2026-10-14T11:38:20.289531+00:00",
+      "tentativas": 28,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -2840,8 +2829,8 @@
       "titulo": "Aceleração | GBV",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-14T11:29:00.395984+00:00",
-      "tentativas": 21,
+      "conferido_em": "2026-10-14T11:38:20.302632+00:00",
+      "tentativas": 22,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -2877,12 +2866,12 @@
       "titulo": "Aceleradora",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-14T01:43:35.374410+00:00",
-      "tentativas": 12,
+      "conferido_em": "2026-10-14T11:38:20.326095+00:00",
+      "tentativas": 13,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-14T01:58:35.375211+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:20.326781+00:00"
     },
     {
       "url": "https://www.acate.com.br/blog-da-acate/desafios-de-negocios-inovabra-hub-participe-do-programa-de-inovacao-que-conecta-startups-a-grandes-empresas",
@@ -2949,108 +2938,108 @@
       "titulo": "Desafio Levantemos Chile - Products, Competitors, Financials, Employees, Headquarters Locations",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-11T05:27:43.526463+00:00",
-      "tentativas": 5,
+      "conferido_em": "2026-10-14T11:38:20.358574+00:00",
+      "tentativas": 6,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-11T05:42:43.528587+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:20.359854+00:00"
     },
     {
       "url": "https://www.crub.org.br/premio-mulheres-inovadoras-2026-abre-inscricoes-com-r-36-milhoes-para-startups-com-lideranca-feminina",
       "titulo": "Crub | Prêmio Mulheres Inovadoras 2026 abre inscrições com R$ 3,6 milhões para startups com liderança feminina",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-11T05:27:43.543690+00:00",
-      "tentativas": 4,
+      "conferido_em": "2026-10-14T11:38:20.370405+00:00",
+      "tentativas": 5,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-11T05:42:43.976023+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:21.643886+00:00"
     },
     {
       "url": "https://www.embrapa.br/financiamentos-desafios-e-programas-de-inovacao",
       "titulo": "Financiamentos, desafios e programas de inovação - Portal Embrapa",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:58.023113+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:21.656700+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-05T02:05:58.023605+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:23.782591+00:00"
     },
     {
       "url": "https://www.facebook.com/BiominasBrasil/videos/ei-voc%C3%AA-ainda-n%C3%A3o-fez-sua-inscri%C3%A7%C3%A3o-escuta-o-que-a-vivi-da-equipe-do-granioter-t/1753857149190504",
       "titulo": "Ei, você! Ainda não fez sua inscrição? Escuta o que a Vivi ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:58.031720+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:23.794568+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura",
-      "proxima_tentativa": "2026-10-06T01:50:58.031729+00:00"
+      "proxima_tentativa": "2026-10-15T11:38:23.794585+00:00"
     },
     {
       "url": "https://www.facepe.br/wp-content/uploads/2026/03/2026.03.03-Pr%C3%B3-Startups-Mulheres-2.pdf",
       "titulo": "EDITAL Nº 07/2026-FACEPE",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:58.040088+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:23.805575+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-05T02:05:58.043583+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:26.594816+00:00"
     },
     {
       "url": "https://www.finatec.org.br/noticia/chamada-02-2026-do-start-bsb-abre-inscricoes-para-ideias-inovadoras-no-distrito-federal",
       "titulo": "Chamada 02/2026 do Start BSB abre inscrições para ideias inovadoras no Distrito Federal – Finatec",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:58.051738+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:26.636949+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-05T02:05:58.052109+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:26.637403+00:00"
     },
     {
       "url": "https://www.finnosummit.com/que-hacemos/startup-programs",
       "titulo": "Startup Programs - Finnosummit",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:58.060228+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:26.661149+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-05T02:05:58.061054+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:26.662292+00:00"
     },
     {
       "url": "https://www.gener8tor.com/news/ace-ventures-e-gener8tor-lanam-programa-para-atrair-startups-dos-eua-para-o-brasil",
       "titulo": "ACE Ventures e gener8tor lançam programa para atrair startups dos EUA para o Brasil — gener8tor",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:58.096501+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:26.672687+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-05T02:05:58.193192+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:26.674299+00:00"
     },
     {
       "url": "https://www.icex.es/es/radar-icex-mercados-y-oportunidades-internacionales/claves-para-exportar/mujer-internacionalizacion/al-dia/arranca-programa-desafia-sanfrancisco-enfocado-primera-vez-startups-lideradas-mujeres",
       "titulo": "Arranca el programa “DESAFÍA San Francisco”, enfocado por primera vez a startups lideradas por mujeres",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:59.374048+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:28.587912+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-05T02:05:59.374197+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:28.588122+00:00"
     },
     {
       "url": "https://www.inova.unicamp.br/events/batch-stars-2026",
@@ -3090,12 +3079,12 @@
       "titulo": "0P00016MBM Fund | IBIUNA HEDGE SELEÇÃO MULTIMERCADO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO - Investing.com",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:51:04.998179+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:32.115489+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura",
-      "proxima_tentativa": "2026-10-06T01:51:04.998192+00:00"
+      "proxima_tentativa": "2026-10-15T11:38:32.115505+00:00"
     },
     {
       "url": "https://www.numerik.co/cases/caldeira",
@@ -3126,70 +3115,84 @@
       "titulo": "Aceleração de Startups: Sebrae Piauí lança edital para seleção de negócios inovadores - OitoMeia",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:46:15.044788+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:32.147392+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "pagina_http_403"
+      "motivo": "pagina_http_403",
+      "proxima_tentativa": "2026-10-15T11:38:32.147407+00:00"
     },
     {
       "url": "https://www.opentechs.net/br-pt/challenges/smallbusiness",
       "titulo": "100 Open Startups - Desafio Pequenas Empresas",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:46:15.046936+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:32.168149+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:34.792555+00:00"
     },
     {
       "url": "https://www.pe.senac.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao",
       "titulo": "Startups incubadas no Senac são selecionadas para programa de aceleração - Senac Pernambuco",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:46:15.049816+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:34.805105+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:37.457027+00:00"
     },
     {
       "url": "https://www.poder360.com.br/poder-empreendedor/governo-abre-inscricao-para-programa-de-aceleracao-de-startups",
       "titulo": "Governo abre inscrição para programa de aceleração de startups",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:46:17.091378+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:37.469657+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:39.316302+00:00"
     },
     {
       "url": "https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao",
       "titulo": "Governo de Pernambuco e Porto Digital abrem inscrições para programas de fomento ao empreendedorismo e internacionalização - Porto Digital",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:46:23.023329+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:39.328820+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-15T11:38:39.328842+00:00"
     },
     {
       "url": "https://www.recrutaeasy.com/post/recrutaeasy-entre-as-30-melhores-startups-do-pr%C3%AAmio-sebrae-startups-2026-um-reconhecimento-que-fort",
       "titulo": "RecrutaEasy entre as 30 melhores startups do Prêmio Sebrae Startups 2026: um reconhecimento que fortalece nossa história",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:46:23.037585+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:39.339579+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:41.512154+00:00"
     },
     {
       "url": "https://www.red.es/es/actualidad/noticias/nueve-startups-espanolas-abren-nuevas-oportunidades-en-suiza-con-el-programa",
       "titulo": "Nueve startups españolas abren nuevas oportunidades en Suiza con el programa Desafía | Red.es",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T20:46:23.040053+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:41.525356+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:41.526476+00:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
@@ -3293,12 +3296,12 @@
       "titulo": "Plano de Trabalho Programa Prioritário de Fomento ao ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-08T22:22:05.958475+00:00",
-      "tentativas": 7,
+      "conferido_em": "2026-10-14T11:37:59.456618+00:00",
+      "tentativas": 8,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-08T22:37:27.843327+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:18.120568+00:00"
     },
     {
       "url": "https://www.startupbrasil.org.br/2015/02/27/conheca-as-doze-aceleradoras-qualificadas-pelo-programa-start-up-brasil-para-2015-2016",
@@ -3419,10 +3422,23 @@
       "titulo": "III Missão de Startups Brasileiras ao Dublin Tech Summit - Inova Unicamp",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:00.844668+00:00",
-      "tentativas": 1,
-      "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "conferido_em": "2026-10-14T11:38:28.600249+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
+      "status": "confirmada_no_conteudo",
+      "dados": {
+        "oportunidade_concreta": true,
+        "publico_startup": true,
+        "titulo": "III Missão de Startups Brasileiras ao Dublin Tech Summit - Inova Unicamp",
+        "instituicao": "www.inova.unicamp.br",
+        "tipo": "Oportunidade — modalidade a detalhar",
+        "resumo": "A Embaixada do Brasil em Dublin convida empreendedores brasileiros a participarem de chamada pública que selecionará startups inovadoras a participarem como expositoras da edição 2026 do Dublin Tech Summit (DTS 2026) .",
+        "trecho_oportunidade": "A Embaixada do Brasil em Dublin convida empreendedores brasileiros a participarem de chamada pública que selecionará startups inovadoras a participarem como expositoras da edição 2026 do Dublin Tech Summit (DTS 2026) .",
+        "trecho_publico": "A Embaixada do Brasil em Dublin convida empreendedores brasileiros a participarem de chamada pública que selecionará startups inovadoras a participarem como expositoras da edição 2026 do Dublin Tech Summit (DTS 2026) .",
+        "motivo": "Convite e público explícitos no texto; fonte identificada pelo domínio",
+        "metodo": "regras_textuais_conservadoras"
+      },
+      "hash_texto": "35adca69cbab6757cf7c05d1b3806da06c5805a8efaca55005b2c4f02c274a45"
     },
     {
       "url": "https://www.instagram.com/p/DTgQWnniY3R",
@@ -3471,50 +3487,60 @@
       "titulo": "Snowflake Startup Challenge",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:00.857542+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:41.563622+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-15T11:38:41.563641+00:00"
     },
     {
       "url": "https://www.start.bsb.br/general-5",
       "titulo": "FAQ Edital | Start BSB 2026/2027",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:00.860412+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:41.575522+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:41.577033+00:00"
     },
     {
       "url": "https://www.startupsc.com.br/fiat-chrysler-e-sebrae-lancam-desafio-para-startups-sobre-carro-conectado",
       "titulo": "Fiat Chrysler e Sebrae lançam desafio para startups sobre carro conectado – Sebrae Startups",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:00.865793+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:41.588771+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:43.429149+00:00"
     },
     {
       "url": "https://www.tradingkey.com/pt/news/more-news/240235478-tradingKey",
       "titulo": "Programa de fomento ao turismo de estrangeiros no Brasil terá investimento de R$ 126 milhões em 2025",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:00.869721+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:43.716912+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:44.844461+00:00"
     },
     {
       "url": "https://www.uece.br/incubauece/noticias/finep-lanca-serie-de-editais-com-r-33-bilhoes-para-impulsionar-a-inovacao-no-brasil",
       "titulo": "FINEP lança série de editais com R$ 3,3 bilhões para impulsionar a inovação no Brasil - INCUBAUECE | Incubadora de Empresas e Centro de Desenvolvimento Tecnológico e Inovação da Universidade Estadual do Ceará",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:00.875142+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:44.857329+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:45.975229+00:00"
     },
     {
       "url": "https://www.uft.edu.br/noticias/uft-abre-selecao-para-programa-de-pre-incubacao-de-startups",
@@ -3543,40 +3569,48 @@
       "titulo": "1.-EDITAL-BOLSA-HUB-FAPESC-2026.pdf",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:00.883584+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:45.987287+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:48.844309+00:00"
     },
     {
       "url": "https://www.uspempreende.org/startneu",
       "titulo": "StartNEU - Aceleração de Startups - Núcleo de Empreendedorismo da USP",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:00.893189+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:48.855524+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:48.856585+00:00"
     },
     {
       "url": "https://www.vemserpraia.com.br/chamada-industria",
       "titulo": "Chamada Indústria | Praia Aceleradora",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:00.897913+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:48.867483+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:52.369376+00:00"
     },
     {
       "url": "https://www.yelp.com/biz/bon%C3%A9s-wind-brasil-ind-com-de-bolsas-apucarana",
       "titulo": "Bonés Wind Brasil Ind com de Bolsas - Apucarana, PR",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T21:30:01.031284+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:52.395462+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-15T11:38:52.395481+00:00"
     },
     {
       "url": "https://www.youtube.com/watch?v=0m4EhUB5yMs",
@@ -4753,10 +4787,12 @@
       "titulo": "Porto Digital abre inscrições para Pré-Incubação de Negócios; saiba como se inscrever - Startupi",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T23:38:09.074258+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:20.267693+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:20.268681+00:00"
     },
     {
       "url": "https://startups.com.br/branded-content/wow-abre-inscricoes-para-novo-batch-de-aceleracao",
@@ -4815,34 +4851,36 @@
       "titulo": "Programa e-Goiás abre edital para startups e empresas inovadoras de todo Brasil, com apoio de até R$ 20 mil - Anprotec",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-10T20:43:48.225180+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-14T11:38:18.144090+00:00",
+      "tentativas": 4,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura",
-      "proxima_tentativa": "2026-10-11T20:43:48.225198+00:00"
+      "proxima_tentativa": "2026-10-15T11:38:18.144110+00:00"
     },
     {
       "url": "https://pt.linkedin.com/pulse/pr-tem-65-empresas-top-1000-do-pr%C3%AAmio-sebrae-startups-lichacovski-kxdqe",
       "titulo": "Top 1000 do Prêmio Sebrae Startups 2026",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-01T23:38:09.108387+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:20.230254+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-15T11:38:20.230275+00:00"
     },
     {
       "url": "https://rocketreach.co/incubamas-i-incubadora-de-empresas-profile_b478772dfc36c08b",
       "titulo": "IncubaMás I Incubadora de Empresas Information",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-10T20:44:35.865098+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:20.256681+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura",
-      "proxima_tentativa": "2026-10-11T20:44:35.865112+00:00"
+      "proxima_tentativa": "2026-10-15T11:38:20.256699+00:00"
     },
     {
       "url": "https://startupi.com.br/potencia-ventures-abre-inscricoes-para-programa-de-aceleracao",
@@ -5219,8 +5257,8 @@
       "titulo": "FAPESP simplifica submissão de propostas ao PIPE",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-14T11:27:49.553177+00:00",
-      "tentativas": 79,
+      "conferido_em": "2026-10-14T11:37:54.317050+00:00",
+      "tentativas": 80,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -5659,8 +5697,8 @@
       "titulo": "Créditos em nuvem para Startups - Conheça alguns programas - GoCache",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-14T11:28:23.210066+00:00",
-      "tentativas": 63,
+      "conferido_em": "2026-10-14T11:38:18.165592+00:00",
+      "tentativas": 64,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_evidencia",
       "dados": {
@@ -5991,12 +6029,12 @@
       "titulo": "Facebook e Baita abrem inscrições para programa de aceleração em startups do agro",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-10T20:44:38.952411+00:00",
-      "tentativas": 4,
+      "conferido_em": "2026-10-14T11:38:20.347541+00:00",
+      "tentativas": 5,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura",
-      "proxima_tentativa": "2026-10-11T20:44:38.952425+00:00"
+      "proxima_tentativa": "2026-10-15T11:38:20.347558+00:00"
     },
     {
       "url": "https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2",
@@ -6057,46 +6095,48 @@
       "titulo": "BID | Cinco empresas “startup” de América Latina avanzan a los finales de la competencia global “1776 Challenge Cup”",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:58.201763+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:26.684822+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura",
-      "proxima_tentativa": "2026-10-06T01:50:58.201776+00:00"
+      "proxima_tentativa": "2026-10-15T11:38:26.684839+00:00"
     },
     {
       "url": "https://www.instagram.com/cideincubadora?hl=en",
       "titulo": "CIDE INCUBADORA (@cideincubadora) • Instagram photos and videos",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:51:04.987831+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:32.105000+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura",
-      "proxima_tentativa": "2026-10-06T01:51:04.987845+00:00"
+      "proxima_tentativa": "2026-10-15T11:38:32.105016+00:00"
     },
     {
       "url": "https://www.linkedin.com/pulse/pulsar-incubadora-tecnol%C3%B3gica-divulga-resultado-final-do-ijpke",
       "titulo": "Pulsar Incubadora Tecnológica divulga resultado final do edital ...",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:51:05.006157+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:32.125720+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura",
-      "proxima_tentativa": "2026-10-06T01:51:05.006180+00:00"
+      "proxima_tentativa": "2026-10-15T11:38:32.125737+00:00"
     },
     {
       "url": "https://www.openstartups.net/es/challenges/sport",
       "titulo": "100 Open Startups - Desafío Deportes",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:10:31.804062+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:32.157889+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:32.157930+00:00"
     },
     {
       "url": "https://www.opentechs.net/br-pt/challenges/sport",
@@ -6219,50 +6259,60 @@
       "titulo": "Smart Cities Challenge for Startups",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:38:54.167735+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:41.538506+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-15T11:38:41.538525+00:00"
     },
     {
       "url": "https://www.suzano.com.br/noticia/suzano-lanca-desafio-em-busca-de-parceiros-para-desenvolvimento-de-novas-aplicacoes-ao-papel",
       "titulo": "Suzano lança desafio em busca de parceiros",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:38:54.176733+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:43.443457+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
-      "motivo": "gemini_http_429"
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:43.694493+00:00"
     },
     {
       "url": "https://www.sympla.com.br/evento-online/bndes-garagem-oportunidades-e-desafios-de-empreender-na-floresta/3083679",
       "titulo": "BNDES Garagem: Oportunidades e desafios de empreender na floresta - online - Sympla",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:38:54.182496+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:43.706256+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-15T11:38:43.706272+00:00"
     },
     {
       "url": "https://www.weg.net/institutional/US/es/news/corporativo/weg-lanza-el-desafio-de-innovacion-abierta-en-el-mercado",
       "titulo": "WEG lanza el desafío de Innovación Abierta en el mercado | WEG",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:38:54.187333+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:52.383991+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "robots_bloqueou_leitura"
+      "motivo": "robots_bloqueou_leitura",
+      "proxima_tentativa": "2026-10-15T11:38:52.384012+00:00"
     },
     {
       "url": "https://www.youtube.com/watch?v=-lnAfwItuHU",
       "titulo": "Lançamento Chamada de Startups BNDES Garagem 2023",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T06:38:54.192132+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:38:52.406743+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
-      "motivo": "pagina_dinamica_ou_conteudo_insuficiente"
+      "motivo": "pagina_dinamica_ou_conteudo_insuficiente",
+      "proxima_tentativa": "2026-10-15T11:38:52.406762+00:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/capitalempreendedor-go26",
@@ -6876,12 +6926,12 @@
       "titulo": "Edital n.01/2026 AI.AQUÁRIO: Incubação de Startups :: Aquário de Ideias",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:32.235788+00:00",
-      "tentativas": 3,
+      "conferido_em": "2026-10-14T11:38:18.154638+00:00",
+      "tentativas": 4,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-05T02:05:33.980588+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:18.155131+00:00"
     },
     {
       "url": "https://bahiaeconomica.com.br/wp/2026/05/04/hub-salvador-se-une-a-maior-aceleradora-de-startups-do-brasil",
@@ -7093,24 +7143,24 @@
       "titulo": "Crescer sem perder a alma de startup é desafio para founders - Startups",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-10T21:22:09.316156+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:20.278987+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura",
-      "proxima_tentativa": "2026-10-11T21:22:09.316171+00:00"
+      "proxima_tentativa": "2026-10-15T11:38:20.279004+00:00"
     },
     {
       "url": "https://videos.ecoa.puc-rio.br/rioia-1o-edital-do-programa-de-inovacao-aberta",
       "titulo": "Rio.IA - 1º Edital do Programa de Inovação Aberta",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-14T01:43:35.360561+00:00",
-      "tentativas": 13,
+      "conferido_em": "2026-10-14T11:38:20.315589+00:00",
+      "tentativas": 14,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-14T01:58:35.360920+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:20.315888+00:00"
     },
     {
       "url": "https://www.acate.com.br/noticias/bndes-garagem-inscricoes",
@@ -7183,46 +7233,24 @@
       "titulo": "Programa de Aceleração de StartUps - Business Boost - RePosicione e ReInvente o seu Negócio - NERSANT - Associação Empresarial",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T15:26:32.743052+00:00",
-      "tentativas": 1,
-      "status": "pendente_evidencia",
-      "dados": {
-        "oportunidade_concreta": true,
-        "publico_startup": true,
-        "titulo": "Programa de Aceleração de StartUps - Business Boost - RePosicione e ReInvente o seu Negócio",
-        "instituicao": "NERSANT - Associação Empresarial da Região de Santarém",
-        "tipo": "aceleração",
-        "resumo": "Programa de aceleração de startups intensivo em formato híbrido, com sessões focadas na reconfiguração do modelo de negócio, estratégias de marketing, gestão de pessoas, tecnologias e ferramentas para startups, gestão financeira e planeamento de pivotagem.",
-        "trecho_oportunidade": "vai realizar durante o mês de janeiro de 2025 a 2ª edição do programa de aceleração de startups \"Business Boost - RePosicione e ReInvente o seu Negócio\" , programa intensivo que tem como principal objetivo ajudar as empresas a expandirem os seus negócios",
-        "trecho_publico": "Tecnologias e ferramentas para startups",
-        "motivo": "O texto apresenta um programa de aceleração de startups concreto e gratuito promovido por uma associação empresarial, direcionado explicitamente a startups e empreendedores com foco em inovação e crescimento de negócios."
-      },
-      "hash_texto": "c4ebd7de77656a53d4618dd580b7a980077540f5e73da30b2105a04c6c162d2e",
-      "motivo": "convite_direto_ou_publico_nao_comprovado",
-      "auditoria_relevancia": "requer_revisao"
+      "conferido_em": "2026-10-14T11:38:32.136138+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
+      "status": "pendente_ia",
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:32.137025+00:00"
     },
     {
       "url": "https://www.segs.com.br/seguros/183503-metlife-anuncia-a-selecao-de-startups-para-programa-global-de-aceleracao-de-negocios",
       "titulo": "MetLife anuncia a seleção de startups para programa global de aceleração de negócios | SEGS Portal Nacional de Seguros, Saúde, Info, Ti, Educação",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-02T15:26:39.652427+00:00",
-      "tentativas": 1,
-      "status": "pendente_evidencia",
-      "dados": {
-        "oportunidade_concreta": true,
-        "publico_startup": true,
-        "titulo": "MetLife Digital Accelerator",
-        "instituicao": "MetLife / Techstars",
-        "tipo": "Aceleração",
-        "resumo": "Programa global de aceleração de negócios voltado para startups que oferecem soluções inovadoras para a indústria de seguros, conectando empreendedores a líderes e mentores.",
-        "trecho_oportunidade": "O programa acelerador - que mantém aplicativos abertos em janeiro - é parte da transformação digital da MetLife, que combina inteligência artificial, robótica e automação e análise de dados avançada",
-        "trecho_publico": "A MetLife anunciou hoje sua segunda turma composta por nove empresas selecionadas para participar do MetLife Digital Accelerator, desenvolvido pela Techstars®. Baseado na recém-construída incubadora met.X no Campus Global de Tecnologia da MetLife em Cary, Carolina do Norte, o acelerador conecta startups com líderes da MetLife e mentores da Techstars",
-        "motivo": "O texto descreve um programa global de aceleração de negócios (MetLife Digital Accelerator) direcionado explicitamente a startups e menciona inscrições recorrentes."
-      },
-      "hash_texto": "31094bf84a056366448271ea7dbe700baf9f12c8b16e131d20762d37485d42f5",
-      "motivo": "convite_direto_ou_publico_nao_comprovado",
-      "auditoria_relevancia": "requer_revisao"
+      "conferido_em": "2026-10-14T11:38:41.550459+00:00",
+      "tentativas": 2,
+      "metodo_leitura": "cronogramas-v6",
+      "status": "pendente_ia",
+      "motivo": "gemini_http_400",
+      "proxima_tentativa": "2026-10-14T11:53:41.551985+00:00"
     },
     {
       "url": "https://www.uece.br/incubauece/noticias/incubauece-abre-inscricoes-para-programa-de-pre%E2%80%91incubacao-deep-tech-2026",
@@ -7324,12 +7352,12 @@
       "titulo": "Rede MIDIHUB abre inscrições para startups de base tecnológica em Santa Catarina - ACATE",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-06T22:31:30.978475+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:20.337272+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_leitura",
       "motivo": "robots_bloqueou_leitura",
-      "proxima_tentativa": "2026-10-07T22:31:30.978497+00:00"
+      "proxima_tentativa": "2026-10-15T11:38:20.337290+00:00"
     },
     {
       "url": "https://startups.com.br/tag/programa-de-aceleracao",
@@ -7623,12 +7651,12 @@
       "titulo": "Feira BIEMH | Inscrições até 21 de março - IAPMEI",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-05T01:50:58.209845+00:00",
-      "tentativas": 2,
+      "conferido_em": "2026-10-14T11:38:26.695075+00:00",
+      "tentativas": 3,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-05T02:05:59.365519+00:00"
+      "proxima_tentativa": "2026-10-14T11:53:28.573881+00:00"
     },
     {
       "url": "https://www.instagram.com/p/Dd9nLBUJ_NO",
@@ -7686,24 +7714,24 @@
       "titulo": "FAPEMIG — Chamadas",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-04T19:58:58.858546+00:00",
-      "tentativas": 1,
+      "conferido_em": "2026-10-14T11:37:58.679046+00:00",
+      "tentativas": 2,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-04T20:13:59.015250+00:00"
+      "proxima_tentativa": "2026-10-14T11:52:58.679653+00:00"
     },
     {
       "url": "https://fapes.es.gov.br/chamamento-publico",
       "titulo": "Chamadas Públicas",
       "versao": "conteudo-v1",
       "vigencia": "nao_avaliada",
-      "conferido_em": "2026-10-06T13:01:23.430496+00:00",
-      "tentativas": 8,
+      "conferido_em": "2026-10-14T11:37:58.690551+00:00",
+      "tentativas": 9,
       "metodo_leitura": "cronogramas-v6",
       "status": "pendente_ia",
       "motivo": "gemini_http_400",
-      "proxima_tentativa": "2026-10-06T13:16:25.176578+00:00"
+      "proxima_tentativa": "2026-10-14T11:52:59.434310+00:00"
     },
     {
       "url": "https://fapes.es.gov.br/chamadas-internacionais",
