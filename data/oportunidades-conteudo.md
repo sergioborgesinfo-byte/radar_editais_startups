@@ -510,7 +510,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Novo programa da ABVCAP e ApexBrasil vai acelerar até 15 startups no Nordeste - Anprotec — https://anprotec.org.br/site/2026/01/novo-programa-da-abvcap-e-apexbrasil-vai-acelerar-ate-15-startups-no-nordeste
 - pendente_leitura: Tottenham cria incubadora de startups — https://pt.linkedin.com/pulse/tottenham-cria-incubadora-de-startups-humberto-domiciano-ihsjf
 - pendente_leitura: IPFE - Instituto Peruano de Fomento Educativo Information — https://rocketreach.co/ipfe-instituto-peruano-de-fomento-educativo-profile_b5e4a271f42e661a
-- pendente_leitura: Google for Startups lança programa de aceleração para ... — https://startups.com.br/negocios/aceleracao/google-for-startups-lanca-programa-de-aceleracao-para-startups-de-ia
+- pendente_leitura: Google for Startups lança programa de aceleração para startups de IA - Startups — https://startups.com.br/negocios/aceleracao/google-for-startups-lanca-programa-de-aceleracao-para-startups-de-ia
 - pendente_leitura: A Aceleração Startup Piauí é uma iniciativa voltada ao ... — https://www.instagram.com/p/Dc1s5Hvp7aW
 - pendente_leitura: O que é Inovação Aberta? Conceito, Desafios e Exemplos de Como Inovar — https://www.youtube.com/watch?v=qg91aJo1Hgo
 - pendente_ia: A plataforma que é suporte e impulso para startups no Brasil. — https://programas.sebraestartups.com.br/in/1784030276359x103297627130880540
