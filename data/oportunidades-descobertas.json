@@ -1,5 +1,5 @@
 {
-  "executado_em": "2026-10-15T16:34:12.530015+00:00",
+  "executado_em": "2026-10-15T21:05:03.447806+00:00",
   "consultas_previstas": 0,
   "status": "pausada_por_cota",
   "pausa_ate": "2026-10-15T21:47:53.878721+00:00",
@@ -16477,6 +16477,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-15T19:27:13.271519+00:00"
+  ]
 }
