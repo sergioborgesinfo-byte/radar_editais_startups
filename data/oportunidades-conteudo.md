@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 252, 'confirmada_no_conteudo': 108, 'pendente_ia': 172, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 249, 'confirmada_no_conteudo': 108, 'pendente_ia': 175, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -120,7 +120,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Boletim de Editais eAções de Fomento aos — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/boletim-de-inova%C3%A7%C3%A3o/Boletim%20de%20inova%C3%A7%C3%A3o%20-%20Maio%202026.pdf
 - pendente_leitura: Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia — https://sict.rs.gov.br/edital-sict-02-2026
 - pendente_leitura: Aceleração de startups no Brasil: evidências de impacto do ... — https://web.bndes.gov.br/bib/jspui/bitstream/1408/29307/1/PRArt_216962_RAE%20n.%2022_Acelera%C3%A7%C3%A3o%20de%20startups%20no%20Brasil.pdf
-- pendente_leitura: Aceleração de Startups – educação empreendedora – Banco do Nordeste - Portal Banco do Nordeste — https://www.bnb.gov.br/hub-de-inovacao/aceleracao-de-startups
+- pendente_ia: Aceleração de Startups – educação empreendedora – Banco do Nordeste - Portal Banco do Nordeste — https://www.bnb.gov.br/hub-de-inovacao/aceleracao-de-startups
 - pendente_leitura: SEI/GDF - 207047077 - Edital — https://www.fap.df.gov.br/documents/d/fap/sei_gdf-207047077-edital-n-11-2026-programa-fapdf-start-bsb-3-ciclo-pdf
 - pendente_leitura: EDITAL N.º 012 /2026 – PROGRAMA DE APOIO À STARTUP DEEP TECH PARA INOVAÇÃO CIENTÍFICA E TECNOLÓGICA – DEEP TECH FAPEAM - FAPEAM — https://www.fapeam.am.gov.br/editais/edital-no-012-2026-programa-de-apoio-a-startup-deep-tech-para-inovacao-cientifica-e-tecnologica-deep-tech-fapeam
 - confirmada_no_conteudo: Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia — https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia
@@ -166,7 +166,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Inscrições abertas para novas startups se instalarem no Parque Tecnológico da Bahia — https://www.fapesb.ba.gov.br/inscricoes-abertas-para-novas-startups-se-instalarem-no-parque-tecnologico-da-bahia
   - trecho_oportunidade: a Áity, também conhecida como Espaço Fortalecer, abrirá vagas, através de chamada pública, para que startups possam se instalar no Parque e receber capacitação, orientação e mentoria, através de parceria com o Serviço de Apoio às Micro e Pequenas Empresas (Sebrae Bahia).
   - trecho_publico: o edital é voltado para startups que possuam CNPJ e registro na Junta Comercial do Estado da Bahia (Juceb), com faturamento anual inferior a R$ 4,8 milhões.
-- pendente_leitura: CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ... — https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/EditalGranioterAcelera2026
+- pendente_ia: CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ... — https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/EditalGranioterAcelera2026
 - pendente_leitura: Inscrições para o Conexo Challenge estão abertas — https://www.randoncorp.com/pt/blog/inscri%C3%A7%C3%B5es-para-o-conexo-challenge-est%C3%A3o-abertas
 - pendente_leitura: Comunicado: Alteração na Lista de Aceleradoras da ... — https://www.startupbrasil.org.br/2014/06/18/nota-informativa
 - pendente_ia: Desafio Petrobras - Módulo Startup - Outros desafios não especificados ("radar de startups/soluções") — https://alertaeditais.com.br/edital/desafio-petrobras-modulo-startup-outros-desaf-7ac0p
@@ -583,7 +583,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil — https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil
   - trecho_oportunidade: O Banco Nacional de Desenvolvimento Econômico e Social (BNDES) lança, nesta segunda-feira, 11, o segundo dos quatro ciclos da 3ª Edição do BNDES Garagem, programa gratuito de apoio a empreendedores e startups de impacto.
   - trecho_publico: 3ª Edição do BNDES Garagem, programa gratuito de apoio a empreendedores e startups de impacto.
-- pendente_leitura: Gerdau Challenge FIEMG Lab - Oportunidade para Startups - Universidade Federal do ABC — https://inova.ufabc.edu.br/noticias/9049-gerdau-challenge-fiemg-lab-oportunidade-para-startups
+- pendente_ia: Gerdau Challenge FIEMG Lab - Oportunidade para Startups - Universidade Federal do ABC — https://inova.ufabc.edu.br/noticias/9049-gerdau-challenge-fiemg-lab-oportunidade-para-startups
 - nao_confirmada_no_texto: 4 das 15 startups mineiras selecionadas para Programa de Internacionalização do Sebrae são vinculadas à INCIT — https://inovai.org.br/4-das-15-startups-mineiras-selecionadas-para-programa-de-internacionalizacao-do-sebrae-sao-vinculadas-a-incit
 - pendente_leitura: Conecta Caldeira reúne 7 desafios de inovação aberta ... — https://institutocaldeira.org.br/blog/conecta-caldeira-reune-7-desafios-de-inovacao-aberta-de-grandes-empresas-veja-como-inscrever-sua-startup
 - pendente_leitura: Aceleradora seleciona startups brasileiras para programa internacional - IT Forum — https://itforum.com.br/noticias/aceleradora-seleciona-startups-brasileiras-para-programa-de-internacional
