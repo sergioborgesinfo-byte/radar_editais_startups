@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 253, 'confirmada_no_conteudo': 109, 'pendente_ia': 170, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 252, 'confirmada_no_conteudo': 109, 'pendente_ia': 171, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -126,7 +126,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia — https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia
   - trecho_oportunidade: O Startup Nordeste tem como objetivo principal fomentar o Ecossistema de Inovação na região Nordeste e, por este edital, capacitar empreendedores de projetos inovadores/startups em estágio de validação, tração, crescimento e escala de negócio
   - trecho_publico: Será considerado(a) Proponente, pessoa jurídica que se enquadre na definição de startups do presente edital e sediada (possuir sede ou filial) no estado da Bahia ou pessoa física que deverá constituir empresa com as mesmas condições do Proponente
-- pendente_leitura: Finep Mais Inovação Brasil - Rodada 2 - Subvenção Econômica Regional - Finep — https://www.finep.gov.br/chamadas-publicas/chamadapublica/776
+- pendente_ia: Finep Mais Inovação Brasil - Rodada 2 - Subvenção Econômica Regional - Finep — https://www.finep.gov.br/chamadas-publicas/chamadapublica/776
 - confirmada_no_conteudo: Edital de Seleção de Startups Deep Techs da Região Nordeste para o Processo de Incubação - Edital Nº 02/2026 — https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf
   - trecho_oportunidade: torna público os procedimentos e as condições para seleção de projetos de empreendimentos de base tecnológica, em modalidade de INCUBAÇÃO e convida os interessados a participar do processo de seleção a apresentarem suas propostas.
   - trecho_publico: O objeto do presente Edital consiste na seleção de projetos de negócios e de inovação de startups nordestinas de base científica que tenham como diferencial a realização de atividades voltadas à inovação de base tecnológica
