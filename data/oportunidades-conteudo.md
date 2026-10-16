@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 257, 'confirmada_no_conteudo': 109, 'pendente_ia': 166, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 253, 'confirmada_no_conteudo': 109, 'pendente_ia': 170, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -196,7 +196,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Porto Digital abre inscrições para Pré-Incubação | Jornal Digital — https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital
   - trecho_oportunidade: Sua ideia pode ser a próxima startup gigante: inscrições abertas para Pré-Incubação do Porto Digital
   - trecho_publico: Sua ideia pode ser a próxima startup gigante: inscrições abertas para Pré-Incubação do Porto Digital
-- pendente_leitura: Edital de Seleção - Capital LAB 2026 — https://labcapitalbsb.com/edital
+- pendente_ia: Edital de Seleção - Capital LAB 2026 — https://labcapitalbsb.com/edital
 - nao_confirmada_no_texto: WOW Aceleradora de Startups Overview — https://leadiq.com/c/wow-aceleradora-de-startups/5a1d9d3e2300005c008d188c/email-format
 - pendente_leitura: Editais de fomento para startups: da ideia ao produto com dinheiro público · Licitário — https://licitario.com.br/fomento/para/startup
 - pendente_leitura: Grupo Equatorial abre inscrições para programa de inovação aberta com POCs remuneradas para startups – Equatorial Energia Maranhão — https://ma.equatorialenergia.com.br/grupo-equatorial-abre-inscricoes-para-programa-de-inovacao-aberta-com-pocs-remuneradas-para-startups
@@ -302,8 +302,8 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Citz.tech: programa de aceleração de startups voltado à cidadania e transparência — https://via.ufsc.br/conheca-o-citz-tech
 - pendente_ia: Aceleradora — https://www.2gether-international.org/pt/lac/aceleradora
 - pendente_leitura: Desafios de negócios inovabra hub: participe do programa de inovação que conecta startups a grandes empresas - ACATE — https://www.acate.com.br/blog-da-acate/desafios-de-negocios-inovabra-hub-participe-do-programa-de-inovacao-que-conecta-startups-a-grandes-empresas
-- pendente_leitura: Ifac abre chamada para pré-incubação de ideias inovadoras — https://www.acreaovivo.com/noticia/193073/ifac-abre-chamada-para-pre-incubacao-de-ideias-inovadoras
-- pendente_leitura: O Mercado de Cosméticos no Brasil em 2026: Projeções, Desafios e Oportunidades — https://www.acritica.com/geral/o-mercado-de-cosmeticos-no-brasil-em-2026-projec-es-desafios-e-oportunidades-1.394590
+- pendente_ia: Ifac abre chamada para pré-incubação de ideias inovadoras — https://www.acreaovivo.com/noticia/193073/ifac-abre-chamada-para-pre-incubacao-de-ideias-inovadoras
+- pendente_ia: O Mercado de Cosméticos no Brasil em 2026: Projeções, Desafios e Oportunidades — https://www.acritica.com/geral/o-mercado-de-cosmeticos-no-brasil-em-2026-projec-es-desafios-e-oportunidades-1.394590
 - pendente_leitura: Empreendedores e startups têm novas portas abertas com editais de fomento à inovação — https://www.agazeta.com.br/geral/inovacao/empreendedores-e-startups-tem-novas-portas-abertas-com-editais-de-fomento-a-inovacao-0126
 - pendente_leitura: Aceleração de startups no Brasil: evidências de impacto do ... — https://www.anpec.org.br/encontro/2025/submissao/files_I/i9-98964da42b5103ff87081adac2d5ea74.pdf
 - pendente_ia: Desafio Levantemos Chile - Products, Competitors, Financials, Employees, Headquarters Locations — https://www.cbinsights.com/company/desafio-levantemos-chile
@@ -563,7 +563,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Habitat e Biominas Brasil estão com inscrições abertas para seleção de novas empresas para seu programa de incubação – Biominas Brasil — https://biominas.org.br/habitat-e-biominas-brasil-estao-com-inscricoes-abertas-para-selecao-de-novas-empresas-para-seu-programa-de-incubacao
 - pendente_leitura: Grupo Equatorial abre programa de inovação para startups | Editora Brasil Energia — https://brasilenergia.com.br/energia/empresas/grupo-equatorial-abre-programa-de-inovacao-para-startups
 - fora_escopo: Startup Venture Challenge - CEDE Program for High Schools — https://cedeprogram.com/startupventure
-- pendente_leitura: Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ — https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups
+- pendente_ia: Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ — https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups
 - nao_confirmada_no_texto: Três startups do CRIO são selecionadas para programa de aceleração — https://circulando.net/artigo/tres-startups-do-crio-sao-selecionadas-para-programa-de-aceleracao
 - confirmada_no_conteudo: Brazil Startup Credits: Cloud, AI & Software — https://creditforstartups.com/brazil-startup-credits
   - trecho_oportunidade: Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
