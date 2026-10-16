@@ -1,9 +1,9 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-16T06:55:31.118539-03:00",
+  "atualizado_em": "2026-10-16T08:01:26.492686-03:00",
   "leitura_navegador": {
-    "tentativas": 1,
-    "sucessos": 0,
+    "tentativas": 2,
+    "sucessos": 1,
     "falhas": 1
   },
   "ia": {
@@ -13,7 +13,7 @@
     "parada": "gemini_http_400",
     "pendencias_restantes": 53,
     "casos_com_tentativa_ia": 22,
-    "resolvidas_automaticamente": 99,
+    "resolvidas_automaticamente": 100,
     "revisoes_manuais": 1
   },
   "itens": [
@@ -472,7 +472,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-16T06:55:02.800615-03:00"
+      "verificado_em": "2026-10-16T08:01:11.823515-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -844,7 +844,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-16T06:55:05.009807-03:00"
+      "verificado_em": "2026-10-16T08:01:11.234097-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -1017,7 +1017,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-16T06:55:09.025706-03:00"
+      "verificado_em": "2026-10-16T08:01:15.049976-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1057,7 +1057,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-16T06:55:05.782321-03:00"
+      "verificado_em": "2026-10-16T08:01:11.408627-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1066,7 +1066,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-16T06:55:08.467625-03:00"
+      "verificado_em": "2026-10-16T08:01:14.315384-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1141,7 +1141,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-16T06:55:12.810614-03:00"
+      "verificado_em": "2026-10-16T08:01:15.790307-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1175,7 +1175,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-16T06:55:17.782299-03:00"
+      "verificado_em": "2026-10-16T08:01:20.799387-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1254,7 +1254,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-16T06:55:02.011877-03:00"
+      "verificado_em": "2026-10-16T08:01:11.049237-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1275,7 +1275,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-16T06:55:16.535736-03:00"
+      "verificado_em": "2026-10-16T08:01:18.556933-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1404,7 +1404,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-16T06:55:16.046983-03:00"
+      "verificado_em": "2026-10-16T08:01:16.027682-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1435,7 +1435,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-16T06:55:02.011877-03:00"
+      "verificado_em": "2026-10-16T08:01:11.049237-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1535,7 +1535,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-16T06:55:02.011877-03:00"
+      "verificado_em": "2026-10-16T08:01:11.049237-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
@@ -1589,7 +1589,7 @@
       "verificado_em": "2026-10-14T13:00:33.932830-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://news.confap.org.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto",
-      "ia_proxima_tentativa": "2026-10-16T01:39:52.186661-03:00",
+      "ia_proxima_tentativa": "2026-10-16T14:01:11.049237-03:00",
       "motivo_ia": "gemini_http_400"
     },
     {
@@ -1666,6 +1666,18 @@
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
       "verificado_em": "2026-10-14T08:39:00.124037-03:00"
+    },
+    {
+      "url": "https://uepb.edu.br/divulgado-edital-com-instrucoes-para-participacao-no-programa-de-incubacao-empresarial-do-ciepb",
+      "titulo": "Divulgado edital com instruções para participação no Programa de Incubação Empresarial do CIEPB",
+      "fonte_oficial": "https://uepb.edu.br/divulgado-edital-com-instrucoes-para-participacao-no-programa-de-incubacao-empresarial-do-ciepb",
+      "prazo_iso": "2024-04-07T23:59:59-03:00",
+      "evidencia_prazo": "As inscrições já estão abertas, são gratuitas e podem ser feiras até o dia 7 de abril , sendo realizadas exclusivamente on-line, por meio do formulário disponível no site da Inovatec.",
+      "metodo": "cronograma_documentado",
+      "status": "encerrada",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-10-16T08:01:17.531171-03:00"
     }
   ],
   "fila_prioritaria": {
