@@ -1,5 +1,5 @@
 {
-  "__pausa__": "2026-10-17T19:54:42.596086+00:00",
+  "__pausa__": "2026-10-18T02:20:31.638575+00:00",
   "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200": {
     "em": "2026-10-03T20:45:03.485137+00:00",
     "proxima_tentativa": "2026-10-04T20:45:03.485137+00:00",
@@ -128,6 +128,11 @@
   "https://caisdoporto.org/oportunidade-de-internacionalizacao-porto-digital": {
     "em": "2026-10-12T05:38:44.367399+00:00",
     "proxima_tentativa": "2026-10-13T05:38:44.367399+00:00",
+    "erro": "http_432"
+  },
+  "https://dplnews.com/oracle-programa-startups-brasil-argentina-e-colombia-us-60-mil-creditos-nuvem": {
+    "em": "2026-10-17T20:20:31.638575+00:00",
+    "proxima_tentativa": "2026-10-18T20:20:31.638575+00:00",
     "erro": "http_432"
   }
 }
