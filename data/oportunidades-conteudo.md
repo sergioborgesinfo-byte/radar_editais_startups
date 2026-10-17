@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 253, 'confirmada_no_conteudo': 109, 'pendente_ia': 170, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 251, 'confirmada_no_conteudo': 109, 'pendente_ia': 172, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -609,7 +609,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Divulgado edital com instruções para participação no Programa de Incubação Empresarial do CIEPB — https://uepb.edu.br/divulgado-edital-com-instrucoes-para-participacao-no-programa-de-incubacao-empresarial-do-ciepb
   - trecho_oportunidade: A Universidade Estadual da Paraíba (UEPB), por meio da Coordenadoria de Inovação Tecnológica (Inovatec), anunciou a abertura das inscrições para o Edital 003/2024, que visa a seleção de startups, spinoffs, empresas juniores da Universidade e iniciativas da comunidade em geral interessadas em participar do Programa de Incubação Empresarial do Centro de Incubação Empresarial da Paraíba (CIEPB).
   - trecho_publico: A Universidade Estadual da Paraíba (UEPB), por meio da Coordenadoria de Inovação Tecnológica (Inovatec), anunciou a abertura das inscrições para o Edital 003/2024, que visa a seleção de startups, spinoffs, empresas juniores da Universidade e iniciativas da comunidade em geral interessadas em participar do Programa de Incubação Empresarial do Centro de Incubação Empresarial da Paraíba (CIEPB).
-- pendente_leitura: Plataforma conecta desafios da Amazônia a startups e soluções de tecnologia | VEJA — https://veja.abril.com.br/agenda-verde/plataforma-conecta-desafios-da-amazonia-a-startups-e-solucoes-de-tecnologia
+- pendente_ia: Plataforma conecta desafios da Amazônia a startups e soluções de tecnologia | VEJA — https://veja.abril.com.br/agenda-verde/plataforma-conecta-desafios-da-amazonia-a-startups-e-solucoes-de-tecnologia
 - pendente_leitura: Facebook e Baita abrem inscrições para programa de aceleração em startups do agro — https://www.canalrural.com.br/agropocket/facebook-inscricoes-programa-aceleracao-startups-agro
 - confirmada_no_conteudo: Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil — https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2
   - trecho_oportunidade: Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil
@@ -733,7 +733,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_oportunidade: Manifestação de Interesse - SIM Conference - Startup Madeira
   - trecho_publico: Manifestação de Interesse - SIM Conference - Startup Madeira
 - pendente_leitura: Crescer sem perder a alma de startup é desafio para founders - Startups — https://startups.com.br/eventos/web-summit/crescer-sem-perder-a-alma-de-startup-e-desafio-para-founders
-- pendente_leitura: Rio.IA - 1º Edital do Programa de Inovação Aberta — https://videos.ecoa.puc-rio.br/rioia-1o-edital-do-programa-de-inovacao-aberta
+- pendente_ia: Rio.IA - 1º Edital do Programa de Inovação Aberta — https://videos.ecoa.puc-rio.br/rioia-1o-edital-do-programa-de-inovacao-aberta
 - pendente_leitura: BNDES Garagem tem inscrições abertas até sexta-feira, 12 de maio - ACATE — https://www.acate.com.br/noticias/bndes-garagem-inscricoes
 - nao_confirmada_no_texto: Stanford e Fundação Lemann discutem os desafios da educação — https://www.estudarfora.org.br/stanford-e-fundacao-lemann-discutem-os-desafios-da-educacao-no-brasil
 - fora_escopo: How to Disable Startup Programs in Windows — https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows
