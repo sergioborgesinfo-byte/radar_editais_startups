@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 246, 'confirmada_no_conteudo': 109, 'pendente_ia': 177, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 251, 'confirmada_no_conteudo': 109, 'pendente_ia': 172, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -25,7 +25,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Incubação 2025.2 - Recife — https://app.portodigital.org/publico/84/desafio
 - pendente_ia: Editais de Pré-Incubação e Incubação de Startups :: Aquário de Ideias — https://aquariounesp.com.br/editalstartup
 - pendente_ia: Resultado da Seleção – Programa Santander USP – Criação de Startups 2026 – Agência USP de Inovação — https://auspin.usp.br/bolsastartupusp2026
-- pendente_leitura: Aceleração de Startups no Brasil: o guia 2026 | Baita Aceleradora — https://baita.ac/aceleracao-de-startups
+- pendente_ia: Aceleração de Startups no Brasil: o guia 2026 | Baita Aceleradora — https://baita.ac/aceleracao-de-startups
 - confirmada_no_conteudo: Edital Granioter Acelera 2026 — https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil
   - trecho_oportunidade: O Granioter Acelera 2026 é um programa de pré-aceleração realizado pelo Granioter-MCTI/CDTN com o apoio da Biominas Brasil, voltado para pesquisadores, startups e spin-offs que desejam desenvolver competências empreendedoras, validar soluções tecnológicas e ampliar sua preparação para inserção no mercado.
   - trecho_publico: O Granioter Acelera 2026 é um programa de pré-aceleração realizado pelo Granioter-MCTI/CDTN com o apoio da Biominas Brasil, voltado para pesquisadores, startups e spin-offs que desejam desenvolver competências empreendedoras, validar soluções tecnológicas e ampliar sua preparação para inserção no mercado.
@@ -34,7 +34,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Inscrições abertas para programa de internacionalização — https://caisdoporto.org/oportunidade-de-internacionalizacao-porto-digital
   - trecho_oportunidade: Este programa é específico para empresas e startups pernambucanas, de base tecnológica, que buscam expandir para o mercado europeu, saiba como participar, as inscrições estão abertas até dia 18 de dezembro.
   - trecho_publico: Este programa é específico para empresas e startups pernambucanas, de base tecnológica, que buscam expandir para o mercado europeu, saiba como participar, as inscrições estão abertas até dia 18 de dezembro.
-- pendente_ia: Prêmio Impacta Mais 2026 recebe inscrições 16 de março – ABCR – Associação Brasileira de Captadores de Recursos — https://captadores.org.br/editais/premio-impacta-mais-2026-recebe-inscricoes-16-de-marco
+- pendente_leitura: Prêmio Impacta Mais 2026 recebe inscrições 16 de março – ABCR – Associação Brasileira de Captadores de Recursos — https://captadores.org.br/editais/premio-impacta-mais-2026-recebe-inscricoes-16-de-marco
 - confirmada_no_conteudo: Edital de Fluxo Contínuo CBA Open nº 01/2026 — https://cbamazonia.org/cba-lanca-edital-de-fluxo-continuo-para-atrair-startups-e-empresas-inovadoras-voltadas-a-bioeconomia-amazonica
   - trecho_oportunidade: O Centro de Bionegócios da Amazônia (CBA) lançou nesta quinta-feira (30) o Edital de Fluxo Contínuo CBA Open nº 01/2026, iniciativa que abre novas oportunidades para startups e empresas de base tecnológica interessadas em desenvolver soluções inovadoras a partir da biodiversidade amazônica.
   - trecho_publico: O edital contempla empresas com até 10 anos de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ), que desenvolvam atividades alinhadas aos bionegócios e apresentem propostas inovadoras com potencial de impacto econômico, ambiental e social.
@@ -55,7 +55,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná — https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana
   - trecho_oportunidade: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná
   - trecho_publico: Inscrições abertas para o Programa Centelha que destinará R$ 4,6 milhões a 48 startups no Paraná
-- pendente_ia: Notícias e Prêmios - DIPPG — https://dippg.cefet-rj.br/index.php/pt/noticias-e-premios
+- pendente_leitura: Notícias e Prêmios - DIPPG — https://dippg.cefet-rj.br/index.php/pt/noticias-e-premios
 - nao_confirmada_no_texto: Como funciona uma aceleradora de startups no Brasil? — https://distrito.me/blog/aceleradora-de-startups-no-brasil
 - pendente_leitura: Oracle lança programa para startups no Brasil, Argentina e Colômbia com até US$ 60 mil em créditos em nuvem — https://dplnews.com/oracle-programa-startups-brasil-argentina-e-colombia-us-60-mil-creditos-nuvem
 - confirmada_no_conteudo: Cotidiano Aceleradora realiza seleção para acelerar Startups - DroneShow — https://droneshowla.com/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups
@@ -88,7 +88,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - nao_confirmada_no_texto: 100 startups selecionadas para aceleração no BNDES Garagem 2025 — https://garagem.bndes.gov.br/conteudo/100-startups-selecionadas-para-aceleracao-no-bndes-garagem-2025-impulsionam-economia-verde-e-impacto-social
 - pendente_leitura: Programa de apoio a startups abre inscrições para transformar ideias tecnológicas em grandes empresas - Gazeta da Semana — https://gazetadasemana.com.br/noticia/295227/programa-de-apoio-a-startups-abre-inscricoes-para-transformar-ideias-tecnologicas-em-grandes-empresas
 - pendente_leitura: Aceleradoras de Startups no Brasil | Growth System — https://growthsystem.com.br/aceleradoras
-- pendente_ia: edital startups nº 002 / 2025 — https://hardtechinnovation.com.br/wp-content/uploads/2025/08/Edital-Startup-_-HardTech-Innovation-2026.pdf
+- pendente_leitura: edital startups nº 002 / 2025 — https://hardtechinnovation.com.br/wp-content/uploads/2025/08/Edital-Startup-_-HardTech-Innovation-2026.pdf
 - confirmada_no_conteudo: Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo — https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf
   - trecho_oportunidade: torna público aos empreendedores interessados, que estão abertas as inscrições para o processo seletivo de projetos e startups inovadoras para integrar o Programa de Incubação de empresas de base tecnológica do HBR
   - trecho_publico: processo seletivo de projetos e startups inovadoras para integrar o Programa de Incubação de empresas de base tecnológica do HBR
@@ -212,7 +212,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março
 - pendente_leitura: ITAÚ AÇÕES SELEÇÃO MULTIFUNDOS FUNDO DE INVESTIMEN Fund Holdings - Investing.com NG — https://ng.investing.com/funds/itau-acoes-selecao-multifundos-fund-holdings
 - pendente_leitura: Inscrição para edital de aceleração de startups do Hub GovTech Paraná vai até quinta — https://oesteexpresso.com.br/noticia/33724/inscricao-para-edital-de-aceleracao-de-startups-do-hub-govtech-parana-vai-ate-quinta
-- pendente_ia: Baita anuncia chamada para aceleração de startups em 2021 - Parque Científico e Tecnológico da Unicamp — https://parque.inova.unicamp.br/baita-anuncia-chamada-para-aceleracao-de-startups-em-2021
+- pendente_leitura: Baita anuncia chamada para aceleração de startups em 2021 - Parque Científico e Tecnológico da Unicamp — https://parque.inova.unicamp.br/baita-anuncia-chamada-para-aceleracao-de-startups-em-2021
 - pendente_leitura: O Que É Aceleração de Vendas? Estratégias, Ferramentas & KPIs — https://pipeline.zoominfo.com/sales/top-sales-acceleration-platforms
 - pendente_leitura: Edital 2026 Company Profile: Valuation, Investors, Acquisition | PitchBook — https://pitchbook.com/profiles/company/46778-68
 - pendente_leitura: Uruguay: Cubo Itaú espande hub de fomento en emprendimiento tecnológico | Portal ERP — América Latina — https://portalerp.com/latam/noticia/uruguay-cubo-itau-espande-hub-de-fomento-en-emprendimiento-tecnologico
@@ -569,14 +569,14 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_oportunidade: Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
   - trecho_publico: Built for Brazilian founders. Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
 - pendente_leitura: Sebrae tem programa para acelerar startups - Diário dos Campos — https://dcmais.com.br/brasil/sebrae-tem-programa-para-acelerar-startups
-- pendente_ia: Startup Challenge Parque Arauco | Desafíos Abiertos | Dirección General de Investigación Innovación y Desarrollo — https://dgiie.usm.cl/concursos/startup-challenge-desafios-abiertos
+- pendente_leitura: Startup Challenge Parque Arauco | Desafíos Abiertos | Dirección General de Investigación Innovación y Desarrollo — https://dgiie.usm.cl/concursos/startup-challenge-desafios-abiertos
 - pendente_leitura: Startups goianas são selecionadas para programa nacional - Empreender em Goiás — https://empreenderemgoias.com.br/2026/05/18/startups-goianas-sao-selecionadas-para-programa-nacional
 - pendente_ia: StartUp Challenge: abren convocatoria para emprendimientos de energías renovables — https://es-us.finanzas.yahoo.com/noticias/startup-challenge-abren-convocatoria-emprendimientos-181500905.html
 - pendente_leitura: Startups incubadas no Senac são selecionadas para programa de aceleração | Faculdade Senac Pernambuco — https://faculdadesenacpe.edu.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao
 - confirmada_no_conteudo: Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups — https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups
   - trecho_oportunidade: O ‘Acelera TAP’ será estruturado em duas fases, com capacidade para atender pelo menos 30 startups em fase de validação e outras 15 em estágio de aceleração. O suporte vai muito além da mentoria: o programa prevê apoio financeiro direto de até R$ 100 mil para negócios em estágio inicial e até R$ 70 mil para empresas já consolidadas.
   - trecho_publico: O resultado desse edital estava sendo bastante esperado pelos empreendedores de Startups, especialmente ligadas aos setores do agro, saúde e indústria 4.0 no Triângulo Mineiro e Alto Paranaíba
-- pendente_ia: Startups brasileiras cruzam fronteiras e transformam missão do BretA2026 em ponte de negócios com a Argentina - Sistema Fecomércio — https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina
+- pendente_leitura: Startups brasileiras cruzam fronteiras e transformam missão do BretA2026 em ponte de negócios com a Argentina - Sistema Fecomércio — https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina
 - pendente_ia: Aceleração de startups: Sebrae Roraima lança novo programa | G1 — https://g1.globo.com/rr/roraima/especial-publicitario/sebrae-roraima-onde-tem-empreendedor-tem-sebrae/noticia/2026/06/10/aceleracao-de-startups-sebrae-roraima-lanca-novo-programa.ghtml
 - pendente_evidencia: Créditos em nuvem para Startups - Conheça alguns programas - GoCache — https://gocache.com.br/nao-categorizado/creditos-em-nuvem-para-startups-conheca-alguns-programas
 - pendente_ia: Gerdau y FIEMG Lab buscan startups para resolver los desafíos de IBRAM. — https://ibram.org.br/es/noticia/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios
