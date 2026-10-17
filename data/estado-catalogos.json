@@ -1,14 +1,15 @@
 {
-  "cursor": 2,
-  "em": "2026-10-17T21:29:44.016043+00:00",
+  "cursor": 4,
+  "em": "2026-10-17T23:20:33.214691+00:00",
   "consultadas": [
     {
-      "url": "https://programas.sebraestartups.com.br/index/programas",
+      "url": "https://www.darwinstartups.com/startups",
       "status": "lida"
     },
     {
-      "url": "https://www.wow.ac/inscricao",
-      "status": "lida"
+      "url": "https://venturehub.se/startups/",
+      "status": "pendente",
+      "tipo": "ValueError"
     }
   ]
 }
