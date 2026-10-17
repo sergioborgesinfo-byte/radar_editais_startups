@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-17T16:57:49.076784+00:00",
+  "iniciada_em": "2026-10-17T19:11:07.817365+00:00",
   "status": "falha_parcial",
   "etapas": [
     {
@@ -11,7 +11,7 @@
         "falhas_leitura": 1,
         "chamadas_api_busca": 0
       },
-      "segundos": 13.2
+      "segundos": 47.0
     },
     {
       "nome": "triagem",
@@ -23,7 +23,7 @@
       "nome": "conteudo",
       "status": "falha",
       "tipo": "SystemExit",
-      "segundos": 75.1
+      "segundos": 55.7
     },
     {
       "nome": "fontes",
@@ -39,14 +39,14 @@
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 30.6
+      "segundos": 19.4
     }
   ],
   "casos_concluidos_nesta_rodada": 0,
   "concluidos_por_resultado": {},
   "casos_reabertos": 0,
   "saldo_abertas": 0,
-  "finalizada_em": "2026-10-17T16:59:48.132090+00:00",
+  "finalizada_em": "2026-10-17T19:13:10.060985+00:00",
   "houve_avanco": false,
   "ultimo_avanco_em": "2026-10-16T11:01:26.542549+00:00",
   "ia": {
@@ -61,8 +61,8 @@
   "contagem": {
     "conteudo": {
       "pendente_leitura": 251,
-      "confirmada_no_conteudo": 109,
-      "pendente_ia": 172,
+      "confirmada_no_conteudo": 110,
+      "pendente_ia": 171,
       "nao_confirmada_no_texto": 17,
       "pendente_evidencia": 13,
       "fora_escopo": 3
@@ -72,7 +72,7 @@
       "pendente_evidencia": 29,
       "aberta_confirmada": 7,
       "pendente_acesso": 7,
-      "pendente_fonte_oficial": 17,
+      "pendente_fonte_oficial": 18,
       "fora_escopo": 3
     },
     "abertas_publicadas": 6,
