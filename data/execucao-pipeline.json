@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-18T15:35:49.611452+00:00",
+  "iniciada_em": "2026-10-18T17:25:14.616964+00:00",
   "status": "falha_parcial",
   "etapas": [
     {
@@ -8,10 +8,10 @@
       "resultado": {
         "fontes_visitadas": 2,
         "candidatos_novos": 0,
-        "falhas_leitura": 1,
+        "falhas_leitura": 0,
         "chamadas_api_busca": 0
       },
-      "segundos": 49.6
+      "segundos": 4.8
     },
     {
       "nome": "triagem",
@@ -23,7 +23,7 @@
       "nome": "conteudo",
       "status": "falha",
       "tipo": "SystemExit",
-      "segundos": 67.1
+      "segundos": 72.6
     },
     {
       "nome": "fontes",
@@ -39,14 +39,14 @@
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 15.9
+      "segundos": 24.8
     }
   ],
   "casos_concluidos_nesta_rodada": 0,
   "concluidos_por_resultado": {},
   "casos_reabertos": 0,
   "saldo_abertas": 0,
-  "finalizada_em": "2026-10-18T15:38:02.347632+00:00",
+  "finalizada_em": "2026-10-18T17:26:56.961281+00:00",
   "houve_avanco": false,
   "ultimo_avanco_em": "2026-10-16T11:01:26.542549+00:00",
   "ia": {
@@ -71,8 +71,8 @@
       "encerrada": 94,
       "pendente_evidencia": 29,
       "aberta_confirmada": 7,
-      "pendente_acesso": 7,
-      "pendente_fonte_oficial": 18,
+      "pendente_acesso": 8,
+      "pendente_fonte_oficial": 17,
       "fora_escopo": 3
     },
     "abertas_publicadas": 6,
