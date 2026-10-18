@@ -1,19 +1,13 @@
 {
-  "executado_em": "2026-10-17T20:18:41.435627+00:00",
-  "consultas_previstas": 24,
+  "executado_em": "2026-10-18T00:43:01.874077+00:00",
+  "consultas_previstas": 0,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-18T02:18:41.435627+00:00",
+  "pausa_ate": "2026-10-18T02:20:31.638575+00:00",
   "cursor_consultas": 7,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [
-    {
-      "consulta": "aceleradora startups seleção oportunidades Nordeste 2026",
-      "tipo": "HTTPError",
-      "http": 432
-    }
-  ],
+  "erros": [],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16483,6 +16477,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-17T23:20:33.214691+00:00"
+  ]
 }
