@@ -1,10 +1,10 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-18T18:50:14.328785-03:00",
+  "atualizado_em": "2026-10-18T20:44:30.025374-03:00",
   "leitura_navegador": {
-    "tentativas": 5,
+    "tentativas": 2,
     "sucessos": 1,
-    "falhas": 4
+    "falhas": 1
   },
   "ia": {
     "chamadas": 1,
@@ -472,7 +472,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-18T18:48:57.998001-03:00"
+      "verificado_em": "2026-10-18T20:44:10.489838-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -563,7 +563,7 @@
       "verificado_em": "2026-10-17T10:54:47.130024-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://cloud.google.com/startup/benefits?hl=pt-BR",
-      "ia_proxima_tentativa": "2026-10-18T20:26:32.150875-03:00",
+      "ia_proxima_tentativa": "2026-10-19T02:44:09.724807-03:00",
       "motivo_ia": "gemini_http_400"
     },
     {
@@ -844,7 +844,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-18T18:48:56.838411-03:00"
+      "verificado_em": "2026-10-18T20:44:09.898978-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -1021,7 +1021,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-18T18:49:01.247328-03:00"
+      "verificado_em": "2026-10-18T20:44:13.659801-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1061,7 +1061,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-18T18:48:56.830936-03:00"
+      "verificado_em": "2026-10-18T20:44:09.922889-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1070,7 +1070,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-18T18:48:59.524437-03:00"
+      "verificado_em": "2026-10-18T20:44:12.532823-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1141,12 +1141,11 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "fontes_consultadas": [
-        "https://portodigital.org/",
-        "https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao"
+        "https://app.portodigital.org/publico/121/desafio"
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-18T18:50:05.548447-03:00"
+      "verificado_em": "2026-10-18T20:44:14.087918-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1180,7 +1179,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-18T18:49:30.195233-03:00"
+      "verificado_em": "2026-10-18T20:44:14.833687-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1259,7 +1258,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-18T18:48:56.593019-03:00"
+      "verificado_em": "2026-10-18T20:44:09.724807-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1275,12 +1274,12 @@
     },
     {
       "url": "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil",
-      "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil - Impacta Nordeste",
-      "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel",
+      "titulo": "BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil",
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-18T18:50:09.471653-03:00"
+      "verificado_em": "2026-10-18T20:44:15.994371-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1409,7 +1408,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-18T18:49:36.583872-03:00"
+      "verificado_em": "2026-10-18T20:44:19.620683-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1440,7 +1439,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-18T18:48:56.593019-03:00"
+      "verificado_em": "2026-10-18T20:44:09.724807-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1540,7 +1539,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-18T18:48:56.593019-03:00"
+      "verificado_em": "2026-10-18T20:44:09.724807-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
