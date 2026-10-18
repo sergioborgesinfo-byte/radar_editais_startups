@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 244, 'confirmada_no_conteudo': 110, 'pendente_ia': 178, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 248, 'confirmada_no_conteudo': 110, 'pendente_ia': 174, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -100,7 +100,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: SpeedUp - Programa de aceleração do HOTMILK PUCPR — https://hotmilk.pucpr.br/speedup
 - pendente_leitura: Missão Empresarial Espanha 2026 — https://hotsites.fecomercio-rs.org.br/missao-espanha
 - pendente_leitura: edital nº 01/2026 – processo seletivo para ingresso no — https://hotsites.oceanbrasil.com/ocean-launch/Edital_Ocean_Launch_2026_1.pdf
-- pendente_ia: Desafíos - APTA - Andes Pacific Technology Access — https://hubapta.com/desafios
+- pendente_leitura: Desafíos - APTA - Andes Pacific Technology Access — https://hubapta.com/desafios
 - pendente_leitura: 1.Edital_Chamamento_Solucionadoras_Edital 01/2026.docx — https://hubgoias.org/wp-content/uploads/2026/01/1.Edital_Chamamento_Solucionadoras_Edital-01_2026.docx-1.pdf
 - nao_confirmada_no_texto: Sebrae conclui programas anuais de aceleração de startups fortalecendo a inovação — https://ma.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-conclui-programas-anuais-de-aceleracao-de-startups-fortalecendo-a-inovacao
 - confirmada_no_conteudo: Programa de Aceleração para Internacionalização de Startups e Imersão em Dubai — https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/oportunidade-sebrae-minas-abre-editais-para-programa-de-aceleracao-de-startups-na-europa-e-imersao-em-dubai
@@ -198,7 +198,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Porto Digital abre inscrições para Pré-Incubação | Jornal Digital — https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital
   - trecho_oportunidade: Sua ideia pode ser a próxima startup gigante: inscrições abertas para Pré-Incubação do Porto Digital
   - trecho_publico: Sua ideia pode ser a próxima startup gigante: inscrições abertas para Pré-Incubação do Porto Digital
-- pendente_ia: Edital de Seleção - Capital LAB 2026 — https://labcapitalbsb.com/edital
+- pendente_leitura: Edital de Seleção - Capital LAB 2026 — https://labcapitalbsb.com/edital
 - nao_confirmada_no_texto: WOW Aceleradora de Startups Overview — https://leadiq.com/c/wow-aceleradora-de-startups/5a1d9d3e2300005c008d188c/email-format
 - pendente_leitura: Editais de fomento para startups: da ideia ao produto com dinheiro público · Licitário — https://licitario.com.br/fomento/para/startup
 - pendente_leitura: Grupo Equatorial abre inscrições para programa de inovação aberta com POCs remuneradas para startups – Equatorial Energia Maranhão — https://ma.equatorialenergia.com.br/grupo-equatorial-abre-inscricoes-para-programa-de-inovacao-aberta-com-pocs-remuneradas-para-startups
@@ -565,7 +565,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Habitat e Biominas Brasil estão com inscrições abertas para seleção de novas empresas para seu programa de incubação – Biominas Brasil — https://biominas.org.br/habitat-e-biominas-brasil-estao-com-inscricoes-abertas-para-selecao-de-novas-empresas-para-seu-programa-de-incubacao
 - pendente_leitura: Grupo Equatorial abre programa de inovação para startups | Editora Brasil Energia — https://brasilenergia.com.br/energia/empresas/grupo-equatorial-abre-programa-de-inovacao-para-startups
 - fora_escopo: Startup Venture Challenge - CEDE Program for High Schools — https://cedeprogram.com/startupventure
-- pendente_ia: Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ — https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups
+- pendente_leitura: Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ — https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups
 - nao_confirmada_no_texto: Três startups do CRIO são selecionadas para programa de aceleração — https://circulando.net/artigo/tres-startups-do-crio-sao-selecionadas-para-programa-de-aceleracao
 - confirmada_no_conteudo: Brazil Startup Credits: Cloud, AI & Software — https://creditforstartups.com/brazil-startup-credits
   - trecho_oportunidade: Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
@@ -735,7 +735,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_oportunidade: Manifestação de Interesse - SIM Conference - Startup Madeira
   - trecho_publico: Manifestação de Interesse - SIM Conference - Startup Madeira
 - pendente_leitura: Crescer sem perder a alma de startup é desafio para founders - Startups — https://startups.com.br/eventos/web-summit/crescer-sem-perder-a-alma-de-startup-e-desafio-para-founders
-- pendente_ia: Rio.IA - 1º Edital do Programa de Inovação Aberta — https://videos.ecoa.puc-rio.br/rioia-1o-edital-do-programa-de-inovacao-aberta
+- pendente_leitura: Rio.IA - 1º Edital do Programa de Inovação Aberta — https://videos.ecoa.puc-rio.br/rioia-1o-edital-do-programa-de-inovacao-aberta
 - pendente_leitura: BNDES Garagem tem inscrições abertas até sexta-feira, 12 de maio - ACATE — https://www.acate.com.br/noticias/bndes-garagem-inscricoes
 - nao_confirmada_no_texto: Stanford e Fundação Lemann discutem os desafios da educação — https://www.estudarfora.org.br/stanford-e-fundacao-lemann-discutem-os-desafios-da-educacao-no-brasil
 - fora_escopo: How to Disable Startup Programs in Windows — https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows
