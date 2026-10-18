@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 245, 'confirmada_no_conteudo': 110, 'pendente_ia': 177, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 244, 'confirmada_no_conteudo': 110, 'pendente_ia': 178, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -161,7 +161,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Darwin Startups abre inscrições para programa de aceleração — https://pesquisaparainovacao.fapesp.br/darwin_startups_abre_inscricoes_para_programa_de_aceleracao/1993
   - trecho_oportunidade: Darwin Startups abre inscrições para programa de aceleração
   - trecho_publico: Darwin Startups abre inscrições para programa de aceleração
-- pendente_leitura: Movimenta Sebrae — https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200
+- pendente_ia: Movimenta Sebrae — https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200
 - confirmada_no_conteudo: Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf
   - trecho_oportunidade: O objetivo é selecionar e apoiar startups com alto potencial de crescimento por meio de ações estruturadas de aceleração e a concessão de até 60 Bolsas de Inovação Tecnológica (BIT), no valor de R$ 3.000,00 cada.
   - trecho_publico: As propostas devem ser apresentadas por startups formalizadas no Ceará, com atuação voltada à inovação.
@@ -214,7 +214,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março
 - pendente_leitura: ITAÚ AÇÕES SELEÇÃO MULTIFUNDOS FUNDO DE INVESTIMEN Fund Holdings - Investing.com NG — https://ng.investing.com/funds/itau-acoes-selecao-multifundos-fund-holdings
 - pendente_leitura: Inscrição para edital de aceleração de startups do Hub GovTech Paraná vai até quinta — https://oesteexpresso.com.br/noticia/33724/inscricao-para-edital-de-aceleracao-de-startups-do-hub-govtech-parana-vai-ate-quinta
-- pendente_leitura: Baita anuncia chamada para aceleração de startups em 2021 - Parque Científico e Tecnológico da Unicamp — https://parque.inova.unicamp.br/baita-anuncia-chamada-para-aceleracao-de-startups-em-2021
+- pendente_ia: Baita anuncia chamada para aceleração de startups em 2021 - Parque Científico e Tecnológico da Unicamp — https://parque.inova.unicamp.br/baita-anuncia-chamada-para-aceleracao-de-startups-em-2021
 - pendente_leitura: O Que É Aceleração de Vendas? Estratégias, Ferramentas & KPIs — https://pipeline.zoominfo.com/sales/top-sales-acceleration-platforms
 - pendente_leitura: Edital 2026 Company Profile: Valuation, Investors, Acquisition | PitchBook — https://pitchbook.com/profiles/company/46778-68
 - pendente_leitura: Uruguay: Cubo Itaú espande hub de fomento en emprendimiento tecnológico | Portal ERP — América Latina — https://portalerp.com/latam/noticia/uruguay-cubo-itau-espande-hub-de-fomento-en-emprendimiento-tecnologico
@@ -304,7 +304,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Citz.tech: programa de aceleração de startups voltado à cidadania e transparência — https://via.ufsc.br/conheca-o-citz-tech
 - pendente_ia: Aceleradora — https://www.2gether-international.org/pt/lac/aceleradora
 - pendente_leitura: Desafios de negócios inovabra hub: participe do programa de inovação que conecta startups a grandes empresas - ACATE — https://www.acate.com.br/blog-da-acate/desafios-de-negocios-inovabra-hub-participe-do-programa-de-inovacao-que-conecta-startups-a-grandes-empresas
-- pendente_ia: Ifac abre chamada para pré-incubação de ideias inovadoras — https://www.acreaovivo.com/noticia/193073/ifac-abre-chamada-para-pre-incubacao-de-ideias-inovadoras
+- pendente_leitura: Ifac abre chamada para pré-incubação de ideias inovadoras — https://www.acreaovivo.com/noticia/193073/ifac-abre-chamada-para-pre-incubacao-de-ideias-inovadoras
 - pendente_ia: O Mercado de Cosméticos no Brasil em 2026: Projeções, Desafios e Oportunidades — https://www.acritica.com/geral/o-mercado-de-cosmeticos-no-brasil-em-2026-projec-es-desafios-e-oportunidades-1.394590
 - pendente_leitura: Empreendedores e startups têm novas portas abertas com editais de fomento à inovação — https://www.agazeta.com.br/geral/inovacao/empreendedores-e-startups-tem-novas-portas-abertas-com-editais-de-fomento-a-inovacao-0126
 - pendente_leitura: Aceleração de startups no Brasil: evidências de impacto do ... — https://www.anpec.org.br/encontro/2025/submissao/files_I/i9-98964da42b5103ff87081adac2d5ea74.pdf
