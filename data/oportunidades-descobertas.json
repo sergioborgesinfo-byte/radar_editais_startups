@@ -1,13 +1,19 @@
 {
-  "executado_em": "2026-10-19T12:33:38.856433+00:00",
-  "consultas_previstas": 0,
+  "executado_em": "2026-10-19T22:07:50.554120+00:00",
+  "consultas_previstas": 24,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-19T12:56:44.445304+00:00",
-  "cursor_consultas": 8,
+  "pausa_ate": "2026-10-20T04:07:50.554120+00:00",
+  "cursor_consultas": 9,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [],
+  "erros": [
+    {
+      "consulta": "aceleradora startups seleção oportunidades Centro Oeste 2026",
+      "tipo": "HTTPError",
+      "http": 432
+    }
+  ],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16477,6 +16483,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-19T20:08:00.838694+00:00"
+  ]
 }
