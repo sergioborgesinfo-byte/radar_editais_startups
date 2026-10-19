@@ -85,7 +85,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Learn about the Founder Institute's pre-seed startup accelerator program — https://fi.co/overview/santa_cruz
 - pendente_leitura: FIEMG Lab | aceleração de startups — https://fiemglab.com.br/tag/aceleracao-de-startups
 - pendente_leitura: Findes promove rodada de negócios exclusiva de startups — https://findes.com.br/findes-promove-rodada-de-negocios-exclusiva-de-startups
-- pendente_leitura: SENAI CHAMADA PÚBLICA C — https://firjan.com.br/data/files/49/80/25/07/BFCCF9106CEF99E919284EA8/boletim_radar_edicao58_agosto_2026.pdf
+- pendente_ia: SENAI CHAMADA PÚBLICA C — https://firjan.com.br/data/files/49/80/25/07/BFCCF9106CEF99E919284EA8/boletim_radar_edicao58_agosto_2026.pdf
 - pendente_leitura: Desafio Start-Ed - Fundação Lemann — https://fundacaolemann.org.br/noticias/desafio-start-ed
 - nao_confirmada_no_texto: 100 startups selecionadas para aceleração no BNDES Garagem 2025 — https://garagem.bndes.gov.br/conteudo/100-startups-selecionadas-para-aceleracao-no-bndes-garagem-2025-impulsionam-economia-verde-e-impacto-social
 - pendente_leitura: Programa de apoio a startups abre inscrições para transformar ideias tecnológicas em grandes empresas - Gazeta da Semana — https://gazetadasemana.com.br/noticia/295227/programa-de-apoio-a-startups-abre-inscricoes-para-transformar-ideias-tecnologicas-em-grandes-empresas
@@ -214,7 +214,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março
 - pendente_leitura: ITAÚ AÇÕES SELEÇÃO MULTIFUNDOS FUNDO DE INVESTIMEN Fund Holdings - Investing.com NG — https://ng.investing.com/funds/itau-acoes-selecao-multifundos-fund-holdings
 - pendente_leitura: Inscrição para edital de aceleração de startups do Hub GovTech Paraná vai até quinta — https://oesteexpresso.com.br/noticia/33724/inscricao-para-edital-de-aceleracao-de-startups-do-hub-govtech-parana-vai-ate-quinta
-- pendente_ia: Baita anuncia chamada para aceleração de startups em 2021 - Parque Científico e Tecnológico da Unicamp — https://parque.inova.unicamp.br/baita-anuncia-chamada-para-aceleracao-de-startups-em-2021
+- pendente_leitura: Baita anuncia chamada para aceleração de startups em 2021 - Parque Científico e Tecnológico da Unicamp — https://parque.inova.unicamp.br/baita-anuncia-chamada-para-aceleracao-de-startups-em-2021
 - pendente_leitura: O Que É Aceleração de Vendas? Estratégias, Ferramentas & KPIs — https://pipeline.zoominfo.com/sales/top-sales-acceleration-platforms
 - pendente_leitura: Edital 2026 Company Profile: Valuation, Investors, Acquisition | PitchBook — https://pitchbook.com/profiles/company/46778-68
 - pendente_leitura: Uruguay: Cubo Itaú espande hub de fomento en emprendimiento tecnológico | Portal ERP — América Latina — https://portalerp.com/latam/noticia/uruguay-cubo-itau-espande-hub-de-fomento-en-emprendimiento-tecnologico
