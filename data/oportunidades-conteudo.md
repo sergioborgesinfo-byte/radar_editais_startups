@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 246, 'confirmada_no_conteudo': 110, 'pendente_ia': 177, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
+{'pendente_leitura': 247, 'confirmada_no_conteudo': 110, 'pendente_ia': 176, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -188,7 +188,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Acelera Vibra — https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas
   - trecho_oportunidade: A iniciativa pretende mobilizar mais de 100 startups e selecionar 17 negócios para uma jornada de aceleração, com capacitações, mentorias, acompanhamento técnico, conexões com o mercado e recursos para o desenvolvimento das soluções.
   - trecho_publico: Poderão participar startups de diferentes setores, desde que apresentem soluções baseadas em tecnologia, conhecimento intensivo e inovação.
-- pendente_ia: Home - Desafio Unicamp — https://inova.unicamp.br/desafio
+- pendente_leitura: Home - Desafio Unicamp — https://inova.unicamp.br/desafio
 - pendente_leitura: CHAMAMENTO PÚBLICO PARA SELEÇÃO DE PROJETOS DE INOVAÇÃO PARA O PROGRAMA STARTUP NORDESTE – PERNAMBUCO | PRÓ-STARTUPS | Portal Inova-e — https://inovae.cofenplay.com.br/oportunidades/chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-pernambuco-pro-startups
 - pendente_leitura: Meta Ventures lança desafio para internacionalização de ... — https://institutocaldeira.org.br/blog/meta-ventures-lanca-desafio-para-internacionalizacao-de-startups
 - confirmada_no_conteudo: Lançamento da Chamada FAPEMIG SEDE 03/2026 – Novo SEED – Parque Tecnológico — https://ipetech.ufla.br/index.php/2026/03/18/lancamento-da-chamada-fapemig-sede-03-2026-novo-seed
