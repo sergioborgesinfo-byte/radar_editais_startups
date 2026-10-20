@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 244, 'confirmada_no_conteudo': 110, 'pendente_ia': 179, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
+{'pendente_leitura': 243, 'confirmada_no_conteudo': 110, 'pendente_ia': 179, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -208,7 +208,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Porto Digital lança editais de incubação e internacionalização de negócios — https://movimentoeconomico.com.br/tecnologia/2026/02/10/porto-digital-lanca-editais-de-incubacao-e-internacionalizacao-de-negocios
 - pendente_leitura: Sebrae/MS abre seleção gratuita para acelerar até 30 startups sul-mato-grossenses | MSConecta — https://msconecta.com.br/noticia/15278/sebrae-ms-abre-selecao-gratuita-para-acelerar-ate-30-startups-sul-mato-grossenses/amp
 - pendente_leitura: Edital Nº 11/2026 - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia — https://multiplicidades.org.br/edital-no-11-2026-programa-fapdf-start-bsb-3o-ciclo-selecao-publica-de-propostas-para-apoio-financeiro-na-modalidade-subvencao-economica-as-startups
-- pendente_leitura: BNDES Garagem: conheça esse programa voltado para as startups – Núcleo de acesso ao crédito — https://nac.cni.com.br/blog/bndes-garagem-conheca-esse-programa-voltado-para-as-startups
+- pendente_evidencia: BNDES Garagem: conheça esse programa voltado para as startups – Núcleo de acesso ao crédito — https://nac.cni.com.br/blog/bndes-garagem-conheca-esse-programa-voltado-para-as-startups
 - confirmada_no_conteudo: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março — https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco
   - trecho_oportunidade: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março
   - trecho_publico: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março
