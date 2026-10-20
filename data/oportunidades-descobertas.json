@@ -1,13 +1,19 @@
 {
-  "executado_em": "2026-10-20T11:08:23.855588+00:00",
-  "consultas_previstas": 0,
+  "executado_em": "2026-10-20T16:33:49.590541+00:00",
+  "consultas_previstas": 24,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-20T13:41:31.844856+00:00",
-  "cursor_consultas": 9,
+  "pausa_ate": "2026-10-20T22:33:49.590541+00:00",
+  "cursor_consultas": 10,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [],
+  "erros": [
+    {
+      "consulta": "edital startups seleção oportunidades 2026",
+      "tipo": "HTTPError",
+      "http": 432
+    }
+  ],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16477,6 +16483,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-20T13:02:54.399012+00:00"
+  ]
 }
