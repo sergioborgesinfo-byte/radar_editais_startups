@@ -1,5 +1,5 @@
 {
-  "__pausa__": "2026-10-21T15:33:40.628334+00:00",
+  "__pausa__": "2026-10-21T22:53:17.708269+00:00",
   "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200": {
     "em": "2026-10-03T20:45:03.485137+00:00",
     "proxima_tentativa": "2026-10-04T20:45:03.485137+00:00",
@@ -133,6 +133,11 @@
   "https://dplnews.com/oracle-programa-startups-brasil-argentina-e-colombia-us-60-mil-creditos-nuvem": {
     "em": "2026-10-17T20:20:31.638575+00:00",
     "proxima_tentativa": "2026-10-18T20:20:31.638575+00:00",
+    "erro": "http_432"
+  },
+  "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas": {
+    "em": "2026-10-21T16:53:17.708269+00:00",
+    "proxima_tentativa": "2026-10-22T16:53:17.708269+00:00",
     "erro": "http_432"
   }
 }
