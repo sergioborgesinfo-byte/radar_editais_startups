@@ -1,13 +1,19 @@
 {
-  "executado_em": "2026-10-21T11:24:22.719314+00:00",
-  "consultas_previstas": 0,
+  "executado_em": "2026-10-21T16:51:14.880686+00:00",
+  "consultas_previstas": 24,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-21T15:33:40.628334+00:00",
-  "cursor_consultas": 10,
+  "pausa_ate": "2026-10-21T22:51:14.880686+00:00",
+  "cursor_consultas": 11,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [],
+  "erros": [
+    {
+      "consulta": "chamada pública subvenção econômica inovação startups 2026",
+      "tipo": "HTTPError",
+      "http": 432
+    }
+  ],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16477,6 +16483,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-21T14:36:06.056779+00:00"
+  ]
 }
