@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-22T16:52:25.234492+00:00",
+  "iniciada_em": "2026-10-22T19:26:39.095705+00:00",
   "status": "falha_parcial",
   "etapas": [
     {
@@ -11,7 +11,7 @@
         "falhas_leitura": 1,
         "chamadas_api_busca": 0
       },
-      "segundos": 5.1
+      "segundos": 13.8
     },
     {
       "nome": "triagem",
@@ -23,30 +23,30 @@
       "nome": "conteudo",
       "status": "falha",
       "tipo": "SystemExit",
-      "segundos": 89.5
+      "segundos": 64.4
     },
     {
       "nome": "fontes",
       "status": "concluida",
       "resultado": {
-        "consultas": 1,
+        "consultas": 0,
         "fontes_encontradas": 0,
         "motivo": "busca_cota_em_pausa"
       },
-      "segundos": 0.2
+      "segundos": 0.0
     },
     {
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 23.6
+      "segundos": 18.8
     }
   ],
   "casos_concluidos_nesta_rodada": 0,
   "concluidos_por_resultado": {},
   "casos_reabertos": 0,
   "saldo_abertas": 0,
-  "finalizada_em": "2026-10-22T16:54:24.050211+00:00",
+  "finalizada_em": "2026-10-22T19:28:16.297875+00:00",
   "houve_avanco": false,
   "ultimo_avanco_em": "2026-10-21T14:38:51.540243+00:00",
   "ia": {
@@ -69,9 +69,9 @@
     },
     "vigencia": {
       "encerrada": 94,
-      "pendente_evidencia": 26,
+      "pendente_evidencia": 25,
       "aberta_confirmada": 12,
-      "pendente_acesso": 7,
+      "pendente_acesso": 8,
       "pendente_fonte_oficial": 18,
       "fora_escopo": 3
     },
