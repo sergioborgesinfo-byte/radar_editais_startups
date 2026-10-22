@@ -1,10 +1,10 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-22T18:23:27.873871-03:00",
+  "atualizado_em": "2026-10-22T19:25:00.375550-03:00",
   "leitura_navegador": {
-    "tentativas": 4,
+    "tentativas": 3,
     "sucessos": 1,
-    "falhas": 3
+    "falhas": 2
   },
   "ia": {
     "chamadas": 1,
@@ -472,7 +472,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-22T18:22:12.444256-03:00"
+      "verificado_em": "2026-10-22T19:24:19.962077-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -844,7 +844,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-22T18:22:11.825998-03:00"
+      "verificado_em": "2026-10-22T19:24:19.370460-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -879,7 +879,7 @@
       "verificado_em": "2026-10-21T11:37:46.792448-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas",
-      "ia_proxima_tentativa": "2026-10-22T01:02:21.065809-03:00",
+      "ia_proxima_tentativa": "2026-10-23T01:24:19.180177-03:00",
       "motivo_ia": "gemini_http_400"
     },
     {
@@ -1059,7 +1059,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-22T18:22:15.750246-03:00"
+      "verificado_em": "2026-10-22T19:24:23.406344-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1099,7 +1099,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-22T18:22:11.849135-03:00"
+      "verificado_em": "2026-10-22T19:24:21.293703-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1108,7 +1108,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-22T18:22:14.770786-03:00"
+      "verificado_em": "2026-10-22T19:24:24.061422-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1183,7 +1183,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-22T18:22:15.864089-03:00"
+      "verificado_em": "2026-10-22T19:24:27.257704-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1217,7 +1217,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-22T18:23:11.815396-03:00"
+      "verificado_em": "2026-10-22T19:24:55.436985-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1256,7 +1256,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-22T18:22:17.828482-03:00"
+      "verificado_em": "2026-10-22T19:24:27.200787-03:00"
     },
     {
       "url": "https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil",
@@ -1299,7 +1299,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-22T18:22:11.652666-03:00"
+      "verificado_em": "2026-10-22T19:24:19.180177-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1320,7 +1320,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-22T18:22:18.995496-03:00"
+      "verificado_em": "2026-10-22T19:24:27.926205-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1449,7 +1449,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-22T18:22:22.271768-03:00"
+      "verificado_em": "2026-10-22T19:24:33.834076-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1480,7 +1480,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-22T18:22:11.652666-03:00"
+      "verificado_em": "2026-10-22T19:24:19.180177-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1542,7 +1542,7 @@
       "sem_data_final": true,
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-21T18:26:54.647353-03:00"
+      "verificado_em": "2026-10-22T19:24:23.218136-03:00"
     },
     {
       "url": "https://inatel.br/startups/documents/edital-fluxo-continuo-maio-2024.pdf",
@@ -1564,7 +1564,7 @@
       "sem_data_final": true,
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-21T18:26:49.304326-03:00"
+      "verificado_em": "2026-10-22T19:24:23.478678-03:00"
     },
     {
       "url": "https://pesquisaparainovacao.fapesp.br/baita_aceleradora_abre_inscricoes_para_a_turma_2022/2294",
@@ -1594,7 +1594,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-22T18:22:11.652666-03:00"
+      "verificado_em": "2026-10-22T19:24:19.180177-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
@@ -1723,7 +1723,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-20T18:25:22.970802-03:00"
+      "verificado_em": "2026-10-22T19:24:21.130188-03:00"
     },
     {
       "url": "https://www.inova.unicamp.br/events/iii-missao-de-startups-brasileiras-ao-dublin-tech-summit",
@@ -1778,7 +1778,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-20T18:30:34.993584-03:00"
+      "verificado_em": "2026-10-22T19:24:34.404140-03:00"
     }
   ],
   "fila_prioritaria": {
