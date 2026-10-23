@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 244, 'confirmada_no_conteudo': 112, 'pendente_ia': 177, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
+{'pendente_leitura': 245, 'confirmada_no_conteudo': 112, 'pendente_ia': 176, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -495,7 +495,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Hub de Inovação do PIT abre inscrições para programa de aceleração e incubação de startups Batch#23 - Anprotec — https://anprotec.org.br/site/2024/02/hub-de-inovacao-do-pit-abre-inscricoes-para-programa-de-aceleracao-e-incubacao-de-startups-batch23
 - pendente_leitura: Porto Digital inicia programa de incubação de startups em ... — https://pt.linkedin.com/pulse/porto-digital-inicia-programa-de-incuba%C3%A7%C3%A3o-v1byf
 - pendente_leitura: IncubaMás I Incubadora de Empresas Management Team | Org Chart — https://rocketreach.co/incubamas-i-incubadora-de-empresas-management_b478772dfc36c08b
-- pendente_ia: Porto Digital abre inscrições para Pré-Incubação de Negócios; saiba como se inscrever - Startupi — https://startupi.com.br/porto-digital-inscricoes-pre-incubacao-negocios
+- pendente_leitura: Porto Digital abre inscrições para Pré-Incubação de Negócios; saiba como se inscrever - Startupi — https://startupi.com.br/porto-digital-inscricoes-pre-incubacao-negocios
 - pendente_leitura: WOW abre inscrições para novo Batch de aceleração - Startups — https://startups.com.br/branded-content/wow-abre-inscricoes-para-novo-batch-de-aceleracao
 - pendente_ia: WOW Aceleradora Portfolio Investments, WOW Aceleradora Funds, WOW Aceleradora Exits — https://www.cbinsights.com/investor/wow-aceleradora
 - pendente_leitura: PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS ... — https://www.instagram.com/p/DYXk4y9jnhe
