@@ -1,5 +1,5 @@
 {
-  "__pausa__": "2026-10-22T22:54:00.190257+00:00",
+  "__pausa__": "2026-10-23T06:53:59.413700+00:00",
   "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200": {
     "em": "2026-10-03T20:45:03.485137+00:00",
     "proxima_tentativa": "2026-10-04T20:45:03.485137+00:00",
@@ -138,6 +138,11 @@
   "https://inatel.br/noticias/inatel-lidera-projeto-de-aceleracao-de-startups-no-sul-de-minas": {
     "em": "2026-10-21T16:53:17.708269+00:00",
     "proxima_tentativa": "2026-10-22T16:53:17.708269+00:00",
+    "erro": "http_432"
+  },
+  "https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil": {
+    "em": "2026-10-23T00:53:59.413700+00:00",
+    "proxima_tentativa": "2026-10-24T00:53:59.413700+00:00",
     "erro": "http_432"
   }
 }
