@@ -8,7 +8,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
   - trecho_oportunidade: torna público que estão abertas as inscrições para a Primeira Chamada de Incubação de Impacto para Startups e convida os interessados a apresentarem seus empreendimentos, observadas as disposições contidas neste Edital.
   - trecho_publico: Poderão participar startups de impacto de base tecnológica com CNPJ ativo há, no máximo, 5 (cinco) anos, contados até a data da inscrição, sediadas no Estado da Paraíba
-- pendente_leitura: ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM — http://www.ciaem.ufu.br/acontece/2016/11/aceleracao-fiemg-lab-startup-abre-inscricoes-para-sua-primeira-jornada
+- pendente_ia: ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM — http://www.ciaem.ufu.br/acontece/2016/11/aceleracao-fiemg-lab-startup-abre-inscricoes-para-sua-primeira-jornada
 - pendente_ia: Programa de aceleração de startups: inovação e ... — http://www.repositorio.ufal.br/bitstream/riufal/7023/3/Programa%20de%20acelera%C3%A7%C3%A3o%20de%20startups%3A%20inova%C3%A7%C3%A3o%20e%20desenvolvimento%20empresarial.pdf
 - pendente_leitura: Gerdau e FIEMG Lab buscam startups para resolver desafios - ABES — https://abes.org.br/en/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios
 - pendente_leitura: Programa de Aceleração de Startups de Impacto na Amazônia — https://aceventures.com.br/coalizao-pelo-impacto
@@ -484,7 +484,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: O HUB Goiás está com inscrições abertas para empreendedores e startups que atuam no setor de impacto socioambiental - Anprotec — https://anprotec.org.br/site/2023/10/o-hub-goias-esta-com-inscricoes-abertas-para-empreendedores-e-startups-que-atuam-no-setor-de-impacto-socioambiental
 - pendente_leitura: Novas associadas, edital de incubação e vagas no ecossistema — https://pt.linkedin.com/pulse/novas-associadas-edital-de-incuba%C3%A7%C3%A3o-e-vagas-ecossistema-rhutf
 - pendente_leitura: Elisabeth Rocha Email & Phone Number | Darwin Startups Especialista de Aceleração Contact Information — https://rocketreach.co/elisabeth-rocha-email_360448025
-- pendente_ia: Inova Startups 2026 abre inscrições e amplia alcance nacional com novo ciclo de aportes - Startupi — https://startupi.com.br/inova-startups-2026-inscricoes
+- pendente_leitura: Inova Startups 2026 abre inscrições e amplia alcance nacional com novo ciclo de aportes - Startupi — https://startupi.com.br/inova-startups-2026-inscricoes
 - pendente_leitura: Sebrae abre inscrições para programa de aceleração em IA para micro e pequenas empresas - Startups — https://startups.com.br/branded-content/sebrae-abre-inscricoes-para-programa-de-aceleracao-em-ia-para-micro-e-pequenas-empresas
 - pendente_ia: Aster Aceleradora Portfolio Investments, Aster Aceleradora Funds, Aster Aceleradora Exits — https://www.cbinsights.com/investor/aster-aceleradora
 - pendente_leitura: Programa Nacional Conexão Startup Indústria — https://www.facebook.com/startupindustria

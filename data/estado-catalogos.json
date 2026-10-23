@@ -1,15 +1,14 @@
 {
-  "cursor": 12,
-  "em": "2026-10-23T15:35:21.167957+00:00",
+  "cursor": 14,
+  "em": "2026-10-23T16:55:21.826168+00:00",
   "consultadas": [
     {
-      "url": "https://fapemig.br/pt/chamadas/",
+      "url": "https://fapesc.sc.gov.br/editais/",
       "status": "lida"
     },
     {
-      "url": "https://www.faperj.br/?id=16",
-      "status": "pendente",
-      "tipo": "HTTPError"
+      "url": "https://fapes.es.gov.br/editais",
+      "status": "lida"
     }
   ]
 }
