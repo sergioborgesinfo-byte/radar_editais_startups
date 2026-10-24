@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 246, 'confirmada_no_conteudo': 112, 'pendente_ia': 175, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
+{'pendente_leitura': 245, 'confirmada_no_conteudo': 112, 'pendente_ia': 176, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -573,7 +573,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_oportunidade: Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
   - trecho_publico: Built for Brazilian founders. Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
 - pendente_leitura: Sebrae tem programa para acelerar startups - Diário dos Campos — https://dcmais.com.br/brasil/sebrae-tem-programa-para-acelerar-startups
-- pendente_leitura: Startup Challenge Parque Arauco | Desafíos Abiertos | Dirección General de Investigación Innovación y Desarrollo — https://dgiie.usm.cl/concursos/startup-challenge-desafios-abiertos
+- pendente_ia: Startup Challenge Parque Arauco | Desafíos Abiertos | Dirección General de Investigación Innovación y Desarrollo — https://dgiie.usm.cl/concursos/startup-challenge-desafios-abiertos
 - pendente_leitura: Startups goianas são selecionadas para programa nacional - Empreender em Goiás — https://empreenderemgoias.com.br/2026/05/18/startups-goianas-sao-selecionadas-para-programa-nacional
 - pendente_ia: StartUp Challenge: abren convocatoria para emprendimientos de energías renovables — https://es-us.finanzas.yahoo.com/noticias/startup-challenge-abren-convocatoria-emprendimientos-181500905.html
 - pendente_leitura: Startups incubadas no Senac são selecionadas para programa de aceleração | Faculdade Senac Pernambuco — https://faculdadesenacpe.edu.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao
