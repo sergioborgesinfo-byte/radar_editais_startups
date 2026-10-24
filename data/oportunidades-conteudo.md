@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 245, 'confirmada_no_conteudo': 112, 'pendente_ia': 176, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
+{'pendente_leitura': 246, 'confirmada_no_conteudo': 112, 'pendente_ia': 175, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -303,7 +303,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_evidencia: Oracle lança programa de créditos em nuvem para startups na América Latina - Times Brasil | CNBC — https://timesbrasil.com.br/empresas-e-negocios/startups/oracle-programa-creditos-nuvem-startups-america-latina
 - pendente_leitura: Natura abre inscrições para aceleração de startups de beleza na América Latina — https://tvsimbrasil.com.br/negocios/natura-abre-inscricoes-para-aceleracao-de-startups-de-beleza-na-america-latina-1781162123
 - pendente_evidencia: Aceleração | GBV — https://ventures.grupoboticario.com.br/aceleracao
-- pendente_ia: Citz.tech: programa de aceleração de startups voltado à cidadania e transparência — https://via.ufsc.br/conheca-o-citz-tech
+- pendente_leitura: Citz.tech: programa de aceleração de startups voltado à cidadania e transparência — https://via.ufsc.br/conheca-o-citz-tech
 - pendente_ia: Aceleradora — https://www.2gether-international.org/pt/lac/aceleradora
 - pendente_leitura: Desafios de negócios inovabra hub: participe do programa de inovação que conecta startups a grandes empresas - ACATE — https://www.acate.com.br/blog-da-acate/desafios-de-negocios-inovabra-hub-participe-do-programa-de-inovacao-que-conecta-startups-a-grandes-empresas
 - pendente_ia: Ifac abre chamada para pré-incubação de ideias inovadoras — https://www.acreaovivo.com/noticia/193073/ifac-abre-chamada-para-pre-incubacao-de-ideias-inovadoras
