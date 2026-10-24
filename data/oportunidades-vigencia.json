@@ -1,10 +1,10 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-23T19:34:30.710391-03:00",
+  "atualizado_em": "2026-10-23T22:06:21.549000-03:00",
   "leitura_navegador": {
-    "tentativas": 4,
+    "tentativas": 3,
     "sucessos": 1,
-    "falhas": 3
+    "falhas": 2
   },
   "ia": {
     "chamadas": 1,
@@ -472,7 +472,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-23T19:34:15.669196-03:00"
+      "verificado_em": "2026-10-23T22:05:59.516409-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -563,7 +563,7 @@
       "verificado_em": "2026-10-23T12:37:03.371720-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://cloud.google.com/startup/benefits?hl=pt-BR",
-      "ia_proxima_tentativa": "2026-10-23T19:57:38.614001-03:00",
+      "ia_proxima_tentativa": "2026-10-24T04:05:58.575547-03:00",
       "motivo_ia": "gemini_http_400"
     },
     {
@@ -844,7 +844,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-23T19:34:15.093898-03:00"
+      "verificado_em": "2026-10-23T22:05:58.792149-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -1055,11 +1055,11 @@
     {
       "url": "https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul",
       "titulo": "BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale",
-      "status": "pendente_acesso",
-      "motivo": "fonte_oficial_indisponivel",
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-23T19:34:19.692604-03:00"
+      "verificado_em": "2026-10-23T22:06:02.756605-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1099,7 +1099,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-23T19:34:15.841258-03:00"
+      "verificado_em": "2026-10-23T22:05:58.594586-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1108,7 +1108,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-23T19:34:18.691730-03:00"
+      "verificado_em": "2026-10-23T22:06:01.481680-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1183,7 +1183,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-23T19:34:23.253696-03:00"
+      "verificado_em": "2026-10-23T22:06:03.720125-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1217,7 +1217,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-23T19:34:24.154757-03:00"
+      "verificado_em": "2026-10-23T22:06:04.805386-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1296,7 +1296,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-23T19:34:14.917249-03:00"
+      "verificado_em": "2026-10-23T22:05:58.575547-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1317,7 +1317,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-23T19:34:23.282342-03:00"
+      "verificado_em": "2026-10-23T22:06:04.789215-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1446,7 +1446,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-23T19:34:28.487507-03:00"
+      "verificado_em": "2026-10-23T22:06:09.354324-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1477,7 +1477,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-23T19:34:14.917249-03:00"
+      "verificado_em": "2026-10-23T22:05:58.575547-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1591,7 +1591,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-23T19:34:14.917249-03:00"
+      "verificado_em": "2026-10-23T22:05:58.575547-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
