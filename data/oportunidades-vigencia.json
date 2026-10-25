@@ -1,10 +1,10 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-25T18:54:48.734000-03:00",
+  "atualizado_em": "2026-10-25T20:40:17.492009-03:00",
   "leitura_navegador": {
-    "tentativas": 5,
+    "tentativas": 3,
     "sucessos": 1,
-    "falhas": 4
+    "falhas": 2
   },
   "ia": {
     "chamadas": 1,
@@ -472,7 +472,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-25T18:53:36.088000-03:00"
+      "verificado_em": "2026-10-25T20:39:28.923643-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -563,7 +563,7 @@
       "verificado_em": "2026-10-25T12:48:46.192181-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://cloud.google.com/startup/benefits?hl=pt-BR",
-      "ia_proxima_tentativa": "2026-10-25T19:44:59.808287-03:00",
+      "ia_proxima_tentativa": "2026-10-26T02:39:28.093195-03:00",
       "motivo_ia": "gemini_http_400"
     },
     {
@@ -844,7 +844,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-25T18:53:35.310280-03:00"
+      "verificado_em": "2026-10-25T20:39:28.281633-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -1059,7 +1059,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-25T18:53:39.827481-03:00"
+      "verificado_em": "2026-10-25T20:39:32.045739-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1099,7 +1099,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-25T18:53:35.292227-03:00"
+      "verificado_em": "2026-10-25T20:39:28.277368-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1108,7 +1108,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-25T18:53:37.944336-03:00"
+      "verificado_em": "2026-10-25T20:39:31.143667-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1179,12 +1179,11 @@
       "status": "pendente_acesso",
       "motivo": "fonte_oficial_indisponivel",
       "fontes_consultadas": [
-        "https://portodigital.org/",
-        "https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao"
+        "https://app.portodigital.org/publico/121/desafio"
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-25T18:54:43.592798-03:00"
+      "verificado_em": "2026-10-25T20:39:32.804389-03:00"
     },
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
@@ -1218,7 +1217,7 @@
       ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-25T18:53:40.945555-03:00"
+      "verificado_em": "2026-10-25T20:39:35.343118-03:00"
     },
     {
       "url": "https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao",
@@ -1297,7 +1296,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-25T18:53:35.074048-03:00"
+      "verificado_em": "2026-10-25T20:39:28.093195-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1318,7 +1317,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-25T18:54:17.255534-03:00"
+      "verificado_em": "2026-10-25T20:40:06.719319-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1447,7 +1446,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-25T18:53:47.528945-03:00"
+      "verificado_em": "2026-10-25T20:39:37.292319-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1478,7 +1477,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-25T18:53:35.074048-03:00"
+      "verificado_em": "2026-10-25T20:39:28.093195-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1592,7 +1591,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-25T18:53:35.074048-03:00"
+      "verificado_em": "2026-10-25T20:39:28.093195-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
@@ -1754,7 +1753,7 @@
       "motivo": "localizar_fonte_primaria",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-23T19:34:22.222775-03:00"
+      "verificado_em": "2026-10-25T20:39:31.033648-03:00"
     },
     {
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/incubadora-de-startups-da-bioeconomia-amazonica-e-lancada-no-para",
