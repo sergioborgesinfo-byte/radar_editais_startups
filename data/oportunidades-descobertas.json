@@ -1,19 +1,13 @@
 {
-  "executado_em": "2026-10-25T15:46:25.600537+00:00",
-  "consultas_previstas": 24,
+  "executado_em": "2026-10-25T20:34:12.929832+00:00",
+  "consultas_previstas": 0,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-25T21:46:25.600537+00:00",
+  "pausa_ate": "2026-10-25T21:48:41.550980+00:00",
   "cursor_consultas": 14,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [
-    {
-      "consulta": "edital fomento inovação fundação de amparo à pesquisa startups 2026",
-      "tipo": "HTTPError",
-      "http": 432
-    }
-  ],
+  "erros": [],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16483,6 +16477,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-25T19:17:51.333098+00:00"
+  ]
 }
