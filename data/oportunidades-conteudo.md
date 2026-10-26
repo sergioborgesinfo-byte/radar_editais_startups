@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 241, 'confirmada_no_conteudo': 113, 'pendente_ia': 178, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 240, 'confirmada_no_conteudo': 113, 'pendente_ia': 179, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -486,7 +486,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: O HUB Goiás está com inscrições abertas para empreendedores e startups que atuam no setor de impacto socioambiental - Anprotec — https://anprotec.org.br/site/2023/10/o-hub-goias-esta-com-inscricoes-abertas-para-empreendedores-e-startups-que-atuam-no-setor-de-impacto-socioambiental
 - pendente_leitura: Novas associadas, edital de incubação e vagas no ecossistema — https://pt.linkedin.com/pulse/novas-associadas-edital-de-incuba%C3%A7%C3%A3o-e-vagas-ecossistema-rhutf
 - pendente_leitura: Elisabeth Rocha Email & Phone Number | Darwin Startups Especialista de Aceleração Contact Information — https://rocketreach.co/elisabeth-rocha-email_360448025
-- pendente_leitura: Inova Startups 2026 abre inscrições e amplia alcance nacional com novo ciclo de aportes - Startupi — https://startupi.com.br/inova-startups-2026-inscricoes
+- pendente_ia: Inova Startups 2026 abre inscrições e amplia alcance nacional com novo ciclo de aportes - Startupi — https://startupi.com.br/inova-startups-2026-inscricoes
 - pendente_leitura: Sebrae abre inscrições para programa de aceleração em IA para micro e pequenas empresas - Startups — https://startups.com.br/branded-content/sebrae-abre-inscricoes-para-programa-de-aceleracao-em-ia-para-micro-e-pequenas-empresas
 - pendente_ia: Aster Aceleradora Portfolio Investments, Aster Aceleradora Funds, Aster Aceleradora Exits — https://www.cbinsights.com/investor/aster-aceleradora
 - pendente_leitura: Programa Nacional Conexão Startup Indústria — https://www.facebook.com/startupindustria
