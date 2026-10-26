@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 242, 'confirmada_no_conteudo': 113, 'pendente_ia': 177, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 241, 'confirmada_no_conteudo': 113, 'pendente_ia': 178, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -202,7 +202,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Porto Digital abre inscrições para Pré-Incubação | Jornal Digital — https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital
   - trecho_oportunidade: Sua ideia pode ser a próxima startup gigante: inscrições abertas para Pré-Incubação do Porto Digital
   - trecho_publico: Sua ideia pode ser a próxima startup gigante: inscrições abertas para Pré-Incubação do Porto Digital
-- pendente_leitura: Edital de Seleção - Capital LAB 2026 — https://labcapitalbsb.com/edital
+- pendente_ia: Edital de Seleção - Capital LAB 2026 — https://labcapitalbsb.com/edital
 - nao_confirmada_no_texto: WOW Aceleradora de Startups Overview — https://leadiq.com/c/wow-aceleradora-de-startups/5a1d9d3e2300005c008d188c/email-format
 - pendente_leitura: Editais de fomento para startups: da ideia ao produto com dinheiro público · Licitário — https://licitario.com.br/fomento/para/startup
 - pendente_leitura: Grupo Equatorial abre inscrições para programa de inovação aberta com POCs remuneradas para startups – Equatorial Energia Maranhão — https://ma.equatorialenergia.com.br/grupo-equatorial-abre-inscricoes-para-programa-de-inovacao-aberta-com-pocs-remuneradas-para-startups
@@ -555,7 +555,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_oportunidade: Grandes empresas de diferentes setores da economia estão em busca de soluções inovadoras para desafios reais dos negócios, e startups de todo o país podem participar dessa conexão.
   - trecho_publico: Grandes empresas de diferentes setores da economia estão em busca de soluções inovadoras para desafios reais dos negócios, e startups de todo o país podem participar dessa conexão.
 - pendente_ia: BRAVI 2026 | Leve sua Agrifoodtech para a Itália — https://programas.sebraestartups.com.br/in/bravi
-- pendente_ia: Aceleração de Startups — PTIn · PTIn — https://ptin.pontapora.ms.gov.br/pagina/aceleracao
+- pendente_leitura: Aceleração de Startups — PTIn · PTIn — https://ptin.pontapora.ms.gov.br/pagina/aceleracao
 - pendente_ia: Sebrae Roraima lança programa para acelerar startups e fortalecer ecossistema de inovação no estado | ASN Roraima - Agência Sebrae de Notícias — https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-roraima-lanca-programa-para-acelerar-startups-e-fortalecer-ecossistema-de-inovacao-no-estado
 - confirmada_no_conteudo: Programa vai acelerar 400 startups neste primeiro semestre — https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre
   - trecho_oportunidade: O programa InovAtiva Brasil vai selecionar 400 startups tecnológicas com soluções inovadoras de todo o país para o ciclo de aceleração 2021.1, que acontecerá de forma virtual e gratuita entre abril e agosto deste ano.
@@ -569,7 +569,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Habitat e Biominas Brasil estão com inscrições abertas para seleção de novas empresas para seu programa de incubação – Biominas Brasil — https://biominas.org.br/habitat-e-biominas-brasil-estao-com-inscricoes-abertas-para-selecao-de-novas-empresas-para-seu-programa-de-incubacao
 - pendente_leitura: Grupo Equatorial abre programa de inovação para startups | Editora Brasil Energia — https://brasilenergia.com.br/energia/empresas/grupo-equatorial-abre-programa-de-inovacao-para-startups
 - fora_escopo: Startup Venture Challenge - CEDE Program for High Schools — https://cedeprogram.com/startupventure
-- pendente_leitura: Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ — https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups
+- pendente_ia: Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ — https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups
 - nao_confirmada_no_texto: Três startups do CRIO são selecionadas para programa de aceleração — https://circulando.net/artigo/tres-startups-do-crio-sao-selecionadas-para-programa-de-aceleracao
 - confirmada_no_conteudo: Brazil Startup Credits: Cloud, AI & Software — https://creditforstartups.com/brazil-startup-credits
   - trecho_oportunidade: Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
