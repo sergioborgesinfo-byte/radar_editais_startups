@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 244, 'confirmada_no_conteudo': 113, 'pendente_ia': 175, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 243, 'confirmada_no_conteudo': 113, 'pendente_ia': 176, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -606,7 +606,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Desafio para startups abre oportunidade para projetos de inovação - Pequenas Empresas Grandes Negócios | Startups — https://revistapegn.globo.com/Startups/noticia/2018/06/petrobras-lanca-desafio-para-startups-e-abre-oportunidade-para-projetos-de-inovacao.html
   - trecho_oportunidade: A partir do próximo dia 19, estarão abertas as inscrições para o “Desafio de Startups Petrobras Distribuidora” , uma seleção pública de empresas em estágio inicial que apresentem soluções inovadoras para os segmentos de atuação da companhia, a partir de três vertentes: Mobilidade para Pessoas, Mobilidade para Negócios e Sustentabilidade.
   - trecho_publico: A partir do próximo dia 19, estarão abertas as inscrições para o “Desafio de Startups Petrobras Distribuidora” , uma seleção pública de empresas em estágio inicial que apresentem soluções inovadoras para os segmentos de atuação da companhia, a partir de três vertentes: Mobilidade para Pessoas, Mobilidade para Negócios e Sustentabilidade.
-- pendente_leitura: Desafios e oportunidades LinkLab — https://sc.acate.com.br/linklab-todos-desafios-abertos
+- pendente_ia: Desafios e oportunidades LinkLab — https://sc.acate.com.br/linklab-todos-desafios-abertos
 - pendente_leitura: Biotic seleciona startups para programa de ativação e aceleração no DF - SINFOR/DF — https://sinfor.org.br/biotic-seleciona-startups-programa-ativacao-multiplicidades-df
 - pendente_leitura: BlackRocks abre inscrições para nova turma da aceleração Grow Startups - Startups — https://startups.com.br/negocios/blackrocks-abre-inscricoes-para-nova-turma-da-aceleracao-grow-startups
 - pendente_ia: Programa de Pré-incubação Empreendedora com Sebrae Sergipe – Tiradentes Innovation Center — https://tiradentesinnovation.com/cursos_e_eventos/programa-de-pre-incubacao-empreendedora-com-sebrae-sergipe
