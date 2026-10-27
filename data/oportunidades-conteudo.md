@@ -122,7 +122,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: PROGRAMA NACIONAL CONEXÃO STARTUP INDÚSTRIA — https://repositorio.ipea.gov.br/bitstreams/fca4836e-7dc0-43fb-8d6d-9c809c7bfad8/download
 - nao_confirmada_no_texto: Programa Acelera Startup SC anuncia 20 premiadas com investimento de cerca de R$ 1,6 milhão no Startup Summit 2026 — https://sc.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-startup-sc-anuncia-20-premiadas-com-investimento-de-cerca-de-r-16-milhao-no-startup-summit-2026
 - pendente_ia: Boletim de Editais eAções de Fomento aos — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/boletim-de-inova%C3%A7%C3%A3o/Boletim%20de%20inova%C3%A7%C3%A3o%20-%20Maio%202026.pdf
-- pendente_ia: Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia — https://sict.rs.gov.br/edital-sict-02-2026
+- pendente_leitura: Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia — https://sict.rs.gov.br/edital-sict-02-2026
 - pendente_leitura: Aceleração de startups no Brasil: evidências de impacto do ... — https://web.bndes.gov.br/bib/jspui/bitstream/1408/29307/1/PRArt_216962_RAE%20n.%2022_Acelera%C3%A7%C3%A3o%20de%20startups%20no%20Brasil.pdf
 - pendente_leitura: Aceleração de Startups – educação empreendedora – Banco do Nordeste - Portal Banco do Nordeste — https://www.bnb.gov.br/hub-de-inovacao/aceleracao-de-startups
 - pendente_leitura: SEI/GDF - 207047077 - Edital — https://www.fap.df.gov.br/documents/d/fap/sei_gdf-207047077-edital-n-11-2026-programa-fapdf-start-bsb-3-ciclo-pdf
@@ -305,7 +305,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_evidencia: Oracle lança programa de créditos em nuvem para startups na América Latina - Times Brasil | CNBC — https://timesbrasil.com.br/empresas-e-negocios/startups/oracle-programa-creditos-nuvem-startups-america-latina
 - pendente_leitura: Natura abre inscrições para aceleração de startups de beleza na América Latina — https://tvsimbrasil.com.br/negocios/natura-abre-inscricoes-para-aceleracao-de-startups-de-beleza-na-america-latina-1781162123
 - pendente_evidencia: Aceleração | GBV — https://ventures.grupoboticario.com.br/aceleracao
-- pendente_leitura: Citz.tech: programa de aceleração de startups voltado à cidadania e transparência — https://via.ufsc.br/conheca-o-citz-tech
+- pendente_ia: Citz.tech: programa de aceleração de startups voltado à cidadania e transparência — https://via.ufsc.br/conheca-o-citz-tech
 - pendente_ia: Aceleradora — https://www.2gether-international.org/pt/lac/aceleradora
 - pendente_evidencia: Desafios de negócios inovabra hub: participe do programa de inovação que conecta startups a grandes empresas - ACATE — https://www.acate.com.br/blog-da-acate/desafios-de-negocios-inovabra-hub-participe-do-programa-de-inovacao-que-conecta-startups-a-grandes-empresas
 - pendente_ia: Ifac abre chamada para pré-incubação de ideias inovadoras — https://www.acreaovivo.com/noticia/193073/ifac-abre-chamada-para-pre-incubacao-de-ideias-inovadoras
