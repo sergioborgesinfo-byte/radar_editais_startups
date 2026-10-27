@@ -1,8 +1,8 @@
 {
-  "executado_em": "2026-10-27T01:52:36.028113+00:00",
+  "executado_em": "2026-10-27T11:48:32.283772+00:00",
   "consultas_previstas": 0,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-27T04:28:34.654600+00:00",
+  "pausa_ate": "2026-10-27T14:03:26.177215+00:00",
   "cursor_consultas": 15,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
@@ -16477,6 +16477,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-27T08:02:15.832285+00:00"
+  ]
 }
