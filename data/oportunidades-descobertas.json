@@ -1,19 +1,13 @@
 {
-  "executado_em": "2026-10-26T22:26:03.776752+00:00",
-  "consultas_previstas": 24,
+  "executado_em": "2026-10-27T01:52:36.028113+00:00",
+  "consultas_previstas": 0,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-27T04:26:03.776752+00:00",
+  "pausa_ate": "2026-10-27T04:28:34.654600+00:00",
   "cursor_consultas": 15,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [
-    {
-      "consulta": "programa de aceleração startups seleção oportunidades 2026",
-      "tipo": "HTTPError",
-      "http": 432
-    }
-  ],
+  "erros": [],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16483,6 +16477,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-26T23:24:09.525278+00:00"
+  ]
 }
