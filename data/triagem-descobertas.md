@@ -2,7 +2,7 @@
 
 Classificação preliminar por título e URL. Não comprova elegibilidade ou inscrições abertas. Nenhum candidato foi apagado.
 
-1424 links recebidos; 1422 páginas após agrupar 2 duplicações de URL.
+1425 links recebidos; 1423 páginas após agrupar 2 duplicações de URL.
 
 52 páginas individuais do catálogo Sebrae encontradas.
 
@@ -567,7 +567,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Startup Summit 2026](https://www.startupsummit.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [WOW Aceleradora: Aceleração de Startup e Investidores](https://www.wow.ac/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 
-## revisar_contexto: 861
+## revisar_contexto: 862
 
 - [Programa Desafía | España Digital 2026](http://espanadigital.gob.es/lineas-de-actuacion/programa-desafia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [BNDES Garagem - BNDES](http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1430,6 +1430,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Cubo: Employee Directory | ZoomInfo.com](https://www.zoominfo.com/pic/cubo/431092358) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Gerdau e FIEMG Lab apresentam resultados do programa de inovação aberta | Gerdau Brasil](https://www2.gerdau.com.br/noticias/gerdau-e-fiemg-lab-apresentam-resultados-do-programa-de-inovacao-aberta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Anprotec (@Anprotec) / X](https://x.com/Anprotec) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-3a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
 ## fora_escopo: 6
 
