@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 239, 'confirmada_no_conteudo': 113, 'pendente_ia': 180, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 237, 'confirmada_no_conteudo': 113, 'pendente_ia': 182, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -25,7 +25,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Incubação 2025.2 - Recife — https://app.portodigital.org/publico/84/desafio
 - pendente_ia: Editais de Pré-Incubação e Incubação de Startups :: Aquário de Ideias — https://aquariounesp.com.br/editalstartup
 - pendente_ia: Resultado da Seleção – Programa Santander USP – Criação de Startups 2026 – Agência USP de Inovação — https://auspin.usp.br/bolsastartupusp2026
-- pendente_leitura: Aceleração de Startups no Brasil: o guia 2026 | Baita Aceleradora — https://baita.ac/aceleracao-de-startups
+- pendente_ia: Aceleração de Startups no Brasil: o guia 2026 | Baita Aceleradora — https://baita.ac/aceleracao-de-startups
 - confirmada_no_conteudo: Edital Granioter Acelera 2026 — https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil
   - trecho_oportunidade: O Granioter Acelera 2026 é um programa de pré-aceleração realizado pelo Granioter-MCTI/CDTN com o apoio da Biominas Brasil, voltado para pesquisadores, startups e spin-offs que desejam desenvolver competências empreendedoras, validar soluções tecnológicas e ampliar sua preparação para inserção no mercado.
   - trecho_publico: O Granioter Acelera 2026 é um programa de pré-aceleração realizado pelo Granioter-MCTI/CDTN com o apoio da Biominas Brasil, voltado para pesquisadores, startups e spin-offs que desejam desenvolver competências empreendedoras, validar soluções tecnológicas e ampliar sua preparação para inserção no mercado.
@@ -66,7 +66,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: PROGRAMA DE INVESTIMENTO EM STARTUPS INOVA – 5ª Edição — https://ecti.ac.gov.br/editais/programa-de-investimento-em-startups-inova-5a-edicao
   - trecho_oportunidade: Sua startup pode receber até R$ 750 mil em investimento! O Inova Startups 5ª edição – 2026, realizado pelo Sebrae em parceria com grandes players do mercado, está com inscrições abertas até 23 de novembro de 2025. O programa oferece uma jornada completa de aceleração, mentorias exclusivas e acesso a investidores
   - trecho_publico: para startups inovadoras e escaláveis em todo o Brasil. Se sua empresa já validou produtos/serviços, possui faturamento recorrente e busca captação Anjo ou Pre-seed, essa é a oportunidade de levar seu negócio para o próximo nível.
-- pendente_leitura: Aceleração 1 – Editais — https://editais.hubgovtechpr.org.br/aceleracao1
+- pendente_ia: Aceleração 1 – Editais — https://editais.hubgovtechpr.org.br/aceleracao1
 - pendente_leitura: Aceleradoras: editais e oportunidades abertas no Brasil | Editais do Brasil — https://editaisdobrasil.com/oportunidades/aceleradoras
 - nao_confirmada_no_texto: ACE Startups: Aceleradora de Inovação no Brasil — https://eliascury.com.br/glossario/ace-startups-aceleradora-inovacao-brasil
 - confirmada_no_conteudo: Programa de aceleração para startups do Nordeste abre inscrições — https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml
