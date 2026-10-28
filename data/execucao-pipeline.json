@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-10-28T15:29:17.665320+00:00",
+  "iniciada_em": "2026-10-28T20:29:44.920839+00:00",
   "status": "falha_parcial",
   "etapas": [
     {
@@ -8,48 +8,46 @@
       "resultado": {
         "fontes_visitadas": 2,
         "candidatos_novos": 0,
-        "falhas_leitura": 0,
+        "falhas_leitura": 1,
         "chamadas_api_busca": 0
       },
-      "segundos": 8.0
+      "segundos": 5.6
     },
     {
       "nome": "triagem",
       "status": "concluida",
       "resultado": null,
-      "segundos": 0.0
+      "segundos": 0.1
     },
     {
       "nome": "conteudo",
       "status": "falha",
       "tipo": "SystemExit",
-      "segundos": 70.7
+      "segundos": 85.0
     },
     {
       "nome": "fontes",
       "status": "concluida",
       "resultado": {
-        "consultas": 1,
+        "consultas": 0,
         "fontes_encontradas": 0,
         "motivo": "busca_cota_em_pausa"
       },
-      "segundos": 0.2
+      "segundos": 0.0
     },
     {
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 29.1
+      "segundos": 21.4
     }
   ],
-  "casos_concluidos_nesta_rodada": 1,
-  "concluidos_por_resultado": {
-    "encerrada": 1
-  },
+  "casos_concluidos_nesta_rodada": 0,
+  "concluidos_por_resultado": {},
   "casos_reabertos": 0,
   "saldo_abertas": 0,
-  "finalizada_em": "2026-10-28T15:31:05.707414+00:00",
-  "houve_avanco": true,
+  "finalizada_em": "2026-10-28T20:31:36.956506+00:00",
+  "houve_avanco": false,
   "ultimo_avanco_em": "2026-10-28T15:31:05.707414+00:00",
   "ia": {
     "chamadas": 2,
@@ -62,9 +60,9 @@
   },
   "contagem": {
     "conteudo": {
-      "pendente_leitura": 238,
+      "pendente_leitura": 237,
       "confirmada_no_conteudo": 113,
-      "pendente_ia": 181,
+      "pendente_ia": 182,
       "nao_confirmada_no_texto": 17,
       "pendente_evidencia": 13,
       "fora_escopo": 3
@@ -92,5 +90,5 @@
       }
     }
   },
-  "motivo_sem_avanco": null
+  "motivo_sem_avanco": "aguardando_nova_evidencia_ou_proxima_tentativa"
 }
