@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 238, 'confirmada_no_conteudo': 114, 'pendente_ia': 180, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 245, 'confirmada_no_conteudo': 114, 'pendente_ia': 173, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -66,7 +66,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: PROGRAMA DE INVESTIMENTO EM STARTUPS INOVA – 5ª Edição — https://ecti.ac.gov.br/editais/programa-de-investimento-em-startups-inova-5a-edicao
   - trecho_oportunidade: Sua startup pode receber até R$ 750 mil em investimento! O Inova Startups 5ª edição – 2026, realizado pelo Sebrae em parceria com grandes players do mercado, está com inscrições abertas até 23 de novembro de 2025. O programa oferece uma jornada completa de aceleração, mentorias exclusivas e acesso a investidores
   - trecho_publico: para startups inovadoras e escaláveis em todo o Brasil. Se sua empresa já validou produtos/serviços, possui faturamento recorrente e busca captação Anjo ou Pre-seed, essa é a oportunidade de levar seu negócio para o próximo nível.
-- pendente_ia: Aceleração 1 – Editais — https://editais.hubgovtechpr.org.br/aceleracao1
+- pendente_leitura: Aceleração 1 – Editais — https://editais.hubgovtechpr.org.br/aceleracao1
 - pendente_leitura: Aceleradoras: editais e oportunidades abertas no Brasil | Editais do Brasil — https://editaisdobrasil.com/oportunidades/aceleradoras
 - nao_confirmada_no_texto: ACE Startups: Aceleradora de Inovação no Brasil — https://eliascury.com.br/glossario/ace-startups-aceleradora-inovacao-brasil
 - confirmada_no_conteudo: Programa de aceleração para startups do Nordeste abre inscrições — https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml
@@ -202,7 +202,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: Porto Digital abre inscrições para Pré-Incubação | Jornal Digital — https://jornaldigital.recife.br/2026/02/19/sua-ideia-pode-ser-a-proxima-startup-gigante-inscricoes-abertas-para-pre-incubacao-do-porto-digital
   - trecho_oportunidade: Sua ideia pode ser a próxima startup gigante: inscrições abertas para Pré-Incubação do Porto Digital
   - trecho_publico: Sua ideia pode ser a próxima startup gigante: inscrições abertas para Pré-Incubação do Porto Digital
-- pendente_ia: Edital de Seleção - Capital LAB 2026 — https://labcapitalbsb.com/edital
+- pendente_leitura: Edital de Seleção - Capital LAB 2026 — https://labcapitalbsb.com/edital
 - nao_confirmada_no_texto: WOW Aceleradora de Startups Overview — https://leadiq.com/c/wow-aceleradora-de-startups/5a1d9d3e2300005c008d188c/email-format
 - pendente_leitura: Editais de fomento para startups: da ideia ao produto com dinheiro público · Licitário — https://licitario.com.br/fomento/para/startup
 - pendente_leitura: Grupo Equatorial abre inscrições para programa de inovação aberta com POCs remuneradas para startups – Equatorial Energia Maranhão — https://ma.equatorialenergia.com.br/grupo-equatorial-abre-inscricoes-para-programa-de-inovacao-aberta-com-pocs-remuneradas-para-startups
@@ -211,14 +211,14 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: em qualquer momento as empresas, associações, pessoas físicas, startups, entre outras formalidades jurídicas  interessadas em par ticipar do Programa de Incubação e Aceleração da Incubadora Mamirauá podem submeter suas propostas.
 - pendente_leitura: Porto Digital lança editais de incubação e internacionalização de negócios — https://movimentoeconomico.com.br/tecnologia/2026/02/10/porto-digital-lanca-editais-de-incubacao-e-internacionalizacao-de-negocios
 - pendente_leitura: Sebrae/MS abre seleção gratuita para acelerar até 30 startups sul-mato-grossenses | MSConecta — https://msconecta.com.br/noticia/15278/sebrae-ms-abre-selecao-gratuita-para-acelerar-ate-30-startups-sul-mato-grossenses/amp
-- pendente_ia: Edital Nº 11/2026 - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia — https://multiplicidades.org.br/edital-no-11-2026-programa-fapdf-start-bsb-3o-ciclo-selecao-publica-de-propostas-para-apoio-financeiro-na-modalidade-subvencao-economica-as-startups
+- pendente_leitura: Edital Nº 11/2026 - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia — https://multiplicidades.org.br/edital-no-11-2026-programa-fapdf-start-bsb-3o-ciclo-selecao-publica-de-propostas-para-apoio-financeiro-na-modalidade-subvencao-economica-as-startups
 - pendente_evidencia: BNDES Garagem: conheça esse programa voltado para as startups – Núcleo de acesso ao crédito — https://nac.cni.com.br/blog/bndes-garagem-conheca-esse-programa-voltado-para-as-startups
 - confirmada_no_conteudo: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março — https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco
   - trecho_oportunidade: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março
   - trecho_publico: Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março
 - pendente_leitura: ITAÚ AÇÕES SELEÇÃO MULTIFUNDOS FUNDO DE INVESTIMEN Fund Holdings - Investing.com NG — https://ng.investing.com/funds/itau-acoes-selecao-multifundos-fund-holdings
 - pendente_leitura: Inscrição para edital de aceleração de startups do Hub GovTech Paraná vai até quinta — https://oesteexpresso.com.br/noticia/33724/inscricao-para-edital-de-aceleracao-de-startups-do-hub-govtech-parana-vai-ate-quinta
-- pendente_ia: Baita anuncia chamada para aceleração de startups em 2021 - Parque Científico e Tecnológico da Unicamp — https://parque.inova.unicamp.br/baita-anuncia-chamada-para-aceleracao-de-startups-em-2021
+- pendente_leitura: Baita anuncia chamada para aceleração de startups em 2021 - Parque Científico e Tecnológico da Unicamp — https://parque.inova.unicamp.br/baita-anuncia-chamada-para-aceleracao-de-startups-em-2021
 - pendente_leitura: O Que É Aceleração de Vendas? Estratégias, Ferramentas & KPIs — https://pipeline.zoominfo.com/sales/top-sales-acceleration-platforms
 - pendente_leitura: Edital 2026 Company Profile: Valuation, Investors, Acquisition | PitchBook — https://pitchbook.com/profiles/company/46778-68
 - pendente_leitura: Uruguay: Cubo Itaú espande hub de fomento en emprendimiento tecnológico | Portal ERP — América Latina — https://portalerp.com/latam/noticia/uruguay-cubo-itau-espande-hub-de-fomento-en-emprendimiento-tecnologico
@@ -569,7 +569,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Habitat e Biominas Brasil estão com inscrições abertas para seleção de novas empresas para seu programa de incubação – Biominas Brasil — https://biominas.org.br/habitat-e-biominas-brasil-estao-com-inscricoes-abertas-para-selecao-de-novas-empresas-para-seu-programa-de-incubacao
 - pendente_leitura: Grupo Equatorial abre programa de inovação para startups | Editora Brasil Energia — https://brasilenergia.com.br/energia/empresas/grupo-equatorial-abre-programa-de-inovacao-para-startups
 - fora_escopo: Startup Venture Challenge - CEDE Program for High Schools — https://cedeprogram.com/startupventure
-- pendente_ia: Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ — https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups
+- pendente_leitura: Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ — https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups
 - nao_confirmada_no_texto: Três startups do CRIO são selecionadas para programa de aceleração — https://circulando.net/artigo/tres-startups-do-crio-sao-selecionadas-para-programa-de-aceleracao
 - confirmada_no_conteudo: Brazil Startup Credits: Cloud, AI & Software — https://creditforstartups.com/brazil-startup-credits
   - trecho_oportunidade: Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
@@ -723,7 +723,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Diferenca entre feira congresso summit e rodada de negocios | Notícias - Expo Empreendedor - A Feira oficial do Empreendedor — https://expoempreendedor.com.br/noticias/post/298/diferenca-entre-feira-congresso-summit-e-rodada-de-negocios
 - pendente_ia: EDITAL ABERTO: FAPERJ EDITAL FAPERJ Nº 15/2026 — https://firjan.com.br/data/files/00/00/3B/7C/94D50A106CEF99E919284EA8/boletim_radar_edicao59_setembro_2026.pdf
 - pendente_leitura: Startup Competition South Summit Brazil 2026: Inscrições Abertas - FundMed: Fundação Médica do Rio Grande do Sul - Eventos – Processos Seletivos – Pesquisa Clínica – 51 3332-6840 – contato@fundmed.org.br — https://fundmed.org.br/nscricoes-startup-competition-south-summit-brazil-2026
-- pendente_ia: Programas de Aceleração — https://inovativa.online/aceleracao
+- pendente_leitura: Programas de Aceleração — https://inovativa.online/aceleracao
 - pendente_leitura: Invest.Rio e Maravalley lançam edital para selecionar dez ... — https://jornalaentrevista.com.br/noticia/25732/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026
 - confirmada_no_conteudo: Cotidiano Aceleradora realiza seleção para acelerar Startups | Jornal de Brasília — https://jornaldebrasilia.com.br/brasilia/cotidiano-aceleradora-realiza-selecao-para-acelerar-startups
   - trecho_oportunidade: Com um portifólio de 23 empresas, a aceleradora já teve mais 400 inscrições de projetos de startups.
@@ -778,7 +778,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: InovAtiva 2025: Inscrições abertas para os maiores programas de aceleração de startups do Brasil | Portal Inova-e — https://inovae.cofenplay.com.br/oportunidades/inovativa-2025-inscricoes-abertas-para-os-maiores-programas-de-aceleracao-de-startups-do-brasil
 - pendente_leitura: ACE Ventures e Gener8tor lançam programa para atrair startups dos EUA para o Brasil - IT Forum — https://itforum.com.br/noticias/ace-ventures-gener8tor-startups
 - pendente_leitura: Edital 32/2026 - Desafios.Gov — edital de fomento FACEPE — https://licitario.com.br/fomento/edital-32-2026-desafios-gov-tdz8kb
-- pendente_ia: edital de seleção de projetos e empresas para incubação — https://saudeimpulsiona.com.br/wp-content/uploads/2026/03/Edital_Impulsionasaude-2.pdf
+- pendente_leitura: edital de seleção de projetos e empresas para incubação — https://saudeimpulsiona.com.br/wp-content/uploads/2026/03/Edital_Impulsionasaude-2.pdf
 - pendente_leitura: Guia de programas de aceleração e seleção para construtechs e proptechs - Sienge — https://sienge.com.br/blog/guia-de-programas-de-aceleracao-e-selecao-para-construtechs-e-proptechs
 - pendente_leitura: Fapto lança edital para seleção de startups para participarem de programa de aceleração do InovaFapto  - Tocantins Rural — https://tocantinsrural.com.br/fapto-lanca-edital-para-selecao-de-startups-para-participarem-de-programa-de-aceleracao-do-inovafapto
 - fora_escopo: Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo — https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista
