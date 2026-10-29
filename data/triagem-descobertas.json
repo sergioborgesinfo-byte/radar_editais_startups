@@ -1,11 +1,11 @@
 {
-  "executado_em": "2026-10-29T22:35:00.663435+00:00",
+  "executado_em": "2026-10-29T23:00:26.268876+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
-  "links_recebidos": 1425,
-  "paginas_agrupadas": 1423,
+  "links_recebidos": 1436,
+  "paginas_agrupadas": 1434,
   "duplicacoes_de_url": 2,
   "contagem": {
-    "prioridade_verificacao": 479,
+    "prioridade_verificacao": 490,
     "revisar_contexto": 862,
     "fora_escopo": 6,
     "fonte_catalogo": 76
@@ -14241,6 +14241,116 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://x.com/Anprotec"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "FAPESP — Chamadas",
+      "url": "https://fapesp.br/chamadas/",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/chamadas/"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamadas de Propostas",
+      "url": "https://fapesp.br/2185/chamadas-de-propostas-2026",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/2185/chamadas-de-propostas-2026"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamada de Propostas - Iniciativa Internacional de Pesquisa sobre o Uso de Tecnologias Disruptivas para o Enfrentamento de Desafios Globais (IIDTAC)",
+      "url": "https://fapesp.br/17952",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/17952"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamada de Propostas para o Programa PIPE Jornada Tecnológica Transição Energética – Fase 1",
+      "url": "https://fapesp.br/18291",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/18291"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamada de Programa BIOTA-FAPESP – Biota Síntese e Transformação",
+      "url": "https://fapesp.br/18456",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/18456"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamada de Propostas – Programa Desafios da Amazônia",
+      "url": "https://fapesp.br/18249",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/18249"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamada de Propostas Bolsa Estágio de Pesquisa no Exterior (BEPE) Mestrado",
+      "url": "https://fapesp.br/18417",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/18417"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamada de Propostas Bolsa Estágio de Pesquisa no Exterior (BEPE) Iniciação Científica",
+      "url": "https://fapesp.br/18416",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/18416"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamada Conjunta de Propostas FAPESP / CONFAP / RAMP (Raw Materials Partnership for the Green and Digital Transition)",
+      "url": "https://fapesp.br/18256",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/18256"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Chamada Pesquisa e Desenvolvimento de Plataformas Digitais Baseadas em Software Livre e Protocolos Abertos",
+      "url": "https://fapesp.br/18444",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/18444"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Edital do Programa FICA-SP (Fixação e Incentivo à Carreira Acadêmica em São Paulo)",
+      "url": "https://fapesp.br/18238",
+      "categoria": "prioridade_verificacao",
+      "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
+      "links_equivalentes": [
+        "https://fapesp.br/18238"
       ],
       "vigencia": "nao_avaliada"
     }

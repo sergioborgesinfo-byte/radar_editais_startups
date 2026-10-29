@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-29T19:36:38.718385-03:00",
+  "atualizado_em": "2026-10-29T20:02:27.310574-03:00",
   "leitura_navegador": {
     "tentativas": 2,
     "sucessos": 1,
@@ -12,7 +12,7 @@
     "limite": 20,
     "parada": "gemini_http_400",
     "pendencias_restantes": 52,
-    "casos_com_tentativa_ia": 21,
+    "casos_com_tentativa_ia": 22,
     "resolvidas_automaticamente": 106,
     "revisoes_manuais": 1
   },
@@ -472,7 +472,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-29T19:36:15.278236-03:00"
+      "verificado_em": "2026-10-29T20:02:03.551248-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -585,7 +585,12 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-29T15:41:46.518423-03:00"
+      "verificado_em": "2026-10-29T15:41:46.518423-03:00",
+      "ia_tentada_em": "2026-10-29T20:02:17.820530-03:00",
+      "ia_metodo": "gemini-v8",
+      "ia_fonte": "https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf",
+      "ia_proxima_tentativa": "2026-10-30T02:02:02.491619-03:00",
+      "motivo_ia": "sem_convite"
     },
     {
       "url": "https://novalima.mg.gov.br/inicio/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups",
@@ -839,7 +844,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-29T19:36:14.781983-03:00"
+      "verificado_em": "2026-10-29T20:02:02.871968-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -1050,7 +1055,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-29T19:36:20.279011-03:00"
+      "verificado_em": "2026-10-29T20:02:06.980925-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1090,7 +1095,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-29T19:36:18.716980-03:00"
+      "verificado_em": "2026-10-29T20:02:02.700453-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1099,7 +1104,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-29T19:36:21.450766-03:00"
+      "verificado_em": "2026-10-29T20:02:05.363850-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1289,7 +1294,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-29T19:36:14.268058-03:00"
+      "verificado_em": "2026-10-29T20:02:02.491619-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1310,7 +1315,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-29T19:36:24.201857-03:00"
+      "verificado_em": "2026-10-29T20:02:06.812120-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1439,7 +1444,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-29T19:36:27.400181-03:00"
+      "verificado_em": "2026-10-29T20:02:10.430254-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1470,7 +1475,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-29T19:36:14.268058-03:00"
+      "verificado_em": "2026-10-29T20:02:02.491619-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1584,7 +1589,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-29T19:36:14.268058-03:00"
+      "verificado_em": "2026-10-29T20:02:02.491619-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
@@ -1638,7 +1643,7 @@
       "verificado_em": "2026-10-28T21:19:07.024042-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://news.confap.org.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto",
-      "ia_proxima_tentativa": "2026-10-29T03:18:59.565111-03:00",
+      "ia_proxima_tentativa": "2026-10-30T02:02:02.491619-03:00",
       "motivo_ia": "gemini_http_400"
     },
     {

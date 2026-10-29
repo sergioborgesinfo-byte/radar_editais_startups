@@ -1,17 +1,17 @@
 {
-  "avaliado_em": "2026-10-29T22:36:14.265044+00:00",
-  "links_descobertos": 1423,
-  "paginas_examinadas": 565,
+  "avaliado_em": "2026-10-29T23:02:02.488157+00:00",
+  "links_descobertos": 1434,
+  "paginas_examinadas": 576,
   "status": {
-    "pendente_leitura": 238,
+    "pendente_leitura": 247,
     "confirmada_no_conteudo": 114,
-    "pendente_ia": 180,
+    "pendente_ia": 183,
     "nao_confirmada_no_texto": 17,
-    "pendente_evidencia": 13,
+    "pendente_evidencia": 12,
     "fora_escopo": 3
   },
-  "candidatos_prioritarios": 479,
-  "prioritarios_examinados": 479,
+  "candidatos_prioritarios": 490,
+  "prioritarios_examinados": 490,
   "cobertura_prioritaria": 1.0,
   "dominios_confirmados": 77,
   "caso_mercopar": {

@@ -2,11 +2,11 @@
 
 Classificação preliminar por título e URL. Não comprova elegibilidade ou inscrições abertas. Nenhum candidato foi apagado.
 
-1425 links recebidos; 1423 páginas após agrupar 2 duplicações de URL.
+1436 links recebidos; 1434 páginas após agrupar 2 duplicações de URL.
 
 52 páginas individuais do catálogo Sebrae encontradas.
 
-## prioridade_verificacao: 479
+## prioridade_verificacao: 490
 
 - [Embraer Startup Program](http://embraer.com/corporate-innovation/embraer-startup-program/pt) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...](http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -487,6 +487,17 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Premio](https://www.zoominfo.com/c/premio/546807539) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [InHire - Software de Recrutamento e Seleção Employee Directory](https://www.zoominfo.com/pic/inhire---software-de-recrutamento-e-seleção/1326924840) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Potencia UP LATAM 2026 abre inscrições - 06/07/2026 - Folha Social+ - Folha](https://www1.folha.uol.com.br/folha-social-mais/2026/07/programa-de-aceleracao-abre-inscricoes-para-startups-da-america-latina.shtml) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [FAPESP — Chamadas](https://fapesp.br/chamadas/) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamadas de Propostas](https://fapesp.br/2185/chamadas-de-propostas-2026) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Propostas - Iniciativa Internacional de Pesquisa sobre o Uso de Tecnologias Disruptivas para o Enfrentamento de Desafios Globais (IIDTAC)](https://fapesp.br/17952) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Propostas para o Programa PIPE Jornada Tecnológica Transição Energética – Fase 1](https://fapesp.br/18291) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Programa BIOTA-FAPESP – Biota Síntese e Transformação](https://fapesp.br/18456) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Propostas – Programa Desafios da Amazônia](https://fapesp.br/18249) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Propostas Bolsa Estágio de Pesquisa no Exterior (BEPE) Mestrado](https://fapesp.br/18417) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Propostas Bolsa Estágio de Pesquisa no Exterior (BEPE) Iniciação Científica](https://fapesp.br/18416) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada Conjunta de Propostas FAPESP / CONFAP / RAMP (Raw Materials Partnership for the Green and Digital Transition)](https://fapesp.br/18256) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada Pesquisa e Desenvolvimento de Plataformas Digitais Baseadas em Software Livre e Protocolos Abertos](https://fapesp.br/18444) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Edital do Programa FICA-SP (Fixação e Incentivo à Carreira Acadêmica em São Paulo)](https://fapesp.br/18238) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 
 ## fonte_catalogo: 76
 
