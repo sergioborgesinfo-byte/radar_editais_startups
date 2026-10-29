@@ -1,13 +1,19 @@
 {
-  "executado_em": "2026-10-29T02:13:42.997909+00:00",
-  "consultas_previstas": 0,
+  "executado_em": "2026-10-29T12:31:56.054772+00:00",
+  "consultas_previstas": 24,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-29T04:23:44.603366+00:00",
-  "cursor_consultas": 17,
+  "pausa_ate": "2026-10-29T18:31:56.054772+00:00",
+  "cursor_consultas": 18,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [],
+  "erros": [
+    {
+      "consulta": "edital Sebrae startups inovação 2026",
+      "tipo": "HTTPError",
+      "http": 432
+    }
+  ],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16488,6 +16494,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-29T05:53:26.156409+00:00"
+  ]
 }
