@@ -1,5 +1,5 @@
 {
-  "__pausa__": "2026-10-29T04:23:44.603366+00:00",
+  "__pausa__": "2026-10-29T11:55:33.884143+00:00",
   "https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200": {
     "em": "2026-10-03T20:45:03.485137+00:00",
     "proxima_tentativa": "2026-10-04T20:45:03.485137+00:00",
@@ -158,6 +158,11 @@
   "https://fiemglab.com.br/tag/aceleracao-de-startups": {
     "em": "2026-10-26T07:04:02.564606+00:00",
     "proxima_tentativa": "2026-10-27T07:04:02.564606+00:00",
+    "erro": "http_432"
+  },
+  "https://brasilinovador.com.br/inovativa-brasil-abre-pre-inscricoes-para-o-ciclo-de-aceleracao-2025": {
+    "em": "2026-10-29T05:55:33.884143+00:00",
+    "proxima_tentativa": "2026-10-30T05:55:33.884143+00:00",
     "erro": "http_432"
   }
 }
