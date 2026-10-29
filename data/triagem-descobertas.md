@@ -648,6 +648,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [EIT – inovação e tecnologia | União Europeia](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-institute-innovation-and-technology-eit_pt) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Porto Digital lança quatro programas para negócios em diferentes estágios | Exame](https://exame.com/negocios/porto-digital-abre-120-vagas-para-programas-de-inovacao-e-internacionalizacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [descrição do projeto](https://fap.df.gov.br/documents/10489263/39048189/Microsoft-Word-PLANO-DE-TRABALHO-STARTBSB-281024-159095315.pdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-3a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-018-2026-hubmg-gov-resolucao-de-desafios-publicos-por-meio-de-inovacao-aberta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1430,7 +1431,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Cubo: Employee Directory | ZoomInfo.com](https://www.zoominfo.com/pic/cubo/431092358) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Gerdau e FIEMG Lab apresentam resultados do programa de inovação aberta | Gerdau Brasil](https://www2.gerdau.com.br/noticias/gerdau-e-fiemg-lab-apresentam-resultados-do-programa-de-inovacao-aberta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Anprotec (@Anprotec) / X](https://x.com/Anprotec) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-3a-entrada) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
 ## fora_escopo: 6
 

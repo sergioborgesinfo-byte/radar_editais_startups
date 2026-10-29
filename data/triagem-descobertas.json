@@ -1,5 +1,5 @@
 {
-  "executado_em": "2026-10-29T00:17:36.872317+00:00",
+  "executado_em": "2026-10-29T02:15:10.117155+00:00",
   "metodo": "Triagem preliminar por título e URL; sem leitura integral ou filtro de prazo",
   "links_recebidos": 1425,
   "paginas_agrupadas": 1423,
@@ -1950,6 +1950,16 @@
       "motivo": "Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga",
       "links_equivalentes": [
         "https://fapemig.br/oportunidades/chamadas-e-editais"
+      ],
+      "vigencia": "nao_avaliada"
+    },
+    {
+      "titulo": "Saiba Mais",
+      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-3a-entrada",
+      "categoria": "revisar_contexto",
+      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
+      "links_equivalentes": [
+        "https://fapemig.br/oportunidades/chamadas-e-editais/007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-3a-entrada"
       ],
       "vigencia": "nao_avaliada"
     },
@@ -14231,16 +14241,6 @@
       "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
       "links_equivalentes": [
         "https://x.com/Anprotec"
-      ],
-      "vigencia": "nao_avaliada"
-    },
-    {
-      "titulo": "Saiba Mais",
-      "url": "https://fapemig.br/oportunidades/chamadas-e-editais/007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-3a-entrada",
-      "categoria": "revisar_contexto",
-      "motivo": "Título insuficiente; precisa ler o conteúdo antes de decidir",
-      "links_equivalentes": [
-        "https://fapemig.br/oportunidades/chamadas-e-editais/007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-3a-entrada"
       ],
       "vigencia": "nao_avaliada"
     }

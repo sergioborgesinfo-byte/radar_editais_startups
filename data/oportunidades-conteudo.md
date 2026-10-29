@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 237, 'confirmada_no_conteudo': 113, 'pendente_ia': 182, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 238, 'confirmada_no_conteudo': 114, 'pendente_ia': 180, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -25,7 +25,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Incubação 2025.2 - Recife — https://app.portodigital.org/publico/84/desafio
 - pendente_ia: Editais de Pré-Incubação e Incubação de Startups :: Aquário de Ideias — https://aquariounesp.com.br/editalstartup
 - pendente_leitura: Resultado da Seleção – Programa Santander USP – Criação de Startups 2026 – Agência USP de Inovação — https://auspin.usp.br/bolsastartupusp2026
-- pendente_ia: Aceleração de Startups no Brasil: o guia 2026 | Baita Aceleradora — https://baita.ac/aceleracao-de-startups
+- pendente_leitura: Aceleração de Startups no Brasil: o guia 2026 | Baita Aceleradora — https://baita.ac/aceleracao-de-startups
 - confirmada_no_conteudo: Edital Granioter Acelera 2026 — https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil
   - trecho_oportunidade: O Granioter Acelera 2026 é um programa de pré-aceleração realizado pelo Granioter-MCTI/CDTN com o apoio da Biominas Brasil, voltado para pesquisadores, startups e spin-offs que desejam desenvolver competências empreendedoras, validar soluções tecnológicas e ampliar sua preparação para inserção no mercado.
   - trecho_publico: O Granioter Acelera 2026 é um programa de pré-aceleração realizado pelo Granioter-MCTI/CDTN com o apoio da Biominas Brasil, voltado para pesquisadores, startups e spin-offs que desejam desenvolver competências empreendedoras, validar soluções tecnológicas e ampliar sua preparação para inserção no mercado.
@@ -124,7 +124,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Boletim de Editais eAções de Fomento aos — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/boletim-de-inova%C3%A7%C3%A3o/Boletim%20de%20inova%C3%A7%C3%A3o%20-%20Maio%202026.pdf
 - pendente_ia: Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia — https://sict.rs.gov.br/edital-sict-02-2026
 - pendente_leitura: Aceleração de startups no Brasil: evidências de impacto do ... — https://web.bndes.gov.br/bib/jspui/bitstream/1408/29307/1/PRArt_216962_RAE%20n.%2022_Acelera%C3%A7%C3%A3o%20de%20startups%20no%20Brasil.pdf
-- pendente_ia: Aceleração de Startups – educação empreendedora – Banco do Nordeste - Portal Banco do Nordeste — https://www.bnb.gov.br/hub-de-inovacao/aceleracao-de-startups
+- pendente_leitura: Aceleração de Startups – educação empreendedora – Banco do Nordeste - Portal Banco do Nordeste — https://www.bnb.gov.br/hub-de-inovacao/aceleracao-de-startups
 - pendente_leitura: SEI/GDF - 207047077 - Edital — https://www.fap.df.gov.br/documents/d/fap/sei_gdf-207047077-edital-n-11-2026-programa-fapdf-start-bsb-3-ciclo-pdf
 - pendente_leitura: EDITAL N.º 012 /2026 – PROGRAMA DE APOIO À STARTUP DEEP TECH PARA INOVAÇÃO CIENTÍFICA E TECNOLÓGICA – DEEP TECH FAPEAM - FAPEAM — https://www.fapeam.am.gov.br/editais/edital-no-012-2026-programa-de-apoio-a-startup-deep-tech-para-inovacao-cientifica-e-tecnologica-deep-tech-fapeam
 - confirmada_no_conteudo: Edital N.º 21/2024 Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Nordeste – Bahia — https://www.fapesb.ba.gov.br/edital-n-o-212024-chamamento-publico-para-selecao-de-projetos-de-inovacao-para-o-programa-startup-nordeste-bahia
@@ -769,7 +769,9 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: A Baita Aceleradora abre inscrições para a turma 2022 de aceleração de startups.
 - pendente_evidencia: Missão Técnica CE no NEON Alagoas 2026 — https://programas.sebraestartups.com.br/in/ceneon2026
 - pendente_leitura: Programas InovAtiva: estão abertas as inscrições para o Ciclo de Aceleração 2024.1 - ABES — https://abes.org.br/programas-inovativa-estao-abertas-as-inscricoes-para-o-ciclo-de-aceleracao-2024-1
-- pendente_leitura: InovAtiva Brasil abre pré-inscrições para o ciclo de aceleração 2025 - Brasil Inovador — https://brasilinovador.com.br/inovativa-brasil-abre-pre-inscricoes-para-o-ciclo-de-aceleracao-2025
+- confirmada_no_conteudo: InovAtiva Brasil abre pré-inscrições para o ciclo de aceleração 2025 - Brasil Inovador — https://brasilinovador.com.br/inovativa-brasil-abre-pre-inscricoes-para-o-ciclo-de-aceleracao-2025
+  - trecho_oportunidade: O InovAtiva Brasil, reconhecido como o maior programa de aceleração de startups da América Latina, anuncia a abertura das pré-inscrições para seu ciclo de 2025.
+  - trecho_publico: O InovAtiva Brasil, reconhecido como o maior programa de aceleração de startups da América Latina, anuncia a abertura das pré-inscrições para seu ciclo de 2025.
 - pendente_leitura: GO SRP abre edital de incubação e aceleração para startups do agronegócio - Conexão Agro — https://conexaoagro.com.br/noticias-conexao/go-srp-abre-edital-de-incubacao-e-aceleracao-para-startups-do-agronegocio
 - pendente_ia: Programa abre inscrição para aceleração de startups do Rio Grande do Sul — https://empreendedor.com.br/tecnologia/inovacao/programa-abre-inscricao-para-aceleracao-de-startups-do-rio-grande-do-sul
 - pendente_ia: FORMULÁRIO DE INSCRIÇÃO: PROGRAMA NEXT - ACELERAÇÃO DE STARTUPS — https://forms.gle/kbS7qkTJbu4nnbqj7
