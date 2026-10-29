@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 245, 'confirmada_no_conteudo': 114, 'pendente_ia': 173, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 243, 'confirmada_no_conteudo': 114, 'pendente_ia': 175, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -290,7 +290,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: Programas para novas startups com inscrições até 30 de março | Jornal Digital
 - nao_confirmada_no_texto: WOW Aceleradora de Startups Profile on LeadIQ — https://leadiq.com/c/wow-startup-accelerator/5a1d9d3e2300005c008d188c
 - pendente_leitura: Pró-Startups Operação — edital de fomento FACEPE · prazo 23/02 · Licitário — https://licitario.com.br/fomento/pro-startups-operacao-80urlf
-- pendente_leitura: Formulário do Edital de Chamamento Público Nº 02/2026 - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia — https://multiplicidades.org.br/formulario-do-edital-de-chamamento-publico-no-02-2026
+- pendente_ia: Formulário do Edital de Chamamento Público Nº 02/2026 - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia — https://multiplicidades.org.br/formulario-do-edital-de-chamamento-publico-no-02-2026
 - pendente_leitura: WOW Aceleradora de Startups investment portfolio | PitchBook — https://pitchbook.com/profiles/investor/103644-19
 - pendente_ia: Programa de aceleração que apoia startups a entrar no mercado arranca com 31 projetos científicos e tecnológicos - XXV Governo Constitucional — https://portugal.gov.pt/pt/gc25/comunicacao/comunicados/programa-de-aceleracao-que-apoia-startups-a-entrar-no-mercado-arranca-com-31-projetos-cientificos-e-tecnologicos
 - pendente_leitura: Prosas | Edital - Prêmio Impacta Mais 2026 — https://prosas.com.br/editais/17308-premio-impacta-mais-2026
@@ -331,7 +331,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: 100 Open Startups - Desafio Pequenas Empresas — https://www.opentechs.net/br-pt/challenges/smallbusiness
 - pendente_ia: Startups incubadas no Senac são selecionadas para programa de aceleração - Senac Pernambuco — https://www.pe.senac.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao
 - pendente_ia: Governo abre inscrição para programa de aceleração de startups — https://www.poder360.com.br/poder-empreendedor/governo-abre-inscricao-para-programa-de-aceleracao-de-startups
-- pendente_leitura: Governo de Pernambuco e Porto Digital abrem inscrições para programas de fomento ao empreendedorismo e internacionalização - Porto Digital — https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao
+- pendente_ia: Governo de Pernambuco e Porto Digital abrem inscrições para programas de fomento ao empreendedorismo e internacionalização - Porto Digital — https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao
 - pendente_ia: RecrutaEasy entre as 30 melhores startups do Prêmio Sebrae Startups 2026: um reconhecimento que fortalece nossa história — https://www.recrutaeasy.com/post/recrutaeasy-entre-as-30-melhores-startups-do-pr%C3%AAmio-sebrae-startups-2026-um-reconhecimento-que-fort
 - pendente_ia: Nueve startups españolas abren nuevas oportunidades en Suiza con el programa Desafía | Red.es — https://www.red.es/es/actualidad/noticias/nueve-startups-espanolas-abren-nuevas-oportunidades-en-suiza-con-el-programa
 - confirmada_no_conteudo: Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse) — https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100
