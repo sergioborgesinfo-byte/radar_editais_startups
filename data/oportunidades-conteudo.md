@@ -2,13 +2,13 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 243, 'confirmada_no_conteudo': 114, 'pendente_ia': 175, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 241, 'confirmada_no_conteudo': 114, 'pendente_ia': 177, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
   - trecho_oportunidade: torna público que estão abertas as inscrições para a Primeira Chamada de Incubação de Impacto para Startups e convida os interessados a apresentarem seus empreendimentos, observadas as disposições contidas neste Edital.
   - trecho_publico: Poderão participar startups de impacto de base tecnológica com CNPJ ativo há, no máximo, 5 (cinco) anos, contados até a data da inscrição, sediadas no Estado da Paraíba
-- pendente_leitura: ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM — http://www.ciaem.ufu.br/acontece/2016/11/aceleracao-fiemg-lab-startup-abre-inscricoes-para-sua-primeira-jornada
+- pendente_ia: ACELERAÇÃO FIEMG LAB STARTUP ABRE INSCRIÇÕES PARA SUA PRIMEIRA JORNADA | Centro de Incubação de Atividades Empreendedoras - CIAEM — http://www.ciaem.ufu.br/acontece/2016/11/aceleracao-fiemg-lab-startup-abre-inscricoes-para-sua-primeira-jornada
 - pendente_ia: Programa de aceleração de startups: inovação e ... — http://www.repositorio.ufal.br/bitstream/riufal/7023/3/Programa%20de%20acelera%C3%A7%C3%A3o%20de%20startups%3A%20inova%C3%A7%C3%A3o%20e%20desenvolvimento%20empresarial.pdf
 - pendente_leitura: Gerdau e FIEMG Lab buscam startups para resolver desafios - ABES — https://abes.org.br/en/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios
 - pendente_leitura: Programa de Aceleração de Startups de Impacto na Amazônia — https://aceventures.com.br/coalizao-pelo-impacto
@@ -155,7 +155,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - confirmada_no_conteudo: EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição — https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao
   - trecho_oportunidade: torna público o lançamento do presente Edital de Chamada Pública e convida startups catarinenses participantes da 16ª Turma do Programa Startup SC a apresentarem propostas de projetos de inovação, tendo como finalidade acelerar o empreendedorismo inovador.
   - trecho_publico: convida startups catarinenses participantes da 16ª Turma do Programa Startup SC a apresentarem propostas de projetos de inovação
-- pendente_leitura: Edital de credenciamento para incubação de startups para atendimento a empresas participantes do programa PIPE-FAPESP — https://fapesp.br/pipe/2026-credenciamento
+- pendente_ia: Edital de credenciamento para incubação de startups para atendimento a empresas participantes do programa PIPE-FAPESP — https://fapesp.br/pipe/2026-credenciamento
 - confirmada_no_conteudo: Programa Acelera Formiga 2026 abre inscrições para selecionar 15 startups e empresas inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias — https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-formiga-2026-abre-inscricoes-para-selecionar-15-startups-e-empresas-inovadoras
   - trecho_oportunidade: Programa Acelera Formiga 2026 abre inscrições para selecionar 15 startups e empresas inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias
   - trecho_publico: Programa Acelera Formiga 2026 abre inscrições para selecionar 15 startups e empresas inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias
