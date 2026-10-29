@@ -1,9 +1,9 @@
 ## Descoberta de oportunidades
 
-0/24 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1424 no histórico.
+0/0 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1425 no histórico.
 
 São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
-Busca pausada pelo limite do serviço até 2026-10-29T04:20:57.430723+00:00. Histórico preservado.
+Busca pausada pelo limite do serviço até 2026-10-29T04:23:44.603366+00:00. Histórico preservado.
 
 ## Candidatos (vigência não verificada)
 - Embraer Startup Program: http://embraer.com/corporate-innovation/embraer-startup-program/pt
@@ -200,6 +200,7 @@ Busca pausada pelo limite do serviço até 2026-10-29T04:20:57.430723+00:00. His
 - descrição do projeto: https://fap.df.gov.br/documents/10489263/39048189/Microsoft-Word-PLANO-DE-TRABALHO-STARTBSB-281024-159095315.pdf
 - Resultado Chamada Pública 03/2026: Novo Seed  | FAPEMIG: https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/resultado-chamada-publica-03-2026-novo-seed
 - Chamadas e Editais - FAPEMIG: https://fapemig.br/oportunidades/chamadas-e-editais
+- Saiba Mais: https://fapemig.br/oportunidades/chamadas-e-editais/007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-3a-entrada
 - Saiba Mais: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-004-2026-participacao-coletiva-em-eventos-tecnicos-no-pais-3a-entrada
 - Saiba Mais: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-007-2026-organizacao-de-eventos-de-carater-tecnico-cientifico-oet-2a-entrada
 - CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação: https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-003-2026-novo-seed-aceleracao-de-startups-por-meio-dos-ambientes-promotores-de-inovacao
