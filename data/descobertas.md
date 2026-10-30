@@ -1,9 +1,9 @@
 ## Descoberta de oportunidades
 
-0/0 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1425 no histórico.
+0/24 pesquisas concluídas nesta rodada. 0 URLs distintas nesta execução; 1436 no histórico.
 
 São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
-Busca pausada pelo limite do serviço até 2026-10-30T00:41:38.674979+00:00. Histórico preservado.
+Busca pausada pelo limite do serviço até 2026-10-30T08:27:41.300677+00:00. Histórico preservado.
 
 ## Candidatos (vigência não verificada)
 - Embraer Startup Program: http://embraer.com/corporate-innovation/embraer-startup-program/pt
@@ -223,6 +223,17 @@ Busca pausada pelo limite do serviço até 2026-10-30T00:41:38.674979+00:00. His
 - EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição – Fapesc: https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao
 - InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc: https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups
 - Chamamento Público para Aceleradoras: https://fapesp.br/16346/chamamento-publico-para-aceleradoras
+- Chamada de Propostas - Iniciativa Internacional de Pesquisa sobre o Uso de Tecnologias Disruptivas para o Enfrentamento de Desafios Globais (IIDTAC): https://fapesp.br/17952
+- Edital do Programa FICA-SP (Fixação e Incentivo à Carreira Acadêmica em São Paulo): https://fapesp.br/18238
+- Chamada de Propostas – Programa Desafios da Amazônia: https://fapesp.br/18249
+- Chamada Conjunta de Propostas FAPESP / CONFAP / RAMP (Raw Materials Partnership for the Green and Digital Transition): https://fapesp.br/18256
+- Chamada de Propostas para o Programa PIPE Jornada Tecnológica Transição Energética – Fase 1: https://fapesp.br/18291
+- Chamada de Propostas Bolsa Estágio de Pesquisa no Exterior (BEPE) Iniciação Científica: https://fapesp.br/18416
+- Chamada de Propostas Bolsa Estágio de Pesquisa no Exterior (BEPE) Mestrado: https://fapesp.br/18417
+- Chamada Pesquisa e Desenvolvimento de Plataformas Digitais Baseadas em Software Livre e Protocolos Abertos: https://fapesp.br/18444
+- Chamada de Programa BIOTA-FAPESP – Biota Síntese e Transformação: https://fapesp.br/18456
+- Chamadas de Propostas: https://fapesp.br/2185/chamadas-de-propostas-2026
+- FAPESP — Chamadas: https://fapesp.br/chamadas/
 - PIPE | FAPESP: https://fapesp.br/pipe
 - Edital de credenciamento para incubação de startups para atendimento a empresas participantes do programa PIPE-FAPESP: https://fapesp.br/pipe/2026-credenciamento
 - Vídeos PIPE | FAPESP: https://fapesp.br/pipe/videos
