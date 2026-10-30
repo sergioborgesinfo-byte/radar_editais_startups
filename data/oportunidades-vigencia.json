@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-30T05:56:09.560787-03:00",
+  "atualizado_em": "2026-10-30T09:26:28.873649-03:00",
   "leitura_navegador": {
     "tentativas": 2,
     "sucessos": 1,
@@ -472,7 +472,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-30T05:56:01.788529-03:00"
+      "verificado_em": "2026-10-30T09:26:10.695089-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -563,7 +563,7 @@
       "verificado_em": "2026-10-29T15:41:43.116701-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://cloud.google.com/startup/benefits?hl=pt-BR",
-      "ia_proxima_tentativa": "2026-10-30T01:36:14.268058-03:00",
+      "ia_proxima_tentativa": "2026-10-30T15:26:09.710779-03:00",
       "motivo_ia": "gemini_http_400"
     },
     {
@@ -844,7 +844,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-30T05:56:01.224949-03:00"
+      "verificado_em": "2026-10-30T09:26:09.914355-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -1059,7 +1059,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-30T05:56:05.229231-03:00"
+      "verificado_em": "2026-10-30T09:26:14.293672-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1099,7 +1099,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-30T05:56:01.220323-03:00"
+      "verificado_em": "2026-10-30T09:26:09.925352-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1108,7 +1108,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-30T05:56:03.875649-03:00"
+      "verificado_em": "2026-10-30T09:26:12.590997-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1298,7 +1298,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-30T05:56:01.051243-03:00"
+      "verificado_em": "2026-10-30T09:26:09.710779-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1319,7 +1319,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-30T05:56:04.772862-03:00"
+      "verificado_em": "2026-10-30T09:26:14.203644-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1448,7 +1448,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-30T05:56:07.125688-03:00"
+      "verificado_em": "2026-10-30T09:26:17.137222-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1479,7 +1479,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-30T05:56:01.051243-03:00"
+      "verificado_em": "2026-10-30T09:26:09.710779-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1593,7 +1593,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-30T05:56:01.051243-03:00"
+      "verificado_em": "2026-10-30T09:26:09.710779-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
