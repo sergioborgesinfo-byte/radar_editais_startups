@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 237, 'confirmada_no_conteudo': 114, 'pendente_ia': 192, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 233, 'confirmada_no_conteudo': 114, 'pendente_ia': 196, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -23,7 +23,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_publico: O público-alvo do edital são negócios inovadores, especificamente startups e empresas de base tecnológica. As startups podem participar desde que se encaixem na definição de startups de acordo com a Lei Complementar nº 182
 - pendente_leitura: Experiências internacionais de inovação e lançamento de edital do MCTI marcam 2ª dia da 30ª Conferência Anprotec – Conferência Anprotec 2020 — https://anprotec.org.br/conferencia2020/2020/11/24/experiencias-internacionais-de-inovacao-e-lancamento-de-edital-do-mcti-marcam-2a-dia-da-30a-conferencia-anprotec
 - pendente_leitura: Incubação 2025.2 - Recife — https://app.portodigital.org/publico/84/desafio
-- pendente_leitura: Editais de Pré-Incubação e Incubação de Startups :: Aquário de Ideias — https://aquariounesp.com.br/editalstartup
+- pendente_ia: Editais de Pré-Incubação e Incubação de Startups :: Aquário de Ideias — https://aquariounesp.com.br/editalstartup
 - pendente_ia: Resultado da Seleção – Programa Santander USP – Criação de Startups 2026 – Agência USP de Inovação — https://auspin.usp.br/bolsastartupusp2026
 - pendente_leitura: Aceleração de Startups no Brasil: o guia 2026 | Baita Aceleradora — https://baita.ac/aceleracao-de-startups
 - confirmada_no_conteudo: Edital Granioter Acelera 2026 — https://biominas.org.br/edital-granioter-acelera-2026-biominas-brasil
@@ -92,7 +92,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - nao_confirmada_no_texto: 100 startups selecionadas para aceleração no BNDES Garagem 2025 — https://garagem.bndes.gov.br/conteudo/100-startups-selecionadas-para-aceleracao-no-bndes-garagem-2025-impulsionam-economia-verde-e-impacto-social
 - pendente_leitura: Programa de apoio a startups abre inscrições para transformar ideias tecnológicas em grandes empresas - Gazeta da Semana — https://gazetadasemana.com.br/noticia/295227/programa-de-apoio-a-startups-abre-inscricoes-para-transformar-ideias-tecnologicas-em-grandes-empresas
 - pendente_ia: Aceleradoras de Startups no Brasil | Growth System — https://growthsystem.com.br/aceleradoras
-- pendente_leitura: edital startups nº 002 / 2025 — https://hardtechinnovation.com.br/wp-content/uploads/2025/08/Edital-Startup-_-HardTech-Innovation-2026.pdf
+- pendente_ia: edital startups nº 002 / 2025 — https://hardtechinnovation.com.br/wp-content/uploads/2025/08/Edital-Startup-_-HardTech-Innovation-2026.pdf
 - confirmada_no_conteudo: Edital de Chamada para Seleção de Projetos e Empresas para Incubação - Seleção de Fluxo Contínuo — https://hardware.org.br/wp-content/uploads/2024/07/Minuta-Edital-de-Incubacao-Fluxo-Continuo.pdf
   - trecho_oportunidade: torna público aos empreendedores interessados, que estão abertas as inscrições para o processo seletivo de projetos e startups inovadoras para integrar o Programa de Incubação de empresas de base tecnológica do HBR
   - trecho_publico: processo seletivo de projetos e startups inovadoras para integrar o Programa de Incubação de empresas de base tecnológica do HBR
@@ -575,14 +575,14 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
   - trecho_oportunidade: Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
   - trecho_publico: Built for Brazilian founders. Free credits Brazilian companies can claim right now, no US entity required. Every listing shows who qualifies and how to apply.
 - pendente_leitura: Sebrae tem programa para acelerar startups - Diário dos Campos — https://dcmais.com.br/brasil/sebrae-tem-programa-para-acelerar-startups
-- pendente_leitura: Startup Challenge Parque Arauco | Desafíos Abiertos | Dirección General de Investigación Innovación y Desarrollo — https://dgiie.usm.cl/concursos/startup-challenge-desafios-abiertos
+- pendente_ia: Startup Challenge Parque Arauco | Desafíos Abiertos | Dirección General de Investigación Innovación y Desarrollo — https://dgiie.usm.cl/concursos/startup-challenge-desafios-abiertos
 - pendente_leitura: Startups goianas são selecionadas para programa nacional - Empreender em Goiás — https://empreenderemgoias.com.br/2026/05/18/startups-goianas-sao-selecionadas-para-programa-nacional
 - pendente_ia: StartUp Challenge: abren convocatoria para emprendimientos de energías renovables — https://es-us.finanzas.yahoo.com/noticias/startup-challenge-abren-convocatoria-emprendimientos-181500905.html
 - pendente_leitura: Startups incubadas no Senac são selecionadas para programa de aceleração | Faculdade Senac Pernambuco — https://faculdadesenacpe.edu.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao
 - confirmada_no_conteudo: Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups — https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups
   - trecho_oportunidade: O ‘Acelera TAP’ será estruturado em duas fases, com capacidade para atender pelo menos 30 startups em fase de validação e outras 15 em estágio de aceleração. O suporte vai muito além da mentoria: o programa prevê apoio financeiro direto de até R$ 100 mil para negócios em estágio inicial e até R$ 70 mil para empresas já consolidadas.
   - trecho_publico: O resultado desse edital estava sendo bastante esperado pelos empreendedores de Startups, especialmente ligadas aos setores do agro, saúde e indústria 4.0 no Triângulo Mineiro e Alto Paranaíba
-- pendente_leitura: Startups brasileiras cruzam fronteiras e transformam missão do BretA2026 em ponte de negócios com a Argentina - Sistema Fecomércio — https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina
+- pendente_ia: Startups brasileiras cruzam fronteiras e transformam missão do BretA2026 em ponte de negócios com a Argentina - Sistema Fecomércio — https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina
 - pendente_ia: Aceleração de startups: Sebrae Roraima lança novo programa | G1 — https://g1.globo.com/rr/roraima/especial-publicitario/sebrae-roraima-onde-tem-empreendedor-tem-sebrae/noticia/2026/06/10/aceleracao-de-startups-sebrae-roraima-lanca-novo-programa.ghtml
 - pendente_evidencia: Créditos em nuvem para Startups - Conheça alguns programas - GoCache — https://gocache.com.br/nao-categorizado/creditos-em-nuvem-para-startups-conheca-alguns-programas
 - pendente_ia: Gerdau y FIEMG Lab buscan startups para resolver los desafíos de IBRAM. — https://ibram.org.br/es/noticia/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios
