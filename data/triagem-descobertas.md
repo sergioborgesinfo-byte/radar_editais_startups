@@ -116,6 +116,17 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição – Fapesc](https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc](https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Chamamento Público para Aceleradoras](https://fapesp.br/16346/chamamento-publico-para-aceleradoras) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Propostas - Iniciativa Internacional de Pesquisa sobre o Uso de Tecnologias Disruptivas para o Enfrentamento de Desafios Globais (IIDTAC)](https://fapesp.br/17952) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Edital do Programa FICA-SP (Fixação e Incentivo à Carreira Acadêmica em São Paulo)](https://fapesp.br/18238) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Propostas – Programa Desafios da Amazônia](https://fapesp.br/18249) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada Conjunta de Propostas FAPESP / CONFAP / RAMP (Raw Materials Partnership for the Green and Digital Transition)](https://fapesp.br/18256) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Propostas para o Programa PIPE Jornada Tecnológica Transição Energética – Fase 1](https://fapesp.br/18291) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Propostas Bolsa Estágio de Pesquisa no Exterior (BEPE) Iniciação Científica](https://fapesp.br/18416) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Propostas Bolsa Estágio de Pesquisa no Exterior (BEPE) Mestrado](https://fapesp.br/18417) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada Pesquisa e Desenvolvimento de Plataformas Digitais Baseadas em Software Livre e Protocolos Abertos](https://fapesp.br/18444) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamada de Programa BIOTA-FAPESP – Biota Síntese e Transformação](https://fapesp.br/18456) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Chamadas de Propostas](https://fapesp.br/2185/chamadas-de-propostas-2026) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [FAPESP — Chamadas](https://fapesp.br/chamadas/) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Edital de credenciamento para incubação de startups para atendimento a empresas participantes do programa PIPE-FAPESP](https://fapesp.br/pipe/2026-credenciamento) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups - FAU](https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Startups brasileiras cruzam fronteiras e transformam missão do BretA2026 em ponte de negócios com a Argentina - Sistema Fecomércio](https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -487,17 +498,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Premio](https://www.zoominfo.com/c/premio/546807539) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [InHire - Software de Recrutamento e Seleção Employee Directory](https://www.zoominfo.com/pic/inhire---software-de-recrutamento-e-seleção/1326924840) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Potencia UP LATAM 2026 abre inscrições - 06/07/2026 - Folha Social+ - Folha](https://www1.folha.uol.com.br/folha-social-mais/2026/07/programa-de-aceleracao-abre-inscricoes-para-startups-da-america-latina.shtml) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [FAPESP — Chamadas](https://fapesp.br/chamadas/) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamadas de Propostas](https://fapesp.br/2185/chamadas-de-propostas-2026) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamada de Propostas - Iniciativa Internacional de Pesquisa sobre o Uso de Tecnologias Disruptivas para o Enfrentamento de Desafios Globais (IIDTAC)](https://fapesp.br/17952) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamada de Propostas para o Programa PIPE Jornada Tecnológica Transição Energética – Fase 1](https://fapesp.br/18291) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamada de Programa BIOTA-FAPESP – Biota Síntese e Transformação](https://fapesp.br/18456) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamada de Propostas – Programa Desafios da Amazônia](https://fapesp.br/18249) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamada de Propostas Bolsa Estágio de Pesquisa no Exterior (BEPE) Mestrado](https://fapesp.br/18417) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamada de Propostas Bolsa Estágio de Pesquisa no Exterior (BEPE) Iniciação Científica](https://fapesp.br/18416) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamada Conjunta de Propostas FAPESP / CONFAP / RAMP (Raw Materials Partnership for the Green and Digital Transition)](https://fapesp.br/18256) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Chamada Pesquisa e Desenvolvimento de Plataformas Digitais Baseadas em Software Livre e Protocolos Abertos](https://fapesp.br/18444) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Edital do Programa FICA-SP (Fixação e Incentivo à Carreira Acadêmica em São Paulo)](https://fapesp.br/18238) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 
 ## fonte_catalogo: 76
 
