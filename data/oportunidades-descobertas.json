@@ -1,13 +1,19 @@
 {
-  "executado_em": "2026-10-30T12:23:30.143034+00:00",
-  "consultas_previstas": 0,
+  "executado_em": "2026-10-30T22:03:09.268366+00:00",
+  "consultas_previstas": 24,
   "status": "pausada_por_cota",
-  "pausa_ate": "2026-10-30T14:56:00.902235+00:00",
-  "cursor_consultas": 19,
+  "pausa_ate": "2026-10-31T04:03:09.268366+00:00",
+  "cursor_consultas": 20,
   "consultas_no_catalogo": 142,
   "consultas_concluidas": 0,
   "urls_nesta_execucao": 0,
-  "erros": [],
+  "erros": [
+    {
+      "consulta": "edital crédito financiamento inovação startups 2026",
+      "tipo": "HTTPError",
+      "http": 432
+    }
+  ],
   "oportunidades": [
     {
       "url": "http://embraer.com/corporate-innovation/embraer-startup-program/pt",
@@ -16609,6 +16615,5 @@
       "encontrado_em": "2026-10-02T15:20:59.743478+00:00",
       "situacao": "aguarda_verificacao"
     }
-  ],
-  "catalogos_atualizados_em": "2026-10-30T20:11:01.741953+00:00"
+  ]
 }
