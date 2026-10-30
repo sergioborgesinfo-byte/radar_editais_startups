@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 238, 'confirmada_no_conteudo': 114, 'pendente_ia': 191, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 237, 'confirmada_no_conteudo': 114, 'pendente_ia': 192, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -778,7 +778,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: InovAtiva 2025: Inscrições abertas para os maiores programas de aceleração de startups do Brasil | Portal Inova-e — https://inovae.cofenplay.com.br/oportunidades/inovativa-2025-inscricoes-abertas-para-os-maiores-programas-de-aceleracao-de-startups-do-brasil
 - pendente_leitura: ACE Ventures e Gener8tor lançam programa para atrair startups dos EUA para o Brasil - IT Forum — https://itforum.com.br/noticias/ace-ventures-gener8tor-startups
 - pendente_leitura: Edital 32/2026 - Desafios.Gov — edital de fomento FACEPE — https://licitario.com.br/fomento/edital-32-2026-desafios-gov-tdz8kb
-- pendente_leitura: edital de seleção de projetos e empresas para incubação — https://saudeimpulsiona.com.br/wp-content/uploads/2026/03/Edital_Impulsionasaude-2.pdf
+- pendente_ia: edital de seleção de projetos e empresas para incubação — https://saudeimpulsiona.com.br/wp-content/uploads/2026/03/Edital_Impulsionasaude-2.pdf
 - pendente_leitura: Guia de programas de aceleração e seleção para construtechs e proptechs - Sienge — https://sienge.com.br/blog/guia-de-programas-de-aceleracao-e-selecao-para-construtechs-e-proptechs
 - pendente_leitura: Fapto lança edital para seleção de startups para participarem de programa de aceleração do InovaFapto  - Tocantins Rural — https://tocantinsrural.com.br/fapto-lanca-edital-para-selecao-de-startups-para-participarem-de-programa-de-aceleracao-do-inovafapto
 - fora_escopo: Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo — https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista
