@@ -1,10 +1,10 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-10-31T08:56:17.229220-03:00",
+  "atualizado_em": "2026-10-31T12:16:39.618913-03:00",
   "leitura_navegador": {
-    "tentativas": 2,
+    "tentativas": 3,
     "sucessos": 1,
-    "falhas": 1
+    "falhas": 2
   },
   "ia": {
     "chamadas": 1,
@@ -472,7 +472,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-31T08:56:01.129128-03:00"
+      "verificado_em": "2026-10-31T12:15:52.808475-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -505,7 +505,7 @@
       "verificado_em": "2026-10-29T15:41:42.413740-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
-      "ia_proxima_tentativa": "2026-10-31T11:57:53.342990-03:00",
+      "ia_proxima_tentativa": "2026-10-31T18:15:51.873348-03:00",
       "motivo_ia": "gemini_http_400"
     },
     {
@@ -844,7 +844,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-31T08:56:00.623898-03:00"
+      "verificado_em": "2026-10-31T12:15:52.111874-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -1059,7 +1059,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-31T08:56:04.834592-03:00"
+      "verificado_em": "2026-10-31T12:15:56.581249-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1099,7 +1099,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-31T08:56:00.624873-03:00"
+      "verificado_em": "2026-10-31T12:15:53.044499-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1108,7 +1108,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-31T08:56:03.375728-03:00"
+      "verificado_em": "2026-10-31T12:15:55.873428-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1298,7 +1298,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-31T08:56:00.459177-03:00"
+      "verificado_em": "2026-10-31T12:15:51.873348-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1319,7 +1319,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-31T08:56:03.989192-03:00"
+      "verificado_em": "2026-10-31T12:15:58.045655-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1448,7 +1448,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-31T08:56:06.229983-03:00"
+      "verificado_em": "2026-10-31T12:16:02.160017-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1479,7 +1479,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-31T08:56:00.459177-03:00"
+      "verificado_em": "2026-10-31T12:15:51.873348-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1593,7 +1593,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-10-31T08:56:00.459177-03:00"
+      "verificado_em": "2026-10-31T12:15:51.873348-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
@@ -1681,7 +1681,7 @@
       "motivo": "edicao_ou_publico_nao_comprovado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-29T09:34:12.390578-03:00"
+      "verificado_em": "2026-10-31T12:15:54.529455-03:00"
     },
     {
       "url": "https://revistapegn.globo.com/Startups/noticia/2018/06/petrobras-lanca-desafio-para-startups-e-abre-oportunidade-para-projetos-de-inovacao.html",
@@ -1718,11 +1718,14 @@
     {
       "url": "https://caisdoporto.org/oportunidade-de-internacionalizacao-porto-digital",
       "titulo": "Inscrições abertas para programa de internacionalização",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria",
+      "status": "pendente_acesso",
+      "motivo": "fonte_oficial_indisponivel",
+      "fontes_consultadas": [
+        "http://sitesold.portodigital.org/ngpd-sftp/documentacao/Programa%20de%20Internacionalizacao/Regulamento_Programa-Internacionalizacao-2024.2.pdf"
+      ],
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-29T09:35:58.562429-03:00"
+      "verificado_em": "2026-10-31T12:16:37.132477-03:00"
     },
     {
       "url": "https://www.inova.unicamp.br/events/iii-missao-de-startups-brasileiras-ao-dublin-tech-summit",
