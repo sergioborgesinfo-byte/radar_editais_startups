@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-11-01T19:29:43.399712+00:00",
+  "iniciada_em": "2026-11-01T21:51:22.310990+00:00",
   "status": "falha_parcial",
   "etapas": [
     {
@@ -8,10 +8,10 @@
       "resultado": {
         "fontes_visitadas": 2,
         "candidatos_novos": 0,
-        "falhas_leitura": 1,
+        "falhas_leitura": 0,
         "chamadas_api_busca": 0
       },
-      "segundos": 4.2
+      "segundos": 6.4
     },
     {
       "nome": "triagem",
@@ -23,34 +23,34 @@
       "nome": "conteudo",
       "status": "falha",
       "tipo": "SystemExit",
-      "segundos": 92.6
+      "segundos": 98.0
     },
     {
       "nome": "fontes",
       "status": "concluida",
       "resultado": {
         "consultas": 4,
-        "fontes_encontradas": 2,
+        "fontes_encontradas": 1,
         "motivo": null
       },
-      "segundos": 10.3
+      "segundos": 7.8
     },
     {
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 36.6
+      "segundos": 9.0
     }
   ],
-  "casos_concluidos_nesta_rodada": 2,
+  "casos_concluidos_nesta_rodada": 4,
   "concluidos_por_resultado": {
-    "encerrada": 2
+    "encerrada": 4
   },
   "casos_reabertos": 0,
   "saldo_abertas": 0,
-  "finalizada_em": "2026-11-01T19:32:07.159429+00:00",
+  "finalizada_em": "2026-11-01T21:53:23.674841+00:00",
   "houve_avanco": true,
-  "ultimo_avanco_em": "2026-11-01T19:32:07.159429+00:00",
+  "ultimo_avanco_em": "2026-11-01T21:53:23.674841+00:00",
   "ia": {
     "chamadas": 2,
     "limite": 20,
@@ -62,18 +62,18 @@
   },
   "contagem": {
     "conteudo": {
-      "pendente_leitura": 255,
-      "confirmada_no_conteudo": 116,
-      "pendente_ia": 210,
+      "pendente_leitura": 262,
+      "confirmada_no_conteudo": 118,
+      "pendente_ia": 223,
       "nao_confirmada_no_texto": 17,
-      "pendente_evidencia": 13,
+      "pendente_evidencia": 12,
       "fora_escopo": 3
     },
     "vigencia": {
-      "encerrada": 100,
-      "pendente_evidencia": 29,
+      "encerrada": 104,
+      "pendente_evidencia": 31,
       "aberta_confirmada": 12,
-      "pendente_acesso": 5,
+      "pendente_acesso": 6,
       "pendente_fonte_oficial": 16,
       "fora_escopo": 3
     },

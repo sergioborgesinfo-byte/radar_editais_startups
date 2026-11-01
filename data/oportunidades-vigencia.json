@@ -1,19 +1,19 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-11-01T16:32:07.106177-03:00",
+  "atualizado_em": "2026-11-01T18:53:23.617976-03:00",
   "leitura_navegador": {
-    "tentativas": 4,
-    "sucessos": 2,
-    "falhas": 2
+    "tentativas": 2,
+    "sucessos": 1,
+    "falhas": 1
   },
   "ia": {
     "chamadas": 1,
     "falhas_temporarias": [],
     "limite": 20,
     "parada": "gemini_http_400",
-    "pendencias_restantes": 50,
+    "pendencias_restantes": 53,
     "casos_com_tentativa_ia": 22,
-    "resolvidas_automaticamente": 111,
+    "resolvidas_automaticamente": 115,
     "revisoes_manuais": 1
   },
   "itens": [
@@ -472,7 +472,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T16:31:31.481894-03:00"
+      "verificado_em": "2026-11-01T18:53:15.340618-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -505,7 +505,7 @@
       "verificado_em": "2026-10-31T16:21:31.628229-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://agenciasebrae.com.br/arquivo/abertas-inscricoes-para-inovativa-brasil-maior-programa-de-aceleracao-de-startups-da-america-latina",
-      "ia_proxima_tentativa": "2026-11-01T17:57:12.762620-03:00",
+      "ia_proxima_tentativa": "2026-11-02T00:53:14.684858-03:00",
       "motivo_ia": "gemini_http_400"
     },
     {
@@ -844,7 +844,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T16:31:34.863344-03:00"
+      "verificado_em": "2026-11-01T18:53:15.631479-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -1059,7 +1059,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T16:31:39.220984-03:00"
+      "verificado_em": "2026-11-01T18:53:19.825511-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1099,7 +1099,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T16:31:36.478139-03:00"
+      "verificado_em": "2026-11-01T18:53:15.925676-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1108,7 +1108,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T16:31:39.395204-03:00"
+      "verificado_em": "2026-11-01T18:53:18.647692-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1246,7 +1246,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T16:31:43.151619-03:00"
+      "verificado_em": "2026-11-01T18:53:16.089253-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
@@ -1302,7 +1302,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-11-01T16:31:30.589654-03:00"
+      "verificado_em": "2026-11-01T18:53:14.684858-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1323,7 +1323,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T16:31:51.118826-03:00"
+      "verificado_em": "2026-11-01T18:53:18.762369-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1455,7 +1455,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T16:31:56.074325-03:00"
+      "verificado_em": "2026-11-01T18:53:21.283434-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1486,7 +1486,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-11-01T16:31:30.589654-03:00"
+      "verificado_em": "2026-11-01T18:53:14.684858-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1600,16 +1600,16 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-11-01T16:31:30.589654-03:00"
+      "verificado_em": "2026-11-01T18:53:14.684858-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
       "titulo": "Inova+Invest – Região Norte 2026",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria",
+      "status": "pendente_acesso",
+      "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T16:31:56.342234-03:00"
+      "verificado_em": "2026-11-01T18:53:18.647946-03:00"
     },
     {
       "url": "https://news.confap.org.br/fapesc-e-sebrae-lancam-quarta-edicao-do-programa-acelera-startup-sc",
@@ -1834,6 +1834,73 @@
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
       "verificado_em": "2026-11-01T09:55:59.096874-03:00"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1788975717898x811272824955637100",
+      "status": "encerrada",
+      "prazo_iso": "2026-10-29T23:59:59-03:00",
+      "evidencia_prazo": "data_final_date=1793329199000",
+      "titulo": "Seletiva Sebrae Rio Summit 2026",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-11-01T18:53:15.727657-03:00"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1789578904196x720018584131805200",
+      "status": "encerrada",
+      "prazo_iso": "2026-10-15T23:59:59-03:00",
+      "evidencia_prazo": "data_final_date=1792119599000",
+      "titulo": "Missão Empresarial Internacional – Web Summit 2026 Lisboa",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-11-01T18:53:15.477017-03:00"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/bootcampdeeptech-112026",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_publico_atividade_ou_prazo_nao_comprovado",
+      "titulo": "Mentorias | Bootcamp Deep techs 11/2026 - Sebrae Startups",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-11-01T18:53:15.365809-03:00"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/exposi%C3%A7%C3%A3o-de-startups---startup-day-2026-1770803707334x470452466716825700",
+      "status": "encerrada",
+      "prazo_iso": "2026-03-13T23:59:59-03:00",
+      "evidencia_prazo": "data_final_date=1773457199000",
+      "titulo": "Exposição de Startups - Startup Day 2026",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-11-01T18:53:16.088919-03:00"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/starteup2026",
+      "status": "encerrada",
+      "prazo_iso": "2026-09-15T00:59:59-03:00",
+      "evidencia_prazo": "data_final_date=1789444799000",
+      "titulo": "Programa Start&UP - Edição 9 - Sebrae Startups",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-11-01T18:53:16.100316-03:00"
+    },
+    {
+      "url": "https://fapesc.sc.gov.br/startup-sc-inscricoes-abertas-para-aceleracao-de-startups-em-santa-catarina",
+      "titulo": "Startup SC: inscrições abertas para aceleração de Startups em Santa Catarina – Fapesc",
+      "status": "pendente_evidencia",
+      "motivo": "edicao_ou_publico_nao_comprovado",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-11-01T18:53:15.767849-03:00"
+    },
+    {
+      "url": "https://sebraeforstartups.sebraesp.com.br/wp-content/uploads/Start-Mercado-Edital_Ciclo1_19_01-26.pdf",
+      "titulo": "Programa de Aceleração Tecnológica e Relacionamento com ...",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-11-01T18:53:18.691200-03:00"
     }
   ],
   "fila_prioritaria": {
