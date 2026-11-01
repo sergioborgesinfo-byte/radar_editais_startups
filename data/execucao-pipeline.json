@@ -1,5 +1,5 @@
 {
-  "iniciada_em": "2026-11-01T01:24:43.922143+00:00",
+  "iniciada_em": "2026-11-01T01:59:13.085489+00:00",
   "status": "falha_parcial",
   "etapas": [
     {
@@ -11,7 +11,7 @@
         "falhas_leitura": 1,
         "chamadas_api_busca": 0
       },
-      "segundos": 16.8
+      "segundos": 46.5
     },
     {
       "nome": "triagem",
@@ -23,7 +23,7 @@
       "nome": "conteudo",
       "status": "falha",
       "tipo": "SystemExit",
-      "segundos": 69.9
+      "segundos": 64.4
     },
     {
       "nome": "fontes",
@@ -39,14 +39,14 @@
       "nome": "vigencia",
       "status": "concluida",
       "resultado": null,
-      "segundos": 10.4
+      "segundos": 17.0
     }
   ],
   "casos_concluidos_nesta_rodada": 0,
   "concluidos_por_resultado": {},
   "casos_reabertos": 0,
   "saldo_abertas": 0,
-  "finalizada_em": "2026-11-01T01:26:21.171781+00:00",
+  "finalizada_em": "2026-11-01T02:01:21.146878+00:00",
   "houve_avanco": false,
   "ultimo_avanco_em": "2026-10-28T15:31:05.707414+00:00",
   "ia": {
