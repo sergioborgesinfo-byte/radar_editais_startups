@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 256, 'confirmada_no_conteudo': 116, 'pendente_ia': 211, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 11, 'fora_escopo': 3}
+{'pendente_leitura': 256, 'confirmada_no_conteudo': 116, 'pendente_ia': 210, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -544,7 +544,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Los desafíos que enfrentarán las startups en los próximos ... — https://www.instagram.com/reel/DUSqgcwDSLl
 - pendente_ia: RODADAS DE INVESTIMENTOS | GREEN RIO 2026 — https://programas.sebraestartups.com.br/in/1786393514323x887855479641897900
 - pendente_ia: Todos os direitos reservados © Sebrae Startups — https://programas.sebraestartups.com.br/in/apex-northstar2025
-- pendente_ia: FAPESP simplifica submissão de propostas ao PIPE — https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036
+- pendente_evidencia: FAPESP simplifica submissão de propostas ao PIPE — https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036
 - pendente_ia: Startups alcançam novos mercados por meio do programa de aceleração Startup Nordeste Piauí | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-alcancam-novos-mercados-por-meio-do-programa-de-aceleracao-startup-nordeste-piaui
 - nao_confirmada_no_texto: Startups comemoram aceleração após participação em programa do Sebrae — https://al.agenciasebrae.com.br/inovacao-e-tecnologia/startups-comemoram-aceleracao-apos-participacao-em-programa-do-sebrae
 - confirmada_no_conteudo: Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc — https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas
