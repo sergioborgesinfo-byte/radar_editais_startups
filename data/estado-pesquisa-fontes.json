@@ -6,9 +6,9 @@
     "erro": "http_432"
   },
   "https://programas.sebraestartups.com.br/in/switch2025": {
-    "em": "2026-10-31T08:57:53.184876+00:00",
-    "proxima_tentativa": "2026-11-01T08:57:53.184876+00:00",
-    "erro": "http_432"
+    "em": "2026-11-01T23:01:03.901874+00:00",
+    "proxima_tentativa": "2026-11-02T23:01:03.901874+00:00",
+    "fontes": []
   },
   "https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais": {
     "em": "2026-10-31T15:15:51.674300+00:00",
@@ -132,14 +132,16 @@
     ]
   },
   "https://www.inova.unicamp.br/events/batch-stars-2026": {
-    "em": "2026-10-30T15:48:09.494942+00:00",
-    "proxima_tentativa": "2026-10-31T15:48:09.494942+00:00",
-    "erro": "http_432"
+    "em": "2026-11-01T23:01:03.901874+00:00",
+    "proxima_tentativa": "2026-11-02T23:01:03.901874+00:00",
+    "fontes": []
   },
   "https://caisdoporto.org/oportunidade-de-internacionalizacao-porto-digital": {
-    "em": "2026-10-30T22:05:03.743300+00:00",
-    "proxima_tentativa": "2026-10-31T22:05:03.743300+00:00",
-    "erro": "http_432"
+    "em": "2026-11-01T23:01:03.901874+00:00",
+    "proxima_tentativa": "2026-11-02T23:01:03.901874+00:00",
+    "fontes": [
+      "https://capesglobal.ufla.br/noticias-da-capes-global/135-ufla-abre-inscricoes-para-tres-editais-do-programa-capes-global-edu-voltados-a-internacionalizacao-da-pos-graduacao"
+    ]
   },
   "https://dplnews.com/oracle-programa-startups-brasil-argentina-e-colombia-us-60-mil-creditos-nuvem": {
     "em": "2026-11-01T14:57:03.917368+00:00",
@@ -181,6 +183,11 @@
   "https://www.ufs.br/conteudo/20125-inovativa-brasil-esta-com-inscricoes-abertas-para-segundo-ciclo-de-aceleracao": {
     "em": "2026-11-01T14:57:03.917368+00:00",
     "proxima_tentativa": "2026-11-02T14:57:03.917368+00:00",
+    "fontes": []
+  },
+  "https://sebraeforstartups.sebraesp.com.br/wp-content/uploads/Start-Mercado-Edital_Ciclo1_19_01-26.pdf": {
+    "em": "2026-11-01T23:01:03.901874+00:00",
+    "proxima_tentativa": "2026-11-02T23:01:03.901874+00:00",
     "fontes": []
   }
 }

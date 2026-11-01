@@ -1,13 +1,13 @@
 {
-  "avaliado_em": "2026-11-01T21:53:06.877142+00:00",
+  "avaliado_em": "2026-11-01T23:01:03.897649+00:00",
   "links_descobertos": 1563,
   "paginas_examinadas": 635,
   "status": {
-    "pendente_leitura": 262,
+    "pendente_leitura": 261,
     "confirmada_no_conteudo": 118,
     "pendente_ia": 223,
     "nao_confirmada_no_texto": 17,
-    "pendente_evidencia": 12,
+    "pendente_evidencia": 13,
     "fora_escopo": 3
   },
   "candidatos_prioritarios": 550,
