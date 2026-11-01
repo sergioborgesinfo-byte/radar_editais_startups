@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 235, 'confirmada_no_conteudo': 114, 'pendente_ia': 195, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
+{'pendente_leitura': 256, 'confirmada_no_conteudo': 116, 'pendente_ia': 211, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 11, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -122,7 +122,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: PROGRAMA NACIONAL CONEXÃO STARTUP INDÚSTRIA — https://repositorio.ipea.gov.br/bitstreams/fca4836e-7dc0-43fb-8d6d-9c809c7bfad8/download
 - nao_confirmada_no_texto: Programa Acelera Startup SC anuncia 20 premiadas com investimento de cerca de R$ 1,6 milhão no Startup Summit 2026 — https://sc.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-startup-sc-anuncia-20-premiadas-com-investimento-de-cerca-de-r-16-milhao-no-startup-summit-2026
 - pendente_ia: Boletim de Editais eAções de Fomento aos — https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/boletim-de-inova%C3%A7%C3%A3o/Boletim%20de%20inova%C3%A7%C3%A3o%20-%20Maio%202026.pdf
-- pendente_leitura: Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia — https://sict.rs.gov.br/edital-sict-02-2026
+- pendente_ia: Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia — https://sict.rs.gov.br/edital-sict-02-2026
 - pendente_leitura: Aceleração de startups no Brasil: evidências de impacto do ... — https://web.bndes.gov.br/bib/jspui/bitstream/1408/29307/1/PRArt_216962_RAE%20n.%2022_Acelera%C3%A7%C3%A3o%20de%20startups%20no%20Brasil.pdf
 - pendente_ia: Aceleração de Startups – educação empreendedora – Banco do Nordeste - Portal Banco do Nordeste — https://www.bnb.gov.br/hub-de-inovacao/aceleracao-de-startups
 - pendente_leitura: SEI/GDF - 207047077 - Edital — https://www.fap.df.gov.br/documents/d/fap/sei_gdf-207047077-edital-n-11-2026-programa-fapdf-start-bsb-3-ciclo-pdf
@@ -544,7 +544,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Los desafíos que enfrentarán las startups en los próximos ... — https://www.instagram.com/reel/DUSqgcwDSLl
 - pendente_ia: RODADAS DE INVESTIMENTOS | GREEN RIO 2026 — https://programas.sebraestartups.com.br/in/1786393514323x887855479641897900
 - pendente_ia: Todos os direitos reservados © Sebrae Startups — https://programas.sebraestartups.com.br/in/apex-northstar2025
-- pendente_evidencia: FAPESP simplifica submissão de propostas ao PIPE — https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036
+- pendente_ia: FAPESP simplifica submissão de propostas ao PIPE — https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036
 - pendente_ia: Startups alcançam novos mercados por meio do programa de aceleração Startup Nordeste Piauí | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-alcancam-novos-mercados-por-meio-do-programa-de-aceleracao-startup-nordeste-piaui
 - nao_confirmada_no_texto: Startups comemoram aceleração após participação em programa do Sebrae — https://al.agenciasebrae.com.br/inovacao-e-tecnologia/startups-comemoram-aceleracao-apos-participacao-em-programa-do-sebrae
 - confirmada_no_conteudo: Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc — https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas
@@ -808,3 +808,45 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Chamada Conjunta de Propostas FAPESP / CONFAP / RAMP (Raw Materials Partnership for the Green and Digital Transition) — https://fapesp.br/18256
 - pendente_leitura: Chamada Pesquisa e Desenvolvimento de Plataformas Digitais Baseadas em Software Livre e Protocolos Abertos — https://fapesp.br/18444
 - pendente_leitura: Edital do Programa FICA-SP (Fixação e Incentivo à Carreira Acadêmica em São Paulo) — https://fapesp.br/18238
+- pendente_ia: Governo do Estado abre inscrições para seleção de startups ... — https://estado.rs.gov.br/governo-do-estado-abre-inscricoes-para-selecao-de-startups-para-o-govtech-summit-2026
+- pendente_ia: 2026 Preâmbulo Quintessa Aceleradora de Negócios de ... — https://garagem.bndes.gov.br/wp-content/uploads/2026/10/Edital-BNDES-Garagem-%E2%80%93-Negocios-de-Impacto-2026.pdf
+- pendente_ia: Startup Summit 2026 - Missão Empresarial/RJ - Sebrae Startups — https://programas.sebraestartups.com.br/in/1779883987228x450057452869386240
+- pendente_ia: EDITAL SICT 01/2026 Gramado Summit — https://sict.rs.gov.br/edital-sict-01-2026
+- pendente_ia: Programa Nacional de Incubadoras Tecnológicas de Cooperativas Populares (Proninc) / 2026 - Finep — https://www.finep.gov.br/en/l/1057230
+- pendente_leitura: Governo Federal lança edital de R$ 80 milhões para startups brasileiras que atuam com inovação em IA — Ministério da Ciência, Tecnologia e Inovação — https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2022/03/governo-federal-lanca-edital-de-r-80-milhoes-para-startups-brasileiras-que-atuam-com-inovacao-em-ia
+- pendente_ia: EDITAL DE CHAMAMENTO PÚBLICO PARANÁ ANJO ... — https://www.inova.pr.gov.br/sites/default/arquivos_restritos/files/documento/2026-05/edital_anjo_inovador_3.pdf
+- pendente_leitura: processo de seleção programa aceleração de vendas para ... — https://www.sebraego.com.br/wp-content/uploads/2025/02/Edital_2026_aceleracao_vendas.pdf
+- pendente_leitura: Pró-Startups Incubadoras — https://www.secti.pe.gov.br/projetos/prostartupsincubadoras
+- pendente_leitura: Governo gaúcho abre inscrições de startups para a Gramado ... — https://acontecegramado.com.br/governo-gaucho-abre-inscricoes-de-startups-para-a-gramado-summit-2026
+- pendente_ia: BNDES Garagem abre inscrições para startups e negócios inovadores | Radioagência Nacional — https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-10/bndes-garagem-abre-inscricoes-para-startups-e-negocios-inovadores
+- confirmada_no_conteudo: Conexões 2026 abre inscrições para pós-aceleração em Minas — https://bhtec.org.br/2026/10/27/conexoes-abre-inscricoes-para-startups-que-buscam-ganhar-escala-e-conquistar-mercados-confira-edital
+  - trecho_oportunidade: Conexões abre inscrições para startups que buscam ganhar escala e conquistar mercados; confira edital
+  - trecho_publico: Conexões abre inscrições para startups que buscam ganhar escala e conquistar mercados; confira edital
+- pendente_leitura: StartupCE abre edital para selecionar 60 startups com bolsas de inovação tecnológica – Papo de Negócios — https://blogs.opovo.com.br/papodenegocios/2026/07/10/startupce-abre-edital-para-selecionar-60-startups-com-bolsas-de-inovacao-tecnologica?amp=1
+- pendente_ia: Edital FAPERJ 04/2025: Hub RJ Startup 2026 · Capitaai — https://capitaai.com.br/captacao/edital-faperj-042025-programa-hub-startup-2025-apoio-pn4yij
+- pendente_leitura: Governo do Estado lança edital de seleção de startups para a ... — https://guaiba.com.br/governo-do-estado-lanca-edital-de-selecao-de-startups-para-a-gramado-summit-2026
+- pendente_leitura: Inscrição para edital de aceleração de startups do Hub GovTech Paraná vai até quinta — https://guiaa.com.br/noticia/5654/inscricao-para-edital-de-aceleracao-de-startups-do-hub-govtech-parana-vai-ate-quinta
+- pendente_ia: Edital de Startups – INSTITUTO HARDWARE BR — https://hardware.org.br/edital-startups
+- pendente_leitura: REGULAMENTO DE CHAMADA PARA NATURA ... — https://irp.cdn-website.com/263a4f43/files/uploaded/NIC2026_Edital_Modelo_Regulamento_PTBR_v6.4+1.pdf
+- pendente_ia: Seis startups vinculadas ao IFCE avançam no Programa Startup Ceará 2026 — IFCE — https://portal.ifce.edu.br/noticias/seis-startups-vinculadas-ao-ifce-avancam-no-programa-startup-ceara-2026
+- pendente_leitura: Sict lança edital de seleção de startups para a Gramado ... — https://starten.tech/2026/01/21/sict-lanca-edital-de-selecao-de-startups-para-a-gramado-summit-2026
+- pendente_ia: Catálogo de editais e fomento à inovação — https://www.atlasdofomento.com.br/programas
+- pendente_leitura: Startups ganham mais prazo para inscrição no programa ... — https://www.brde.com.br/noticia/startups-ganham-mais-prazo-para-inscricao-no-programa-de-aceleracao-do-brde
+- pendente_leitura: O Start Digital, programa de pré-aceleração do Sebrae ... — https://www.instagram.com/p/DV_WN5DD9Bx
+- pendente_ia: SESI Bahia abre inscrições para Programa Regional de ... — https://www.sesibahia.com.br/detalhes-noticia?id=8283
+- pendente_leitura: · IECBiot · Sict lança edital para levar 20 startups gaúchas ... — https://www.ufrgs.br/cbiot/ie/noticias/sict-lanca-edital-para-levar-20-startups-gauchas-ao-govtech-summit-2026/51
+- confirmada_no_conteudo: Portal UFS - InovAtiva Brasil está com inscrições abertas para segundo ciclo de aceleração — https://www.ufs.br/conteudo/20125-inovativa-brasil-esta-com-inscricoes-abertas-para-segundo-ciclo-de-aceleracao
+  - trecho_oportunidade: O segundo ciclo anual de aceleração do programa InovAtiva Brasil abriu suas inscrições para startups de todo o país.
+  - trecho_publico: O segundo ciclo anual de aceleração do programa InovAtiva Brasil abriu suas inscrições para startups de todo o país.
+- pendente_ia: Governo de Pernambuco lança edital Pró-Startups — https://www2.facepe.br/governo-de-pernambuco-lanca-edital-pro-startups-mulheres-que-inovam-e-fortalece-a-lideranca-feminina-no-estado
+- pendente_ia: Começou na terça (02/06) a etapa de aceleração do edital Mulheres Inovadoras - Finep — https://www.finep.gov.br/w/6148-comeca-na-terca-02-06-a-etapa-de-aceleracao-do-ddital-mulheres-inovadoras
+- pendente_leitura: Seleção de startups para o GovTech Summit 2026 tem inscrições ... — https://starten.tech/2026/02/26/selecao-de-startups-para-o-govtech-summit-2026-tem-inscricoes-abertas
+- pendente_leitura: Atenção, empreendedores! O prazo de inscrição para as ... — https://www.instagram.com/p/DVgWR8OlmfZ?hl=en
+- pendente_leitura: O Natura Innovation Challenge 2026 está com inscrições ... — https://www.instagram.com/p/DZI1ZkxGS8S
+- pendente_leitura: As inscrições para o BRDE Labs SC Growth 2026 estão ... — https://www.instagram.com/p/Da5PHiNlIW9
+- pendente_leitura: BRDE Labs SC Growth 2026 🚀 inscrições abertas ... — https://www.instagram.com/p/DadzidtgaGf
+- pendente_leitura: Edital aberto para startups! Sua solução pode transformar ... — https://www.instagram.com/p/DbVkzHOJzx1
+- pendente_leitura: 📌 Inscrições prorrogadas! O Edital da @fapes.es nº 18/ ... — https://www.instagram.com/p/DbqMYYQkV3a
+- pendente_leitura: Estão abertas as inscrições para o Prêmio Sebrae Startups ... — https://www.instagram.com/reel/DXFMUtDgul7
+- pendente_leitura: 🚀 As inscrições para o BRDE Labs RS 2026 foram ... — https://www.instagram.com/reel/DYiro-6x9cx
+- pendente_leitura: 🚀 Estão abertas as inscrições para o Inova Jovem 2026! A ... — https://www.instagram.com/reel/DcwJgIMICPz

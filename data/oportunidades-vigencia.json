@@ -1,6 +1,6 @@
 {
   "versao": "vigencia-v12",
-  "atualizado_em": "2026-11-01T05:02:34.431387-03:00",
+  "atualizado_em": "2026-11-01T09:56:14.994943-03:00",
   "leitura_navegador": {
     "tentativas": 2,
     "sucessos": 1,
@@ -11,9 +11,9 @@
     "falhas_temporarias": [],
     "limite": 20,
     "parada": "gemini_http_400",
-    "pendencias_restantes": 52,
+    "pendencias_restantes": 53,
     "casos_com_tentativa_ia": 22,
-    "resolvidas_automaticamente": 106,
+    "resolvidas_automaticamente": 108,
     "revisoes_manuais": 1
   },
   "itens": [
@@ -472,7 +472,7 @@
       "titulo": "4a. Missão de Startups Brasileiras em Singapura",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T05:02:17.972844-03:00"
+      "verificado_em": "2026-11-01T09:55:56.262973-03:00"
     },
     {
       "url": "https://programas.sebraestartups.com.br/in/sxswsydney2023",
@@ -563,7 +563,7 @@
       "verificado_em": "2026-10-31T16:21:32.520372-03:00",
       "ia_metodo": "gemini-v8",
       "ia_fonte": "https://cloud.google.com/startup/benefits?hl=pt-BR",
-      "ia_proxima_tentativa": "2026-11-01T00:13:40.297443-03:00",
+      "ia_proxima_tentativa": "2026-11-01T15:55:55.519716-03:00",
       "motivo_ia": "gemini_http_400"
     },
     {
@@ -844,7 +844,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T05:02:17.359379-03:00"
+      "verificado_em": "2026-11-01T09:55:55.670686-03:00"
     },
     {
       "url": "https://hello-tomorrow.org/global-challenge",
@@ -1059,7 +1059,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T05:02:22.572576-03:00"
+      "verificado_em": "2026-11-01T09:55:59.459479-03:00"
     },
     {
       "url": "https://www.darwinstartups.com/icmlab",
@@ -1099,7 +1099,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T05:02:18.183125-03:00"
+      "verificado_em": "2026-11-01T09:55:55.882320-03:00"
     },
     {
       "url": "https://dana.com.br/canaldana/2024/07/25/randoncorp-abre-inscricoes-para-segunda-turma-do-programa-de-aceleracao-de-startups",
@@ -1108,7 +1108,7 @@
       "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T05:02:21.108075-03:00"
+      "verificado_em": "2026-11-01T09:55:58.640384-03:00"
     },
     {
       "url": "https://desbugados.com.br/post/2026/05/25/inscricoes-abertas-para-o-programa-centelha-que-destinara-r-46-milhoes-a-48-startups-no-parana",
@@ -1188,11 +1188,14 @@
     {
       "url": "https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco",
       "titulo": "Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria",
+      "fonte_oficial": "https://www.startupsc.com.br/programa-de-capacitacao-startup-sc",
+      "prazo_iso": "2026-03-08T23:59:59-03:00",
+      "evidencia_prazo": "As inscrições para a 16ª Turma do Programa Startup SC (Rede Midihub) estarão abertas no período de 02 de fevereiro a 08 de março de 2026.",
+      "metodo": "cronograma_documentado",
+      "status": "encerrada",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-31T16:21:47.425935-03:00"
+      "verificado_em": "2026-11-01T09:55:59.881972-03:00"
     },
     {
       "url": "https://portalradarenergia.com.br/noticias/cnen-abre-chamada-para-programa-granioter-acelera-2026-em-nanotecnologia-e-mater-1f5df243",
@@ -1239,11 +1242,11 @@
     {
       "url": "https://alertaeditais.com.br/edital/edital-012026-e-goias-transformacao-digital-d-4t8fn",
       "titulo": "Edital 01/2026 e-Goiás Transformação Digital das empresas 2º Ciclo – Chamada de Solucionadoras",
-      "status": "pendente_fonte_oficial",
-      "motivo": "localizar_fonte_primaria",
+      "status": "pendente_acesso",
+      "motivo": "fonte_oficial_indisponivel",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-10-31T16:21:46.669086-03:00"
+      "verificado_em": "2026-11-01T09:55:56.263318-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2026/03/05/prorrogado-programas-para-novas-startups-com-inscricoes-ate-30-de-marco",
@@ -1298,7 +1301,7 @@
       "titulo": "Startup Venture Challenge - CEDE Program for High Schools",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-11-01T05:02:17.117865-03:00"
+      "verificado_em": "2026-11-01T09:55:55.519716-03:00"
     },
     {
       "url": "https://creditforstartups.com/brazil-startup-credits",
@@ -1319,7 +1322,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T05:02:25.656498-03:00"
+      "verificado_em": "2026-11-01T09:55:59.050937-03:00"
     },
     {
       "url": "https://jornaldigital.recife.br/2024/03/11/programa-de-suporte-a-novos-negocios-do-porto-digital-abre-inscricoes",
@@ -1448,7 +1451,7 @@
       "motivo": "prazo_literal_com_ano_nao_encontrado",
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
-      "verificado_em": "2026-11-01T05:02:29.316235-03:00"
+      "verificado_em": "2026-11-01T09:56:04.178242-03:00"
     },
     {
       "url": "https://startupi.com.br/bndes-garagem-abre-inscricoes",
@@ -1479,7 +1482,7 @@
       "titulo": "How to Disable Startup Programs in Windows",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-11-01T05:02:17.117865-03:00"
+      "verificado_em": "2026-11-01T09:55:55.519716-03:00"
     },
     {
       "url": "https://www.ufs.br/conteudo/71948-startups-finalistas-criadas-a-partir-de-programa-de-inducao-da-ufs-sao-apresentadas-ao-publico",
@@ -1593,7 +1596,7 @@
       "titulo": "Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo",
       "status": "fora_escopo",
       "motivo": "participacao_direta_de_startup_ausente",
-      "verificado_em": "2026-11-01T05:02:17.117865-03:00"
+      "verificado_em": "2026-11-01T09:55:55.519716-03:00"
     },
     {
       "url": "https://abvcap.com.br/programas/inova-invest/",
@@ -1796,17 +1799,45 @@
       "metodo_fontes": "links-v2",
       "metodo_leitura": "cronogramas-v6",
       "verificado_em": "2026-10-30T23:49:02.610638-03:00"
+    },
+    {
+      "url": "https://programas.sebraestartups.com.br/in/1779883987228x450057452869386240",
+      "status": "encerrada",
+      "prazo_iso": "2026-08-12T23:59:59-03:00",
+      "evidencia_prazo": "data_final_date=1786589999000",
+      "titulo": "Startup Summit 2026 - Missão Empresarial/RJ - Sebrae Startups",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-11-01T09:55:56.162804-03:00"
+    },
+    {
+      "url": "https://bhtec.org.br/2026/10/27/conexoes-abre-inscricoes-para-startups-que-buscam-ganhar-escala-e-conquistar-mercados-confira-edital",
+      "titulo": "Conexões 2026 abre inscrições para pós-aceleração em Minas",
+      "status": "pendente_evidencia",
+      "motivo": "prazo_literal_com_ano_nao_encontrado",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-11-01T09:55:55.727225-03:00"
+    },
+    {
+      "url": "https://www.ufs.br/conteudo/20125-inovativa-brasil-esta-com-inscricoes-abertas-para-segundo-ciclo-de-aceleracao",
+      "titulo": "Portal UFS - InovAtiva Brasil está com inscrições abertas para segundo ciclo de aceleração",
+      "status": "pendente_fonte_oficial",
+      "motivo": "localizar_fonte_primaria",
+      "metodo_fontes": "links-v2",
+      "metodo_leitura": "cronogramas-v6",
+      "verificado_em": "2026-11-01T09:55:59.096874-03:00"
     }
   ],
   "fila_prioritaria": {
     "total_inicial": 78,
-    "resolvidas": 38,
-    "resolvidas_automaticamente": 38,
+    "resolvidas": 39,
+    "resolvidas_automaticamente": 39,
     "revisoes_manuais": 0,
-    "pendentes": 40,
+    "pendentes": 39,
     "por_resultado": {
       "aberta_confirmada": 4,
-      "encerrada": 32,
+      "encerrada": 33,
       "ainda_nao_aberta": 0,
       "fora_escopo": 2
     }
