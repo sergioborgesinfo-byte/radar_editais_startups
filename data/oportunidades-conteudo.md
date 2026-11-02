@@ -2,7 +2,7 @@
 
 Vigência não avaliada. Não são inscrições confirmadas como abertas.
 
-{'pendente_leitura': 261, 'confirmada_no_conteudo': 118, 'pendente_ia': 223, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 13, 'fora_escopo': 3}
+{'pendente_leitura': 271, 'confirmada_no_conteudo': 119, 'pendente_ia': 233, 'nao_confirmada_no_texto': 17, 'pendente_evidencia': 12, 'fora_escopo': 3}
 
 - pendente_leitura: Embraer Startup Program — http://embraer.com/corporate-innovation/embraer-startup-program/pt
 - confirmada_no_conteudo: Primeira Chamada de Incubação de Impacto para Startups — http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf
@@ -176,7 +176,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Inscrições para o Conexo Challenge estão abertas — https://www.randoncorp.com/pt/blog/inscri%C3%A7%C3%B5es-para-o-conexo-challenge-est%C3%A3o-abertas
 - pendente_leitura: Comunicado: Alteração na Lista de Aceleradoras da ... — https://www.startupbrasil.org.br/2014/06/18/nota-informativa
 - pendente_ia: Desafio Petrobras - Módulo Startup - Outros desafios não especificados ("radar de startups/soluções") — https://alertaeditais.com.br/edital/desafio-petrobras-modulo-startup-outros-desaf-7ac0p
-- pendente_leitura: Inscrições para nova turma de aceleração da Baita terminam dia 15 de janeiro - Anprotec — https://anprotec.org.br/site/2019/01/inscricoes-para-nova-turma-de-aceleracao-da-baita-terminam-dia-15-de-janeiro
+- pendente_leitura: Inscrições para nova turma de aceleração da Baita ... — https://anprotec.org.br/site/2019/01/inscricoes-para-nova-turma-de-aceleracao-da-baita-terminam-dia-15-de-janeiro
 - confirmada_no_conteudo: Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial — https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29
   - trecho_oportunidade: Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial
   - trecho_publico: Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial
@@ -544,7 +544,7 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_leitura: Los desafíos que enfrentarán las startups en los próximos ... — https://www.instagram.com/reel/DUSqgcwDSLl
 - pendente_ia: RODADAS DE INVESTIMENTOS | GREEN RIO 2026 — https://programas.sebraestartups.com.br/in/1786393514323x887855479641897900
 - pendente_ia: Todos os direitos reservados © Sebrae Startups — https://programas.sebraestartups.com.br/in/apex-northstar2025
-- pendente_evidencia: FAPESP simplifica submissão de propostas ao PIPE — https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036
+- pendente_ia: FAPESP simplifica submissão de propostas ao PIPE — https://agencia.fapesp.br/fapesp-simplifica-submissao-de-propostas-ao-pipe/59036
 - pendente_ia: Startups alcançam novos mercados por meio do programa de aceleração Startup Nordeste Piauí | ASN Nacional - Agência Sebrae de Notícias — https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-alcancam-novos-mercados-por-meio-do-programa-de-aceleracao-startup-nordeste-piaui
 - nao_confirmada_no_texto: Startups comemoram aceleração após participação em programa do Sebrae — https://al.agenciasebrae.com.br/inovacao-e-tecnologia/startups-comemoram-aceleracao-apos-participacao-em-programa-do-sebrae
 - confirmada_no_conteudo: Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc — https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas
@@ -875,3 +875,25 @@ Vigência não avaliada. Não são inscrições confirmadas como abertas.
 - pendente_ia: Exposição de Startups - Startup Day 2026 — https://programas.sebraestartups.com.br/in/exposi%C3%A7%C3%A3o-de-startups---startup-day-2026-1770803707334x470452466716825700
 - pendente_ia: Programa de Pré-Aceleração Sebrae For Startups e Hub Comitiva Inovação — https://alertaeditais.com.br/edital/programa-de-pre-aceleracao-sebrae-for-startup-uvbow
 - pendente_ia: Programa Start&UP - Edição 9 - Sebrae Startups — https://programas.sebraestartups.com.br/in/starteup2026
+- confirmada_no_conteudo: Programa Decolagem abre inscrições para acelerar startups de Mato Grosso do Sul | ASN Mato Grosso do Sul - Agência Sebrae de Notícias — https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/programa-decolagem-abre-inscricoes-para-acelerar-startups-de-mato-grosso-do-sul
+  - trecho_oportunidade: Programa Decolagem abre inscrições para acelerar startups de Mato Grosso do Sul
+  - trecho_publico: Programa Decolagem abre inscrições para acelerar startups de Mato Grosso do Sul
+- pendente_ia: Capital Empreendedor 2026 - Turma GO - Sebrae Startups — https://programas.sebraestartups.com.br/in/1770383737106x878734054305382100
+- pendente_leitura: PROGRAMA DE ACELERAÇÃO DE EMPRESAS — https://startupbrasil.org.br/wp-content/uploads/2017/08/Programa-de-acelerac%CC%A7a%CC%83o-de-empresas.pdf
+- pendente_leitura: Conexo abre inscrições para novas edições de programas ... — https://www.randoncorp.com/pt/blog/conexo-abre-inscri%C3%A7%C3%B5es-para-novas-edi%C3%A7%C3%B5es-de-programas-de-inova%C3%A7%C3%A3o
+- pendente_leitura: Startup Nordeste seleciona 20 startups para aceleração em Alagoas - i9Brasil — https://i9brasil.com.br/startup-nordeste-seleciona-20-startups-para-aceleracao-em-alagoas
+- pendente_leitura: BretA 2026: inscrições para missão que levará Retail Techs capixabas para Argentina são prorrogadas | Fundação de Amparo à Pesquisa e Inovação do Espírito Santo - FAPES — https://pt.linkedin.com/posts/fapes_breta-2026-inscri%C3%A7%C3%B5es-para-miss%C3%A3o-que-levar%C3%A1-activity-7408961064601661440-gjEC
+- pendente_leitura: Fundo GovTech abre chamada para startups; cheques vão até R$ 5M — https://startups.com.br/negocios/investimento/fundo-govtech-abre-chamada-para-startups-cheques-vao-ate-r-5m
+- pendente_ia: Cide incubadora abre seleção para startups em Manaus — https://techamazonia.com/cide-incubadora-abre-selecao-para-startups-em-manaus
+- pendente_leitura: Fomos mencionados no artigo do portal Fintech Energy como: 'Sao Paulo’s 101 Fastest Growing FinTech Startups'. A nossa missão é oferecer soluções financeiras inovadoras de forma ágil, prática e… | Ewally — https://www.linkedin.com/posts/ewallyapp_sao-paulos-101-fastest-growing-fintech-startups-activity-6959876479291674624-lool
+- pendente_ia: Aceleradoras e incubadoras de startups no Brasil — https://www.mentornity.com/pt-br/guias/aceleradoras-incubadoras/brasil
+- pendente_ia: Home - INCUBAUECE | Incubadora de Empresas e Centro de Desenvolvimento Tecnológico e Inovação da Universidade Estadual do Ceará — https://www.uece.br/incubauece
+- pendente_ia: A plataforma que é suporte e impulso para startups no Brasil. — https://programas.sebraestartups.com.br/in/1787248128963x397493912173253900
+- pendente_leitura: BretA 2026: Programa promovido pela Fapes levará Retail Techs capixabas para missão na Argentina | Fundação de Amparo à Pesquisa e Inovação do Espírito Santo - FAPES — https://pt.linkedin.com/posts/fapes_breta-2026-programa-promovido-pela-fapes-activity-7403898926598115328-_Byb
+- pendente_ia: Edtech Day 2026 - Sebrae Startups — https://programas.sebraestartups.com.br/in/1790184196241x238516472592309440
+- pendente_leitura: programa de aceleração para startups resolverem desafios ... — https://pt.linkedin.com/posts/troposlab_speedgov-govtech-startups-activity-7520550596022657024-bF9I
+- pendente_ia: MISSÃO EMPRESARIAL - ELI SUMMIT LONDRINA 2026 — https://programas.sebraestartups.com.br/in/1791586807774x731180270747910100
+- pendente_leitura: Nesta quinta-feira, a Venture Hub e a GBR Componentes realizaram o Demo Day do programa de aceleração de startups Sua Ideia Vale 1 Milhão?. Durante o evento, as 12 startups aceleradas apresentaram… | Venture Hub — https://pt.linkedin.com/posts/venturehubacc_nesta-quinta-feira-a-venture-hub-e-a-gbr-activity-7511530716699099136-kIo7
+- pendente_ia: Missão Empresarial Bahia – HackTown 2026 #Startups da ... — https://programas.sebraestartups.com.br/in/missao-bahia-hacktown-2026
+- pendente_leitura: as 11 startups selecionadas para aceleração do Google Cloud — https://pt.linkedin.com/pulse/investimentos-em-equity-caem-abril-11-startups-selecionadas-ixgnf
+- pendente_ia: StartupBa - Incubação Não Residente - Sebrae Startups — https://programas.sebraestartups.com.br/in/startupba

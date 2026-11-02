@@ -2,11 +2,11 @@
 
 Classificação preliminar por título e URL. Não comprova elegibilidade ou inscrições abertas. Nenhum candidato foi apagado.
 
-1565 links recebidos; 1563 páginas após agrupar 2 duplicações de URL.
+1618 links recebidos; 1616 páginas após agrupar 2 duplicações de URL.
 
-58 páginas individuais do catálogo Sebrae encontradas.
+64 páginas individuais do catálogo Sebrae encontradas.
 
-## prioridade_verificacao: 550
+## prioridade_verificacao: 569
 
 - [Embraer Startup Program](http://embraer.com/corporate-innovation/embraer-startup-program/pt) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [EDITAL Nº 006/2026 — SECTIES PRIMEIRA CHAMADA DE ...](http://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/EDITALN006_2026SECTIESPRIMEIRACHAMADADEINCUBAODEIMPACTOPARASTARTUPS.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -169,6 +169,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [edital nº 01/2026 – processo seletivo para ingresso no](https://hotsites.oceanbrasil.com/ocean-launch/Edital_Ocean_Launch_2026_1.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Desafíos - APTA - Andes Pacific Technology Access](https://hubapta.com/desafios) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [1.Edital_Chamamento_Solucionadoras_Edital 01/2026.docx](https://hubgoias.org/wp-content/uploads/2026/01/1.Edital_Chamamento_Solucionadoras_Edital-01_2026.docx-1.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Startup Nordeste seleciona 20 startups para aceleração em Alagoas - i9Brasil](https://i9brasil.com.br/startup-nordeste-seleciona-20-startups-para-aceleracao-em-alagoas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Inscrições para edital voltado a startups com foco em IA estão abertas até o dia 29 - IA Brasil Notícias - Tudo sobre inteligência artificial](https://iabrasilnoticias.com.br/inscricoes-para-edital-voltado-a-startups-com-foco-em-ia-estao-abertas-ate-o-dia-29) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Gerdau launches new open innovation challenge to transform tax management with data intelligence - IBRAM](https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Gerdau y FIEMG Lab buscan startups para resolver los desafíos de IBRAM.](https://ibram.org.br/es/noticia/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -213,11 +214,12 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Programa Acelera Formiga 2026 abre inscrições para selecionar 15 startups e empresas inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias](https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-formiga-2026-abre-inscricoes-para-selecionar-15-startups-e-empresas-inovadoras) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Sebrae Minas abre edital para atração de startups e soluções inovadoras | ASN Minas Gerais - Agência Sebrae de Notícias](https://mg.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-minas-abre-edital-para-atracao-de-startups-e-solucoes-inovadoras) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Porto Digital lança editais de incubação e internacionalização de negócios](https://movimentoeconomico.com.br/tecnologia/2026/02/10/porto-digital-lanca-editais-de-incubacao-e-internacionalizacao-de-negocios) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Programa Decolagem abre inscrições para acelerar startups de Mato Grosso do Sul | ASN Mato Grosso do Sul - Agência Sebrae de Notícias](https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/programa-decolagem-abre-inscricoes-para-acelerar-startups-de-mato-grosso-do-sul) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Startups de MS podem apresentar soluções para desafios de grandes empresas do país | ASN Mato Grosso do Sul - Agência Sebrae de Notícias](https://ms.agenciasebrae.com.br/inovacao-e-tecnologia/startups-de-ms-podem-apresentar-solucoes-para-desafios-de-grandes-empresas-do-pais) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Sebrae/MS abre seleção gratuita para acelerar até 30 startups sul-mato-grossenses | MSConecta](https://msconecta.com.br/noticia/15278/sebrae-ms-abre-selecao-gratuita-para-acelerar-ate-30-startups-sul-mato-grossenses/amp) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Edital Nº 11/2026 - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia](https://multiplicidades.org.br/edital-no-11-2026-programa-fapdf-start-bsb-3o-ciclo-selecao-publica-de-propostas-para-apoio-financeiro-na-modalidade-subvencao-economica-as-startups) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Formulário do Edital de Chamamento Público Nº 02/2026 - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia](https://multiplicidades.org.br/formulario-do-edital-de-chamamento-publico-no-02-2026) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Pré-aceleração e incubação de empresas - Instituto Multiplicidades - Inovação, Empreendedorismo e Tecnologia](https://multiplicidades.org.br/pre-aceleracao-e-incubacao-de-empresas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Pré-aceleração e incubação de empresas](https://multiplicidades.org.br/pre-aceleracao-e-incubacao-de-empresas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [BNDES Garagem: conheça esse programa voltado para as startups – Núcleo de acesso ao crédito](https://nac.cni.com.br/blog/bndes-garagem-conheca-esse-programa-voltado-para-as-startups) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Programa apoia novas startups de tecnologia em educação | Na Prática](https://napratica.org.br/noticias/programa-apoia-novas-startups-de-tecnologia-em-educacao) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Maior incubadora do Brasil abre vagas para startups em SC; inscrições vão até 8 de março](https://ndmais.com.br/tecnologia/maior-incubadora-do-brasil-abre-vagas-para-startups-em-sc-inscricoes-vao-ate-8-de-marco) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -251,6 +253,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Programa de aceleração que apoia startups a entrar no mercado arranca com 31 projetos científicos e tecnológicos - XXV Governo Constitucional](https://portugal.gov.pt/pt/gc25/comunicacao/comunicados/programa-de-aceleracao-que-apoia-startups-a-entrar-no-mercado-arranca-com-31-projetos-cientificos-e-tecnologicos) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Invest.Rio e Maravalley lançam edital para selecionar dez startups para Missão Web Summit Lisboa 2026 - Prefeitura da Cidade do Rio de Janeiro - prefeitura.rio](https://prefeitura.rio/cidade/invest-rio-e-maravalley-lancam-edital-para-selecionar-dez-startups-para-missao-web-summit-lisboa-2026) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Inscrições abertas para o BioStartup Lab, programa gratuito e online da Biominas - Profissão Biotec](https://profissaobiotec.com.br/biostartup-lab-biominas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Capital Empreendedor 2026 - Turma GO - Sebrae Startups](https://programas.sebraestartups.com.br/in/1770383737106x878734054305382100) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Programa Start&UP - Edição 9 - Sebrae Startups](https://programas.sebraestartups.com.br/in/1773155744320x304125193997948540) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Movimenta Sebrae](https://programas.sebraestartups.com.br/in/1775574256700x291468019708723200) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [São Paulo Innovation Week - Sebrae Startups](https://programas.sebraestartups.com.br/in/1776264699513x196992201218308300) — Página individual de programa Sebrae; regras ainda não verificadas.
@@ -260,17 +263,20 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Startup Summit 2026 - Missão Empresarial/RJ - Sebrae Startups](https://programas.sebraestartups.com.br/in/1779883987228x450057452869386240) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [BRAVI 2026 | Leve sua Agrifoodtech para a Itália](https://programas.sebraestartups.com.br/in/1780940068996x289665906945032200) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Missão Empresarial Bahia – Startup Summit 2026 #Startups ...](https://programas.sebraestartups.com.br/in/1783454154242x983490009200236500) — Página individual de programa Sebrae; regras ainda não verificadas.
-- [Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)](https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100) — Página individual de programa Sebrae; regras ainda não verificadas.
+- [Startups do RS e demais estados na Mercopar 2026 ...](https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Programa de Aceleração de Vendas para Startups 2026](https://programas.sebraestartups.com.br/in/1784030276359x103297627130880540) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Deep Tech Indústria - Cadastro de deeptechs interessadas](https://programas.sebraestartups.com.br/in/1784305375587x589675719966326800) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Missão Técnica PR: Web Summit Lisboa 2026 - Sebrae Startups](https://programas.sebraestartups.com.br/in/1784324907689x991447417353928700) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Health Meeting 2026 | Exposição de Startups](https://programas.sebraestartups.com.br/in/1784907106298x372208081546510340) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Expointer 2026 - Exposição de startups, estande coletivo ...](https://programas.sebraestartups.com.br/in/1784908703725x500892852049595900) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [RODADAS DE INVESTIMENTOS | GREEN RIO 2026](https://programas.sebraestartups.com.br/in/1786393514323x887855479641897900) — Página individual de programa Sebrae; regras ainda não verificadas.
+- [A plataforma que é suporte e impulso para startups no Brasil.](https://programas.sebraestartups.com.br/in/1787248128963x397493912173253900) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Seletiva Sebrae Rio Summit 2026](https://programas.sebraestartups.com.br/in/1788975717898x811272824955637100) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Missão Empresarial Internacional – Web Summit 2026 Lisboa](https://programas.sebraestartups.com.br/in/1789578904196x720018584131805200) — Página individual de programa Sebrae; regras ainda não verificadas.
+- [Edtech Day 2026 - Sebrae Startups](https://programas.sebraestartups.com.br/in/1790184196241x238516472592309440) — Página individual de programa Sebrae; regras ainda não verificadas.
+- [MISSÃO EMPRESARIAL - ELI SUMMIT LONDRINA 2026](https://programas.sebraestartups.com.br/in/1791586807774x731180270747910100) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Todos os direitos reservados © Sebrae Startups](https://programas.sebraestartups.com.br/in/apex-northstar2025) — Página individual de programa Sebrae; regras ainda não verificadas.
-- [Mentorias | Bootcamp Deep techs 11/2026 - Sebrae Startups](https://programas.sebraestartups.com.br/in/bootcampdeeptech-112026) — Página individual de programa Sebrae; regras ainda não verificadas.
+- [A plataforma que é suporte e impulso para startups no Brasil.](https://programas.sebraestartups.com.br/in/bootcampdeeptech-112026) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [BRAVI 2026 | Leve sua Agrifoodtech para a Itália](https://programas.sebraestartups.com.br/in/bravi) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Capital Empreendedor 2026 - Turma PR - Sebrae Startups](https://programas.sebraestartups.com.br/in/capital-empreendedor-2026-turma-pr) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Capital Empreendedor 2026 - Turma GO - Sebrae Startups](https://programas.sebraestartups.com.br/in/capitalempreendedor-go26) — Página individual de programa Sebrae; regras ainda não verificadas.
@@ -294,6 +300,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Rede MIDIHUB 2026 - Sebrae Startups](https://programas.sebraestartups.com.br/in/midihub2026) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Missão Empresarial Web Summit Lisboa 2026 - Piauí](https://programas.sebraestartups.com.br/in/miss%C3%A3o-empresarial-web-summit-lisboa-2026---piau%C3%AD-1783345324060x916741265089269500) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Missão Next Rise 2026 - Seul, Coreia do Sul - Sebrae Startups](https://programas.sebraestartups.com.br/in/miss%C3%A3o-next-rise-2026---seul-coreia-do-sul-1771582492388x399221078118399100) — Página individual de programa Sebrae; regras ainda não verificadas.
+- [Missão Empresarial Bahia – HackTown 2026 #Startups da ...](https://programas.sebraestartups.com.br/in/missao-bahia-hacktown-2026) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Missão Bahia - Gamescom Latam](https://programas.sebraestartups.com.br/in/missaobahiagamescom) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Missão NEON 2026 - Sebrae/RN](https://programas.sebraestartups.com.br/in/missaornneon2026) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [NEON 2026 - Startups expositoras](https://programas.sebraestartups.com.br/in/neon-2026---startups-expositoras-1772814295688x347903356906245300) — Página individual de programa Sebrae; regras ainda não verificadas.
@@ -305,6 +312,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Programa Start&UP - Edição 9 - Sebrae Startups](https://programas.sebraestartups.com.br/in/starteup2026) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Startup Ceará 2026 - Sebrae Startups](https://programas.sebraestartups.com.br/in/startup-cear%C3%A1-2026-1782993823227x739640016076444000) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Startup Experience ESX 2026 - Sebrae Startups](https://programas.sebraestartups.com.br/in/startup-experience-esx-2026-1771597174940x883690215484256800) — Página individual de programa Sebrae; regras ainda não verificadas.
+- [StartupBa - Incubação Não Residente - Sebrae Startups](https://programas.sebraestartups.com.br/in/startupba) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Missão Empresarial Bahia – Startup Summit 2026 #Startups ...](https://programas.sebraestartups.com.br/in/startupsummit2026-missaobahia) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [Missão Startup Summit 2026 - Sebrae/RN](https://programas.sebraestartups.com.br/in/startupsummit26) — Página individual de programa Sebrae; regras ainda não verificadas.
 - [4a. Missão de Startups Brasileiras em Singapura](https://programas.sebraestartups.com.br/in/switch2025) — Página individual de programa Sebrae; regras ainda não verificadas.
@@ -312,11 +320,16 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Prosas | Edital - 1º Edital para o Programa de Inovação Aberta do hub](https://prosas.com.br/editais/16756-1o-edital-para-o-programa-de-inovacao-aberta-do-hub-rioia-2026) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Prosas | Edital - Prêmio Impacta Mais 2026](https://prosas.com.br/editais/17308-premio-impacta-mais-2026) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Empreendedorismo e Inovação: como programas de incubação impulsionam negócios e startups | Pesquisa e Inovação: Universidade Federal de Goiás](https://prpi.ufg.br/p/empreendedorismo-e-inovacao) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [BretA 2026: inscrições para missão que levará Retail Techs capixabas para Argentina são prorrogadas | Fundação de Amparo à Pesquisa e Inovação do Espírito Santo - FAPES](https://pt.linkedin.com/posts/fapes_breta-2026-inscri%C3%A7%C3%B5es-para-miss%C3%A3o-que-levar%C3%A1-activity-7408961064601661440-gjEC) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [BretA 2026: Programa promovido pela Fapes levará Retail Techs capixabas para missão na Argentina | Fundação de Amparo à Pesquisa e Inovação do Espírito Santo - FAPES](https://pt.linkedin.com/posts/fapes_breta-2026-programa-promovido-pela-fapes-activity-7403898926598115328-_Byb) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Junte-se aos Programas de Aceleração do Hub Conecta!](https://pt.linkedin.com/posts/junior-rodrigues-4028922b_fill-chamada-para-mentores-junte-se-aos-activity-7274793824713932800-I9Cg) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [#incubação #startups #sebraepe #inovação | Sebrae Pernambuco](https://pt.linkedin.com/posts/sebraepe_incuba%C3%A7%C3%A3o-startups-sebraepe-activity-7354261600268148737-NnyT) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Sebrae leva startups brasileiras à Coreia do Sul em missão para ...](https://pt.linkedin.com/posts/starten-tech_sebrae-leva-startups-brasileiras-%C3%A0-coreia-activity-7435383809119809536-lgCG) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [programa de aceleração para startups resolverem desafios ...](https://pt.linkedin.com/posts/troposlab_speedgov-govtech-startups-activity-7520550596022657024-bF9I) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Nesta quinta-feira, a Venture Hub e a GBR Componentes realizaram o Demo Day do programa de aceleração de startups Sua Ideia Vale 1 Milhão?. Durante o evento, as 12 startups aceleradas apresentaram… | Venture Hub](https://pt.linkedin.com/posts/venturehubacc_nesta-quinta-feira-a-venture-hub-e-a-gbr-activity-7511530716699099136-kIo7) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Gravataí encerra primeiro ciclo de incubação e prepara ...](https://pt.linkedin.com/pulse/gravata%C3%AD-encerra-primeiro-ciclo-de-incuba%C3%A7%C3%A3o-e-nova-smict--detrf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Insights da Aula Inaugural de Pré-Incubação: Construindo ...](https://pt.linkedin.com/pulse/insights-da-aula-inaugural-de-pr%C3%A9-incuba%C3%A7%C3%A3o-startups-ol%C3%ADvia-vfaqf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [as 11 startups selecionadas para aceleração do Google Cloud](https://pt.linkedin.com/pulse/investimentos-em-equity-caem-abril-11-startups-selecionadas-ixgnf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Novas associadas, edital de incubação e vagas no ecossistema](https://pt.linkedin.com/pulse/novas-associadas-edital-de-incuba%C3%A7%C3%A3o-e-vagas-ecossistema-rhutf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Porto Digital inicia programa de incubação de startups em ...](https://pt.linkedin.com/pulse/porto-digital-inicia-programa-de-incuba%C3%A7%C3%A3o-v1byf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Top 1000 do Prêmio Sebrae Startups 2026](https://pt.linkedin.com/pulse/pr-tem-65-empresas-top-1000-do-pr%C3%AAmio-sebrae-startups-lichacovski-kxdqe) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -370,6 +383,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [#SOFTEXAPOIA: Programa de Aceleração FIEMG Lab 4.0 recebe inscrições - Softex](https://softex.br/programa-de-aceleracao-fiemg-lab-4-0-recebe-inscricoes) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Sict lança edital de seleção de startups para a Gramado ...](https://starten.tech/2026/01/21/sict-lanca-edital-de-selecao-de-startups-para-a-gramado-summit-2026) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Seleção de startups para o GovTech Summit 2026 tem inscrições ...](https://starten.tech/2026/02/26/selecao-de-startups-para-o-govtech-summit-2026-tem-inscricoes-abertas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [PROGRAMA DE ACELERAÇÃO DE EMPRESAS](https://startupbrasil.org.br/wp-content/uploads/2017/08/Programa-de-acelerac%CC%A7a%CC%83o-de-empresas.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [BNDES Garagem abre inscrições para aceleração de startups de impacto socioambiental - Startupi](https://startupi.com.br/bndes-garagem-abre-inscricoes) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Bossa Invest: R$ 31 milhões aceleram seleção das startups mais promissoras de 2026 - Startupi](https://startupi.com.br/bossa-invest-r-31-milhoes) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Empresa oferece programa de aceleração 100% online para startups de todo o Brasil - Startupi](https://startupi.com.br/empresa-oferece-programa-de-aceleracao-100-online-para-startups-de-todo-o-brasil) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -380,19 +394,21 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Manifestação de Interesse - SIM Conference](https://startupmadeira.eu/2024/03/27/manifestacao-de-interesse-sim-conference) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Episódio 3 do Safra de Inovações traz logística como desafio - Startups](https://startups.com.br/branded-content/episodio-3-do-safra-de-inovacoes-traz-logistica-como-desafio) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Libbs abre inscrições para o programa de inovação aberta Linna - Startups](https://startups.com.br/branded-content/libbs-abre-inscricoes-para-o-programa-de-inovacao-aberta-linna) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Programa de Aceleração de Startups do Grupo Boticário está na reta final das inscrições - Startups](https://startups.com.br/branded-content/programa-de-aceleracao-de-startups-do-grupo-boticario-esta-na-reta-final-das-inscricoes) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Sebrae abre inscrições para programa de aceleração em IA para micro e pequenas empresas - Startups](https://startups.com.br/branded-content/sebrae-abre-inscricoes-para-programa-de-aceleracao-em-ia-para-micro-e-pequenas-empresas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Programa de Aceleração de Startups do Grupo Boticário está ...](https://startups.com.br/branded-content/programa-de-aceleracao-de-startups-do-grupo-boticario-esta-na-reta-final-das-inscricoes) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Sebrae abre inscrições para programa de aceleração em IA para ...](https://startups.com.br/branded-content/sebrae-abre-inscricoes-para-programa-de-aceleracao-em-ia-para-micro-e-pequenas-empresas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [WOW abre inscrições para novo Batch de aceleração - Startups](https://startups.com.br/branded-content/wow-abre-inscricoes-para-novo-batch-de-aceleracao) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Potencia Ventures abre pré-inscrições para programa de aceleração de startups - Startups](https://startups.com.br/eventos/potencia-ventures-abre-pre-inscricoes-para-programa-de-aceleracao-de-startups) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Crescer sem perder a alma de startup é desafio para founders - Startups](https://startups.com.br/eventos/web-summit/crescer-sem-perder-a-alma-de-startup-e-desafio-para-founders) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Google for Startups lança programa de aceleração para startups de IA - Startups](https://startups.com.br/negocios/aceleracao/google-for-startups-lanca-programa-de-aceleracao-para-startups-de-ia) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [BlackRocks abre inscrições para nova turma da aceleração Grow Startups - Startups](https://startups.com.br/negocios/blackrocks-abre-inscricoes-para-nova-turma-da-aceleracao-grow-startups) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [BlackRocks abre inscrições para nova turma da aceleração Grow ...](https://startups.com.br/negocios/blackrocks-abre-inscricoes-para-nova-turma-da-aceleracao-grow-startups) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [BlackRocks faz 2º programa de aceleração para empreendedores negros](https://startups.com.br/negocios/blackrocks-traz-nova-edicao-de-programa-de-aceleracao-para-empreendedores-negros) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [DPSP lança programa de inovação e promete ganhos para startups - Startups](https://startups.com.br/negocios/dpsp-lanca-programa-de-inovacao-e-promete-ganhos-para-startups) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Gama Fund, de Google e Monashees, estende prazo de inscrições - Startups](https://startups.com.br/negocios/inteligencia-artificial/gama-fund-de-google-e-monashees-estende-prazo-de-inscricoes) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Fundo GovTech abre chamada para startups; cheques vão até R$ 5M](https://startups.com.br/negocios/investimento/fundo-govtech-abre-chamada-para-startups-cheques-vao-ate-r-5m) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [boostlab, do BTG, abre inscrições para nova turma - Startups](https://startups.com.br/negocios/venture-capital/boostlab-do-btg-abre-inscricoes-para-nova-turma) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Tudo sobre programa de aceleração - Startups](https://startups.com.br/tag/programa-de-aceleracao) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [EDITAL DE INSCRIÇÃO - GBR](https://suaideiavaleummilhao.com.br/edital-sua-ideia-vale-1-milhao.pdf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Cide incubadora abre seleção para startups em Manaus](https://techamazonia.com/cide-incubadora-abre-selecao-para-startups-em-manaus) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Start-Up Challenge – El Start-Up Challenge impulsa la innovación, el desarrollo y la transformación digital de las juventudes en las Américas.](https://ticamericas.net/startup) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Oracle lança programa de créditos em nuvem para startups na América Latina - Times Brasil | CNBC](https://timesbrasil.com.br/empresas-e-negocios/startups/oracle-programa-creditos-nuvem-startups-america-latina) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Programa de Pré-incubação Empreendedora com Sebrae Sergipe – Tiradentes Innovation Center](https://tiradentesinnovation.com/cursos_e_eventos/programa-de-pre-incubacao-empreendedora-com-sebrae-sergipe) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -472,7 +488,6 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [As inscrições para o BRDE Labs SC Growth 2026 estão ...](https://www.instagram.com/p/Da5PHiNlIW9) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [BRDE Labs SC Growth 2026 🚀 inscrições abertas ...](https://www.instagram.com/p/DadzidtgaGf) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Sua empresa quer desenvolver soluções para desafios ...](https://www.instagram.com/p/DbBFQTPDC9q) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Edital aberto para startups! Sua solução pode transformar ...](https://www.instagram.com/p/DbVkzHOJzx1) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [📌 Inscrições prorrogadas! O Edital da @fapes.es nº 18/ ...](https://www.instagram.com/p/DbqMYYQkV3a) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [💡🌳 Desafios reais da Amazônia poderão ser conectados ...](https://www.instagram.com/p/DcuCM8TMBZP) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Edital Nº 33/2026-FACEPE - Pró-Startups Operação: apoio ...](https://www.instagram.com/p/Dd9nLBUJ_NO) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -485,7 +500,9 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [0P00016MBM Fund | IBIUNA HEDGE SELEÇÃO MULTIMERCADO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO - Investing.com](https://www.investing.com/funds/itau-personnalite-selecao-ibiuna-he) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [IBIUNA HEDGE SELEÇÃO MULTIMERCADO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO Company Profile - Investing.com](https://www.investing.com/funds/itau-personnalite-selecao-ibiuna-he-company-profile) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [ITAÚ SELEÇÃO AÇÕES FUNDO DE INVESTIMENTO EM COTAS DE DE FUNDOS DE INVESTIMENTO Company Profile - Investing.com](https://www.investing.com/funds/itau-selecao-acoes-fundo-de-investi-company-profile) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Fomos mencionados no artigo do portal Fintech Energy como: 'Sao Paulo’s 101 Fastest Growing FinTech Startups'. A nossa missão é oferecer soluções financeiras inovadoras de forma ágil, prática e… | Ewally](https://www.linkedin.com/posts/ewallyapp_sao-paulos-101-fastest-growing-fintech-startups-activity-6959876479291674624-lool) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Pulsar Incubadora Tecnológica divulga resultado final do edital ...](https://www.linkedin.com/pulse/pulsar-incubadora-tecnol%C3%B3gica-divulga-resultado-final-do-ijpke) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Aceleradoras e incubadoras de startups no Brasil](https://www.mentornity.com/pt-br/guias/aceleradoras-incubadoras/brasil) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Programa de Aceleração de StartUps - Business Boost - RePosicione e ReInvente o seu Negócio - NERSANT - Associação Empresarial](https://www.nersant.pt/agenda/evento/programa-de-aceleracao-de-startups-business-boost-reposicione-e-reinvente-o-seu-negocio-alcanena?1502=) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Aceleração de Startups: Sebrae Piauí lança edital para seleção de negócios inovadores - OitoMeia](https://www.oitomeia.com.br/noticias/economia/2026/08/16/aceleracao-de-startups-sebrae-piaui-lanca-edital-para-selecao-de-negocios-inovadores) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [100 Open Startups - Desafío Deportes](https://www.openstartups.net/es/challenges/sport) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -496,6 +513,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Governo abre inscrição para programa de aceleração de startups](https://www.poder360.com.br/poder-empreendedor/governo-abre-inscricao-para-programa-de-aceleracao-de-startups) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Governo de Pernambuco e Porto Digital abrem inscrições para programas de fomento ao empreendedorismo e internacionalização - Porto Digital](https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho](https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Conexo abre inscrições para novas edições de programas ...](https://www.randoncorp.com/pt/blog/conexo-abre-inscri%C3%A7%C3%B5es-para-novas-edi%C3%A7%C3%B5es-de-programas-de-inova%C3%A7%C3%A3o) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Conexo Challenge: segunda rodada de desafios de ...](https://www.randoncorp.com/pt/blog/conexo-challenge-segunda-rodada-de-desafios-de-inova%C3%A7%C3%A3o-est%C3%A1-com-inscri%C3%A7%C3%B5es-abertas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Inscrições para o Conexo Challenge estão abertas](https://www.randoncorp.com/pt/blog/inscri%C3%A7%C3%B5es-para-o-conexo-challenge-est%C3%A3o-abertas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Randon Ventures seleciona cinco startups para programa ...](https://www.randoncorp.com/pt/blog/randon-ventures-seleciona-cinco-startups-para-programa-de-acelera%C3%A7%C3%A3o) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -514,8 +532,8 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Comunicado: Alteração na Lista de Aceleradoras da ...](https://www.startupbrasil.org.br/2014/06/18/nota-informativa) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Como escolher a sua aceleradora](https://www.startupbrasil.org.br/2014/07/03/como-escolher-a-sua-aceleradora) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Programa Start-UP Brasil lança edital para qualificação de ...](https://www.startupbrasil.org.br/2014/12/02/programa-start-up-brasil-lanca-edital-para-qualificacao-de-aceleradoras-3) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Conheça as doze aceleradoras qualificadas pelo ...](https://www.startupbrasil.org.br/2015/02/27/conheca-as-doze-aceleradoras-qualificadas-pelo-programa-start-up-brasil-para-2015-2016) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
-- [Inscrições](https://www.startupbrasil.org.br/inscricoes) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Conheça as doze aceleradoras qualificadas pelo Programa Start ...](https://www.startupbrasil.org.br/2015/02/27/conheca-as-doze-aceleradoras-qualificadas-pelo-programa-start-up-brasil-para-2015-2016) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Start-Up Brasil - Inscrições](https://www.startupbrasil.org.br/inscricoes) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Aceleradoras](https://www.startupbrasil.org.br/quem-aceleradoras) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Fiat Chrysler e Sebrae lançam desafio para startups sobre carro conectado – Sebrae Startups](https://www.startupsc.com.br/fiat-chrysler-e-sebrae-lancam-desafio-para-startups-sobre-carro-conectado) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Programa Startup SC – Sebrae Startups](https://www.startupsc.com.br/programa-de-capacitacao-startup-sc) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -526,6 +544,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Apresentação do Edital Novo Seed em Ouro Branco - Sympla](https://www.sympla.com.br/evento/apresentacao-do-edital-novo-seed/3377139) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Programa de Aceleração #GoHard15 da Ventiur está com inscrições abertas : Tecnosinos](https://www.tecnosinos.com.br/news/programa-de-aceleracao-gohard15-da-ventiur-esta-com-inscricoes-abertas) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [Programa de fomento ao turismo de estrangeiros no Brasil terá investimento de R$ 126 milhões em 2025](https://www.tradingkey.com/pt/news/more-news/240235478-tradingKey) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
+- [Home - INCUBAUECE | Incubadora de Empresas e Centro de Desenvolvimento Tecnológico e Inovação da Universidade Estadual do Ceará](https://www.uece.br/incubauece) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [FINEP lança série de editais com R$ 3,3 bilhões para impulsionar a inovação no Brasil - INCUBAUECE | Incubadora de Empresas e Centro de Desenvolvimento Tecnológico e Inovação da Universidade Estadual do Ceará](https://www.uece.br/incubauece/noticias/finep-lanca-serie-de-editais-com-r-33-bilhoes-para-impulsionar-a-inovacao-no-brasil) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [INCUBAUECE abre inscrições para Programa de Pré‑Incubação Deep Tech 2026 - INCUBAUECE | Incubadora de Empresas e Centro de Desenvolvimento Tecnológico e Inovação da Universidade Estadual do Ceará](https://www.uece.br/incubauece/noticias/incubauece-abre-inscricoes-para-programa-de-pre%E2%80%91incubacao-deep-tech-2026) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
 - [· IECBiot · Sict lança edital para levar 20 startups gaúchas ...](https://www.ufrgs.br/cbiot/ie/noticias/sict-lanca-edital-para-levar-20-startups-gauchas-ao-govtech-summit-2026/51) — Título indica possível programa ou oportunidade; pode ser notícia ou chamada antiga.
@@ -617,7 +636,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Top 908 Usa Startups — Newly Funded & Hiring](https://topstartups.io/?hq_location=Usa) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [Venture Hub » Aceleração de Startups e Inovação Corporativa](https://venturehub.se/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [Vórtex Aceleradora](https://vortexaceleradora.com/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
-- [WIT Incubadora Tecnológica](https://witstartups.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
+- [WIT — Inovação que nasce na Amazônia](https://witstartups.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [Formação GovTech Hub Goiás 2026–27 | Estratégia B2G para organizações](https://www.acelera-hubgoias.innovc.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [BRDE LABS | Programa que incentiva o ecossistema regional de inovação](https://www.brdelabs.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [FAPERJ](https://www.faperj.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
@@ -644,7 +663,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Startup Summit 2026](https://www.startupsummit.com.br/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 - [WOW Aceleradora: Aceleração de Startup e Investidores](https://www.wow.ac/) — Página institucional ou catálogo: serve para descobrir chamadas individuais.
 
-## revisar_contexto: 925
+## revisar_contexto: 958
 
 - [Programa Desafía | España Digital 2026](http://espanadigital.gob.es/lineas-de-actuacion/programa-desafia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [BNDES Garagem - BNDES](http://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/bndes%20garagem%20-%20apoio%20ao%20desenvolvimento%20de%20startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -680,6 +699,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Cinco anos de Google for Startups no Brasil: celebrando a evolução do ecossistema e a reinvenção do cotidiano](https://blog.google/intl/pt-br/novidades/iniciativas/cinco-anos-de-google-for-startups-no) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Hubs de inovação: uma nova oportunidade para o Rio de Janeiro](https://blogdodesenvolvimento.bndes.gov.br/categoria/industria-e-comercio-exterior/Hubs-de-inovacao-uma-nova-oportunidade-para-o-Rio-de-Janeiro) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [5 HealthTech AI Startups To Follow in 2026](https://blumbergcapital.com/news-insights/five-rising-ai-healthtech-companies) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Açolab | ArcelorMittal Brasil](https://brasil.arcelormittal.com/sustentabilidade-inovacao/inovacao/acolab) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Calendário de Missões e Feiras Internacionais | Brasil IT+](https://brasilitplus.com/calendario) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Startups da Hotmilk projetam receita de R$ 667 milhões e ...](https://brazileconomy.com.br/empresas/south-economy/2026/02/startups-da-hotmilk-projetam-r-667-milhoes-em-receita-em-2026-e-somam-5-mil-empregos) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [BRDE Banco Regional de Desenvolvimento do Extremo Sul](https://brde.com.br/noticia/inscricoes-para-programa-de-aceleracao-de-startups-encerram-nos-proximos-dias) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -737,6 +757,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-018-2026-hubmg-gov-resolucao-de-desafios-publicos-por-meio-de-inovacao-aberta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Saiba Mais](https://fapemig.br/oportunidades/chamadas-e-editais/chamada-publica-fapemig-cnpq-capes-n-17-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Pesquisas para a Inovação Tecnológica e Empreendedorismo - FAPERGS - Fundação de Amparo à pesquisa do Estado do RS](https://fapergs.rs.gov.br/60anos-pesquisas-inovacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [FAPES - Fundação de Amparo à Pesquisa e Inovação do Espírito Santo](https://fapes.es.gov.br/Noticia/governo-lanca-edital-inedito-de-aceleracao-de-startups-do-estado-programa-seedes) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Licitações](https://fapes.es.gov.br/Notícia/fapes-prorroga-prazo-de-submissao-no-edital-pic-jr-2022) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [FAPES — Editais](https://fapes.es.gov.br/editais) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Carreira Científica](https://fapes.es.gov.br/edital-aberto-formação-científica) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -795,6 +816,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Startups goianas mostram que Goiás é um celeiro de inovação no Capital Empreendedor | ASN Goiás - Agência Sebrae de Notícias](https://go.agenciasebrae.com.br/inovacao-e-tecnologia/startups-goianas-mostram-que-goias-e-um-celeiro-de-inovacao-no-capital-empreendedor) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Govtech – Secretaria de Estado de Ciência, Tecnologia e Inovação](https://goias.gov.br/inovacao/govtech) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Startups – Secretaria de Estado de Ciência, Tecnologia e Inovação](https://goias.gov.br/inovacao/startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Oportunidades para startups, empresas e inovação em Goiás | Goiás Digital](https://goiasdigital.com/oportunidades) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [ACE Ventures: programa, como aplicar e investimento | Growth System](https://growthsystem.com.br/aceleradoras/ace-ventures) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Growth System | Plataforma SaaS com IA para Vendas](https://growthsystem.com.br/eventos-de-inovacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Startups – HackTown 2026](https://hacktown.com.br/htstartups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -810,6 +832,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [InovAtiva Brasil - InovAtiva](https://inovativa.online/inovativa-brasil) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [InovAtiva de Impacto - InovAtiva](https://inovativa.online/inovativa-impacto) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Conecta Caldeira](https://institutocaldeira.org.br/programas/conecta-caldeira) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Desenvolvimento de Startups - Instituto Senai de Tecnologia Mato Grosso](https://institutosenaimt.ind.br/inovacao/2291/desenvolvimento-de-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Integrow | Startups & Inovação](https://integrow.grupointegrado.br/startups-incubacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [SP Global Tech – InvestSP](https://investsp.org.br/sp-global-tech) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Startups Amazônicas | IPIAM](https://ipiam.org.br/startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -879,13 +902,18 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [#openinnovation #openstartups | 100 Open Startups](https://pt.linkedin.com/posts/100-open-startups_openinnovation-openstartups-activity-7503820116644679682-kjvs) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Associação Brasil Internacional dos Inventores, Cientistas e ...](https://pt.linkedin.com/posts/abipir-associa%C3%A7%C3%A3o-brasil-internacional-dos-inventores-cientistas-e-empreendedores-inovadores_oportunidade-para-startups-brasileiras-apresentarem-activity-7434308716801183745-MU5W) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [#scaleia #sebraestartups #ia #startups #inovacao](https://pt.linkedin.com/posts/alexsouzanet_scaleia-sebraestartups-ia-activity-7457913949540483073-BgJ_) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [BNDES Garagem: impulsionando inovação e conexões para startups brasileiras | Alice Lopes publicou sobre o tópico | LinkedIn](https://pt.linkedin.com/posts/alice-lopes-051104_diadainova%C3%A7%C3%A3o-bndesgaragem-startups-activity-7517938423563808769-hMCU) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de Anderson Soares](https://pt.linkedin.com/posts/andersonsoares-ia_scaleia-inteligenciaartificial-startups-activity-7453255608171995137-8xgr) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de Andréia Dullius](https://pt.linkedin.com/posts/andreia-dullius_startups-investimentos-ia-activity-7495553473372045312-PIyP) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [#smartmoney #startups #investimentoanjo #boardadvisor #empreendedorismo | BR Angels](https://pt.linkedin.com/posts/brangels_smartmoney-startups-investimentoanjo-activity-7300148801946722305-cGzi) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Startup brasileira premiada | Brasil IT+](https://pt.linkedin.com/posts/brasil-it-plus_startup-brasileira-premiada-activity-7506691653152227328-89ht) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de Carlos Magno](https://pt.linkedin.com/posts/c4rl0sm4gn0_oportunidade-para-startups-com-solu%C3%A7%C3%B5es-de-activity-7452723949966360577-rlNT) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de Centro Tecnológico SATC](https://pt.linkedin.com/posts/centrotecnologicosatc_satc-lan%C3%A7a-programa-que-conecta-empresas-activity-7503799594628169729-A1Df) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de Dani Glück](https://pt.linkedin.com/posts/dani-gl%C3%BCck-b42731117_aten%C3%A7%C3%A3o-startups-de-todo-brasil-esta-activity-7422238920031170560-2_6F) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de DeepTech Transfer](https://pt.linkedin.com/posts/deeptech-transfer_15-projetos-selecionados-ap%C3%B3s-um-processo-activity-7487593911528448001-cr1_) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Case - Startup Summit 26 | Dialetto](https://pt.linkedin.com/posts/dialettocom_case-startup-summit-26-activity-7514341573233471488-e9GF) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Conheça as 100 Startups to Watch 2023 | Endeavor Brasil | 15 comentários](https://pt.linkedin.com/posts/endeavor-brasil_conhe%C3%A7a-as-100-startups-to-watch-2023-activity-7117271980629766144-pXsD) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Formulário de interesse | Endeavor Brasil](https://pt.linkedin.com/posts/endeavor-brasil_formul%C3%A1rio-de-interesse-activity-7200861652244684800-gV-K) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de Fausto Vetter](https://pt.linkedin.com/posts/faustovetter_fapesp-anuncia-s%C3%A9rie-de-a%C3%A7%C3%B5es-para-estimular-activity-7440103225732591616-mF5-) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [#paratodosverem | Ferdinando Kun](https://pt.linkedin.com/posts/ferdinandokun_paratodosverem-activity-7458187434720129024-D2cJ) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Ferdinando Kun - uberlândia #startups #uberhub](https://pt.linkedin.com/posts/ferdinandokun_uberl%C3%A2ndia-startups-uberhub-activity-7490813425862877184-06jA) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -895,6 +923,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [inovase #cajuvalley #cajuhub #startups #inovação ...](https://pt.linkedin.com/posts/inovase_inovase-cajuvalley-cajuhub-activity-7489044298366107648-bAZh) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Agência de Inovação da Unicamp](https://pt.linkedin.com/posts/inovaunicamp_as-inscri%C3%A7%C3%B5es-para-o-edge-call-for-startups-activity-7461113289150877696-KWiO) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [#insper #hubpaulocunha #empreendedorismo #inovação ...](https://pt.linkedin.com/posts/insper-edu_insper-hubpaulocunha-empreendedorismo-activity-7474888608416555009-dk2P) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [#portos #infraestrutura #investimento #logística #comércioexterior #brasil #china #portodeparanaguá #inovação #desenvolvimentosustentável | Jean Moreira 👑](https://pt.linkedin.com/posts/jean-moreira-%F0%9F%91%91-a9019b1a_portos-infraestrutura-investimento-activity-7394328127243620352-L0ta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de Karina Bazuchi](https://pt.linkedin.com/posts/karina-bazuchi-072a7136_apexbrasil-sebrae-startups-activity-7498110699278290944-EWDP) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de Luís Guilherme Izycki](https://pt.linkedin.com/posts/luisguilhermeizycki_procuram-se-mestres-e-doutores-a-inova%C3%A7%C3%A3o-activity-7447710788808744961-Inzi) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de Paulo Henrique (Bapa EFP)](https://pt.linkedin.com/posts/professor-paulo-henrique-bapa-efp_gorn-conecta-experi%C3%AAncias-de-inova%C3%A7%C3%A3o-de-activity-7508506903627460608-MER6) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -904,6 +933,8 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [starten.tech - Scale IA](https://pt.linkedin.com/posts/starten-tech_scale-ia-sebrae-seleciona-30-startups-para-activity-7441947790617894913-85HM) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [ACE Ventures e gener8tor querem atrair startups dos EUA ...](https://pt.linkedin.com/posts/startupscombr_ace-ventures-e-gener8tor-querem-atrair-startups-activity-7433134529801940994-C2zx) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Publicação de The Next Big Idea](https://pt.linkedin.com/posts/thenextbigidea_a-f%C3%A1brica-de-startups-sa-com-o-apoio-activity-7474008336284327936-6rZW) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Publicação de Victória Zanini](https://pt.linkedin.com/posts/victoria-klagenberg_startupsbrasil-startups-ecossistemadeinova%C3%A7%C3%A3o-activity-7511541721101570048-2f2E) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [#startups #investimentos #cvcs #inovação #empreendedorismo #brasil #ecossistemadestartups #parceriasestratégicas | Wayra Brasil](https://pt.linkedin.com/posts/wayrabrasil_startups-investimentos-cvcs-activity-7070130004361195522-9ILS) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [04/06 - Oportunidades para startups!](https://pt.linkedin.com/pulse/0406-oportunidades-para-startups-gustavo-vannucchi-ungari-cmfcf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [08/10 - Oportunidades para startups!](https://pt.linkedin.com/pulse/0810-oportunidades-para-startups-gustavo-vannucchi-ungari-3mjwf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [13/08 - Oportunidades para startups!](https://pt.linkedin.com/pulse/1308-oportunidades-para-startups-gustavo-vannucchi-ungari-thidf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1005,6 +1036,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Thaísa Carvalho Email & Phone Number | Distrito Squad Leader | Inovação Contact Information](https://rocketreach.co/thaisa-carvalho-email_228780049) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Tiago Noel Email & Phone Number | Grupo Equatorial Energia Board Member Contact Information](https://rocketreach.co/tiago-noel-email_125935980) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Transilvania Digitală Inovativă 2.0 Information](https://rocketreach.co/transilvania-digitala-inovativa-20-profile_b43766b1c1fceca7) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Tribunal de Contas do Estado de Mato Grosso Information](https://rocketreach.co/tribunal-de-contas-do-estado-de-mato-grosso-profile_b5c853cef42e34eb) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Tribunal de Justiça de Pernambuco Information](https://rocketreach.co/tribunal-de-justica-de-pernambuco-profile_b441616efd9ab113) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Ucan Email & Phone Number | Universidade Católica de Angola Facilitadora de oportunidades Contact Information](https://rocketreach.co/ucan-email_519104140) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Unimed Centro-Oeste Information](https://rocketreach.co/unimed-centro-oeste-profile_b6a8021ec8613525) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1025,7 +1057,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Sebrae Startups](https://sebrae.com.br/subsites/sebrae-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Request Rejected](https://sebraeforstartups.sebraesp.com.br/startups/start) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [MAPEAMENTO Dos ECOSSISTEMAS DE STARTUPS DO ...](https://sebraepr.com.br/wp-content/uploads/2024/02/Mapeamento-das-Startups-Paranaenses-04a-edicao.pdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Seedes](https://secti.es.gov.br/SEEDES) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [SECTI - Secretaria da Ciência, Tecnologia, Inovação e Educação Profissional](https://secti.es.gov.br/SEEDES) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [SECTI - Secretaria da Ciência, Tecnologia, Inovação e Educação Profissional](https://secti.es.gov.br/incubadoras-estaduais) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [SEEDES - Inovação na prática: conheça as trajetórias e os resultados das startups destaque do ciclo](https://seedes.es.gov.br/resultados-ciclo-aceleracao-startups-destaque-es) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [SEEDES - RESULTADOS E PROPOSIÇÕES DO ...](https://seger.es.gov.br/media/SUDEM/SEEDES%20-%20RESULTADOS%20E%20PROPOSI%C3%87%C3%95ES%20DO%20PROGRAMA%20P%C3%9ABLICO%20DE%20ACELERA%C3%87%C3%83O%20DE%20STARTUPS%20NO%20ESP%C3%8DRITO%20SANTO%20-%20CEAPPGG-ES.pdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1049,21 +1081,24 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Gerdau Next Ventures: Funding, Team & Investors | Startup Intros](https://startupintros.com/orgs/gerdau-next-ventures) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Growth Stage Healthtech Startups (2026) – Tech Companies Database](https://startupmaphub.com/startups/healthtech/growth) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Scale Up Now - Startup Portugal](https://startupportugal.com/pt/programs/scale-up-now) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Identificar uma boa oportunidade pode garantir sucesso de startups - Startups](https://startups.com.br/artigo/identificar-uma-boa-oportunidade-pode-garantir-sucesso-de-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Identificar uma boa oportunidade pode garantir sucesso de startups ...](https://startups.com.br/artigo/identificar-uma-boa-oportunidade-pode-garantir-sucesso-de-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Processo de investimento de venture capital](https://startups.com.br/artigo/processo-de-investimento-de-venture-capital) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Grupo Boticário, Autor em Startups](https://startups.com.br/autor/grupoboricario) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Sebrae Startups, Autor em Startups](https://startups.com.br/autor/sebrae-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Água do Brasil lança 2ª edição de programa de inovação aberta ...](https://startups.com.br/branded-content/agua-do-brasil-lanca-2a-edicao-de-programa-de-inovacao-aberta-com-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Do Hype ao ROI conecta startups às melhores oportunidades do ...](https://startups.com.br/branded-content/do-hype-ao-roi-conecta-startups-as-melhores-oportunidades-do-ecossistema-de-inovacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Inova Startups investe até R$ 800 mil em negócios com potencial de escala - Startups](https://startups.com.br/branded-content/inova-startups-investe-ate-r-800-mil-em-negocios-com-potencial-de-escala) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Saiba mais sobre Coluna - Página 13 de 34 - Startups](https://startups.com.br/coluna/page/13) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Após pausa de dois anos, Darwin Startups retoma foco no early-stage - Startups](https://startups.com.br/eventos/startup-summit/apos-pausa-de-dois-anos-darwin-startups-retoma-foco-no-early-stage) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [8 lições valiosas de empreendedores que fecharam suas startups - Startups](https://startups.com.br/negocios/8-licoes-valiosas-de-empreendedores-que-fecharam-suas-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [8 lições valiosas de empreendedores que fecharam suas startups](https://startups.com.br/negocios/8-licoes-valiosas-de-empreendedores-que-fecharam-suas-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [ABVCAP e ApexBrasil vão acelerar até 15 startups no Nordeste  - Startups](https://startups.com.br/negocios/aceleracao/abvcap-e-apexbrasil-vao-acelerar-ate-15-startups-no-nordeste) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [ACE Ventures e gener8tor querem atrair startups dos EUA ao Brasil - Startups](https://startups.com.br/negocios/agronegocio/ace-ventures-e-gener8tor-querem-atrair-startups-dos-eua-ao-brasil) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Exclusivo: Iaris Ventures nasce para impulsionar startups a nível nacional - Startups](https://startups.com.br/negocios/corporate-venture-buider/exclusivo-iaris-ventures-nasce-para-impulsionar-startups-a-nivel-nacional) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Desenvolve SP aporta R$ 25M em fundo de VC focado em software e IA - Startups](https://startups.com.br/negocios/desenvolve-sp-aporta-r-25m-em-fundo-de-vc-focado-em-software-e-ia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Endeavor lança playbook de expansão internacional com cases brasileiros - Startups](https://startups.com.br/negocios/endeavor-lanca-playbook-de-expansao-internacional-com-cases-brasileiros) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Endeavor lança playbook de expansão internacional com cases ...](https://startups.com.br/negocios/endeavor-lanca-playbook-de-expansao-internacional-com-cases-brasileiros) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Prodesp e Sebrae-SP vão ensinar startups a vender para o governo - Startups](https://startups.com.br/negocios/govtechs/prodesp-e-sebrae-sp-vao-ensinar-startups-a-vender-para-o-governo) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Se Candidate, Mulher! muda marca, lança SaaS e abre rodada com foco no B2B - Startups](https://startups.com.br/negocios/hrtech/se-candidate-mulher-muda-marca-lanca-saas-e-abre-rodada-para-se-consolidar-no-b2b) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Natura quer acelerar startups de beleza na América Latina](https://startups.com.br/negocios/inovacao-aberta/natura-quer-acelerar-startups-de-beleza-na-america-latina) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Natura quer acelerar startups de beleza na América Latina - Startups](https://startups.com.br/negocios/inovacao-aberta/natura-quer-acelerar-startups-de-beleza-na-america-latina) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Natura investe em inovação aberta e se aproxima de startups](https://startups.com.br/negocios/natura-investe-em-inovacao-aberta-e-se-aproxima-de-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Porto Digital amplia alcance e aposta em novas frentes para inovação e inclusão - Startups](https://startups.com.br/negocios/porto-digital-amplia-alcance-e-aposta-em-novas-frentes-para-inovacao-e-inclusao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Randon vai além do CVC e agora quer acelerar startups - Startups](https://startups.com.br/negocios/randon-vai-alem-do-cvc-e-agora-quer-acelerar-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1140,6 +1175,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Biocidin Dentalmin Pro Hydroxyapatite Toothpaste - Amazon](https://www.amazon.com/Biocidin-Dentalmin-Remineralizing-Toothpaste-Enamel-Strengthening/dp/B0DGBSTV1M) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Hub de Inovação SENAI SESI - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial](https://www.ap.senai.br/tecnologia-e-inovacao/hub-de-inovacao.html) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Direção de Inovação (LabX) – ARTE](https://www.arte.gov.pt/centro-para-a-inovacao-do-setor-publico-labx) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Arquivo para Startup - Assespro - Alagoas](https://www.assespro-al.org.br/tag/startup) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [BNDES Garagem - BNDES](https://www.bndes.gov.br/wps/vanityurl/bndes-garagem-aceleradora) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [BNDES Mais Inovação - Painel de desempenho](https://www.bndes.gov.br/wps/vanityurl/painel-mais-inovacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Boomee foi selecionada para o Programa Speed Up](https://www.boomee.com.br/boomee-selecionada-para-o-programa-speed-up) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1150,6 +1186,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Agenda Boa - Products, Competitors, Financials, Employees, Headquarters Locations](https://www.cbinsights.com/company/agendaboa) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Associacao Brasileira de Startups - Products, Competitors, Financials, Employees, Headquarters Locations](https://www.cbinsights.com/company/associacao-brasileira-de-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Bradesco - Products, Competitors, Financials, Employees, Headquarters Locations](https://www.cbinsights.com/company/banco-bradesco) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Banco Espirito Santo - Products, Competitors, Financials, Employees, Headquarters Locations](https://www.cbinsights.com/company/banco-espirito-santo) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Blue AI - Products, Competitors, Financials, Employees, Headquarters Locations](https://www.cbinsights.com/company/blue-ai) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [C6 Capital - Products, Competitors, Financials, Employees, Headquarters Locations](https://www.cbinsights.com/company/c6-capital) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [CM Tecnologia - Products, Competitors, Financials, Employees, Headquarters Locations](https://www.cbinsights.com/company/cm-tecnologia) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1246,6 +1283,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [IASP global directory of science & technology park & innovation district – IASP](https://www.iasp.ws/our-members/directory/@477220/sapiens-parque-s.a.) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [50ª Feira do Bordado de Ibitinga é...](https://www.ibitinga.sp.gov.br/portal/noticias/0/3/3805/50-feira-do-bordado-de-ibitinga-e-oficialmente-aberta-e-marca-o-inicio-de-uma-edicao-historica) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [InfoMoney e Dinheirama fecham parceria de compartilhamento de conteúdo](https://www.infomoney.com.br/colunistas/blog-da-redacao/infomoney-e-dinheirama-fecham-parceria-de-compartilhamento-de-conteudo) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Ambientes de Inovação | Inova Maranhão](https://www.inova.ma.gov.br/ambientedeinovacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [EDITAIS | Secretaria da Inovação e Inteligência Artificial](https://www.inova.pr.gov.br/Pagina/EDITAIS) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [SP Global Tech](https://www.inovacao.sp.gov.br/sec_tecnologia_inovacao/programas/sp_global_tech) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/p/C8DN3u0PZb7) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1332,11 +1370,14 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Instagram](https://www.instagram.com/p/DbEX3ZhAWCK) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/p/DbGJffAn-OP) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/p/DbIsuWSRESs) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Não deixe para a última hora! 🔥🔥🔥](https://www.instagram.com/p/DbTrPc1iVUv) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Instagram](https://www.instagram.com/p/DbVkzHOJzx1) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/p/Dbd1ZLVydUs) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [O Hub Goiás completa três anos fortalecendo ... - Instagram](https://www.instagram.com/p/DbeJRo7lK_R) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/p/Dbh74RCF3K6) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/p/Dbmivl6DDl1) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/p/DboKYmNJAzE) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Instagram](https://www.instagram.com/p/DbtZG1_lXaz) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [As oportunidades não esperam. E o próximo passo da sua ...](https://www.instagram.com/p/DbtZG1_lXaz) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/p/Dc1s5Hvp7aW) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [🚨 RADAR DE EDITAIS: Oportunidades abertas para ...](https://www.instagram.com/p/DcJVLykEYqI) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/p/DcbhNhoFN31) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1354,8 +1395,10 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Instagram](https://www.instagram.com/p/DdpKr0RGDsg) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [📢 Confira a nova edição da Revista Locus Científico! ...](https://www.instagram.com/p/DdrPaBPjrdC) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Do lançamento à escala, uma startup passa por diversos ...](https://www.instagram.com/p/DduYhXXlqWV) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Novas ideias, novos caminhos e mais um passo ...](https://www.instagram.com/p/DePqUsEpQuJ) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/p/Dejx1OdlzOm) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Em 10 anos de Darwin, já fomos reconhecidos como ...](https://www.instagram.com/p/DeuorxzIDvw) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [🚀 Startups capixabas avançam e ampliam resultados! Nos ...](https://www.instagram.com/p/DfGB6lBH7by) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/C38grxlRl4_) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/Cp27gm1g0qJ) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DA55NQYu6jg) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1409,7 +1452,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Instagram](https://www.instagram.com/reel/DXgyxYjExvK) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DXrtHUQkcn7) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DYBNQavt7kt) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Instagram](https://www.instagram.com/reel/DYCbwY8A8td) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Inovação para os jovens! O Sebrae Amapá e o Governo ...](https://www.instagram.com/reel/DYCbwY8A8td) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DYSHYp9O5Ze) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DZ5zg-WlT44) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DZNjFm0OM4t) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1420,6 +1463,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Instagram](https://www.instagram.com/reel/Dan-sFUy-fB) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DavK0OxufPg) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/Db3j7boyi5x) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Tem um lugar onde ideias, tecnologia e oportunidades se ...](https://www.instagram.com/reel/Db8AhM3o-6Z) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/Db8u3jsu6vU) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DbeTjXPSA6n) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DbgP1KKKPQ7) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1427,7 +1471,7 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Instagram](https://www.instagram.com/reel/DcRCO1whBre) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DceTN8eDfi_) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DckNJhMgrBc) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [O ecossistema de startups do Maranhão está crescendo e ...](https://www.instagram.com/reel/DcuGCxdx21P) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [O ecossistema de startups do Maranhão está crescendo e as ...](https://www.instagram.com/reel/DcuGCxdx21P) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/Dd4unWrpKtY) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DdZ5WzpPX7l) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Instagram](https://www.instagram.com/reel/DdrKSOUiZj5) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1448,6 +1492,8 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Acesso a Oportunidades](https://www.ipea.gov.br/acessooportunidades) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Para sua Startup - Itaipu Parquetec](https://www.itaipuparquetec.org.br/para-sua-startup) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Nossos Programas | Join.Valle](https://www.joinvalle.com.br/nossosprogramas) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [#brasil #startups #fintech #disruption #podcast | Arjun Vir Singh](https://www.linkedin.com/posts/arjunvirsingh_brasil-startups-fintech-activity-7270150771701129216-EcMK) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [My dear network. This will be an opportunity to check in on what will be the amazing mission on Portugal real ecosystem during websummit with Fabrica de Startups that helped to build it. We’ll be… | Egon Barbosa](https://www.linkedin.com/posts/egonbarbosa_my-dear-network-this-will-be-an-opportunity-activity-7113608355159420928-9mAL) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [26/03 - Oportunidades para startups!](https://www.linkedin.com/pulse/2603-oportunidades-para-startups-gustavo-vannucchi-ungari-rpvmf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Rio de Janeiro, RJ, Brazil](https://www.mapquest.com/br/rio-de-janeiro/rio-de-janeiro-282166155) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [802 Avenida Ataulfo de Paiva, Rio de Janeiro, Rio de Janeiro - MapQuest](https://www.mapquest.com/br/rio-de-janeiro/rio-de-janeiro/22440-035/802-avenida-ataulfo-de-paiva-22.98431,-43.2235) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1473,14 +1519,18 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [ProgRama Remanufactured Electronic Control Modules 2-3 YEAR warranty](https://www.programainc.com/default.aspx) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [PUCTEC](https://www.pucminas.br/puctec/Paginas/default.aspx) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Empreendedorismo e Negócios de Impacto | Quintessa - Oficial](https://www.quintessa.org.br/empreendedorismo) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Como inovamos](https://www.randoncorp.com/PT/como-inovamos) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [#SomosRandoncorp | Randoncorp](https://www.randoncorp.com/PT/pesquisar?word=Randon) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [#SomosRandoncorp | Randoncorp](https://www.randoncorp.com/PT/pesquisar?word=inova%C3%A7%C3%A3o) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [RESULTADO DA BUSCA POR: inovação](https://www.randoncorp.com/PT/pesquisar?word=inova%C3%A7%C3%A3o) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Randoncorp | Randoncorp](https://www.randoncorp.com/en) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Randon launchs a company for investments in startups | Randoncorp](https://www.randoncorp.com/en/blog/randon-launchs-a-company-for-investments-in-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Randon launchs a company for investments in startups](https://www.randoncorp.com/en/blog/randon-launchs-a-company-for-investments-in-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Randon Ventures invests in a logistics start-up company ...](https://www.randoncorp.com/en/blog/randon-ventures-invests-in-a-logistics-start-up-company-focused-on-consumer-experience) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Randon Ventures leads investment round in Money Money Invest fintech | Randoncorp](https://www.randoncorp.com/en/blog/randon-ventures-leads-investment-round-in-money-money-invest-fintech) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Randoncorp | Randoncorp](https://www.randoncorp.com/en/pesquisar?word=randon+exo) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Relatório de Sustentabilidade](https://www.randoncorp.com/media/1927/relat%C3%B3rio-de-sustentabilidade-2020-empresas-randon.pdf) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Notícias | Randoncorp](https://www.randoncorp.com/pt/blog) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Entenda o que é aprendizagem dialógica e como ela pode contribuir para a sua empresa! | Randoncorp](https://www.randoncorp.com/pt/blog/aprendizagem-dialogica) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [Conexo completa um ano com mais de 50 projetos desenvolvidos | Randoncorp](https://www.randoncorp.com/pt/blog/conexo-completa-um-ano-com-mais-de-50-projetos-desenvolvidos) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Conexo completa um ano com mais de 50 projetos ...](https://www.randoncorp.com/pt/blog/conexo-completa-um-ano-com-mais-de-50-projetos-desenvolvidos) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Conexo: Empresas Randon lançam iniciativa de inovação ...](https://www.randoncorp.com/pt/blog/conexo-empresas-randon-lan%C3%A7am-iniciativa-de-inova%C3%A7%C3%A3o-aberta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Com Randon Ventures, Gerdau Next Ventures abre 3º ...](https://www.randoncorp.com/pt/blog/gerdau-next-ventures-abre-seu-3%C2%BA-batch-de-acelera%C3%A7%C3%A3o-de-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [4 metodologias inovadoras que vão revolucionar o seu negócio | Randoncorp](https://www.randoncorp.com/pt/blog/metodologias-de-inovacao) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1503,10 +1553,12 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Programa | Spanish to English Translation - SpanishDictionary.com](https://www.spanishdict.com/translate/programa) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Conheça a lista das startups selecionadas para a Turma ...](https://www.startupbrasil.org.br/2014/12/03/conheca-a-lista-das-startups-selecionadas-para-a-turma-04-do-programa-start-up-brasil) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Tudo pronto para o Welcome Aboard da Turma 5](https://www.startupbrasil.org.br/2018/04/11/tudo-pronto-para-o-welcome-aboard-da-turma-5) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Conheça as 46 startups selecionadas para a Turma 5](https://www.startupbrasil.org.br/2018/05/15/conheca-as-46-startups-selecionadas-para-a-turma-5) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [FAQ](https://www.startupbrasil.org.br/faq) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Start-Up Brasil - Page 45](https://www.startupbrasil.org.br/page/45?id=about-pollution-essay-river) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Start-Up Brasil - Page 75](https://www.startupbrasil.org.br/page/75?id=meaning-kannada-essay-quantity-in) — Título insuficiente; precisa ler o conteúdo antes de decidir.
-- [O Programa](https://www.startupbrasil.org.br/sobre_programa) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Start-Up Brasil - Page 81](https://www.startupbrasil.org.br/page/81?id=meaning-kannada-essay-quantity-in) — Título insuficiente; precisa ler o conteúdo antes de decidir.
+- [Saiba tudo sobre o Start-Up Brasil](https://www.startupbrasil.org.br/sobre_programa) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Embraer Case: Wings to Innovate | Startup Mundi](https://www.startupmundi.com/embraer-application) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Suzano Innovation | 100 Years of Innovation in Products and Processes](https://www.suzano.com.br/en/innovation) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Suzano launches venture capital initiative with US$70 million to invest in startups](https://www.suzano.com.br/en/news-post/suzano-launches-venture-capital-initiative-with-us70-million-to-invest-in-startups) — Título insuficiente; precisa ler o conteúdo antes de decidir.
@@ -1572,11 +1624,12 @@ Classificação preliminar por título e URL. Não comprova elegibilidade ou ins
 - [Gerdau e FIEMG Lab apresentam resultados do programa de inovação aberta | Gerdau Brasil](https://www2.gerdau.com.br/noticias/gerdau-e-fiemg-lab-apresentam-resultados-do-programa-de-inovacao-aberta) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 - [Anprotec (@Anprotec) / X](https://x.com/Anprotec) — Título insuficiente; precisa ler o conteúdo antes de decidir.
 
-## fora_escopo: 6
+## fora_escopo: 7
 
 - [Chamada Pública para Seleção de Fundo de Investimento em Participações – FIP Conexões Startups – 2026](http://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/chamadas-publicas-para-selecao-de-fundos/fip-conexoes-startups-2026) — Seleção de fundo ou gestor; participação direta de startups não demonstrada.
 - [ANÁLISE CRÍTICA DA METODOLOGIA LEAN STARTUP ...](http://www.monografias.poli.ufrj.br/monografias/monopoli10032351.pdf) — Conteúdo acadêmico sobre startups, não anúncio de participação.
 - [Startup Venture Challenge - CEDE Program for High Schools](https://cedeprogram.com/startupventure) — Inicialização de computador, competição escolar ou seleção de pessoa bolsista; não é candidatura de startup.
+- [Bluefields levanta R$ 3M para reinventar modelo de aceleração](https://startups.com.br/negocios/aceleracao/bluefields-levanta-r-3m-para-reinventar-modelo-de-aceleracao) — Notícia de mercado, contratação ou transação, sem chamada identificada no título.
 - [Deeptech Doroth capta R$ 23M em rodada liderada pela Loccus - Startups](https://startups.com.br/negocios/rodada-de-investimento/deeptehc-doroth-capta-r-23m-em-rodada-liderada-pela-loccus) — Notícia de mercado, contratação ou transação, sem chamada identificada no título.
 - [Edital 01/2026 – Programa Startup Lab – Seleção de Bolsista – Escritório de Propriedade Intelectual, Transferência de Tecnologia e Empreendedorismo](https://wp.ufpel.edu.br/epitte/edital-01-2026-programa-startup-lab-selecao-de-bolsista) — Inicialização de computador, competição escolar ou seleção de pessoa bolsista; não é candidatura de startup.
 - [How to Disable Startup Programs in Windows](https://www.howtogeek.com/74523/how-to-disable-startup-programs-in-windows) — Inicialização de computador, competição escolar ou seleção de pessoa bolsista; não é candidatura de startup.
