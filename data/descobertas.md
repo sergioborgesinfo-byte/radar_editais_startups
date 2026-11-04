@@ -1,6 +1,6 @@
 ## Descoberta de oportunidades
 
-24/24 pesquisas concluídas nesta rodada. 173 URLs distintas nesta execução; 1913 no histórico.
+24/24 pesquisas concluídas nesta rodada. 157 URLs distintas nesta execução; 1951 no histórico.
 
 São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 
@@ -75,6 +75,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Programa de Pré-Aceleração Sebrae For Startups e Hub Comitiva Inovação: https://alertaeditais.com.br/edital/programa-de-pre-aceleracao-sebrae-for-startup-uvbow
 - Programa Deep Tech FAPDF: https://alertaeditais.com.br/edital/programa-deep-tech-fapdf-mvigp
 - Programa Nacional de Apoio à Geração de Empreendimentos Inovadores - Programa Centelha 3 Rio Grande do Norte: https://alertaeditais.com.br/edital/programa-nacional-de-apoio-a-geracao-de-empre-pdlkb
+- Roraima Startups - Programa de Aceleração de Startups: https://alertaeditais.com.br/edital/roraima-startups-programa-de-aceleracao-de-st-cvyjl
 - Sebrae Inovação Aberta - Desafio Otimização do Processo de Contratação de Startups e ICTs: https://alertaeditais.com.br/edital/sebrae-inovacao-aberta-desafio-otimizacao-do--eb1kd
 - South Summit Brazil 2026 - Exposição de Startups Gaúchas: https://alertaeditais.com.br/edital/south-summit-brazil-2026-exposicao-de-startup-w083r
 - Startup Day Belo Horizonte 2026: https://alertaeditais.com.br/edital/startup-day-belo-horizonte-2026-haygm
@@ -94,6 +95,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Hub de Inovação do PIT abre inscrições para programa de aceleração e incubação de startups Batch#23 - Anprotec: https://anprotec.org.br/site/2024/02/hub-de-inovacao-do-pit-abre-inscricoes-para-programa-de-aceleracao-e-incubacao-de-startups-batch23
 - Um dos maiores programas de aceleração de startups do Brasil abre novas inscrições - Anprotec: https://anprotec.org.br/site/2024/07/um-dos-maiores-programas-de-aceleracao-de-startups-do-brasil-abre-novas-inscricoes
 - Programa e-Goiás abre edital para startups e empresas inovadoras de todo Brasil, com apoio de até R$ 20 mil - Anprotec: https://anprotec.org.br/site/2025/02/programa-e-goias-abre-edital-para-startups-e-empresas-inovadoras-de-todo-brasil-com-apoio-de-ate-r-20-mil
+- Desafio Mulheres em STEM da Caixa e Artemisia investirá R$ 200 mil em projetos - Anprotec: https://anprotec.org.br/site/2025/04/desafio-mulheres-em-stem-da-caixa-e-artemisia-investira-r-200-mil-em-projetos
 - Inscrições para o Batch 26 da incubadora Nexus já estão abertas - Anprotec: https://anprotec.org.br/site/2025/07/inscricoes-para-o-batch26-ja-estao-abertas
 - Novo programa da ABVCAP e ApexBrasil vai acelerar até 15 startups no Nordeste - Anprotec: https://anprotec.org.br/site/2026/01/novo-programa-da-abvcap-e-apexbrasil-vai-acelerar-ate-15-startups-no-nordeste
 - Edital para startups ou scale-ups atuarem como expositoras no Dublin Tech Summit - Anprotec: https://anprotec.org.br/site/2026/02/edital-para-startups-ou-scale-ups-atuarem-como-expositoras-no-dublin-tech-summit
@@ -133,7 +135,9 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - StartupCE abre edital para selecionar 60 startups com bolsas de inovação tecnológica – Papo de Negócios: https://blogs.opovo.com.br/papodenegocios/2026/07/10/startupce-abre-edital-para-selecionar-60-startups-com-bolsas-de-inovacao-tecnologica
 - StartupCE abre edital para selecionar 60 startups com bolsas de inovação tecnológica – Papo de Negócios: https://blogs.opovo.com.br/papodenegocios/2026/07/10/startupce-abre-edital-para-selecionar-60-startups-com-bolsas-de-inovacao-tecnologica?amp=1
 - 5 HealthTech AI Startups To Follow in 2026: https://blumbergcapital.com/news-insights/five-rising-ai-healthtech-companies
+- Sebrae Roraima abre inscrições para programa de aceleração de startups e projetos inovadores - Bomba Bomba: https://bombabomba.com.br/sebrae-roraima-abre-inscricoes-para-programa-de-aceleracao-de-startups-e-projetos-inovadores
 - Anprotec - LinkedIn: https://br.linkedin.com/company/anprotec
+- EMBRAPII - Empresa Brasileira de Pesquisa e Inovação ...: https://br.linkedin.com/company/embrapii
 - FIEMG Lab: https://br.linkedin.com/company/fiemglab
 - Porto Digital: https://br.linkedin.com/company/portodigital
 - WOW Aceleradora de Startups: https://br.linkedin.com/company/wowaceleradoradestartups
@@ -166,6 +170,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Pluginbot - Products, Competitors, Financials, Employees, Headquarters Locations: https://cbinsights.com/company/pluginbot
 - Startup Venture Challenge - CEDE Program for High Schools: https://cedeprogram.com/startupventure
 - Entenda as diferenças entre Aceleração, Pré-Incubação e Incubação de startups - tecnoPARQ: https://centev.ufv.br/entenda-as-diferencas-entre-aceleracao-pre-incubacao-e-incubacao-de-startups
+- Programa de Aceleração Cruzada aproxima startups brasileiras e peruanas e amplia oportunidades de negócios internacionais - tecnoPARQ: https://centev.ufv.br/programa-de-aceleracao-cruzada-aproxima-startups-brasileira-e-peruanas-e-amplia-oportunidades-de-negocios-internacionais
 - Bolsista em Gestão de Inovação e inovação Aberta, CERTI | Powered by Plooral: https://certi.enlizt.me/vagas/bolsista_em_gestao_de_inovacao_e_inovacao_aberta-220426
 - CitzTech – Fundação CERTI: https://certi.org.br/citztech
 - Quer empreender? Não perca esta oportunidade da InovAtiva Brasil – CFA: https://cfa.org.br/quer-empreender-nao-perca-esta-oportunidade-da-inovativa-brasil
@@ -237,6 +242,8 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Eleva Incubadora – Impulsionando soluções para os desafios do mundo: https://elevaincubadora.com.br/
 - ACE Startups: Aceleradora de Inovação no Brasil: https://eliascury.com.br/glossario/ace-startups-aceleradora-inovacao-brasil
 - Embrapii | Inovação e Pesquisa para a Indústria Brasileira: https://embrapii.org.br/
+- Embrapii conecta indústria e inovação para impulsionar o desenvolvimento tecnológico do Brasil  - Embrapii: https://embrapii.org.br/embrapii-conecta-industria-e-inovacao-para-impulsionar-o-desenvolvimento-tecnologico-do-brasil
+- Embrapii destaca inovação industrial no Startup Summit 2026 - Embrapii: https://embrapii.org.br/embrapii-destaca-inovacao-industrial-no-startup-summit-2026
 - Embrapii e Sebrae | Apoio à inovação para MPMEs: https://embrapii.org.br/sebrae
 - i9-67: resultados de startups e ecossistemas de inovação MS: https://empreendams.com/i9-67-startups-aceleradas-pelo-sebrae-em-ms-tem-alta-de-96-no-faturamento
 - Programa abre inscrição para aceleração de startups do Rio Grande do Sul: https://empreendedor.com.br/tecnologia/inovacao/programa-abre-inscricao-para-aceleracao-de-startups-do-rio-grande-do-sul
@@ -252,6 +259,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Governo do Estado abre inscrições para seleção de startups ...: https://estado.rs.gov.br/governo-do-estado-abre-inscricoes-para-selecao-de-startups-para-o-govtech-summit-2026
 - Governo do Estado divulga startups selecionadas para Gramado ...: https://estado.rs.gov.br/governo-do-estado-divulga-startups-selecionadas-para-gramado-summit-2026
 - ESX 2026 – Inovação sem fronteiras: https://esx.com.es/
+- Chamada aberta para startups participarem do desafio de ...: https://eufundingportal.eu/pt/Chamada-aberta-para-startups-participarem-do-desafio-de-inova%C3%A7%C3%A3o-alimentar
 - Chamada para apresentação de propostas de apoio a ...: https://eufundingportal.eu/pt/Chamada-para-apresenta%C3%A7%C3%A3o-de-propostas-de-apoio-a-iniciativas-locais-de-pequena-escala-lideradas-pela-comunidade--com-foco-em-a%C3%A7%C3%A3o-clim%C3%A1tica-e-regenera%C3%A7%C3%A3o.
 - Subsídios para startups: https://eufundingportal.eu/pt/subs%C3%ADdios-para-startups-a
 - Open Call – EU-LAC Digital Accelerator: https://eulacdigitalaccelerator.com/open-call
@@ -333,6 +341,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Program Reviews: https://fi.co/reviews
 - Hubs de Inovação no Brasil – FIEMG Lab: https://fiemglab.com.br/hubs-de-inovacao
 - FIEMG Lab |   aceleração de startups: https://fiemglab.com.br/tag/aceleracao-de-startups
+- FIEPB - HUB PB divulga startups selecionadas para a 6ª edição do programa de pré-aceleração: https://fiepb.com.br/noticia/hub-pb-divulga-startups-selecionadas-para-a-6a-edicao-do-programa-de-pre-aceleracao
 - Citizens Bancshares Corporation (CITZ) Stock Price, News, Quote & History - Yahoo Finance: https://finance.yahoo.com/quote/CITZ
 - Citizens Bancshares Corporation (CITZ) Analyst Insights, Price Targets & Recommendations - Yahoo Finance: https://finance.yahoo.com/quote/CITZ/analyst-insights
 - Citizens Bancshares Corporation (CITZ) Income Statement - Yahoo Finance: https://finance.yahoo.com/quote/CITZ/financials
@@ -345,8 +354,9 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - FORMULÁRIO DE INSCRIÇÃO: PROGRAMA NEXT - ACELERAÇÃO DE STARTUPS: https://forms.gle/kbS7qkTJbu4nnbqj7
 - Batalha de Startups - Fórum Eventos 2026: https://forumeventos.net/batalha-de-startups
 - Fundação Lemann - Página Inicial - Educação e Liderança: https://fundacaolemann.org.br/
+- Inovação e conectividade - Fundação Lemann: https://fundacaolemann.org.br/educacao-publica-de-qualidade/inovacao-e-conectividade
 - Aprendizados para quem quer empreender em educação - Fundação Lemann: https://fundacaolemann.org.br/noticias/aprendizados-para-quem-quer-empreender-em-educacao
-- Desafio Start-Ed: https://fundacaolemann.org.br/noticias/desafio-start-ed
+- Desafio Start-Ed - Fundação Lemann: https://fundacaolemann.org.br/noticias/desafio-start-ed
 - Tecnologia para uma educação mais inclusiva - Fundação Lemann: https://fundacaolemann.org.br/noticias/tecnologia-para-uma-educacao-mais-inclusiva
 - Pelo futuro agora - Fundação Lemann: https://fundacaolemann.org.br/pelo-futuro-agora
 - Startup Competition South Summit Brazil 2026: Inscrições Abertas - FundMed: Fundação Médica do Rio Grande do Sul - Eventos – Processos Seletivos – Pesquisa Clínica – 51 3332-6840 – contato@fundmed.org.br: https://fundmed.org.br/nscricoes-startup-competition-south-summit-brazil-2026
@@ -540,6 +550,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - OAPI na feira Promote 2026 em Yaoundé: um forte ...: https://oapi.int/pt/2026/06/25/loapi-na-feira-promote-2026-em-yaounde-um-forte-compromisso-com-a-inovacao-e-os-negocios
 - Observatório Sebrae Startups: https://observatorio.sebraestartups.com.br/oportunidades
 - Inscrição para edital de aceleração de startups do Hub GovTech Paraná vai até quinta: https://oesteexpresso.com.br/noticia/33724/inscricao-para-edital-de-aceleracao-de-startups-do-hub-govtech-parana-vai-ate-quinta
+- Sebrae Roraima lança programa para acelerar startups em 2026 - O Jacarandá Notícias: https://ojacarandanoticias.com.br/sebrae-roraima-lanca-programa-para-acelerar-startups-em-2026
 - Mapeamento das startups do Tocantins | Revista DCS: https://ojs.revistadcs.com/index.php/revista/article/view/5824
 - Aceleração – Open Innovation Lab: https://openinnovationlab.org.br/aceleracao
 - Oportunidades de Impacto: https://oportunidadesdeimpacto.com.br/
@@ -713,7 +724,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - FUNDUNESP - Startup Summit 2026: https://pt.linkedin.com/posts/fundunesp_startup-summit-2026-activity-7500277721663504384-5R17
 - Publicação de Giulia Brunoro: https://pt.linkedin.com/posts/giulia-brunoro-69935b1b5_as-inscri%C3%A7%C3%B5es-do-edital-182026-parceria-activity-7490805567259566080-g-zd
 - Dá curso de empreendedorismo porque o Brasil precisa de mais empreendedores mas toca uma grande empresa que paga seus fornecedores (seja startup, seja pequena empresa) em 120 dias - sabendo da nossa… | Guta Tolmasquim 💜 | 22 comentários: https://pt.linkedin.com/posts/guta-tolmasquim_d%C3%A1-curso-de-empreendedorismo-porque-o-brasil-activity-7439245338693115904-lZsA
-- inovase #cajuvalley #cajuhub #startups #inovação ...: https://pt.linkedin.com/posts/inovase_inovase-cajuvalley-cajuhub-activity-7489044298366107648-bAZh
+- #inovase #cajuvalley #cajuhub #startups #inovação #empreendedorismo #tecnologia #desenvolvimento #jovemtech #sergipe | Instituto de Inovação de Sergipe: https://pt.linkedin.com/posts/inovase_inovase-cajuvalley-cajuhub-activity-7489044298366107648-bAZh
 - Agência de Inovação da Unicamp: https://pt.linkedin.com/posts/inovaunicamp_as-inscri%C3%A7%C3%B5es-para-o-edge-call-for-startups-activity-7461113289150877696-KWiO
 - #insper #hubpaulocunha #empreendedorismo #inovação ...: https://pt.linkedin.com/posts/insper-edu_insper-hubpaulocunha-empreendedorismo-activity-7474888608416555009-dk2P
 - #portos #infraestrutura #investimento #logística #comércioexterior #brasil #china #portodeparanaguá #inovação #desenvolvimentosustentável | Jean Moreira 👑: https://pt.linkedin.com/posts/jean-moreira-%F0%9F%91%91-a9019b1a_portos-infraestrutura-investimento-activity-7394328127243620352-L0ta
@@ -721,6 +732,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Publicação de Karina Bazuchi: https://pt.linkedin.com/posts/karina-bazuchi-072a7136_apexbrasil-sebrae-startups-activity-7498110699278290944-EWDP
 - 💡 Sua empresa ou instituição tem uma solução inovadora para o setor público? R$ 20 milhões em recursos não reembolsáveis estão disponíveis! 🔺 A FAPEMIG e a SEDE-MG lançaram a 2ª Edição do HubMG Gov… | Larissa Sarmento Macêdo: https://pt.linkedin.com/posts/larissa-sarmento-mac%C3%AAdo-b7294227_sua-empresa-ou-institui%C3%A7%C3%A3o-tem-uma-solu%C3%A7%C3%A3o-activity-7516126249455427584-5GzJ
 - Publicação de Luís Guilherme Izycki: https://pt.linkedin.com/posts/luisguilhermeizycki_procuram-se-mestres-e-doutores-a-inova%C3%A7%C3%A3o-activity-7447710788808744961-Inzi
+- Maringá é segunda cidade do Paraná em número de startups, com 223 empresas inovadoras | Patricia Saugo publicou sobre o tópico | LinkedIn: https://pt.linkedin.com/posts/patriciasaugo_maring%C3%A1-inova%C3%A7%C3%A3o-startups-activity-7519910226511286272-oWeH
 - Publicação de Paulo Henrique (Bapa EFP): https://pt.linkedin.com/posts/professor-paulo-henrique-bapa-efp_gorn-conecta-experi%C3%AAncias-de-inova%C3%A7%C3%A3o-de-activity-7508506903627460608-MER6
 - MSW Capital lança Mapa IA Brasil com 162 startups de inteligência artificial | Revista do Administrador publicou sobre o tópico | LinkedIn: https://pt.linkedin.com/posts/revista-do-administrador_msw-capital-lan%C3%A7a-o-mapa-ia-brasil-com-162-activity-7516606112176136192-rZ-O
 - #incubação #startups #sebraepe #inovação | Sebrae Pernambuco: https://pt.linkedin.com/posts/sebraepe_incuba%C3%A7%C3%A3o-startups-sebraepe-activity-7354261600268148737-NnyT
@@ -778,6 +790,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Rio de Impacto: https://riodeimpacto.com.br/noticias/premio-impactos-positivos-2026-abre-inscricoes-para-negocios-e-organizacoes-de-impacto
 - Rio de Impacto: https://riodeimpacto.com.br/noticias/sebrae-lanca-jornada-de-inovacao-aberta-para-conectar-startups-e-grandes-empresas
 - GO!RN conecta experiências de inovação de diferentes regiões do Brasil | ASN Rio Grande do Norte - Agência Sebrae de Notícias: https://rn.agenciasebrae.com.br/cultura-empreendedora/gorn-conecta-experiencias-de-inovacao-de-diferentes-regioes-do-brasil
+- Startup Day 2026: Sebrae RO mobiliza ecossistema de inovação em todo o estado | ASN Rondônia - Agência Sebrae de Notícias: https://ro.agenciasebrae.com.br/inovacao-e-tecnologia/startup-day-2026-sebrae-ro-mobiliza-ecossistema-de-inovacao-em-todo-o-estado
 - Startup Day mobiliza ecossistema de inovação em todo o Estado | ASN Rondônia - Agência Sebrae de Notícias: https://ro.agenciasebrae.com.br/inovacao-e-tecnologia/startup-day-mobiliza-ecossistema-de-inovacao-em-todo-o-estado
 - Missão Startup Summit 2026: https://ro.loja.sebrae.com.br/startupsummit2026
 - André Barrence Email & Phone Number | Fundação Lemann Vice-President of Leadership and Tech Contact Information: https://rocketreach.co/andre-barrence-email_6361726
@@ -895,6 +908,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Viviane Araujo Email & Phone Number | Hiring - Especialistas em Recrutamento & Seleção Associate Director | Headhunter Contact Information: https://rocketreach.co/viviane-araujo-email_81766070
 - Yu - Seleção Para Transformação Digital Email Format | jornadayu.com Emails: https://rocketreach.co/yu-selecao-para-transformacao-digital-email-format_b43da605c19cbf91
 - Global Sports Conference 2026 - Rio de Janeiro | Rolebom: https://rolebom.com/pt-br/rio-de-janeiro/events/global-sports-conference-2026
+- Ciência e Tecnologia - Rondônia Startup Connect marca fortalecimento do ecossistema de inovação em Rondônia com sucesso de público - Governo do Estado de Rondônia - Governo do Estado de Rondônia: https://rondonia.ro.gov.br/rondonia-startup-connect-marca-fortalecimento-do-ecossistema-de-inovacao-em-rondonia-com-sucesso-de-publico
 - que foram incentivadas pelo Programa Inova Maranhão: https://rosario.ufma.br/jspui/bitstream/123456789/7212/1/KAROLINE_OLIVEIRA_SOARES___TCC__revisado_.pdf
 - Sebrae Roraima lança programa para acelerar startups e ...: https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-roraima-lanca-programa-para-acelerar-startups-e-fortalecer-ecossistema-de-inovacao-no-estado
 - Darwin Startups abre inscrições para 15ª turma de aceleração: https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao
@@ -913,16 +927,17 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Inova Startups está com inscrições abertas para startups de todo o Brasil | ASN Santa Catarina - Agência Sebrae de Notícias: https://sc.agenciasebrae.com.br/inovacao-e-tecnologia/inova-startups-esta-com-inscricoes-abertas-para-startups-de-todo-o-brasil
 - Programa Acelera Startup SC anuncia 20 premiadas com investimento de cerca de R$ 1,6 milhão no Startup Summit 2026 | ASN Santa Catarina - Agência Sebrae de Notícias: https://sc.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-startup-sc-anuncia-20-premiadas-com-investimento-de-cerca-de-r-16-milhao-no-startup-summit-2026
 - Programa vai acelerar 400 startups neste primeiro semestre | ASN Sergipe - Agência Sebrae de Notícias: https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre
+- Sebrae lança Programa de Pré-aceleração para Startups | ASN Sergipe - Agência Sebrae de Notícias: https://se.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-lanca-programa-de-pre-aceleracao-para-startups
 - Boletim de Editais eAções de Fomento aos: https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/boletim-de-inova%C3%A7%C3%A3o/Boletim%20de%20inova%C3%A7%C3%A3o%20-%20Maio%202026.pdf
 - (VFinal) MINUTA EDITAL SEBRAE STARTUP CE.docx: https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf
 - viii programa de aceleração – negócios inovadores de ...: https://sebrae.com.br/content/dam/portal-sebrae/rn/midias/documentos/pdfs/licitacoes-e-editais/Licitacoes-e-Editais/Edital%20Regenera%202026.Vers%C3%A3o%20final.pdf
 - Sebrae Startups: https://sebrae.com.br/subsites/sebrae-startups
 - Startup Day: https://sebrae.com.br/subsites/startup-day
-- Request Rejected: https://sebraeforstartups.sebraesp.com.br/
+- Sebrae For Startups – Sebrae For Startups: https://sebraeforstartups.sebraesp.com.br/
 - Request Rejected: https://sebraeforstartups.sebraesp.com.br/startups/start
 - Programa de Aceleração Tecnológica e Relacionamento com ...: https://sebraeforstartups.sebraesp.com.br/wp-content/uploads/Start-Mercado-Edital_Ciclo1_19_01-26.pdf
 - Inovação Aberta | Sebrae/PR: https://sebraepr.com.br/inovacao-aberta
-- MAPEAMENTO Dos ECOSSISTEMAS DE STARTUPS DO ...: https://sebraepr.com.br/wp-content/uploads/2024/02/Mapeamento-das-Startups-Paranaenses-04a-edicao.pdf
+- MAPEAMENTO Dos ECOSSISTEMAS DE STARTUPS ...: https://sebraepr.com.br/wp-content/uploads/2024/02/Mapeamento-das-Startups-Paranaenses-04a-edicao.pdf
 - SECTI - Secretaria da Ciência, Tecnologia, Inovação e Educação Profissional: https://secti.es.gov.br/SEEDES
 - SECTI - Secretaria da Ciência, Tecnologia, Inovação e Educação Profissional: https://secti.es.gov.br/incubadoras-estaduais
 - Inova Maranhão | Secretaria de Estado da Ciência, Tecnologia e Inovação: https://secti.ma.gov.br/programas-ou-campanhas/inova-maranhao
@@ -940,6 +955,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Edital SICT 02/2026 GovTech Summit - Secretaria de Inovação, Ciência e Tecnologia: https://sict.rs.gov.br/edital-sict-02-2026
 - Edital SICT 03/2026 Capacitação Ignite - Secretaria de Inovação, Ciência e Tecnologia: https://sict.rs.gov.br/edital-sict-03-2026
 - Rede RS Startup - Secretaria de Inovação, Ciência e Tecnologia: https://sict.rs.gov.br/rede-rs-startup-6a4fb734494f5
+- Startup Lab - Secretaria de Inovação, Ciência e Tecnologia: https://sict.rs.gov.br/startup-lab
 - Guia de programas de aceleração e seleção para construtechs e proptechs - Sienge: https://sienge.com.br/blog/guia-de-programas-de-aceleracao-e-selecao-para-construtechs-e-proptechs
 - Lessons from 6 software rewrite stories: https://simonwillison.net/2019/Feb/19/lessons-6-software-rewrite-stories
 - Django for Startup Founders: A better software architecture for SaaS startups and consumer apps: https://simonwillison.net/2021/Jun/24/django-for-startup-founders
@@ -1055,7 +1071,9 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Baita: https://tavily.com/knowledge/company/AIqYsXHuJut6
 - InovAtiva: https://tavily.com/knowledge/company/BGLRan9Dor1v
 - FAPERJ: https://tavily.com/knowledge/company/CPLKJ3wrAkV0
+- Softex: https://tavily.com/knowledge/company/CtRvgthBBRiy
 - USP: https://tavily.com/knowledge/company/DhlXYLdji0Oj
+- Anprotec: https://tavily.com/knowledge/company/F5OtxZ541Xxn
 - OITO: https://tavily.com/knowledge/company/FQAgpKsK3Pvp
 - Garagem: https://tavily.com/knowledge/company/H4qZAn8YbrgX
 - Fundação CERTI: https://tavily.com/knowledge/company/IMkZeCeaBEcZ
@@ -1073,6 +1091,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Startup Rio: https://tavily.com/knowledge/company/SCQE3jk5LSUq
 - Senai: https://tavily.com/knowledge/company/UBdQylX5lmSc
 - Conexão: https://tavily.com/knowledge/company/UYAJvvYxMVsT
+- ABDI: https://tavily.com/knowledge/company/VySBYJ8gv08G
 - InovAtiva: https://tavily.com/knowledge/company/Wi4I2wCNHG6B
 - OITO: https://tavily.com/knowledge/company/XUMikht96SZE
 - Embraer: https://tavily.com/knowledge/company/Xa7XJNhd0hZp
@@ -1081,6 +1100,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Founder Institute: https://tavily.com/knowledge/company/djpvbcmnfhOr
 - VentureHub: https://tavily.com/knowledge/company/dmkHvXYoAlxA
 - Weg: https://tavily.com/knowledge/company/gh6k3UMic6Ln
+- ABStartups: https://tavily.com/knowledge/company/jcoTqXskIG29
 - Natura: https://tavily.com/knowledge/company/jdxKUkwdsDk0
 - FAPESP: https://tavily.com/knowledge/company/jiCm7xTpQtiK
 - Tecnosinos: https://tavily.com/knowledge/company/jiyXBDN9MY1c
@@ -1097,7 +1117,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Cide incubadora abre seleção para startups em Manaus: https://techamazonia.com/cide-incubadora-abre-selecao-para-startups-em-manaus
 - TechCrunch | Startup and Technology News: https://techcrunch.com/
 - Startups | TechCrunch: https://techcrunch.com/category/startups
-- Tech Park Piauí: https://techparkpiaui.com/
+- Seja um Startup residente: https://techparkpiaui.com/
 - Startups - Tech Startups: https://techstartups.com/category/startups
 - The Gap in Between: https://thegapinbetween.com/startup-challenge
 - The Hub | Browse among 9,000+ startups to find your dream job: https://thehub.io/startups
@@ -1153,6 +1173,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Programas e Ações: https://transparencia.es.gov.br/Orcamento/PPA
 - Inovação Aberta com startups: desafios e oportunidades. - Troposlab: https://troposlab.com/inovacao-aberta-com-startups-desafios-e-oportunidades
 - Natura abre inscrições para aceleração de startups de beleza na América Latina: https://tvsimbrasil.com.br/negocios/natura-abre-inscricoes-para-aceleracao-de-startups-de-beleza-na-america-latina-1781162123
+- Câmpus VII: startup do curso de Administração é reconhecida com certificado global de Inovação Tecnológica: https://uepb.edu.br/campus-vii-startup-do-curso-de-administracao-e-reconhecida-com-certificado-global-de-inovacao-tecnologica
 - Divulgado edital com instruções para participação no Programa de Incubação Empresarial do CIEPB: https://uepb.edu.br/divulgado-edital-com-instrucoes-para-participacao-no-programa-de-incubacao-empresarial-do-ciepb
 - Pró-Reitoria de Pesquisa e Inovação: https://ufpr.br/prpi/blog/2026/05/22/startups-vinculadas-ao-programa-de-incubacao-da-ufpr-aprovam-projetos-na-chamada-publica-do-programa-tecnova-iii-pr
 - Pró-Reitoria de Pesquisa e Inovação: https://ufpr.br/prpi/edital-no-04-2026-prpi-nit-startup-garage-2026-edicao-curitiba-turma-2026-1
@@ -1179,6 +1200,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Desafios de negócios inovabra hub: participe do programa de inovação que conecta startups a grandes empresas - ACATE: https://www.acate.com.br/blog-da-acate/desafios-de-negocios-inovabra-hub-participe-do-programa-de-inovacao-que-conecta-startups-a-grandes-empresas
 - Desafios Inovabra: Grupo Bradesco - ACATE: https://www.acate.com.br/blog-da-acate/desafios-inovabra-grupo-bradesco
 - Guia da Inovação Aberta: Modelos, estratégias e por onde começar a transformar sua empresa - ACATE: https://www.acate.com.br/blog-da-acate/guia-da-inovacao-aberta-acate
+- Artemisia inicia seleção de startups para aceleração - ACATE: https://www.acate.com.br/noticias/artemisia-inicia-selecao-de-startups-para-aceleracao
 - BNDES Garagem tem inscrições abertas até sexta-feira, 12 de maio - ACATE: https://www.acate.com.br/noticias/bndes-garagem-inscricoes
 - Rede MIDIHUB abre inscrições para startups de base tecnológica em Santa Catarina - ACATE: https://www.acate.com.br/noticias/rede-midihub-abre-inscricoes-para-startups-em-sc
 - Formação GovTech Hub Goiás 2026–27 | Estratégia B2G para organizações: https://www.acelera-hubgoias.innovc.com.br/
@@ -1190,6 +1212,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Aceleração de startups no Brasil: evidências de impacto do ...: https://www.anpec.org.br/encontro/2025/submissao/files_I/i9-98964da42b5103ff87081adac2d5ea74.pdf
 - Hub de Inovação do SENAI e SESI AP lança chamada pública para mapeamento de desafios do segmento industrial - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial: https://www.ap.senai.br/noticias/hub-de-inova%C3%A7%C3%A3o-do-senai-e-sesi-ap-lan%C3%A7a-chamada-p%C3%BAblica-para-mapeamento-de-desafios-do-segmento-industrial.html
 - Hub de Inovação SENAI SESI - SENAI AMAPÁ | Serviço Nacional de Aprendizagem Industrial: https://www.ap.senai.br/tecnologia-e-inovacao/hub-de-inovacao.html
+- Startups LATAM: Desafíos y Oportunidades | Aprender21: https://www.aprender21.com/blog/desafios-startups-latam
 - Direção de Inovação (LabX) – ARTE: https://www.arte.gov.pt/centro-para-a-inovacao-do-setor-publico-labx
 - Artemisia e Caixa: https://www.artemisia.org.br/desafiocaixa
 - Arquivo para Startup - Assespro - Alagoas: https://www.assespro-al.org.br/tag/startup
@@ -1277,6 +1300,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Como startups e PMEs podem prosperar com o apoio da Embrapii | CESAR: https://www.cesar.org.br/w/como-startups-e-pmes-podem-prosperar-com-o-apoio-da-embrapii-2
 - Cloudflare para Startups | Cloudflare: https://www.cloudflare.com/pt-br/forstartups
 - Desafio COB de Startups já soma mais de 100 inscrições | Comitê Olímpico do Brasil: https://www.cob.org.br/comunicacao/noticias/desafio-cob-de-startups-ja-soma-mais-de-100-inscricoes-2
+- Cinco convocatorias para startups que buscan acelerar su crecimiento y acceder a nuevos mercados | Contxto: https://www.contxto.com/es/startups/cinco-convocatorias-para-startups-que-buscan-acelerar-su-crecimiento-y-acceder-a-nuevos-mercados
 - Crub | Prêmio Mulheres Inovadoras 2026 abre inscrições com R$ 3,6 milhões para startups com liderança feminina: https://www.crub.org.br/premio-mulheres-inovadoras-2026-abre-inscricoes-com-r-36-milhoes-para-startups-com-lideranca-feminina
 - Startups conhecem instituições que impulsionam a inovação - Prefeitura de Curitiba: https://www.curitiba.pr.gov.br/noticias/startups-conhecem-instituicoes-que-impulsionam-a-inovacao/45749
 - Batch #15 - Darwin Startups — Darwin Startups: https://www.darwinstartups.com/batch15
@@ -1298,6 +1322,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Ei, você! Ainda não fez sua inscrição? Escuta o que a Vivi ...: https://www.facebook.com/BiominasBrasil/videos/ei-voc%C3%AA-ainda-n%C3%A3o-fez-sua-inscri%C3%A7%C3%A3o-escuta-o-que-a-vivi-da-equipe-do-granioter-t/1753857149190504
 - Panamá • Paraguay • Ecuador • México Los ...: https://www.facebook.com/GENParaguay1/posts/2613428455401153
 - IDB Lab: https://www.facebook.com/IDBLab/posts/m%C3%A1s-oportunidades-para-que-las-startups-tecnol%C3%B3gicas-de-am%C3%A9rica-latina-y-el-cari/1609286424571624
+- ✨ ¡El Desafío Childtech ha vuelto! ¡Está abierta la ...: https://www.facebook.com/OSCMexico89/posts/-el-desaf%C3%ADo-childtech-ha-vuelto-est%C3%A1-abierta-la-convocatoria-global-para-startup/259324293861013
 - El Innovation Challenge Live: Startups que rediseñan el futuro del turismo presentan a innovadores de Colombia y Brasil. Tras cada intervención, tanto el jurado como el público votarán, evaluando las startups en función de su innovación e... - Secretaría de Prensa, Presidencia de la República de El Salvador: https://www.facebook.com/SecPrensaSV/posts/el-innovation-challenge-live-startups-que-redise%C3%B1an-el-futuro-del-turismo-presen/1464629985841257
 - UTLA - 📣 ¡Atención jóvenes emprendedores!💡 ¿Tienes una...: https://www.facebook.com/fputla/posts/-atenci%C3%B3n-j%C3%B3venes-emprendedorestienes-una-idea-innovadora-y-el-sue%C3%B1o-de-transfor/1209105091219338
 - publicidade O Startup Summit 2026 reúne empreendedores ...: https://www.facebook.com/g1/videos/publicidade-o-startup-summit-2026-re%C3%BAne-empreendedores-startups-investidores-e-g/1272399759288645
@@ -1334,8 +1359,10 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Inovação | Fundação Araucária: https://www.fappr.pr.gov.br/Pagina/Inovacao
 - Programas 2026 | Fundação Araucária: https://www.fappr.pr.gov.br/Pagina/Programas-2026
 - Programas Abertos | Fundação Araucária: https://www.fappr.pr.gov.br/Programas-Abertos
+- Fapto - Notícia de 02/04/2026: https://www.fapto.org.br/Site/Noticia/Visualizar?uid=Njg4
 - BRDE Labs RS inicia aceleração de 15 startups da região Sul | Universidade Feevale: https://www.feevale.br/acontece/noticias/brde-labs-rs-inicia-aceleracao-de-15-startups-da-regiao-sul
 - Financiamento à Inovação: Finep, BNDES e Embrapii | FI Group Brasil: https://www.fi-groupbr.com/pt/servico/financiamentos
+- Saga de Inovação do SENAI Bahia gera oportunidades no mercado de trabalho – FIEB: https://www.fieb.org.br/noticias/saga-de-inovacao-do-senai-bahia-gera-oportunidades-no-mercado-de-trabalho
 - FIEMG Lab - FIEMG: https://www.fiemg.com.br/area-de-interesse/inovacao-e-tecnologia/fiemg-lab
 - IEL Minas e FIEMG Lab participam da programação do HackTown 2026 - FIEMG: https://www.fiemg.com.br/noticias/iel-minas-e-fiemg-lab-participam-da-programacao-do-hacktown-2026
 - Juliana Vilela Oliveira: https://www.finatec.org.br/author/juliana-oliveira
@@ -1358,6 +1385,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA ...: https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/EditalGranioterAcelera2026
 - edital-incubadora-inpa-atualizado.pdf - Portal Gov.br: https://www.gov.br/inpa/pt-br/inovacao/documentos/edital-incubadora-inpa-atualizado.pdf
 - Untitled: https://www.gov.br/inpi/pt-br/governanca/transparencia-e-prestacao-de-contas/relatorios-de-gestao/arquivos/documentos/RelatriodeGestoINPIex2022final.pdf
+- Embrapii/INT: https://www.gov.br/int/pt-br/embrapii-int
 - Governo Federal lança edital de R$ 80 milhões para startups brasileiras que atuam com inovação em IA — Ministério da Ciência, Tecnologia e Inovação: https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2022/03/governo-federal-lanca-edital-de-r-80-milhoes-para-startups-brasileiras-que-atuam-com-inovacao-em-ia
 - Inteligência Artificial GovTech — Ministério da Ciência, Tecnologia e Inovação: https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/inteligencia-artificial-govtech
 - Chamamento Público nº 02/2026 - Secretaria de Ciência, Tecnologia e Inovação em Saúde (SCTIE) — Ministério da Saúde: https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/chamamentos-publicos/2026/chamamento-publico-no-02-2026-sctie
@@ -1369,7 +1397,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Empresas | Hub Salvador: https://www.hubsalvador.com/startups
 - BID | Cinco empresas “startup” de América Latina avanzan a los finales de la competencia global “1776 Challenge Cup”: https://www.iadb.org/es/noticias/cinco-empresas-startup-de-america-latina-avanzan-los-finales-de-la-competencia-global-1776-challenge
 - BID | BID Lab e Cubo Itaú lançam nova edição do "BID ao Cubo" para acelerar startups no Brasil: https://www.iadb.org/pt-br/noticias/bid-lab-e-cubo-itau-lancam-nova-edicao-do-bid-ao-cubo-para-acelerar-startups-no-brasil
-- BID Lab, Fundação Lemann e Imaginable Futures lançam ...: https://www.iadb.org/pt-br/noticias/bid-lab-fundacao-lemann-e-imaginable-futures-lancam-programa-de-solucoes-pedagogicas
+- BID | BID Lab, Fundação Lemann e Imaginable Futures lançam programa de soluções pedagógicas: https://www.iadb.org/pt-br/noticias/bid-lab-fundacao-lemann-e-imaginable-futures-lancam-programa-de-solucoes-pedagogicas
 - Feira BIEMH | Inscrições até 21 de março - IAPMEI: https://www.iapmei.pt/pt/comunicacao/noticias/feira-biemh-inscricoes-ate-21-de-marco
 - Missão empresarial Brasil e México | Inscreva-se!: https://www.iapmei.pt/pt/comunicacao/noticias/missao-empresarial-brasil-e-mexico-inscreva-se
 - IASP global directory of science & technology park & innovation district – IASP: https://www.iasp.ws/our-members/directory/@477220/sapiens-parque-s.a.
@@ -1380,6 +1408,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Rise of Innovation: Porto's Thriving Startup Ecosystem: https://www.inacademy.eu/blog/portos-startup-ecosystem
 - InfoMoney e Dinheirama fecham parceria de compartilhamento de conteúdo: https://www.infomoney.com.br/colunistas/blog-da-redacao/infomoney-e-dinheirama-fecham-parceria-de-compartilhamento-de-conteudo
 - Ambientes de Inovação | Inova Maranhão: https://www.inova.ma.gov.br/ambientedeinovacao
+- Hub GovTech Paraná acelera 65 startups para criar soluções voltadas ao setor público | Secretaria da Inovação e Inteligência Artificial: https://www.inova.pr.gov.br/Noticia/Hub-GovTech-Parana-acelera-65-startups-para-criar-solucoes-voltadas-ao-setor-publico
 - EDITAIS | Secretaria da Inovação e Inteligência Artificial: https://www.inova.pr.gov.br/Pagina/EDITAIS
 - EDITAL DE CHAMAMENTO PÚBLICO PARANÁ ANJO ...: https://www.inova.pr.gov.br/sites/default/arquivos_restritos/files/documento/2026-05/edital_anjo_inovador_3.pdf
 - Programa de Aceleração Batch Stars 2026 - Inova Unicamp: https://www.inova.unicamp.br/events/batch-stars-2026
@@ -1412,7 +1441,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/p/DTN4kvmDjO_
 - Instagram: https://www.instagram.com/p/DTTMUpmiTM4
 - Instagram: https://www.instagram.com/p/DT_OcRAD1pI
-- Com novo prazo definido, as inscrições para os programas ...: https://www.instagram.com/p/DTgQWnniY3R
+- Instagram: https://www.instagram.com/p/DTgQWnniY3R
 - Instagram: https://www.instagram.com/p/DTx_G9eDuJ-
 - Instagram: https://www.instagram.com/p/DUWbZr-AV_K?hl=en
 - Instagram: https://www.instagram.com/p/DUZEVO0AZMK
@@ -1439,9 +1468,10 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/p/DWoNV0mERc9
 - Instagram: https://www.instagram.com/p/DWq5xKGEXZo
 - Instagram: https://www.instagram.com/p/DWxNTztjpW5
-- Vem aí a 6ª edição do Hub PB: https://www.instagram.com/p/DX99Rt3Gnp0
+- Instagram: https://www.instagram.com/p/DX99Rt3Gnp0
 - ✈️ Missão Empresarial – NRA Show 2026 Estão abertas ...: https://www.instagram.com/p/DXHilm1j1uo
 - Instagram: https://www.instagram.com/p/DXM680MEZaf
+- Nosso Prêmio InovaGAB está de volta com uma novidade: ...: https://www.instagram.com/p/DXNC5WakwG2
 - Instagram: https://www.instagram.com/p/DXPi3NniXB8
 - Instagram: https://www.instagram.com/p/DXXDSgdkZJl
 - Instagram: https://www.instagram.com/p/DXcJt9xjcYa
@@ -1465,7 +1495,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/p/DZa0V43HxpN
 - O Centelha Paraná 2026 é um programa de incentivo à ...: https://www.instagram.com/p/DZm20krjyo9?img_index=5
 - Instagram: https://www.instagram.com/p/DZqTB83lKOh
-- sebrae.roraima: https://www.instagram.com/p/DZvlv_iPIkB
+- Instagram: https://www.instagram.com/p/DZvlv_iPIkB
 - Instagram: https://www.instagram.com/p/Da0OMDLOcAu
 - Instagram: https://www.instagram.com/p/Da2X00zR1Hx
 - Instagram: https://www.instagram.com/p/Da2lzHWj87d
@@ -1492,7 +1522,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/p/DbIsuWSRESs
 - Não deixe para a última hora! 🔥🔥🔥: https://www.instagram.com/p/DbTrPc1iVUv
 - Instagram: https://www.instagram.com/p/DbVkzHOJzx1
-- Artemisia | [Edição Internacional] Programa de preparação ...: https://www.instagram.com/p/DbYr7rfFEpA
+- Artemisia on Instagram: "[Edição Internacional] Programa de preparação para empreendedores(as) de impacto, agora para toda a América Latina! 🌎  Realizado pela @venturespotencia em parceria com a Artemisia, o Potencia UP oferece uma jornada 100% online e gratuita para preparar empreendedores(as) de impacto que estejam em busca de investimentos.  Depois de duas edições bem-sucedidas no Brasil, com +200 negócios voltados à educação e futuro do trabalho capacitados, o programa passa a apoiar soluções em países da América Latina de língua espanhola.  A expansão parte do reconhecimento de que a região compartilha desafios educacionais similares e reúne empreendedores talentosos, com soluções inovadoras que podem se beneficiar de uma preparação estruturada para investimento.  Confira a matéria na Folha de S.Paulo e o site oficial do programa [Links na bio] 🔗  #ImpactoSocial #InvestimentoDeImpacto #Educação #FuturoDoTrabalho #AmericaLatina": https://www.instagram.com/p/DbYr7rfFEpA
 - Instagram: https://www.instagram.com/p/Dba38pzEoiA
 - Instagram: https://www.instagram.com/p/Dbd1ZLVydUs
 - Instagram: https://www.instagram.com/p/DbeJRo7lK_R
@@ -1502,9 +1532,9 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - 📌 Inscrições prorrogadas! O Edital da @fapes.es nº 18/ ...: https://www.instagram.com/p/DbqMYYQkV3a
 - Sebrae Ceará ⛵☀ on Instagram: "As oportunidades não esperam. E o próximo passo da sua startup também não.  O StartupCE 2026 está com inscrições abertas para negócios inovadores que desejam acelerar seu crescimento, ampliar conexões e se preparar para novos desafios do mercado.  Se você tem uma startup e quer impulsionar sua jornada e acesso a um ecossistema de inovação, essa é a hora de garantir sua participação.  📅 Inscreva-se até 14 de agosto e garanta sua vaga.  Link na bio!  #StartupCE2026 #SebraeStartups #Inovação #Startups": https://www.instagram.com/p/DbtZG1_lXaz
 - Instagram: https://www.instagram.com/p/Dc1s5Hvp7aW
-- Por meio de acordos internacionais, a EMBRAPII conecta ...: https://www.instagram.com/p/Dc3hm0qzMm5
+- INT | INSTITUTO NACIONAL DE TECNOLOGIA on Instagram: "Por meio de acordos internacionais, a EMBRAPII conecta empresas brasileiras a oportunidades de cooperação em diferentes países. Essas conexões ampliam o alcance internacional das empresas brasileiras, incluindo redes de inovação que reúnem mais de 45 países.  Credenciada na área de Tecnologia Química Industrial, a Unidade EMBRAPII INT pode apoiar essas empresas no desenvolvimento de projetos de inovação em cooperação com os parceiros estrangeiros. Nesse arranjo, a parte brasileira tem disponibilidade de recursos não reembolsáveis da EMBRAPII, enquanto os parceiros internacionais podem acessar recursos em seus respectivos países.  As chamadas internacionais acontecem durante todo o ano. Atualmente, três chamadas estão abertas: RAMP 2026, Call 31 da EUROGIA2030 e 42ª Chamada CORNET.  Entre em contato com a Unidade EMBRAPII INT e saiba mais!  Whatsapp: 21 98826-5020   ☎ (21) 2123-1012  ramal 7022   ✉ embrapii@int.gov.br": https://www.instagram.com/p/Dc3hm0qzMm5
 - 🚨 RADAR DE EDITAIS: Oportunidades abertas para ...: https://www.instagram.com/p/DcJVLykEYqI
-- O O O Hub.RO é a primeira incubadora e aceleradora ...: https://www.instagram.com/p/DcbhNhoFN31
+- Instagram: https://www.instagram.com/p/DcbhNhoFN31
 - Instagram: https://www.instagram.com/p/DchKaftDnJt
 - Instagram: https://www.instagram.com/p/DclxSHuONEv
 - 💡🌳 Desafios reais da Amazônia poderão ser conectados ...: https://www.instagram.com/p/DcuCM8TMBZP
@@ -1524,14 +1554,15 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Do lançamento à escala, uma startup passa por diversos ...: https://www.instagram.com/p/DduYhXXlqWV
 - Instagram: https://www.instagram.com/p/DeP2cBhloMr
 - Novas ideias, novos caminhos e mais um passo ...: https://www.instagram.com/p/DePqUsEpQuJ
-- Tem uma ideia de negócio ou já desenvolveu seu produto ...: https://www.instagram.com/p/Dec8aBsAwwL
+- Instagram: https://www.instagram.com/p/Dec8aBsAwwL
 - Instagram: https://www.instagram.com/p/DehbNNRRD_p
 - Instagram: https://www.instagram.com/p/DeherJclBFP
 - Instagram: https://www.instagram.com/p/Dejx1OdlzOm
 - Instagram: https://www.instagram.com/p/Det1OrakbgW
 - Instagram: https://www.instagram.com/p/DeuorxzIDvw
-- 🚀 R$ 23,3 milhões investidos em inovação no Paraná ...: https://www.instagram.com/p/DfFDj5ykaSI
+- Instagram: https://www.instagram.com/p/DfFDj5ykaSI
 - 🚀 Startups capixabas avançam e ampliam resultados! Nos ...: https://www.instagram.com/p/DfGB6lBH7by
+- Instagram: https://www.instagram.com/p/DfIBA_6FUQm
 - Instagram: https://www.instagram.com/p/DfIVZx6CRgP
 - Instagram: https://www.instagram.com/reel/C38grxlRl4_
 - Instagram: https://www.instagram.com/reel/Cp27gm1g0qJ
@@ -1545,7 +1576,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DGTISxOOJY9
 - Instagram: https://www.instagram.com/reel/DHMYXtUBkmi
 - Instagram: https://www.instagram.com/reel/DIbtdVkADtm?hl=en
-- Artemisia | Quer participar do CAIXA: Desafio Mulheres em ...: https://www.instagram.com/reel/DIhkPTZyayM?hl=en
+- Instagram: https://www.instagram.com/reel/DIhkPTZyayM?hl=en
 - Instagram: https://www.instagram.com/reel/DIyWFTBtb2W
 - Instagram: https://www.instagram.com/reel/DLA9emVJHhQ?hl=en
 - Instagram: https://www.instagram.com/reel/DLukfGWRh2q
@@ -1553,6 +1584,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DN1JlrNXP1f
 - Instagram: https://www.instagram.com/reel/DNfmfftNI6w
 - Instagram: https://www.instagram.com/reel/DP2D-I6E2X1
+- Instagram: https://www.instagram.com/reel/DPE_itBj3Go
 - Instagram: https://www.instagram.com/reel/DPpAECigWr6
 - Instagram: https://www.instagram.com/reel/DQ91jewjPN4
 - Instagram: https://www.instagram.com/reel/DQCRTuMjYWW
@@ -1560,13 +1592,14 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DQM3lYXEWA8
 - Instagram: https://www.instagram.com/reel/DR7ZL5OAEa5
 - Instagram: https://www.instagram.com/reel/DSE_KhjAKC9
-- Tive a honra de participar do lançamento do novo HUB.RO ...: https://www.instagram.com/reel/DSIpugdgd6Z
+- Instagram: https://www.instagram.com/reel/DSIpugdgd6Z
 - Instagram: https://www.instagram.com/reel/DSacADEEVxp?hl=en
 - Instagram: https://www.instagram.com/reel/DTLLi4DgOQ3
 - Instagram: https://www.instagram.com/reel/DTN3l84gIti
 - Instagram: https://www.instagram.com/reel/DTaqFt9gF4m?hl=en
 - Instituto Ecoa PUC-Rio on Instagram: "Inscreva-se na 1º Edição do Programa de Inovação Aberta do Rio.IA!  O programa apoia o crescimento de startups que tenham soluções de IA voltadas para os desafios das indústrias brasileiras.  Serão selecionadas empresas de todo país.  As inscrições podem ser feitas até o dia 29/01 pelo link na bio!": https://www.instagram.com/reel/DTtOLLLgAvl
 - Instagram: https://www.instagram.com/reel/DTv56r3APXg
+- Instagram: https://www.instagram.com/reel/DTvE3FWj1W9
 - Instagram: https://www.instagram.com/reel/DTwKXeHjfrj
 - A Missão Empresarial South Summit Brasil 2026 é uma ...: https://www.instagram.com/reel/DU1FwWNDq5p?hl=en
 - Instagram: https://www.instagram.com/reel/DU8S6zfjfvn
@@ -1578,9 +1611,10 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DVw64JnjSfq?hl=en
 - Instagram: https://www.instagram.com/reel/DVyCywqD74h
 - Instagram: https://www.instagram.com/reel/DWHYuQSiWJc?hl=en
-- O Senac marcou presença no Startup Day incentivando a ...: https://www.instagram.com/reel/DWJx_LTjq_V
+- Instagram: https://www.instagram.com/reel/DWJx_LTjq_V
 - Instagram: https://www.instagram.com/reel/DWKddwDibf4
 - Instagram: https://www.instagram.com/reel/DWPKijTieEl
+- Feevale Techpark - Incubadora e Parque Tecnológico on Instagram: "O futuro da inovação já começou 🚀  Hoje foi dia de lançamento do BRDE Labs RS 2026, um dos principais programas de aceleração de startups do Sul do país, realizado em parceria com a Universidade Feevale, por meio do Feevale Techpark.  O programa conecta startups a grandes empresas, investidores e especialistas, impulsionando soluções inovadoras e fortalecendo o ecossistema de inovação.  Se você tem uma startup e quer acelerar seu crescimento, essa é a oportunidade! As inscrições já estão abertas 💡  👉 Saiba mais e inscreva-se: https://feevale.apprbs.com.br/brde-labs": https://www.instagram.com/reel/DWWnco-EaCC
 - Instagram: https://www.instagram.com/reel/DWXnfgbiuXQ
 - Instagram: https://www.instagram.com/reel/DWZvEL0kfjS
 - Instagram: https://www.instagram.com/reel/DW_4ZVvAj0L
@@ -1605,7 +1639,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DZdoFgtE0wp
 - Instagram: https://www.instagram.com/reel/DZu7CXShV5m
 - Instagram: https://www.instagram.com/reel/DZuk4c6v9WY
-- A Startup Piauí é o programa de aceleração do PIT que apoia ...: https://www.instagram.com/reel/DaS_H3Nx2yG
+- Instagram: https://www.instagram.com/reel/DaS_H3Nx2yG
 - Instagram: https://www.instagram.com/reel/DaTdxfCAvhQ
 - Instagram: https://www.instagram.com/reel/DaiXyzXg5iK
 - Instagram: https://www.instagram.com/reel/Dan-sFUy-fB
@@ -1629,6 +1663,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DdZ5WzpPX7l
 - Instagram: https://www.instagram.com/reel/DdrKSOUiZj5
 - Instagram: https://www.instagram.com/reel/Ddrl1uvtHl9
+- Instagram: https://www.instagram.com/reel/De9EoIzjd7x
 - Instagram: https://www.instagram.com/reel/DeHaS6PEmJH
 - Instagram: https://www.instagram.com/reel/DeXi4Q5xowg
 - Instagram: https://www.instagram.com/reel/DehD22fRY9u
@@ -1638,7 +1673,9 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DeusseqyuGr
 - Instagram: https://www.instagram.com/reel/Dew1MOkAgJt
 - Instagram: https://www.instagram.com/reel/Dey1CPejIRV
+- Instagram: https://www.instagram.com/reel/DeycmgUzfLD
 - Em 2026, a Missão Empresarial Web Summit chega à sua 10ª ...: https://www.instagram.com/reel/DezKe58mkXM
+- Instagram: https://www.instagram.com/reel/Dezzh1vPyzc
 - Instagram: https://www.instagram.com/reel/DfE-RTOyyQg
 - Instagram: https://www.instagram.com/reel/DfKYafuJMKS
 - Sebrae Startups (@sebraestartups) • Instagram photos and videos: https://www.instagram.com/sebraestartups?hl=en
@@ -1658,7 +1695,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Para sua Startup - Itaipu Parquetec: https://www.itaipuparquetec.org.br/para-sua-startup
 - Nossos Programas | Join.Valle: https://www.joinvalle.com.br/nossosprogramas
 - Negócios: Cotações, Mercados, Economia, Empresas: https://www.jornaldenegocios.pt/
-- Abstartups | LinkedIn: https://www.linkedin.com/company/abstartups
+- Abstartups: https://www.linkedin.com/company/abstartups
 - ACE Ventures: https://www.linkedin.com/company/aceventuresbr
 - Darwin Startups: https://www.linkedin.com/company/darwinstartups
 - FIEMG Lab: https://www.linkedin.com/company/fiemglab
@@ -1702,6 +1739,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - 100 Open Startups - Desafío Deportes: https://www.openstartups.net/es/challenges/sport
 - 100 Open Startups - Congresso Latino-Americano de Casos de Open Innovation: https://www.openstartups.net/events/congresso-cases
 - 100 Open Startups - inovabra bradesco: Grande Desafio Agronegócio: https://www.openstartups.net/events/inovabra/agronegocio
+- 100 Open Startups - Desafio Educação do Futuro: https://www.opentechs.net/br-pt/challenges/futureeducation
 - 100 Open Startups - Desafio Pequenas Empresas: https://www.opentechs.net/br-pt/challenges/smallbusiness
 - 100 Open Startups - Desafio Esporte: https://www.opentechs.net/br-pt/challenges/sport
 - i.de.i.a.S - Senac Pernambuco: https://www.pe.senac.br/i-de-i-a-s
@@ -1866,7 +1904,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - TV Inova SC | Startup Summit 2026 highlights ESG and sustainability in SC businesses: https://www.youtube.com/watch?v=FV1saZk98vM
 - Live | How to create a startup?: https://www.youtube.com/watch?v=Ge-5D9QDajE
 - Innovation and Business - April 28, 2025: https://www.youtube.com/watch?v=HJMbD2jF4vA
-- TV Inova SC | Startup SC Meetup connects entrepreneurs ...: https://www.youtube.com/watch?v=HmZEJADDFpg
+- TV Inova SC | Startup SC Meetup connects entrepreneurs and strengthens innovation.: https://www.youtube.com/watch?v=HmZEJADDFpg
 - What is CUBO ITAÚ? The hub connecting STARTUPS with major companies in Uruguay 🚀: https://www.youtube.com/watch?v=I5lC0OLeReU
 - Startup Funding 101: https://www.youtube.com/watch?v=L5x4b_SAwQ0
 - Google for Startups Accelerator: Brazil - Demo Day 2026: https://www.youtube.com/watch?v=MqzBSuIVqpY
