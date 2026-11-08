@@ -1,6 +1,6 @@
 ## Descoberta de oportunidades
 
-24/24 pesquisas concluídas nesta rodada. 181 URLs distintas nesta execução; 2200 no histórico.
+24/24 pesquisas concluídas nesta rodada. 166 URLs distintas nesta execução; 2218 no histórico.
 
 São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 
@@ -143,6 +143,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Startup Day 2026 reúne empreendedores e especialistas em inovação em Atibaia - Prefeitura de Atibaia: https://atibaia.sp.gov.br/startup-day-2026-reune-empreendedores-e-especialistas-em-inovacao-em-atibaia
 - Resultado da Seleção – Programa Santander USP – Criação de Startups 2026 – Agência USP de Inovação: https://auspin.usp.br/bolsastartupusp2026
 - Sebrae conecta startups baianas às principais vitrines de inovação do Brasil em 2026 | ASN Bahia - Agência Sebrae de Notícias: https://ba.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-conecta-startups-baianas-as-principais-vitrines-de-inovacao-do-brasil-em-2026
+- edital - Tags - Baguete: https://baguete.com.br/category/tags/edital
 - HUB SALVADOR SE UNE À MAIOR ACELERADORA DE STARTUPS DO BRASIL - Bahia Economica: https://bahiaeconomica.com.br/wp/2026/05/04/hub-salvador-se-une-a-maior-aceleradora-de-startups-do-brasil
 - Aceleração de Startups no Brasil: o guia 2026 | Baita Aceleradora: https://baita.ac/aceleracao-de-startups
 - Checkout | Beevent: https://beevent.com.br/cart?event=15057a07-7970-4b24-b656-d4d2e599b950&ticket=65786a55-b195-4a5f-a284-96f374fdf9e9&embed=1
@@ -185,6 +186,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - 15 startups do Nordeste são selecionadas para aceleração pelo Inova+Invest - Business Moment: https://businessmoment.com.br/15-startups-do-nordeste-sao-selecionadas-para-aceleracao-pelo-inovainvest
 - Energy of Minas Gerais ADR Earnings Date (CIG) - Investing.com Canada: https://ca.investing.com/equities/energetica-minas-gerais-earnings
 - Inscrições abertas para programa de internacionalização: https://caisdoporto.org/oportunidade-de-internacionalizacao-porto-digital
+- 10 editais tecnologia e inovação empresas em 2026 · Capitaai: https://capitaai.com.br/blog/10-editais-de-tecnologia-e-inovacao-para-empresas-em-2026
 - 8 editais de inovação pra startups em 2026 · Capitaai: https://capitaai.com.br/blog/8-editais-de-inovacao-pra-startups-em-2026
 - Editais Sebrae 2026: programas inovação · Capitaai: https://capitaai.com.br/blog/editais-sebrae-2026-programas-de-inovacao-e-empreendedorismo-abertos
 - FAPEMIG SEDE 018/2026: captação de R$ 2 mi em inovação · Capitaai: https://capitaai.com.br/captacao/chamada-fapemig-sede-0182026-hubmg-gov-fapemig-lw4bb0
@@ -303,6 +305,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - StartUp (TV series) - Wikipedia: https://en.wikipedia.org/wiki/StartUp_(TV_series)
 - Startup company - Wikipedia: https://en.wikipedia.org/wiki/Startup_company
 - Programa de aceleração para startups do Nordeste abre inscrições: https://epocanegocios.globo.com/startups/noticia/2026/01/programa-de-aceleracao-para-startups-do-nordeste-abre-inscricoes.ghtml
+- EqSeed | Invista em Startups e Empresas Privadas: https://eqseed.com/
 - StartUp Challenge: abren convocatoria para emprendimientos de energías renovables: https://es-us.finanzas.yahoo.com/noticias/startup-challenge-abren-convocatoria-emprendimientos-181500905.html
 - ESX 2026: startups podem se inscrever até 5 de abril para participar da Startup Experience | ASN Espírito Santo - Agência Sebrae de Notícias: https://es.agenciasebrae.com.br/inovacao-e-tecnologia/esx-2026-selecao-de-startups-participantes-comeca-nesta-segunda-feira
 - ¿Como ser parte? | Cubo Itaú Uruguay: https://es.linkedin.com/posts/cubo-itau-uruguay_como-ser-parte-activity-7496270381360504832-ixWs
@@ -352,6 +355,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Programa de aceleração de startups executado pela CERTI tem inscrições abertas – Fapesc: https://fapesc.sc.gov.br/0305-programa-de-aceleracao-de-startups-executado-pela-certi-tem-inscricoes-abertas
 - FAPESC — Editais: https://fapesc.sc.gov.br/editais/
 - EDITAL DE CHAMADA PÚBLICA FAPESC N.º 03/2026 PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS VI EDIÇÃO SUPER PITCH DAY – Fapesc: https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-003-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-vi-edicao-super-pitch-day
+- EDITAL DE CHAMADA PÚBLICA FAPESC N.º 24/2026 PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS PARA O ECOSSISTEMA CATARINENSE DE INOVAÇÃO — VII EDIÇÃO – Fapesc: https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-24-2026-programa-nascer-de-pre-incubacao-de-ideias-inovadoras-para-o-ecossistema-catarinense-de-inovacao-vii-edicao
 - EDITAL DE CHAMADA PÚBLICA FAPESC N.º 31/2026 PROGRAMA ACELERA STARTUP SC – 6ª Edição – Fapesc: https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-n-o-31-2026-programa-acelera-startup-sc-6a-edicao
 - InovAtiva Brasil abre inscrições para aceleração de startups – Fapesc: https://fapesc.sc.gov.br/inovativa-brasil-abre-inscricoes-para-aceleracao-de-startups
 - Startup SC: inscrições abertas para aceleração de Startups em Santa Catarina – Fapesc: https://fapesc.sc.gov.br/startup-sc-inscricoes-abertas-para-aceleracao-de-startups-em-santa-catarina
@@ -375,6 +379,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Fapto - Notícia de 12/01/2026: https://fapto.org.br/Site/Noticia/Visualizar?uid=NjY5
 - Instituições apoiadas pela FAU terão reforço para startups que vão de diagnóstico de maturidade à aceleração de startups - FAU: https://fau.org.br/instituicoes-apoiadas-pela-fau-terao-reforco-para-startups-que-vao-de-diagnostico-de-maturidade-a-aceleracao-de-startups
 - Startups brasileiras cruzam fronteiras e transformam missão do BretA2026 em ponte de negócios com a Argentina - Sistema Fecomércio: https://fecomercio-es.com.br/noticia/startups-brasileiras-cruzam-fronteiras-e-transformam-missao-do-breta2026-em-ponte-de-negocios-com-a-argentina
+- Programa Nascer abre inscrições para a 7ª edição de pré ...: https://fecontesc.org.br/programa-nascer-abre-inscricoes-para-a-7a-edicao-de-pre-incubacao-de-ideias-inovadoras-em-santa-catarina
 - FEEVALE | BRDE Labs: https://feevale.apprbs.com.br/brde-labs
 - Founder Institute, World's Largest AI-Native Company Builder: https://fi.co/
 - Program Agreements: https://fi.co/agreements
@@ -395,6 +400,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Learn more here: https://fi.co/programtypes
 - Founder Institute: World's largest pre-seed startup accelerator.: https://fi.co/register/appbuilder
 - Program Reviews: https://fi.co/reviews
+- Challenges – FIEMG Lab: https://fiemglab.com.br/challenges
 - Hubs de Inovação no Brasil – FIEMG Lab: https://fiemglab.com.br/hubs-de-inovacao
 - Startups apresentam soluções para desafios da Gerdau – FIEMG Lab: https://fiemglab.com.br/startups-apresentam-solucoes-para-desafios-da-gerdau
 - FIEMG Lab | aceleração de startups: https://fiemglab.com.br/tag/aceleracao-de-startups
@@ -409,10 +415,11 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Conexões Findeslab - Findeslab: https://findeslab.com.br/conexoes-findeslab
 - Conecta Caldeira abre seleção de fintechs - Finsiders Brasil: https://finsidersbrasil.com.br/noticias-sobre-fintechs/conecta-caldeira-abre-selecao-de-fintechs
 - EDITAL ABERTO: FAPERJ EDITAL FAPERJ Nº 15/2026: https://firjan.com.br/data/files/00/00/3B/7C/94D50A106CEF99E919284EA8/boletim_radar_edicao59_setembro_2026.pdf
-- SENAI CHAMADA PÚBLICA C - Firjan: https://firjan.com.br/data/files/49/80/25/07/BFCCF9106CEF99E919284EA8/boletim_radar_edicao58_agosto_2026.pdf
+- SENAI CHAMADA PÚBLICA C: https://firjan.com.br/data/files/49/80/25/07/BFCCF9106CEF99E919284EA8/boletim_radar_edicao58_agosto_2026.pdf
 - 07/2026 | edição 57: https://firjan.com.br/data/files/57/D3/07/AE/D282F9106CEF99E919284EA8/Boletim-Radar-Recursos_Firjan_Julho_2026.pdf
 - FORMULÁRIO DE INSCRIÇÃO: PROGRAMA NEXT - ACELERAÇÃO DE STARTUPS: https://forms.gle/kbS7qkTJbu4nnbqj7
 - Batalha de Startups - Fórum Eventos 2026: https://forumeventos.net/batalha-de-startups
+- Faculdades Pequeno Príncipe lança edital de Pré-Incubação: https://fpp.edu.br/inovacao-na-saude-faculdades-pequeno-principe-lanca-edital-de-pre-incubacao
 - Fundação Lemann - Página Inicial - Educação e Liderança: https://fundacaolemann.org.br/
 - Inovação e conectividade - Fundação Lemann: https://fundacaolemann.org.br/educacao-publica-de-qualidade/inovacao-e-conectividade
 - Aprendizados para quem quer empreender em educação - Fundação Lemann: https://fundacaolemann.org.br/noticias/aprendizados-para-quem-quer-empreender-em-educacao
@@ -491,7 +498,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Gerdau launches new open innovation challenge to transform tax management with data intelligence - IBRAM: https://ibram.org.br/en/noticia/gerdau-lanca-novo-desafio-de-inovacao-aberta-para-transformar-gestao-fiscal-com-inteligencia-de-dados
 - Gerdau y FIEMG Lab buscan startups para resolver los desafíos de IBRAM.: https://ibram.org.br/es/noticia/gerdau-e-fiemg-lab-buscam-startups-para-resolver-desafios
 - A Corporate-Startup Co-creation Program in the Regulated O&G and Energy Ecosystem in Brazil: The Case of Petrobras Connections for Innovation: https://ideas.repec.org/h/spr/prbchp/978-3-031-72490-9_60.html
-- IFTM EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO – CAPACITAÇÃO PARA EMPREENDEDORES INOVADORES: https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores
+- IFTM EDITAL Nº 01/2026 -PRÉ-INCUBAÇÃO: https://iftm.edu.br/editais/projetos-de-ensino-pesquisa-e-extensao/eventos-propi/20260125/edital-n-01-2026-pre-incubacao-capacitacao-para-empreendedores-inovadores
 - Editais de apoio a empreededores - Impacta Brasil: https://impactabrasil.org/fomento/editais-de-apoio-a-empreededores
 - Natura Ventures abre chamada para startups do Norte e Nordeste com foco em inovação, parceria e investimento: https://impactaceara.com.br/noticias/natura-ventures-abre-chamada-para-startups-do-norte-e-nordeste-com-foco-em-inovacao-parceria-e-investimento
 - BNDES Garagem lança novo ciclo de aceleração para seleção de 100 empreendedores e startups de impacto, com prêmios de até R$ 160 mil - Impacta Nordeste: https://impactanordeste.com.br/bndes-garagem-lanca-novo-ciclo-de-aceleracao-para-selecao-de-100-empreendedores-e-startups-de-impacto-com-premios-de-ate-r-160-mil
@@ -589,7 +596,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Cubo Itaú: https://main.d1tf7fsfevlmjm.amplifyapp.com/en/investors-portfolio/crivo-ventures
 - Cubo Itaú: https://main.d1tf7fsfevlmjm.amplifyapp.com/en/investors-portfolio/wow-aceleradora
 - Cubo Itaú: https://main.d1tf7fsfevlmjm.amplifyapp.com/en/startups-portfolio/cashu
-- Edital Incubadora Mamirauá: https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf
+- FLUXO CONTÍNUO Seleção de novos interessados para o: https://mamiraua.org.br/wp-content/uploads/2026/04/Edital-incubadora-Mamiraua.pdf
 - Oportunidades - Mapa da Inovação ES: https://mapa.inovacao.es.gov.br/oportunidades
 - Hospital Universitário Pedro Ernesto in Rio de Janeiro - RJ, Brazil - Apple Maps: https://maps.apple.com/place?place-id=I4350E0672DDFDEFB
 - Dentalmin Pro™ Remineralizing Toothpaste – Marcus Institute of...: https://marcusstore.jeffersonhealth.org/products/dentalmin-pro-remineralizing-toothpaste
@@ -659,6 +666,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Careers: the path for you to work at Petrobras: https://petrobras.com.br/en/quem-somos/carreiras
 - Inovação aberta: criamos Conexões para Inovação - Petrobras: https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta
 - BRSR3 | Banco do Estado do Rio Grande do Sul SA Stock Price - Investing.com PH: https://ph.investing.com/equities/banco-do-estado-do-rio-grande-do-su
+- CIG | Energy of Minas Gerais Co ADR Stock Price - Investing.com PH: https://ph.investing.com/equities/energetica-minas-gerais
 - Aceleração de Startups: Sebrae no Piauí lança edital para ...: https://pi.agenciasebrae.com.br/inovacao-e-tecnologia/aceleracao-de-startups-sebrae-no-piaui-lanca-edital-para-selecao-de-negocios-inovadores
 - Meetup Conecta Startups apresenta oportunidades para ...: https://piauinegocios.com.br/noticia/3829-meetup-conecta-startups-apresenta-oportunidades-para-acelerar-negocios-inovadores-no-piaui
 - » Startups: https://pime.ufms.br/tag/startups
@@ -1077,6 +1085,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Rede RS Startup - Secretaria de Inovação, Ciência e Tecnologia: https://sict.rs.gov.br/rede-rs-startup-6a4fb734494f5
 - Startup Lab - Secretaria de Inovação, Ciência e Tecnologia: https://sict.rs.gov.br/startup-lab
 - Guia de programas de aceleração e seleção para construtechs e proptechs - Sienge: https://sienge.com.br/blog/guia-de-programas-de-aceleracao-e-selecao-para-construtechs-e-proptechs
+- EDITAL Nº 01_2026 - PROGRAMA DE PRÉ INCUBAÇÃO ...: https://sigmapark.tec.br/wp-content/uploads/2026/10/EDITAL-No-01_2026-PROGRAMA-DE-PRE-INCUBACAO-SIGMA-START.docx-1.pdf
 - Lessons from 6 software rewrite stories: https://simonwillison.net/2019/Feb/19/lessons-6-software-rewrite-stories
 - Django for Startup Founders: A better software architecture for SaaS startups and consumer apps: https://simonwillison.net/2021/Jun/24/django-for-startup-founders
 - A quote from Tom MacWright: https://simonwillison.net/2024/Nov/3/tom-macwright
@@ -1552,6 +1561,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Edital IncubaScience - Portal Gov.br: https://www.gov.br/cetene/pt-br/acesso-a-informacao/editais-cetene/copy_of_Edital_IncubaScience__2026_29_assinado.pdf
 - CHAMADA PARA INSCRIÇÃO DO GRANIOTER ACELERA 2026: https://www.gov.br/cnen/pt-br/assunto/ultimas-noticias/EditalGranioterAcelera2026
 - edital-incubadora-inpa-atualizado.pdf - Portal Gov.br: https://www.gov.br/inpa/pt-br/inovacao/documentos/edital-incubadora-inpa-atualizado.pdf
+- edital n° 54/2026/sei-inpa (fluxo contínuo) - Portal Gov.br: https://www.gov.br/inpa/pt-br/inovacao/incubadora-/SEI_14121174_Edital_54.pdf
 - Untitled: https://www.gov.br/inpi/pt-br/governanca/transparencia-e-prestacao-de-contas/relatorios-de-gestao/arquivos/documentos/RelatriodeGestoINPIex2022final.pdf
 - Embrapii/INT: https://www.gov.br/int/pt-br/embrapii-int
 - Governo Federal lança edital de R$ 80 milhões para startups brasileiras que atuam com inovação em IA — Ministério da Ciência, Tecnologia e Inovação: https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2022/03/governo-federal-lanca-edital-de-r-80-milhoes-para-startups-brasileiras-que-atuam-com-inovacao-em-ia
@@ -1577,6 +1587,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Desafía | Consultoría para rápido crecimiento | ICEX: https://www.icex.es/es/servicios/consultoria-estrategica/rapido-crecimiento/desafia
 - IE – Fostering Positive Change Through Education, Research & Innovation: https://www.ie.edu/
 - Empreendedores de Rio Branco e Cruzeiro do Sul iniciam processo de incubação no Ifac — IFAC Instituto Federal do Acre: https://www.ifac.edu.br/noticias/2023/setembro/empreendedores-de-rio-branco-e-cruzeiro-do-sul-iniciam-processo-de-incubacao-no-ifac
+- IFMG Campus Ibirité publica edital para programa de pré- ...: https://www.ifmg.edu.br/ibirite/ifmg-campus-ibirite-publica-edital-para-programa-de-pre-incubacao-de-ideias-inovadoras
 - IF Sudeste MG lança edital para seleção de propostas na Trilha de Pré-Incubação Brasil Inovador — IF SUDESTE MG: https://www.ifsudestemg.edu.br/noticias/reitoria/2026/1/if-sudeste-mg-lanca-edital-para-selecao-de-propostas-na-trilha-de-pre-incubacao-brasil-inovador
 - Rise of Innovation: Porto's Thriving Startup Ecosystem: https://www.inacademy.eu/blog/portos-startup-ecosystem
 - InfoMoney e Dinheirama fecham parceria de compartilhamento de conteúdo: https://www.infomoney.com.br/colunistas/blog-da-redacao/infomoney-e-dinheirama-fecham-parceria-de-compartilhamento-de-conteudo
@@ -1599,6 +1610,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/p/C8Naeh1OHod
 - Instagram: https://www.instagram.com/p/C9pvCtktMuI
 - Instagram: https://www.instagram.com/p/CkgysViOibS
+- Instagram: https://www.instagram.com/p/DAEjS6JOLVq
 - Instagram: https://www.instagram.com/p/DIr6APjvWB6
 - Instagram: https://www.instagram.com/p/DL0bb9pIYYW?hl=zh-cn
 - Instagram: https://www.instagram.com/p/DM0Q96POWgl
@@ -1643,7 +1655,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/p/DWWpcFqCri8
 - Instagram: https://www.instagram.com/p/DWY_JymjSYI
 - Instagram: https://www.instagram.com/p/DWoNV0mERc9
-- Tatiana Camarão on Instagram: "Brasil está abrindo portas para a inovação — e os editais estão aí para provar.  São bilhões em recursos disponíveis para empresas de todos os portes, startups, pesquisadores e organizações públicas que querem inovar.  Para as empresas: oportunidades reais de crescimento com recurso não reembolsável. Para as organizações públicas: caminhos para contratações inovadoras. Para o país: desenvolvimento.  Acompanhe. O momento é agora. . . . . . . #inovação #editais #fomento #startups #finep sebrae embrapii bndes abdi leideinovação": https://www.instagram.com/p/DWq5xKGEXZo
+- Instagram: https://www.instagram.com/p/DWq5xKGEXZo
 - Instagram: https://www.instagram.com/p/DWxNTztjpW5
 - Instagram: https://www.instagram.com/p/DX99Rt3Gnp0
 - Instagram: https://www.instagram.com/p/DXHilm1j1uo
@@ -1661,7 +1673,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/p/DYXRHL8kzRr
 - PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS ...: https://www.instagram.com/p/DYXk4y9jnhe
 - Instagram: https://www.instagram.com/p/DYnQSXfEd-V
-- NÚCLEO INCUBADOR DE LINHARES on Instagram: "🚀 O edital do Programa Gênesis 2026 já está no ar!  A iniciativa irá disponibilizar um total de R$ 750 mil para apoiar ideias inovadoras, novos projetos e startups em desenvolvimento.  Se você possui uma solução inovadora ou deseja transformar sua ideia em um negócio, essa pode ser uma grande oportunidade para impulsionar seu projeto.  📄 Confira o edital e saiba mais: https://fapes.es.gov.br/Media/fapes/Editais/Edital%20Programa%20G%C3%AAnesis%202026%20-%20Assinado.pdf  #Inovacao #Startups #Empreendedorismo #Genesis2026 #Tecnologia 🚀": https://www.instagram.com/p/DYzxgU-jvdn
+- Instagram: https://www.instagram.com/p/DYzxgU-jvdn
 - Instagram: https://www.instagram.com/p/DZ4lDN6DjEh
 - Instagram: https://www.instagram.com/p/DZ5wweWAemC
 - Instagram: https://www.instagram.com/p/DZ8McHhJ1Ji
@@ -1697,6 +1709,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/p/Db-7pWfRLbX
 - Instagram: https://www.instagram.com/p/Db6DtFFO_Vq
 - Instagram: https://www.instagram.com/p/Db6cTqoowdS
+- As inscrições para a Pré-Incubação 2026 da Innovatio ...: https://www.instagram.com/p/Db6uEOPuQHC
 - Instagram: https://www.instagram.com/p/Db9FFiQGWl2
 - Sua empresa quer desenvolver soluções para desafios ...: https://www.instagram.com/p/DbBFQTPDC9q
 - Instagram: https://www.instagram.com/p/DbEX3ZhAWCK
@@ -1779,6 +1792,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DOJ8F_Rjq99
 - Instagram: https://www.instagram.com/reel/DP2D-I6E2X1
 - Instagram: https://www.instagram.com/reel/DPE_itBj3Go
+- Instagram: https://www.instagram.com/reel/DPkKEsTCW-b?hl=en
 - Instagram: https://www.instagram.com/reel/DPpAECigWr6
 - Instagram: https://www.instagram.com/reel/DQ91jewjPN4
 - Instagram: https://www.instagram.com/reel/DQCRTuMjYWW
@@ -1816,6 +1830,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DWZvEL0kfjS
 - Instagram: https://www.instagram.com/reel/DW_4ZVvAj0L
 - Instagram: https://www.instagram.com/reel/DWjA5dqDlXH
+- Instagram: https://www.instagram.com/reel/DWjEyDCB1tb
 - Instagram: https://www.instagram.com/reel/DWmUnmaiSrr
 - Instagram: https://www.instagram.com/reel/DX-MI3XAuD-
 - Estão abertas as inscrições para o Prêmio Sebrae Startups ...: https://www.instagram.com/reel/DXFMUtDgul7
@@ -1829,6 +1844,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DYFjH1_xbyl
 - Instagram: https://www.instagram.com/reel/DYSHYp9O5Ze
 - Instagram: https://www.instagram.com/reel/DYiro-6x9cx
+- Instagram: https://www.instagram.com/reel/DYnJ5Q4R0BX
 - Instagram: https://www.instagram.com/reel/DZ5zg-WlT44
 - Instagram: https://www.instagram.com/reel/DZNjFm0OM4t
 - sebraesp: https://www.instagram.com/reel/DZQ_2XYlFPk
@@ -1946,6 +1962,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Interior Landscaping Design Services & Office Plants | Natura®: https://www.naturahq.com/
 - Natura Innovation Challenge 2026: https://www.naturainnovationchallenge.com/
 - Programa de Aceleração de Ideias e StartUps: https://www.nersant.pt/agenda/evento/programa-de-aceleracao-de-startups-business-boost-reposicione-e-reinvente-o-seu-negocio-alcanena?1502=
+- Editais de Inovação no Brasil: como funcionam e onde encontrar | NibSaaS: https://www.nibsaas.com/recursos/editais-de-inovacao
 - Noticenter - Jornada Startups 2026 seleciona até 150 novos negócios de tecnologia em Santa Catarina: https://www.noticenter.com.br/n.php?ID=41707&T=jornada-startups-2026-seleciona-ate-150-novos-negocios-de-tecnologia-em-santa-catarina
 - Nova Lima lança Chamamento Público para programa de aceleração de startups<!-- --> | Prefeitura de Nova Lima: https://www.novalima.mg.gov.br/turista/noticias/nova_lima_lanca_chamamento_publico_para_programa_de_aceleracao_de_startups
 - NoVitrine: https://www.novitrine.com.br/conteudo/inovafapto-primeiro-centro-de-inovacao-do-tocantins-celebra-dois-anos-com-avancos-no-ecossistema
@@ -1965,6 +1982,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - 100 Open Startups - Desafio Esporte: https://www.opentechs.net/br-pt/challenges/sport
 - CUA’s Startup Challenge nurtures young Catholic entrepreneurs: https://www.oursundayvisitor.com/cuas-startup-venture-challenge-forms-young-catholic-entrepreneurs
 - Concurso Nacional Desafío Emprendedor abre su 11ª convocatoria con nueva categoría para startups y un premio especial para emprendedores mayores de 50 años – Pacto Global ONU | Empresas | Desarrollo Sostenible: https://www.pactoglobal.cl/concurso-nacional-desafio-emprendedor-abre-su-11a-convocatoria-con-nueva-categoria-para-startups-y-un-premio-especial-para-emprendedores-mayores-de-50-anos
+- Estado publica novo edital para investimento de até R$ 20 milhões em startups | Governo do Estado do Paraná: https://www.parana.pr.gov.br/aen/Noticia/Estado-publica-novo-edital-para-investimento-de-ate-R-20-milhoes-em-startups
 - i.de.i.a.S - Senac Pernambuco: https://www.pe.senac.br/i-de-i-a-s
 - Startups incubadas no Senac são selecionadas para programa de aceleração - Senac Pernambuco: https://www.pe.senac.br/startups-incubadas-no-senac-sao-selecionadas-para-programa-de-aceleracao
 - Startup Piauí abre inscrições até 20 de outubro para aceleração gratuita de negócios e mentoria de empreendedores – pi.gov: https://www.pi.gov.br/startup-piaui-abre-inscricoes-ate-20-de-outubro-para-aceleracao-gratuita-de-negocios-e-mentoria-de-empreendedores
