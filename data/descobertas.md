@@ -1,6 +1,6 @@
 ## Descoberta de oportunidades
 
-24/24 pesquisas concluídas nesta rodada. 155 URLs distintas nesta execução; 2269 no histórico.
+24/24 pesquisas concluídas nesta rodada. 163 URLs distintas nesta execução; 2287 no histórico.
 
 São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 
@@ -182,6 +182,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Programa Nacional Conexão Startup Indústria: https://br.linkedin.com/in/startupindustria
 - Açolab | ArcelorMittal Brasil: https://brasil.arcelormittal.com/sustentabilidade-inovacao/inovacao/acolab
 - Endeavor Brasil - Dream bigger. Scale faster. Pay it forward.: https://brasil.endeavor.org/
+- SENAI abre chamada para startups que criam tecnologias voltadas à formação técnica | Brasil 61: https://brasil61.com/n/senai-abre-chamada-para-startups-que-criam-tecnologias-voltadas-a-formacao-tecnica-pind254561
 - Grupo Equatorial abre programa de inovação para startups | Editora Brasil Energia: https://brasilenergia.com.br/energia/empresas/grupo-equatorial-abre-programa-de-inovacao-para-startups
 - Amapá Ecossistema Estadual de Inovação em 2026: https://brasilinovador.com.br/amapa
 - InovAtiva Brasil abre pré-inscrições para o ciclo de aceleração 2025 - Brasil Inovador: https://brasilinovador.com.br/inovativa-brasil-abre-pre-inscricoes-para-o-ciclo-de-aceleracao-2025
@@ -426,15 +427,17 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Conexões Findeslab - Findeslab: https://findeslab.com.br/conexoes-findeslab
 - Conecta Caldeira abre seleção de fintechs - Finsiders Brasil: https://finsidersbrasil.com.br/noticias-sobre-fintechs/conecta-caldeira-abre-selecao-de-fintechs
 - EDITAL ABERTO: FAPERJ EDITAL FAPERJ Nº 15/2026: https://firjan.com.br/data/files/00/00/3B/7C/94D50A106CEF99E919284EA8/boletim_radar_edicao59_setembro_2026.pdf
-- SENAI CHAMADA PÚBLICA C: https://firjan.com.br/data/files/49/80/25/07/BFCCF9106CEF99E919284EA8/boletim_radar_edicao58_agosto_2026.pdf
+- SENAI CHAMADA PÚBLICA C - Firjan: https://firjan.com.br/data/files/49/80/25/07/BFCCF9106CEF99E919284EA8/boletim_radar_edicao58_agosto_2026.pdf
 - 07/2026 | edição 57: https://firjan.com.br/data/files/57/D3/07/AE/D282F9106CEF99E919284EA8/Boletim-Radar-Recursos_Firjan_Julho_2026.pdf
 - FORMULÁRIO DE INSCRIÇÃO: PROGRAMA NEXT - ACELERAÇÃO DE STARTUPS: https://forms.gle/kbS7qkTJbu4nnbqj7
 - Batalha de Startups - Fórum Eventos 2026: https://forumeventos.net/batalha-de-startups
 - Faculdades Pequeno Príncipe lança edital de Pré-Incubação: https://fpp.edu.br/inovacao-na-saude-faculdades-pequeno-principe-lanca-edital-de-pre-incubacao
 - Fundação Lemann - Página Inicial - Educação e Liderança: https://fundacaolemann.org.br/
 - Inovação e conectividade - Fundação Lemann: https://fundacaolemann.org.br/educacao-publica-de-qualidade/inovacao-e-conectividade
+- Lemann Foundation - Homepage - Education and Leadership: https://fundacaolemann.org.br/en
 - Aprendizados para quem quer empreender em educação - Fundação Lemann: https://fundacaolemann.org.br/noticias/aprendizados-para-quem-quer-empreender-em-educacao
 - Desafio Start-Ed - Fundação Lemann: https://fundacaolemann.org.br/noticias/desafio-start-ed
+- Lemann Fellowship: conhecimento de excelência e lideranças conectadas ao futuro do Brasil - Fundação Lemann: https://fundacaolemann.org.br/noticias/lemann-fellowship-conhecimento-de-excelencia-e-liderancas-conectadas-ao-futuro-do-brasil
 - Tecnologia para uma educação mais inclusiva - Fundação Lemann: https://fundacaolemann.org.br/noticias/tecnologia-para-uma-educacao-mais-inclusiva
 - Pelo futuro agora - Fundação Lemann: https://fundacaolemann.org.br/pelo-futuro-agora
 - Startup Competition South Summit Brazil 2026: Inscrições Abertas - FundMed: Fundação Médica do Rio Grande do Sul - Eventos – Processos Seletivos – Pesquisa Clínica – 51 3332-6840 – contato@fundmed.org.br: https://fundmed.org.br/nscricoes-startup-competition-south-summit-brazil-2026
@@ -934,6 +937,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - GO!RN conecta experiências de inovação de diferentes regiões do Brasil | ASN Rio Grande do Norte - Agência Sebrae de Notícias: https://rn.agenciasebrae.com.br/cultura-empreendedora/gorn-conecta-experiencias-de-inovacao-de-diferentes-regioes-do-brasil
 - Startup Day 2026: Sebrae RO mobiliza ecossistema de inovação em todo o estado | ASN Rondônia - Agência Sebrae de Notícias: https://ro.agenciasebrae.com.br/inovacao-e-tecnologia/startup-day-2026-sebrae-ro-mobiliza-ecossistema-de-inovacao-em-todo-o-estado
 - Startup Day mobiliza ecossistema de inovação em todo o Estado | ASN Rondônia - Agência Sebrae de Notícias: https://ro.agenciasebrae.com.br/inovacao-e-tecnologia/startup-day-mobiliza-ecossistema-de-inovacao-em-todo-o-estado
+- Startup de Rondônia leva inovação à Mercopar e amplia conexões com o mercado nacional | ASN Rondônia - Agência Sebrae de Notícias: https://ro.agenciasebrae.com.br/inovacao-e-tecnologia/startup-de-rondonia-leva-inovacao-a-mercopar-e-amplia-conexoes-com-o-mercado-nacional
 - Missão Startup Summit 2026 - Sebrae: https://ro.loja.sebrae.com.br/startupsummit2026
 - André Barrence Email & Phone Number | Fundação Lemann Vice-President of Leadership and Tech Contact Information: https://rocketreach.co/andre-barrence-email_6361726
 - What is the annual revenue of IFMS - Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul? - RocketReach: https://rocketreach.co/answers/what-is-the-annual-revenue-of-ifms-instituto-federal-de-educacao-ciencia-e-tecnologia-de-mato-grosso-do-sul_b40d9cc3ffb70e06
@@ -1059,6 +1063,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Ciência e Tecnologia - Rondônia Startup Connect marca fortalecimento do ecossistema de inovação em Rondônia com sucesso de público - Governo do Estado de Rondônia - Governo do Estado de Rondônia: https://rondonia.ro.gov.br/rondonia-startup-connect-marca-fortalecimento-do-ecossistema-de-inovacao-em-rondonia-com-sucesso-de-publico
 - que foram incentivadas pelo Programa Inova Maranhão: https://rosario.ufma.br/jspui/bitstream/123456789/7212/1/KAROLINE_OLIVEIRA_SOARES___TCC__revisado_.pdf
 - Editais - Rota do Fomento: https://rotadofomento.org/editais
+- 3ª Maratona de Inovação e Empreendedorismo em Roraima: Fomentando Soluções Inovadoras e Startups | ASN Roraima - Agência Sebrae de Notícias: https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/3a-maratona-de-inovacao-e-empreendedorismo-em-roraima-fomentando-solucoes-inovadoras-e-startups
 - Sebrae Roraima lança programa para acelerar startups e fortalecer ecossistema de inovação no estado | ASN Roraima - Agência Sebrae de Notícias: https://rr.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-roraima-lanca-programa-para-acelerar-startups-e-fortalecer-ecossistema-de-inovacao-no-estado
 - Darwin Startups abre inscrições para 15ª turma de aceleração: https://rtm.net.br/darwin-startups-abre-inscricoes-para-15a-turma-de-aceleracao
 - Pré-Aceleração e Aceleração Sai do Papel - Sai do Papel: https://saidopapel.com.br/startup-programme
@@ -1076,6 +1081,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Startup Summit 2026 - Florianópolis: https://sc.acate.com.br/startup-summit-2026
 - Inova Startups está com inscrições abertas para startups de todo o Brasil | ASN Santa Catarina - Agência Sebrae de Notícias: https://sc.agenciasebrae.com.br/inovacao-e-tecnologia/inova-startups-esta-com-inscricoes-abertas-para-startups-de-todo-o-brasil
 - Programa Acelera Startup SC anuncia 20 premiadas com investimento de cerca de R$ 1,6 milhão no Startup Summit 2026 | ASN Santa Catarina - Agência Sebrae de Notícias: https://sc.agenciasebrae.com.br/inovacao-e-tecnologia/programa-acelera-startup-sc-anuncia-20-premiadas-com-investimento-de-cerca-de-r-16-milhao-no-startup-summit-2026
+- PERFIL DE REACÃO TRANSFUSIONAL IMEDIATA EM UM HOSPITAL UNIVERSITÁRIO DO MUNICÍPIO DO RIO DE JANEIRO: https://sciencedirect.com/science/article/pii/S2531137922008380
 - Programa vai acelerar 400 startups neste primeiro semestre | ASN Sergipe - Agência Sebrae de Notícias: https://se.agenciasebrae.com.br/inovacao-e-tecnologia/programa-vai-acelerar-400-startups-neste-primeiro-semestre
 - Sebrae lança Programa de Pré-aceleração para Startups | ASN Sergipe - Agência Sebrae de Notícias: https://se.agenciasebrae.com.br/inovacao-e-tecnologia/sebrae-lanca-programa-de-pre-aceleracao-para-startups
 - Boletim de Editais eAções de Fomento aos: https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/boletim-de-inova%C3%A7%C3%A3o/Boletim%20de%20inova%C3%A7%C3%A3o%20-%20Maio%202026.pdf
@@ -1160,6 +1166,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Growth Stage Healthtech Startups (2026) – Tech Companies Database: https://startupmaphub.com/startups/healthtech/growth
 - Homepage - Startup Pará: https://startuppara.com.br/
 - Hackathon educação - Startup Pará: https://startuppara.com.br/tag/hackathon-educacao
+- Edital de Chamada Pública para Startups N° 01/2026 | Startup Piauí: https://startuppiaui.com/edital-startup/edital-de-chamada-publica-para-startups-n-01-2026
 - Startup Portugal: https://startupportugal.com/
 - Scale Up Now - Startup Portugal: https://startupportugal.com/pt/programs/scale-up-now
 - Startup Inception | AWS Startups: https://startups.aws.com/programs/startup-inception
@@ -1284,6 +1291,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Unicamp: https://tavily.com/knowledge/company/kMeMwJl2E6r9
 - Artemisia: https://tavily.com/knowledge/company/mM2VBa0fnQFN
 - ACATE: https://tavily.com/knowledge/company/nI1nEfyM9STn
+- Bradesco: https://tavily.com/knowledge/company/oMDg5ANhvY5g
 - BNDES: https://tavily.com/knowledge/company/p1CIu11fovVk
 - Senai: https://tavily.com/knowledge/company/p8c3DRzAOQZo
 - Instituto Caldeira: https://tavily.com/knowledge/company/pEdY9s3VY1dZ
@@ -1295,7 +1303,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Cide incubadora abre seleção para startups em Manaus: https://techamazonia.com/cide-incubadora-abre-selecao-para-startups-em-manaus
 - TechCrunch | Startup and Technology News: https://techcrunch.com/
 - Startups | TechCrunch: https://techcrunch.com/category/startups
-- Seja um Startup residente: https://techparkpiaui.com/
+- Tech Park Piauí: https://techparkpiaui.com/
 - Startups - Tech Startups: https://techstartups.com/category/startups
 - Tecnopuc: https://tecnopuc.pucrs.br/
 - The Gap in Between: https://thegapinbetween.com/startup-challenge
@@ -1504,6 +1512,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Manufacturing 2026: https://www.deeptechalliance.org/manufacturing-2026
 - Novos editais para startups e inovação no setor público ...: https://www.diariodepernambuco.com.br/economia/2026/10/11725459-novos-editais-para-startups-e-inovacao-no-setor-publico-oferecem-rs-45-milhoes-em-pernambuco.html
 - MS lança AgroValley para acelerar startups e tecnologias do agro - Geral - Diário Digital: https://www.diariodigital.com.br/geral/ms-lanca-agrovalley-para-acelerar-startups-e-tecnologias-do-agro
+- SENAI e instituto alemão BIBB renovam acordo de cooperação e definem novas áreas de atuação — Diplomacia Business: https://www.diplomaciabusiness.com/noticia/senai-e-instituto-alemao-bibb-renovam-acordo-de-cooperacao-e-definem-novas-areas-de-atuacao
 - Distrito: Enterprise AI de Ponta a Ponta: https://www.distrito.me/
 - Como funciona uma aceleradora de startups no Brasil?: https://www.distrito.me/blog/aceleradora-de-startups-no-brasil
 - Google for Startups Accelerator Brasil: conheça as 11 startups da 13ª edição: https://www.distrito.me/blog/google-for-startups-accelerator-brasil-startups-ia
@@ -1574,6 +1583,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Finep Mais Inovação Brasil - Rodada 2 - Subvenção Econômica Regional - Finep: https://www.finep.gov.br/chamadas-publicas/chamadapublica/776
 - Programa Nacional de Incubadoras Tecnológicas de Cooperativas Populares (Proninc) / 2026 - Finep: https://www.finep.gov.br/en/l/1057230
 - Oportunidades - Finep: https://www.finep.gov.br/en/oportunidades
+- Programa Desafio Finep + ABDI vai destinar R$ 1,5 milhão em Subvenção Econômica para empresas nascentes e startups: https://www.finep.gov.br/noticias/todas-noticias/6486-programa-desafio-finep-abdi-vai-destinar-r-1-5-milhao-de-subvencao-economica-para-empresas-nascentes-e-startups
 - Começou na terça (02/06) a etapa de aceleração do edital Mulheres Inovadoras - Finep: https://www.finep.gov.br/w/6148-comeca-na-terca-02-06-a-etapa-de-aceleracao-do-ddital-mulheres-inovadoras
 - Startup Programs - Finnosummit: https://www.finnosummit.com/que-hacemos/startup-programs
 - Governo de Pernambuco lança edital para levar startups à Espanha em missão internacional de inovação - Folha PE: https://www.folhape.com.br/economia/governo-de-pernambuco-lanca-edital-para-levar-startups-a-espanha-em/498001
@@ -1731,6 +1741,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Confira as oportunidades e os editais voltados à inovação ...: https://www.instagram.com/p/Da6Q6dFx7mB
 - Instagram: https://www.instagram.com/p/DaLrN0ogQRD
 - Instagram: https://www.instagram.com/p/DaTUlrnGq6w
+- Instagram: https://www.instagram.com/p/DaVCYNIkieW
 - Instagram: https://www.instagram.com/p/DaVM8nSHILj
 - Instagram: https://www.instagram.com/p/DadzidtgaGf
 - Instagram: https://www.instagram.com/p/Daf6bVDkcA-
@@ -1751,7 +1762,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/p/DbIsuWSRESs
 - Não deixe para a última hora! 🔥🔥🔥: https://www.instagram.com/p/DbTrPc1iVUv
 - Instagram: https://www.instagram.com/p/DbVkzHOJzx1
-- Artemisia on Instagram: "[Edição Internacional] Programa de preparação para empreendedores(as) de impacto, agora para toda a América Latina! 🌎  Realizado pela @venturespotencia em parceria com a Artemisia, o Potencia UP oferece uma jornada 100% online e gratuita para preparar empreendedores(as) de impacto que estejam em busca de investimentos.  Depois de duas edições bem-sucedidas no Brasil, com +200 negócios voltados à educação e futuro do trabalho capacitados, o programa passa a apoiar soluções em países da América Latina de língua espanhola.  A expansão parte do reconhecimento de que a região compartilha desafios educacionais similares e reúne empreendedores talentosos, com soluções inovadoras que podem se beneficiar de uma preparação estruturada para investimento.  Confira a matéria na Folha de S.Paulo e o site oficial do programa [Links na bio] 🔗  #ImpactoSocial #InvestimentoDeImpacto #Educação #FuturoDoTrabalho #AmericaLatina": https://www.instagram.com/p/DbYr7rfFEpA
+- Instagram: https://www.instagram.com/p/DbYr7rfFEpA
 - Instagram: https://www.instagram.com/p/Dba38pzEoiA
 - Instagram: https://www.instagram.com/p/Dbd1ZLVydUs
 - Instagram: https://www.instagram.com/p/DbeJRo7lK_R
@@ -1851,6 +1862,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DUSqgcwDSLl
 - Instagram: https://www.instagram.com/reel/DUa7hM5jchH
 - Instagram: https://www.instagram.com/reel/DV1NdBukiRJ
+- Instagram: https://www.instagram.com/reel/DVeRBMOiLp4?hl=en
 - Instagram: https://www.instagram.com/reel/DVjqULZkSdt
 - Instagram: https://www.instagram.com/reel/DVlrjewjj7u
 - Instagram: https://www.instagram.com/reel/DVlz_0gFEkz
@@ -1880,6 +1892,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/DYFjH1_xbyl
 - Instagram: https://www.instagram.com/reel/DYSFapIRwyg
 - Instagram: https://www.instagram.com/reel/DYSHYp9O5Ze
+- Instagram: https://www.instagram.com/reel/DYZoP-tvFxB
 - Instagram: https://www.instagram.com/reel/DYiro-6x9cx
 - Instagram: https://www.instagram.com/reel/DYnJ5Q4R0BX
 - Instagram: https://www.instagram.com/reel/DYnk994iGSo
@@ -1926,6 +1939,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Instagram: https://www.instagram.com/reel/Ddrl1uvtHl9
 - Instagram: https://www.instagram.com/reel/De9EoIzjd7x
 - Instagram: https://www.instagram.com/reel/DeHaS6PEmJH
+- Instagram: https://www.instagram.com/reel/DeKowxqOaYo
 - Diálogo Aberto on Instagram: "Rodada de negócios cria oportunidades de investimento para startups no Siará Tech Summit   A rodada de negócios do Siará Tech Summit (STS) coloca startups frente a frente com investidores em busca de empresas inovadoras e com potencial de crescimento. A iniciativa reúne 12 investidores para conhecer soluções desenvolvidas por empreendedores, criando oportunidades para apresentação de produtos, validação de modelos de negócio e aproximação com possíveis parceiros estratégicos.   Durante os encontros, as startups têm a oportunidade de mostrar seus diferenciais, apresentar resultados e discutir possibilidades de investimento que podem impulsionar sua expansão. O contato direto com investidores também permite ampliar a rede de relacionamentos, abrir portas para futuras negociações e aumentar a visibilidade das empresas junto ao mercado.   A expectativa é que as conexões estabelecidas durante o evento contribuam para fortalecer o ambiente de inovação no Ceará. Nesse contato direito entre investidores e empreendedores, a rodada de negócios estimula a geração de oportunidades, favorece o crescimento de empresas de base tecnológica e amplia as chances de novos investimentos em soluções desenvolvidas no estado. @sebrae    Acesse @sebraece e confira tudo sobre o Siará Tech Summit 2026.   #SebraeCE": https://www.instagram.com/reel/DeWhQSJJLqr
 - Instagram: https://www.instagram.com/reel/DeXi4Q5xowg
 - Instagram: https://www.instagram.com/reel/DehD22fRY9u
@@ -1962,7 +1976,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Nossos Programas | Join.Valle: https://www.joinvalle.com.br/nossosprogramas
 - Negócios: Cotações, Mercados, Economia, Empresas: https://www.jornaldenegocios.pt/
 - Youth StartUp Challenge 2026: Desafío de Emprendimiento Juvenil: https://www.jovenmania.com/comunes/noticia/38262?h=no
-- Abstartups: https://www.linkedin.com/company/abstartups
+- Abstartups - LinkedIn: https://www.linkedin.com/company/abstartups
 - ACE Ventures: https://www.linkedin.com/company/aceventuresbr
 - Darwin Startups: https://www.linkedin.com/company/darwinstartups
 - FIEMG Lab: https://www.linkedin.com/company/fiemglab
@@ -1977,6 +1991,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - My dear network. This will be an opportunity to check in on what will be the amazing mission on Portugal real ecosystem during websummit with Fabrica de Startups that helped to build it. We’ll be… | Egon Barbosa: https://www.linkedin.com/posts/egonbarbosa_my-dear-network-this-will-be-an-opportunity-activity-7113608355159420928-9mAL
 - Fomos mencionados no artigo do portal Fintech Energy como: 'Sao Paulo’s 101 Fastest Growing FinTech Startups'. A nossa missão é oferecer soluções financeiras inovadoras de forma ágil, prática e… | Ewally: https://www.linkedin.com/posts/ewallyapp_sao-paulos-101-fastest-growing-fintech-startups-activity-6959876479291674624-lool
 - #openinnovation #gerdauopeninova #startups #research #industrialtransformation #steelindustry #pit #gerdau | Global Startups: https://www.linkedin.com/posts/globalstartupsa_openinnovation-gerdauopeninova-startups-activity-7312466954676576256-8u4l
+- Brazil's Inovabra Shifts from Innovation Hubs to AI-Driven Networks | LATAM Tech Forum posted on the topic | LinkedIn: https://www.linkedin.com/posts/latamtechforum_inovabra-hub-do-bradesco-inova-com-modelo-activity-7508211991803551744-98a_
 - 26/03 - Oportunidades para startups!: https://www.linkedin.com/pulse/2603-oportunidades-para-startups-gustavo-vannucchi-ungari-rpvmf
 - Por que colocar sua startup em uma aceleradora?: https://www.linkedin.com/pulse/por-que-colocar-sua-startup-em-uma-aceleradora-wowaceleradora-fyz7f
 - Pulsar Incubadora Tecnológica divulga resultado final do edital de incubação: https://www.linkedin.com/pulse/pulsar-incubadora-tecnol%C3%B3gica-divulga-resultado-final-do-ijpke
@@ -2021,6 +2036,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - 100 Open Startups - Programa Executivo de Capacitação em Open Innovation com Startups: https://www.openstartups.net/events/opencorps/executivos
 - Desafios - 100 Open Startups: https://www.openstartups.net/site/desafios.html
 - 100 Open Startups - Desafio Educação do Futuro: https://www.opentechs.net/br-pt/challenges/futureeducation
+- 100 Open Startups - Desafio Cidades Inovadoras: https://www.opentechs.net/br-pt/challenges/innovativecities
 - 100 Open Startups - Desafio Pequenas Empresas: https://www.opentechs.net/br-pt/challenges/smallbusiness
 - 100 Open Startups - Desafio Esporte: https://www.opentechs.net/br-pt/challenges/sport
 - CUA’s Startup Challenge nurtures young Catholic entrepreneurs: https://www.oursundayvisitor.com/cuas-startup-venture-challenge-forms-young-catholic-entrepreneurs
@@ -2037,6 +2053,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Categorias - Portal da Indústria: https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/empreendedorismo-industrial-startuptech
 - O que é inovação? Definição, importância e as ações que têm impulsionado a inovação no Brasil - Portal da Indústria: https://www.portaldaindustria.com.br/industria-de-a-z/inovacao
 - Governo de Pernambuco e Porto Digital abrem inscrições para programas de fomento ao empreendedorismo e internacionalização - Porto Digital: https://www.portodigital.org/noticias/governo-de-pernambuco-e-porto-digital-abrem-inscricoes-para-programas-de-fomento-ao-empreendedorismo-e-internacionalizacao
+- InovaBRA — How to Apply, Focus & Funding | ProDevs Directory: https://www.prodevs.io/accelerators/inovabra
 - ProgRama Remanufactured Electronic Control Modules 2-3 YEAR warranty: https://www.programainc.com/default.aspx
 - Como o Inova Maranhão quer fazer o estado se tornar um polo de empreendedorismo e inovação: https://www.projetodraft.com/como-o-inova-maranhao-ajuda-o-estado-a-despontar-como-um-novo-polo-de-empreendedorismo-e-inovacao
 - Programa de conexão com startups da Moove está com inscrições abertas até 13 de julho: https://www.projetodraft.com/programa-da-moove-tem-inscricoes-abertas-ate-13-de-julho
@@ -2103,6 +2120,7 @@ São candidatos: inscrições e elegibilidade ainda precisam de confirmação.
 - Portal SESI: https://www.sesibahia.com.br/detalhes-noticia?id=8283
 - Maior Programa de Pré-aceleração de Startups do Mato Grosso Abre Inscrições - Sesi MT - Serviço Social da Indústria: https://www.sesimt.ind.br/noticias/1077/maior-programa-de-pre-aceleracao-de-startups-do-mato-grosso-abre-inscricoes
 - Programa de Propriedade Intelectual com Foco no Mercado (Prime) | Secretaria da Ciência, Tecnologia e Ensino Superior: https://www.seti.pr.gov.br/Programa-de-Propriedade-Intelectual-com-Foco-no-Mercado-Prime
+- Secretaria de Inovação, Ciência e Tecnologia do Rio ...: https://www.sict.rs.gov.br/upload/arquivos/202212/06132015-avancar-da-inovacao-final.pdf
 - Snowflake Startup Challenge: https://www.snowflake.com/en/startup-challenge
 - Ciência, Tecnologia e Inovação: https://www.sp.gov.br/sp/institucional/estrutura/secretarias/ciencia-tecnologia-inovacao
 - Programa | Spanish to English Translation - SpanishDictionary.com: https://www.spanishdict.com/translate/programa
