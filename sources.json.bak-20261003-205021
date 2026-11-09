@@ -1,0 +1,359 @@
+{
+  "fontes": [
+    {
+      "nome": "Catálogo de oportunidades — Sebrae Startups",
+      "url": "https://programas.sebraestartups.com.br/index/programas",
+      "tipo": "listagem",
+      "max_links": 100,
+      "caminho_oportunidade": "/in/"
+    },
+    {
+      "nome": "WOW Aceleradora",
+      "url": "https://www.wow.ac/inscricao",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Darwin Startups",
+      "url": "https://www.darwinstartups.com/startups",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Venture Hub",
+      "url": "https://venturehub.se/startups/",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "ACE Ventures IA",
+      "url": "https://aceventures.com.br/trilha-ai-ace/",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Tecnosinos Unitec",
+      "url": "https://www.tecnosinos.com.br/programa-de-incubacao/",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Google for Startups Brasil",
+      "url": "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Founder Institute Minas Gerais",
+      "url": "https://fi.co/apply/belo",
+      "tipo": "listagem",
+      "max_links": 3
+    },
+    {
+      "nome": "Sebrae Startups — Mercopar 2026 (manifestação de interesse)",
+      "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
+      "tipo": "pagina"
+    }
+  ],
+  "programas": [
+    {
+      "nome": "Inova Startups",
+      "dominios": [
+        "inovastartups.com.br"
+      ]
+    },
+    {
+      "nome": "Startup Ceará",
+      "dominios": [
+        "sebrae.com.br",
+        "funcap.ce.gov.br"
+      ]
+    },
+    {
+      "nome": "Programa Nascer",
+      "dominios": [
+        "fapesc.sc.gov.br"
+      ]
+    },
+    {
+      "nome": "FINEP",
+      "busca": "Finep chamadas públicas subvenção econômica startups",
+      "dominios": [
+        "finep.gov.br"
+      ]
+    },
+    {
+      "nome": "Programa Centelha",
+      "busca": "Programa Centelha edital estadual",
+      "dominios": [
+        "programacentelha.com.br",
+        "finep.gov.br",
+        "fapesc.sc.gov.br",
+        "faperj.br"
+      ]
+    },
+    {
+      "nome": "Programa Garagem",
+      "dominios": [
+        "garagem.bndes.gov.br",
+        "bndes.gov.br"
+      ]
+    },
+    {
+      "nome": "FIP Conexões Startups (BNDES)",
+      "url": "http://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/chamadas-publicas-para-selecao-de-fundos/fip-conexoes-startups-2026"
+    },
+    {
+      "nome": "Programa Santander USP de Inovação e Empreendedorismo",
+      "busca": "Santander USP Inovação e Empreendedorismo Criação de Startups edital",
+      "dominios": [
+        "usp.br",
+        "santander.com.br",
+        "santanderuniversidades.com.br"
+      ]
+    },
+    {
+      "nome": "Petrobras Conexões para Inovação",
+      "busca": "Petrobras Conexões para Inovação startups edital",
+      "dominios": [
+        "petrobras.com.br"
+      ]
+    },
+    {
+      "nome": "SAA Aquário",
+      "ativo": false,
+      "busca": "SAA Aquário startups programa chamada"
+    }
+  ],
+  "busca_aberta": {
+    "por_execucao": 10,
+    "resultados": 10,
+    "consultas": [
+      "aceleradora startups inscrições abertas Brasil {ano}",
+      "programa aceleração startups candidaturas abertas Brasil {ano}",
+      "incubadora startups fluxo contínuo inscrições abertas Brasil",
+      "startup challenge inovação aberta inscrições abertas Brasil {ano}",
+      "seleção investimento startups candidaturas abertas Brasil {ano}",
+      "pré inscrições aceleradora startup Brasil {ano}",
+      "aceleradora startups inscrições abertas Nordeste {ano}",
+      "aceleradora startups inscrições abertas Norte {ano}",
+      "aceleradora startups inscrições abertas Centro Oeste {ano}",
+      "edital startups inscrições abertas {ano}",
+      "chamada pública subvenção econômica inovação startups {ano}",
+      "edital pré-incubação ideias inovadoras {ano}",
+      "chamamento público aceleração de startups {ano}",
+      "edital fomento inovação fundação de amparo à pesquisa startups {ano}",
+      "programa de aceleração startups inscrições abertas {ano}",
+      "edital incubadora vagas startups {ano}",
+      "desafio inovação aberta startups edital {ano}",
+      "edital Sebrae startups inovação {ano}",
+      "edital prêmio startups impacto social {ano}",
+      "edital crédito financiamento inovação startups {ano}",
+      "programa nacional startups edital governo federal {ano}",
+      "edital deeptech agritech healthtech startups {ano}",
+      "edital startups Minas Gerais {ano} inscrições",
+      "edital startups São Paulo {ano} inscrições",
+      "edital startups Rio de Janeiro {ano} inscrições",
+      "edital startups Paraná {ano} inscrições",
+      "edital startups Rio Grande do Sul {ano} inscrições",
+      "edital startups Santa Catarina {ano} inscrições",
+      "edital startups Bahia {ano} inscrições",
+      "edital startups Pernambuco {ano} inscrições",
+      "edital startups Ceará {ano} inscrições",
+      "edital startups Goiás {ano} inscrições",
+      "edital startups Distrito Federal {ano} inscrições",
+      "edital startups Espírito Santo {ano} inscrições"
+    ],
+    "links_por_resultado": 3
+  },
+  "descoberta": {
+    "consultas": [
+      "aceleradora startups seleção oportunidades Brasil {ano}",
+      "programa aceleração startups seleção oportunidades Brasil {ano}",
+      "incubadora startups fluxo contínuo seleção oportunidades Brasil",
+      "startup challenge inovação aberta seleção oportunidades Brasil {ano}",
+      "seleção investimento startups seleção oportunidades Brasil {ano}",
+      "programa aceleradora startup Brasil {ano}",
+      "aceleradora startups seleção oportunidades Nordeste {ano}",
+      "aceleradora startups seleção oportunidades Norte {ano}",
+      "aceleradora startups seleção oportunidades Centro Oeste {ano}",
+      "edital startups seleção oportunidades {ano}",
+      "chamada pública subvenção econômica inovação startups {ano}",
+      "edital pré-incubação ideias inovadoras {ano}",
+      "chamamento público aceleração de startups {ano}",
+      "edital fomento inovação fundação de amparo à pesquisa startups {ano}",
+      "programa de aceleração startups seleção oportunidades {ano}",
+      "edital incubadora vagas startups {ano}",
+      "desafio inovação aberta startups edital {ano}",
+      "edital Sebrae startups inovação {ano}",
+      "edital prêmio startups impacto social {ano}",
+      "edital crédito financiamento inovação startups {ano}",
+      "programa nacional startups edital governo federal {ano}",
+      "edital deeptech agritech healthtech startups {ano}",
+      "edital startups Minas Gerais {ano} inscrições",
+      "edital startups São Paulo {ano} inscrições",
+      "edital startups Rio de Janeiro {ano} inscrições",
+      "edital startups Paraná {ano} inscrições",
+      "edital startups Rio Grande do Sul {ano} inscrições",
+      "edital startups Santa Catarina {ano} inscrições",
+      "edital startups Bahia {ano} inscrições",
+      "edital startups Pernambuco {ano} inscrições",
+      "edital startups Ceará {ano} inscrições",
+      "edital startups Goiás {ano} inscrições",
+      "edital startups Distrito Federal {ano} inscrições",
+      "edital startups Espírito Santo {ano} inscrições",
+      "\"InovAtiva\" startups inscrição seleção aceleração {ano}",
+      "\"BNDES Garagem\" startups inscrição seleção aceleração {ano}",
+      "\"BRDE Labs\" startups inscrição seleção aceleração {ano}",
+      "\"FIEMG Lab\" startups inscrição seleção aceleração {ano}",
+      "\"Hotmilk\" startups inscrição seleção aceleração {ano}",
+      "\"Natura\" startups inscrição seleção aceleração {ano}",
+      "\"Equatorial\" startups inscrição seleção aceleração {ano}",
+      "\"Sebrae Startups\" startups inscrição seleção aceleração {ano}",
+      "\"Inova Unicamp\" startups inscrição seleção aceleração {ano}",
+      "\"USP inovação\" startups inscrição seleção aceleração {ano}",
+      "\"Inatel\" startups inscrição seleção aceleração {ano}",
+      "\"Biominas\" startups inscrição seleção aceleração {ano}",
+      "\"Porto Digital\" startups inscrição seleção aceleração {ano}",
+      "\"Parque Tecnológico São José dos Campos\" startups inscrição seleção aceleração {ano}",
+      "\"Startup Rio\" startups inscrição seleção aceleração {ano}",
+      "\"FAPESP\" startups inscrição seleção aceleração {ano}",
+      "\"FAPEMIG\" startups inscrição seleção aceleração {ano}",
+      "\"FAPESC\" startups inscrição seleção aceleração {ano}",
+      "\"FAPERJ\" startups inscrição seleção aceleração {ano}",
+      "\"FAPEAM\" startups inscrição seleção aceleração {ano}",
+      "\"FAPDF\" startups inscrição seleção aceleração {ano}",
+      "\"Fundação Araucária\" startups inscrição seleção aceleração {ano}",
+      "\"Citz Tech\" startups inscrição seleção aceleração {ano}",
+      "\"Baita aceleradora\" startups inscrição seleção aceleração {ano}",
+      "\"ACE Ventures\" startups inscrição seleção aceleração {ano}",
+      "\"Darwin Startups\" startups inscrição seleção aceleração {ano}",
+      "\"VentureHub\" startups inscrição seleção aceleração {ano}",
+      "\"Tecnosinos\" startups inscrição seleção aceleração {ano}",
+      "\"WOW aceleradora\" startups inscrição seleção aceleração {ano}",
+      "\"Founder Institute Brasil\" startups inscrição seleção aceleração {ano}",
+      "site:programas.sebraestartups.com.br/in startups {ano}",
+      "startups manifestação de interesse feira missão empresarial {ano}",
+      "startups rodada de negócios exposição evento seleção {ano}",
+      "site:programas.sebraestartups.com.br/in/ \"inscrições\" {ano}",
+      "site:programas.sebraestartups.com.br/in/ \"manifestação de interesse\" {ano}",
+      "site:programas.sebraestartups.com.br/in/ \"missão\" {ano}",
+      "site:programas.sebraestartups.com.br/in/ \"rodada\" {ano}",
+      "site:startupbrasil.org.br startups programas chamadas oportunidades",
+      "site:startupbrasil.org.br aceleradoras edital",
+      "site:startups.com.br startups inscrições programa aceleração",
+      "site:startups.com.br startups desafio seleção missão oportunidades",
+      "site:linkedin.com/posts startups chamada programa aceleração Brasil",
+      "site:linkedin.com/posts startups missão feira manifestação interesse Brasil",
+      "site:linkedin.com/pulse startups incubação seleção programa Brasil",
+      "site:randoncorp.com startups inovação aberta desafios programas",
+      "\"Randoncorp\" startups seleção parceria programa",
+      "empresas inovação aberta desafios startups Brasil",
+      "startups oportunidades incubação aceleração inovação \"Acre\"",
+      "startups oportunidades incubação aceleração inovação \"Alagoas\"",
+      "startups oportunidades incubação aceleração inovação \"Amapá\"",
+      "startups oportunidades incubação aceleração inovação \"Amazonas\"",
+      "startups oportunidades incubação aceleração inovação \"Bahia\"",
+      "startups oportunidades incubação aceleração inovação \"Ceará\"",
+      "startups oportunidades incubação aceleração inovação \"Distrito Federal\"",
+      "startups oportunidades incubação aceleração inovação \"Espírito Santo\"",
+      "startups oportunidades incubação aceleração inovação \"Goiás\"",
+      "startups oportunidades incubação aceleração inovação \"Maranhão\"",
+      "startups oportunidades incubação aceleração inovação \"Mato Grosso\"",
+      "startups oportunidades incubação aceleração inovação \"Mato Grosso do Sul\"",
+      "startups oportunidades incubação aceleração inovação \"Minas Gerais\"",
+      "startups oportunidades incubação aceleração inovação \"Pará\"",
+      "startups oportunidades incubação aceleração inovação \"Paraíba\"",
+      "startups oportunidades incubação aceleração inovação \"Paraná\"",
+      "startups oportunidades incubação aceleração inovação \"Pernambuco\"",
+      "startups oportunidades incubação aceleração inovação \"Piauí\"",
+      "startups oportunidades incubação aceleração inovação \"Rio de Janeiro\"",
+      "startups oportunidades incubação aceleração inovação \"Rio Grande do Norte\"",
+      "startups oportunidades incubação aceleração inovação \"Rio Grande do Sul\"",
+      "startups oportunidades incubação aceleração inovação \"Rondônia\"",
+      "startups oportunidades incubação aceleração inovação \"Roraima\"",
+      "startups oportunidades incubação aceleração inovação \"Santa Catarina\"",
+      "startups oportunidades incubação aceleração inovação \"São Paulo\"",
+      "startups oportunidades incubação aceleração inovação \"Sergipe\"",
+      "startups oportunidades incubação aceleração inovação \"Tocantins\"",
+      "\"ABDI\" startups oportunidades programa chamada desafio",
+      "\"Anprotec\" startups oportunidades programa chamada desafio",
+      "\"ABStartups\" startups oportunidades programa chamada desafio",
+      "\"Embrapii\" startups oportunidades programa chamada desafio",
+      "\"Senai\" startups oportunidades programa chamada desafio",
+      "\"Senac\" startups oportunidades programa chamada desafio",
+      "\"Softex\" startups oportunidades programa chamada desafio",
+      "\"Artemisia\" startups oportunidades programa chamada desafio",
+      "\"Fundação Lemann\" startups oportunidades programa chamada desafio",
+      "\"Startup Católica\" startups oportunidades programa chamada desafio",
+      "\"OITO Rio de Janeiro\" startups oportunidades programa chamada desafio",
+      "\"Google for Startups Brasil\" startups oportunidades programa chamada desafio",
+      "\"inovabra Bradesco\" startups oportunidades programa chamada desafio",
+      "\"Petrobras\" startups oportunidades programa chamada desafio",
+      "\"Vale\" startups oportunidades programa chamada desafio",
+      "\"Gerdau\" startups oportunidades programa chamada desafio",
+      "\"Weg\" startups oportunidades programa chamada desafio",
+      "\"Suzano\" startups oportunidades programa chamada desafio",
+      "\"Embraer\" startups oportunidades programa chamada desafio",
+      "\"Itaú Cubo\" startups oportunidades programa chamada desafio",
+      "\"Porto Digital\" startups oportunidades programa chamada desafio",
+      "\"Instituto Caldeira\" startups oportunidades programa chamada desafio",
+      "\"ACATE\" startups oportunidades programa chamada desafio",
+      "\"Sapiens Parque\" startups oportunidades programa chamada desafio",
+      "\"Tecnopuc\" startups oportunidades programa chamada desafio",
+      "\"Fundação CERTI\" startups oportunidades programa chamada desafio",
+      "\"InovAtiva\" startups oportunidades programa chamada desafio",
+      "\"BNDES Garagem\" startups oportunidades programa chamada desafio",
+      "startups programa internacional aceita brasileiras aceleração",
+      "startups programas gratuitos capacitação mentoria Brasil",
+      "startups missão empresarial feira exposição rodada negócios Brasil",
+      "startups bolsas benefícios créditos nuvem programas Brasil",
+      "site:gestaoclick.com.br/blog oportunidades startup",
+      "\"Conexão Startup Indústria\" programa startups"
+    ],
+    "urls": [
+      {
+        "url": "https://programas.sebraestartups.com.br/in/1783963246760x826977266273542100",
+        "titulo": "Startups do RS e demais estados na Mercopar 2026 (Manifestação de interesse)",
+        "resumo": "Indicado pelo usuário; elegibilidade e vigência aguardam verificação."
+      },
+      {
+        "url": "https://programas.sebraestartups.com.br/index/programas",
+        "titulo": "Catálogo de programas Sebrae Startups",
+        "resumo": "Catálogo para localizar páginas individuais /in/; não é uma oportunidade individual."
+      },
+      {
+        "url": "https://www.startupbrasil.org.br/",
+        "titulo": "Startup Brasil — fonte de descoberta",
+        "resumo": "Portal indicado; acesso direto retornou 403. Buscar páginas públicas indexadas."
+      },
+      {
+        "url": "https://startups.com.br/",
+        "titulo": "Startups.com.br — notícias como pistas de oportunidades",
+        "resumo": "Portal de notícias; localizar chamadas concretas, sem considerar toda notícia uma oportunidade."
+      },
+      {
+        "url": "https://www.randoncorp.com/pt/",
+        "titulo": "Randoncorp — descoberta de inovação corporativa",
+        "resumo": "Fonte institucional para encontrar programas e chamadas; não é uma oportunidade individual."
+      },
+      {
+        "url": "https://www.darwinstartups.com/icmlab",
+        "titulo": "ICM Lab Solana — Darwin Startups",
+        "resumo": "Página oficial com cadastros informados de 14 de setembro a 11 de outubro de 2026; validar público e modalidade antes de publicar."
+      },
+      {
+        "url": "https://gestaoclick.com.br/blog/novas-oportunidades-para-startup/",
+        "titulo": "GestãoClick — lista de iniciativas para startups",
+        "resumo": "Artigo com referências históricas; usar para descobrir instituições e programas, sem inferir vigência."
+      }
+    ],
+    "referencias_nao_lidas": [
+      {
+        "url": "https://drive.google.com/file/d/15VHwufDdlGkDwHoi9FeRKNtNvASRe0l4/view",
+        "motivo": "Conteúdo não acessível pelo leitor; não utilizado para inferir oportunidades."
+      }
+    ],
+    "objetivo": "Somente descoberta: candidatos e fontes, sem filtro ou afirmação de vigência."
+  }
+}
