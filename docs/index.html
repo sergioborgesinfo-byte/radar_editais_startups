@@ -242,5 +242,17 @@ document.addEventListener("visibilitychange",function(){if(!document.hidden)rend
             });
     });
   </script>
+
+  <script id="esconder_descobertas_js">
+    document.addEventListener("DOMContentLoaded", function() {
+        // Esconde o botão "Acompanhar descobertas" para não confundir o usuário final
+        var botoes = document.querySelectorAll('a, button');
+        for (var i = 0; i < botoes.length; i++) {
+            if (botoes[i].innerText.includes('Acompanhar descobertas') || botoes[i].innerText.includes('Acompanhar Descobertas')) {
+                botoes[i].style.display = 'none';
+            }
+        }
+    });
+  </script>
 </body>
 </html>
