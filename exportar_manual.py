@@ -3,6 +3,15 @@ import json
 import os
 from datetime import datetime, timedelta
 
+
+def ano_antigo_detectado(e):
+    texto_completo = f"{e.get('titulo','')} {e.get('url','')} {e.get('descricao','')} {e.get('requisitos','')} {e.get('trecho_prazo','')}".lower()
+    anos_antigos = ['2020', '2021', '2022', '2023', '2024', '2025']
+    for ano in anos_antigos:
+        if ano in texto_completo:
+            return True
+    return False
+
 def exportar():
     print("Lendo banco e formatando para o frontend...")
     conn = sqlite3.connect('radar.db')
@@ -19,6 +28,8 @@ def exportar():
     validade_iso = (hoje + timedelta(days=365)).strftime('%Y-%m-%dT%H:%M:%S.000Z')
     
     for e in rows:
+        if ano_antigo_detectado(dict(e)):
+            continue
         prazo_iso = None
         sem_data_final = True
         

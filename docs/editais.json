@@ -1,65 +1,5 @@
 [
  {
-  "t": "EDITAL PÚBLICO PARA PARTICIPAÇÃO NO ESPAÇO SEBRAE NO EVENTO AUTOP 2026",
-  "o": "Serviço de Apoio às Micro e Pequenas Empresas do Estado do Ceará - SEBRAE/CE",
-  "tipo": "Incubação",
-  "est": "Tração",
-  "v": 0,
-  "prazo": "2026-08-11",
-  "desc": "Seleção de 06 startups para exposição de soluções no Espaço Sebrae STARTAUTOP durante a 19ª AUTOP – Feira Nacional de Autopeças.",
-  "link": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/EDITAL%20AUTOP%202026.pdf",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Possuir CNPJ ativo; enquadrar-se como MEI, ME, EPP ou Startup inovadora; possuir produto ou serviço disponível para demonstração; possuir MVP validado ou solução comercializada; possuir atuação compatível com os segmentos da AUTOP.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2026-08-11T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "EDITAL PÚBLICO PARA PARTICIPAÇÃO NA MISSÃO TÉCNICA PARA O EVENTO NEON 2026",
-  "o": "SEBRAE/CE",
-  "tipo": "Outro",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": "2026-05-22",
-  "desc": "Seleção de até 10 empreendedores de startups do Ceará para participação na Missão Técnica para o evento NEON Alagoas 2026, com cobertura de passagens aéreas e credencial.",
-  "link": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/EDITAL%20NEON%202026.pdf",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Empreendedor vinculado a startup situada no Ceará, participante de pelo menos um programa de inovação do SEBRAE/CE, adimplente com o SEBRAE/CE e faturamento anual de até R$ 4.800.000,00.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2026-05-22T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará",
-  "o": "SEBRAE/CE e FUNCAP",
-  "tipo": "Aceleração",
-  "est": "Tração",
-  "v": 18000.0,
-  "prazo": "2026-08-14",
-  "desc": "Seleção de startups formalizadas no Ceará para aceleração e concessão de até 60 Bolsas de Inovação Tecnológica (BIT) no valor de R$ 3.000,00 cada.",
-  "link": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Startups já formalizadas (CNPJ ativo) sediadas no Ceará, com pelo menos um representante maior de idade, com disponibilidade e autonomia para participar do programa de aceleração.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2026-08-14T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
   "t": "EDITAL SEBRAE/CE E FUNCAP N.º 10/2026 - ADENDO Nº 01/2026",
   "o": "Funcap e Sebrae/CE",
   "tipo": "Aceleração",
@@ -77,7 +17,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-08-17T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "PROGRAMA NASCER DE PRÉ-INCUBAÇÃO DE IDEIAS INOVADORAS VI EDIÇÃO SUPER PITCH DAY",
@@ -97,7 +37,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-03-13T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital de Chamada Pública Fapesc N.º 24/2026 Programa Nascer de Pré-Incubação de Ideias Inovadoras para o Ecossistema Catarinense de Inovação — VII Edição",
@@ -117,7 +57,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-06-15T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa Nascer – Edição 7 (2026)",
@@ -137,7 +77,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital de Subvenção da Fapesc - Super Pitch Day VI Edição",
@@ -157,7 +97,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-03-13T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Chamada Pública PRONINC 2026",
@@ -177,7 +117,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2027-01-14T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "FINEP Amazônia - Bioeconomia e Desenvolvimento Regional (Subvenção Econômica em Fluxo Contínuo)",
@@ -197,7 +137,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "EDITAL N.º 12/2026 PROGRAMA NACIONAL DE APOIO À GERAÇÃO DE EMPREENDIMENTOS INOVADORES PROGRAMA CENTELHA 3 – SC",
@@ -217,7 +157,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-05-04T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "EDITAL N.º 012/2026 - PROGRAMA CENTELHA 3 – SC",
@@ -237,47 +177,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Edital BNDES Garagem – Negócios de Impacto 2025 - Criação",
-  "o": "BNDES / BNDESPAR / Quintessa",
-  "tipo": "Aceleração",
-  "est": "Ideação e MVP",
-  "v": 85000.0,
-  "prazo": null,
-  "desc": "Programa de aceleração para empreendedores e startups em estágio inicial voltadas para a geração de impacto socioambiental.",
-  "link": "https://garagem.bndes.gov.br/wp-content/uploads/2025/08/Edital-Negocios-de-Impacto-2025-CRIACAO-Ciclo-2-_-BNDES-Garagem.pdf",
-  "n": 1,
-  "r": 0,
-  "revisar": 1,
-  "status": "aberto",
-  "requisitos": "Negócios de impacto socioambiental, sede no Brasil (quando constituída), maioridade dos representantes, potencial de testar um MVP durante o programa e preenchimento completo do formulário.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": true,
-  "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Edital BNDES Garagem – Negócios de Impacto 2025 - Tração",
-  "o": "BNDES / Quintessa",
-  "tipo": "Aceleração",
-  "est": "Tração",
-  "v": 160000.0,
-  "prazo": null,
-  "desc": "Programa de aceleração para negócios de impacto em estágio de tração, oferecendo capacitação, mentorias, conexão com o ecossistema e premiação em dinheiro para os finalistas.",
-  "link": "https://garagem.bndes.gov.br/wp-content/uploads/2025/08/Edital-Negocios-de-Impacto-2025-TRACAO-Ciclo-2-_-BNDES-Garagem.pdf",
-  "n": 1,
-  "r": 0,
-  "revisar": 1,
-  "status": "aberto",
-  "requisitos": "Negócios de impacto com sede no Brasil, faturamento nos últimos 12 meses entre R$ 250.000,00 e R$ 16.000.000,00, CNPJ ativo e cadastro no CADIMPACTO.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": true,
-  "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Chamada Pública para Seleção de Fundo de Investimento em Participações – FIP Conexões Startups – 2026",
@@ -297,7 +197,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-08-12T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa Santander-USP de Inovação e Empreendedorismo - Criação de Startups - Edição 2026",
@@ -317,7 +217,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-08-21T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa Santander USP de Inovação e Empreendedorismo - Criação de Startups - Edição 2026",
@@ -337,7 +237,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-08-21T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital AUCANI nº 2359 - Humboldt-Universität zu Berlin - Strategic Partnership Funding Call: Flexible Funds 2027",
@@ -357,7 +257,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-01T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Bolsa Startup USP-Santander 2026",
@@ -377,7 +277,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-08-21T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Chamada Universal 2026 do CNPq",
@@ -397,7 +297,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-08-03T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Formação GovTech Hub Goiás",
@@ -417,7 +317,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-10-16T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Invest.Rio e Maravalley lançam edital para selecionar dez startups para Missão Web Summit Lisboa 2026",
@@ -437,7 +337,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Canastra HUB abre inscrições para pré-incubação e incubação de projetos inovadores - Edital nº 1014/2026",
@@ -457,7 +357,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-09-30T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital 4/2026 - AGIF/PROPESPI/IFRR - Seleção Pública de Projetos de Inovação (Acelera Koneka)",
@@ -477,7 +377,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital de Chamamento Público nº 001/2026 - SEDET/GDF",
@@ -497,7 +397,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital Sebrae/CE e Funcap N.º 10/2026 - Programa Startup Ceará (Adendo Nº 02/2026)",
@@ -517,7 +417,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-08-14T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital nº 1/2026 - Chamamento Público para Seleção de Organização Social para Gerenciamento do Centro de Bionegócios da Amazônia (CBA)",
@@ -537,7 +437,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-10-28T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "School of Startups: Empreendedores | UPTEC",
@@ -557,7 +457,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa Acelera Divinópolis",
@@ -577,7 +477,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2022-07-10T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Formação GovTech Hub Goiás 2026–27",
@@ -597,7 +497,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-02T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Finep Mais Inovação Brasil - Rodada 2 – Tecnologias Digitais",
@@ -617,7 +517,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-10-14T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Batch #36 - WOW Aceleradora",
@@ -637,7 +537,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa de Incubação Tecnosinos",
@@ -657,7 +557,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Google for Startups Accelerator: Brazil",
@@ -677,7 +577,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-03-01T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Google for Startups Accelerator",
@@ -697,7 +597,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Belo Horizonte Founder Institute",
@@ -717,7 +617,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "6ª edição do Inova Startups",
@@ -737,27 +637,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-30T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Edital Público para Participação na Missão Técnica para o Evento Neon 2026",
-  "o": "SERVIÇO DE APOIO ÀS MICRO E PEQUENAS EMPRESAS DO ESTADO DO CEARÁ - SEBRAE/CE",
-  "tipo": "Outro",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": "2026-05-22",
-  "desc": "Seleção de empreendedores de startups cearenses para participação na Missão Técnica para o evento NEON Alagoas 2026.",
-  "link": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/EDITAL%20NEON%202026.pdf",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Empreendedor vinculado a startup situada no estado do Ceará, participante de pelo menos um programa de inovação promovido pelo SEBRAE/CE e adimplente.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2026-05-22T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital de Chamada Pública FAPESC n.º 03/2026 Programa Nascer de Pré-Incubação de Ideias Inovadoras VI Edição Super Pitch Day",
@@ -777,7 +657,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-03-13T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Chamada Pública do Programa de Cooperação para Inovação da Rede EUREKA",
@@ -797,7 +677,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-06T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "BNDES Garagem - Terceiro Ciclo da Terceira Edição",
@@ -817,7 +697,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Ciclo 3 da 3ª Edição do BNDES Garagem 2026",
@@ -837,7 +717,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-30T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital BNDES Garagem – Negócios de Impacto 2026",
@@ -857,7 +737,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "BNDES Garagem",
@@ -877,7 +757,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital BNDES Garagem – Negócios de Impacto 2026",
@@ -897,27 +777,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "InovaBio 2ª edição",
-  "o": "Embrapa Agroenergia",
-  "tipo": "Inovação aberta",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": "2025-08-15",
-  "desc": "Seleção pública de inovação aberta para codesenvolvimento de soluções tecnológicas em biocombustíveis e bioinsumos.",
-  "link": "http://www.embrapa.br/agroenergia/inovabio",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Startups, empresas e instituições privadas de qualquer porte para submeter propostas nas áreas temáticas indicadas.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2025-08-15T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Prêmio Sebrae Startups 2026",
@@ -937,7 +797,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Deep Tech Indústria",
@@ -957,7 +817,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "EDITAL FAPES Nº 18/2026 - PARCERIAS ENTRE STARTUPS",
@@ -977,7 +837,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-08-11T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "InovAtiva de Impacto 2026",
@@ -997,27 +857,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Prêmio Sebrae Startups 2026",
-  "o": "Sebrae Nacional",
-  "tipo": "Prêmio",
-  "est": "Ideação e MVP",
-  "v": 250000.0,
-  "prazo": null,
-  "desc": "Prêmio Sebrae Startups 2026 seleciona empresas inovadoras para conexão com mercados, oferecendo premiação em dinheiro e capacitação.",
-  "link": "https://agenciasebrae.com.br/inovacao-e-tecnologia/segunda-nao-perca-o-prazo-inscricoes-no-premio-sebrae-startups-2026-vao-ate-o-dia-30",
-  "n": 1,
-  "r": 0,
-  "revisar": 1,
-  "status": "aberto",
-  "requisitos": "Startups brasileiras que sejam micro ou pequenos negócios, com receita bruta anual de até R$ 4,8 milhões no ano-calendário de 2025.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": true,
-  "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa Trilha Nacional de Pré-Incubação Brasil Inovador",
@@ -1037,7 +877,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-02-27T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "2º ciclo do e-Goiás Empresas",
@@ -1057,27 +897,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "EDITAL 07/2025 – PRÊMIO FAPDF DE CIÊNCIA, TECNOLOGIA E INOVAÇÃO 4ª EDIÇÃO",
-  "o": "Fundação de Apoio à Pesquisa do Distrito Federal - FAPDF",
-  "tipo": "Prêmio",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": "2025-07-15",
-  "desc": "Prêmio FAPDF de Ciência, Tecnologia e Inovação 4ª Edição, contemplando a categoria Startup Inovadora.",
-  "link": "https://www.fap.df.gov.br/editais-fapdf-2025",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Startups inovadoras no Distrito Federal.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2025-07-15T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital nº 1014/2026 - Canastra Hub",
@@ -1097,47 +917,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Programa de Incubação UNITEC Esteio",
-  "o": "UNITEC Tecnosinos",
-  "tipo": "Incubação",
-  "est": "Ideação e MVP",
-  "v": 0,
-  "prazo": "2022-11-22",
-  "desc": "Programa de incubação para empreendimentos inovadores e startups nas áreas de TI, automação, comunicação, saúde e energias renováveis.",
-  "link": "https://www.tecnosinos.com.br/programa-de-incubacao-unitec-esteio/",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Projetos nas áreas de Tecnologia da Informação, Automação e engenharias, Comunicação e convergência digital, Tecnologias para a saúde, Energias renováveis e tecnologias socioambientais.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2022-11-22T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Programa de Incubação UNITEC Canela 1ª chamada pública",
-  "o": "UNITEC Canela / Tecnosinos",
-  "tipo": "Incubação",
-  "est": "Ideação e MVP",
-  "v": 0,
-  "prazo": "2023-05-16",
-  "desc": "Programa de incubação para empreendimentos inovadores nas áreas de TI, Automação, Comunicação, Saúde e Energias Renováveis.",
-  "link": "https://www.tecnosinos.com.br/programa-de-incubacao-unitec-canela/",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Empreendimentos inovadores nas áreas de Tecnologia da Informação, Automação e Engenharias, Comunicação e Convergência Digital, Tecnologias para a Saúde, Energias Renováveis e Tecnologias Socioambientais.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2023-05-16T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital Granioter Acelera 2026",
@@ -1157,7 +937,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-08-30T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Formação GovTech Hub Goiás 2026–27",
@@ -1177,47 +957,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-02T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Programa de Incubação UNITEC Esteio",
-  "o": "Tecnosinos / UNITEC",
-  "tipo": "Incubação",
-  "est": "Ideação e MVP",
-  "v": 0,
-  "prazo": "2022-11-22",
-  "desc": "Programa de incubação para empreendimentos inovadores e startups na UNITEC Esteio.",
-  "link": "https://www.tecnosinos.com.br/programa-de-incubacao-unitec-esteio/",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Projetos nas áreas de TI, Automação e engenharias, Comunicação e convergência digital, Tecnologias para a saúde, Energias renováveis e tecnologias socioambientais. Não é necessário constituir empresa na inscrição.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2022-11-22T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Programa de Incubação UNITEC Canela 1ª chamada pública",
-  "o": "Tecnosinos / UNITEC Canela",
-  "tipo": "Incubação",
-  "est": "Ideação e MVP",
-  "v": 0,
-  "prazo": "2023-05-16",
-  "desc": "Programa de incubação para empreendimentos inovadores e startups em Canela, com espaço físico e suporte da equipe Unitec São Leopoldo.",
-  "link": "https://www.tecnosinos.com.br/programa-de-incubacao-unitec-canela/",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Empreendimentos inovadores nas áreas de Tecnologia da Informação, Automação e Engenharias, Comunicação e Convergência Digital, Tecnologias para a Saúde, e Energias Renováveis e Tecnologias Socioambientais.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2023-05-16T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "CHAMADA FAPEMIG - SEDE 018/2026 HUBMG GOV - RESOLUÇÃO DE DESAFIOS PÚBLICOS POR MEIO DE INOVAÇÃO ABERTA",
@@ -1237,7 +977,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Chamada Fapemig – Sede 013/2026 – Pesquisador na Empresa",
@@ -1257,7 +997,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "CHAMADA FAPEMIG - SEDE 018/2026 HUBMG GOV",
@@ -1277,27 +1017,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-12-09T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Edital Sebrae/CE e Funcap N.º 10/2026 - Chamamento Público para Seleção de Projetos de Inovação para o Programa Startup Ceará",
-  "o": "Sebrae/CE e Funcap",
-  "tipo": "Subvenção",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": "2026-08-14",
-  "desc": "Seleção de startups formais no Ceará para aceleração e concessão de Bolsas de Inovação Tecnológica (BIT) de R$ 3.000,00.",
-  "link": "https://sebrae.com.br/content/dam/portal-sebrae/ce/midias/documentos/pdfs/editais/Edital%20StartupCE%202026.pdf",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Startups formalizadas (pessoas jurídicas com CNPJ) sediadas no estado do Ceará, com representante maior de idade e atuação em setores estratégicos.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2026-08-14T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "BNDES Garagem - Ciclo 3 da 3ª Edição",
@@ -1317,7 +1037,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-30T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Processo Seletivo para o Programa de Residência em Inovação NIDUS",
@@ -1337,7 +1057,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-12-31T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa Acelera 2026",
@@ -1357,7 +1077,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa Acelera 2026",
@@ -1377,7 +1097,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-07-17T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa de Residência 2026",
@@ -1397,7 +1117,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
@@ -1417,7 +1137,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "PUCTEC STARTUPS 2026",
@@ -1437,7 +1157,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital nº 028/2026 - PUCTEC Startups 2026",
@@ -1457,47 +1177,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-05-24T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Edital Seed Gov v6",
-  "o": "Governo de Minas Gerais (SEDE)",
-  "tipo": "Aceleração",
-  "est": "Qualquer",
-  "v": 100000.0,
-  "prazo": "2022-11-21",
-  "desc": "Programa de aceleração do Governo de MG que apoia startups com foco em desafios públicos e temática livre, oferecendo aporte de até R$ 100 mil.",
-  "link": "https://seed.mg.gov.br/seed-gov",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Startups com foco na resolução de desafios públicos ou projetos de temática livre.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2022-11-21T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "SEED GOV – Startups and Entrepreneurship Ecosystem Development",
-  "o": "SEDE em parceria com a FAPEMIG",
-  "tipo": "Aceleração",
-  "est": "Qualquer",
-  "v": 100000.0,
-  "prazo": "2022-11-21",
-  "desc": "Programa de aceleração para até 110 startups com foco em desafios públicos e tema livre, com subvenção econômica de até R$ 100 mil.",
-  "link": "https://seed.mg.gov.br/wp-content/uploads/2016/11/Resumo-do-Edital.pdf",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Startups formalizadas brasileiras (ao menos 2 sócios com 51% ou 1 sócio e funcionário) ou estrangeiras, com disponibilidade para eventos presenciais em MG.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2022-11-21T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -1517,7 +1197,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "BNDES Garagem - Terceiro Ciclo",
@@ -1537,7 +1217,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital BNDES Garagem – Negócios de Impacto - 2026",
@@ -1557,7 +1237,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital FAPERJ Nº 07/2026 – Programa Agro do Futuro – Tecnologia e Soberania Alimentar (FoodTechs e Agritechs)",
@@ -1577,7 +1257,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa Prioridade Indústria RJ 4.0 (Edital Nº 15/2026)",
@@ -1597,27 +1277,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-09-25T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Startup Competition - South Summit Brazil 2026",
-  "o": "Secretaria de Inovação, Ciência e Tecnologia (Sict)",
-  "tipo": "Prêmio",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": "2025-12-22",
-  "desc": "Competição de startups do South Summit Brazil 2026 para dar visibilidade global a negócios inovadores.",
-  "link": "https://sict.rs.gov.br/south-summit-brazil-2026-e-lancado-apostando-na-inovacao-centrada-nas-pessoas",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Startups e negócios inovadores de qualquer localidade.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2025-12-22T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital de Seleção de Startups - Programa de Internacionalização – Web Summit Lisboa 2026",
@@ -1637,7 +1297,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-09-27T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Chamada Pública 03/2026: Novo Seed",
@@ -1657,7 +1317,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "CHAMADA FAPEMIG-SEDE 03/2026 Novo SEED: Aceleração de Startups por meio dos Ambientes Promotores de Inovação",
@@ -1677,7 +1337,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-04-23T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Founder Institute Accelerator",
@@ -1697,7 +1357,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa de Formação GovTech Hub Goiás 2026-27",
@@ -1717,7 +1377,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-10-16T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "IPÊ INVESTE - Programa de aceleração e investimento 1ª edição",
@@ -1737,7 +1397,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-08-31T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Chamada 02/2026 do Start BSB – Eixo I: Ideação e Pré-Incubação",
@@ -1757,7 +1417,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-09-03T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "CHAMADA PROSPECTIVA CONTÍNUA PARA PORTFÓLIO FINATEC E APOIADAS",
@@ -1777,27 +1437,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
- },
- {
-  "t": "Chamada 1.2025 do Start BSB - Eixo I: Ideação e Pré-incubação",
-  "o": "Fundação de Empreendimentos Científicos e Tecnológicos - FINATEC",
-  "tipo": "Incubação",
-  "est": "Ideação e MVP",
-  "v": 53000.0,
-  "prazo": "2025-08-29",
-  "desc": "Seleção de propostas para pré-incubação no Cocreation Lab DF e subvenção econômica para startups no Distrito Federal/RIDE.",
-  "link": "https://www.finatec.org.br/wp-content/uploads/2025/07/Chamada-1.2025-do-Start-BSB.docx-1.pdf",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Startups e pessoas físicas com ideias inovadoras localizadas no Distrito Federal ou RIDE.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2025-08-29T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital Nº 11/2026 — Programa FAPDF Start BSB — 3º Ciclo",
@@ -1817,7 +1457,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital Nº 11/2026 – Programa FAPDF Start BSB – 3º Ciclo",
@@ -1837,7 +1477,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital de Chamamento Público Nº 02/2026 - Programa Ativação Multiplicidades Baixada Santista",
@@ -1857,7 +1497,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-03-31T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital de Chamamento Público Nº 02/2026 - Programa Ativação MultipliCidades Baixada Santista",
@@ -1877,7 +1517,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-03-31T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "EDITAL Nº 11/2026 - PROGRAMA FAPDF START BSB - 3º CICLO",
@@ -1897,7 +1537,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-09-03T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Cocreation Lab DF",
@@ -1917,7 +1557,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital 01/2026 - Chamada Pública para Ingresso no Cocreation Lab DF",
@@ -1937,7 +1577,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Edital nº 04/2026 - Seleção de Startups para Participação em Mestrado Internacional",
@@ -1957,7 +1597,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-06-28T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "Programa Seedes - 2º Ciclo",
@@ -1977,7 +1617,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  },
  {
   "t": "2º Desafio de Inovação Aberta InovaSerra",
@@ -1997,6 +1637,6 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2027-11-10T18:52:39.000Z"
+  "verificacao_valida_ate": "2027-11-10T18:59:43.000Z"
  }
 ]
