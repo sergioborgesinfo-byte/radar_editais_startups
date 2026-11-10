@@ -263,5 +263,14 @@ document.addEventListener("visibilitychange",function(){if(!document.hidden)rend
         }
     });
   </script>
+
+  <script id="esconder_importar_js">
+    document.addEventListener("DOMContentLoaded", function() {
+        var btnImp = document.getElementById('imp');
+        if (btnImp) {
+            btnImp.style.display = 'none';
+        }
+    });
+  </script>
 </body>
 </html>
