@@ -1,3 +1,16 @@
+CONSULTAS = [
+    "editais abertos startups fomento incubacao 2026",
+    "chamada publica inovacao startups aceleracao inscricoes",
+    "programa de incubacao startups fluxo continuo inscricoes abertas",
+    "subvencao economica inovacao startups edital 2026",
+    "CRITT UFJF incubacao startups edital",
+    "PNCP editais inovacao startups",
+    "Finep BNDES FAPESP FAPEMIG FAPESC editais startups 2026",
+    "aceleradora startups Brasil inscricoes abertas",
+    "premiacao startups inovacao edital 2026",
+    "financiamento startups credito subvencao edital"
+]
+
 """Descoberta ampla: guarda candidatos, sem afirmar que estão abertos."""
 import json
 import os

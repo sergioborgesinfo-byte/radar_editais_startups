@@ -16,7 +16,7 @@ def exportar():
     hoje = datetime.now()
     
     # Data de validade da verificação (vamos dizer que é válido por 24h)
-    validade_iso = (hoje + timedelta(hours=24)).strftime('%Y-%m-%dT%H:%M:%S.000Z')
+    validade_iso = (hoje + timedelta(days=365)).strftime('%Y-%m-%dT%H:%M:%S.000Z')
     
     for e in rows:
         prazo_iso = None
