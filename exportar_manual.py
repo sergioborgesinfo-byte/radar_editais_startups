@@ -4,8 +4,17 @@ import os
 from datetime import datetime, timedelta
 
 
+
+
+
 def ano_antigo_detectado(e):
     texto_completo = f"{e.get('titulo','')} {e.get('url','')} {e.get('descricao','')} {e.get('requisitos','')} {e.get('trecho_prazo','')}".lower()
+    
+    # 1. Se for fluxo contínuo, NUNCA é fantasma (mesmo se for de 2020)
+    if "fluxo contínuo" in texto_completo or "fluxo continuo" in texto_completo or "sem data final" in texto_completo:
+        return False
+        
+    # 2. Se tiver data de encerramento e for de anos antigos, é fantasma
     anos_antigos = ['2020', '2021', '2022', '2023', '2024', '2025']
     for ano in anos_antigos:
         if ano in texto_completo:
