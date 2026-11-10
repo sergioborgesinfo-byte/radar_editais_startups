@@ -3,7 +3,9 @@ name: Radar de Editais - Pipeline Completo
 on:
   schedule:
     - cron: "0 6,12,18,23 * * *" # Roda 4 vezes ao dia
-  workflow_dispatch: # Permite rodar na mão pelo botão no GitHub
+  workflow_dispatch:
+  # Desativado temporariamente
+  if: false # Permite rodar na mão pelo botão no GitHub
   push:
     branches: [main]
     paths: 
