@@ -218,5 +218,29 @@ setInterval(function(){
 document.addEventListener("visibilitychange",function(){if(!document.hidden)render()});
 </script>
 <script src="acompanhamento.js"></script>
+
+  <script>
+    // Carregamento automático do JSON no Vercel/Servidor
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch('editais.json')
+            .then(response => {
+                if (!response.ok) throw new Error("HTTP " + response.status);
+                return response.json();
+            })
+            .then(arr => {
+                if (Array.isArray(arr) && arr.length > 0) {
+                    console.log("Editais carregados automaticamente!");
+                    setData(arr, "Dados reais atualizados automaticamente", false);
+                    // Salva no cache local como backup
+                    try {
+                        localStorage.setItem("radar-dados", JSON.stringify({nome: "editais.json", dados: arr}));
+                    } catch(e) {}
+                }
+            })
+            .catch(err => {
+                console.log("Aviso: Não foi possível carregar os editais automaticamente. Usando dados locais ou demo.", err);
+            });
+    });
+  </script>
 </body>
 </html>
