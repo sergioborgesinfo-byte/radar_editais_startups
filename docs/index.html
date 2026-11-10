@@ -14,28 +14,263 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
 <style>
-    .credit-footer {
-        text-align: center;
-        padding: 1rem 1rem 0.8rem;
-        margin-top: 1.5rem;
-        color: #8892a0;
-        font-size: 0.75rem;
-        border-top: 1px solid #eaeaea;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    }
-    .credit-footer strong {
-        color: #343a40;
-        font-weight: 600;
-    }
-    .credit-footer .sub {
-        font-size: 0.65rem;
-        margin-top: 0.2rem;
-        opacity: 0.7;
-    }
-  </style>
-  <footer class="credit-footer" id="credit-footer">
-      <div>Desenvolvido por <strong>Sérgio Luiz Xavier Borges</strong></div>
-      <div class="sub">Radar de Editais para Startups &copy; 2026</div>
-  </footer>
+:root{--bg:#f1f5f7;--card:#fff;--ink:#14232b;--mute:#5b6b74;--line:#d5dee3;--acc:#0b6e8a;--acc-t:#e1f1f6;--warn:#b45309;--warn-t:#fdf0dc;--bad:#a12b2b;--bad-t:#f9e3e3;--ok:#1d7a4d;--off:#8a979e;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a20;--card:#17262e;--ink:#e6eef2;--mute:#9fb0b9;--line:#2a3d47;--acc:#5cc0dd;--acc-t:#153847;--warn:#f0b35a;--warn-t:#3a2c14;--bad:#ef8d8d;--bad-t:#3c1e1e;--ok:#63c790;--off:#6f8089}}
+:root[data-theme="dark"]{--bg:#0f1a20;--card:#17262e;--ink:#e6eef2;--mute:#9fb0b9;--line:#2a3d47;--acc:#5cc0dd;--acc-t:#153847;--warn:#f0b35a;--warn-t:#3a2c14;--bad:#ef8d8d;--bad-t:#3c1e1e;--ok:#63c790;--off:#6f8089}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45}
+main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:clamp(1.7rem,6vw,2.4rem);font-weight:800;letter-spacing:-.02em;margin:8px 0 4px;line-height:1.1}
+.sub{color:var(--mute);margin:0 0 18px;max-width:52ch}
+.demo{background:var(--warn-t);color:var(--warn);border-radius:8px;padding:8px 12px;font-size:.85rem;margin-bottom:16px}
+.tools{display:grid;gap:8px;grid-template-columns:1fr 1fr;margin-bottom:8px}
+.tools input,.tools select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-width:0;width:100%}
+.tools input{grid-column:1/-1}
+.tools :focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.meta{display:flex;justify-content:space-between;color:var(--mute);font-size:.85rem;margin:14px 2px 10px}
+.list{display:grid;gap:10px}
+.item{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--acc);border-radius:10px;padding:14px}
+.item.urg{border-left-color:var(--warn)}.item.enc{border-left-color:var(--off);opacity:.75}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.item h2{font-size:1.05rem;font-weight:600;margin:0 0 2px;line-height:1.25}
+.org{color:var(--mute);font-size:.85rem}
+.days{text-align:right;flex:none}
+.days b{display:block;font-size:1.6rem;font-weight:800;line-height:1;color:var(--acc)}
+.urg .days b{color:var(--warn)}.enc .days b{color:var(--off);font-size:1rem}
+.days span{font-size:.75rem;color:var(--mute)}
+.desc{margin:10px 0;font-size:.92rem}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.tag{background:var(--acc-t);color:var(--acc);border-radius:99px;padding:2px 10px;font-size:.78rem}
+.tag.new{background:var(--warn-t);color:var(--warn)}.tag.ret{background:var(--bad-t);color:var(--bad)}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:.88rem}
+.val{font-weight:600}
+button{font:inherit;font-size:.85rem;background:none;color:var(--acc);border:1px solid var(--acc);border-radius:8px;padding:6px 12px;cursor:pointer}
+button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
+.empty{text-align:center;color:var(--mute);padding:32px 12px;background:var(--card);border:1px dashed var(--line);border-radius:10px}
+@media (min-width:600px){.tools{grid-template-columns:2fr 1fr 1fr 1fr}.tools input{grid-column:auto}}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.real{background:var(--acc-t);color:var(--acc);border-radius:8px;padding:8px 12px;font-size:.85rem;margin-bottom:12px}
+.acts{display:flex;gap:8px;align-items:center}
+.lnk{font-size:.85rem;color:var(--acc);border:1px solid var(--line);border-radius:8px;padding:6px 12px;text-decoration:none}
+.lnk:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+
+.busca-panel{margin:16px 0 24px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.busca-panel[hidden]{display:none}.busca-panel h2{margin:0 0 8px;font-size:1.25rem}
+.busca-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:16px 0}
+.busca-stat{padding:12px;border-radius:8px;background:var(--acc-t)}.busca-stat strong{display:block;font-size:1.6rem}.busca-stat span{font-size:.8rem}
+.busca-panel .item{margin-top:10px}.busca-panel .tags{margin-top:10px}.busca-panel button{min-height:44px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Radar de editais para startups</h1>
+  <p class="sub">Fomento, subvenção, incubação e aceleração num só lugar, com prazo à vista.</p>
+  <div class="bar"><button id="busca-toggle" type="button" aria-expanded="false" aria-controls="busca-panel">Acompanhar descobertas</button></div>
+  <section id="busca-panel" class="busca-panel" hidden aria-label="Acompanhamento das descobertas">
+    <h2>O que o Radar está encontrando</h2>
+    <p class="sub">Links encontrados e oportunidades em análise. Os prazos ainda não foram verificados; esta lista pode incluir páginas antigas e conteúdos gerais.</p>
+    <p id="busca-status" class="real" role="status">Carregando acompanhamento…</p>
+    <div id="busca-stats" class="busca-stats"></div>
+    <p id="busca-date" class="org"></p>
+    <button id="busca-refresh" type="button">Atualizar acompanhamento</button>
+    <div class="tools" style="margin-top:16px">
+      <input id="busca-q" type="search" placeholder="Buscar título ou instituição" aria-label="Buscar nas descobertas">
+      <select id="busca-filter" aria-label="Filtrar descobertas"><option value="">Todas as páginas descobertas</option><option value="confirmada">Relevância confirmada</option><option value="pendente">Pendências de análise</option><option value="nao-examinada">Ainda não examinadas</option></select>
+    </div>
+    <p id="busca-counter" class="org"></p>
+    <div id="busca-list" class="list"></div>
+    <div class="bar" style="margin-top:16px"><button id="busca-prev" type="button">Anterior</button><button id="busca-next" type="button">Próxima</button></div>
+  </section>
+  <div id="src" class="demo"></div>
+  <div class="bar"><button id="imp" type="button">Importar editais.json</button><button id="rst" type="button" hidden>Voltar aos exemplos</button><input id="file" type="file" accept=".json,application/json" hidden></div>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Buscar por tema, órgão ou palavra-chave" aria-label="Buscar editais">
+    <select id="tipo" aria-label="Tipo"><option value="">Todos os tipos</option></select>
+    <select id="est" aria-label="Estágio"><option value="">Todos os estágios</option></select>
+    <select id="ord" aria-label="Ordenar"><option value="prazo">Prazo mais próximo</option><option value="valor">Maior valor</option></select>
+  </div>
+
+
+
+
+  <div class="meta"><span id="cnt"></span><span></span></div>
+  <div class="list" id="list"></div>
+</main>
+<script>
+var $=function(i){return document.getElementById(i)};
+var D=function(n){var d=new Date();d.setHours(0,0,0,0);d.setDate(d.getDate()+n);return d};
+var DEMO=[
+{t:"Subvenção para deeptech em estágio inicial",o:"Agência Nacional de Inovação (exemplo)",tipo:"Subvenção",est:"Ideação e MVP",v:1500000,d:35,desc:"Recursos não reembolsáveis para desenvolvimento de tecnologia com alto risco técnico.",n:1},
+{t:"Programa de aceleração agritech",o:"Aceleradora Campo Aberto (exemplo)",tipo:"Aceleração",est:"Tração",v:200000,d:9,desc:"Seis meses de mentoria, acesso a pilotos com produtores e investimento inicial."},
+{t:"Chamada de incubação em ambiente universitário",o:"Parque Tecnológico Universitário (exemplo)",tipo:"Incubação",est:"Ideação e MVP",v:0,d:21,desc:"Vagas em incubadora com espaço, mentoria jurídica e acesso a laboratórios."},
+{t:"Crédito com juros reduzidos para inovação",o:"Banco de Fomento Nacional (exemplo)",tipo:"Crédito",est:"Escala",v:5000000,d:60,desc:"Linha de financiamento para empresas com faturamento comprovado e projeto de P&D."},
+{t:"Bolsas de pesquisa para inovação em empresas",o:"Fundação de Amparo Estadual (exemplo)",tipo:"Bolsa",est:"Ideação e MVP",v:180000,d:3,desc:"Bolsas para pesquisadores atuando em startups de base tecnológica.",r:1},
+{t:"Prêmio de startups de impacto social",o:"Instituto de Impacto (exemplo)",tipo:"Prêmio",est:"Tração",v:100000,d:-6,desc:"Premiação em dinheiro e visibilidade para negócios com impacto social mensurável."}
+];
+var E=[],saved={};
+try{saved=JSON.parse(localStorage.getItem("radar-seguidos")||"{}")}catch(e){}
+function persist(){try{localStorage.setItem("radar-seguidos",JSON.stringify(saved))}catch(e){}}
+function norm(x){
+  var dt,hoje=new Date();hoje.setHours(0,0,0,0);
+  if(x.prazo&&/^\d{4}-\d{2}-\d{2}$/.test(x.prazo)){var p=x.prazo.split("-");dt=new Date(+p[0],+p[1]-1,+p[2])}else if(typeof x.d==="number"&&Number.isFinite(x.d)){
+    dt=D(x.d)
+  }else{dt=null}
+  return {t:x.t||"Sem título",o:x.o||"",tipo:x.tipo||"Outro",est:x.est||"Qualquer",v:+x.v||0,desc:x.desc||"",link:x.link||"",n:x.n,r:x.r,rev:x.revisar,fora:foraDoFoco(x),dt:dt,pend:!dt||!!Number(x.revisar),d:dt?Math.round((dt-hoje)/864e5):null}
+}
+function textoTriagem(s){
+  return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim()
+}
+function foraDoFoco(x){
+  var texto=textoTriagem((x.t||"")+" "+(x.desc||""));
+  return /selecao (de |para )?(gestor|gestores|fundo de investimento)/.test(texto)
+    || /selecao (de )?organizacao social/.test(texto)
+}
+function fill(id,k){
+  var s=$(id),old=s.value;s.length=1;
+  E.map(function(e){return e[k]}).filter(function(v,i,a){return a.indexOf(v)===i}).sort().forEach(function(v){s.add(new Option(v,v))});
+  s.value=old;if(s.value!==old)s.value="";
+}
+function brl(v){return v?"R$ "+v.toLocaleString("pt-BR"):"Valor não informado"}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function setData(list,label,isDemo){
+  $("src").dataset.demo=isDemo?"1":"0";
+  E=list.map(norm);E.forEach(function(e,i){
+      e.automatico=list[i].validado_automaticamente===true || list[i].validado_manualmente===true;
+      e.continuo=list[i].sem_data_final===true;
+      if(e.continuo && /(^|\.)wow\.ac$/i.test(new URL(e.link,location.href).hostname))e.automatico=false;
+      if(e.continuo)e.pend=false;
+      e.limite=e.continuo?Infinity:Date.parse(list[i].prazo_iso||"");
+      e.validade=Date.parse(list[i].verificacao_valida_ate||"");
+    });
+  var vistos=new Set();
+  E.forEach(function(e){
+    var titulo=textoTriagem(e.t),orgao=textoTriagem(e.o);
+    var chave=JSON.stringify([titulo,orgao,e.dt?e.dt.getTime():null]);
+    e.dup=!!(titulo&&orgao&&vistos.has(chave));
+    if(titulo&&orgao)vistos.add(chave);
+  });
+  fill("tipo","tipo");fill("est","est");
+  $("src").className=isDemo?"demo":"real";$("src").textContent=label;$("rst").hidden=isDemo;render();
+}
+function render(){
+  var q=$("q").value.toLowerCase(),tp=$("tipo").value,es=$("est").value,od=$("ord").value,st="",tr="foco";
+  var L=E.filter(function(e){
+    return e.automatico && e.limite>Date.now() && e.validade>Date.now() && (e.continuo || (e.d!==null && e.d>=0)) && !e.pend
+      && !Number(e.rev) && !e.fora && !e.dup
+      && (!tp||e.tipo===tp)
+      && (!es||e.est===es)
+      && (!q||(e.t+e.o+e.desc+e.tipo).toLowerCase().indexOf(q)>-1)
+  });
+  L.sort(function(a,b){
+    if((a.d<0)!==(b.d<0))return a.d<0?1:-1;
+    return od==="valor"?b.v-a.v:
+    (a.d===null?Infinity:a.d)-(b.d===null?Infinity:b.d)
+  });
+  $("cnt").textContent=L.length+(L.length===1?" edital":" editais");
+  if($("src").dataset.demo!=="1")$("src").textContent=L.length+(L.length===1?" oportunidade disponível":" oportunidades disponíveis");
+  if(!L.length){$("list").innerHTML='<div class="empty">Nenhum edital com prazo vigente registrado nesta seleção.</div>';return}
+  $("list").innerHTML=L.map(function(e){
+    var enc=e.d!==null&&e.d<0,urg=e.d!==null&&!enc&&e.d<=10,i=E.indexOf(e),k=e.t+"|"+e.o;
+    var tags='<span class="tag">'+esc(e.tipo)+'</span><span class="tag">'+esc(e.est)+'</span>'+(e.n?'<span class="tag new">Novo</span>':'')+(e.r?'<span class="tag ret">Prazo prorrogado</span>':'')+(e.rev?'<span class="tag ret">Prazo precisa de revisão</span>':'');
+    tags+=(e.fora?'<span class="tag ret">Fora do foco de startups</span>':'')
+      +(e.dup?'<span class="tag ret">Repetição exata</span>':'');
+    var dias=e.continuo?'<b style="font-size:1rem">Inscrições abertas</b><span>Sem data final definida</span>':e.d===null?
+    '<b style="font-size:1rem">Sem prazo</b><span>Data não identificada</span>':
+    e.pend?'<b style="font-size:1rem">Data a revisar</b><span>'+e.dt.toLocaleDateString("pt-BR")+(e.d<0?' · data passada':'')+'</span>':
+    e.d===0?'<b style="font-size:1rem">Prazo hoje</b><span>Confira o horário no edital</span>':enc?'<b>Encerrado</b><span>'+e.dt.toLocaleDateString("pt-BR")+'</span>':'<b>'+e.d+'</b><span>'+(e.d===1?'dia restante':'dias restantes')+'</span>';
+    var lnk=/^https?:\/\//.test(e.link)?'<a class="lnk" href="'+esc(e.link)+'" target="_blank" rel="noopener noreferrer">Ver edital</a>':'';
+    return '<article class="item'+(enc?' enc':urg?' urg':'')+'"><div class="top"><div><h2>'+esc(e.t)+'</h2><div class="org">'+esc(e.o)+'</div></div><div class="days">'+dias+'</div></div><p class="desc">'+esc(e.desc)+'</p><div class="tags">'+tags+'</div><div class="foot"><span class="val">'+brl(e.v)+'</span><span class="acts">'+lnk+'<button data-i="'+i+'" aria-pressed="'+(!!saved[k])+'">'+(saved[k]?'Acompanhando':'Acompanhar')+'</button></span></div></article>'
+  }).join("")
+}
+$("list").addEventListener("click",function(ev){
+  var b=ev.target.closest("button");if(!b)return;
+  var e=E[+b.getAttribute("data-i")],k=e.t+"|"+e.o;saved[k]=!saved[k];persist();render()
+});
+["q","tipo","est","ord"].forEach(function(id){$(id).addEventListener("input",render)});
+var MSG_DEMO="Dados fictícios de demonstração. Importe o editais.json gerado pelo script para ver dados reais.";
+$("imp").onclick=function(){$("file").click()};
+$("file").onchange=function(){
+  var f=this.files[0];if(!f)return;var r=new FileReader();
+  r.onload=function(){
+    try{
+      var arr=JSON.parse(r.result);if(!Array.isArray(arr))throw 0;
+      setData(arr,"Dados reais importados de "+f.name+" ("+arr.length+" editais).",false);
+      try{localStorage.setItem("radar-dados",JSON.stringify({nome:f.name,dados:arr}))}catch(e){}
+    }catch(e){$("src").className="demo";$("src").textContent="Arquivo inválido. Use o editais.json gerado por python radar.py export."}
+  };
+  r.readAsText(f);this.value="";
+};
+$("rst").onclick=function(){try{localStorage.removeItem("radar-dados")}catch(e){}setData(DEMO,MSG_DEMO,true)};
+var s0=null;try{s0=JSON.parse(localStorage.getItem("radar-dados")||"null")}catch(e){}
+if(s0&&Array.isArray(s0.dados)&&s0.dados.length){setData(s0.dados,"Dados reais de "+s0.nome+" ("+s0.dados.length+" editais).",false)}else{setData(DEMO,MSG_DEMO,true)}
+try{fetch("editais.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(a){if(Array.isArray(a))setData(a,"Dados reais carregados de editais.json ("+a.length+" editais).",false)}).catch(function(){})}catch(e){}
+if("serviceWorker" in navigator&&location.protocol.indexOf("http")===0){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})}
+
+// Atualização de dados e vencimentos, sem alterar o layout.
+setInterval(function(){render()},60000);
+setInterval(function(){
+  fetch("editais.json",{cache:"no-store"}).then(function(r){
+    if(!r.ok)throw new Error("Dados indisponíveis");return r.json();
+  }).then(function(a){if(Array.isArray(a))setData(a,"Editais atualizados automaticamente.",false)}).catch(function(){});
+},60000);
+document.addEventListener("visibilitychange",function(){if(!document.hidden)render()});
+</script>
+<script src="acompanhamento.js"></script>
+
+  <script>
+    // Carregamento automático do JSON no Vercel/Servidor
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch('editais.json')
+            .then(response => {
+                if (!response.ok) throw new Error("HTTP " + response.status);
+                return response.json();
+            })
+            .then(arr => {
+                if (Array.isArray(arr) && arr.length > 0) {
+                    console.log("Editais carregados automaticamente!");
+                    setData(arr, "Dados reais atualizados automaticamente", false);
+                    // Salva no cache local como backup
+                    try {
+                        localStorage.setItem("radar-dados", JSON.stringify({nome: "editais.json", dados: arr}));
+                    } catch(e) {}
+                }
+            })
+            .catch(err => {
+                console.log("Aviso: Não foi possível carregar os editais automaticamente. Usando dados locais ou demo.", err);
+            });
+    });
+  </script>
+
+  <script id="esconder_descobertas_js">
+    document.addEventListener("DOMContentLoaded", function() {
+        // Esconde o botão "Acompanhar descobertas" para não confundir o usuário final
+        var botoes = document.querySelectorAll('a, button');
+        for (var i = 0; i < botoes.length; i++) {
+            if (botoes[i].innerText.includes('Acompanhar descobertas') || botoes[i].innerText.includes('Acompanhar Descobertas')) {
+                botoes[i].style.display = 'none';
+            }
+        }
+    });
+  </script>
+
+  <script id="esconder_exemplos_js">
+    document.addEventListener("DOMContentLoaded", function() {
+        var btnRst = document.getElementById('rst');
+        if (btnRst) {
+            btnRst.style.display = 'none';
+        }
+    });
+  </script>
+
+  <script id="esconder_importar_js">
+    document.addEventListener("DOMContentLoaded", function() {
+        var btnImp = document.getElementById('imp');
+        if (btnImp) {
+            btnImp.style.display = 'none';
+        }
+    });
+  </script>
 </body>
 </html>
