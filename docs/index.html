@@ -254,5 +254,14 @@ document.addEventListener("visibilitychange",function(){if(!document.hidden)rend
         }
     });
   </script>
+
+  <script id="esconder_exemplos_js">
+    document.addEventListener("DOMContentLoaded", function() {
+        var btnRst = document.getElementById('rst');
+        if (btnRst) {
+            btnRst.style.display = 'none';
+        }
+    });
+  </script>
 </body>
 </html>
