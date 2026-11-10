@@ -2,16 +2,8 @@ name: Radar de Editais - Pipeline Completo
 
 on:
   schedule:
-    - cron: "0 6,12,18,23 * * *" # Roda 4 vezes ao dia
+    - cron: "0 6,12,18,23 * * *"
   workflow_dispatch:
-  # Desativado temporariamente
-  if: false # Permite rodar na mão pelo botão no GitHub
-  push:
-    branches: [main]
-    paths: 
-      - 'radar.py'
-      - 'sources.json'
-      - '.github/workflows/atualizar.yml'
 
 permissions:
   contents: write
@@ -23,11 +15,11 @@ concurrency:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 60 # Aumentado porque a busca na IA demora
+    timeout-minutes: 60
     env:
-      TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY || secrets.TAVILY }}
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # Chave da IA que o radar.py usa
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }} # Caso use Claude
+      TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       
@@ -51,12 +43,11 @@ jobs:
 
       - name: 4. Salvar tudo de volta no GitHub
         run: |
-          git config user.name "$GITHUB_ACTOR"
-          git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
-          # Adiciona o banco de dados e o JSON exportado
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add radar.db docs/editais.json data/
           if ! git diff --cached --quiet; then
             git commit -m "🤖 Robô: Atualização automática de editais"
-            git pull --rebase origin "$GITHUB_REF_NAME"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
+            git pull --rebase origin main || git rebase --abort
+            git push origin main || git push -f origin main
           fi
