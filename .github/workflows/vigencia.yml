@@ -66,11 +66,11 @@ jobs:
       - name: Salvar estado e publicação
         if: always()
         run: |
-          git config user.name "$GITHUB_ACTOR"
-          git config user.email "${{ github.actor_id }}+$GITHUB_ACTOR@users.noreply.github.com"
-          git add data docs/busca.json docs/editais.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
           if ! git diff --cached --quiet; then
             git commit -m "Salva rodada integrada, evidências e avanço real do Radar"
-            git pull --rebase origin main
+            git pull --rebase origin main || git rebase --abort
             git push origin HEAD:main
           fi
