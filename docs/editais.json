@@ -18,7 +18,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2027-01-14T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
@@ -39,7 +39,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-12-09T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "6ª edição do Inova Startups",
@@ -60,7 +60,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-30T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "Batch #36 - WOW Aceleradora",
@@ -81,7 +81,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-12-13T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "Silicon Valley Spring 2027",
@@ -102,28 +102,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-12-08T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
- },
- {
-  "t": "BATCH #36: inscrições abertas",
-  "o": "WOW Aceleradora",
-  "tipo": "Aceleração",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": null,
-  "d": null,
-  "desc": "Investimento inicial de até R$ 500K por equity definido em rodada futura e programa de aceleração.",
-  "link": "https://www.wow.ac",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "inscricoes_abertas",
-  "requisitos": "Startups de todo o Brasil e diversos setores de mercado.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": true,
-  "prazo_iso": null,
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "BNDES Garagem - Ciclo 03 da 3ª Edição",
@@ -144,7 +123,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-30T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "Processo Seletivo para o Programa de Residência em Inovação NIDUS",
@@ -165,7 +144,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-12-31T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "CHAMADA PROSPECTIVA CONTÍNUA PARA PORTFÓLIO FINATEC E APOIADAS",
@@ -186,28 +165,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
- },
- {
-  "t": "PUCTEC STARTUPS 2026",
-  "o": "PUC Minas",
-  "tipo": "Aceleração",
-  "est": "Ideação e MVP",
-  "v": 0,
-  "prazo": null,
-  "d": null,
-  "desc": "Programa de aceleração do PUCTEC da PUC Minas para apoiar startups, oferecendo mentorias, acesso a laboratórios e suporte para abertura de CNPJ.",
-  "link": "https://www.pucminas.br/puctec/Paginas/default.aspx",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "inscricoes_abertas",
-  "requisitos": "Estudantes, professores, pesquisadores, empreendedores e startups com ideias ou projetos inovadores.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": true,
-  "prazo_iso": null,
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "Startup Competition 2027 | South Summit Madrid",
@@ -228,28 +186,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2027-01-31T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
- },
- {
-  "t": "Mais Inovação Brasil – Rodada 2 Saúde Empresas",
-  "o": "Finep",
-  "tipo": "Subvenção",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": null,
-  "d": null,
-  "desc": "Subvenção econômica à inovação em fluxo contínuo para empresas no setor de saúde.",
-  "link": "https://premio.finep.gov.br/images/chamadas-publicas/2026/06_02_2026_Saude_Anexo2.pdf",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "inscricoes_abertas",
-  "requisitos": "Empresas com sede e administração no País, atuantes no setor de saúde, capazes de executar projetos de P&D e inovação e aportar contrapartida.",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": true,
-  "prazo_iso": null,
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "Desafio Empreende com IA no Google Campus SP",
@@ -270,7 +207,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-20T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "2º Desafio de Inovação Aberta InovaSerra",
@@ -291,7 +228,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-16T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "FINEP Amazônia - Bioeconomia e Desenvolvimento Regional (Subvenção Econômica em Fluxo Contínuo)",
@@ -312,7 +249,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -333,6 +270,6 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-11-16T15:22:06.000Z"
+  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
  }
 ]

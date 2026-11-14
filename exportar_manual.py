@@ -5,20 +5,46 @@ import re
 from datetime import datetime, timedelta
 
 
-def eh_fluxo_continuo(e):
-    if e.get("v_sem_data_final") == 1:
-        return True
-    texto_completo = f"{e.get('titulo','')} {e.get('descricao','')} {e.get('trecho_prazo','')}".lower()
-    return bool(re.search(r"fluxo cont[ií]nuo|inscri[cç][oõ]es cont[ií]nuas|chamada prospectiva cont[ií]nua|sem data final", texto_completo))
+def normalizar(s):
+    return re.sub(r'\W+', ' ', (s or '').lower()).strip()
 
 
-def ano_antigo_detectado(e, ano_atual=None):
+def palavras_chave(s):
+    ignorar = {'edital', 'chamada', 'publica', 'programa', 'para', 'startups', 'startup', 'selecao', 'inovacao', 'aberta', 'processo', 'seletivo', 'fluxo', 'continuo', 'rodada', 'edicao', 'ciclo'}
+    return {p for p in normalizar(s).split() if len(p) > 2 and p not in ignorar}
+
+
+def eh_fluxo_continuo(e, titulos_vencidos):
+    # 1. Páginas de anexo ou homepages genéricas sem caminho específico não comprovam edital aberto
+    url = (e.get('url') or '').lower()
+    if re.search(r'anexo\d*\.pdf|/default\.aspx$', url):
+        return False
+
+    # 2. Se o próprio programa já possui o edital específico com prazo vencido no banco, a landing page não está aberta
+    palavras_e = palavras_chave(e.get('titulo'))
+    for tv in titulos_vencidos:
+        if palavras_e and tv and len(palavras_e & tv) / min(len(palavras_e), len(tv)) >= 0.75:
+            return False
+
+    # 3. Se tiver verificação automática, exige que sem_data_final seja 1 E tenha frase explícita de abertura contínua
+    trecho_ab = (e.get("v_trecho_abertura") or "").lower()
+    texto_completo = f"{e.get('titulo','')} {e.get('descricao','')} {trecho_ab}".lower()
+
+    if e.get("v_sem_data_final") == 0:
+        # Foi verificado pelo radar_automacao e reprovado como fluxo contínuo (ex: anexo sem data ou regulamento condicional)
+        if not re.search(r"inscri[cç][oõ]es permanecer[aã]o abertas em fluxo cont[ií]nuo|chamada prospectiva cont[ií]nua", texto_completo):
+            return False
+
+    return bool(re.search(r"fluxo cont[ií]nuo|inscri[cç][oõ]es cont[ií]nuas|chamada prospectiva cont[ií]nua", texto_completo))
+
+
+def ano_antigo_detectado(e, ano_atual=None, titulos_vencidos=()):
     if ano_atual is None:
         ano_atual = datetime.now().year
     texto_completo = f"{e.get('titulo','')} {e.get('url','')} {e.get('descricao','')} {e.get('requisitos','')} {e.get('trecho_prazo','')}".lower()
 
     # 1. Se for fluxo contínuo, NUNCA é fantasma (mesmo se citado ano anterior)
-    if eh_fluxo_continuo(e):
+    if eh_fluxo_continuo(e, titulos_vencidos):
         return False
 
     # 2. Se tiver menção a anos anteriores ao atual, é fantasma
@@ -27,10 +53,6 @@ def ano_antigo_detectado(e, ano_atual=None):
         if ano in texto_completo:
             return True
     return False
-
-
-def normalizar(s):
-    return re.sub(r'\W+', ' ', (s or '').lower()).strip()
 
 
 def eh_duplicado(novo, existentes):
@@ -67,7 +89,7 @@ def exportar():
 
     try:
         cursor.execute("""
-            SELECT e.*, v.sem_data_final AS v_sem_data_final
+            SELECT e.*, v.sem_data_final AS v_sem_data_final, v.trecho_abertura AS v_trecho_abertura
             FROM editais e
             LEFT JOIN verificacoes_automaticas v ON v.edital_id = e.id
             ORDER BY e.valor DESC, length(e.url) ASC
@@ -81,6 +103,13 @@ def exportar():
     hoje = datetime.now()
     hoje_str = hoje.strftime('%Y-%m-%d')
 
+    # Mapeia títulos de editais que já têm prazo vencido comprovado no banco
+    titulos_vencidos = [
+        palavras_chave(r['titulo'])
+        for r in rows
+        if r['prazo'] and r['prazo'] < hoje_str
+    ]
+
     # Validade da verificação para o frontend (renovada a cada execução do robô)
     validade_iso = (hoje + timedelta(hours=48)).strftime('%Y-%m-%dT%H:%M:%S.000Z')
 
@@ -90,11 +119,11 @@ def exportar():
 
     for row in rows:
         e = dict(row)
-        if ano_antigo_detectado(e, hoje.year):
+        if ano_antigo_detectado(e, hoje.year, titulos_vencidos):
             continue
 
         prazo = e.get('prazo')
-        continuo = eh_fluxo_continuo(e)
+        continuo = eh_fluxo_continuo(e, titulos_vencidos)
 
         if prazo:
             # Ignora editais cujo prazo de inscrição já passou
