@@ -52,8 +52,8 @@ jobs:
           git add radar.db docs/editais.json data/
           if ! git diff --cached --quiet; then
             git commit -m "🤖 Robô: Atualização automática de editais"
-            git pull --rebase origin main || git rebase --abort
-            git push origin main || git push -f origin main
+            git pull --rebase origin main
+            git push origin main
           fi
 """
     p.write_text(conteudo)
