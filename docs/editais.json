@@ -6,7 +6,7 @@
   "est": "Qualquer",
   "v": 100000000.0,
   "prazo": "2027-01-14",
-  "d": 61,
+  "d": 60,
   "desc": "Chamada pública de recursos não reembolsáveis da Finep para apoiar projetos de soluções tecnológicas voltadas a Empreendimentos Econômicos Solidários.",
   "link": "https://faleconosco.finep.gov.br/web/guest/w/finep-publica-chamada-de-r-100-milh%C3%B5es-para-impulsionar-solu%C3%A7%C3%B5es-tecnol%C3%B3gicas-na-economia-solid%C3%A1ria",
   "n": 1,
@@ -18,7 +18,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2027-01-14T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
@@ -27,7 +27,7 @@
   "est": "Qualquer",
   "v": 2000000.0,
   "prazo": "2026-12-09",
-  "d": 25,
+  "d": 24,
   "desc": "Segunda edição do HubMG Gov disponibiliza R$ 20 milhões para solucionar desafios do setor público em Minas Gerais.",
   "link": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/governo-de-minas-lanca-edital-de-r-20-milhoes-para-solucionar-desafios-do-setor-publico",
   "n": 1,
@@ -39,7 +39,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-12-09T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "6ª edição do Inova Startups",
@@ -48,19 +48,19 @@
   "est": "Tração",
   "v": 800000.0,
   "prazo": "2026-11-30",
-  "d": 16,
-  "desc": "Programa de aceleração e investimento para startups de todo o Brasil, oferecendo até R$ 800 mil em aportes e trilha de capacitação.",
+  "d": 15,
+  "desc": "Programa de investimento e aceleração para startups de todo o Brasil, oferecendo aporte acumulado de até R$ 800 mil e trilha de capacitação.",
   "link": "https://inovastartups.com.br",
   "n": 1,
   "r": 0,
   "revisar": 0,
   "status": "aberto",
-  "requisitos": "Startups com solução inovadora, digital e escalável, CNPJ ativo (Ltda, S.A., MEI, empresário individual), equipe com pelo menos 2 pessoas dedicadas e tração comprovada.",
+  "requisitos": "Solução inovadora, digital e escalável; valuation post-money negociável até R$ 15 milhões; CNPJ (Ltda, S.A., MEI ou empresário individual); equipe com pelo menos 2 pessoas e 2 representantes dedicados integralmente; tração comprovada.",
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-30T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "Batch #36 - WOW Aceleradora",
@@ -69,7 +69,7 @@
   "est": "Qualquer",
   "v": 500000.0,
   "prazo": "2026-12-13",
-  "d": 29,
+  "d": 28,
   "desc": "Programa de aceleração do Batch #36 da WOW com investimento inicial de até R$ 500K, mentorias e rede de investidores para startups.",
   "link": "https://www.wow.ac/inscricao",
   "n": 1,
@@ -81,7 +81,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-12-13T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "Silicon Valley Spring 2027",
@@ -90,7 +90,7 @@
   "est": "Ideação e MVP",
   "v": 0,
   "prazo": "2026-12-08",
-  "d": 24,
+  "d": 23,
   "desc": "Programa de aceleração global do Founder Institute para apoiar startups na busca por tração e financiamento.",
   "link": "https://fi.co/join",
   "n": 1,
@@ -102,7 +102,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-12-08T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "BNDES Garagem - Ciclo 03 da 3ª Edição",
@@ -111,7 +111,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-11-30",
-  "d": 16,
+  "d": 15,
   "desc": "Programa de aceleração para 100 startups de impacto socioambiental, oferecendo apoio técnico, mentorias e conexões com investidores.",
   "link": "https://garagem.bndes.gov.br",
   "n": 1,
@@ -123,7 +123,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-30T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "Processo Seletivo para o Programa de Residência em Inovação NIDUS",
@@ -132,7 +132,7 @@
   "est": "Ideação e MVP",
   "v": 0,
   "prazo": "2026-12-31",
-  "d": 47,
+  "d": 46,
   "desc": "Programa de Residência em Inovação do NIDUS para desenvolvimento de competências empreendedoras e modelos de negócios.",
   "link": "https://auspin.usp.br/nidus2026/",
   "n": 1,
@@ -144,7 +144,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-12-31T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "CHAMADA PROSPECTIVA CONTÍNUA PARA PORTFÓLIO FINATEC E APOIADAS",
@@ -165,7 +165,28 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
+ },
+ {
+  "t": "Hello Tomorrow Challenge 2026",
+  "o": "Hello Tomorrow",
+  "tipo": "Prêmio",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-11-30",
+  "d": 15,
+  "desc": "Competição global de deep tech para startups. Oferece conexões, visibilidade e prêmio em dinheiro para o vencedor.",
+  "link": "https://hello-tomorrow.org/global-challenge",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Startups de deep tech de qualquer lugar do mundo com equipe de pelo menos duas pessoas.",
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-11-30T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "Startup Competition 2027 | South Summit Madrid",
@@ -174,7 +195,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2027-01-31",
-  "d": 78,
+  "d": 77,
   "desc": "Competição global onde 100 startups fazem pitch ao vivo em Madri para disputar prêmios e se conectar com investidores e grandes empresas.",
   "link": "https://www.southsummit.io/pt/content/startup-competition",
   "n": 1,
@@ -186,17 +207,17 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2027-01-31T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "Desafio Empreende com IA no Google Campus SP",
   "o": "Agência USP de Inovação (AUSPIN)",
-  "tipo": "Aceleração",
+  "tipo": "Inovação aberta",
   "est": "Ideação e MVP",
   "v": 0,
   "prazo": "2026-11-20",
-  "d": 6,
-  "desc": "Desafio prático de Vibe Coding para estudantes desenvolverem soluções com Inteligência Artificial no Google Campus SP.",
+  "d": 5,
+  "desc": "Desafio prático de Vibe Coding utilizando Google Gemini para desenvolver soluções inovadoras com Inteligência Artificial em equipes.",
   "link": "https://auspin.usp.br/desafio-empreende-com-ia-no-google-campus-sp-esta-com-as-inscricoes-abertas/",
   "n": 1,
   "r": 0,
@@ -207,7 +228,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-20T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "2º Desafio de Inovação Aberta InovaSerra",
@@ -216,7 +237,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-11-16",
-  "d": 2,
+  "d": 1,
   "desc": "2º Desafio de Inovação Aberta InovaSerra conecta startups a grandes empresas para solucionar desafios reais.",
   "link": "https://www.serra.es.gov.br/noticias/serra-lanca-2-desafio-inovaserra-e-conecta-startups-a-grandes-empresas",
   "n": 1,
@@ -228,7 +249,7 @@
   "validado_manualmente": false,
   "sem_data_final": false,
   "prazo_iso": "2026-11-16T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "FINEP Amazônia - Bioeconomia e Desenvolvimento Regional (Subvenção Econômica em Fluxo Contínuo)",
@@ -249,7 +270,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -270,6 +291,6 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-11-16T15:32:31.000Z"
+  "verificacao_valida_ate": "2026-11-17T14:22:01.000Z"
  }
 ]
