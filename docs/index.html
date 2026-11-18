@@ -141,7 +141,8 @@ function setData(list,label,isDemo){
       if(e.continuo && /(^|\.)wow\.ac$/i.test(new URL(e.link,location.href).hostname))e.automatico=false;
       if(e.continuo)e.pend=false;
       e.limite=e.continuo?Infinity:Date.parse(list[i].prazo_iso||"");
-      e.validade=Date.parse(list[i].verificacao_valida_ate||"");
+      var val=Date.parse(list[i].verificacao_valida_ate||"");
+      e.validade=e.continuo?(Number.isFinite(val)?val:Infinity):e.limite;
     });
   var vistos=new Set();
   E.forEach(function(e){

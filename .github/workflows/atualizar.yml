@@ -33,15 +33,19 @@ jobs:
           pip install -r requirements.txt
 
       - name: 1. Buscar e extrair novos editais (IA)
+        continue-on-error: true
         run: python -u radar.py run
 
       - name: 2. Resgatar prazos que a IA falhou (Regex)
+        if: always()
         run: python resgatar_pendencias.py
 
       - name: 3. Exportar JSON formatado para o site
+        if: always()
         run: python exportar_manual.py
 
       - name: 4. Salvar tudo de volta no GitHub
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

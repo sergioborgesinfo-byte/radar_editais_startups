@@ -111,7 +111,7 @@ def exportar():
     ]
 
     # Validade da verificação para o frontend (renovada a cada execução do robô)
-    validade_iso = (hoje + timedelta(hours=48)).strftime('%Y-%m-%dT%H:%M:%S.000Z')
+    validade_padrao_iso = (hoje + timedelta(days=30)).strftime('%Y-%m-%dT%H:%M:%S.000Z')
 
     ignorados_vencidos = 0
     ignorados_sem_prazo = 0
@@ -131,11 +131,13 @@ def exportar():
                 ignorados_vencidos += 1
                 continue
             prazo_iso = f"{prazo}T23:59:59.999-03:00"
+            validade_item_iso = prazo_iso
             sem_data_final = False
             revisar = 0
             dias = (datetime.strptime(prazo, "%Y-%m-%d").date() - hoje.date()).days
         elif continuo:
             prazo_iso = None
+            validade_item_iso = validade_padrao_iso
             sem_data_final = True
             revisar = 0
             dias = None
@@ -163,7 +165,7 @@ def exportar():
             "validado_manualmente": False,
             "sem_data_final": sem_data_final,
             "prazo_iso": prazo_iso,
-            "verificacao_valida_ate": validade_iso
+            "verificacao_valida_ate": validade_item_iso
         }
 
         if eh_duplicado(item, saida):
