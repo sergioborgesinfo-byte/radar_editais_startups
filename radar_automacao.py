@@ -23,6 +23,12 @@ DOMINIOS = (
     "fapitec.se.gov.br", "fapesq.rpp.br", "prosas.com.br", "inovativa.online",
     "inovativabrasil.com.br", "enap.gov.br", "abdi.com.br", "embrapii.org.br",
     "finatec.org.br", "cbamazonia.org", "portodigital.org",
+    "ufla.br", "ufv.br", "ufrj.br", "ufrgs.br", "ufsc.br", "ufpr.br", "ufba.br",
+    "ufc.br", "unb.br", "ufes.br", "ufg.br", "ufpa.br", "ufscar.br", "ufu.br",
+    "ufjf.br", "ufop.br", "ufabc.edu.br", "unifei.edu.br", "pucrs.br", "puc-rio.br",
+    "pucpr.br", "bhtec.org.br", "superaparque.com.br", "pqtec.org.br", "certi.org.br",
+    "biominas.org.br", "inatel.br", "cietec.org.br", "sapiensparque.com.br",
+    "f6s.com", "even3.com.br",
 )
 FONTES = (
     ("Finep Tecnologias Digitais — fonte oficial", "https://www.finep.gov.br/e/chamada-publica/222684/755485"),
@@ -40,8 +46,10 @@ Além dos campos já solicitados, responda:
 "inscricoes_abertas": boolean,
 "trecho_abertura": citação literal de inscrição atualmente aberta,
 "sem_data_final": boolean.
-Aceite programas de aceleração, incubação, desafios e seleção de investimento
-para startups, mesmo sem a palavra edital. e_edital significa oportunidade concreta.
+Aceite programas de aceleração, incubação (presencial, residente, virtual ou associada),
+pré-incubação, seleção de empresas residentes/associadas em parques tecnológicos,
+programas para spin-offs acadêmicas ou empresas de base tecnológica (EBTs), desafios
+e seleção de investimento para startups, mesmo sem a palavra edital. e_edital significa oportunidade concreta.
 sem_data_final=true somente para inscrições abertas sem data final definida.
 Não confunda newsletter, banco genérico de contatos ou "em breve" com seleção aberta.
 Não use sem_data_final para ignorar uma data vencida. Em notícias antigas sem
@@ -98,7 +106,8 @@ def host(url):
 def institucional(url):
     h = host(url)
     return bool(h) and (
-        h.endswith((".gov.br", ".edu.br"))
+        h.endswith((".gov.br", ".edu.br", ".org.br"))
+        or bool(re.search(r"(?:^|\.)(?:uf[a-z]{1,6}|un[a-z]{1,6}|cefet[a-z0-9-]*|if[a-z]{1,6})\.br$", h))
         or any(h == d or h.endswith("." + d) for d in _dominios)
     )
 

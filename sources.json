@@ -181,6 +181,42 @@
       "tipo": "listagem",
       "max_links": 30,
       "seguir_links_externos": true
+    },
+    {
+      "nome": "IpêTech / UFLA — Parque Científico e Tecnológico de Lavras",
+      "url": "https://ipetech.ufla.br/editais/listar/abertos/todos",
+      "tipo": "listagem",
+      "max_links": 40
+    },
+    {
+      "nome": "CenTev / tecnoPARQ / UFV — Incubadora e Parque Tecnológico de Viçosa",
+      "url": "https://centev.ufv.br/",
+      "tipo": "listagem",
+      "max_links": 40
+    },
+    {
+      "nome": "BH-TEC / UFMG — Parque Tecnológico de Belo Horizonte",
+      "url": "https://bhtec.org.br/editais/",
+      "tipo": "listagem",
+      "max_links": 30
+    },
+    {
+      "nome": "Inova Unicamp — Agência de Inovação e Parque Científico",
+      "url": "https://www.inova.unicamp.br/",
+      "tipo": "listagem",
+      "max_links": 30
+    },
+    {
+      "nome": "Supera Parque (USP Ribeirão Preto) — Incubadora e Parque Tecnológico",
+      "url": "https://superaparque.com.br/",
+      "tipo": "listagem",
+      "max_links": 30
+    },
+    {
+      "nome": "Prosas — Central de Editais de Inovação e Fomento",
+      "url": "https://prosas.com.br/editais",
+      "tipo": "listagem",
+      "max_links": 40
     }
   ],
   "programas": [
@@ -320,7 +356,10 @@
       "site:facepe.br edital inovação startups cientista arretado {ano}",
       "site:santotech.com.br edital chamada inovação startups {ano}",
       "edital mulheres empreendedoras inovação tecnologia startups {ano}",
-      "ciclo inovação aberta solução tecnológica premiação aceleração {ano}"
+      "ciclo inovação aberta solução tecnológica premiação aceleração {ano}",
+      "edital incubadora empresas base tecnológica parque tecnológico fluxo contínuo {ano}",
+      "edital seleção empresas residentes associadas parque científico tecnológico {ano}",
+      "site:ipetech.ufla.br OR site:centev.ufv.br OR site:bhtec.org.br edital incubação startups"
     ],
     "links_por_resultado": 3
   },

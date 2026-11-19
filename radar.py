@@ -64,7 +64,7 @@ def _agora():
     return datetime.now(timezone.utc).replace(tzinfo=None)
 
 CHAVES = re.compile(
-    r"edital|editais|chamada|chamamento|sele[cç][aã]o|inscri[cç][oõ]es|fomento|subven[cç][aã]o|incuba|acelera|desafio|pr[eê]mio|concurso|oportunidade|programa|ciclo",
+    r"edital|editais|chamada|chamamento|sele[cç][aã]o|inscri[cç][oõ]es|fomento|subven[cç][aã]o|incuba|acelera|desafio|pr[eê]mio|concurso|oportunidade|programa|ciclo|residente|associad|parque|spin-?off|base\s+tecnol[oó]gica",
     re.I,
 )
 
