@@ -16,6 +16,13 @@ DOMINIOS = (
     "venturehub.se", "tecnosinos.com.br", "startup.google.com", "startup.google.com.br",
     "wow.ac", "darwinstartups.com", "aceventures.com.br", "fi.co",
     "usp.br", "unicamp.br", "ufpe.br", "ufmg.br", "pucminas.br", "unesp.br",
+    "facepe.br", "fapemig.br", "fapesp.br", "faperj.br", "fapergs.rs.gov.br",
+    "fapesb.ba.gov.br", "funcap.ce.gov.br", "fara.pr.gov.br", "fapt.to.gov.br",
+    "fapema.br", "fapeal.br", "fapepi.pi.gov.br", "fapeg.go.gov.br", "fapemat.mt.gov.br",
+    "fundect.ms.gov.br", "fapespa.pa.gov.br", "fapero.ro.gov.br", "faperr.rr.gov.br",
+    "fapitec.se.gov.br", "fapesq.rpp.br", "prosas.com.br", "inovativa.online",
+    "inovativabrasil.com.br", "enap.gov.br", "abdi.com.br", "embrapii.org.br",
+    "finatec.org.br", "cbamazonia.org", "portodigital.org",
 )
 FONTES = (
     ("Finep Tecnologias Digitais — fonte oficial", "https://www.finep.gov.br/e/chamada-publica/222684/755485"),

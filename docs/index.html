@@ -61,6 +61,28 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
 .busca-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:16px 0}
 .busca-stat{padding:12px;border-radius:8px;background:var(--acc-t)}.busca-stat strong{display:block;font-size:1.6rem}.busca-stat span{font-size:.8rem}
 .busca-panel .item{margin-top:10px}.busca-panel .tags{margin-top:10px}.busca-panel button{min-height:44px}
+.match-cta{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 14px;margin-bottom:14px;border-radius:10px;background:var(--acc-t);border:1px solid var(--acc)}
+.match-cta-info strong{display:block;color:var(--acc);font-size:.98rem}
+.match-cta-info span{font-size:.82rem;color:var(--mute)}
+.btn-primary{background:var(--acc);color:var(--card);border:1px solid var(--acc);font-weight:600;padding:8px 14px;border-radius:8px}
+.match-panel{margin:0 0 18px;padding:16px;border:2px solid var(--acc);border-radius:12px;background:var(--card)}
+.match-panel[hidden]{display:none}
+.match-panel h2{margin:0 0 4px;font-size:1.2rem}
+.match-grid{display:grid;gap:12px;grid-template-columns:1fr;margin:14px 0}
+@media (min-width:600px){.match-grid{grid-template-columns:1fr 1fr}}
+.match-field label{display:block;font-size:.82rem;font-weight:600;margin-bottom:4px;color:var(--ink)}
+.match-field select,.match-field input{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 10px;width:100%}
+.match-checks{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.match-check{display:inline-flex;align-items:center;gap:6px;font-size:.82rem;background:var(--bg);border:1px solid var(--line);border-radius:99px;padding:5px 11px;cursor:pointer;user-select:none}
+.match-check input{margin:0;accent-color:var(--acc)}
+.tag.match-hi{background:#d1fae5;color:#065f46;font-weight:700;border:1px solid #34d399}
+.tag.match-md{background:var(--acc-t);color:var(--acc);font-weight:600}
+.tag.match-lo{background:var(--bad-t);color:var(--bad)}
+:root[data-theme="dark"] .tag.match-hi{background:#064e3b;color:#6ee7b7;border-color:#059669}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tag.match-hi{background:#064e3b;color:#6ee7b7;border-color:#059669}}
+.match-reason{font-size:.82rem;color:var(--ok);background:var(--bg);border-left:3px solid var(--ok);padding:6px 10px;border-radius:4px;margin:8px 0}
+.match-reason.warn{color:var(--warn);border-left-color:var(--warn)}
+.match-reason.bad{color:var(--bad);border-left-color:var(--bad)}
 .credit-footer{text-align:center;padding:1rem 1rem .8rem;margin-top:1.5rem;color:var(--mute);font-size:.75rem;border-top:1px solid var(--line)}
 .credit-footer strong{color:var(--ink);font-weight:600}
 .credit-footer .sub{font-size:.65rem;margin:0.2rem auto 0;opacity:.75}
@@ -87,12 +109,97 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
     <div class="bar" style="margin-top:16px"><button id="busca-prev" type="button">Anterior</button><button id="busca-next" type="button">Próxima</button></div>
   </section>
   <div id="src" class="demo"></div>
+  <div class="match-cta" id="match-banner">
+    <div class="match-cta-info">
+      <strong id="match-banner-title">🎯 Recomendação Inteligente para sua Startup</strong>
+      <span id="match-banner-sub">Informe o perfil da sua startup (UF, CNPJ, estágio e setor) para descobrir os editais mais indicados para você se inscrever.</span>
+    </div>
+    <div class="acts">
+      <button id="match-toggle" type="button" class="btn-primary" aria-expanded="false" aria-controls="match-panel">Configurar perfil da Startup</button>
+      <button id="match-clear-top" type="button" hidden>Limpar perfil</button>
+    </div>
+  </div>
+  <section id="match-panel" class="match-panel" hidden aria-label="Perfil da Startup para Recomendação">
+    <h2>Perfil da sua Startup</h2>
+    <p class="sub" style="margin-bottom:10px">Cruzamos seus dados com os requisitos, localização, foco e estágio de cada edital aberto.</p>
+    <div class="match-grid">
+      <div class="match-field">
+        <label for="p-nome">Nome da Startup ou Projeto (opcional)</label>
+        <input id="p-nome" type="text" placeholder="Ex.: AgroIA Soluções">
+      </div>
+      <div class="match-field">
+        <label for="p-uf">Estado (UF) de sede ou residência</label>
+        <select id="p-uf">
+          <option value="">Selecione seu estado...</option>
+          <option value="AC">Acre (AC)</option><option value="AL">Alagoas (AL)</option><option value="AM">Amazonas (AM)</option>
+          <option value="AP">Amapá (AP)</option><option value="BA">Bahia (BA)</option><option value="CE">Ceará (CE)</option>
+          <option value="DF">Distrito Federal (DF)</option><option value="ES">Espírito Santo (ES)</option><option value="GO">Goiás (GO)</option>
+          <option value="MA">Maranhão (MA)</option><option value="MG">Minas Gerais (MG)</option><option value="MS">Mato Grosso do Sul (MS)</option>
+          <option value="MT">Mato Grosso (MT)</option><option value="PA">Pará (PA)</option><option value="PB">Paraíba (PB)</option>
+          <option value="PE">Pernambuco (PE)</option><option value="PI">Piauí (PI)</option><option value="PR">Paraná (PR)</option>
+          <option value="RJ">Rio de Janeiro (RJ)</option><option value="RN">Rio Grande do Norte (RN)</option><option value="RO">Rondônia (RO)</option>
+          <option value="RR">Roraima (RR)</option><option value="RS">Rio Grande do Sul (RS)</option><option value="SC">Santa Catarina (SC)</option>
+          <option value="SE">Sergipe (SE)</option><option value="SP">São Paulo (SP)</option><option value="TO">Tocantins (TO)</option>
+        </select>
+      </div>
+      <div class="match-field">
+        <label for="p-cnpj">Situação Jurídica (CNPJ)</label>
+        <select id="p-cnpj">
+          <option value="sim">Já possuo CNPJ ativo (MEI, ME, EPP ou Ltda/S.A.)</option>
+          <option value="nao">Ainda não tenho CNPJ (Pessoa Física / Equipe)</option>
+        </select>
+      </div>
+      <div class="match-field">
+        <label for="p-est">Estágio atual da Startup</label>
+        <select id="p-est">
+          <option value="Ideação e MVP">Ideação, Pesquisa ou MVP / Protótipo</option>
+          <option value="Tração">Operação e Tração (primeiros clientes / receita)</option>
+          <option value="Escala">Escala e Expansão</option>
+        </select>
+      </div>
+      <div class="match-field">
+        <label for="p-setor">Setor / Vertical principal</label>
+        <select id="p-setor">
+          <option value="geral">SaaS / B2B / B2C / Tecnologia Geral</option>
+          <option value="ia_deeptech">Inteligência Artificial / DeepTech / Ciência</option>
+          <option value="govtech">GovTech / Inovação Aberta & Setor Público</option>
+          <option value="agritech_bio">Agritech / Bioeconomia / Alimentos</option>
+          <option value="healthtech">Healthtech / Saúde / Biotecnologia</option>
+          <option value="impacto_esg">Impacto Socioambiental / Sustentabilidade (ESG)</option>
+        </select>
+      </div>
+      <div class="match-field">
+        <label for="p-busca">O que você busca prioritariamente?</label>
+        <select id="p-busca">
+          <option value="">Qualquer modalidade (Subvenção, Aceleração, Prêmio...)</option>
+          <option value="Subvenção">Subvenção Econômica (recursos não reembolsáveis)</option>
+          <option value="Aceleração">Aceleração, Mentoria e Investimento</option>
+          <option value="Incubação">Incubação e Apoio Universitário/Parque</option>
+          <option value="Inovação aberta">Inovação Aberta (Desafios / Contratos)</option>
+          <option value="Prêmio">Prêmios e Competições de Pitch</option>
+        </select>
+      </div>
+    </div>
+    <div class="match-field" style="margin-bottom:14px">
+      <label>Diferenciais e Vínculos da Equipe (marque os que se aplicam)</label>
+      <div class="match-checks">
+        <label class="match-check"><input type="checkbox" id="p-mulheres"> Liderança ou fundadora mulher</label>
+        <label class="match-check"><input type="checkbox" id="p-ict"> Vínculo/parceria com Universidade, ICT ou Pesquisador</label>
+        <label class="match-check"><input type="checkbox" id="p-estudante"> Estudante universitário ou recém-graduado na equipe</label>
+        <label class="match-check"><input type="checkbox" id="p-ocultar-incomp"> Ocultar editais incompatíveis com meu Estado/CNPJ</label>
+      </div>
+    </div>
+    <div class="bar" style="margin-bottom:0">
+      <button id="match-save" type="button" class="btn-primary">Salvar perfil e ver recomendações</button>
+      <button id="match-close" type="button">Fechar</button>
+    </div>
+  </section>
   <div class="bar" hidden><button id="imp" type="button" hidden>Importar editais.json</button><button id="rst" type="button" hidden>Voltar aos exemplos</button><input id="file" type="file" accept=".json,application/json" hidden></div>
   <div class="tools">
     <input id="q" type="search" placeholder="Buscar por tema, órgão ou palavra-chave" aria-label="Buscar editais">
     <select id="tipo" aria-label="Tipo"><option value="">Todos os tipos</option></select>
     <select id="est" aria-label="Estágio"><option value="">Todos os estágios</option></select>
-    <select id="ord" aria-label="Ordenar"><option value="prazo">Prazo mais próximo</option><option value="valor">Maior valor</option></select>
+    <select id="ord" aria-label="Ordenar"><option value="match">Recomendados para mim (Match)</option><option value="prazo">Prazo mais próximo</option><option value="valor">Maior valor</option></select>
   </div>
   <div class="meta"><span id="cnt"></span><span></span></div>
   <div class="list" id="list"></div>
@@ -108,15 +215,127 @@ var DEMO=[
 {t:"Bolsas de pesquisa para inovação em empresas",o:"Fundação de Amparo Estadual (exemplo)",tipo:"Bolsa",est:"Ideação e MVP",v:180000,d:3,desc:"Bolsas para pesquisadores atuando em startups de base tecnológica.",r:1},
 {t:"Prêmio de startups de impacto social",o:"Instituto de Impacto (exemplo)",tipo:"Prêmio",est:"Tração",v:100000,d:-6,desc:"Premiação em dinheiro e visibilidade para negócios com impacto social mensurável."}
 ];
-var E=[],saved={};
+var E=[],saved={},perfil=null;
 try{saved=JSON.parse(localStorage.getItem("radar-seguidos")||"{}")}catch(e){}
+try{perfil=JSON.parse(localStorage.getItem("radar-perfil-startup")||"null")}catch(e){}
 function persist(){try{localStorage.setItem("radar-seguidos",JSON.stringify(saved))}catch(e){}}
 function norm(x){
   var dt,hoje=new Date();hoje.setHours(0,0,0,0);
   if(x.prazo&&/^\d{4}-\d{2}-\d{2}$/.test(x.prazo)){var p=x.prazo.split("-");dt=new Date(+p[0],+p[1]-1,+p[2])}else if(typeof x.d==="number"&&Number.isFinite(x.d)){
     dt=D(x.d)
   }else{dt=null}
-  return {t:x.t||"Sem título",o:x.o||"",tipo:x.tipo||"Outro",est:x.est||"Qualquer",v:+x.v||0,desc:x.desc||"",link:x.link||"",n:x.n,r:x.r,rev:x.revisar,fora:foraDoFoco(x),dt:dt,pend:!dt||!!Number(x.revisar),d:dt?Math.round((dt-hoje)/864e5):null}
+  return {t:x.t||"Sem título",o:x.o||"",tipo:x.tipo||"Outro",est:x.est||"Qualquer",v:+x.v||0,desc:x.desc||"",requisitos:x.requisitos||"",ufs:x.ufs||null,exige_cnpj:x.exige_cnpj,aceita_pf:x.aceita_pf,setores:x.setores||null,perfis:x.perfis||null,link:x.link||"",n:x.n,r:x.r,rev:x.revisar,fora:foraDoFoco(x),dt:dt,pend:!dt||!!Number(x.revisar),d:dt?Math.round((dt-hoje)/864e5):null}
+}
+var MAPA_UFS_JS=[
+  ["AC",/\bacre\b|fapac/],["AL",/\balagoas\b|fapeal/],["AM",/\bamazonas\b|fapeam|\bmanaus\b/],
+  ["AP",/\bamapa\b|fapeap/],["BA",/\bbahia\b|fapesb/],["CE",/\bceara\b|funcap/],
+  ["DF",/\bdistrito federal\b|fapdf|\bbrasilia\b|\bride\b/],["ES",/\bespirito santo\b|fapes\b|\bserra\b|inovaserra|seedes/],
+  ["GO",/\bgoias\b|fapeg|hubgoias/],["MA",/\bmaranhao\b|fapema/],
+  ["MG",/\bminas gerais\b|\bmineir[ao]s?\b|fapemig|hubmg|puc minas|puctec|belo horizonte/],
+  ["MS",/\bmato grosso do sul\b|fundect/],["MT",/\bmato grosso\b(?! do sul)|fapemat/],
+  ["PA",/\bpara\b|fapespa/],["PB",/\bparaiba\b|fapesq/],["PE",/\bpernambuco\b|facepe|porto digital/],
+  ["PI",/\bpiaui\b|fapepi/],["PR",/\bparana\b|fundacao araucaria|fara\.pr/],
+  ["RJ",/\brio de janeiro\b|\bcariocas?\b|faperj|invest\.rio|maravalley|startup rio/],
+  ["RN",/\brio grande do norte\b|fapern|ifrn/],["RO",/\brondonia\b|fapero/],["RR",/\broraima\b|faperr|ifrr/],
+  ["RS",/\brio grande do sul\b|\bgauch[ao]s?\b|fapergs|tecnosinos|tecnopuc/],
+  ["SC",/\bsanta catarina\b|\bcatarinense\b|fapesc|acate/],["SE",/\bsergipe\b|fapitec/],
+  ["SP",/\bsao paulo\b|\bpaulistas?\b|fapesp/],["TO",/\btocantins\b|fapt/]
+];
+var AMAZONIA_JS=["AC","AM","AP","MA","MT","PA","RO","RR","TO"];
+function inferirMeta(e){
+  var txt=textoTriagem(e.t+" "+e.o+" "+e.desc+" "+e.requisitos+" "+e.link);
+  var req=textoTriagem(e.requisitos+" "+e.desc);
+  var ufs=Array.isArray(e.ufs)&&e.ufs.length?e.ufs.slice():[];
+  if(!ufs.length){
+    if(/amazonia legal|\bamazonia\b|bionegocios da amazonia|\bcba\b/.test(txt))ufs=AMAZONIA_JS.slice();
+    var nac=/todo o pais|todo o brasil|qualquer estado|qualquer pais|territorio nacional|ambito nacional/.test(req);
+    if(!nac){MAPA_UFS_JS.forEach(function(m){if(m[1].test(txt)&&ufs.indexOf(m[0])<0)ufs.push(m[0])})}
+    if(!ufs.length||nac)ufs=["NACIONAL"];
+  }
+  var exige_cnpj=typeof e.exige_cnpj==="boolean"?e.exige_cnpj:(/cnpj ativo|empresas brasileiras|sede ou filial|inscricao no cnpj|pessoas juridicas|faturamento|cooperativas/.test(req)&&!/inclusive sem cnpj|pessoas fisicas e juridicas|com ou sem cnpj/.test(req));
+  var setores=Array.isArray(e.setores)&&e.setores.length?e.setores.slice():[];
+  if(!setores.length){
+    if(/inteligencia artificial|\bia\b|\bai\b|deep tech|vibe coding|cientific|biotecnologia|hardware/.test(txt))setores.push("ia_deeptech");
+    if(/govtech|setor publico|desafios publicos|inovacao publica|governo|prefeitura|sicar|\bcar\b|bem publico digital/.test(txt))setores.push("govtech");
+    if(/agritech|agro|bioeconomia|bionegocios|biodiversidade|rural|alimentos|foodtech/.test(txt))setores.push("agritech_bio");
+    if(/healthtech|saude|medic|hospital|biominas|farmaco/.test(txt))setores.push("healthtech");
+    if(/impacto socioambiental|impacto social|sustentavel|sustentabilidade|economia solidaria|ambiental|esg/.test(txt))setores.push("impacto_esg");
+    if(!setores.length)setores.push("geral");
+  }
+  var perfis=Array.isArray(e.perfis)&&e.perfis.length?e.perfis.slice():[];
+  if(!perfis.length){
+    if(/mulheres|feminina|empreendedoras/.test(txt))perfis.push("mulheres");
+    if(/\bicts?\b|instituicoes cientificas|pesquisadores|universidade|incubadoras|nits|apoiadas/.test(req))perfis.push("ict_pesquisa");
+    if(/estudantes|graduacao|universitari/.test(req))perfis.push("estudantes");
+  }
+  return {ufs:ufs,exige_cnpj:exige_cnpj,setores:setores,perfis:perfis};
+}
+var NOMES_SETOR={geral:"Tecnologia Geral",ia_deeptech:"IA & DeepTech",govtech:"GovTech / Setor Público",agritech_bio:"Agritech & Bioeconomia",healthtech:"Healthtech & Saúde",impacto_esg:"Impacto Socioambiental"};
+function avaliarMatch(e,p){
+  if(!p||!p.ativo)return null;
+  var m=inferirMeta(e),pts=60,motivos=[],alertas=[],incomp=false;
+  // 1. Localização (UF)
+  var nac=m.ufs.indexOf("NACIONAL")>=0;
+  if(p.uf){
+    if(m.ufs.indexOf(p.uf)>=0){
+      pts+=20;motivos.push("Foco no seu estado ("+p.uf+")");
+    }else if(nac){
+      pts+=12;motivos.push("Abrangência nacional (aceita "+p.uf+")");
+    }else{
+      pts-=45;incomp=true;alertas.push("Restrito a: "+m.ufs.join(", "));
+    }
+  }else if(nac){
+    pts+=10;motivos.push("Abrangência nacional");
+  }
+  // 2. CNPJ vs Pessoa Física
+  if(p.cnpj==="nao"){
+    if(m.exige_cnpj){
+      pts-=35;incomp=true;alertas.push("Exige CNPJ ativo");
+    }else{
+      pts+=12;motivos.push("Aceita inscrição sem CNPJ (Pessoa Física / Equipe)");
+    }
+  }else{
+    pts+=8;
+  }
+  // 3. Estágio
+  if(e.est===p.est){
+    pts+=12;motivos.push("Estágio ideal ("+e.est+")");
+  }else if(e.est==="Qualquer"){
+    pts+=6;
+  }else{
+    pts-=10;alertas.push("Voltado para estágio: "+e.est);
+  }
+  // 4. Setor / Vertical
+  if(p.setor&&m.setores.indexOf(p.setor)>=0){
+    pts+=15;motivos.push("Alinhado ao setor de "+(NOMES_SETOR[p.setor]||p.setor));
+  }else if(m.setores.indexOf("geral")>=0){
+    pts+=5;
+  }else if(p.setor==="geral"){
+    pts-=5;
+  }else{
+    pts-=8;
+  }
+  // 5. Modalidade buscada
+  if(p.busca){
+    if(e.tipo===p.busca){pts+=10;motivos.push("Modalidade buscada ("+e.tipo+")")}
+    else{pts-=4}
+  }
+  // 6. Perfis especiais
+  if(m.perfis.indexOf("mulheres")>=0){
+    if(p.mulheres){pts+=15;motivos.push("Prioriza liderança feminina")}
+    else{pts-=30;incomp=true;alertas.push("Exclusivo/focado em liderança feminina")}
+  }
+  if(m.perfis.indexOf("estudantes")>=0&&!m.exige_cnpj){
+    if(p.estudante||p.ict){pts+=12;motivos.push("Compatível com estudantes/recém-graduados")}
+    else if(p.cnpj==="sim"&&p.est!=="Ideação e MVP"){pts-=15;alertas.push("Focado em estudantes universitários")}
+  }
+  if(m.perfis.indexOf("ict_pesquisa")>=0){
+    if(p.ict){pts+=14;motivos.push("Valoriza vínculo com ICT / Universidade / Pesquisa")}
+  }
+  var score=Math.max(5,Math.min(99,pts));
+  var nivel=incomp?"lo":score>=80?"hi":"md";
+  var resumo=incomp?("Atenção: "+alertas.join(" · ")):("Recomendado: "+(motivos.slice(0,3).join(" · ")||"Compatível com o perfil da sua startup")+(alertas.length?" ("+alertas[0]+")":""));
+  return {score:score,nivel:nivel,incomp:incomp,resumo:resumo,ufs:m.ufs};
 }
 function textoTriagem(s){
   return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim()
@@ -154,26 +373,62 @@ function setData(list,label,isDemo){
   fill("tipo","tipo");fill("est","est");
   $("src").className=isDemo?"demo":"real";$("src").textContent=label;$("rst").hidden=isDemo;render();
 }
+function atualizarBannerPerfil(){
+  if(perfil&&perfil.ativo){
+    var nome=perfil.nome?perfil.nome+" · ":"";
+    var uf=perfil.uf?("UF: "+perfil.uf):("Nacional");
+    var cnpj=perfil.cnpj==="sim"?"Com CNPJ":"Sem CNPJ (PF)";
+    $("match-banner-title").textContent="🎯 Perfil ativo: "+nome+uf+" · "+cnpj+" · "+perfil.est;
+    $("match-banner-sub").textContent="Os editais abaixo estão classificados pela compatibilidade com a sua startup.";
+    $("match-toggle").textContent="Editar perfil";
+    $("match-clear-top").hidden=false;
+  }else{
+    $("match-banner-title").textContent="🎯 Recomendação Inteligente para sua Startup";
+    $("match-banner-sub").textContent="Informe o perfil da sua startup (UF, CNPJ, estágio e setor) para descobrir os editais mais indicados para você se inscrever.";
+    $("match-toggle").textContent="Configurar perfil da Startup";
+    $("match-clear-top").hidden=true;
+  }
+}
 function render(){
-  var q=$("q").value.toLowerCase(),tp=$("tipo").value,es=$("est").value,od=$("ord").value,st="",tr="foco";
+  var q=$("q").value.toLowerCase(),tp=$("tipo").value,es=$("est").value,od=$("ord").value;
+  var temPerfil=!!(perfil&&perfil.ativo);
+  if(!temPerfil&&od==="match")od="prazo";
+  E.forEach(function(e){e.match=temPerfil?avaliarMatch(e,perfil):null});
   var L=E.filter(function(e){
-    return e.automatico && e.limite>Date.now() && e.validade>Date.now() && (e.continuo || (e.d!==null && e.d>=0)) && !e.pend
+    var okBase=e.automatico && e.limite>Date.now() && e.validade>Date.now() && (e.continuo || (e.d!==null && e.d>=0)) && !e.pend
       && !Number(e.rev) && !e.fora && !e.dup
       && (!tp||e.tipo===tp)
       && (!es||e.est===es)
-      && (!q||(e.t+e.o+e.desc+e.tipo).toLowerCase().indexOf(q)>-1)
+      && (!q||(e.t+e.o+e.desc+e.tipo+(e.requisitos||"")).toLowerCase().indexOf(q)>-1);
+    if(!okBase)return false;
+    if(temPerfil&&perfil.ocultar_incomp&&e.match&&e.match.incomp)return false;
+    return true;
   });
   L.sort(function(a,b){
+    if(od==="match"&&temPerfil&&a.match&&b.match){
+      if(a.match.incomp!==b.match.incomp)return a.match.incomp?1:-1;
+      if(b.match.score!==a.match.score)return b.match.score-a.match.score;
+    }
     if((a.d<0)!==(b.d<0))return a.d<0?1:-1;
     return od==="valor"?b.v-a.v:
     (a.d===null?Infinity:a.d)-(b.d===null?Infinity:b.d)
   });
-  $("cnt").textContent=L.length+(L.length===1?" edital":" editais");
+  var recomendados=temPerfil?L.filter(function(e){return e.match&&!e.match.incomp&&e.match.score>=75}).length:0;
+  $("cnt").textContent=L.length+(L.length===1?" edital":" editais")+(temPerfil?" ("+recomendados+" altamente recomendados para você)":"");
   if($("src").dataset.demo!=="1")$("src").textContent=L.length+(L.length===1?" oportunidade disponível":" oportunidades disponíveis");
   if(!L.length){$("list").innerHTML='<div class="empty">Nenhum edital com prazo vigente registrado nesta seleção.</div>';return}
   $("list").innerHTML=L.map(function(e){
     var enc=e.d!==null&&e.d<0,urg=e.d!==null&&!enc&&e.d<=10,i=E.indexOf(e),k=e.t+"|"+e.o;
-    var tags='<span class="tag">'+esc(e.tipo)+'</span><span class="tag">'+esc(e.est)+'</span>'+(e.n?'<span class="tag new">Novo</span>':'')+(e.r?'<span class="tag ret">Prazo prorrogado</span>':'')+(e.rev?'<span class="tag ret">Prazo precisa de revisão</span>':'');
+    var mTag="",mBox="";
+    if(e.match){
+      var lbl=e.match.incomp?("Baixa compatibilidade ("+e.match.score+"%)"):(e.match.score+"% Compatível");
+      mTag='<span class="tag match-'+e.match.nivel+'">🎯 '+esc(lbl)+'</span>';
+      var rCls=e.match.incomp?"bad":e.match.score>=80?"":"warn";
+      mBox='<div class="match-reason '+rCls+'">'+esc(e.match.resumo)+'</div>';
+    }
+    var metaUfs=(e.ufs||(e.match&&e.match.ufs)||[]);
+    var ufTag=(metaUfs.length&&metaUfs.indexOf("NACIONAL")<0)?'<span class="tag">📍 '+esc(metaUfs.join(", "))+'</span>':'<span class="tag">🇧🇷 Nacional</span>';
+    var tags=mTag+ufTag+'<span class="tag">'+esc(e.tipo)+'</span><span class="tag">'+esc(e.est)+'</span>'+(e.n?'<span class="tag new">Novo</span>':'')+(e.r?'<span class="tag ret">Prazo prorrogado</span>':'')+(e.rev?'<span class="tag ret">Prazo precisa de revisão</span>':'');
     tags+=(e.fora?'<span class="tag ret">Fora do foco de startups</span>':'')
       +(e.dup?'<span class="tag ret">Repetição exata</span>':'');
     var dias=e.continuo?'<b style="font-size:1rem">Inscrições abertas</b><span>Sem data final definida</span>':e.d===null?
@@ -181,7 +436,7 @@ function render(){
     e.pend?'<b style="font-size:1rem">Data a revisar</b><span>'+e.dt.toLocaleDateString("pt-BR")+(e.d<0?' · data passada':'')+'</span>':
     e.d===0?'<b style="font-size:1rem">Prazo hoje</b><span>Confira o horário no edital</span>':enc?'<b>Encerrado</b><span>'+e.dt.toLocaleDateString("pt-BR")+'</span>':'<b>'+e.d+'</b><span>'+(e.d===1?'dia restante':'dias restantes')+'</span>';
     var lnk=/^https?:\/\//.test(e.link)?'<a class="lnk" href="'+esc(e.link)+'" target="_blank" rel="noopener noreferrer">Ver edital</a>':'';
-    return '<article class="item'+(enc?' enc':urg?' urg':'')+'"><div class="top"><div><h2>'+esc(e.t)+'</h2><div class="org">'+esc(e.o)+'</div></div><div class="days">'+dias+'</div></div><p class="desc">'+esc(e.desc)+'</p><div class="tags">'+tags+'</div><div class="foot"><span class="val">'+brl(e.v)+'</span><span class="acts">'+lnk+'<button data-i="'+i+'" aria-pressed="'+(!!saved[k])+'">'+(saved[k]?'Acompanhando':'Acompanhar')+'</button></span></div></article>'
+    return '<article class="item'+(enc?' enc':urg?' urg':'')+'"><div class="top"><div><h2>'+esc(e.t)+'</h2><div class="org">'+esc(e.o)+'</div></div><div class="days">'+dias+'</div></div><p class="desc">'+esc(e.desc)+'</p>'+mBox+'<div class="tags">'+tags+'</div><div class="foot"><span class="val">'+brl(e.v)+'</span><span class="acts">'+lnk+'<button data-i="'+i+'" aria-pressed="'+(!!saved[k])+'">'+(saved[k]?'Acompanhando':'Acompanhar')+'</button></span></div></article>'
   }).join("")
 }
 $("list").addEventListener("click",function(ev){
@@ -189,6 +444,59 @@ $("list").addEventListener("click",function(ev){
   var e=E[+b.getAttribute("data-i")],k=e.t+"|"+e.o;saved[k]=!saved[k];persist();render()
 });
 ["q","tipo","est","ord"].forEach(function(id){$(id).addEventListener("input",render)});
+function popularFormPerfil(){
+  if(!perfil)return;
+  $("p-nome").value=perfil.nome||"";
+  $("p-uf").value=perfil.uf||"";
+  $("p-cnpj").value=perfil.cnpj||"sim";
+  $("p-est").value=perfil.est||"Ideação e MVP";
+  $("p-setor").value=perfil.setor||"geral";
+  $("p-busca").value=perfil.busca||"";
+  $("p-mulheres").checked=!!perfil.mulheres;
+  $("p-ict").checked=!!perfil.ict;
+  $("p-estudante").checked=!!perfil.estudante;
+  $("p-ocultar-incomp").checked=!!perfil.ocultar_incomp;
+}
+$("match-toggle").onclick=function(){
+  var pnl=$("match-panel");
+  pnl.hidden=!pnl.hidden;
+  this.setAttribute("aria-expanded",String(!pnl.hidden));
+  if(!pnl.hidden){popularFormPerfil();pnl.scrollIntoView({block:"nearest",behavior:"smooth"})}
+};
+$("match-close").onclick=function(){
+  $("match-panel").hidden=true;
+  $("match-toggle").setAttribute("aria-expanded","false");
+};
+$("match-save").onclick=function(){
+  perfil={
+    ativo:true,
+    nome:$("p-nome").value.trim(),
+    uf:$("p-uf").value,
+    cnpj:$("p-cnpj").value,
+    est:$("p-est").value,
+    setor:$("p-setor").value,
+    busca:$("p-busca").value,
+    mulheres:$("p-mulheres").checked,
+    ict:$("p-ict").checked,
+    estudante:$("p-estudante").checked,
+    ocultar_incomp:$("p-ocultar-incomp").checked
+  };
+  try{localStorage.setItem("radar-perfil-startup",JSON.stringify(perfil))}catch(e){}
+  $("ord").value="match";
+  $("match-panel").hidden=true;
+  $("match-toggle").setAttribute("aria-expanded","false");
+  atualizarBannerPerfil();
+  render();
+};
+$("match-clear-top").onclick=function(){
+  perfil=null;
+  try{localStorage.removeItem("radar-perfil-startup")}catch(e){}
+  if($("ord").value==="match")$("ord").value="prazo";
+  atualizarBannerPerfil();
+  render();
+};
+if(perfil&&perfil.ativo){$("ord").value="match"}else{$("ord").value="prazo"}
+atualizarBannerPerfil();
 var MSG_DEMO="Dados fictícios de demonstração. Importe o editais.json gerado pelo script para ver dados reais.";
 $("imp").onclick=function(){$("file").click()};
 $("file").onchange=function(){

@@ -101,6 +101,86 @@
       "url": "https://fapesq.rpp.br/editais/",
       "tipo": "listagem",
       "max_links": 50
+    },
+    {
+      "nome": "FACEPE (PE) — Editais",
+      "url": "https://www.facepe.br/editais/todos/",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FAPERGS (RS) — Editais",
+      "url": "https://fapergs.rs.gov.br/abertos",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FAPESB (BA) — Editais",
+      "url": "https://www.fapesb.ba.gov.br/category/editais/",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FUNCAP (CE) — Editais",
+      "url": "https://www.funcap.ce.gov.br/editais-abertos/",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "Fundação Araucária (PR) — Chamadas",
+      "url": "https://www.fara.pr.gov.br/Pagina/Programas-Abertos",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "FAPEG (GO) — Editais",
+      "url": "https://goias.gov.br/fapeg/editais/",
+      "tipo": "listagem",
+      "max_links": 50
+    },
+    {
+      "nome": "Desafios Gov.br (InovaCAR e Inovação Aberta Federal)",
+      "url": "https://www.gov.br/desafios",
+      "tipo": "listagem",
+      "max_links": 40,
+      "seguir_links_externos": true
+    },
+    {
+      "nome": "Desafios ENAP — Inovação Aberta",
+      "url": "https://desafios.enap.gov.br/",
+      "tipo": "listagem",
+      "max_links": 40
+    },
+    {
+      "nome": "Ministério do Empreendedorismo (MEMP) — Editais",
+      "url": "https://www.gov.br/memp/pt-br/acesso-a-informacao/editais",
+      "tipo": "listagem",
+      "max_links": 40
+    },
+    {
+      "nome": "MCTI — Chamadas e Editais",
+      "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/chamadas-publicas",
+      "tipo": "listagem",
+      "max_links": 40
+    },
+    {
+      "nome": "ABDI — Editais e Inovação",
+      "url": "https://www.abdi.com.br/editais",
+      "tipo": "listagem",
+      "max_links": 30
+    },
+    {
+      "nome": "InovAtiva Brasil — Programas e Ciclos",
+      "url": "https://www.inovativa.online/",
+      "tipo": "listagem",
+      "max_links": 30
+    },
+    {
+      "nome": "SantoTech — Radar de Editais e Inovação",
+      "url": "https://santotech.com.br/",
+      "tipo": "listagem",
+      "max_links": 30,
+      "seguir_links_externos": true
     }
   ],
   "programas": [
@@ -168,6 +248,30 @@
       ]
     },
     {
+      "nome": "FACEPE Cientista Arretado — Inovação Pública",
+      "busca": "FACEPE edital Cientista Arretado inovação pública startups",
+      "dominios": [
+        "facepe.br",
+        "secti.pe.gov.br",
+        "pe.gov.br"
+      ]
+    },
+    {
+      "nome": "Prêmio Mulheres Empreendem o Futuro (MEMP / OpenAI)",
+      "busca": "Edital Prêmio Mulheres Empreendem o Futuro MEMP OpenAI",
+      "dominios": [
+        "gov.br"
+      ]
+    },
+    {
+      "nome": "InovaCAR — Ciclo de Inovação Aberta",
+      "busca": "InovaCAR edital ciclo inovação aberta Sicar CAR desafios gov.br",
+      "dominios": [
+        "gov.br",
+        "enap.gov.br"
+      ]
+    },
+    {
       "nome": "SAA Aquário",
       "ativo": false,
       "busca": "SAA Aquário startups programa chamada"
@@ -210,7 +314,13 @@
       "edital startups Ceará {ano} inscrições",
       "edital startups Goiás {ano} inscrições",
       "edital startups Distrito Federal {ano} inscrições",
-      "edital startups Espírito Santo {ano} inscrições"
+      "edital startups Espírito Santo {ano} inscrições",
+      "site:gov.br/desafios inscrições abertas inovação aberta {ano}",
+      "site:gov.br/memp edital prêmio empreendedorismo inovação {ano}",
+      "site:facepe.br edital inovação startups cientista arretado {ano}",
+      "site:santotech.com.br edital chamada inovação startups {ano}",
+      "edital mulheres empreendedoras inovação tecnologia startups {ano}",
+      "ciclo inovação aberta solução tecnológica premiação aceleração {ano}"
     ],
     "links_por_resultado": 3
   },

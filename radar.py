@@ -64,7 +64,7 @@ def _agora():
     return datetime.now(timezone.utc).replace(tzinfo=None)
 
 CHAVES = re.compile(
-    r"edital|chamada|sele[cç][aã]o|inscri[cç][oõ]es|fomento|subven[cç][aã]o|incuba|acelera",
+    r"edital|editais|chamada|chamamento|sele[cç][aã]o|inscri[cç][oõ]es|fomento|subven[cç][aã]o|incuba|acelera|desafio|pr[eê]mio|concurso|oportunidade|programa|ciclo",
     re.I,
 )
 
@@ -172,9 +172,10 @@ def candidatos(fonte):
         if not href.startswith("http"):
             continue
         mesmo_site = urlparse(href).netloc == urlparse(fonte["url"]).netloc
+        aceita_externo = bool(fonte.get("seguir_links_externos")) and not urlparse(href).netloc.lower().endswith(SOCIAIS + RUIDO)
         caminho = fonte.get("caminho_oportunidade")
         oportunidade = bool(caminho and urlparse(href).path.startswith(caminho))
-        if mesmo_site and (oportunidade or CHAVES.search(a.get_text(" ")) or CHAVES.search(href)):
+        if (mesmo_site or aceita_externo) and (oportunidade or CHAVES.search(a.get_text(" ")) or CHAVES.search(href)):
             if href not in achados:
                 achados.append(href)
     return achados[: fonte.get("max_links", 30) + 1]

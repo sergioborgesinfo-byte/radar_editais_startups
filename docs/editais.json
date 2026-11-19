@@ -14,6 +14,17 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Podem participar ICTs públicas e privadas sem fins lucrativos qualificadas como OS ou ICES, articuladas com Incubadoras, NITs e organizações da economia solidária.",
+  "ufs": [
+   "PA"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -35,6 +46,15 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Startups de todos os estados do Brasil e de qualquer segmento do mercado.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -56,6 +76,17 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Empresas, ICT e Pesquisadores. Inovação.",
+  "ufs": [
+   "MG"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "govtech"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -77,6 +108,15 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Empreendedores e startups em estágios iniciais, desde a ideação até MVP.",
+  "ufs": [
+   "PA"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -98,6 +138,15 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Empreendedores e aspirantes a fundar startups no Brasil, desde a fase de ideia até estágios iniciais.",
+  "ufs": [
+   "PA"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -119,6 +168,16 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Empresas e iniciativas elegíveis para o programa PIPE FAPESP na área de inovação.",
+  "ufs": [
+   "PA",
+   "SP"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -140,6 +199,15 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Startups com solução inovadora, digital e escalável, valuation post-money até R$ 15 milhões, CNPJ ativo, equipe com pelo menos 2 pessoas dedicadas e tração comprovada.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -161,6 +229,15 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Startups de impacto socioambiental do Brasil. Módulo Criação (ideação ao protótipo, sem CNPJ necessário) ou Módulo Tração (faturamento de R$ 250 mil a R$ 16 milhões nos últimos 12 meses).",
+  "ufs": [
+   "PA"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -182,6 +259,18 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Pessoas com diploma de graduação universitária e interesse em empreendedorismo ou em desenvolver uma proposta de negócio inovador.",
+  "ufs": [
+   "PA"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "mulheres",
+   "estudantes"
+  ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -203,11 +292,22 @@
   "revisar": 0,
   "status": "inscricoes_abertas",
   "requisitos": "Membros das apoiadas apresentarem ideias ou propostas para projetos científicos, tecnológicos e de inovação.",
+  "ufs": [
+   "PA"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-19T16:21:19.000Z"
+  "verificacao_valida_ate": "2026-12-19T16:35:35.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -224,6 +324,15 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Startups de deep tech de qualquer lugar do mundo com equipe de pelo menos duas pessoas.",
+  "ufs": [
+   "PA"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -245,6 +354,15 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Startups de qualquer país, setor e estágio que estejam constituídas legalmente no seu país.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -266,6 +384,17 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Estudantes maiores de 18 anos de qualquer instituição de ensino superior do Brasil, organizados em equipes.",
+  "ufs": [
+   "PA"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [
+   "estudantes"
+  ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -287,11 +416,28 @@
   "revisar": 0,
   "status": "inscricoes_abertas",
   "requisitos": "Empresas brasileiras com sede ou filial na Amazônia Legal, com registro na Junta Comercial até 31/12 do ano anterior e atividade operacional nos 12 meses anteriores.",
+  "ufs": [
+   "AC",
+   "AM",
+   "AP",
+   "MA",
+   "MT",
+   "PA",
+   "RO",
+   "RR",
+   "TO"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "agritech_bio"
+  ],
+  "perfis": [],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-19T16:21:19.000Z"
+  "verificacao_valida_ate": "2026-12-19T16:35:35.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -308,11 +454,29 @@
   "revisar": 0,
   "status": "inscricoes_abertas",
   "requisitos": "Empresas com até 10 anos de inscrição no CNPJ, que desenvolvam atividades alinhadas aos bionegócios e apresentem propostas inovadoras com potencial de impacto econômico, ambiental e social a partir da biodiversidade amazônica.",
+  "ufs": [
+   "AC",
+   "AM",
+   "AP",
+   "MA",
+   "MT",
+   "PA",
+   "RO",
+   "RR",
+   "TO"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "agritech_bio",
+   "impacto_esg"
+  ],
+  "perfis": [],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-19T16:21:19.000Z"
+  "verificacao_valida_ate": "2026-12-19T16:35:35.000Z"
  },
  {
   "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
@@ -329,6 +493,19 @@
   "revisar": 0,
   "status": "aberto",
   "requisitos": "Empresas, startups, cooperativas e Instituições Científicas, Tecnológicas e de Inovação de Minas Gerais (ICTMG).",
+  "ufs": [
+   "MG",
+   "PA"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "ia_deeptech",
+   "govtech"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
