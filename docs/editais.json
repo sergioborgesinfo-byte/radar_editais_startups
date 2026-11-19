@@ -21,27 +21,6 @@
   "verificacao_valida_ate": "2027-01-14T23:59:59.999-03:00"
  },
  {
-  "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
-  "o": "Secretaria de Estado de Desenvolvimento Econômico (Sede-MG) e Fundação de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG)",
-  "tipo": "Inovação aberta",
-  "est": "Qualquer",
-  "v": 2000000.0,
-  "prazo": "2026-12-09",
-  "d": 20,
-  "desc": "Segunda edição do HubMG Gov disponibiliza R$ 20 milhões para solucionar desafios do setor público em Minas Gerais.",
-  "link": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/governo-de-minas-lanca-edital-de-r-20-milhoes-para-solucionar-desafios-do-setor-publico",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Empresas, startups, cooperativas e Instituições Científicas, Tecnológicas e de Inovação de Minas Gerais (ICTMG).",
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2026-12-09T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-12-09T23:59:59.999-03:00"
- },
- {
   "t": "Batch #36 - WOW Aceleradora",
   "o": "WOW Aceleradora",
   "tipo": "Aceleração",
@@ -61,6 +40,27 @@
   "sem_data_final": false,
   "prazo_iso": "2026-12-13T23:59:59.999-03:00",
   "verificacao_valida_ate": "2026-12-13T23:59:59.999-03:00"
+ },
+ {
+  "t": "CHAMADA FAPEMIG - SEDE 018/2026 HUBMG GOV - RESOLUÇÃO DE DESAFIOS PÚBLICOS POR MEIO DE INOVAÇÃO ABERTA",
+  "o": "FAPEMIG",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-12-09",
+  "d": 20,
+  "desc": "Resolução de desafios públicos por meio de inovação aberta com investimento de R$ 20 milhões.",
+  "link": "https://fapemig.br",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Empresas, ICT e Pesquisadores. Inovação.",
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-12-09T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-12-09T23:59:59.999-03:00"
  },
  {
   "t": "Silicon Valley Spring 2027",
@@ -103,6 +103,27 @@
   "sem_data_final": false,
   "prazo_iso": "2026-12-15T23:59:59.999-03:00",
   "verificacao_valida_ate": "2026-12-15T23:59:59.999-03:00"
+ },
+ {
+  "t": "PIPE Jornada Tecnológica Indústria do Futuro – Fase 1",
+  "o": "FAPESP",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-12-09",
+  "d": 20,
+  "desc": "Programa PIPE voltado para inovação e pesquisa para inovação.",
+  "link": "https://fapesp.br/chamadas/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Empresas e iniciativas elegíveis para o programa PIPE FAPESP na área de inovação.",
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-12-09T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-12-09T23:59:59.999-03:00"
  },
  {
   "t": "6ª edição do Inova Startups",
@@ -186,7 +207,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-19T00:56:55.000Z"
+  "verificacao_valida_ate": "2026-12-19T16:21:19.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -270,7 +291,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-19T00:56:55.000Z"
+  "verificacao_valida_ate": "2026-12-19T16:21:19.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -291,6 +312,27 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-19T00:56:55.000Z"
+  "verificacao_valida_ate": "2026-12-19T16:21:19.000Z"
+ },
+ {
+  "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
+  "o": "Secretaria de Estado de Desenvolvimento Econômico (Sede-MG) e Fundação de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG)",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-11-27",
+  "d": 8,
+  "desc": "Edital de R$ 20 milhões para solucionar desafios do setor público por meio de inovação aberta, voltado para empresas, startups e cooperativas.",
+  "link": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/governo-de-minas-lanca-edital-de-r-20-milhoes-para-solucionar-desafios-do-setor-publico",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Empresas, startups, cooperativas e Instituições Científicas, Tecnológicas e de Inovação de Minas Gerais (ICTMG).",
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-11-27T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-11-27T23:59:59.999-03:00"
  }
 ]
