@@ -194,7 +194,6 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
       <button id="match-close" type="button">Fechar</button>
     </div>
   </section>
-  <div class="bar" hidden><button id="imp" type="button" hidden>Importar editais.json</button><button id="rst" type="button" hidden>Voltar aos exemplos</button><input id="file" type="file" accept=".json,application/json" hidden></div>
   <div class="tools">
     <input id="q" type="search" placeholder="Buscar por tema, órgão ou palavra-chave" aria-label="Buscar editais">
     <select id="tipo" aria-label="Tipo"><option value="">Todos os tipos</option></select>
@@ -371,7 +370,7 @@ function setData(list,label,isDemo){
     if(titulo&&orgao)vistos.add(chave);
   });
   fill("tipo","tipo");fill("est","est");
-  $("src").className=isDemo?"demo":"real";$("src").textContent=label;$("rst").hidden=isDemo;render();
+  $("src").className=isDemo?"demo":"real";$("src").textContent=label;render();
 }
 function atualizarBannerPerfil(){
   if(perfil&&perfil.ativo){
@@ -497,20 +496,7 @@ $("match-clear-top").onclick=function(){
 };
 if(perfil&&perfil.ativo){$("ord").value="match"}else{$("ord").value="prazo"}
 atualizarBannerPerfil();
-var MSG_DEMO="Dados fictícios de demonstração. Importe o editais.json gerado pelo script para ver dados reais.";
-$("imp").onclick=function(){$("file").click()};
-$("file").onchange=function(){
-  var f=this.files[0];if(!f)return;var r=new FileReader();
-  r.onload=function(){
-    try{
-      var arr=JSON.parse(r.result);if(!Array.isArray(arr))throw 0;
-      setData(arr,"Dados reais importados de "+f.name+" ("+arr.length+" editais).",false);
-      try{localStorage.setItem("radar-dados",JSON.stringify({nome:f.name,dados:arr}))}catch(e){}
-    }catch(e){$("src").className="demo";$("src").textContent="Arquivo inválido. Use o editais.json gerado por python radar.py export."}
-  };
-  r.readAsText(f);this.value="";
-};
-$("rst").onclick=function(){try{localStorage.removeItem("radar-dados")}catch(e){}setData(DEMO,MSG_DEMO,true)};
+var MSG_DEMO="Carregando editais atualizados...";
 var s0=null;try{s0=JSON.parse(localStorage.getItem("radar-dados")||"null")}catch(e){}
 if(s0&&Array.isArray(s0.dados)&&s0.dados.length){setData(s0.dados,"Dados reais de "+s0.nome+" ("+s0.dados.length+" editais).",false)}else{setData(DEMO,MSG_DEMO,true)}
 try{fetch("editais.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(a){if(Array.isArray(a)){setData(a,"Dados reais carregados de editais.json ("+a.length+" editais).",false);try{localStorage.setItem("radar-dados",JSON.stringify({nome:"editais.json",dados:a}))}catch(e){}}}).catch(function(){})}catch(e){}
