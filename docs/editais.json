@@ -62,38 +62,6 @@
   "verificacao_valida_ate": "2026-12-13T23:59:59.999-03:00"
  },
  {
-  "t": "CHAMADA FAPEMIG - SEDE 018/2026 HUBMG GOV - RESOLUÇÃO DE DESAFIOS PÚBLICOS POR MEIO DE INOVAÇÃO ABERTA",
-  "o": "FAPEMIG",
-  "tipo": "Inovação aberta",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": "2026-12-09",
-  "d": 19,
-  "desc": "Resolução de desafios públicos por meio de inovação aberta com investimento de R$ 20 milhões.",
-  "link": "https://fapemig.br",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Empresas, ICT e Pesquisadores. Inovação.",
-  "ufs": [
-   "MG"
-  ],
-  "exige_cnpj": false,
-  "aceita_pf": true,
-  "setores": [
-   "govtech"
-  ],
-  "perfis": [
-   "ict_pesquisa"
-  ],
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2026-12-09T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-12-09T23:59:59.999-03:00"
- },
- {
   "t": "Silicon Valley Spring 2027",
   "o": "Founder Institute",
   "tipo": "Aceleração",
@@ -159,17 +127,17 @@
   "t": "Brasil Summer 2027",
   "o": "Founder Institute",
   "tipo": "Aceleração",
-  "est": "Ideação e MVP",
+  "est": "Qualquer",
   "v": 0,
   "prazo": "2026-12-15",
   "d": 25,
-  "desc": "Programa de aceleração Founder Institute Brasil Summer 2027 para apoiar startups a alcançar tração e financiamento.",
+  "desc": "The Founder Institute provides a global support network and a proven methodology to get your startup to traction and funding",
   "link": "https://fi.co/apply/belo",
   "n": 1,
   "r": 0,
   "revisar": 0,
   "status": "aberto",
-  "requisitos": "Empreendedores e startups em estágios iniciais ou com ideias no Brasil.",
+  "requisitos": "Empreendedores e startups em diferentes estágios para o programa de aceleração Brasil Summer 2027.",
   "ufs": [
    "PA"
   ],
@@ -277,6 +245,38 @@
   "verificacao_valida_ate": "2026-11-30T23:59:59.999-03:00"
  },
  {
+  "t": "CHAMADA FAPEMIG - SEDE 018/2026 HUBMG GOV - RESOLUÇÃO DE DESAFIOS PÚBLICOS POR MEIO DE INOVAÇÃO ABERTA",
+  "o": "FAPEMIG",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-12-09",
+  "d": 19,
+  "desc": "Resolução de desafios públicos por meio de inovação aberta, promovido pela FAPEMIG com valor de R$ 20 milhões.",
+  "link": "https://fapemig.br/pt/chamadas/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Empresas, ICT e Pesquisadores. Inovação e mais 1 área.",
+  "ufs": [
+   "MG"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "govtech"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-12-09T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-12-09T23:59:59.999-03:00"
+ },
+ {
   "t": "Processo Seletivo para o Programa de Residência em Inovação NIDUS",
   "o": "Agência USP de Inovação",
   "tipo": "Incubação",
@@ -339,7 +339,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-20T01:21:28.000Z"
+  "verificacao_valida_ate": "2026-12-20T15:58:57.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -469,7 +469,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-20T01:21:28.000Z"
+  "verificacao_valida_ate": "2026-12-20T15:58:57.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -508,7 +508,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-20T01:21:28.000Z"
+  "verificacao_valida_ate": "2026-12-20T15:58:57.000Z"
  },
  {
   "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
