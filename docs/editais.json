@@ -6,7 +6,7 @@
   "est": "Qualquer",
   "v": 100000000.0,
   "prazo": "2027-01-14",
-  "d": 56,
+  "d": 55,
   "desc": "Chamada pública de recursos não reembolsáveis da Finep para apoiar projetos de soluções tecnológicas voltadas a Empreendimentos Econômicos Solidários.",
   "link": "https://faleconosco.finep.gov.br/web/guest/w/finep-publica-chamada-de-r-100-milh%C3%B5es-para-impulsionar-solu%C3%A7%C3%B5es-tecnol%C3%B3gicas-na-economia-solid%C3%A1ria",
   "n": 1,
@@ -38,8 +38,8 @@
   "est": "Qualquer",
   "v": 500000.0,
   "prazo": "2026-12-13",
-  "d": 24,
-  "desc": "Investimento inicial de até R$ 500K e programa de aceleração com foco em product-market fit e estruturação de crescimento.",
+  "d": 23,
+  "desc": "Programa de aceleração para o Batch #36 da WOW Aceleradora, oferecendo investimento inicial de até R$ 500K e mentorias especializadas.",
   "link": "https://www.wow.ac/inscricao",
   "n": 1,
   "r": 0,
@@ -47,7 +47,7 @@
   "status": "aberto",
   "requisitos": "Startups de todos os estados do Brasil e de qualquer segmento do mercado.",
   "ufs": [
-   "NACIONAL"
+   "PA"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -68,7 +68,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-12-09",
-  "d": 20,
+  "d": 19,
   "desc": "Resolução de desafios públicos por meio de inovação aberta com investimento de R$ 20 milhões.",
   "link": "https://fapemig.br",
   "n": 1,
@@ -100,7 +100,7 @@
   "est": "Ideação e MVP",
   "v": 0,
   "prazo": "2026-12-08",
-  "d": 19,
+  "d": 18,
   "desc": "Programa de aceleração global do Founder Institute para apoiar startups na busca por tração e financiamento.",
   "link": "https://fi.co/join",
   "n": 1,
@@ -124,20 +124,52 @@
   "verificacao_valida_ate": "2026-12-08T23:59:59.999-03:00"
  },
  {
+  "t": "Aceleração Corporativa tecnoPARQ",
+  "o": "tecnoPARQ – Parque Tecnológico de Viçosa e Agência de Inovação da UFV",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-11-30",
+  "d": 10,
+  "desc": "Programa de Aceleração Corporativa para conectar startups e pesquisadores a uma grande indústria do setor de sucos e bebidas.",
+  "link": "https://centev.ufv.br/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Startups, pesquisadores e grupos de pesquisa com soluções focadas em IA, Automação e Gestão Industrial para o setor de bebidas.",
+  "ufs": [
+   "PA"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-11-30T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-11-30T23:59:59.999-03:00"
+ },
+ {
   "t": "Brasil Summer 2027",
   "o": "Founder Institute",
   "tipo": "Aceleração",
   "est": "Ideação e MVP",
   "v": 0,
   "prazo": "2026-12-15",
-  "d": 26,
-  "desc": "Programa de aceleração global para construir uma empresa no Brasil, oferecendo suporte para tração e captação de recursos.",
+  "d": 25,
+  "desc": "Programa de aceleração Founder Institute Brasil Summer 2027 para apoiar startups a alcançar tração e financiamento.",
   "link": "https://fi.co/apply/belo",
   "n": 1,
   "r": 0,
   "revisar": 0,
   "status": "aberto",
-  "requisitos": "Empreendedores e aspirantes a fundar startups no Brasil, desde a fase de ideia até estágios iniciais.",
+  "requisitos": "Empreendedores e startups em estágios iniciais ou com ideias no Brasil.",
   "ufs": [
    "PA"
   ],
@@ -160,7 +192,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-12-09",
-  "d": 20,
+  "d": 19,
   "desc": "Programa PIPE voltado para inovação e pesquisa para inovação.",
   "link": "https://fapesp.br/chamadas/",
   "n": 1,
@@ -191,7 +223,7 @@
   "est": "Tração",
   "v": 0,
   "prazo": "2026-11-30",
-  "d": 11,
+  "d": 10,
   "desc": "Programa de investimento e aceleração para startups de todo o Brasil, oferecendo aporte acumulado de até R$ 800 mil e trilha de capacitação.",
   "link": "https://inovastartups.com.br",
   "n": 1,
@@ -221,7 +253,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-11-30",
-  "d": 11,
+  "d": 10,
   "desc": "Programa de aceleração para 100 startups de impacto socioambiental, oferecendo apoio técnico, mentorias e conexões com investidores.",
   "link": "https://garagem.bndes.gov.br",
   "n": 1,
@@ -251,7 +283,7 @@
   "est": "Ideação e MVP",
   "v": 0,
   "prazo": "2026-12-31",
-  "d": 42,
+  "d": 41,
   "desc": "Programa de Residência em Inovação do NIDUS para desenvolvimento de competências empreendedoras e modelos de negócios.",
   "link": "https://auspin.usp.br/nidus2026/",
   "n": 1,
@@ -307,7 +339,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-19T16:35:35.000Z"
+  "verificacao_valida_ate": "2026-12-20T01:21:28.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -316,7 +348,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-11-30",
-  "d": 11,
+  "d": 10,
   "desc": "Competição global de deep tech para startups. Oferece conexões, visibilidade e prêmio em dinheiro para o vencedor.",
   "link": "https://hello-tomorrow.org/global-challenge",
   "n": 1,
@@ -346,7 +378,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2027-01-31",
-  "d": 73,
+  "d": 72,
   "desc": "Competição global onde 100 startups fazem pitch ao vivo em Madri para disputar prêmios e se conectar com investidores e grandes empresas.",
   "link": "https://www.southsummit.io/pt/content/startup-competition",
   "n": 1,
@@ -376,7 +408,7 @@
   "est": "Ideação e MVP",
   "v": 0,
   "prazo": "2026-11-20",
-  "d": 1,
+  "d": 0,
   "desc": "Desafio prático de Vibe Coding utilizando Google Gemini para desenvolver soluções inovadoras com Inteligência Artificial em equipes.",
   "link": "https://auspin.usp.br/desafio-empreende-com-ia-no-google-campus-sp-esta-com-as-inscricoes-abertas/",
   "n": 1,
@@ -437,7 +469,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-19T16:35:35.000Z"
+  "verificacao_valida_ate": "2026-12-20T01:21:28.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -476,7 +508,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-19T16:35:35.000Z"
+  "verificacao_valida_ate": "2026-12-20T01:21:28.000Z"
  },
  {
   "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
@@ -485,7 +517,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-11-27",
-  "d": 8,
+  "d": 7,
   "desc": "Edital de R$ 20 milhões para solucionar desafios do setor público por meio de inovação aberta, voltado para empresas, startups e cooperativas.",
   "link": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/governo-de-minas-lanca-edital-de-r-20-milhoes-para-solucionar-desafios-do-setor-publico",
   "n": 1,
