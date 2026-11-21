@@ -161,13 +161,13 @@
   "v": 0,
   "prazo": "2026-12-09",
   "d": 18,
-  "desc": "Programa PIPE voltado para inovação e pesquisa para inovação.",
+  "desc": "Chamadas de propostas voltadas para inovação e pesquisa para inovação pelo programa PIPE da FAPESP.",
   "link": "https://fapesp.br/chamadas/",
   "n": 1,
   "r": 0,
   "revisar": 0,
   "status": "aberto",
-  "requisitos": "Empresas e iniciativas elegíveis para o programa PIPE FAPESP na área de inovação.",
+  "requisitos": "Empresas e empreendedores elegíveis ao programa PIPE da FAPESP.",
   "ufs": [
    "PA",
    "SP"
@@ -245,6 +245,37 @@
   "verificacao_valida_ate": "2026-11-30T23:59:59.999-03:00"
  },
  {
+  "t": "InovaCAR - Soluções para o Futuro do Cadastro Ambiental Rural",
+  "o": "MGI - FBDS - Enap - Impact Hub",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2027-01-22",
+  "d": 62,
+  "desc": "InovaCAR - Soluções para o Futuro do Cadastro Ambiental Rural. Inscrições até 22/01/2027.",
+  "link": "https://desafios.enap.gov.br/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Startups, Institutos de Ciência e Tecnologia ou pessoas que querem construir soluções inovadoras para o Cadastro Ambiental Rural.",
+  "ufs": [
+   "PA"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "agritech_bio",
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2027-01-22T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2027-01-22T23:59:59.999-03:00"
+ },
+ {
   "t": "CHAMADA FAPEMIG - SEDE 018/2026 HUBMG GOV - RESOLUÇÃO DE DESAFIOS PÚBLICOS POR MEIO DE INOVAÇÃO ABERTA",
   "o": "FAPEMIG - Fundação de Amparo à Pesquisa do Estado de Minas Gerais",
   "tipo": "Inovação aberta",
@@ -252,15 +283,16 @@
   "v": 0,
   "prazo": "2026-12-09",
   "d": 18,
-  "desc": "Resolução de desafios públicos por meio de inovação aberta, promovida pela FAPEMIG com valor de R$ 20 milhões.",
+  "desc": "Resolução de desafios públicos por meio de inovação aberta, promovido pela FAPEMIG.",
   "link": "https://fapemig.br/pt/chamadas/",
   "n": 1,
   "r": 0,
   "revisar": 0,
   "status": "aberto",
-  "requisitos": "Empresas, ICT, Pesquisadores. Inovação e mais 1 área.",
+  "requisitos": "Empresas, ICT e Pesquisadores para resolução de desafios públicos por meio de inovação aberta.",
   "ufs": [
-   "MG"
+   "MG",
+   "PA"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -339,7 +371,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-21T00:44:37.000Z"
+  "verificacao_valida_ate": "2026-12-21T15:19:40.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -437,7 +469,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-21T00:44:37.000Z"
+  "verificacao_valida_ate": "2026-12-21T15:19:40.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -476,7 +508,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-21T00:44:37.000Z"
+  "verificacao_valida_ate": "2026-12-21T15:19:40.000Z"
  },
  {
   "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
