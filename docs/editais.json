@@ -277,22 +277,21 @@
  },
  {
   "t": "CHAMADA FAPEMIG - SEDE 018/2026 HUBMG GOV - RESOLUÇÃO DE DESAFIOS PÚBLICOS POR MEIO DE INOVAÇÃO ABERTA",
-  "o": "FAPEMIG - Fundação de Amparo à Pesquisa do Estado de Minas Gerais",
+  "o": "FAPEMIG",
   "tipo": "Inovação aberta",
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-12-09",
   "d": 17,
-  "desc": "Resolução de desafios públicos por meio de inovação aberta, promovido pela FAPEMIG.",
+  "desc": "Resolução de desafios públicos por meio de inovação aberta com aporte de recursos.",
   "link": "https://fapemig.br/pt/chamadas/",
   "n": 1,
   "r": 0,
   "revisar": 0,
   "status": "aberto",
-  "requisitos": "Empresas, ICT e Pesquisadores para resolução de desafios públicos por meio de inovação aberta.",
+  "requisitos": "Empresas, ICT e pesquisadores.",
   "ufs": [
-   "MG",
-   "PA"
+   "MG"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -371,7 +370,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-22T03:50:49.000Z"
+  "verificacao_valida_ate": "2026-12-22T15:10:39.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -469,7 +468,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-22T03:50:49.000Z"
+  "verificacao_valida_ate": "2026-12-22T15:10:39.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -508,7 +507,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-22T03:50:49.000Z"
+  "verificacao_valida_ate": "2026-12-22T15:10:39.000Z"
  },
  {
   "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
