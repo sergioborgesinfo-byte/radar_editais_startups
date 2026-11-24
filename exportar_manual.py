@@ -60,24 +60,38 @@ def eh_duplicado(novo, existentes):
     novo_o = normalizar(novo.get('o'))
     novo_p = novo.get('prazo') or 'continuo'
     palavras_novo = {p for p in novo_t.split() if len(p) > 2}
+    chaves_novo = palavras_chave(novo.get('t'))
+    codigos_novo = set(re.findall(r'\b0?\d{1,3}\s+202\d\b', novo_t))
 
     for ex in existentes:
         if novo.get('link') and novo.get('link') == ex.get('link'):
             return True
-        ex_p = ex.get('prazo') or 'continuo'
-        if novo_p != ex_p:
-            continue
         ex_t = normalizar(ex.get('t'))
         ex_o = normalizar(ex.get('o'))
-        if novo_t == ex_t and novo_o == ex_o:
+        ex_p = ex.get('prazo') or 'continuo'
+        if novo_t == ex_t and (novo_o == ex_o or novo_p == ex_p):
             return True
-        # Mesmo prazo e alta sobreposição de termos do título (ex: BNDES Garagem / HubMG GOV)
-        palavras_ex = {p for p in ex_t.split() if len(p) > 2}
-        if palavras_novo and palavras_ex:
-            intersecao = palavras_novo & palavras_ex
-            menor = min(len(palavras_novo), len(palavras_ex))
-            if menor >= 2 and len(intersecao) / menor >= 0.75:
+
+        # Mesmo código de chamada (ex: 018/2026) ou alta sobreposição de palavras-chave do título (mesmo com datas de etapas diferentes)
+        codigos_ex = set(re.findall(r'\b0?\d{1,3}\s+202\d\b', ex_t))
+        chaves_ex = palavras_chave(ex.get('t'))
+        if codigos_novo and codigos_ex and (codigos_novo & codigos_ex):
+            if (chaves_novo & chaves_ex):
                 return True
+        if chaves_novo and chaves_ex:
+            inter_chaves = chaves_novo & chaves_ex
+            menor_chaves = min(len(chaves_novo), len(chaves_ex))
+            if menor_chaves >= 2 and len(inter_chaves) / menor_chaves >= 0.75:
+                return True
+
+        # Mesmo prazo e sobreposição geral do título
+        if novo_p == ex_p:
+            palavras_ex = {p for p in ex_t.split() if len(p) > 2}
+            if palavras_novo and palavras_ex:
+                intersecao = palavras_novo & palavras_ex
+                menor = min(len(palavras_novo), len(palavras_ex))
+                if menor >= 2 and len(intersecao) / menor >= 0.75:
+                    return True
     return False
 
 

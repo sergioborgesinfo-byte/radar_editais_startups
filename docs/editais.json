@@ -370,7 +370,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-24T04:52:10.000Z"
+  "verificacao_valida_ate": "2026-12-24T14:25:45.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -468,7 +468,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-24T04:52:10.000Z"
+  "verificacao_valida_ate": "2026-12-24T14:25:45.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -507,41 +507,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-24T04:52:10.000Z"
- },
- {
-  "t": "Chamada FAPEMIG-SEDE 018/2026 – HubMG GOV",
-  "o": "Secretaria de Estado de Desenvolvimento Econômico (Sede-MG) e Fundação de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG)",
-  "tipo": "Inovação aberta",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": "2026-11-27",
-  "d": 3,
-  "desc": "Edital de R$ 20 milhões para solucionar desafios do setor público por meio de inovação aberta, voltado para empresas, startups e cooperativas.",
-  "link": "https://fapemig.br/difusao-do-conhecimento/imprensa/noticias-e-eventos/governo-de-minas-lanca-edital-de-r-20-milhoes-para-solucionar-desafios-do-setor-publico",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Empresas, startups, cooperativas e Instituições Científicas, Tecnológicas e de Inovação de Minas Gerais (ICTMG).",
-  "ufs": [
-   "MG",
-   "PA"
-  ],
-  "exige_cnpj": true,
-  "aceita_pf": false,
-  "setores": [
-   "ia_deeptech",
-   "govtech"
-  ],
-  "perfis": [
-   "ict_pesquisa"
-  ],
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2026-11-27T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-11-27T23:59:59.999-03:00"
+  "verificacao_valida_ate": "2026-12-24T14:25:45.000Z"
  },
  {
   "t": "Terceira Edição do Programa Conexões BH-TEC",

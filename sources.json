@@ -217,6 +217,34 @@
       "url": "https://prosas.com.br/editais",
       "tipo": "listagem",
       "max_links": 40
+    },
+    {
+      "nome": "Sebrae Startups — Portal de Programas (?p=programas)",
+      "url": "https://programas.sebraestartups.com.br/?p=programas",
+      "tipo": "listagem",
+      "max_links": 80,
+      "caminho_oportunidade": "/in/"
+    },
+    {
+      "nome": "Sebrae PR — Oportunidades de Inovação",
+      "url": "https://sites.pr.sebrae.com.br/inovacao/oportunidades/",
+      "tipo": "listagem",
+      "max_links": 40,
+      "seguir_links_externos": true
+    },
+    {
+      "nome": "Stratago — Radar de Editais de Fomento e Inovação",
+      "url": "https://editais.stratago.com.br/",
+      "tipo": "listagem",
+      "max_links": 40,
+      "seguir_links_externos": true
+    },
+    {
+      "nome": "SeteIA — Central de Editais e Subvenção",
+      "url": "https://seteia.com.br/editais",
+      "tipo": "listagem",
+      "max_links": 40,
+      "seguir_links_externos": true
     }
   ],
   "programas": [
@@ -359,7 +387,9 @@
       "ciclo inovação aberta solução tecnológica premiação aceleração {ano}",
       "edital incubadora empresas base tecnológica parque tecnológico fluxo contínuo {ano}",
       "edital seleção empresas residentes associadas parque científico tecnológico {ano}",
-      "site:ipetech.ufla.br OR site:centev.ufv.br OR site:bhtec.org.br edital incubação startups"
+      "site:ipetech.ufla.br OR site:centev.ufv.br OR site:bhtec.org.br edital incubação startups",
+      "site:sites.pr.sebrae.com.br/inovacao/oportunidades edital startups inovação",
+      "site:editais.stratago.com.br OR site:seteia.com.br/editais subvenção inovação startups {ano}"
     ],
     "links_por_resultado": 3
   },

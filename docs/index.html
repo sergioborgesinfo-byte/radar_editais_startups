@@ -408,12 +408,19 @@ function setData(list,label,isDemo){
       var val=Date.parse(list[i].verificacao_valida_ate||"");
       e.validade=e.continuo?(Number.isFinite(val)?val:Infinity):e.limite;
     });
-  var vistos=new Set();
+  var vistos=new Set(),codigosVistos=[];
   E.forEach(function(e){
     var titulo=textoTriagem(e.t),orgao=textoTriagem(e.o);
     var chave=JSON.stringify([titulo,orgao,e.dt?e.dt.getTime():null]);
-    e.dup=!!(titulo&&orgao&&vistos.has(chave));
+    var palavras=titulo.split(" ").filter(function(w){return w.length>2&&!/^(edital|chamada|publica|programa|para|startups|startup|selecao|inovacao|aberta|processo|seletivo|resolucao|desafios|publicos|meio)$/.test(w)});
+    var dupSim=codigosVistos.some(function(ant){
+      var inter=palavras.filter(function(w){return ant.indexOf(w)>=0});
+      var menor=Math.min(palavras.length,ant.length);
+      return menor>=2 && inter.length/menor>=0.75;
+    });
+    e.dup=!!((titulo&&orgao&&vistos.has(chave))||dupSim);
     if(titulo&&orgao)vistos.add(chave);
+    if(!e.dup&&palavras.length>=2)codigosVistos.push(palavras);
   });
   fill("tipo","tipo");fill("est","est");
   $("src").className=isDemo?"demo":"real";$("src").textContent=label;render();
