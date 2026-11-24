@@ -105,7 +105,7 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
 </style>
 </head>
 <body>
-<div id="lead-overlay" class="lead-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="lead-title">
+<div id="lead-overlay" class="lead-overlay" role="dialog" aria-modal="true" aria-labelledby="lead-title">
   <div class="lead-card">
     <h2 id="lead-title">🎯 Bem-vindo ao Radar de Editais</h2>
     <p class="sub">Preencha seus dados e o perfil da sua startup em um único passo para acessar o Radar e receber a recomendação personalizada dos editais mais indicados para você.</p>
@@ -491,7 +491,7 @@ $("list").addEventListener("click",function(ev){
 var CRM_EMAIL_DESTINO="silvanafanni@gmail.com";
 var CRM_WEBHOOK_URL=""; // Quando seu CRM estiver pronto, basta colocar a URL da API dele aqui
 var lead=null;
-try{lead=JSON.parse(localStorage.getItem("radar-lead-crm")||"null")}catch(e){}
+try{lead=JSON.parse(localStorage.getItem("radar-lead-crm-v2")||"null")}catch(e){}
 function formatarZap(v){
   var d=String(v||"").replace(/\D/g,"").slice(0,11);
   if(d.length>6)return "("+d.slice(0,2)+") "+d.slice(2,d.length-4)+"-"+d.slice(d.length-4);
@@ -581,7 +581,7 @@ $("lead-form").onsubmit=function(ev){
     mulheres:mulheres,ict:ict,estudante:estudante,ocultar_incomp:ocultar_incomp
   };
   try{
-    localStorage.setItem("radar-lead-crm",JSON.stringify(lead));
+    localStorage.setItem("radar-lead-crm-v2",JSON.stringify(lead));
     localStorage.setItem("radar-perfil-startup",JSON.stringify(perfil));
   }catch(e){}
   $("ord").value="match";
