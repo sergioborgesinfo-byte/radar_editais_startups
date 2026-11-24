@@ -83,13 +83,84 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
 .match-reason{font-size:.82rem;color:var(--ok);background:var(--bg);border-left:3px solid var(--ok);padding:6px 10px;border-radius:4px;margin:8px 0}
 .match-reason.warn{color:var(--warn);border-left-color:var(--warn)}
 .match-reason.bad{color:var(--bad);border-left-color:var(--bad)}
+.lead-overlay{position:fixed;inset:0;background:rgba(15,26,32,.78);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:16px;overflow-y:auto}
+.lead-overlay[hidden]{display:none}
+.lead-card{background:var(--card);color:var(--ink);border:1px solid var(--line);border-top:5px solid var(--acc);border-radius:14px;max-width:520px;width:100%;padding:22px 20px;box-shadow:0 20px 45px rgba(0,0,0,.3)}
+.lead-card h2{margin:0 0 6px;font-size:1.35rem;line-height:1.2}
+.lead-card .sub{margin:0 0 14px;font-size:.88rem}
+.lead-grid{display:grid;gap:10px;grid-template-columns:1fr}
+@media (min-width:520px){.lead-grid{grid-template-columns:1fr 1fr}.lead-full{grid-column:1/-1}}
+.lead-field label{display:block;font-size:.8rem;font-weight:600;margin-bottom:3px;color:var(--ink)}
+.lead-field input,.lead-field select{font:inherit;font-size:.92rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 11px;width:100%}
+.lead-lgpd{display:flex;align-items:flex-start;gap:8px;font-size:.78rem;color:var(--mute);margin:12px 0 14px;line-height:1.4;background:var(--bg);padding:10px;border-radius:8px;border:1px solid var(--line);cursor:pointer}
+.lead-lgpd input{margin-top:2px;accent-color:var(--acc);flex:none}
+.lead-err{color:var(--bad);background:var(--bad-t);padding:8px 10px;border-radius:6px;font-size:.82rem;margin-bottom:10px}
+.lead-err[hidden]{display:none}
+.lead-btn{width:100%;padding:11px 16px;font-size:.95rem;font-weight:700;background:var(--acc);color:var(--card);border:1px solid var(--acc);border-radius:8px;cursor:pointer}
+.lead-user-bar{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:.8rem;color:var(--mute);margin-bottom:10px;padding:6px 10px;background:var(--card);border:1px solid var(--line);border-radius:8px}
+.lead-user-bar[hidden]{display:none}
 .credit-footer{text-align:center;padding:1rem 1rem .8rem;margin-top:1.5rem;color:var(--mute);font-size:.75rem;border-top:1px solid var(--line)}
 .credit-footer strong{color:var(--ink);font-weight:600}
 .credit-footer .sub{font-size:.65rem;margin:0.2rem auto 0;opacity:.75}
 </style>
 </head>
 <body>
+<div id="lead-overlay" class="lead-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="lead-title">
+  <div class="lead-card">
+    <h2 id="lead-title">Bem-vindo ao Radar de Editais</h2>
+    <p class="sub">Preencha seus dados para acessar gratuitamente os editais abertos de fomento, subvenção, incubação e aceleração para startups.</p>
+    <div id="lead-err" class="lead-err" hidden></div>
+    <form id="lead-form" novalidate>
+      <div class="lead-grid">
+        <div class="lead-field lead-full">
+          <label for="l-nome">Nome completo *</label>
+          <input id="l-nome" type="text" required placeholder="Seu nome completo" autocomplete="name">
+        </div>
+        <div class="lead-field">
+          <label for="l-email">E-mail *</label>
+          <input id="l-email" type="email" required placeholder="seu@email.com" autocomplete="email">
+        </div>
+        <div class="lead-field">
+          <label for="l-zap">Telefone / WhatsApp *</label>
+          <input id="l-zap" type="tel" required placeholder="(00) 90000-0000" autocomplete="tel">
+        </div>
+        <div class="lead-field">
+          <label for="l-uf">Estado (UF) *</label>
+          <select id="l-uf" required>
+            <option value="">Selecione...</option>
+            <option value="AC">Acre (AC)</option><option value="AL">Alagoas (AL)</option><option value="AM">Amazonas (AM)</option>
+            <option value="AP">Amapá (AP)</option><option value="BA">Bahia (BA)</option><option value="CE">Ceará (CE)</option>
+            <option value="DF">Distrito Federal (DF)</option><option value="ES">Espírito Santo (ES)</option><option value="GO">Goiás (GO)</option>
+            <option value="MA">Maranhão (MA)</option><option value="MG">Minas Gerais (MG)</option><option value="MS">Mato Grosso do Sul (MS)</option>
+            <option value="MT">Mato Grosso (MT)</option><option value="PA">Pará (PA)</option><option value="PB">Paraíba (PB)</option>
+            <option value="PE">Pernambuco (PE)</option><option value="PI">Piauí (PI)</option><option value="PR">Paraná (PR)</option>
+            <option value="RJ">Rio de Janeiro (RJ)</option><option value="RN">Rio Grande do Norte (RN)</option><option value="RO">Rondônia (RO)</option>
+            <option value="RR">Roraima (RR)</option><option value="RS">Rio Grande do Sul (RS)</option><option value="SC">Santa Catarina (SC)</option>
+            <option value="SE">Sergipe (SE)</option><option value="SP">São Paulo (SP)</option><option value="TO">Tocantins (TO)</option>
+          </select>
+        </div>
+        <div class="lead-field">
+          <label for="l-cidade">Cidade *</label>
+          <input id="l-cidade" type="text" required placeholder="Sua cidade" autocomplete="address-level2">
+        </div>
+        <div class="lead-field lead-full">
+          <label for="l-empresa">Nome da Empresa / Startup (opcional)</label>
+          <input id="l-empresa" type="text" placeholder="Ex.: Minha Startup Ltda" autocomplete="organization">
+        </div>
+      </div>
+      <label class="lead-lgpd">
+        <input id="l-lgpd" type="checkbox" required checked>
+        <span>Ao preencher e continuar, concordo que meus dados serão colhidos para gestão de relacionamento (CRM) e comunicações sobre oportunidades, sendo tratados com segurança e privacidade de acordo com a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.</span>
+      </label>
+      <button id="lead-submit" type="submit" class="lead-btn">Acessar Radar de Editais</button>
+    </form>
+  </div>
+</div>
 <main>
+  <div id="lead-user-bar" class="lead-user-bar" hidden>
+    <span id="lead-user-info"></span>
+    <button id="lead-edit-btn" type="button" style="padding:3px 8px;font-size:.75rem">Meus dados</button>
+  </div>
   <h1>Radar de editais para startups</h1>
   <p class="sub">Fomento, subvenção, incubação e aceleração num só lugar, com prazo à vista.</p>
   <div class="bar" hidden><button id="busca-toggle" type="button" aria-expanded="false" aria-controls="busca-panel" hidden>Acompanhar descobertas</button></div>
@@ -496,6 +567,88 @@ $("match-clear-top").onclick=function(){
 };
 if(perfil&&perfil.ativo){$("ord").value="match"}else{$("ord").value="prazo"}
 atualizarBannerPerfil();
+// ---------- Captura de Lead (CRM & LGPD) ----------
+var CRM_WEBHOOK_URL=""; // Opcional: URL de webhook (Google Sheets / Make / n8n / Formspree) para receber os leads na nuvem
+var lead=null;
+try{lead=JSON.parse(localStorage.getItem("radar-lead-crm")||"null")}catch(e){}
+function formatarZap(v){
+  var d=String(v||"").replace(/\D/g,"").slice(0,11);
+  if(d.length>6)return "("+d.slice(0,2)+") "+d.slice(2,d.length-4)+"-"+d.slice(d.length-4);
+  if(d.length>2)return "("+d.slice(0,2)+") "+d.slice(2);
+  return d;
+}
+$("l-zap").addEventListener("input",function(){this.value=formatarZap(this.value)});
+function atualizarBarraLead(){
+  if(lead&&lead.nome&&lead.email){
+    $("lead-overlay").hidden=true;
+    $("lead-user-bar").hidden=false;
+    var emp=lead.empresa?(" · "+lead.empresa):"";
+    $("lead-user-info").textContent="👤 "+lead.nome+emp+" ("+lead.cidade+"/"+lead.uf+")";
+  }else{
+    $("lead-overlay").hidden=false;
+    $("lead-user-bar").hidden=true;
+  }
+}
+function popularFormLead(){
+  if(!lead)return;
+  $("l-nome").value=lead.nome||"";
+  $("l-email").value=lead.email||"";
+  $("l-zap").value=lead.zap||"";
+  $("l-uf").value=lead.uf||"";
+  $("l-cidade").value=lead.cidade||"";
+  $("l-empresa").value=lead.empresa||"";
+  $("l-lgpd").checked=true;
+}
+$("lead-edit-btn").onclick=function(){
+  popularFormLead();
+  $("lead-err").hidden=true;
+  $("lead-overlay").hidden=false;
+};
+$("lead-form").onsubmit=function(ev){
+  ev.preventDefault();
+  var nome=$("l-nome").value.trim(),
+      email=$("l-email").value.trim(),
+      zap=$("l-zap").value.trim(),
+      uf=$("l-uf").value,
+      cidade=$("l-cidade").value.trim(),
+      empresa=$("l-empresa").value.trim(),
+      lgpd=$("l-lgpd").checked;
+  var err=$("lead-err");
+  if(!nome||nome.length<2){err.textContent="Por favor, informe seu nome completo.";err.hidden=false;$("l-nome").focus();return}
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err.textContent="Por favor, informe um e-mail válido.";err.hidden=false;$("l-email").focus();return}
+  if(zap.replace(/\D/g,"").length<10){err.textContent="Por favor, informe seu telefone/WhatsApp com DDD.";err.hidden=false;$("l-zap").focus();return}
+  if(!uf){err.textContent="Por favor, selecione o seu Estado (UF).";err.hidden=false;$("l-uf").focus();return}
+  if(!cidade||cidade.length<2){err.textContent="Por favor, informe a sua cidade.";err.hidden=false;$("l-cidade").focus();return}
+  if(!lgpd){err.textContent="Para acessar a plataforma, é necessário concordar com o termo de tratamento de dados (LGPD).";err.hidden=false;return}
+  err.hidden=true;
+  lead={
+    nome:nome,email:email,zap:zap,uf:uf,cidade:cidade,empresa:empresa,
+    consentimento_lgpd:true,cadastrado_em:new Date().toISOString()
+  };
+  try{localStorage.setItem("radar-lead-crm",JSON.stringify(lead))}catch(e){}
+  // Integra automaticamente o Estado (UF) e o nome da Startup ao perfil de recomendação (Match)
+  if(!perfil||!perfil.ativo){
+    perfil={
+      ativo:true,nome:empresa,uf:uf,cnpj:empresa?"sim":"nao",
+      est:"Ideação e MVP",setor:"geral",busca:"",
+      mulheres:false,ict:false,estudante:false,ocultar_incomp:false
+    };
+    try{localStorage.setItem("radar-perfil-startup",JSON.stringify(perfil))}catch(e){}
+    $("ord").value="match";
+    atualizarBannerPerfil();
+  }else if(!perfil.uf){
+    perfil.uf=uf;
+    if(empresa&&!perfil.nome)perfil.nome=empresa;
+    try{localStorage.setItem("radar-perfil-startup",JSON.stringify(perfil))}catch(e){}
+    atualizarBannerPerfil();
+  }
+  if(CRM_WEBHOOK_URL){
+    try{fetch(CRM_WEBHOOK_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(lead)}).catch(function(){})}catch(e){}
+  }
+  atualizarBarraLead();
+  render();
+};
+atualizarBarraLead();
 var MSG_DEMO="Carregando editais atualizados...";
 var s0=null;try{s0=JSON.parse(localStorage.getItem("radar-dados")||"null")}catch(e){}
 if(s0&&Array.isArray(s0.dados)&&s0.dados.length){setData(s0.dados,"Dados reais de "+s0.nome+" ("+s0.dados.length+" editais).",false)}else{setData(DEMO,MSG_DEMO,true)}
