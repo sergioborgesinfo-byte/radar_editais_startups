@@ -1,4 +1,4 @@
-const CACHE = "radar-acompanhamento-v10";
+const CACHE = "radar-acompanhamento-v11";
 const SHELL = ["./", "index.html", "manifest.json", "icons/icon-180.png", "icons/icon-192.png", "icons/icon-512.png"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));

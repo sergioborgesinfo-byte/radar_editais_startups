@@ -568,7 +568,8 @@ $("match-clear-top").onclick=function(){
 if(perfil&&perfil.ativo){$("ord").value="match"}else{$("ord").value="prazo"}
 atualizarBannerPerfil();
 // ---------- Captura de Lead (CRM & LGPD) ----------
-var CRM_WEBHOOK_URL=""; // Opcional: URL de webhook (Google Sheets / Make / n8n / Formspree) para receber os leads na nuvem
+var CRM_EMAIL_DESTINO="silvanafanni@yahoo.com.br";
+var CRM_WEBHOOK_URL=""; // Quando seu CRM estiver pronto, basta colocar a URL da API dele aqui
 var lead=null;
 try{lead=JSON.parse(localStorage.getItem("radar-lead-crm")||"null")}catch(e){}
 function formatarZap(v){
@@ -641,6 +642,27 @@ $("lead-form").onsubmit=function(ev){
     if(empresa&&!perfil.nome)perfil.nome=empresa;
     try{localStorage.setItem("radar-perfil-startup",JSON.stringify(perfil))}catch(e){}
     atualizarBannerPerfil();
+  }
+  if(CRM_EMAIL_DESTINO){
+    try{
+      fetch("https://formsubmit.co/ajax/"+encodeURIComponent(CRM_EMAIL_DESTINO),{
+        method:"POST",
+        headers:{"Content-Type":"application/json","Accept":"application/json"},
+        body:JSON.stringify({
+          _subject:"Novo Lead Radar de Editais: "+nome+" ("+cidade+"/"+uf+")",
+          _template:"table",
+          _captcha:"false",
+          Nome:nome,
+          Email:email,
+          WhatsApp:zap,
+          Cidade:cidade,
+          Estado_UF:uf,
+          Empresa_Startup:empresa||"Não informada",
+          Consentimento_LGPD:"Sim (Concordou com uso para CRM conforme LGPD)",
+          Data_Hora:new Date().toLocaleString("pt-BR")
+        })
+      }).catch(function(){});
+    }catch(e){}
   }
   if(CRM_WEBHOOK_URL){
     try{fetch(CRM_WEBHOOK_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(lead)}).catch(function(){})}catch(e){}
