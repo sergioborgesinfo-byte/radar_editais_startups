@@ -204,8 +204,9 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
         <input id="l-lgpd" type="checkbox" required checked>
         <span>Ao preencher e continuar, concordo que meus dados serão colhidos para gestão de relacionamento (CRM) e recomendações de oportunidades, sendo tratados com segurança e privacidade de acordo com a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.</span>
       </label>
-      <div class="lead-actions">
+      <div class="lead-actions" style="flex-wrap:wrap">
         <button id="lead-submit" type="submit" class="lead-btn">Salvar e Ver Editais Recomendados</button>
+        <button id="lead-clear" type="button" style="padding:11px 14px">Limpar campos</button>
         <button id="lead-cancel" type="button" hidden style="padding:11px 14px">Fechar</button>
       </div>
     </form>
@@ -236,8 +237,10 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
       <strong id="match-banner-title">🎯 Recomendação Inteligente para sua Startup</strong>
       <span id="match-banner-sub">Os editais abaixo estão classificados pela compatibilidade com o seu perfil.</span>
     </div>
-    <div class="acts">
-      <button id="match-toggle" type="button" class="btn-primary">Editar meu perfil e Startup</button>
+    <div class="acts" style="flex-wrap:wrap">
+      <button id="match-toggle" type="button" class="btn-primary">Editar meu perfil</button>
+      <button id="match-nova-startup" type="button">Avaliar outra Startup</button>
+      <button id="match-reset-all" type="button">Limpar dados</button>
     </div>
   </div>
   <div class="tools">
@@ -540,11 +543,56 @@ function verificarEntrada(){
   }
   atualizarBannerPerfil();
 }
+function limparCamposForm(manterContato){
+  if(!manterContato){
+    $("l-nome").value="";
+    $("l-email").value="";
+    $("l-zap").value="";
+    $("l-uf").value="";
+    $("l-cidade").value="";
+  }
+  $("l-empresa").value="";
+  $("p-cnpj").value="sim";
+  $("p-est").value="Ideação e MVP";
+  $("p-setor").value="geral";
+  $("p-busca").value="";
+  $("p-mulheres").checked=false;
+  $("p-ict").checked=false;
+  $("p-estudante").checked=false;
+  $("p-ocultar-incomp").checked=false;
+  $("l-lgpd").checked=true;
+  $("lead-err").hidden=true;
+}
 $("match-toggle").onclick=function(){
   popularFormUnificado();
   $("lead-err").hidden=true;
   $("lead-cancel").hidden=!(lead&&lead.nome&&lead.email);
   $("lead-overlay").hidden=false;
+};
+$("match-nova-startup").onclick=function(){
+  popularFormUnificado();
+  limparCamposForm(true);
+  $("lead-cancel").hidden=false;
+  $("lead-overlay").hidden=false;
+  $("l-empresa").focus();
+};
+$("match-reset-all").onclick=function(){
+  lead=null;perfil=null;
+  try{
+    localStorage.removeItem("radar-lead-crm");
+    localStorage.removeItem("radar-lead-crm-v2");
+    localStorage.removeItem("radar-perfil-startup");
+  }catch(e){}
+  limparCamposForm(false);
+  $("lead-cancel").hidden=true;
+  $("lead-overlay").hidden=false;
+  atualizarBannerPerfil();
+  render();
+  $("l-nome").focus();
+};
+$("lead-clear").onclick=function(){
+  limparCamposForm(false);
+  $("l-nome").focus();
 };
 $("lead-cancel").onclick=function(){
   $("lead-overlay").hidden=true;
