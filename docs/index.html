@@ -83,22 +83,22 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
 .match-reason{font-size:.82rem;color:var(--ok);background:var(--bg);border-left:3px solid var(--ok);padding:6px 10px;border-radius:4px;margin:8px 0}
 .match-reason.warn{color:var(--warn);border-left-color:var(--warn)}
 .match-reason.bad{color:var(--bad);border-left-color:var(--bad)}
-.lead-overlay{position:fixed;inset:0;background:rgba(15,26,32,.78);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:16px;overflow-y:auto}
+.lead-overlay{position:fixed;inset:0;background:rgba(15,26,32,.78);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);z-index:1000;display:flex;align-items:flex-start;justify-content:center;padding:20px 14px;overflow-y:auto}
 .lead-overlay[hidden]{display:none}
-.lead-card{background:var(--card);color:var(--ink);border:1px solid var(--line);border-top:5px solid var(--acc);border-radius:14px;max-width:520px;width:100%;padding:22px 20px;box-shadow:0 20px 45px rgba(0,0,0,.3)}
+.lead-card{background:var(--card);color:var(--ink);border:1px solid var(--line);border-top:5px solid var(--acc);border-radius:14px;max-width:620px;width:100%;padding:22px 20px;margin:auto;box-shadow:0 20px 45px rgba(0,0,0,.3)}
 .lead-card h2{margin:0 0 6px;font-size:1.35rem;line-height:1.2}
-.lead-card .sub{margin:0 0 14px;font-size:.88rem}
+.lead-card .sub{margin:0 0 14px;font-size:.88rem;max-width:none}
+.lead-sec{font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--acc);margin:14px 0 8px;padding-bottom:4px;border-bottom:1px solid var(--line)}
 .lead-grid{display:grid;gap:10px;grid-template-columns:1fr}
-@media (min-width:520px){.lead-grid{grid-template-columns:1fr 1fr}.lead-full{grid-column:1/-1}}
+@media (min-width:540px){.lead-grid{grid-template-columns:1fr 1fr}.lead-full{grid-column:1/-1}}
 .lead-field label{display:block;font-size:.8rem;font-weight:600;margin-bottom:3px;color:var(--ink)}
-.lead-field input,.lead-field select{font:inherit;font-size:.92rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 11px;width:100%}
-.lead-lgpd{display:flex;align-items:flex-start;gap:8px;font-size:.78rem;color:var(--mute);margin:12px 0 14px;line-height:1.4;background:var(--bg);padding:10px;border-radius:8px;border:1px solid var(--line);cursor:pointer}
+.lead-field input,.lead-field select{font:inherit;font-size:.9rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;width:100%}
+.lead-lgpd{display:flex;align-items:flex-start;gap:8px;font-size:.78rem;color:var(--mute);margin:14px 0;line-height:1.4;background:var(--bg);padding:10px;border-radius:8px;border:1px solid var(--line);cursor:pointer}
 .lead-lgpd input{margin-top:2px;accent-color:var(--acc);flex:none}
 .lead-err{color:var(--bad);background:var(--bad-t);padding:8px 10px;border-radius:6px;font-size:.82rem;margin-bottom:10px}
 .lead-err[hidden]{display:none}
-.lead-btn{width:100%;padding:11px 16px;font-size:.95rem;font-weight:700;background:var(--acc);color:var(--card);border:1px solid var(--acc);border-radius:8px;cursor:pointer}
-.lead-user-bar{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:.8rem;color:var(--mute);margin-bottom:10px;padding:6px 10px;background:var(--card);border:1px solid var(--line);border-radius:8px}
-.lead-user-bar[hidden]{display:none}
+.lead-actions{display:flex;gap:8px;align-items:center}
+.lead-btn{flex:1;padding:11px 16px;font-size:.95rem;font-weight:700;background:var(--acc);color:var(--card);border:1px solid var(--acc);border-radius:8px;cursor:pointer}
 .credit-footer{text-align:center;padding:1rem 1rem .8rem;margin-top:1.5rem;color:var(--mute);font-size:.75rem;border-top:1px solid var(--line)}
 .credit-footer strong{color:var(--ink);font-weight:600}
 .credit-footer .sub{font-size:.65rem;margin:0.2rem auto 0;opacity:.75}
@@ -107,10 +107,11 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
 <body>
 <div id="lead-overlay" class="lead-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="lead-title">
   <div class="lead-card">
-    <h2 id="lead-title">Bem-vindo ao Radar de Editais</h2>
-    <p class="sub">Preencha seus dados para acessar gratuitamente os editais abertos de fomento, subvenção, incubação e aceleração para startups.</p>
+    <h2 id="lead-title">🎯 Bem-vindo ao Radar de Editais</h2>
+    <p class="sub">Preencha seus dados e o perfil da sua startup em um único passo para acessar o Radar e receber a recomendação personalizada dos editais mais indicados para você.</p>
     <div id="lead-err" class="lead-err" hidden></div>
     <form id="lead-form" novalidate>
+      <div class="lead-sec">1. Seus Dados e Localização</div>
       <div class="lead-grid">
         <div class="lead-field lead-full">
           <label for="l-nome">Nome completo *</label>
@@ -125,9 +126,9 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
           <input id="l-zap" type="tel" required placeholder="(00) 90000-0000" autocomplete="tel">
         </div>
         <div class="lead-field">
-          <label for="l-uf">Estado (UF) *</label>
+          <label for="l-uf">Estado (UF) de sede ou residência *</label>
           <select id="l-uf" required>
-            <option value="">Selecione...</option>
+            <option value="">Selecione seu estado...</option>
             <option value="AC">Acre (AC)</option><option value="AL">Alagoas (AL)</option><option value="AM">Amazonas (AM)</option>
             <option value="AP">Amapá (AP)</option><option value="BA">Bahia (BA)</option><option value="CE">Ceará (CE)</option>
             <option value="DF">Distrito Federal (DF)</option><option value="ES">Espírito Santo (ES)</option><option value="GO">Goiás (GO)</option>
@@ -143,24 +144,74 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
           <label for="l-cidade">Cidade *</label>
           <input id="l-cidade" type="text" required placeholder="Sua cidade" autocomplete="address-level2">
         </div>
-        <div class="lead-field lead-full">
+      </div>
+
+      <div class="lead-sec">2. Perfil da Startup / Projeto (Para Recomendação)</div>
+      <div class="lead-grid">
+        <div class="lead-field">
           <label for="l-empresa">Nome da Empresa / Startup (opcional)</label>
-          <input id="l-empresa" type="text" placeholder="Ex.: Minha Startup Ltda" autocomplete="organization">
+          <input id="l-empresa" type="text" placeholder="Ex.: AgroIA Soluções" autocomplete="organization">
+        </div>
+        <div class="lead-field">
+          <label for="p-cnpj">Situação Jurídica (CNPJ)</label>
+          <select id="p-cnpj">
+            <option value="sim">Já possuo CNPJ ativo (MEI, ME, EPP, Ltda/S.A.)</option>
+            <option value="nao">Ainda não tenho CNPJ (Pessoa Física / Equipe)</option>
+          </select>
+        </div>
+        <div class="lead-field">
+          <label for="p-est">Estágio atual da Startup</label>
+          <select id="p-est">
+            <option value="Ideação e MVP">Ideação, Pesquisa ou MVP / Protótipo</option>
+            <option value="Tração">Operação e Tração (primeiros clientes / receita)</option>
+            <option value="Escala">Escala e Expansão</option>
+          </select>
+        </div>
+        <div class="lead-field">
+          <label for="p-setor">Setor / Vertical principal</label>
+          <select id="p-setor">
+            <option value="geral">SaaS / B2B / B2C / Tecnologia Geral</option>
+            <option value="ia_deeptech">Inteligência Artificial / DeepTech / Ciência</option>
+            <option value="govtech">GovTech / Inovação Aberta & Setor Público</option>
+            <option value="agritech_bio">Agritech / Bioeconomia / Alimentos</option>
+            <option value="healthtech">Healthtech / Saúde / Biotecnologia</option>
+            <option value="impacto_esg">Impacto Socioambiental / Sustentabilidade (ESG)</option>
+          </select>
+        </div>
+        <div class="lead-field lead-full">
+          <label for="p-busca">O que você busca prioritariamente?</label>
+          <select id="p-busca">
+            <option value="">Qualquer modalidade (Subvenção, Aceleração, Prêmio...)</option>
+            <option value="Subvenção">Subvenção Econômica (recursos não reembolsáveis)</option>
+            <option value="Aceleração">Aceleração, Mentoria e Investimento</option>
+            <option value="Incubação">Incubação e Apoio Universitário/Parque</option>
+            <option value="Inovação aberta">Inovação Aberta (Desafios / Contratos)</option>
+            <option value="Prêmio">Prêmios e Competições de Pitch</option>
+          </select>
+        </div>
+        <div class="lead-field lead-full">
+          <label>Diferenciais e Vínculos da Equipe (opcional)</label>
+          <div class="match-checks">
+            <label class="match-check"><input type="checkbox" id="p-mulheres"> Liderança ou fundadora mulher</label>
+            <label class="match-check"><input type="checkbox" id="p-ict"> Vínculo/parceria com Universidade, ICT ou Pesquisador</label>
+            <label class="match-check"><input type="checkbox" id="p-estudante"> Estudante universitário ou recém-graduado na equipe</label>
+            <label class="match-check"><input type="checkbox" id="p-ocultar-incomp"> Ocultar editais incompatíveis com meu Estado/CNPJ</label>
+          </div>
         </div>
       </div>
+
       <label class="lead-lgpd">
         <input id="l-lgpd" type="checkbox" required checked>
-        <span>Ao preencher e continuar, concordo que meus dados serão colhidos para gestão de relacionamento (CRM) e comunicações sobre oportunidades, sendo tratados com segurança e privacidade de acordo com a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.</span>
+        <span>Ao preencher e continuar, concordo que meus dados serão colhidos para gestão de relacionamento (CRM) e recomendações de oportunidades, sendo tratados com segurança e privacidade de acordo com a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.</span>
       </label>
-      <button id="lead-submit" type="submit" class="lead-btn">Acessar Radar de Editais</button>
+      <div class="lead-actions">
+        <button id="lead-submit" type="submit" class="lead-btn">Salvar e Ver Editais Recomendados</button>
+        <button id="lead-cancel" type="button" hidden style="padding:11px 14px">Fechar</button>
+      </div>
     </form>
   </div>
 </div>
 <main>
-  <div id="lead-user-bar" class="lead-user-bar" hidden>
-    <span id="lead-user-info"></span>
-    <button id="lead-edit-btn" type="button" style="padding:3px 8px;font-size:.75rem">Meus dados</button>
-  </div>
   <h1>Radar de editais para startups</h1>
   <p class="sub">Fomento, subvenção, incubação e aceleração num só lugar, com prazo à vista.</p>
   <div class="bar" hidden><button id="busca-toggle" type="button" aria-expanded="false" aria-controls="busca-panel" hidden>Acompanhar descobertas</button></div>
@@ -183,88 +234,12 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
   <div class="match-cta" id="match-banner">
     <div class="match-cta-info">
       <strong id="match-banner-title">🎯 Recomendação Inteligente para sua Startup</strong>
-      <span id="match-banner-sub">Informe o perfil da sua startup (UF, CNPJ, estágio e setor) para descobrir os editais mais indicados para você se inscrever.</span>
+      <span id="match-banner-sub">Os editais abaixo estão classificados pela compatibilidade com o seu perfil.</span>
     </div>
     <div class="acts">
-      <button id="match-toggle" type="button" class="btn-primary" aria-expanded="false" aria-controls="match-panel">Configurar perfil da Startup</button>
-      <button id="match-clear-top" type="button" hidden>Limpar perfil</button>
+      <button id="match-toggle" type="button" class="btn-primary">Editar meu perfil e Startup</button>
     </div>
   </div>
-  <section id="match-panel" class="match-panel" hidden aria-label="Perfil da Startup para Recomendação">
-    <h2>Perfil da sua Startup</h2>
-    <p class="sub" style="margin-bottom:10px">Cruzamos seus dados com os requisitos, localização, foco e estágio de cada edital aberto.</p>
-    <div class="match-grid">
-      <div class="match-field">
-        <label for="p-nome">Nome da Startup ou Projeto (opcional)</label>
-        <input id="p-nome" type="text" placeholder="Ex.: AgroIA Soluções">
-      </div>
-      <div class="match-field">
-        <label for="p-uf">Estado (UF) de sede ou residência</label>
-        <select id="p-uf">
-          <option value="">Selecione seu estado...</option>
-          <option value="AC">Acre (AC)</option><option value="AL">Alagoas (AL)</option><option value="AM">Amazonas (AM)</option>
-          <option value="AP">Amapá (AP)</option><option value="BA">Bahia (BA)</option><option value="CE">Ceará (CE)</option>
-          <option value="DF">Distrito Federal (DF)</option><option value="ES">Espírito Santo (ES)</option><option value="GO">Goiás (GO)</option>
-          <option value="MA">Maranhão (MA)</option><option value="MG">Minas Gerais (MG)</option><option value="MS">Mato Grosso do Sul (MS)</option>
-          <option value="MT">Mato Grosso (MT)</option><option value="PA">Pará (PA)</option><option value="PB">Paraíba (PB)</option>
-          <option value="PE">Pernambuco (PE)</option><option value="PI">Piauí (PI)</option><option value="PR">Paraná (PR)</option>
-          <option value="RJ">Rio de Janeiro (RJ)</option><option value="RN">Rio Grande do Norte (RN)</option><option value="RO">Rondônia (RO)</option>
-          <option value="RR">Roraima (RR)</option><option value="RS">Rio Grande do Sul (RS)</option><option value="SC">Santa Catarina (SC)</option>
-          <option value="SE">Sergipe (SE)</option><option value="SP">São Paulo (SP)</option><option value="TO">Tocantins (TO)</option>
-        </select>
-      </div>
-      <div class="match-field">
-        <label for="p-cnpj">Situação Jurídica (CNPJ)</label>
-        <select id="p-cnpj">
-          <option value="sim">Já possuo CNPJ ativo (MEI, ME, EPP ou Ltda/S.A.)</option>
-          <option value="nao">Ainda não tenho CNPJ (Pessoa Física / Equipe)</option>
-        </select>
-      </div>
-      <div class="match-field">
-        <label for="p-est">Estágio atual da Startup</label>
-        <select id="p-est">
-          <option value="Ideação e MVP">Ideação, Pesquisa ou MVP / Protótipo</option>
-          <option value="Tração">Operação e Tração (primeiros clientes / receita)</option>
-          <option value="Escala">Escala e Expansão</option>
-        </select>
-      </div>
-      <div class="match-field">
-        <label for="p-setor">Setor / Vertical principal</label>
-        <select id="p-setor">
-          <option value="geral">SaaS / B2B / B2C / Tecnologia Geral</option>
-          <option value="ia_deeptech">Inteligência Artificial / DeepTech / Ciência</option>
-          <option value="govtech">GovTech / Inovação Aberta & Setor Público</option>
-          <option value="agritech_bio">Agritech / Bioeconomia / Alimentos</option>
-          <option value="healthtech">Healthtech / Saúde / Biotecnologia</option>
-          <option value="impacto_esg">Impacto Socioambiental / Sustentabilidade (ESG)</option>
-        </select>
-      </div>
-      <div class="match-field">
-        <label for="p-busca">O que você busca prioritariamente?</label>
-        <select id="p-busca">
-          <option value="">Qualquer modalidade (Subvenção, Aceleração, Prêmio...)</option>
-          <option value="Subvenção">Subvenção Econômica (recursos não reembolsáveis)</option>
-          <option value="Aceleração">Aceleração, Mentoria e Investimento</option>
-          <option value="Incubação">Incubação e Apoio Universitário/Parque</option>
-          <option value="Inovação aberta">Inovação Aberta (Desafios / Contratos)</option>
-          <option value="Prêmio">Prêmios e Competições de Pitch</option>
-        </select>
-      </div>
-    </div>
-    <div class="match-field" style="margin-bottom:14px">
-      <label>Diferenciais e Vínculos da Equipe (marque os que se aplicam)</label>
-      <div class="match-checks">
-        <label class="match-check"><input type="checkbox" id="p-mulheres"> Liderança ou fundadora mulher</label>
-        <label class="match-check"><input type="checkbox" id="p-ict"> Vínculo/parceria com Universidade, ICT ou Pesquisador</label>
-        <label class="match-check"><input type="checkbox" id="p-estudante"> Estudante universitário ou recém-graduado na equipe</label>
-        <label class="match-check"><input type="checkbox" id="p-ocultar-incomp"> Ocultar editais incompatíveis com meu Estado/CNPJ</label>
-      </div>
-    </div>
-    <div class="bar" style="margin-bottom:0">
-      <button id="match-save" type="button" class="btn-primary">Salvar perfil e ver recomendações</button>
-      <button id="match-close" type="button">Fechar</button>
-    </div>
-  </section>
   <div class="tools">
     <input id="q" type="search" placeholder="Buscar por tema, órgão ou palavra-chave" aria-label="Buscar editais">
     <select id="tipo" aria-label="Tipo"><option value="">Todos os tipos</option></select>
@@ -444,19 +419,17 @@ function setData(list,label,isDemo){
   $("src").className=isDemo?"demo":"real";$("src").textContent=label;render();
 }
 function atualizarBannerPerfil(){
-  if(perfil&&perfil.ativo){
-    var nome=perfil.nome?perfil.nome+" · ":"";
-    var uf=perfil.uf?("UF: "+perfil.uf):("Nacional");
+  if(lead&&lead.nome&&perfil&&perfil.ativo){
+    var emp=lead.empresa?(" · "+lead.empresa):"";
+    var local=lead.cidade&&lead.uf?(lead.cidade+"/"+lead.uf):(perfil.uf||"Nacional");
     var cnpj=perfil.cnpj==="sim"?"Com CNPJ":"Sem CNPJ (PF)";
-    $("match-banner-title").textContent="🎯 Perfil ativo: "+nome+uf+" · "+cnpj+" · "+perfil.est;
+    $("match-banner-title").textContent="🎯 "+lead.nome+emp+" ("+local+") · "+cnpj+" · "+perfil.est;
     $("match-banner-sub").textContent="Os editais abaixo estão classificados pela compatibilidade com a sua startup.";
-    $("match-toggle").textContent="Editar perfil";
-    $("match-clear-top").hidden=false;
+    $("match-toggle").textContent="Editar meus dados e perfil";
   }else{
     $("match-banner-title").textContent="🎯 Recomendação Inteligente para sua Startup";
-    $("match-banner-sub").textContent="Informe o perfil da sua startup (UF, CNPJ, estágio e setor) para descobrir os editais mais indicados para você se inscrever.";
-    $("match-toggle").textContent="Configurar perfil da Startup";
-    $("match-clear-top").hidden=true;
+    $("match-banner-sub").textContent="Preencha seus dados e o perfil da sua startup para descobrir os editais mais indicados para você.";
+    $("match-toggle").textContent="Configurar meu perfil";
   }
 }
 function render(){
@@ -514,60 +487,7 @@ $("list").addEventListener("click",function(ev){
   var e=E[+b.getAttribute("data-i")],k=e.t+"|"+e.o;saved[k]=!saved[k];persist();render()
 });
 ["q","tipo","est","ord"].forEach(function(id){$(id).addEventListener("input",render)});
-function popularFormPerfil(){
-  if(!perfil)return;
-  $("p-nome").value=perfil.nome||"";
-  $("p-uf").value=perfil.uf||"";
-  $("p-cnpj").value=perfil.cnpj||"sim";
-  $("p-est").value=perfil.est||"Ideação e MVP";
-  $("p-setor").value=perfil.setor||"geral";
-  $("p-busca").value=perfil.busca||"";
-  $("p-mulheres").checked=!!perfil.mulheres;
-  $("p-ict").checked=!!perfil.ict;
-  $("p-estudante").checked=!!perfil.estudante;
-  $("p-ocultar-incomp").checked=!!perfil.ocultar_incomp;
-}
-$("match-toggle").onclick=function(){
-  var pnl=$("match-panel");
-  pnl.hidden=!pnl.hidden;
-  this.setAttribute("aria-expanded",String(!pnl.hidden));
-  if(!pnl.hidden){popularFormPerfil();pnl.scrollIntoView({block:"nearest",behavior:"smooth"})}
-};
-$("match-close").onclick=function(){
-  $("match-panel").hidden=true;
-  $("match-toggle").setAttribute("aria-expanded","false");
-};
-$("match-save").onclick=function(){
-  perfil={
-    ativo:true,
-    nome:$("p-nome").value.trim(),
-    uf:$("p-uf").value,
-    cnpj:$("p-cnpj").value,
-    est:$("p-est").value,
-    setor:$("p-setor").value,
-    busca:$("p-busca").value,
-    mulheres:$("p-mulheres").checked,
-    ict:$("p-ict").checked,
-    estudante:$("p-estudante").checked,
-    ocultar_incomp:$("p-ocultar-incomp").checked
-  };
-  try{localStorage.setItem("radar-perfil-startup",JSON.stringify(perfil))}catch(e){}
-  $("ord").value="match";
-  $("match-panel").hidden=true;
-  $("match-toggle").setAttribute("aria-expanded","false");
-  atualizarBannerPerfil();
-  render();
-};
-$("match-clear-top").onclick=function(){
-  perfil=null;
-  try{localStorage.removeItem("radar-perfil-startup")}catch(e){}
-  if($("ord").value==="match")$("ord").value="prazo";
-  atualizarBannerPerfil();
-  render();
-};
-if(perfil&&perfil.ativo){$("ord").value="match"}else{$("ord").value="prazo"}
-atualizarBannerPerfil();
-// ---------- Captura de Lead (CRM & LGPD) ----------
+// ---------- Formulário Único: Captura de Lead (CRM & LGPD) + Perfil de Match ----------
 var CRM_EMAIL_DESTINO="silvanafanni@gmail.com";
 var CRM_WEBHOOK_URL=""; // Quando seu CRM estiver pronto, basta colocar a URL da API dele aqui
 var lead=null;
@@ -579,31 +499,48 @@ function formatarZap(v){
   return d;
 }
 $("l-zap").addEventListener("input",function(){this.value=formatarZap(this.value)});
-function atualizarBarraLead(){
-  if(lead&&lead.nome&&lead.email){
-    $("lead-overlay").hidden=true;
-    $("lead-user-bar").hidden=false;
-    var emp=lead.empresa?(" · "+lead.empresa):"";
-    $("lead-user-info").textContent="👤 "+lead.nome+emp+" ("+lead.cidade+"/"+lead.uf+")";
-  }else{
-    $("lead-overlay").hidden=false;
-    $("lead-user-bar").hidden=true;
+function popularFormUnificado(){
+  if(lead){
+    $("l-nome").value=lead.nome||"";
+    $("l-email").value=lead.email||"";
+    $("l-zap").value=lead.zap||"";
+    $("l-uf").value=lead.uf||"";
+    $("l-cidade").value=lead.cidade||"";
+    $("l-empresa").value=lead.empresa||"";
+    $("l-lgpd").checked=true;
+  }
+  if(perfil){
+    if(!lead||!lead.uf)$("l-uf").value=perfil.uf||"";
+    if(!lead||!lead.empresa)$("l-empresa").value=perfil.nome||"";
+    $("p-cnpj").value=perfil.cnpj||"sim";
+    $("p-est").value=perfil.est||"Ideação e MVP";
+    $("p-setor").value=perfil.setor||"geral";
+    $("p-busca").value=perfil.busca||"";
+    $("p-mulheres").checked=!!perfil.mulheres;
+    $("p-ict").checked=!!perfil.ict;
+    $("p-estudante").checked=!!perfil.estudante;
+    $("p-ocultar-incomp").checked=!!perfil.ocultar_incomp;
   }
 }
-function popularFormLead(){
-  if(!lead)return;
-  $("l-nome").value=lead.nome||"";
-  $("l-email").value=lead.email||"";
-  $("l-zap").value=lead.zap||"";
-  $("l-uf").value=lead.uf||"";
-  $("l-cidade").value=lead.cidade||"";
-  $("l-empresa").value=lead.empresa||"";
-  $("l-lgpd").checked=true;
+function verificarEntrada(){
+  if(lead&&lead.nome&&lead.email){
+    $("lead-overlay").hidden=true;
+    $("lead-cancel").hidden=false;
+  }else{
+    popularFormUnificado();
+    $("lead-cancel").hidden=true;
+    $("lead-overlay").hidden=false;
+  }
+  atualizarBannerPerfil();
 }
-$("lead-edit-btn").onclick=function(){
-  popularFormLead();
+$("match-toggle").onclick=function(){
+  popularFormUnificado();
   $("lead-err").hidden=true;
+  $("lead-cancel").hidden=!(lead&&lead.nome&&lead.email);
   $("lead-overlay").hidden=false;
+};
+$("lead-cancel").onclick=function(){
+  $("lead-overlay").hidden=true;
 };
 $("lead-form").onsubmit=function(ev){
   ev.preventDefault();
@@ -613,6 +550,14 @@ $("lead-form").onsubmit=function(ev){
       uf=$("l-uf").value,
       cidade=$("l-cidade").value.trim(),
       empresa=$("l-empresa").value.trim(),
+      cnpj=$("p-cnpj").value,
+      est=$("p-est").value,
+      setor=$("p-setor").value,
+      busca=$("p-busca").value,
+      mulheres=$("p-mulheres").checked,
+      ict=$("p-ict").checked,
+      estudante=$("p-estudante").checked,
+      ocultar_incomp=$("p-ocultar-incomp").checked,
       lgpd=$("l-lgpd").checked;
   var err=$("lead-err");
   if(!nome||nome.length<2){err.textContent="Por favor, informe seu nome completo.";err.hidden=false;$("l-nome").focus();return}
@@ -622,31 +567,28 @@ $("lead-form").onsubmit=function(ev){
   if(!cidade||cidade.length<2){err.textContent="Por favor, informe a sua cidade.";err.hidden=false;$("l-cidade").focus();return}
   if(!lgpd){err.textContent="Para acessar a plataforma, é necessário concordar com o termo de tratamento de dados (LGPD).";err.hidden=false;return}
   err.hidden=true;
+  var difer=[];
+  if(mulheres)difer.push("Liderança Feminina");
+  if(ict)difer.push("Vínculo ICT/Universidade");
+  if(estudante)difer.push("Estudante Universitário");
   lead={
     nome:nome,email:email,zap:zap,uf:uf,cidade:cidade,empresa:empresa,
-    consentimento_lgpd:true,cadastrado_em:new Date().toISOString()
+    cnpj:cnpj,estagio:est,setor:setor,modalidade_buscada:busca||"Qualquer",
+    diferenciais:difer,consentimento_lgpd:true,cadastrado_em:new Date().toISOString()
   };
-  try{localStorage.setItem("radar-lead-crm",JSON.stringify(lead))}catch(e){}
-  // Integra automaticamente o Estado (UF) e o nome da Startup ao perfil de recomendação (Match)
-  if(!perfil||!perfil.ativo){
-    perfil={
-      ativo:true,nome:empresa,uf:uf,cnpj:empresa?"sim":"nao",
-      est:"Ideação e MVP",setor:"geral",busca:"",
-      mulheres:false,ict:false,estudante:false,ocultar_incomp:false
-    };
-    try{localStorage.setItem("radar-perfil-startup",JSON.stringify(perfil))}catch(e){}
-    $("ord").value="match";
-    atualizarBannerPerfil();
-  }else if(!perfil.uf){
-    perfil.uf=uf;
-    if(empresa&&!perfil.nome)perfil.nome=empresa;
-    try{localStorage.setItem("radar-perfil-startup",JSON.stringify(perfil))}catch(e){}
-    atualizarBannerPerfil();
-  }
+  perfil={
+    ativo:true,nome:empresa,uf:uf,cnpj:cnpj,est:est,setor:setor,busca:busca,
+    mulheres:mulheres,ict:ict,estudante:estudante,ocultar_incomp:ocultar_incomp
+  };
+  try{
+    localStorage.setItem("radar-lead-crm",JSON.stringify(lead));
+    localStorage.setItem("radar-perfil-startup",JSON.stringify(perfil));
+  }catch(e){}
+  $("ord").value="match";
   if(CRM_EMAIL_DESTINO){
     try{
       var fd=new FormData();
-      fd.append("_subject","Novo Lead Radar de Editais: "+nome+" ("+cidade+"/"+uf+")");
+      fd.append("_subject","Novo Lead Radar de Editais: "+nome+" - "+(empresa||"Startup")+" ("+cidade+"/"+uf+")");
       fd.append("_template","table");
       fd.append("_captcha","false");
       fd.append("Nome",nome);
@@ -655,6 +597,11 @@ $("lead-form").onsubmit=function(ev){
       fd.append("Cidade",cidade);
       fd.append("Estado_UF",uf);
       fd.append("Empresa_Startup",empresa||"Não informada");
+      fd.append("Possui_CNPJ",cnpj==="sim"?"Sim (CNPJ ativo)":"Não (Pessoa Física / Equipe)");
+      fd.append("Estagio_Startup",est);
+      fd.append("Setor_Vertical",NOMES_SETOR[setor]||setor);
+      fd.append("Modalidade_Buscada",busca||"Qualquer modalidade");
+      fd.append("Diferenciais_Equipe",difer.join(", ")||"Nenhum assinalado");
       fd.append("Consentimento_LGPD","Sim (Concordou com uso para CRM conforme LGPD)");
       fd.append("Data_Hora",new Date().toLocaleString("pt-BR"));
       fetch("https://formsubmit.co/ajax/"+CRM_EMAIL_DESTINO,{
@@ -667,10 +614,11 @@ $("lead-form").onsubmit=function(ev){
   if(CRM_WEBHOOK_URL){
     try{fetch(CRM_WEBHOOK_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(lead)}).catch(function(){})}catch(e){}
   }
-  atualizarBarraLead();
+  verificarEntrada();
   render();
 };
-atualizarBarraLead();
+if(perfil&&perfil.ativo){$("ord").value="match"}else{$("ord").value="prazo"}
+verificarEntrada();
 var MSG_DEMO="Carregando editais atualizados...";
 var s0=null;try{s0=JSON.parse(localStorage.getItem("radar-dados")||"null")}catch(e){}
 if(s0&&Array.isArray(s0.dados)&&s0.dados.length){setData(s0.dados,"Dados reais de "+s0.nome+" ("+s0.dados.length+" editais).",false)}else{setData(DEMO,MSG_DEMO,true)}
