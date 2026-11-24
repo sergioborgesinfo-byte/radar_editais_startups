@@ -645,22 +645,22 @@ $("lead-form").onsubmit=function(ev){
   }
   if(CRM_EMAIL_DESTINO){
     try{
-      fetch("https://formsubmit.co/ajax/"+encodeURIComponent(CRM_EMAIL_DESTINO),{
+      var fd=new FormData();
+      fd.append("_subject","Novo Lead Radar de Editais: "+nome+" ("+cidade+"/"+uf+")");
+      fd.append("_template","table");
+      fd.append("_captcha","false");
+      fd.append("Nome",nome);
+      fd.append("Email",email);
+      fd.append("WhatsApp",zap);
+      fd.append("Cidade",cidade);
+      fd.append("Estado_UF",uf);
+      fd.append("Empresa_Startup",empresa||"Não informada");
+      fd.append("Consentimento_LGPD","Sim (Concordou com uso para CRM conforme LGPD)");
+      fd.append("Data_Hora",new Date().toLocaleString("pt-BR"));
+      fetch("https://formsubmit.co/ajax/"+CRM_EMAIL_DESTINO,{
         method:"POST",
-        headers:{"Content-Type":"application/json","Accept":"application/json"},
-        body:JSON.stringify({
-          _subject:"Novo Lead Radar de Editais: "+nome+" ("+cidade+"/"+uf+")",
-          _template:"table",
-          _captcha:"false",
-          Nome:nome,
-          Email:email,
-          WhatsApp:zap,
-          Cidade:cidade,
-          Estado_UF:uf,
-          Empresa_Startup:empresa||"Não informada",
-          Consentimento_LGPD:"Sim (Concordou com uso para CRM conforme LGPD)",
-          Data_Hora:new Date().toLocaleString("pt-BR")
-        })
+        headers:{"Accept":"application/json"},
+        body:fd
       }).catch(function(){});
     }catch(e){}
   }
