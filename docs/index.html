@@ -49,7 +49,7 @@ h1{font-size:clamp(1.7rem,6vw,2.4rem);font-weight:800;letter-spacing:-.02em;marg
 button{font:inherit;font-size:.85rem;background:none;color:var(--acc);border:1px solid var(--acc);border-radius:8px;padding:6px 12px;cursor:pointer}
 button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
 .empty{text-align:center;color:var(--mute);padding:32px 12px;background:var(--card);border:1px dashed var(--line);border-radius:10px}
-@media (min-width:600px){.tools{grid-template-columns:2fr 1fr 1fr 1fr}.tools input{grid-column:auto}}
+@media (min-width:600px){.tools{grid-template-columns:1.6fr 1fr 1fr 1fr 1.2fr}.tools input{grid-column:auto}}
 .bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
 .real{background:var(--acc-t);color:var(--acc);border-radius:8px;padding:8px 12px;font-size:.85rem;margin-bottom:12px}
 .acts{display:flex;gap:8px;align-items:center}
@@ -195,7 +195,6 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
             <label class="match-check"><input type="checkbox" id="p-mulheres"> Liderança ou fundadora mulher</label>
             <label class="match-check"><input type="checkbox" id="p-ict"> Vínculo/parceria com Universidade, ICT ou Pesquisador</label>
             <label class="match-check"><input type="checkbox" id="p-estudante"> Estudante universitário ou recém-graduado na equipe</label>
-            <label class="match-check"><input type="checkbox" id="p-ocultar-incomp"> Ocultar editais incompatíveis com meu Estado/CNPJ</label>
           </div>
         </div>
       </div>
@@ -245,9 +244,14 @@ button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
   </div>
   <div class="tools">
     <input id="q" type="search" placeholder="Buscar por tema, órgão ou palavra-chave" aria-label="Buscar editais">
+    <select id="min-match" aria-label="Nível de compatibilidade">
+      <option value="70">🎯 Recomendados (70%+)</option>
+      <option value="80">🔥 Alta afinidade (80%+)</option>
+      <option value="0">📋 Todos os editais (0%+)</option>
+    </select>
     <select id="tipo" aria-label="Tipo"><option value="">Todos os tipos</option></select>
     <select id="est" aria-label="Estágio"><option value="">Todos os estágios</option></select>
-    <select id="ord" aria-label="Ordenar"><option value="match">Recomendados para mim (Match)</option><option value="prazo">Prazo mais próximo</option><option value="valor">Maior valor</option></select>
+    <select id="ord" aria-label="Ordenar"><option value="match">Ordenar por Match</option><option value="prazo">Prazo mais próximo</option><option value="valor">Maior valor</option></select>
   </div>
   <div class="meta"><span id="cnt"></span><span></span></div>
   <div class="list" id="list"></div>
@@ -443,10 +447,12 @@ function atualizarBannerPerfil(){
   }
 }
 function render(){
-  var q=$("q").value.toLowerCase(),tp=$("tipo").value,es=$("est").value,od=$("ord").value;
+  var q=$("q").value.toLowerCase(),tp=$("tipo").value,es=$("est").value,od=$("ord").value,minM=+($("min-match").value||0);
   var temPerfil=!!(perfil&&perfil.ativo);
+  $("min-match").hidden=!temPerfil;
   if(!temPerfil&&od==="match")od="prazo";
   E.forEach(function(e){e.match=temPerfil?avaliarMatch(e,perfil):null});
+  var totalBase=0,ocultosMatch=0;
   var L=E.filter(function(e){
     var okBase=e.automatico && e.limite>Date.now() && e.validade>Date.now() && (e.continuo || (e.d!==null && e.d>=0)) && !e.pend
       && !Number(e.rev) && !e.fora && !e.dup
@@ -454,7 +460,11 @@ function render(){
       && (!es||e.est===es)
       && (!q||(e.t+e.o+e.desc+e.tipo+(e.requisitos||"")).toLowerCase().indexOf(q)>-1);
     if(!okBase)return false;
-    if(temPerfil&&perfil.ocultar_incomp&&e.match&&e.match.incomp)return false;
+    totalBase++;
+    if(temPerfil&&minM>0&&e.match&&(e.match.incomp||e.match.score<minM)){
+      ocultosMatch++;
+      return false;
+    }
     return true;
   });
   L.sort(function(a,b){
@@ -466,10 +476,10 @@ function render(){
     return od==="valor"?b.v-a.v:
     (a.d===null?Infinity:a.d)-(b.d===null?Infinity:b.d)
   });
-  var recomendados=temPerfil?L.filter(function(e){return e.match&&!e.match.incomp&&e.match.score>=75}).length:0;
-  $("cnt").textContent=L.length+(L.length===1?" edital":" editais")+(temPerfil?" ("+recomendados+" altamente recomendados para você)":"");
-  if($("src").dataset.demo!=="1")$("src").textContent=L.length+(L.length===1?" oportunidade disponível":" oportunidades disponíveis");
-  if(!L.length){$("list").innerHTML='<div class="empty">Nenhum edital com prazo vigente registrado nesta seleção.</div>';return}
+  $("cnt").textContent=L.length+(L.length===1?" edital recomendado":" editais recomendados")+(temPerfil&&ocultosMatch>0?" ("+ocultosMatch+" com <"+minM+"% ocultos)":"");
+  if($("src").dataset.demo!=="1")$("src").textContent=totalBase+(totalBase===1?" oportunidade aberta no Radar":" oportunidades abertas no Radar")+(temPerfil&&minM>0?" · Mostrando "+L.length+" com "+minM+"%+ de compatibilidade":"");
+  var btnVerTodos=temPerfil&&ocultosMatch>0?'<div style="text-align:center;margin-top:12px"><button type="button" id="btn-ver-todos-match">Ver também os outros '+ocultosMatch+' editais abertos no Brasil (<'+minM+'% de match)</button></div>':"";
+  if(!L.length){$("list").innerHTML='<div class="empty">Nenhum edital atingiu '+minM+'% de compatibilidade com este filtro.'+btnVerTodos+'</div>';if($("btn-ver-todos-match"))$("btn-ver-todos-match").onclick=function(){$("min-match").value="0";render()};return}
   $("list").innerHTML=L.map(function(e){
     var enc=e.d!==null&&e.d<0,urg=e.d!==null&&!enc&&e.d<=10,i=E.indexOf(e),k=e.t+"|"+e.o;
     var mTag="",mBox="";
@@ -490,13 +500,14 @@ function render(){
     e.d===0?'<b style="font-size:1rem">Prazo hoje</b><span>Confira o horário no edital</span>':enc?'<b>Encerrado</b><span>'+e.dt.toLocaleDateString("pt-BR")+'</span>':'<b>'+e.d+'</b><span>'+(e.d===1?'dia restante':'dias restantes')+'</span>';
     var lnk=/^https?:\/\//.test(e.link)?'<a class="lnk" href="'+esc(e.link)+'" target="_blank" rel="noopener noreferrer">Ver edital</a>':'';
     return '<article class="item'+(enc?' enc':urg?' urg':'')+'"><div class="top"><div><h2>'+esc(e.t)+'</h2><div class="org">'+esc(e.o)+'</div></div><div class="days">'+dias+'</div></div><p class="desc">'+esc(e.desc)+'</p>'+mBox+'<div class="tags">'+tags+'</div><div class="foot"><span class="val">'+brl(e.v)+'</span><span class="acts">'+lnk+'<button data-i="'+i+'" aria-pressed="'+(!!saved[k])+'">'+(saved[k]?'Acompanhando':'Acompanhar')+'</button></span></div></article>'
-  }).join("")
+  }).join("")+btnVerTodos;
+  if($("btn-ver-todos-match"))$("btn-ver-todos-match").onclick=function(){$("min-match").value="0";render()};
 }
 $("list").addEventListener("click",function(ev){
-  var b=ev.target.closest("button");if(!b)return;
+  var b=ev.target.closest("button");if(!b||b.id==="btn-ver-todos-match")return;
   var e=E[+b.getAttribute("data-i")],k=e.t+"|"+e.o;saved[k]=!saved[k];persist();render()
 });
-["q","tipo","est","ord"].forEach(function(id){$(id).addEventListener("input",render)});
+["q","min-match","tipo","est","ord"].forEach(function(id){$(id).addEventListener("input",render)});
 // ---------- Formulário Único: Captura de Lead (CRM & LGPD) + Perfil de Match ----------
 var CRM_EMAIL_DESTINO="silvanafanni@gmail.com";
 var CRM_WEBHOOK_URL=""; // Quando seu CRM estiver pronto, basta colocar a URL da API dele aqui
@@ -529,7 +540,6 @@ function popularFormUnificado(){
     $("p-mulheres").checked=!!perfil.mulheres;
     $("p-ict").checked=!!perfil.ict;
     $("p-estudante").checked=!!perfil.estudante;
-    $("p-ocultar-incomp").checked=!!perfil.ocultar_incomp;
   }
 }
 function verificarEntrada(){
@@ -559,7 +569,6 @@ function limparCamposForm(manterContato){
   $("p-mulheres").checked=false;
   $("p-ict").checked=false;
   $("p-estudante").checked=false;
-  $("p-ocultar-incomp").checked=false;
   $("l-lgpd").checked=true;
   $("lead-err").hidden=true;
 }
@@ -612,7 +621,6 @@ $("lead-form").onsubmit=function(ev){
       mulheres=$("p-mulheres").checked,
       ict=$("p-ict").checked,
       estudante=$("p-estudante").checked,
-      ocultar_incomp=$("p-ocultar-incomp").checked,
       lgpd=$("l-lgpd").checked;
   var err=$("lead-err");
   if(!nome||nome.length<2){err.textContent="Por favor, informe seu nome completo.";err.hidden=false;$("l-nome").focus();return}
@@ -633,13 +641,14 @@ $("lead-form").onsubmit=function(ev){
   };
   perfil={
     ativo:true,nome:empresa,uf:uf,cnpj:cnpj,est:est,setor:setor,busca:busca,
-    mulheres:mulheres,ict:ict,estudante:estudante,ocultar_incomp:ocultar_incomp
+    mulheres:mulheres,ict:ict,estudante:estudante
   };
   try{
     localStorage.setItem("radar-lead-crm-v2",JSON.stringify(lead));
     localStorage.setItem("radar-perfil-startup",JSON.stringify(perfil));
   }catch(e){}
   $("ord").value="match";
+  $("min-match").value="70";
   if(CRM_EMAIL_DESTINO){
     try{
       var fd=new FormData();
