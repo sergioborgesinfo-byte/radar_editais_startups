@@ -510,7 +510,7 @@ $("list").addEventListener("click",function(ev){
 ["q","min-match","tipo","est","ord"].forEach(function(id){$(id).addEventListener("input",render)});
 // ---------- Formulário Único: Captura de Lead (CRM & LGPD) + Perfil de Match ----------
 var CRM_EMAIL_DESTINO="silvanafanni@gmail.com";
-var CRM_WEBHOOK_URL=""; // Quando seu CRM estiver pronto, basta colocar a URL da API dele aqui
+var CRM_WEBHOOK_URL="https://crmsilvana.vercel.app/api/webhook/leads?secret=86b24a30b3ef9269a373385a148f93ecf9d025864ac3ef00"; // Integração com CRM Silvana Fanni
 var lead=null;
 try{lead=JSON.parse(localStorage.getItem("radar-lead-crm-v2")||"null")}catch(e){}
 function formatarZap(v){
