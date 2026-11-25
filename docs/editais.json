@@ -6,7 +6,7 @@
   "est": "Qualquer",
   "v": 100000000.0,
   "prazo": "2027-01-14",
-  "d": 51,
+  "d": 50,
   "desc": "Chamada pública de recursos não reembolsáveis da Finep para apoiar projetos de soluções tecnológicas voltadas a Empreendimentos Econômicos Solidários.",
   "link": "https://faleconosco.finep.gov.br/web/guest/w/finep-publica-chamada-de-r-100-milh%C3%B5es-para-impulsionar-solu%C3%A7%C3%B5es-tecnol%C3%B3gicas-na-economia-solid%C3%A1ria",
   "n": 1,
@@ -32,45 +32,13 @@
   "verificacao_valida_ate": "2027-01-14T23:59:59.999-03:00"
  },
  {
-  "t": "CHAMADA FAPEMIG - SEDE 018/2026 HUBMG GOV - RESOLUÇÃO DE DESAFIOS PÚBLICOS POR MEIO DE INOVAÇÃO ABERTA",
-  "o": "FAPEMIG",
-  "tipo": "Subvenção",
-  "est": "Qualquer",
-  "v": 2000000.0,
-  "prazo": "2026-12-09",
-  "d": 15,
-  "desc": "Chamada HUBMG GOV visa a resolução de desafios públicos por meio de inovação aberta, financiando projetos de pesquisa ou desenvolvimento tecnológico.",
-  "link": "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-sede-018-2026-hubmg-gov-resolucao-de-desafios-publicos-por-meio-de-inovacao-aberta",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Empresas, startups, cooperativas e ICTs no Estado de Minas Gerais. Apresentar Manifestação de Interesse e contrapartida financeira mínima de 10%.",
-  "ufs": [
-   "MG"
-  ],
-  "exige_cnpj": true,
-  "aceita_pf": false,
-  "setores": [
-   "govtech"
-  ],
-  "perfis": [
-   "ict_pesquisa"
-  ],
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2026-12-09T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2026-12-09T23:59:59.999-03:00"
- },
- {
   "t": "Batch #36 - WOW Aceleradora",
   "o": "WOW Aceleradora",
   "tipo": "Aceleração",
   "est": "Qualquer",
   "v": 500000.0,
   "prazo": "2026-12-13",
-  "d": 19,
+  "d": 18,
   "desc": "Programa de aceleração Batch #36 da WOW Aceleradora com investimento inicial de até R$ 500K e mentorias especializadas.",
   "link": "https://www.wow.ac/inscricao",
   "n": 1,
@@ -100,7 +68,7 @@
   "est": "Ideação e MVP",
   "v": 0,
   "prazo": "2026-12-08",
-  "d": 14,
+  "d": 13,
   "desc": "Programa de aceleração global do Founder Institute para apoiar startups na busca por tração e financiamento.",
   "link": "https://fi.co/join",
   "n": 1,
@@ -130,7 +98,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-11-30",
-  "d": 6,
+  "d": 5,
   "desc": "Programa de Aceleração Corporativa para conectar startups e pesquisadores a uma grande indústria do setor de sucos e bebidas.",
   "link": "https://centev.ufv.br/",
   "n": 1,
@@ -159,17 +127,17 @@
   "t": "Brasil Summer 2027",
   "o": "Founder Institute",
   "tipo": "Aceleração",
-  "est": "Ideação e MVP",
+  "est": "Qualquer",
   "v": 0,
   "prazo": "2026-12-15",
-  "d": 21,
-  "desc": "Programa de aceleração global (Founder Institute) para apoiar startups a alcançar tração e financiamento no Brasil.",
+  "d": 20,
+  "desc": "Programa de aceleração global do Founder Institute no Brasil para apoiar startups na busca por tração e financiamento.",
   "link": "https://fi.co/apply/belo",
   "n": 1,
   "r": 0,
   "revisar": 0,
   "status": "aberto",
-  "requisitos": "Empreendedores com ideias, aspirantes a empreendedores ou startups em estágios iniciais. Localizado no Brasil.",
+  "requisitos": "Empreendedores e startups em diversos estágios, desde a ideação até estágios avançados.",
   "ufs": [
    "PA"
   ],
@@ -192,14 +160,14 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-12-09",
-  "d": 15,
-  "desc": "Chamada do programa PIPE para apoio à inovação tecnológica na indústria do futuro.",
+  "d": 14,
+  "desc": "Programa PIPE da FAPESP voltado para inovação na Indústria do Futuro - Fase 1.",
   "link": "https://fapesp.br/chamadas/",
   "n": 1,
   "r": 0,
   "revisar": 0,
   "status": "aberto",
-  "requisitos": "Pesquisa para inovação no âmbito do programa PIPE FAPESP.",
+  "requisitos": "Empresas inovadoras e startups elegíveis para o programa PIPE FAPESP na área de inovação.",
   "ufs": [
    "PA",
    "SP"
@@ -223,7 +191,7 @@
   "est": "Tração",
   "v": 0,
   "prazo": "2026-11-30",
-  "d": 6,
+  "d": 5,
   "desc": "Programa de investimento e aceleração para startups de todo o Brasil, oferecendo aporte acumulado de até R$ 800 mil e trilha de capacitação.",
   "link": "https://inovastartups.com.br",
   "n": 1,
@@ -253,7 +221,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-11-30",
-  "d": 6,
+  "d": 5,
   "desc": "Programa de aceleração para 100 startups de impacto socioambiental, oferecendo apoio técnico, mentorias e conexões com investidores.",
   "link": "https://garagem.bndes.gov.br",
   "n": 1,
@@ -283,7 +251,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2027-01-22",
-  "d": 59,
+  "d": 58,
   "desc": "InovaCAR - Soluções para o Futuro do Cadastro Ambiental Rural. Inscrições até 22/01/2027.",
   "link": "https://desafios.enap.gov.br/",
   "n": 1,
@@ -308,13 +276,46 @@
   "verificacao_valida_ate": "2027-01-22T23:59:59.999-03:00"
  },
  {
+  "t": "CHAMADA FAPEMIG - SEDE 018/2026 HUBMG GOV - RESOLUÇÃO DE DESAFIOS PÚBLICOS POR MEIO DE INOVAÇÃO ABERTA",
+  "o": "FAPEMIG - Fundação de Amparo à Pesquisa do Estado de Minas Gerais",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-12-09",
+  "d": 14,
+  "desc": "Resolução de desafios públicos por meio de inovação aberta, promovida pela FAPEMIG com investimento de R$ 20 milhões.",
+  "link": "https://fapemig.br/pt/chamadas/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Empresas, ICT e Pesquisadores para resolução de desafios públicos por meio de inovação aberta.",
+  "ufs": [
+   "MG",
+   "PA"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "govtech"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-12-09T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-12-09T23:59:59.999-03:00"
+ },
+ {
   "t": "Processo Seletivo para o Programa de Residência em Inovação NIDUS",
   "o": "Agência USP de Inovação",
   "tipo": "Incubação",
   "est": "Ideação e MVP",
   "v": 0,
   "prazo": "2026-12-31",
-  "d": 37,
+  "d": 36,
   "desc": "Programa de Residência em Inovação do NIDUS para desenvolvimento de competências empreendedoras e modelos de negócios.",
   "link": "https://auspin.usp.br/nidus2026/",
   "n": 1,
@@ -370,7 +371,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-24T14:25:45.000Z"
+  "verificacao_valida_ate": "2026-12-25T02:57:38.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -379,7 +380,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2026-11-30",
-  "d": 6,
+  "d": 5,
   "desc": "Competição global de deep tech para startups. Oferece conexões, visibilidade e prêmio em dinheiro para o vencedor.",
   "link": "https://hello-tomorrow.org/global-challenge",
   "n": 1,
@@ -409,7 +410,7 @@
   "est": "Qualquer",
   "v": 0,
   "prazo": "2027-01-31",
-  "d": 68,
+  "d": 67,
   "desc": "Competição global onde 100 startups fazem pitch ao vivo em Madri para disputar prêmios e se conectar com investidores e grandes empresas.",
   "link": "https://www.southsummit.io/pt/content/startup-competition",
   "n": 1,
@@ -468,7 +469,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-24T14:25:45.000Z"
+  "verificacao_valida_ate": "2026-12-25T02:57:38.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -507,7 +508,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-24T14:25:45.000Z"
+  "verificacao_valida_ate": "2026-12-25T02:57:38.000Z"
  },
  {
   "t": "Terceira Edição do Programa Conexões BH-TEC",
@@ -516,7 +517,7 @@
   "est": "Tração",
   "v": 0,
   "prazo": "2026-11-27",
-  "d": 3,
+  "d": 2,
   "desc": "O Programa Conexões vai selecionar dez startups de base tecnológica para a terceira edição, com diagnóstico, assessorias individuais e capacitações.",
   "link": "https://bhtec.org.br/2026/11/13/da-automacao-a-novos-produtos-conexoes-abre-inscricoes-para-encontro-no-bh-tec-sobre-como-a-ia-pode-gerar-valor-para-os-negocios/",
   "n": 1,
