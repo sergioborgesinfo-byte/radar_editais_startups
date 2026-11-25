@@ -165,14 +165,22 @@ def extrair_metadados_match(e):
     if not setores:
         setores.append("geral")
 
-    # 4. Perfis especiais exigidos ou priorizados
+    # 4. Perfis especiais e qualificações exigidas ou priorizadas nos editais
     perfis = []
     if re.search(r"mulheres|feminina|empreendedoras", texto):
         perfis.append("mulheres")
-    if re.search(r"\bicts?\b|institui[cç][oõ]es cient[ií]ficas|pesquisadores|universidade|incubadoras|nits|apoiadas", req):
+    if re.search(r"\bicts?\b|institui[cç][oõ]es cient[ií]ficas|pesquisadores|universidade|incubadoras|nits|apoiadas|grupos de pesquisa|spin-?off", req):
         perfis.append("ict_pesquisa")
-    if re.search(r"estudantes|gradua[cç][aã]o|universit[aá]ri", req):
+    if re.search(r"mestr[ea]s?|doutor(?:es|as)?|p[oó]s-?gradua|stricto sensu|pesquisador(?:es)?|pipe|cientista|bolsa", texto):
+        perfis.append("mestre_doutor")
+    if re.search(r"estudantes|gradua[cç][aã]o|universit[aá]ri|rec[eé]m-?formad", req):
         perfis.append("estudantes")
+    if re.search(r"dedica[cç][aã]o|dedicados|equipe com pelo menos|duas pessoas|2 pessoas|s[oó]cios", req):
+        perfis.append("equipe_dedicada")
+    if re.search(r"contrapartida|cofinanciamento|aporte pr[oó]prio", req):
+        perfis.append("exige_contrapartida")
+    if re.search(r"patente|propriedade intelectual|software registrado|inpi|tr[l]\s*[3-9]", texto):
+        perfis.append("pi_patente")
 
     return {
         "ufs": ufs,

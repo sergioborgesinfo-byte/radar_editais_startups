@@ -115,7 +115,8 @@
    "ia_deeptech"
   ],
   "perfis": [
-   "ict_pesquisa"
+   "ict_pesquisa",
+   "mestre_doutor"
   ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
@@ -177,7 +178,9 @@
   "setores": [
    "geral"
   ],
-  "perfis": [],
+  "perfis": [
+   "mestre_doutor"
+  ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -207,7 +210,9 @@
   "setores": [
    "geral"
   ],
-  "perfis": [],
+  "perfis": [
+   "equipe_dedicada"
+  ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -300,7 +305,8 @@
    "govtech"
   ],
   "perfis": [
-   "ict_pesquisa"
+   "ict_pesquisa",
+   "mestre_doutor"
   ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
@@ -371,7 +377,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T02:57:38.000Z"
+  "verificacao_valida_ate": "2026-12-25T10:21:36.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -396,7 +402,9 @@
   "setores": [
    "ia_deeptech"
   ],
-  "perfis": [],
+  "perfis": [
+   "equipe_dedicada"
+  ],
   "validado_automaticamente": true,
   "validado_manualmente": false,
   "sem_data_final": false,
@@ -469,7 +477,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T02:57:38.000Z"
+  "verificacao_valida_ate": "2026-12-25T10:21:36.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -508,7 +516,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T02:57:38.000Z"
+  "verificacao_valida_ate": "2026-12-25T10:21:36.000Z"
  },
  {
   "t": "Terceira Edição do Programa Conexões BH-TEC",
