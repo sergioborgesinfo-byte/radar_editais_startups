@@ -1,37 +1,5 @@
 [
  {
-  "t": "Chamada Pública PRONINC 2026",
-  "o": "Finep",
-  "tipo": "Subvenção",
-  "est": "Qualquer",
-  "v": 100000000.0,
-  "prazo": "2027-01-14",
-  "d": 50,
-  "desc": "Chamada pública de recursos não reembolsáveis da Finep para apoiar projetos de soluções tecnológicas voltadas a Empreendimentos Econômicos Solidários.",
-  "link": "https://faleconosco.finep.gov.br/web/guest/w/finep-publica-chamada-de-r-100-milh%C3%B5es-para-impulsionar-solu%C3%A7%C3%B5es-tecnol%C3%B3gicas-na-economia-solid%C3%A1ria",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "Podem participar ICTs públicas e privadas sem fins lucrativos qualificadas como OS ou ICES, articuladas com Incubadoras, NITs e organizações da economia solidária.",
-  "ufs": [
-   "PA"
-  ],
-  "exige_cnpj": false,
-  "aceita_pf": true,
-  "setores": [
-   "impacto_esg"
-  ],
-  "perfis": [
-   "ict_pesquisa"
-  ],
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2027-01-14T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-01-14T23:59:59.999-03:00"
- },
- {
   "t": "Batch #36 - WOW Aceleradora",
   "o": "WOW Aceleradora",
   "tipo": "Aceleração",
@@ -77,7 +45,7 @@
   "status": "aberto",
   "requisitos": "Empreendedores e startups em estágios iniciais, desde a ideação até MVP.",
   "ufs": [
-   "PA"
+   "NACIONAL"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -107,7 +75,7 @@
   "status": "aberto",
   "requisitos": "Startups, pesquisadores e grupos de pesquisa com soluções focadas em IA, Automação e Gestão Industrial para o setor de bebidas.",
   "ufs": [
-   "PA"
+   "NACIONAL"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -140,7 +108,7 @@
   "status": "aberto",
   "requisitos": "Empreendedores e startups em diversos estágios, desde a ideação até estágios avançados.",
   "ufs": [
-   "PA"
+   "NACIONAL"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -170,7 +138,6 @@
   "status": "aberto",
   "requisitos": "Empresas inovadoras e startups elegíveis para o programa PIPE FAPESP na área de inovação.",
   "ufs": [
-   "PA",
    "SP"
   ],
   "exige_cnpj": false,
@@ -235,7 +202,7 @@
   "status": "aberto",
   "requisitos": "Startups de impacto socioambiental do Brasil. Módulo Criação (ideação ao protótipo, sem CNPJ necessário) ou Módulo Tração (faturamento de R$ 250 mil a R$ 16 milhões nos últimos 12 meses).",
   "ufs": [
-   "PA"
+   "NACIONAL"
   ],
   "exige_cnpj": true,
   "aceita_pf": true,
@@ -265,7 +232,7 @@
   "status": "aberto",
   "requisitos": "Startups, Institutos de Ciência e Tecnologia ou pessoas que querem construir soluções inovadoras para o Cadastro Ambiental Rural.",
   "ufs": [
-   "PA"
+   "NACIONAL"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -296,8 +263,7 @@
   "status": "aberto",
   "requisitos": "Empresas, ICT e pesquisadores para resolução de desafios públicos por meio de inovação aberta em Minas Gerais.",
   "ufs": [
-   "MG",
-   "PA"
+   "MG"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -330,7 +296,7 @@
   "status": "aberto",
   "requisitos": "Pessoas com diploma de graduação universitária e interesse em empreendedorismo ou em desenvolver uma proposta de negócio inovador.",
   "ufs": [
-   "PA"
+   "NACIONAL"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -348,6 +314,38 @@
   "verificacao_valida_ate": "2026-12-31T23:59:59.999-03:00"
  },
  {
+  "t": "Programa Nacional de Incubadoras Tecnológicas de Cooperativas Populares (Proninc) / 2026",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2027-01-14",
+  "d": 50,
+  "desc": "Apoio financeiro não reembolsável para desenvolvimento de tecnologias e inovação social em economia solidária conduzido por ICTs, ITCPs e NITs.",
+  "link": "https://www.finep.gov.br/l/1057230",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "ICTs públicas e ICTs privadas sem fins lucrativos, por meio da atuação conjunta de ITCP ou estrutura equivalente e NIT próprio ou constituído.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2027-01-14T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2027-01-14T23:59:59.999-03:00"
+ },
+ {
   "t": "CHAMADA PROSPECTIVA CONTÍNUA PARA PORTFÓLIO FINATEC E APOIADAS",
   "o": "Finatec",
   "tipo": "Inovação aberta",
@@ -363,7 +361,7 @@
   "status": "inscricoes_abertas",
   "requisitos": "Membros das apoiadas apresentarem ideias ou propostas para projetos científicos, tecnológicos e de inovação.",
   "ufs": [
-   "PA"
+   "NACIONAL"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -377,7 +375,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T18:39:51.000Z"
+  "verificacao_valida_ate": "2026-12-25T19:48:30.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -395,7 +393,7 @@
   "status": "aberto",
   "requisitos": "Startups de deep tech de qualquer lugar do mundo com equipe de pelo menos duas pessoas.",
   "ufs": [
-   "PA"
+   "NACIONAL"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -442,6 +440,71 @@
   "verificacao_valida_ate": "2027-01-31T23:59:59.999-03:00"
  },
  {
+  "t": "Consulta Preliminar de Mercado nº 1/2026",
+  "o": "Polícia Federal",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-11-27",
+  "d": 2,
+  "desc": "Consulta preliminar para soluções inovadoras na destinação célere, segura, sustentável e descentralizada de drogas e medicamentos apreendidos.",
+  "link": "https://www.gov.br/pf/pt-br/acesso-a-informacao/inovacao-aberta-cpsi?",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Startups, empresas de base tecnológica, ICTs e outras entidades com soluções para destinação de drogas e substâncias apreendidas.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech",
+   "impacto_esg"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-11-27T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-11-27T23:59:59.999-03:00"
+ },
+ {
+  "t": "10ª edição dos Prêmios Fundación Mapfre à Inovação Social",
+  "o": "Fundación Mapfre",
+  "tipo": "Prêmio",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-12-01",
+  "d": 6,
+  "desc": "Prêmio para iniciativas de inovação social com soluções nas áreas de bem-estar, transformações demográficas e inclusão social.",
+  "link": "https://www.fundacionmapfre.com.br/premios-bolsas/fundacion-mapfre-inovacao-social/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Iniciativas desenvolvidas na Europa, nos Estados Unidos, no Brasil ou na América Latina que ofereçam soluções nos eixos de bem-estar, transformações demográficas e inclusão social.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "mestre_doutor"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-12-01T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-12-01T23:59:59.999-03:00"
+ },
+ {
   "t": "FINEP Amazônia - Bioeconomia e Desenvolvimento Regional (Subvenção Econômica em Fluxo Contínuo)",
   "o": "FINEP / MCTI",
   "tipo": "Subvenção",
@@ -477,7 +540,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T18:39:51.000Z"
+  "verificacao_valida_ate": "2026-12-25T19:48:30.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -516,7 +579,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T18:39:51.000Z"
+  "verificacao_valida_ate": "2026-12-25T19:48:30.000Z"
  },
  {
   "t": "Terceira Edição do Programa Conexões BH-TEC",
@@ -534,8 +597,7 @@
   "status": "aberto",
   "requisitos": "Startups maduras de base tecnológica. Candidaturas até 27 de novembro de 2026.",
   "ufs": [
-   "MG",
-   "PA"
+   "MG"
   ],
   "exige_cnpj": false,
   "aceita_pf": true,
@@ -548,5 +610,37 @@
   "sem_data_final": false,
   "prazo_iso": "2026-11-27T23:59:59.999-03:00",
   "verificacao_valida_ate": "2026-11-27T23:59:59.999-03:00"
+ },
+ {
+  "t": "Chamada Pública PRONINC 2026",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2027-01-14",
+  "d": 50,
+  "desc": "Chamada de R$ 100 milhões para apoiar projetos de desenvolvimento ou adaptação de soluções tecnológicas para a economia solidária.",
+  "link": "https://faleconosco.finep.gov.br/web/guest/w/finep-publica-chamada-de-r-100-milh%C3%B5es-para-impulsionar-solu%C3%A7%C3%B5es-tecnol%C3%B3gicas-na-economia-solid%C3%A1ria",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "ICTs públicas e privadas sem fins lucrativos qualificadas, articuladas com Incubadoras Tecnológicas de Cooperativas Populares, Núcleos de Inovação Tecnológica e empreendimentos da economia solidária.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2027-01-14T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2027-01-14T23:59:59.999-03:00"
  }
 ]

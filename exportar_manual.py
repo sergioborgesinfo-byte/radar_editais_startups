@@ -109,7 +109,7 @@ MAPA_UFS = [
     ("MG", r"\bminas gerais\b|\bmineir[ao]s?\b|fapemig|hubmg|puc minas|puctec|bh\b|belo horizonte"),
     ("MS", r"\bmato grosso do sul\b|fundect"),
     ("MT", r"\bmato grosso\b(?! do sul)|fapemat"),
-    ("PA", r"\bpar[aá]\b|fapespa"),
+    ("PA", r"\bestado do par[aá]\b|\bno par[aá]\b|fapespa|\bbel[eé]m\b"),
     ("PB", r"\bpara[ií]ba\b|fapesq"),
     ("PE", r"\bpernambuco\b|facepe|porto digital"),
     ("PI", r"\bpiau[ií]\b|fapepi"),

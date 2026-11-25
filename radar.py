@@ -25,7 +25,7 @@ import socket
 import sqlite3
 import time
 from datetime import date, datetime, timedelta, timezone
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, unquote
 from urllib.robotparser import RobotFileParser
 
 import requests
@@ -391,23 +391,65 @@ def _corpo_tavily(consulta, prog):
     return corpo
 
 
+def buscar_ddg(consulta, n=6, dominios=None):
+    """Busca web gratuita via DuckDuckGo HTML (backup automático quando a Tavily atinge limite HTTP 432)."""
+    q = consulta
+    if dominios:
+        q += " (" + " OR ".join(f"site:{d}" for d in dominios[:5]) + ")"
+    try:
+        r = requests.post(
+            "https://html.duckduckgo.com/html/",
+            data={"q": q},
+            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0"},
+            timeout=25,
+        )
+        if not r.ok:
+            return []
+        sopa = BeautifulSoup(r.text, "html.parser")
+        achados = []
+        for a in sopa.select("a.result__a"):
+            href = a.get("href", "")
+            if "uddg=" in href:
+                m = re.search(r"uddg=([^&]+)", href)
+                if m:
+                    href = unquote(m.group(1))
+            if not href.startswith("http"):
+                continue
+            h = urlparse(href).netloc.lower()
+            if h.endswith(SOCIAIS + RUIDO) or "duckduckgo.com" in h:
+                continue
+            if dominios and not any(h == d or h.endswith("." + d) for d in dominios):
+                continue
+            achados.append({"url": href, "motivo": a.get_text(" ", strip=True)})
+            if len(achados) >= n:
+                break
+        return achados
+    except Exception:
+        return []
+
+
 def buscar_tavily(prog, chave):
-    """Busca gratuita via Tavily (1.000 créditos/mês no plano free)."""
+    """Busca gratuita via Tavily (1.000 créditos/mês no plano free), com fallback automático para DuckDuckGo."""
     consulta = f"{prog.get('busca', prog['nome'])} edital chamada inscrições {agora().date().year}"
-    r = requests.post(
-        "https://api.tavily.com/search",
-        headers={"Authorization": f"Bearer {chave}"},
-        json=_corpo_tavily(consulta, prog),
-        timeout=30,
-    )
-    r.raise_for_status()
-    achados = []
-    for item in r.json().get("results", []):
-        host = urlparse(item["url"]).netloc.lower()
-        if host.endswith(SOCIAIS + RUIDO):
-            continue
-        achados.append({"url": item["url"], "motivo": item.get("title", "")})
-    return achados[:4]
+    try:
+        r = requests.post(
+            "https://api.tavily.com/search",
+            headers={"Authorization": f"Bearer {chave}"},
+            json=_corpo_tavily(consulta, prog),
+            timeout=30,
+        )
+        if r.status_code in (429, 432, 433):
+            return buscar_ddg(consulta, 4, prog.get("dominios"))
+        r.raise_for_status()
+        achados = []
+        for item in r.json().get("results", []):
+            host = urlparse(item["url"]).netloc.lower()
+            if host.endswith(SOCIAIS + RUIDO):
+                continue
+            achados.append({"url": item["url"], "motivo": item.get("title", "")})
+        return achados[:4]
+    except Exception:
+        return buscar_ddg(consulta, 4, prog.get("dominios"))
 
 
 def buscar_anthropic(prog):
@@ -468,12 +510,13 @@ def urls_programa(con, prog):
 
 # ---------- busca aberta (sem saber os sites de antemão) ----------
 def buscar_aberta(consulta, n, chave):
-    """Busca livre na web pela Tavily; devolve as URLs dos resultados."""
+    """Busca livre na web pela Tavily; devolve as URLs dos resultados (com fallback automático para DuckDuckGo)."""
+    if not chave:
+        return [x["url"] for x in buscar_ddg(consulta, n)]
     corpo = {
         "query": consulta,
         "max_results": n,
         "search_depth": "basic",
-
         "exclude_domains": list(SOCIAIS + RUIDO),
     }
 
@@ -485,17 +528,22 @@ def buscar_aberta(consulta, n, chave):
             timeout=30,
         )
 
-    r = enviar(corpo)
-    if r.status_code in (400, 422):  # se o filtro de data não for aceito, tenta sem ele
-        corpo.pop("time_range", None)
+    try:
         r = enviar(corpo)
-    r.raise_for_status()
-    urls = []
-    for item in r.json().get("results", []):
-        host = urlparse(item["url"]).netloc.lower()
-        if not host.endswith(SOCIAIS + RUIDO):
-            urls.append(item["url"])
-    return urls
+        if r.status_code in (400, 422):  # se o filtro de data não for aceito, tenta sem ele
+            corpo.pop("time_range", None)
+            r = enviar(corpo)
+        if r.status_code in (429, 432, 433):
+            return [x["url"] for x in buscar_ddg(consulta, n)]
+        r.raise_for_status()
+        urls = []
+        for item in r.json().get("results", []):
+            host = urlparse(item["url"]).netloc.lower()
+            if not host.endswith(SOCIAIS + RUIDO):
+                urls.append(item["url"])
+        return urls
+    except Exception:
+        return [x["url"] for x in buscar_ddg(consulta, n)]
 
 
 def busca_aberta(con, cfg, total):

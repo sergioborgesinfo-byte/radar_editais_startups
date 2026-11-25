@@ -5,7 +5,7 @@ import re
 import unicodedata
 from datetime import datetime, timedelta
 from difflib import SequenceMatcher
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
 VERSAO = "startup-automatico-v6"
@@ -34,6 +34,7 @@ DOMINIOS = (
     "fleury.com.br", "iaf.gov", "institutoacp.org.br", "microsoft.com", "neoventures.global",
     "nvidia.com", "senai.br", "portaldaindustria.com.br", "sesi.org.br", "shell.com.br",
     "rockstart.com", "unknowngroup.com", "vivo.com.br", "wayra.com.br", "wayra.com",
+    "acolab.com.br", "aevoinnovate.net", "fundacionmapfre.com.br", "curitiba.pr.gov.br",
 )
 FONTES = (
     ("Finep Tecnologias Digitais — fonte oficial", "https://www.finep.gov.br/e/chamada-publica/222684/755485"),
@@ -178,10 +179,52 @@ def _responsavel(r, url, d, texto):
     return True
 
 
-def _resolver(r, con, url, d, total):
+def _links_oficiais_no_html(url, ctype, conteudo):
+    """Extrai links diretos para o edital/regulamento (PDF ou site oficial) de dentro do HTML de uma vitrine ou notícia."""
+    achados = []
+    if not conteudo or "html" not in (ctype or "").lower():
+        return achados
+    try:
+        html = conteudo.decode("utf-8", errors="ignore")
+    except Exception:
+        return achados
+
+    # 1. Procura links <a href="..."> que apontem para PDFs, editais, regulamentos ou domínios institucionais externos
+    host_atual = host(url)
+    padrao_a = re.compile(r'<a\b[^>]*?\bhref=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', re.I | re.S)
+    prioritarios, secundarios = [], []
+    for href, rotulo in padrao_a.findall(html):
+        alvo = urljoin(url, href.strip())
+        h_alvo = host(alvo)
+        if not h_alvo or any(h_alvo.endswith(s) for s in ("facebook.com", "instagram.com", "linkedin.com", "youtube.com", "twitter.com", "x.com", "whatsapp.com")):
+            continue
+        rotulo_limpo = normalizar(re.sub(r"<[^>]+>", " ", rotulo))
+        eh_pdf = bool(re.search(r"\.pdf(?:\?|$)", alvo, re.I))
+        eh_botao_edital = bool(re.search(r"\bedital\b|\bregulamento\b|\bchamada\b|\binscrev|\bacessar\b|\bpagina oficial\b|\bsite oficial\b|\bdocumento\b", rotulo_limpo))
+        if h_alvo != host_atual and (institucional(alvo) or eh_pdf or eh_botao_edital):
+            (prioritarios if (eh_pdf or eh_botao_edital) else secundarios).append(alvo)
+        elif h_alvo == host_atual and (eh_pdf or re.search(r"\bedital\b|\bregulamento\b", rotulo_limpo)):
+            prioritarios.append(alvo)
+
+    for candidato in prioritarios + secundarios:
+        if candidato not in achados and candidato != url:
+            achados.append(candidato)
+    return achados[:5]
+
+
+def _resolver(r, con, url, d, total, ctype=None, conteudo=None):
     global _resolucoes
+    # 1º Passo (Sem gastar API): segue o link direto do Edital/PDF ou instituição oficial presente no HTML da página
+    for candidato in _links_oficiais_no_html(url, ctype, conteudo):
+        if host(candidato) and candidato not in _visitadas:
+            if processar(r, con, "Edital oficial rastreado na página", candidato, total, resolver=False):
+                return True
+
+    # 2º Passo: busca na web (Tavily com fallback automático para DuckDuckGo)
+    if _resolucoes >= 12:
+        return False
     chave = r.os.getenv("TAVILY_API_KEY")
-    if not chave or _resolucoes >= 12:
+    if not chave and not hasattr(r, "buscar_ddg"):
         return False
     _resolucoes += 1
     consulta = f'{d.get("titulo", "")[:220]} {d.get("orgao", "")[:120]} edital inscrições site oficial'
@@ -229,8 +272,14 @@ def processar(r, con, nome, url, total, resolver=True):
         if not _responsavel(r, url, d, texto):
             _pendente(con, url, "Aguardando fonte responsável", d)
             if resolver:
-                return _resolver(r, con, url, d, total)
+                return _resolver(r, con, url, d, total, ctype, conteudo)
             return False
+        # Se a página atual for uma listagem genérica ou notícia, verifica se dentro dela há link direto para o PDF do edital
+        if "html" in (ctype or "").lower() and not url.lower().endswith(".pdf"):
+            for link_doc in _links_oficiais_no_html(url, ctype, conteudo):
+                if link_doc.lower().endswith(".pdf") and host(link_doc) == host(url):
+                    d["url_documento_edital"] = link_doc
+                    break
         prazo_original = d.get("prazo_inscricao")
         d, revisar = r.validar(d, texto)
         if d.get("prazo_e_inscricao") is not True:
