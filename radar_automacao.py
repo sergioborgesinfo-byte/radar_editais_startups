@@ -29,6 +29,11 @@ DOMINIOS = (
     "pucpr.br", "bhtec.org.br", "superaparque.com.br", "pqtec.org.br", "certi.org.br",
     "biominas.org.br", "inatel.br", "cietec.org.br", "sapiensparque.com.br",
     "f6s.com", "even3.com.br",
+    "aevo.com.br", "arcelormittal.com.br", "bnb.gov.br", "inovabra.com.br", "bradesco.com.br",
+    "cemig.com.br", "claro.com.br", "embratur.com.br", "enel.com.br", "openinnovability.enel.com",
+    "fleury.com.br", "iaf.gov", "institutoacp.org.br", "microsoft.com", "neoventures.global",
+    "nvidia.com", "senai.br", "portaldaindustria.com.br", "sesi.org.br", "shell.com.br",
+    "rockstart.com", "unknowngroup.com", "vivo.com.br", "wayra.com.br", "wayra.com",
 )
 FONTES = (
     ("Finep Tecnologias Digitais — fonte oficial", "https://www.finep.gov.br/e/chamada-publica/222684/755485"),

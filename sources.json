@@ -245,6 +245,49 @@
       "tipo": "listagem",
       "max_links": 40,
       "seguir_links_externos": true
+    },
+    {
+      "nome": "CRITT / UFJF — Editais e Radar de Oportunidades",
+      "url": "https://www2.ufjf.br/critt/editais/",
+      "tipo": "listagem",
+      "max_links": 40,
+      "seguir_links_externos": true
+    },
+    {
+      "nome": "Portal da Indústria (SENAI / SESI) — Editais de Inovação para Startups",
+      "url": "https://www.portaldaindustria.com.br/canais/editais-de-inovacao/",
+      "tipo": "listagem",
+      "max_links": 40
+    },
+    {
+      "nome": "EMBRAPII — Chamadas e Oportunidades para Startups e Empresas",
+      "url": "https://embrapii.org.br/chamadas-publicas/",
+      "tipo": "listagem",
+      "max_links": 40
+    },
+    {
+      "nome": "Banco do Nordeste (BNB) — Editais Fundeci / Hubine Inovação",
+      "url": "https://www.bnb.gov.br/fundeci/editais",
+      "tipo": "listagem",
+      "max_links": 30
+    },
+    {
+      "nome": "Wayra Brasil / Vivo — Inovação Aberta e Chamadas",
+      "url": "https://www.wayra.com.br/",
+      "tipo": "listagem",
+      "max_links": 25
+    },
+    {
+      "nome": "ArcelorMittal Açolab — Inovação Aberta com Startups",
+      "url": "https://brasil.arcelormittal.com/acolab",
+      "tipo": "listagem",
+      "max_links": 25
+    },
+    {
+      "nome": "AEVO — Desafios e Programas de Inovação Aberta",
+      "url": "https://aevo.com.br/",
+      "tipo": "listagem",
+      "max_links": 25
     }
   ],
   "programas": [
@@ -336,6 +379,90 @@
       ]
     },
     {
+      "nome": "CRITT UFJF — Incubadora e Editais de Inovação",
+      "busca": "CRITT UFJF edital incubadora startups inovação",
+      "dominios": [
+        "ufjf.br"
+      ]
+    },
+    {
+      "nome": "SENAI / SESI / MDIC — Plataforma Inovação para a Indústria",
+      "busca": "SENAI SESI MDIC edital inovação indústria startups subvenção",
+      "dominios": [
+        "portaldaindustria.com.br",
+        "senai.br"
+      ]
+    },
+    {
+      "nome": "Banco do Nordeste (BNB) — Fundeci e Hubine Startups",
+      "busca": "Banco do Nordeste BNB edital inovação startups Fundeci Hubine",
+      "dominios": [
+        "bnb.gov.br"
+      ]
+    },
+    {
+      "nome": "CEMIG — Chamada de Inovação Aberta e P&D Startups",
+      "busca": "CEMIG edital chamada inovação aberta startups P&D",
+      "dominios": [
+        "cemig.com.br"
+      ]
+    },
+    {
+      "nome": "Shell / Rockstart / Unknown Group — Inovação Aberta e Energia",
+      "busca": "Shell Iniciativa Jovem OR Shell StartUp Engine OR Rockstart Brasil inscrições startups",
+      "dominios": [
+        "shell.com.br",
+        "rockstart.com",
+        "unknowngroup.com"
+      ]
+    },
+    {
+      "nome": "Enel Open Innovability — Desafios para Startups",
+      "busca": "Enel Open Innovability desafios startups Brasil inscrições",
+      "dominios": [
+        "openinnovability.enel.com",
+        "enel.com.br"
+      ]
+    },
+    {
+      "nome": "Wayra / Vivo Ventures — Seleção de Startups",
+      "busca": "Wayra Vivo seleção chamada inovação aberta startups Brasil",
+      "dominios": [
+        "wayra.com.br",
+        "vivo.com.br"
+      ]
+    },
+    {
+      "nome": "Bradesco inovabra — Programas e Desafios para Startups",
+      "busca": "inovabra Bradesco startups inscrições desafio inovação aberta",
+      "dominios": [
+        "inovabra.com.br",
+        "bradesco.com.br"
+      ]
+    },
+    {
+      "nome": "Grupo Fleury — Inovação Aberta e Healthtechs",
+      "busca": "Grupo Fleury desafio inovação aberta healthtechs startups inscrições",
+      "dominios": [
+        "fleury.com.br"
+      ]
+    },
+    {
+      "nome": "NeoVentures — Desafios de Inovação Aberta e Aceleração",
+      "busca": "NeoVentures desafio inovação aberta aceleração startups inscrições",
+      "dominios": [
+        "neoventures.global"
+      ]
+    },
+    {
+      "nome": "Embratur Lab — Desafios de Inovação no Turismo",
+      "busca": "Embratur Lab edital desafio inovação startups turismo inscrições",
+      "dominios": [
+        "embratur.com.br",
+        "gov.br"
+      ]
+    },
+    {
       "nome": "SAA Aquário",
       "ativo": false,
       "busca": "SAA Aquário startups programa chamada"
@@ -389,7 +516,13 @@
       "edital seleção empresas residentes associadas parque científico tecnológico {ano}",
       "site:ipetech.ufla.br OR site:centev.ufv.br OR site:bhtec.org.br edital incubação startups",
       "site:sites.pr.sebrae.com.br/inovacao/oportunidades edital startups inovação",
-      "site:editais.stratago.com.br OR site:seteia.com.br/editais subvenção inovação startups {ano}"
+      "site:editais.stratago.com.br OR site:seteia.com.br/editais subvenção inovação startups {ano}",
+      "\"SENAI\" OR \"SESI\" OR \"EMBRAPII\" edital inovação startups subvenção inscrições {ano}",
+      "\"CEMIG\" OR \"Enel\" OR \"Shell\" OR \"Petrobras\" chamada inovação aberta startups {ano}",
+      "\"Wayra\" OR \"Vivo\" OR \"Claro\" OR \"inovabra\" OR \"ArcelorMittal\" desafio startups inscrições {ano}",
+      "\"Grupo Fleury\" OR \"NeoVentures\" OR \"AEVO\" OR \"Embratur\" desafio inovação aberta startups {ano}",
+      "\"Banco do Nordeste\" OR \"Fundeci\" OR \"Instituto ACP\" OR \"Inter-American Foundation\" edital inovação {ano}",
+      "\"Microsoft for Startups\" OR \"NVIDIA Inception\" programa benefícios créditos startups Brasil"
     ],
     "links_por_resultado": 3
   },
