@@ -28,14 +28,14 @@ def eh_fluxo_continuo(e, titulos_vencidos):
 
     # 3. Se tiver verificação automática, exige que sem_data_final seja 1 E tenha frase explícita de abertura contínua
     trecho_ab = (e.get("v_trecho_abertura") or "").lower()
-    texto_completo = f"{e.get('titulo','')} {e.get('descricao','')} {trecho_ab}".lower()
+    texto_completo = f"{e.get('titulo','')} {e.get('descricao','')} {trecho_ab} {e.get('trecho_prazo','')}".lower()
 
     if e.get("v_sem_data_final") == 0:
         # Foi verificado pelo radar_automacao e reprovado como fluxo contínuo (ex: anexo sem data ou regulamento condicional)
-        if not re.search(r"inscri[cç][oõ]es permanecer[aã]o abertas em fluxo cont[ií]nuo|chamada prospectiva cont[ií]nua", texto_completo):
+        if not re.search(r"inscri[cç][oõ]es permanecer[aã]o abertas em fluxo cont[ií]nuo|chamada prospectiva cont[ií]nua|fluxo cont[ií]nuo para submiss[aã]o", texto_completo):
             return False
 
-    return bool(re.search(r"fluxo cont[ií]nuo|inscri[cç][oõ]es cont[ií]nuas|chamada prospectiva cont[ií]nua", texto_completo))
+    return bool(re.search(r"fluxo cont[ií]nuo|inscri[cç][oõ]es cont[ií]nuas|chamada prospectiva cont[ií]nua|permanecem abertas em fluxo cont[ií]nuo", texto_completo))
 
 
 def ano_antigo_detectado(e, ano_atual=None, titulos_vencidos=()):
@@ -66,7 +66,11 @@ def eh_duplicado(novo, existentes):
 
     for ex in existentes:
         if novo.get('link') and novo.get('link') == ex.get('link'):
-            return True
+            # Permite desafios distintos que compartilham um mesmo portal/chamada-mãe (ex: CEMIG Ciclo 4, Stefanini 87labs, Aché, EMBRAPII)
+            if len(chaves_sem_ano_novo) >= 3 and len(chaves_sem_ano_novo & {p for p in palavras_chave(ex.get('t')) if not p.isdigit()}) / min(len(chaves_sem_ano_novo), max(1, len({p for p in palavras_chave(ex.get('t')) if not p.isdigit()}))) < 0.70:
+                pass
+            else:
+                return True
         ex_t = normalizar(ex.get('t'))
         ex_o = normalizar(ex.get('o'))
         ex_p = ex.get('prazo') or 'continuo'

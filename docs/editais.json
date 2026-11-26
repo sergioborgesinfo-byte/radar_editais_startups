@@ -1,5 +1,432 @@
 [
  {
+  "t": "Vivo Ventures",
+  "o": "Vivo",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 320000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Investir em startups em estágio de desenvolvimento avançado (Series A em diante) com soluções inovadoras em áreas estratégicas para a Vivo.",
+  "link": "https://br.wayra.com/vivo-ventures",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Startups em \"growth stage\" (Series A em diante). Soluções nas verticais de Serviços Financeiros, Saúde, Educação, Casa Conectada, Energia e Entretenimento.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "BNDES Finame - Máquinas 4.0",
+  "o": "BNDES",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 150000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Financiar a aquisição de máquinas, equipamentos e sistemas industriais novos, de fabricação nacional e credenciados, que contenham tecnologias associadas à Indústria 4.0.",
+  "link": "https://www.bndes.gov.br/wps/portal/site/home/financiamento/produto/bndes-finame-maquinas-40",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas e produtores rurais sediados no país. O bem financiado deve ser novo, de fabricação nacional e credenciado no Credenciamento Finame (CFI) do BNDES na categoria \"Máquinas 4.0\".",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "AÇOLAB VENTURES - Arcelor Mittal",
+  "o": "Arcelor Mittal",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 100000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Identificar startups que tenham solução validada e que desenvolvam novos negócios, produtos e serviços ou incorporem novas tecnologias para aumentar a competitividade e enriquecer a proposta de valor da cadeia da ArcelorMittal. O Açolab Ventures vai adquiri...",
+  "link": "https://www.acolabam.com.br/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Não especificado",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "INOVA + PARCERIA EMBRAPII E BNDES - TRANSFORMAÇÃO DIGITAL",
+  "o": "EMBRAPII",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 50000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar o desenvolvimento de projetos de Pesquisa, Desenvolvimento e Inovação (PDCI). Como, desenvolvimento de soluções digitais (projetos-piloto) aplicáveis nos setores AGRO, indústria 4.0, cidades inteligentes e saúde.",
+  "link": "https://embrapii.org.br/bndes/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "O projeto deverá estar entre os níveis de maturidade tecnológica (TRL) dos projetos apoiados e irão de 6 (demonstração em ambiente relevante) a 9 (pronto para o mercado).",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "agritech_bio",
+   "healthtech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "INOVA + PARCERIA EMBRAPII E BNDES - NOVOS BIOCOMBUSTÍVEIS",
+  "o": "EMBRAPII",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 25000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar o desenvolvimento de projetos de Pesquisa, Desenvolvimento e Inovação (PD&I) por meio de recursos não reembolsáveis. Por isso, estimulamos PD&I industrial relacionadas à mobilidade sustentável e à produção de energia mais limpa, propiciando a expansã...",
+  "link": "https://embrapii.org.br/bndes/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "O projeto deverá estar entre os níveis de maturidade tecnológica (TRL) 3 (provas de conceito) a 9 (pronto para o mercado).",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "PROGRAMA BNDES – MAIS INOVAÇÃO",
+  "o": "BNDES",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 20000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Crédito para Investimentos em Inovação e Aquisição de Bens Inovadores: gastos em pesquisa, desenvolvimento e inovação (PDCI) compatíveis com a nova política industrial. PDCI alinhados com as políticas nacionais ambientais, plantas industriais com processos...",
+  "link": "https://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/inovacao",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresa jurídica constituída no País. Demais informações constam no site do BNDES.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "BNDES - CRÉDITO INOVAÇÃO DIRETO",
+  "o": "BNDES",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 20000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Financiamento para investimentos em inovação. Por isso, apoiamos inovações incrementais ou disruptivas em produto, processo e marketing, além de inovação em infraestrutura e ambientes inovadores.",
+  "link": "https://www.bndes.gov.br/wps/portal/site/home/financiamento/produto/bndes-inovacao",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "É necessário que o cliente possua habilitação junto ao BNDES.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "INOVA + PARCERIA EMBRAPII E BNDES - MATERIAIS AVANÇADOS",
+  "o": "EMBRAPII",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 15000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar o desenvolvimento de projetos de Pesquisa, Desenvolvimento e Inovação (PDCI) por meio de recursos não reembolsáveis. Por isso, incentivamos o desenvolvimento de tecnologias aplicadas que envolvam novos materiais, nanotecnologia, manufatura integrada,...",
+  "link": "https://embrapii.org.br/bndes/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "O projeto deverá estar entre os níveis de maturidade tecnológica (TRL) de 3 (provas de conceito) a 9 (pronto para o mercado).",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Banco do Nordeste – Inovacred",
+  "o": "Banco do Nordeste",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 15000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar o desenvolvimento de novos produtos ou processos em micro, pequenas e médias empresas para ampliar a competitividade.",
+  "link": "https://www.bnb.gov.br/finep-inovacred-4",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Micro, pequenas e médias empresas e outras pessoas jurídicas de direito privado.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Finep Inovacred 4.0",
+  "o": "Finep",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 15000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar a formulação e implementação de soluções de digitalização e tecnologias habilitadoras da Indústria 4.0 em linhas de produção.",
+  "link": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/inovacred4-0",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser pessoa jurídica com sede no Brasil e faturamento anual de até R$ 300 milhões, O projeto deve envolver a implementação de tecnologias da Indústria 4.0, A contratação de uma integradora credenciada pela Finep é obrigatória.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "FINEP – AQUISIÇÃO INOVADORA",
+  "o": "Finep",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 15000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Linha de financiamento destinada a apoiar empresas que apresentem projetos de Inovação nas áreas de Saúde e Energia.\nPor isso, oferecemos recursos para a aquisição de equipamentos de telecomunicações e cabos de fibra óptica.\nNa área de Energia, apoiamos pro...",
+  "link": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/finep-aquisicao-inovadora",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas constituídas de acordo com a legislação brasileira, na área da Saúde e Energia.\nDemais requisitos constam no Programa.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Plataforma Inovação para a Indústria - MOVER: Aliança Industrial",
+  "o": "SENAI,MDIC",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 12000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Formar Aliança Industrial entre indústrias da cadeia automotiva para P&D de um desafio comum, unindo capacidades e recursos.",
+  "link": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/rota-2030-alianca-industrial/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Formar aliança com no mínimo 3 indústrias da cadeia automotiva e 1 Instituto SENAI de Inovação. Projeto com TRL 6-9. Contrapartida mínima de 40% (mínimo de 20% financeiro). Duração de até 24 meses.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "exige_contrapartida",
+   "pi_patente"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "INOVA + PARCERIA EMBRAPII E BNDES - ECONOMIA CIRCULAR",
+  "o": "EMBRAPII",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 10000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar o desenvolvimento de projetos de Pesquisa, Desenvolvimento e Inovação (PDCI). Por isso, incentivamos o aproveitamento de resíduos da mineração como fonte de AGROminerais, além do beneficiamento e purificação de resíduos.",
+  "link": "https://embrapii.org.br/bndes/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "O projeto deveram estar entre os níveis de maturidade tecnológica (TRL) 3 (provas de conceito) a 9 (pronto para o mercado).",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "agritech_bio"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Plataforma Inovação para a Indústria - MOVER: Alianças de Startups, Pequenas e/ou Médias Empresas",
+  "o": "SENAI,MDIC",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 2000000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Formar Aliança Industrial entre Startups e PMEs da cadeia automotiva para P&D de um desafio comum.",
+  "link": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/rota-2030-alianca-startups-pequenas-medias/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Formar aliança com no mínimo 3 Startups/PMEs (ROB até R$ 90M) da cadeia automotiva e 1 Instituto SENAI de Inovação. Projeto com TRL 6-9. Contrapartida mínima de 5% (apenas econômica). Duração de até 24 meses.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "exige_contrapartida",
+   "pi_patente"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
   "t": "Batch #36 - WOW Aceleradora",
   "o": "WOW Aceleradora",
   "tipo": "Aceleração",
@@ -28,6 +455,129 @@
   "sem_data_final": false,
   "prazo_iso": "2026-12-13T23:59:59.999-03:00",
   "verificacao_valida_ate": "2026-12-13T23:59:59.999-03:00"
+ },
+ {
+  "t": "Plataforma Inovação para a Indústria - Linhas de Cuidado na Saúde Suplementar SESI e ANS",
+  "o": "SESI",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 300000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar projetos que potencializem o acesso do trabalhador à saúde no contexto de linhas de cuidados coordenadas, em parceria com a ANS.",
+  "link": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/linhas-de-cuidado-na-saude-suplementar-sesi-e-ans-/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser empresa ou ICT em parceria com SESI-DR, submetendo projeto a uma chamada técnica específica. Contrapartidas definidas na chamada.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "exige_contrapartida"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "BASF - AGROSTART",
+  "o": "BASF",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 150000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Acelerar ideias e promover soluções digitais para o campo econômico do agro",
+  "link": "https://AGROstart.basf.com/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Os projetos submetidos deverão apresentar e promover soluções AGRO digitais para desafios do campo AGROnômico",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "agritech_bio"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "EMBRAPII e Sebrae: Inovação para os Pequenos Negócios e Startups",
+  "o": "EMBRAPII",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 150000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Oferecer apoio técnico e financeiro para micro, pequenas empresas e startups desenvolverem soluções inovadoras, reduzindo custos e riscos da jornada de inovação.",
+  "link": "https://embrapii.org.br/sebrae/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser micro ou pequena empresa com faturamento anual de até R$ 4,8 milhões. O projeto deve ser desenvolvido em parceria com uma Unidade Embrapii credenciada.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Parceria Sebrae e Embrapii",
+  "o": "Sebrae",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 100000.0,
+  "prazo": null,
+  "d": null,
+  "desc": "Dar aos pequenos negócios acesso à infraestrutura e a conhecimentos científicos e tecnológicos das unidades da Embrapii, ampliando o limite de recursos não reembolsáveis para o desenvolvimento de projetos de inovação industrial.",
+  "link": "https://www.sebrae.com.br/sites/PortalSebrae/artigos/como-conseguir-aporte-financeiro-para-seu-projeto-de-inovacao,a8c3a27e0206c510VgnVCM1000004c00210aRCRD",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser MEI, MPE ou Startup de base tecnológica, Ter CNAE industrial ou de TIC, Estar em dia com obrigações fiscais e tributárias, Ter projeto com TRL entre 3 e 9.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
  },
  {
   "t": "Silicon Valley Spring 2027",
@@ -217,6 +767,36 @@
   "verificacao_valida_ate": "2026-11-30T23:59:59.999-03:00"
  },
  {
+  "t": "NEO VENTURES - CAPITAL",
+  "o": "NEOVENTURES",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Aumentar a competitividade viabilizando novos negócios e parcerias com startups e o ecossistema de inovação aberta. Por isso, operamos veículos de investimentos em startups, sejam eles próprios, em parceria ou moldados de acordo com a instituição parceira.",
+  "link": "https://neoventures.capital/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Não especificado",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
   "t": "InovaCAR - Soluções para o Futuro do Cadastro Ambiental Rural",
   "o": "MGI - FBDS - Enap - Impact Hub",
   "tipo": "Inovação aberta",
@@ -246,6 +826,69 @@
   "sem_data_final": false,
   "prazo_iso": "2027-01-22T23:59:59.999-03:00",
   "verificacao_valida_ate": "2027-01-22T23:59:59.999-03:00"
+ },
+ {
+  "t": "Apoio a projetos de PD&I para a Base Industrial da Defesa",
+  "o": "EMBRAPII",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar o desenvolvimento de soluções tecnológicas e projetos de inovação da indústria que atende às Forças Armadas (FA).",
+  "link": "https://embrapii.org.br/bndes/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser empresa da Base Industrial da Defesa (BID),Propor projeto com nível de maturidade tecnológica (TRL) entre 3 e 9.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Inova + Parceria EMBRAPII e BNDES - Bioeconomia Florestal",
+  "o": "EMBRAPII",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Exploração econômica sustentável da biodiversidade amazônica, a partir de tecnologias aplicadas às cadeias de produção nativas e visando o fortalecimento social local.",
+  "link": "https://embrapii.org.br/bndes/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser startup, pequena, média ou grande empresa, Apresentar um desafio tecnológico na área de Bioeconomia Florestal, Realizar o projeto em parceria com uma Unidade Embrapii habilitada, Ter capacidade de aportar a contrapartida financeira (de 50% a 67%).",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "agritech_bio",
+   "impacto_esg"
+  ],
+  "perfis": [
+   "exige_contrapartida"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
  },
  {
   "t": "CHAMADA FAPEMIG - SEDE 018/2026 HUBMG GOV - RESOLUÇÃO DE DESAFIOS PÚBLICOS POR MEIO DE INOVAÇÃO ABERTA",
@@ -314,6 +957,249 @@
   "verificacao_valida_ate": "2026-12-31T23:59:59.999-03:00"
  },
  {
+  "t": "Programa de Aceleração de Startups - Eretz",
+  "o": "Eretz",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar startups de saúde em diferentes estágios (de MVP a maturidade) no desenvolvimento de suas soluções e na estruturação de seus negócios, sem cobrança de equity.",
+  "link": "https://www.eretz.bio/programas/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "CNPJ constituído há menos de 10 anos, Foco em saúde humana, Ser empresa de base tecnológica. Os estágios variam de MVP/prova de conceito concluídos até negócios maduros (Late-Stage por convite).",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "NATURA - STARTUPS",
+  "o": "NATURA",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Viabilizar, colaborar e acelerar oportunidades por meio de parcerias e geração de negócios, com foco em crescimento, diferenciação e desenvolvimento sustentável.",
+  "link": "https://www.natura.com.br/startups",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Não há pré-requisitos. As startups podem estar em diferentes estágios e apresentar diferentes soluções.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Selo Cubo",
+  "o": "Cubo Itaú",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conectar startups, corporações, investidores e parceiros para gerar negócios e fomentar o empreendedorismo tecnológico através de uma comunidade com curadoria.",
+  "link": "https://cubo.network/institucional",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma startup com: solução escalável, tração de mercado (não estar em fase pré-operacional), capacidade de ser financiada por VCs, time de fundadores com dedicação integral e fit cultural com a comunidade de colaboração.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "equipe_dedicada"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Banco do Nordeste – FNE Proinfra",
+  "o": "Banco do Nordeste",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Ampliar serviços de infraestrutura econômica para dar sustentação às atividades produtivas da Região Nordeste.",
+  "link": "https://www.bnb.gov.br/fne-proinfra",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas Públicas e Privadas de todos os portes.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "FNE Inovação",
+  "o": "Banco do Nordeste do Brasil S.A.",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Promover a inovação em produtos, serviços, processos e métodos organizacionais nos empreendimentos.",
+  "link": "https://www.bnb.gov.br/fne-inovacao",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas e produtores rurais de todos os portes localizados na região Nordeste do Brasil. O projeto deve visar a implementação de um produto, serviço, processo ou método organizacional novo ou significativamente melhorado. Exige aprovação de cadastro e crédito.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Fund for Innovation in Development (FID) - Prepare Grant",
+  "o": "FID",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar o desenvolvimento de propostas para as fases 1, 2 ou 3 para candidatos promissores de países elegíveis para assistência ao desenvolvimento.",
+  "link": "https://fundinnovation.dev/en/about",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "A organização proponente deve ter sede em um país elegível para assistência oficial ao desenvolvimento (lista da OCDE) e demonstrar potencial para uma futura aplicação forte nas fases 1, 2 ou 3.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Programa de Investimento Rural Ventures",
+  "o": "Rural",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Investir e potencializar startups voltadas ao agronegócio, seguindo ou liderando rodadas de investimento Pre-Seed, Seed e Pre-Series A.",
+  "link": "https://rural.com.vc/investimentos/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma startup (AgTechs, FoodTechs, Fintechs, LogTechs, GreenTechs, ClimateTechs, DeepTechs, ou BioTechs) com uma solução para o agronegócio. Aceita todos os níveis de maturidade e projetos de todos os países.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech",
+   "agritech_bio"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Wayra Ventures",
+  "o": "Wayra",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Investir em startups early stage (pré-seed e seed) com projetos disruptivos e alinhados à estratégia da Vivo, para gerar inovação com impacto.",
+  "link": "https://br.wayra.com/wayra-ventures",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Startups em estágio \"pré-seed\" ou \"seed\". Alinhamento com as áreas estratégicas da Vivo: Serviços Financeiros, Saúde, Educação, Energia, Casa Conectada e Entretenimento.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
   "t": "CHAMADA PROSPECTIVA CONTÍNUA PARA PORTFÓLIO FINATEC E APOIADAS",
   "o": "Finatec",
   "tipo": "Inovação aberta",
@@ -343,7 +1229,68 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T21:04:50.000Z"
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Programa Amplia",
+  "o": "Grupo Fleury",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conectar talentos e propostas inovadoras para tornar a saúde mais integrada, sustentável e acessível, atuando em frentes como pesquisa, co-desenvolvimento, validação, implementação e investimento.",
+  "link": "https://amplia.grupofleury.com.br/inove",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Busca por soluções inovadoras para saúde e áreas de back-office. Aberto a startups, empreendedores e acadêmicos.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech",
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "TIVIT Labs",
+  "o": "TIVIT",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Ajudar empresas a identificar dores, superar desafios e descobrir novas oportunidades de negócios a partir de um framework próprio de inovação e fomentando um ecossistema com startups, comunidades tecnológicas e parceiros.",
+  "link": "https://inovacaolabs.tivit.com/parcerias",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma empresa que busca inovar e se conectar a um ecossistema de tecnologia.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -376,6 +1323,670 @@
   "sem_data_final": false,
   "prazo_iso": "2026-11-30T23:59:59.999-03:00",
   "verificacao_valida_ate": "2026-11-30T23:59:59.999-03:00"
+ },
+ {
+  "t": "MINING LAB CHANNEL",
+  "o": "NEXA RESOURCES",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Receber propostas de soluções em diferentes estágios de maturidade, oferecendo à Nexa a oportunidade de explorar e avaliar continuamente ideias e tecnologias inovadoras que possam agregar valor ao negócio.",
+  "link": "https://www.mininglab.com.br/channel/PT-BR/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Não especificado",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Programa Elo Conecta",
+  "o": "Elo Serviços S.A.",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar a inovação por meio do relacionamento e conexão com Startups, oferecendo um ecossistema que irá auxiliar no desenvolvimento de suas soluções.",
+  "link": "https://www.elo.com.br/inovacao/elo-conecta",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser pessoa jurídica (Startup) com CNPJ regularizado no Brasil, Ter modelo de negócio inovador, escalável e repetível, Representantes devem ser maiores de 18 anos e com vínculo comprovado, Disponibilidade para dedicação semanal ao programa.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "equipe_dedicada"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Startups Dasa",
+  "o": "Dasa",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conectar o melhor das startups com o que a saúde pode ter de melhor, acelerando a experimentação, potencializando negócios e facilitando oportunidades.",
+  "link": "https://dasa.com.br/somos-dasa/startups-dasa/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Porte: Startup, Localização Geográfica: Nacional, Setor: Saúde/Healthtech. Não há filtro de estágio de negócio.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Soluções circulares para um ciclo de vida prolongado de ativos",
+  "o": "Enel",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Identificar soluções para a recuperação e reaproveitamento de equipamentos e componentes (placas solares, medidores) em uma abordagem de economia circular.",
+  "link": "https://openinnovability.enel.com/pt/desafios?",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Pessoa jurídica, TRL ≥ 6, Cumprir legislação ambiental brasileira, Proposta com modelo de negócios viável.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Programa Mover - Embrapii",
+  "o": "EMBRAPII",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Fomentar projetos de desenvolvimento tecnológico e inovação para a cadeia automotiva e de logística, conectando empresas a centros de pesquisa de excelência (Unidades Embrapii).",
+  "link": "https://conteudo.embrapii.org.br/programa-mover",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser empresa da cadeia de fornecedores do setor de mobilidade e logística, realizar o projeto em parceria com uma Unidade Embrapii, aportar contrapartida financeira. Montadoras (CNAE 29.1 e 29.2) devem ter uma empresa fornecedora como parceira no projeto.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "exige_contrapartida"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "ANÁLISE DE DADOS PARA TOMADA DE DECISÃO EM ATENDIMENTO",
+  "o": "STEFANINI GROUP",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Utilize dados e inteligência artificial (IA) para criar uma experiência de atendimento excepcional.\rObjetivo: Buscamos uma solução que combine e interprete dados da jornada de atendimento, gerando insights para evoluir continuamente a operação e a experiência.",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Podem participar do programa startups em fase de tração ou escala que ainda não tenham participado de rodadas de investimentos",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "ANÁLISE DE VOZ EM ATENDIMENTO",
+  "o": "STEFANINI GROUP",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desafio: as startups participantes devem propor soluções capazes de realizar a análise sentimental da voz, criando um lastro confiável de informações sobre a qualidade do atendimento. Objetivo: encontrar soluções inovadoras que utilizem tecnologias como IA,...",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Podem participar do programa startups em fase de tração ou escala que ainda não tenham participado de rodadas de investimentos",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "GAMIFICAÇÃO E GESTÃO DE CURVA DE APRENDIZAGEM",
+  "o": "STEFANINI GROUP",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desafio: Buscamos soluções inovadoras que melhorem a experiência do usuário em serviços terceirizados de tecnologia da informação (ITO). Através do monitoramento constante e identificação de gaps na experiência, queremos reconstruir estratégias de atendimen...",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Podem participar do programa startups em fase de tração ou escala que ainda não tenham participado de rodadas de investimentos",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "GESTÃO DE TREINAMENTO E CONHECIMENTO",
+  "o": "STEFANINI GROUP",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desafio: Garantir a eficácia do onboarding e treinamento em novas operações de BPOs para TI, minimizando a rotatividade de funcionários e reduzindo custos.\rObjetivo: Aumentar a maturidade da operação e o engajamento dos atendentes, impulsionando a performance.",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Podem participar do programa startups em fase de tração ou escala que ainda não tenham participado de rodadas de investimentos",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "GESTÃO PARA COMISSIONAMENTO DE RECRUTADORES",
+  "o": "STEFANINI GROUP",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "O desafio: Enfrentamos desafios com o processo fragmentado de cadastro e geração de relatórios em recrutamento, o que afeta o fechamento eficiente do pagamento de comissões. Nosso objetivo é implementar uma solução unificada que minimize erros, acelere o pr...",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "A solução deve ser robusta, fácil de integrar com sistemas existentes e amigável para usuários não técnicos. Startups devem ter experiência com desenvolvimento de plataformas de gestão de dados, preferencialmente em RH ou sistemas financeiros. É desejável que a solução utilize Inteligência Artificial para otimizar o processo e garantir conformid...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "IA PARA DETECÇÃO E RESOLUÇÃO DE FALHAS EM SERVIDORES (AUTO CURA)",
+  "o": "STEFANINI GROUP",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "O Desafio: Procuramos inovações tecnológicas para melhorar a gestão de servidores dos nossos clientes. Nosso objetivo é automatizar a detecção e correção de falhas recorrentes, diminuindo o tempo de inatividade e maximizando a confiabilidade. Este desafio v...",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "As startups devem ter tecnologias já testadas em ambientes operacionais, com casos de sucesso documentados. É essencial ter experiência com IA, além da capacidade de integrar soluções nos sistemas existentes de forma segura e escalável.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "IA PARA GANHO DE EFICIÊNCIA EM OBSERVALIDADE",
+  "o": "STEFANINI GROUP",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "O Desafio: Buscamos soluções personalizadas para otimizar a gestão de ambientes tecnológicos on-premise dos nossos clientes. Estas soluções devem ser adaptáveis às infraestruturas locais, permitindo aos clientes monitorar e ajustar proativamente a capacidad...",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "As startups devem ter expertise em desenvolvimento de soluções de inteligência artificial, automação e big data. A tecnologia proposta deve ser segura, escalável e compatível com diversas plataformas tecnológicas já em uso.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "IA PARA GEOLOCALIZAÇÃO E ROTEIRIZAÇÃO DE TECNICOS EM CAMPO",
+  "o": "STEFANINI GROUP",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "O Desafio: Queremos aprimorar o controle de técnicos de campo através de soluções que permitam o acompanhamento em tempo real e o direcionamento automatizado de tarefas. O foco é reduzir o tempo de espera nos atendimentos e aumentar a precisão dos processos...",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "As startups candidatas devem ter experiência comprovada em desenvolvimento de tecnologias de IA e geolocalização, idealmente com aplicação em logística ou gestão de equipes de campo. É crucial que as soluções sejam escaláveis, seguras e facilmente integráveis aos sistemas existentes.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "IA PARA MAIOR CONTROLE SOBRE ATIVOS DE TI",
+  "o": "STEFANINI GROUP",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "O Desafio: Desejamos implementar uma solução tecnológica para a geolocalização em tempo real de ativos, visando prevenir perdas e furtos. O sistema deve ser compatível e não interferir com as ferramentas de segurança já utilizadas pelos clientes, proporcion...",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "É essencial que as startups tenham experiência com tecnologias de geolocalização, sistemas de segurança e desenvolvimento de soluções compatíveis com diferentes plataformas tecnológicas. A solução deve ser escalável, segura e capaz de operar em múltiplos ambientes sem causar interferências.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "INTELIGÊNCIA DE DADOS PARA RH - PEOPLE ANALITYCS",
+  "o": "STEFANINI GROUP",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Queremos otimizar a gestão de informações, padronizar a apresentação dos dados e obter insights, promovendo uma tomada de decisão mais embasada e eficaz para a organização. Para isso, buscamos uma plataforma capaz de integrar sistemas e centralizar dados de...",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Podem participar do programa startups em fase de tração ou escala que ainda não tenham participado de rodadas de investimentos",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "LATAM - STEFANINI GROUP – 87.CO",
+  "o": "STEFANINI GROUP",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Estreitar o relacionamento do grupo com startups, gerando valor para o portfólio do Grupo Stefanini e contribuindo para a aceleração de novos modelos de negócio das startups.",
+  "link": "https://innovationlatam.com/ch/87co#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Podem participar do programa startups em fase de tração ou escala que ainda não tenham participado de rodadas de investimentos",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "MICROSOFT FOR STARTUPS FOUNDERS",
+  "o": "MICROSOFT",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Ajudar as startups a acelerar radicalmente a inovação.",
+  "link": "https://foundershub.startups.microsoft.com/signup",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Envolvido no desenvolvimento de um produto ou serviço baseado em software que é uma parte essencial do seu negócio atual ou pretendido. O software deve ser de propriedade e não licenciado de outra parte;\nSua startup recebeu menos de US$ 10.000 em créditos gratuitos do Azure;\nSua sede fica em um dos países cobertos pelo Azure;\nSua startup não pas...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "ACATE Startups",
+  "o": "ACATE",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Incentivar novos negócios inovadores, gerar conexões e diversas oportunidades para a empresa crescer.",
+  "link": "https://www.acate.com.br/programas/acate-startups/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Faturamento de até R$ 1 milhão no ano anterior,CNPJ criado há até três anos.",
+  "ufs": [
+   "SC"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "IFOOD DA QUEBRADA - SOLUÇÕES PARA DELIVERY",
+  "o": "IFOOD",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "O iFood quer estar presente em todos os lugares e atendendo todos os bolsos. Mas pra gente chegar na periferia, precisamos trabalhar junto com ela. Se a sua startup trabalha com inovação focada nesse público, nós queremos te conhecer!",
+  "link": "https://innovationlatam.com/ch/ifood#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Startups com MVP já validado",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "IFOOD MERCADO & GESTÃO LOGÍSITICA",
+  "o": "IFOOD",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Com o crescimento de iFood Mercado e iFood Shop (mkt B2B entre indústria e restaurantes), o iFood visa se espelhar cada vez mais em uma operação de supplychain integrando todos os elos da cadeia logística (foco em cestas grandes e multicategoria). Diante di...",
+  "link": "https://innovationlatam.com/ch/ifood#opportunities",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Não especificado",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Plataforma de Patrocínios Claro",
+  "o": "Claro",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "A Claro investe em iniciativas que geram valor e conectam pessoas à cultura, esporte, inovação e negócios, promovendo experiências que impactam o presente e o futuro. O intuito da plataforma é apoiar projetos que tragam transformações positivas e inspirem n...",
+  "link": "https://www.claro.com.br/institucional/patrocinios",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Você terá até 3 horas para completar um formulário. A ideia é entender ao máximo sobre o seu evento, por isso algumas perguntas são obrigatórias. No final, você\rpoderá anexar materiais como a apresentação, orçamento e plano de mídia do projeto. Todas as informações são confidenciais, e pede-se que o formulário seja enviado pelo menos 150 dias an...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Inovabra - Ambiente de Coinovação e Venture Capital do Bradesco",
+  "o": "Bradesco",
+  "tipo": "Incubação",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Promover a inovação dentro e fora do Bradesco, conectar startups a grandes empresas e investidores, viabilizar novas oportunidades de negócios e fomentar o empreendedorismo.",
+  "link": "https://inovabra.com.br/inovabra/startups#conhecaid",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Startups que desenvolvem soluções inovadoras aplicáveis ao setor financeiro ou não, Selecionar no site a opção \"Residente\" ou \"Conectado\", Preencher a ficha cadastral.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
  },
  {
   "t": "Programa Nacional de Incubadoras Tecnológicas de Cooperativas Populares (Proninc) / 2026",
@@ -411,6 +2022,98 @@
   "verificacao_valida_ate": "2027-01-14T23:59:59.999-03:00"
  },
  {
+  "t": "Programa de Ideação de Negócios de Impacto - impActiva",
+  "o": "INOVAI",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar empreendedores na transformação de ideias e projetos em negócios de impacto, focados em soluções para problemas socioambientais.",
+  "link": "https://inovai.org.br/ambientes-de-inovacao/impactiva/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Proposta de negócio de impacto para resolver um problema socioambiental, alinhado aos ODS da ONU, podendo ser pessoa física (maior de idade) ou jurídica, não é necessário ter CNPJ. A ideia não pode estar participando de outro programa de ideação similar.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Programa de Inovação Aberta Aché - Desafio Dados",
+  "o": "Aché",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Agilizar os processos através da geração e processamento de dados",
+  "link": "https://www.ache.com.br/inovacao/inovacao-aberta-ache/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma Startup com solução para geração e processamento de dados para agilizar processos.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Subsídio de Desenvolvimento Comunitário",
+  "o": "IAF - Inter-American Foundation",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Investir em projetos de desenvolvimento comunitário na América Latina e no Caribe, respondendo a propostas de organizações locais para promover comunidades mais prósperas, pacíficas e democráticas.",
+  "link": "https://editais.prosas.com.br/edital?id=9453&locale=pt",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma organização de base ou local na América Latina ou Caribe (exceto Cuba, Venezuela e territórios). Apresentar um projeto liderado pela comunidade. Contribuir com recursos de contrapartida (financeiros ou em bens/serviços).",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "exige_contrapartida"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
   "t": "Startup Competition 2027 | South Summit Madrid",
   "o": "South Summit",
   "tipo": "Prêmio",
@@ -439,6 +2142,545 @@
   "sem_data_final": false,
   "prazo_iso": "2027-01-31T23:59:59.999-03:00",
   "verificacao_valida_ate": "2027-01-31T23:59:59.999-03:00"
+ },
+ {
+  "t": "Jornada do Zero Defeito",
+  "o": "Tupy",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Encontrar soluções viáveis e disruptivas no processo de fundição para serem aplicadas na jornada de zero defeito, cobrindo toda a cadeia produtiva.",
+  "link": "https://www.tupy.com.br/desafios/jornada-do-zero-defeito/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Solução com validação funcional comprovada com foco na realização de pilotos ou aplicação em escala industrial.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "PROCOMPI - Programa de Apoio à Competitividade das Micro e Pequenas Indústrias",
+  "o": "CNI",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Estimular a competitividade de micro e pequenas indústrias através de capacitação e consultoria especializada para impulsionar a eficiência, produtividade, inovação, sustentabilidade e transformação digital.",
+  "link": "https://www.portaldaindustria.com.br/cni/canais/procompi/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma micro ou pequena indústria. O projeto deve ser proposto através de um sindicato setorial, federação da indústria ou Sebrae estadual. Os desafios abordados podem ser setoriais, temáticos ou digitais.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "STARTUP TETRA PAK",
+  "o": "TETRA PAK",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Acelerar startups que tenham ideias disruptivas para lançamento de produtos inovadores no mercado de alimentos e bebidas.",
+  "link": "https://go.tetrapak.com/pt-bt/startup-tetra-pak/application",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma startup que desenvolve produtos alimentícios para o mercado brasileiro, ter um projeto já em desenvolvimento ou uma ideia embrionária que precise de amadurecimento.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "agritech_bio"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "CHAMADA PÚBLICA FINEP MAIS INOVAÇÃO BRASIL\nRESÍDUOS – SANEAMENTO / MORADIA (MCTI/FINEP/FNDCT)",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder recursos econômicos para inovadores:\nLinha Temática 1: Economia Circular.\nLinha Temática 2: Resíduos Sólidos.\nLinha Temática 3: Biogás e Biometano.\nLinha Temática 4: Mineração Urbana.\nLinha Temática 5: Água e Esgoto.\nLinha Temática 6: Moradia Popular.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/731",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas constituídas de acordo com a legislação brasileira.\nParticipação de ICTS.\nDemais requisitos e informações constantes no Edital.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Finep Mais Inovação Brasil – Rodada 2 – Economia Circular e Cidades Sustentáveis (Arranjo em Rede)",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder recursos de subvenção econômica para apoiar projetos de PD&I com risco tecnológico, executados por consórcios de empresas em parceria com ICTs, para desenvolver tecnologias inovadoras voltadas à Economia Circular e Cidades Sustentáveis.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/777",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Porte Empresarial: Todos. Público-Alvo Específico: Empresas brasileiras com intuito lucrativo. Faturamento Mínimo: Pelo menos uma das empresas participantes (proponente ou coexecutora) deve ter receita operacional bruta igual ou superior a R$ 16 milhões no ano anterior. Tempo de Constituição: Empresa registrada na Junta Comercial até 31/12 do an...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Finep Mais Inovação Brasil – Rodada 2 – Transformação Mineral",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder recursos de subvenção econômica para projetos de PD&I inovadores, com risco tecnológico, executados por empresas em parceria com ICTs, visando o adensamento das cadeias de transformação mineral, com foco em minerais críticos e estratégicos para a d...",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/771",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Porte Empresarial: Todos. Público-Alvo Específico: Empresas brasileiras com fins lucrativos. Faturamento Mínimo: NÃO EXIGIDO (exceto em Arranjo em Rede, onde uma das empresas deve ter faturamento igual ou superior a R$ 16 milhões). Localização Geográfica: Brasil, com reserva de R$ 60 milhões para projetos executados nas regiões Norte, Nordeste o...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Finep Mais Inovação Brasil – Rodada 2 – Transição Energética",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder recursos de subvenção econômica para projetos inovadores com risco tecnológico, visando promover o desenvolvimento de tecnologias essenciais para a transição energética em parceria com ICTs.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/772",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Porte Empresarial: startup, micro, pequena, média, grande. Faturamento Mínimo: NÃO EXIGIDO (exceto para Arranjo em Rede, onde uma empresa deve ter faturamento igual ou superior a R$ 16 milhões). Localização Geográfica: Brasil. Setores Aceitos: Transição Energética (conforme linhas temáticas do edital). TRL Aceito: 3 a 7 (podendo chegar a 8 em ca...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Finep Mais Inovação Brasil – Rodada 2: Subvenção para Inovação na Base Industrial de Defesa",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder recursos de subvenção econômica para o desenvolvimento de produtos ou processos inovadores de alto risco tecnológico, dentro das linhas temáticas de Tecnologias para Defesa Nacional e Sustentabilidade econômica para a Base Industrial de Defesa (BID...",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/775",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Porte Empresarial: Todos. Público-Alvo Específico: Proponente deve ser Empresa Estratégica de Defesa (EED). Faturamento: Para Arranjo em Rede, ao menos uma empresa deve ter faturamento igual ou superior a R$ 16.000.000. Localização Geográfica: Brasil. Setores Aceitos: Base Industrial de Defesa. TRL Aceito: 3 a 8. Duração Máxima: 36 meses. Parcer...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Finep/MCTI Inovações Radicais Setor Elétrico",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder recursos de subvenção econômica para o desenvolvimento de produtos ou processos inovadores de alto risco tecnológico no setor elétrico.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/696",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser empresa brasileira com fins lucrativos, apresentar projeto com Nível de Maturidade Tecnológica (TRL) entre 3 e 7, firmar parceria obrigatória com ICT brasileira (mínimo de 5% do orçamento), aportar contrapartida financeira de 2% a 50% conforme o porte, ter projeto com duração máxima de 36 meses e aderência a uma das linhas temáticas.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "exige_contrapartida"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "MAIS INOVAÇÃO BRASIL - CADEIAS AGROINDUSTRIAIS SUSTENTÁVEIS",
+  "o": "MCTI",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder recursos de subvenção econômica para projetos inovadores e de risco tecnológico em cadeias agroindustriais sustentáveis.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/724",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser empresa brasileira com fins lucrativos (exclui MEI e empresário individual), ter constituição até 31/12 do ano anterior, apresentar saúde financeira (PL positivo, etc.), apresentar contrapartida financeira obrigatória, projeto deve ser executado no Brasil.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "agritech_bio",
+   "healthtech"
+  ],
+  "perfis": [
+   "exige_contrapartida"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Mais Inovação Brasil - Energias Renováveis",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder subvenção econômica para projetos inovadores de empresas brasileiras para desenvolver produtos ou processos nas áreas de energias renováveis, hidrogênio, armazenamento, transmissão e captura de CO2.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/726",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas brasileiras de qualquer porte, parceria obrigatória com ICT, projeto com TRL entre 3 e 7, aporte de contrapartida financeira obrigatória (5% a 50%), capacidade financeira comprovada.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "exige_contrapartida"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "SELEÇÃO PÚBLICA MCTI/FINEP/FNDCT - Mais Inovação Brasil - Soberania e Defesa Nacional",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder subvenção econômica para o desenvolvimento de produtos ou processos inovadores de alto risco tecnológico, para alcançar a autonomia em tecnologias estratégicas de defesa e aeroespacial.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/728",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Proponente e coexecutora devem ser Empresas Estratégicas de Defesa (EED). Parceria obrigatória com no mínimo 1 proponente, 1 coexecutora e 1 ICT. Contrapartida financeira obrigatória de 5% a 40% dependendo do porte da empresa. Duração máxima do projeto de 36 meses.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "exige_contrapartida"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "SELEÇÃO PÚBLICA MCTI/FINEP/FNDCT - Programa de Apoio à Comercialização de Propriedade Intelectual",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder subvenção econômica para empresas testarem a viabilidade de produtos, processos e serviços inovadores a partir de patentes e outros ativos de propriedade intelectual de ICTs.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/687",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser empresa brasileira com fins lucrativos, registrada até 31/12 do ano anterior. Apresentar projeto em parceria com ICT detentora da Propriedade Intelectual. O projeto deve iniciar entre TRL 3-6 e obrigatoriamente atingir TRL 7. Exige contrapartida financeira obrigatória de 2% a 50% do valor solicitado, dependendo do faturamento.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "exige_contrapartida",
+   "pi_patente"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "SELEÇÃO PÚBLICA MCTI/FINEP/FNDCT - SOLUÇÕES TECNOLÓGICAS PARA AUMENTO DA PRODUTIVIDADE NA AGRICULTURA FAMILIAR",
+  "o": "MCTI",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder recursos de subvenção econômica para projetos inovadores de risco tecnológico para desenvolver soluções (máquinas, equipamentos, implementos) que aumentem a produtividade da agricultura familiar.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/739",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas brasileiras com fins lucrativos, com registro comercial até 31/12 do ano anterior, financeiramente saudáveis. Projeto com TRL inicial 3 e final 7. Parceria obrigatória com cooperativa/associação de agricultura familiar.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "SELEÇÃO PÚBLICA MCTI/FINEP/FNDCT Subvenção Econômica à Inovação em Fluxo Contínuo - MAIS INOVAÇÃO BRASIL - SAÚDE/ EMPRESAS",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder recursos de subvenção econômica para projetos inovadores e de risco tecnológico, para reduzir as vulnerabilidades do SUS e ampliar o acesso à saúde.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/727",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser empresa brasileira com fins lucrativos, com registro na Junta Comercial até 31/12 do ano anterior, ter atividade operacional nos últimos 12 meses, possuir objeto social compatível com a proposta e apresentar capacidade financeira para o aporte de contrapartida obrigatória.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech"
+  ],
+  "perfis": [
+   "exige_contrapartida"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "SELEÇÃO PÚBLICA MDIC/FINEP/MOVER - FINEP MOVER EMPRESARIAL",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar empresas brasileiras no desenvolvimento de produtos, processos e serviços inovadores para a cadeia automotiva.",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/756",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas da cadeia automotiva (incluindo máquinas agrícolas e montadoras) constituídas há pelo menos 6 meses, Projeto com TRL entre 3 e 9 (iniciando em TRL 6 ou anterior) e duração de até 36 meses, Contrapartida financeira obrigatória entre 5% e 50% do valor total do projeto.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "exige_contrapartida",
+   "pi_patente"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Subvenção Econômica para Inovação em Semicondutores - Finep Mais Inovação Brasil (Arranjo em Rede)",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conceder recursos de subvenção econômica para projetos inovadores e de risco tecnológico no desenvolvimento de produtos ou processos na área de semicondutores, abrangendo as linhas temáticas de Design, Fabricação (front-end) e Encapsulamento e Teste (back-e...",
+  "link": "http://www.finep.gov.br/chamadas-publicas/chamadapublica/780",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Porte Empresarial: Micro, pequena, média e grande empresa. Público-Alvo Específico: Empresas brasileiras. Faturamento Mínimo: Pelo menos uma das empresas parceiras deve ter faturamento igual ou superior a R$ 16 milhões. Faturamento Máximo: SEM LIMITE. Tempo de Constituição: Registro na Junta Comercial até 31/12 do ano anterior à submissão. Local...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
  },
  {
   "t": "Consulta Preliminar de Mercado nº 1/2026",
@@ -474,6 +2716,614 @@
   "verificacao_valida_ate": "2026-11-27T23:59:59.999-03:00"
  },
  {
+  "t": "Desafio 1: Identificação de Padrões de Irregularidade na Medição de Energia",
+  "o": "CEMIG",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desenvolver métodos precisos e inteligentes para seleção de alvos de inspeção, utilizando dados de medidores inteligentes para identificar padrões ocultos de irregularidade e fraudes na medição de energia.",
+  "link": "https://inova.cemig.com.br/chamadas-publicas/inova-cemig-lab-ciclo-4/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Enquadramento como Startup (LC 182/2021), Até 10 anos de constituição, Receita bruta anual até R$ 16.000.000,00, Inscrição específica por desafio, Vedação de consórcios, Limite de 2 contratos de PDI simultâneos por startup.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio 2: Mapeamento de Cobertura de Celular e Topologia de Rede",
+  "o": "CEMIG",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Construir base dinâmica de cobertura real de celular e ferramenta de análise integrada (GIS, SCADA) para suportar automação de equipamentos de distribuição e evitar interdependências de sinal.",
+  "link": "https://inova.cemig.com.br/chamadas-publicas/inova-cemig-lab-ciclo-4/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Enquadramento como Startup (LC 182/2021), Até 10 anos de constituição, Receita bruta anual até R$ 16.000.000,00, Inscrição específica por desafio, Vedação de consórcios.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio 3: Identificação Proativa de Falta de Energia via Internet",
+  "o": "CEMIG",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Identificar proativamente a falta de energia utilizando dados de falha de sinal de internet dos modens dos clientes integrados a informações da rede elétrica.",
+  "link": "https://inova.cemig.com.br/chamadas-publicas/inova-cemig-lab-ciclo-4/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Enquadramento como Startup (LC 182/2021), Até 10 anos de constituição, Receita bruta anual até R$ 16.000.000,00, Inscrição específica por desafio, Vedação de consórcios.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio 4: Apoio à Tomada de Decisão em Teses Jurídicas",
+  "o": "CEMIG",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Facilitar a tomada de decisão jurídica por meio de análise de dados judiciais e administrativos, utilizando jurimetria e IA para identificar padrões e prever resultados.",
+  "link": "https://inova.cemig.com.br/chamadas-publicas/inova-cemig-lab-ciclo-4/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Enquadramento como Startup (LC 182/2021), Até 10 anos de constituição, Receita bruta anual até R$ 16.000.000,00, Inscrição específica por desafio, Vedação de consórcios.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio 5: Eletrificação de Implementos Hidráulicos",
+  "o": "CEMIG",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Eletrificar a operação de implementos hidráulicos de veículos operacionais (cesta aérea e guindauto) para operar com motor desligado, reduzindo consumo e emissões.",
+  "link": "https://inova.cemig.com.br/chamadas-publicas/inova-cemig-lab-ciclo-4/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Enquadramento como Startup (LC 182/2021), Até 10 anos de constituição, Receita bruta anual até R$ 16.000.000,00, Inscrição específica por desafio, Vedação de consórcios.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio 6: Gestão Unificada de Programas de Inovação",
+  "o": "CEMIG",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Construir solução unificada para gestão ponta a ponta dos programas de inovação (funil, contratação, mensuração), garantindo governança, compliance e rastreabilidade.",
+  "link": "https://inova.cemig.com.br/chamadas-publicas/inova-cemig-lab-ciclo-4/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Enquadramento como Startup (LC 182/2021), Até 10 anos de constituição, Receita bruta anual até R$ 16.000.000,00, Inscrição específica por desafio, Vedação de consórcios.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio 7: E-commerce de REC e Créditos de Carbono",
+  "o": "CEMIG",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Criar plataforma de e-commerce para comercialização, rastreabilidade e gestão de Certificados de Energias Renováveis (REC) e Créditos de Carbono.",
+  "link": "https://inova.cemig.com.br/chamadas-publicas/inova-cemig-lab-ciclo-4/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Enquadramento como Startup (LC 182/2021), Até 10 anos de constituição, Receita bruta anual até R$ 16.000.000,00, Inscrição específica por desafio, Vedação de consórcios.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio 8: Confirmação de Restabelecimento de Energia",
+  "o": "CEMIG",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Implementar sistema para confirmação ativa e confiável de restabelecimento de energia para cada cliente, evitando retrabalho e deslocamentos desnecessários.",
+  "link": "https://inova.cemig.com.br/chamadas-publicas/inova-cemig-lab-ciclo-4/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Enquadramento como Startup (LC 182/2021), Até 10 anos de constituição, Receita bruta anual até R$ 16.000.000,00, Inscrição específica por desafio, Vedação de consórcios.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Black Founders Fund Brasil",
+  "o": "Google for Startups",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Investir em startups fundadas e lideradas por pessoas negras para ampliar a diversidade racial e apoiar o desenvolvimento de seus negócios.",
+  "link": "https://startup.google.com/intl/pt-BR_ALL/stories/black-founders-fund/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma startup fundada e liderada por empreendedores negros(as), Estar buscando uma rodada de investimento seed, Utilizar tecnologia como base da solução, Possuir um produto já lançado com alguns usuários e possíveis clientes.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Programa Ventures EPM - Fondo de Capital Privado I",
+  "o": "EPM",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar o desenvolvimento de novas linhas de negócio para a EPM em cidades inteligentes, mobilidade sustentável e energias renováveis.",
+  "link": "https://www.epm.com.co/institucional/innovacion/programa-ventures-epm/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas com soluções em energia, gestão de resíduos e tecnologias transversais como IoT e análise de dados. A empresa pode estar localizada na Colombia, Chile, Brasil, Guatemala ou Estados Unidos.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio Open Lab Petrobras - 3w: Machine Learning para Eventos em Poços",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Promover a experimentação de abordagens e algoritmos baseados em Aprendizado de Máquina para problemas específicos relacionados a eventos indesejáveis que ocorrem em poços de petróleo offshore.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000r8IAA/3w",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Qualquer pessoa, startup ou ICT que domine expertise de desenvolvimento pode colaborar com os códigos divulgados na plataforma GitHub.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio Open Lab Petrobras: Biblioteca CCP em Python para Compressores Centrífugos",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desenvolver de forma colaborativa a biblioteca CCP em Python para o cálculo de desempenho de compressores centrífugos, utilizando CoolProp/REFPROP, através da disponibilização do código-fonte no GitHub.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000rYIAQ/ccp",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Domínio e expertise em desenvolvimento de software, especialmente em Python, e interesse na área de termodinâmica e compressores centrífugos.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio Open Lab WAID - Wellbore Acoustic Image Database",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Promover o desenvolvimento de aplicações baseadas em Machine Learning, particularmente Deep Learning, para automatizar tarefas relacionadas com a interpretação de perfis de imagens acústicas representativas da superfície do poço, envolvendo segmentação de e...",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000tPIAQ/waid",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Domínio de expertise em desenvolvimento, especialmente Machine Learning e Deep Learning. Aberto a qualquer pessoa física ou jurídica (Startups, ICTs, Pesquisadores) que queira colaborar com os códigos-fonte e dados disponibilizados pela Petrobras no GitHub.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "mestre_doutor"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Inovação nos fluxos de processo de Compras",
+  "o": "Tupy",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Encontrar soluções inovadoras que possibilitem aprimorar e simplificar os processos de Compras, desde o gerenciamento de fornecedores até as negociações.",
+  "link": "https://www.tupy.com.br/desafios/inovacao-nos-fluxos-de-processo-de-compras/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Capacidade de realizar uma Prova de Conceito (PoC) ou um piloto na Tupy.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "ROSS - Desenvolvimento Colaborativo de Biblioteca Python para Análise Rotordinâmica",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desenvolvimento colaborativo da ROSS, uma biblioteca Python de código aberto para análise rotordinâmica, permitindo a construção e simulação numérica de modelos de rotores para aplicação na indústria de óleo e gás.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000t6IAA/ross",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Dominar expertise de desenvolvimento em Python e ter conhecimentos em análise rotordinâmica ou áreas correlatas. Aberto a qualquer pessoa ou organização interessada em colaborar.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "BibMon - Desenvolvimento Colaborativo de Pacote Python para Monitoramento de Processos",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desenvolvimento colaborativo de um pacote Python (BibMon) para fornecer modelos preditivos para detecção e diagnóstico de falhas, sensoriamento virtual e monitoramento da condição de processos industriais, a partir da disponibilização de códigos-fonte e dad...",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000rQIAQ/bibmon",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Domínio de expertise em desenvolvimento de software, especialmente em Python. Aberto a qualquer pessoa, incluindo startups, ICTs e pesquisadores, sem restrições de porte, faturamento ou localização.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "mestre_doutor"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Economia Circular também é melhoria contínua",
+  "o": "Tupy",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Conectar cadeias e gerar oportunidades para transformar resíduos de uma cadeia de produção em insumos para a próxima, otimizando o uso de recursos materiais.",
+  "link": "https://www.tupy.com.br/desafios/economia-circular-tambem-e-melhoria-continua/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Solução com validação funcional comprovada com foco na realização de Provas de Conceito ou aplicação em escala industrial.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "GeoSlicer - Plataforma para Visualização Digital de Rochas",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desenvolver o GeoSlicer, uma plataforma de software para visualização digital de rochas e processamento de imagens, utilizando técnicas avançadas como Redes Neurais Convolucionais, em uma abordagem colaborativa de código aberto no GitHub.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000rmIAA/geoslicer",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Qualquer pessoa que domine expertise de desenvolvimento pode colaborar, não há requisitos de porte empresarial, faturamento ou localização geográfica.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "FINEP -IOT",
+  "o": "Finep",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desenvolver novos produtos, processos e serviços baseados em tecnologias digitais – tendo como referencial o conceito de Internet das Coisas e demais tecnologias habilitadoras da Manufatura Avançada com aplicações na saúde, indústria no e no desenvolvimento...",
+  "link": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/finep-iot",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Receita operacional bruta anual ou anualizada\rigual ou superiora R$ 90milhões.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "FIP TRENDS - Fundo de Investimento em Transição Energética e Descarbonização",
+  "o": "Petrobras",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Investir em empresas que desenvolvem tecnologias para transição energética e descarbonização, através do Fundo de Investimento em Participações (FIP) TRENDS.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU40000000I09IAE/fip-trends",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Organizações empresárias ou societárias com foco em inovação, com receita bruta anual limitada a R$ 300.000.000,00. Sede e administração no Brasil ou, se no exterior, com no mínimo 90% dos ativos localizados no Brasil. Foco nos setores de geração de energia renovável, armazenamento de energia, eletromobilidade, biocombustíveis, hidrogênio, captu...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
   "t": "10ª edição dos Prêmios Fundación Mapfre à Inovação Social",
   "o": "Fundación Mapfre",
   "tipo": "Prêmio",
@@ -504,6 +3354,614 @@
   "sem_data_final": false,
   "prazo_iso": "2026-12-01T23:59:59.999-03:00",
   "verificacao_valida_ate": "2026-12-01T23:59:59.999-03:00"
+ },
+ {
+  "t": "Aprimorar fluxos de abastecimento da cadeia logística",
+  "o": "Tupy",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Encontrar soluções para previsibilidade, intercambialidade e unificação global da gestão de insumos logísticos, gerando um fluxo mais ágil e contínuo.",
+  "link": "https://www.tupy.com.br/desafios/aprimorar-fluxos-de-abastecimento-da-cadeia-logistica/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Solução com validação funcional comprovada com foco na realização de Provas de Conceito ou aplicação em escala.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "DETECÇÃO DE NEMATÓIDES",
+  "o": "BASF",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Os agricultores enfrentam um desafio crítico na produção agrícola, onde nematoides ameaçam suas colheitas e produtividade, safra após safra. A AgroStart está buscando startups e/ou soluções digitais que concentrem esforços para enfrentar esse desafio de fre...",
+  "link": "https://agriculture.basf.com/global/en/innovations-for-agriculture/agrostart/challenges",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Não especificado",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "agritech_bio"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "FINEP EDUCAÇÃO",
+  "o": "Finep",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar o desenvolvimento de tecnologias e inovações que contribuam para a melhoria da qualidade do ensino, para a\npromoção de atividades de PDCI e de extensão de serviços à sociedade.",
+  "link": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/finep-educacao",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas constituídas de acordo com a legislação brasileira.\nDemais informações constam no Programa.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Avaliação de tecnologias para aproveitamento das emissões de hidrocarbonetos em vents (Petrobras)",
+  "o": "AEVO",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Captar e aproveitar os hidrocarbonetos existentes nas emissões ventadas de diferentes processos da Petrobras, inicialmente em tanques e poços on shore, para reduzir emissões de metano e COVs, aumentar a eficiência e diminuir a intensidade de carbono.",
+  "link": "https://petrobras.aevoinnovate.net/#/startup/invite/a27fe172-cb71-472a-9674-d94f2bb9ed06",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "A tecnologia deve viabilizar o reaproveitamento ou utilização das emissões de hidrocarbonetos, ser de baixo custo, operar de forma automatizada ou remota com mínima intervenção, e ser compatível com a classificação de área para seu uso. As empresas candidatas devem ter experiência no setor de óleo e gás.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desafio de Tecnologia: Eletrotermia para Aquecimento de Dutos na Petrobras",
+  "o": "AEVO",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Disponibilizar tecnologias, produtos e serviços para a implementação de eletrotermia para aquecimento de dutos existentes, substituindo o atual sistema a vapor por sistemas elétricos integrados com isolamento para altas temperaturas e resistente à imersão e...",
+  "link": "https://petrobras.aevoinnovate.net/#/startup/invite/572725c9-e32d-4ee1-bb6f-fdc9c524fa78",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "A solução deve utilizar isolamento, como tintas térmicas, que resista à imersão em água sem perda significativa de eficiência, garantindo segurança ao toque e conformidade com normas similares a N-550H e N-250.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "BNDES Microcrédito - Linha Mais Microcrédito",
+  "o": "BNDES",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Financiar microempreendedores formais e informais para promover a economia popular, visando a incentivar a geração de trabalho e renda .",
+  "link": "https://www.bndes.gov.br/wps/portal/site/home/financiamento/microcredito/bndes-microcredito",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser pessoa física ou jurídica empreendedora de atividades produtivas de pequeno porte com renda ou receita bruta igual ou inferior a R$ 360 mil por ano.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Petrobras no GitHub - Módulo Open Lab",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Promover o desenvolvimento colaborativo de software para a indústria de óleo e gás através da disponibilização de códigos-fonte e dados da Petrobras na plataforma GitHub, permitindo que a comunidade global contribua com soluções para os desafios da empresa.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000sDIAQ/petrobras-no-github",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Domínio e expertise em desenvolvimento de software. Não há outros requisitos específicos de porte, faturamento ou localização.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Aprimoramento dos processos no acabamento mecânico de peças",
+  "o": "Tupy",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Busca por soluções inovadoras para aumentar a eficiência operacional no acabamento mecânico de peças através de automações inteligentes e ferramentas de apoio à operação.",
+  "link": "https://www.tupy.com.br/desafios/aprimoramento-dos-processos-no-acabamento-mecanico-de-pecas/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Solução com validação funcional comprovada, capacidade de realizar uma Prova de Conceito (PoC) ou piloto.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Estudo de confiabilidade e diagnóstico de Sistema de Tocha, visando closed Flare",
+  "o": "AEVO",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Realizar um diagnóstico do sistema de tocha da refinaria RNEST para identificar oportunidades de redução de perdas de gás, avaliando a confiabilidade de seus componentes (válvulas, vasos, instrumentação) e propondo estratégias de modernização para viabiliza...",
+  "link": "https://petrobras.aevoinnovate.net/startup-area/#/invite/263267b8-3222-48ce-96b2-07d6daff6b32",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Requisitos específicos não detalhados. A oportunidade busca uma solução tecnológica para diagnóstico e modernização de sistemas de tocha em refinarias, aplicável ao setor de Petróleo e Gás",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "BNDES Crédito Serviços 4.0",
+  "o": "BNDES",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Financiar a contratação de serviços tecnológicos associados à otimização da produção, manufatura avançada e cidades inteligentes e outros similares",
+  "link": "https://www.bndes.gov.br/wps/portal/site/home/financiamento/produto/bndes-credito-servicos-4.0",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser pessoa jurídica sediada no País ou pessoa física em setores específicos (agropecuário, florestal, pesca). Contratar um serviço tecnológico constante do Credenciamento Finame (CFI) do BNDES. Não atuar nos setores de armas, financeiro, motéis ou jogos.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": true,
+  "setores": [
+   "agritech_bio"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Programa NVIDIA Inception",
+  "o": "NVIDIA",
+  "tipo": "Crédito",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Auxiliar startups a acelerar a inovação tecnológica e o crescimento dos negócios em todas as etapas.",
+  "link": "https://www.nvidia.com/pt-br/startups/?deeplink=expertise-faq--2#expertise-faq-item-178ee155c2",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma startup de tecnologia com menos de 10 anos, legalmente constituída, com site e pelo menos um desenvolvedor. Não ser empresa de consultoria, associada a criptomoedas ou provedora de serviços em nuvem.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "ANÁLISE DE DADOS EM SAÚDE",
+  "o": "Grupo Fleury",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Estamos em busca ativa de soluções de análise de dados voltadas para a extração de insights valiosos no campo da saúde. Nosso objetivo é identificar padrões, tendências e associações significativas que possam não apenas aprimorar a precisão dos diagnósticos...",
+  "link": "https://grupofleury.aevoinnovate.net/startup-area/#/invite/f0b93c6d-7b63-4070-b83e-f50e41441b92",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Não especificado",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Apoio Direto à Inovação - Difusão Tecnológica para Inovação",
+  "o": "Finep",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar Planos Estratégicos de Inovação para ampliar a competitividade da indústria de telecomunicações brasileira.",
+  "link": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/finep-funttel-inovacao",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas brasileiras com Receita Operacional Bruta anual igual ou superior a R$ 90 milhões.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "FINEP SUSTENTABILIDADE",
+  "o": "Finep",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Apoiar o desenvolvimento e a adoção de tecnologias para a redução no consumo de recursos naturais.",
+  "link": "http://www.finep.gov.br/apoio-e-financiamento-externa/programas-e-linhas/finep-sustentabilidade",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas constituídas de acordo com a legislação brasileira.\nDemais informações constam no Programa.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Chamada Técnica SESI - INOVA MES: Estudos e Pesquisas em Modelos Sustentáveis de Saúde Suplementar",
+  "o": "SENAI",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Executar projetos de estudos e pesquisas sobre Modelos Sustentáveis de Saúde Suplementar, com foco em soluções disruptivas, visando desenvolver um estudo técnico e atuarial para a estruturação de um Fundo Garantidor para Doenças Raras e Tratamentos de Alta...",
+  "link": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/inova-mes/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Público-Alvo Específico: Empresas industriais (CNAE primário da divisão 5 a 43) de pequeno, médio e grande porte e/ou empresas contribuintes do SESI. Duração Máxima: 6 meses. Parceria Obrigatória: Sim, com SESI Departamento Regional/Centro de Inovação e Empresa Industrial contribuinte do SESI. Propriedade Intelectual: Pertencerá ao SESI-DN.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "healthtech"
+  ],
+  "perfis": [
+   "pi_patente"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Chamada Técnica SESI - Soluções em Saúde Mental para a Indústria",
+  "o": "SENAI",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Executar projetos de P&D, com recursos não reembolsáveis, para desenvolver tecnologias digitais e soluções de Inteligência Artificial aplicadas à saúde mental e emocional dos trabalhadores da indústria, visando criar um MVP de um modelo digital para mensura...",
+  "link": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/inova-mes/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Público-Alvo Específico: MPE e EPP, Médias e Grandes Empresas, Startups (empresas industriais com CNAE primário da divisão 5 a 43). TRL Aceito: 4 a 7. Duração Máxima: 6 meses. Parceria Obrigatória: Sim, com SESI Departamento Regional (SESI DR) ou Centro de Inovação (CIS). Propriedade Intelectual: SESI-DN. Localização Geográfica: Nacional.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech",
+   "healthtech"
+  ],
+  "perfis": [
+   "pi_patente"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Desenvolvimento de Soluções em IA para Saúde do Trabalhador - SENAI/SESI",
+  "o": "SENAI",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desenvolver, com recursos não reembolsáveis, projetos de tecnologias digitais e soluções em Inteligência Artificial aplicadas à saúde do trabalhador, nos contextos de proteção, promoção, prevenção e atenção primária.",
+  "link": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/inova-mes/",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Projetos devem envolver obrigatoriamente uma Empresa Industrial ou Contribuinte do SESI. O público-alvo são empresas industriais (CNAE 5 a 43). Potenciais parceiros incluem Startups, ICTs e Universidades. O projeto deve ter duração de até 12 meses e desenvolver uma solução com TRL (Nível de Maturidade Tecnológica) entre 4 e 7. A propriedade inte...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech",
+   "healthtech"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "IFOOD LABS",
+  "o": "IFOOD",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Testar, codesenvolver e investir em novas soluções que alimentem o futuro do mundo com o iFood.",
+  "link": "https://docs.google.com/forms/d/e/1FAIpQLSe7wgZ4MSbUA-dL1xyoCVrol0K7UdwRokgMonVK8NtVIgoeQA/viewform",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Não especificado",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Shell GameChanger",
+  "o": "Shell",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Identificar e apoiar startups com ideias e tecnologias de energia em estágio inicial e não comprovadas, ajudando-as a provar a viabilidade comercial por meio de financiamento semente e acesso à experiência da Shell, para acelerar a transição energética.",
+  "link": "https://www.shell.com/what-we-do/technology-and-innovation/innovate-with-shell/shell-gamechanger.html",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma startup com uma tecnologia em estágio inicial e não comprovada, A solução deve ser relevante para o futuro da energia e para a Shell, A tecnologia deve ser fundamentalmente diferente e com potencial de criar valor substancial.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Sebraetec",
+  "o": "Sebrae",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Promover a solução customizada de tecnologia e inovação ao pequeno negócio, com acesso à mão de obra especializada para fazer melhor, mais rápido e com menos custo.",
+  "link": "https://sebrae.com.br/sites/PortalSebrae/ufs/ba/artigos/sebraetec,ad50da0e84ebe510VgnVCM1000004c00210aRCRD",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser Microempreendedor Individual (MEI) com faturamento até R$ 81.000,00/ano, Microempresa (ME) com faturamento até R$ 360.000,00/ano, ou Empresa de Pequeno Porte (EPP) com faturamento até R$ 4.800.000,00/ano. Atuar nos setores de Serviço, Indústria, Comércio, Agronegócio, Economia Criativa ou Turismo.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "agritech_bio"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
  },
  {
   "t": "FINEP Amazônia - Bioeconomia e Desenvolvimento Regional (Subvenção Econômica em Fluxo Contínuo)",
@@ -541,7 +3999,69 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T21:04:50.000Z"
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Horizon Europe (2028-2034)",
+  "o": "European Commission",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Impulsionar a produtividade e a competitividade da Europa, melhorando o bem-estar de milhões de pessoas através de P&I, com foco em simplificação, agilidade e projetos de alto impacto ('Moonshots').",
+  "link": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Elegibilidade ampla para entidades legais, incluindo startups de 'deep tech' e scale-ups. O programa cobrirá todos os níveis de maturidade tecnológica em todos os setores.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Radar de Soluções - Ciclo 4 - Quarto Trimestre 2026",
+  "o": "Petrobras",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-12-31",
+  "d": 36,
+  "desc": "Capturar soluções inovadoras que envolvam Pesquisa, Desenvolvimento e Inovação (PD&I) de startups e pequenas empresas para conectar com os portfólios de PD&I da Petrobras.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU40000000Lm1IAE/radar-de-solu%C3%A7%C3%B5es-ciclo-4-quarto-trimestre-2026",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "A solução deve envolver Pesquisa, Desenvolvimento e Inovação (PD&I). Produtos que não envolvem PD&I não são elegíveis.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "mestre_doutor"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-12-31T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-12-31T23:59:59.999-03:00"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -580,7 +4100,284 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T21:04:50.000Z"
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Licenciamento em 1 Click - Portfólio de 213 Patentes Petrobras",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Ofertar 213 tecnologias para licenciamento simplificado, visando acelerar a implantação de inovações e desenvolver fornecedores que possam aplicar as tecnologias nos negócios da Petrobras.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000r4IAA/licenciamento-em-1-click-petrobras-oferta-213-patentes-para-licen",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Interesse e capacidade de licenciar e explorar comercialmente uma ou mais das tecnologias disponíveis. Aberto a Médias e Grandes Empresas, MPE e EPP, Startup, ICT's e Pesquisadores. Demais requisitos (faturamento, tempo de constituição) não informados.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "mestre_doutor",
+   "pi_patente"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Oferta Pública - Aletas Supressoras de Movimento Induzido por Vortex",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Licenciar a tecnologia de aletas supressoras para que sociedades empresariais ou consórcios possam produzir e comercializar produtos e serviços baseados neste ativo intelectual, mitigando os movimentos induzidos por vórtices em estruturas submersas de grand...",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000pzIAA/oferta-p%C3%BAblica-aletas-supressoras-de-movimento-induzido-por-vortex",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser sociedade empresarial ou consórcio de empresas com interesse em produzir e comercializar os produtos ou serviços referentes ao ativo intelectual. Outros requisitos não foram informados.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Oferta Pública - Dispositivo Ciclônico Gerador de Escoamento Anular",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Licenciar a tecnologia de um dispositivo ciclônico que gera escoamento anular em fluidos bifásicos, para empresas interessadas em produzir e comercializar os produtos ou serviços resultantes deste ativo intelectual.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000qvIAA/oferta-p%C3%BAblica-dispositivo-cicl%C3%B4nico-gerador-de-escoamento-anular",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma sociedade empresarial ou consórcio de empresas com interesse em produzir e comercializar os produtos ou serviços referentes ao Ativo Intelectual.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Oferta Pública - Sistema Submarino de Despressurização por Recirculação",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Licenciar a tecnologia de Sistema Submarino de Despressurização por Recirculação, de titularidade da Petrobras, para que sociedades empresariais ou consórcios possam produzir e comercializar produtos ou serviços baseados neste ativo intelectual",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000r1IAA/oferta-p%C3%BAblica-sistema-submarino-de-despressuriza%C3%A7%C3%A3o-por-recircul",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma sociedade empresarial ou consórcio de empresas interessadas em produzir e comercializar a tecnologia",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Oferta Pública para Licenciamento: Equipamento Anti-incrustação para Válvula de Completação Inteligente",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Licenciar a tecnologia de um equipamento anti-incrustação para válvulas de completação inteligente, permitindo que sociedades empresariais ou consórcios produzam e comercializem os produtos ou serviços baseados neste ativo intelectual da Petrobras.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000qzIAA/oferta-p%C3%BAblica-equipamento-antiincrusta%C3%A7%C3%A3o-para-v%C3%A1lvula-de-compl",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser sociedade empresarial ou consórcio de empresas com interesse em produzir e comercializar os produtos ou serviços referentes ao ativo intelectual.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Oferta Pública: Sensor de Impedância Elétrica para Escoamento Gás-Óleo",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Licenciar a tecnologia de sensor de impedância elétrica para escoamento gás-óleo, de titularidade da Petrobras, para empresas ou consórcios interessados em sua produção e comercialização.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000qyIAA/oferta-p%C3%BAblica-sensor-de-imped%C3%A2ncia-el%C3%A9trica-para-escoamento-g%C3%A1s",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser sociedade empresarial ou consórcio de empresas com interesse em produzir e comercializar os produtos ou serviços referentes ao ativo intelectual.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Licenciamento de Tecnologia: Processo para Inibir a Formação de Gel em Petróleo",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Licenciar a tecnologia da Petrobras para um processo mecânico que inibe a formação de gel em petróleos parafínicos durante o escoamento em dutos, permitindo que empresas interessadas possam produzir e comercializar produtos ou serviços baseados neste ativo...",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000r0IAA/oferta-p%C3%BAblica-processo-para-inibir-a-forma%C3%A7%C3%A3o-de-gel-em-petr%C3%B3leo",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Porte Empresarial: Todas. Público-Alvo Específico: Médias e Grandes Empresas, MPE e EPP, Startup, ICT's, Pesquisadores. Faturamento Mínimo: NÃO INFORMADO. Faturamento Máximo: NÃO INFORMADO. Tempo de Constituição: NÃO INFORMADO. Localização Geográfica: NÃO INFORMADO. Setores Aceitos: Petróleo, gás e energia. TRL Aceito: NÃO INFORMADO. Parceria Ob...",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "mestre_doutor"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Oferta Pública - Licenciamento de Tecnologia de Separador Multifásico de Primeiro Estágio",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Licenciar a tecnologia de um separador multifásico de primeiro estágio e seu método de operação para empresas ou consórcios interessados em produzir e comercializar os produtos ou serviços resultantes do ativo intelectual da Petrobras",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000r5IAA/oferta-p%C3%BAblica-separador-multif%C3%A1sico-de-primeiro-est%C3%A1gio-e-m%C3%A9todo",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser uma sociedade empresarial ou consórcio de empresas com interesse em produzir e comercializar os produtos ou serviços referentes ao Ativo Intelectual ofertado",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Petrobras - Aquisição de Soluções: Neutralização de coral sol em plataformas de produção fixas offshore",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-11-27",
+  "d": 2,
+  "desc": "Desenvolver uma solução robótica de pequeno porte que utilize calor (energia térmica) para neutralizar colônias de coral-sol, uma espécie invasora, em plataformas de produção fixas em ambiente offshore.",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU40000000MBpIAM/neutraliza%C3%A7%C3%A3o-de-coral-sol-em-plataformas-de-produ%C3%A7%C3%A3o-fixas-offshore",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Empresas que apresentem soluções inovadoras validadas ou em fase de validação no mercado. Porte empresarial: Startups, MPE e EPP.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-11-27T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-11-27T23:59:59.999-03:00"
  },
  {
   "t": "Terceira Edição do Programa Conexões BH-TEC",
@@ -613,6 +4410,36 @@
   "verificacao_valida_ate": "2026-11-27T23:59:59.999-03:00"
  },
  {
+  "t": "Oferta Pública: Método para Adequar Instalação de Produção Marítima",
+  "o": "Petrobras",
+  "tipo": "Inovação aberta",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Licenciar um método para adequar a planta de processamento de líquido de uma instalação de produção marítima de petróleo (offshore) a novas condições de produção, permitindo a conversão de equipamentos de tratamento de óleo para tratamento de água ao longo...",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU400000000q7IAA/oferta-p%C3%BAblica-m%C3%A9todo-para-adequar-uma-instala%C3%A7%C3%A3o-de-produ%C3%A7%C3%A3o-mar",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Ser sociedade empresarial ou consórcio de empresas com interesse em produzir e comercializar os produtos ou serviços referentes ao ativo intelectual. Outros requisitos como porte, faturamento e localização não são informados.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
   "t": "Chamada Pública PRONINC 2026",
   "o": "Finep",
   "tipo": "Subvenção",
@@ -643,5 +4470,102 @@
   "sem_data_final": false,
   "prazo_iso": "2027-01-14T23:59:59.999-03:00",
   "verificacao_valida_ate": "2027-01-14T23:59:59.999-03:00"
+ },
+ {
+  "t": "Desenvolvimento de métodos avançados de assimilação de dados e análise de sensibilidade (Cooperações Tecnológicas)",
+  "o": "Petrobras",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2026-11-25",
+  "d": 0,
+  "desc": "Investigar, desenvolver e implementar métodos avançados de assimilação de dados e análise de sensibilidade para evoluir o software BR-Kalman da Petrobras, visando ampliar suas funcionalidades, robustez e eficiência computacional, com foco em métodos como En...",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU40000000M8bIAE/desenvolvimento-de-m%C3%A9todos-avan%C3%A7ados-de-assimila%C3%A7%C3%A3o-de-dados-e-an%C3%A1lise-de-sen",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Público-alvo inclui Médias e Grandes Empresas, MPE e EPP, Startup, ICT's e Pesquisadores. Demais requisitos como faturamento, tempo de constituição, TRL, duração e propriedade intelectual não foram informados.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": true,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "mestre_doutor",
+   "pi_patente"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2026-11-25T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2026-11-25T23:59:59.999-03:00"
+ },
+ {
+  "t": "Tecnologia Microfluídica para Avaliação de Alterações Estruturais em Meios Porosos",
+  "o": "Petrobras",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "Desenvolver dispositivos microfluídicos para rastreamento em tempo real do fluxo e transporte reativo em meios porosos, com foco em estudar o comportamento de asfaltenos sob fluxo multifásico e identificar parâmetros críticos na injeção de CO2 para prevenir...",
+  "link": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU40000000GETIA2/tecnologia-microflu%C3%ADdica-aplicada-na-avalia%C3%A7%C3%A3o-de-altera%C3%A7%C3%B5es-estruturais-prov",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Proponente deve ser uma empresa (MGE, MPE, EPP, Startup), ICT ou pesquisador com capacidade técnica para desenvolver a solução. Demais requisitos como faturamento, tempo de constituição e localização não informados.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": true,
+  "aceita_pf": false,
+  "setores": [
+   "geral"
+  ],
+  "perfis": [
+   "ict_pesquisa",
+   "mestre_doutor"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
+ },
+ {
+  "t": "Climate Innovation Fund",
+  "o": "MICROSOFT",
+  "tipo": "Aceleração",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": null,
+  "d": null,
+  "desc": "O fundo busca acelerar o desenvolvimento e a implantação de novas inovações climáticas, investindo em soluções com tração comercial inicial que precisam de capital para escalar, além de fornecer financiamento de projetos para levar as soluções existentes à...",
+  "link": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability/climate-innovation-fund?rtc=1&activetab=pivot1:primaryr7#areaheading-4a765143-c2a4-4f69-8d98-3db271acfad5",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "inscricoes_abertas",
+  "requisitos": "Empresas que desenvolvam soluções climáticas mensuráveis nas áreas de carbono, água, resíduos e ecossistemas. O fundo prioriza mercados subfinanciados e tecnologias relevantes para a Microsoft e seus clientes, com foco em equidade climática para economias em desenvolvimento.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "impacto_esg"
+  ],
+  "perfis": [],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": true,
+  "prazo_iso": null,
+  "verificacao_valida_ate": "2026-12-25T22:58:10.000Z"
  }
 ]
