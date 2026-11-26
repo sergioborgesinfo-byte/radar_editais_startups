@@ -380,6 +380,7 @@
     },
     {
       "nome": "CRITT UFJF — Incubadora e Editais de Inovação",
+      "url": "https://www2.ufjf.br/critt/editais/",
       "busca": "CRITT UFJF edital incubadora startups inovação",
       "dominios": [
         "ufjf.br"
@@ -387,6 +388,7 @@
     },
     {
       "nome": "SENAI / SESI / MDIC — Plataforma Inovação para a Indústria",
+      "url": "https://www.portaldaindustria.com.br/canais/editais-de-inovacao/",
       "busca": "SENAI SESI MDIC edital inovação indústria startups subvenção",
       "dominios": [
         "portaldaindustria.com.br",
@@ -395,6 +397,7 @@
     },
     {
       "nome": "Banco do Nordeste (BNB) — Fundeci e Hubine Startups",
+      "url": "https://www.bnb.gov.br/fundeci/editais",
       "busca": "Banco do Nordeste BNB edital inovação startups Fundeci Hubine",
       "dominios": [
         "bnb.gov.br"
@@ -402,6 +405,7 @@
     },
     {
       "nome": "CEMIG — Chamada de Inovação Aberta e P&D Startups",
+      "url": "https://www.cemig.com.br/inovacao/",
       "busca": "CEMIG edital chamada inovação aberta startups P&D",
       "dominios": [
         "cemig.com.br"
@@ -409,6 +413,7 @@
     },
     {
       "nome": "Shell / Rockstart / Unknown Group — Inovação Aberta e Energia",
+      "url": "https://www.shell.com.br/sustentabilidade/investimento-social/shell-iniciativa-jovem.html",
       "busca": "Shell Iniciativa Jovem OR Shell StartUp Engine OR Rockstart Brasil inscrições startups",
       "dominios": [
         "shell.com.br",
@@ -418,6 +423,7 @@
     },
     {
       "nome": "Enel Open Innovability — Desafios para Startups",
+      "url": "https://openinnovability.enel.com/",
       "busca": "Enel Open Innovability desafios startups Brasil inscrições",
       "dominios": [
         "openinnovability.enel.com",
@@ -426,6 +432,7 @@
     },
     {
       "nome": "Wayra / Vivo Ventures — Seleção de Startups",
+      "url": "https://wayra.com.br/",
       "busca": "Wayra Vivo seleção chamada inovação aberta startups Brasil",
       "dominios": [
         "wayra.com.br",
@@ -434,6 +441,7 @@
     },
     {
       "nome": "Bradesco inovabra — Programas e Desafios para Startups",
+      "url": "https://www.inovabra.com.br/",
       "busca": "inovabra Bradesco startups inscrições desafio inovação aberta",
       "dominios": [
         "inovabra.com.br",
@@ -442,6 +450,7 @@
     },
     {
       "nome": "Grupo Fleury — Inovação Aberta e Healthtechs",
+      "url": "https://www.fleury.com.br/",
       "busca": "Grupo Fleury desafio inovação aberta healthtechs startups inscrições",
       "dominios": [
         "fleury.com.br"
@@ -449,6 +458,7 @@
     },
     {
       "nome": "NeoVentures — Desafios de Inovação Aberta e Aceleração",
+      "url": "https://neoventures.global/",
       "busca": "NeoVentures desafio inovação aberta aceleração startups inscrições",
       "dominios": [
         "neoventures.global"
@@ -456,10 +466,19 @@
     },
     {
       "nome": "Embratur Lab — Desafios de Inovação no Turismo",
+      "url": "https://embratur.com.br/",
       "busca": "Embratur Lab edital desafio inovação startups turismo inscrições",
       "dominios": [
         "embratur.com.br",
         "gov.br"
+      ]
+    },
+    {
+      "nome": "Petrobras Conexões para Inovação — Desafios Startups",
+      "url": "https://tecnologia.petrobras.com.br/conexoes-para-inovacao",
+      "busca": "Petrobras Conexões para Inovação modulo startups edital desafios",
+      "dominios": [
+        "petrobras.com.br"
       ]
     },
     {
