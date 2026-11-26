@@ -29,7 +29,15 @@ from urllib.parse import urljoin, urlparse, unquote
 from urllib.robotparser import RobotFileParser
 
 import requests
+import urllib3
 from bs4 import BeautifulSoup
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+try:
+    import truststore
+    truststore.inject_into_ssl()
+except Exception:
+    pass
 
 
 def _carregar_env():
@@ -124,7 +132,8 @@ def baixar(url):
         return None, None
     time.sleep(PAUSA)
     inicio = time.monotonic()
-    with requests.get(url, headers={"User-Agent": UA}, timeout=(10, 30), stream=True) as r:
+
+    def _ler_resposta(r):
         r.raise_for_status()
         limite = 20 * 1024 * 1024
         if int(r.headers.get("content-length") or 0) > limite:
@@ -142,6 +151,13 @@ def baixar(url):
         elif ctype not in ("text/html", "application/xhtml+xml", "text/plain"):
             raise ValueError("Tipo de arquivo não aceito para extração")
         return ctype, conteudo
+
+    try:
+        with requests.get(url, headers={"User-Agent": UA}, timeout=(10, 30), stream=True) as r:
+            return _ler_resposta(r)
+    except requests.exceptions.SSLError:
+        with requests.get(url, headers={"User-Agent": UA}, timeout=(10, 30), stream=True, verify=False) as r:
+            return _ler_resposta(r)
 
 
 def para_texto(ctype, conteudo):
@@ -393,39 +409,61 @@ def _corpo_tavily(consulta, prog):
 
 def buscar_ddg(consulta, n=6, dominios=None):
     """Busca web gratuita via DuckDuckGo HTML (backup automático quando a Tavily atinge limite HTTP 432)."""
-    q = consulta
-    if dominios:
-        q += " (" + " OR ".join(f"site:{d}" for d in dominios[:5]) + ")"
-    try:
-        r = requests.post(
-            "https://html.duckduckgo.com/html/",
-            data={"q": q},
-            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0"},
-            timeout=25,
-        )
-        if not r.ok:
+    def _consultar_html(q):
+        try:
+            r = requests.post(
+                "https://html.duckduckgo.com/html/",
+                data={"q": q},
+                headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0"},
+                timeout=25,
+            )
+            if not r.ok:
+                return []
+            sopa = BeautifulSoup(r.text, "html.parser")
+            brutos = []
+            for a in sopa.select("a.result__a"):
+                href = a.get("href", "")
+                if "uddg=" in href:
+                    m = re.search(r"uddg=([^&]+)", href)
+                    if m:
+                        href = unquote(m.group(1))
+                if not href.startswith("http"):
+                    continue
+                h = urlparse(href).netloc.lower().removeprefix("www.")
+                if h.endswith(SOCIAIS + RUIDO) or "duckduckgo.com" in h:
+                    continue
+                brutos.append({"url": href, "motivo": a.get_text(" ", strip=True), "host": h})
+            return brutos
+        except Exception:
             return []
-        sopa = BeautifulSoup(r.text, "html.parser")
-        achados = []
-        for a in sopa.select("a.result__a"):
-            href = a.get("href", "")
-            if "uddg=" in href:
-                m = re.search(r"uddg=([^&]+)", href)
-                if m:
-                    href = unquote(m.group(1))
-            if not href.startswith("http"):
-                continue
-            h = urlparse(href).netloc.lower()
-            if h.endswith(SOCIAIS + RUIDO) or "duckduckgo.com" in h:
-                continue
-            if dominios and not any(h == d or h.endswith("." + d) for d in dominios):
-                continue
-            achados.append({"url": href, "motivo": a.get_text(" ", strip=True)})
+
+    achados = []
+    vistos = set()
+    # 1ª tentativa: se houver domínio principal informado, busca com site:dominio_principal (sem parênteses/OR que o DDG HTML rejeita)
+    if dominios:
+        doms = [d.lower().removeprefix("www.") for d in dominios]
+        for item in _consultar_html(f"site:{doms[0]} {consulta}"):
+            if any(item["host"] == d or item["host"].endswith("." + d) for d in doms):
+                if item["url"] not in vistos:
+                    vistos.add(item["url"])
+                    achados.append({"url": item["url"], "motivo": item["motivo"]})
+                    if len(achados) >= n:
+                        return achados
+
+    # 2ª tentativa: busca aberta pela consulta e prioriza os domínios oficiais informados
+    brutos = _consultar_html(consulta)
+    if dominios:
+        doms = [d.lower().removeprefix("www.") for d in dominios]
+        prioritarios = [x for x in brutos if any(x["host"] == d or x["host"].endswith("." + d) for d in doms)]
+        secundarios = [x for x in brutos if x not in prioritarios]
+        brutos = prioritarios + secundarios
+    for item in brutos:
+        if item["url"] not in vistos:
+            vistos.add(item["url"])
+            achados.append({"url": item["url"], "motivo": item["motivo"]})
             if len(achados) >= n:
                 break
-        return achados
-    except Exception:
-        return []
+    return achados
 
 
 def buscar_tavily(prog, chave):

@@ -314,38 +314,6 @@
   "verificacao_valida_ate": "2026-12-31T23:59:59.999-03:00"
  },
  {
-  "t": "Programa Nacional de Incubadoras Tecnológicas de Cooperativas Populares (Proninc) / 2026",
-  "o": "Finep",
-  "tipo": "Subvenção",
-  "est": "Qualquer",
-  "v": 0,
-  "prazo": "2027-01-14",
-  "d": 50,
-  "desc": "Apoio financeiro não reembolsável para desenvolvimento de tecnologias e inovação social em economia solidária conduzido por ICTs, ITCPs e NITs.",
-  "link": "https://www.finep.gov.br/l/1057230",
-  "n": 1,
-  "r": 0,
-  "revisar": 0,
-  "status": "aberto",
-  "requisitos": "ICTs públicas e ICTs privadas sem fins lucrativos, por meio da atuação conjunta de ITCP ou estrutura equivalente e NIT próprio ou constituído.",
-  "ufs": [
-   "NACIONAL"
-  ],
-  "exige_cnpj": false,
-  "aceita_pf": true,
-  "setores": [
-   "impacto_esg"
-  ],
-  "perfis": [
-   "ict_pesquisa"
-  ],
-  "validado_automaticamente": true,
-  "validado_manualmente": false,
-  "sem_data_final": false,
-  "prazo_iso": "2027-01-14T23:59:59.999-03:00",
-  "verificacao_valida_ate": "2027-01-14T23:59:59.999-03:00"
- },
- {
   "t": "CHAMADA PROSPECTIVA CONTÍNUA PARA PORTFÓLIO FINATEC E APOIADAS",
   "o": "Finatec",
   "tipo": "Inovação aberta",
@@ -375,7 +343,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T19:48:30.000Z"
+  "verificacao_valida_ate": "2026-12-25T21:00:35.000Z"
  },
  {
   "t": "Hello Tomorrow Challenge 2026",
@@ -408,6 +376,39 @@
   "sem_data_final": false,
   "prazo_iso": "2026-11-30T23:59:59.999-03:00",
   "verificacao_valida_ate": "2026-11-30T23:59:59.999-03:00"
+ },
+ {
+  "t": "Programa Nacional de Incubadoras Tecnológicas de Cooperativas Populares (Proninc) / 2026",
+  "o": "Finep",
+  "tipo": "Subvenção",
+  "est": "Qualquer",
+  "v": 0,
+  "prazo": "2027-01-14",
+  "d": 50,
+  "desc": "Apoio financeiro não reembolsável para desenvolvimento de tecnologias e inovação social em economia solidária por ICTs, ITCPs e NITs.",
+  "link": "https://finep.gov.br/e/chamada-publica/222684/1057230",
+  "n": 1,
+  "r": 0,
+  "revisar": 0,
+  "status": "aberto",
+  "requisitos": "Instituições Científicas, Tecnológicas e de Inovação (ICTs) públicas ou privadas sem fins lucrativos, por meio de atuação conjunta de ITCP e NIT.",
+  "ufs": [
+   "NACIONAL"
+  ],
+  "exige_cnpj": false,
+  "aceita_pf": true,
+  "setores": [
+   "ia_deeptech",
+   "impacto_esg"
+  ],
+  "perfis": [
+   "ict_pesquisa"
+  ],
+  "validado_automaticamente": true,
+  "validado_manualmente": false,
+  "sem_data_final": false,
+  "prazo_iso": "2027-01-14T23:59:59.999-03:00",
+  "verificacao_valida_ate": "2027-01-14T23:59:59.999-03:00"
  },
  {
   "t": "Startup Competition 2027 | South Summit Madrid",
@@ -540,7 +541,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T19:48:30.000Z"
+  "verificacao_valida_ate": "2026-12-25T21:00:35.000Z"
  },
  {
   "t": "Edital de Fluxo Contínuo CBA Open nº 01/2026",
@@ -579,7 +580,7 @@
   "validado_manualmente": false,
   "sem_data_final": true,
   "prazo_iso": null,
-  "verificacao_valida_ate": "2026-12-25T19:48:30.000Z"
+  "verificacao_valida_ate": "2026-12-25T21:00:35.000Z"
  },
  {
   "t": "Terceira Edição do Programa Conexões BH-TEC",

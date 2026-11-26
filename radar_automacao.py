@@ -179,7 +179,7 @@ def _responsavel(r, url, d, texto):
     return True
 
 
-def _links_oficiais_no_html(url, ctype, conteudo):
+def _links_oficiais_no_html(url, ctype, conteudo, titulo_alvo=None):
     """Extrai links diretos para o edital/regulamento (PDF ou site oficial) de dentro do HTML de uma vitrine ou notícia."""
     achados = []
     if not conteudo or "html" not in (ctype or "").lower():
@@ -191,6 +191,7 @@ def _links_oficiais_no_html(url, ctype, conteudo):
 
     # 1. Procura links <a href="..."> que apontem para PDFs, editais, regulamentos ou domínios institucionais externos
     host_atual = host(url)
+    palavras_titulo = {w for w in normalizar(titulo_alvo).split() if len(w) >= 4 and not w.isdigit()}
     padrao_a = re.compile(r'<a\b[^>]*?\bhref=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', re.I | re.S)
     prioritarios, secundarios = [], []
     for href, rotulo in padrao_a.findall(html):
@@ -199,12 +200,14 @@ def _links_oficiais_no_html(url, ctype, conteudo):
         if not h_alvo or any(h_alvo.endswith(s) for s in ("facebook.com", "instagram.com", "linkedin.com", "youtube.com", "twitter.com", "x.com", "whatsapp.com")):
             continue
         rotulo_limpo = normalizar(re.sub(r"<[^>]+>", " ", rotulo))
+        alvo_norm = normalizar(alvo)
         eh_pdf = bool(re.search(r"\.pdf(?:\?|$)", alvo, re.I))
         eh_botao_edital = bool(re.search(r"\bedital\b|\bregulamento\b|\bchamada\b|\binscrev|\bacessar\b|\bpagina oficial\b|\bsite oficial\b|\bdocumento\b", rotulo_limpo))
+        bate_titulo = bool(palavras_titulo and len(palavras_titulo & set((rotulo_limpo + " " + alvo_norm).split())) >= 2)
         if h_alvo != host_atual and (institucional(alvo) or eh_pdf or eh_botao_edital):
-            (prioritarios if (eh_pdf or eh_botao_edital) else secundarios).append(alvo)
-        elif h_alvo == host_atual and (eh_pdf or re.search(r"\bedital\b|\bregulamento\b", rotulo_limpo)):
-            prioritarios.append(alvo)
+            (prioritarios if (eh_pdf or eh_botao_edital or bate_titulo) else secundarios).append(alvo)
+        elif h_alvo == host_atual and (eh_pdf or bate_titulo or re.search(r"\bedital\b|\bregulamento\b", rotulo_limpo)):
+            (prioritarios if (eh_pdf or bate_titulo) else secundarios).append(alvo)
 
     for candidato in prioritarios + secundarios:
         if candidato not in achados and candidato != url:
@@ -274,12 +277,19 @@ def processar(r, con, nome, url, total, resolver=True):
             if resolver:
                 return _resolver(r, con, url, d, total, ctype, conteudo)
             return False
-        # Se a página atual for uma listagem genérica ou notícia, verifica se dentro dela há link direto para o PDF do edital
+        # Se a página atual for uma listagem genérica ou notícia, verifica se dentro dela há link direto para o PDF ou página específica do edital
+        url_gravacao = url
         if "html" in (ctype or "").lower() and not url.lower().endswith(".pdf"):
-            for link_doc in _links_oficiais_no_html(url, ctype, conteudo):
-                if link_doc.lower().endswith(".pdf") and host(link_doc) == host(url):
-                    d["url_documento_edital"] = link_doc
-                    break
+            titulo_palavras = {w for w in normalizar(d.get("titulo")).split() if len(w) >= 4}
+            for link_doc in _links_oficiais_no_html(url, ctype, conteudo, d.get("titulo")):
+                if host(link_doc) == host(url):
+                    if link_doc.lower().endswith(".pdf"):
+                        url_gravacao = link_doc
+                        break
+                    # Se a URL atual for uma listagem genérica (/chamadas/, /editais/, raiz), prefere o link específico do edital
+                    if re.search(r"/(?:chamadas|editais|oportunidades|programas)/?$", url.lower()) or urlparse(url).path.strip("/") == "":
+                        url_gravacao = link_doc
+                        break
         prazo_original = d.get("prazo_inscricao")
         d, revisar = r.validar(d, texto)
         if d.get("prazo_e_inscricao") is not True:
@@ -300,7 +310,7 @@ def processar(r, con, nome, url, total, resolver=True):
                 d["prazo_inscricao"], revisar = None, True
             elif d.get("prazo_inscricao"):
                 limite = datetime.fromisoformat(d["prazo_inscricao"] + "T" + hora).replace(tzinfo=FUSO).isoformat()
-        res = r.gravar(con, nome, url, d, revisar)
+        res = r.gravar(con, nome, url_gravacao, d, revisar)
         eid = r.chave(d.get("orgao"), d.get("titulo"))
         codigo = d.get("identificador_edital")
         if not _literal(r, codigo, texto):
@@ -308,7 +318,7 @@ def processar(r, con, nome, url, total, resolver=True):
         edicao = normalizar(d.get("orgao")) + "|" + normalizar(codigo or d.get("titulo"))
         con.execute(
             "INSERT OR REPLACE INTO verificacoes_automaticas(edital_id,url,versao,conferido_em,trecho_publico,trecho_prazo,trecho_responsavel,limite_iso,chave_edicao,sem_data_final,trecho_abertura) VALUES(?,?,?,?,?,?,?,?,?,?,?)",
-            (eid, url, VERSAO, agora().isoformat(), d["trecho_publico"],
+            (eid, url_gravacao, VERSAO, agora().isoformat(), d["trecho_publico"],
              d.get("trecho_prazo"), d["trecho_responsavel"], limite, edicao, int(sem_data), d.get("trecho_abertura")),
         )
         con.execute("INSERT OR REPLACE INTO paginas VALUES(?,?,?)", (url, h, r._agora().isoformat()))

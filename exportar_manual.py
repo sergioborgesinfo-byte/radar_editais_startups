@@ -61,6 +61,7 @@ def eh_duplicado(novo, existentes):
     novo_p = novo.get('prazo') or 'continuo'
     palavras_novo = {p for p in novo_t.split() if len(p) > 2}
     chaves_novo = palavras_chave(novo.get('t'))
+    chaves_sem_ano_novo = {p for p in chaves_novo if not p.isdigit()}
     codigos_novo = set(re.findall(r'\b0?\d{1,3}\s+202\d\b', novo_t))
 
     for ex in existentes:
@@ -75,6 +76,7 @@ def eh_duplicado(novo, existentes):
         # Mesmo código de chamada (ex: 018/2026) ou alta sobreposição de palavras-chave do título (mesmo com datas de etapas diferentes)
         codigos_ex = set(re.findall(r'\b0?\d{1,3}\s+202\d\b', ex_t))
         chaves_ex = palavras_chave(ex.get('t'))
+        chaves_sem_ano_ex = {p for p in chaves_ex if not p.isdigit()}
         if codigos_novo and codigos_ex and (codigos_novo & codigos_ex):
             if (chaves_novo & chaves_ex):
                 return True
@@ -83,6 +85,12 @@ def eh_duplicado(novo, existentes):
             menor_chaves = min(len(chaves_novo), len(chaves_ex))
             if menor_chaves >= 2 and len(inter_chaves) / menor_chaves >= 0.75:
                 return True
+        # Mesmo órgão e mesmo prazo com sigla/palavra-chave distintiva em comum (ex: Finep PRONINC 2026 vs Programa Nacional... (Proninc) / 2026)
+        if novo_p == ex_p and (novo_o == ex_o or (novo_o and ex_o and (novo_o in ex_o or ex_o in novo_o))):
+            if chaves_sem_ano_novo and chaves_sem_ano_ex and (chaves_sem_ano_novo & chaves_sem_ano_ex):
+                menor_sem_ano = min(len(chaves_sem_ano_novo), len(chaves_sem_ano_ex))
+                if len(chaves_sem_ano_novo & chaves_sem_ano_ex) / menor_sem_ano >= 0.75:
+                    return True
 
         # Mesmo prazo e sobreposição geral do título
         if novo_p == ex_p:
